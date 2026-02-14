@@ -132,19 +132,30 @@ const { Content } = await interview.render();
 	}
 
 	.highlight {
-		background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
-		background-size: 200% 100%;
+		background: linear-gradient(90deg, #fde68a 0%, #fde68a 100%);
+		background-size: 0% 45%;
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
 		padding: 2px 6px;
-		animation: highlightPulse 3s ease-in-out infinite;
+		animation: highlightSweep 3s ease-in-out infinite;
 	}
 
-	@keyframes highlightPulse {
-		0%, 100% {
-			background-position: 0% 0%;
-			background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
+	@keyframes highlightSweep {
+		0% {
+			background-size: 0% 45%;
+			background-position: 0% 100%;
 		}
-		50% {
-			background: linear-gradient(180deg, transparent 40%, #fcd34d 40%);
+		40% {
+			background-size: 100% 45%;
+			background-position: 0% 100%;
+		}
+		60% {
+			background-size: 100% 45%;
+			background-position: 0% 100%;
+		}
+		100% {
+			background-size: 0% 45%;
+			background-position: 100% 100%;
 		}
 	}
 
