@@ -21,7 +21,7 @@ Dreyfus, who shared her journey with her fans on social media, said this week in
 
 Next week, she returns to the screen for the seventh and final season of the political comedy she stars in, *Veep*. "I didn't have a doubt for a second that this season would make it to the screen," she says. "If anything, the cancer gave me motivation. They say humor is the best medicine, and it's not a cliche. I needed the laughter in my life, that purpose."
 
-![Julia Louis-Dreyfus](https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104966/Julia-cover_clmoms.jpg)
+<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1771104966/Julia-cover_clmoms.jpg" alt="Julia Louis-Dreyfus" style="width:100%;max-width:100%;height:auto;border-radius:8px;margin:1.5rem 0;" />
 
 ## The Art of the "Horrible" Character
 
