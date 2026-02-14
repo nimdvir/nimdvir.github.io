@@ -31,10 +31,10 @@ const { Content } = await interview.render();
 					</span>
 				)}
 			</div>
-			<h1>{interview.data.title}</h1>
 			{interview.data.interviewee && (
 				<p class="interview-label"><span class="highlight">Interview — {interview.data.interviewee}</span></p>
 			)}
+			<h1>{interview.data.title}</h1>
 			<p class="byline">By <strong>Nimrod Dvir</strong></p>
 			<div class="tags">
 				{interview.data.tags.map((tag) => (
@@ -133,7 +133,19 @@ const { Content } = await interview.render();
 
 	.highlight {
 		background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
+		background-size: 200% 100%;
 		padding: 2px 6px;
+		animation: highlightPulse 3s ease-in-out infinite;
+	}
+
+	@keyframes highlightPulse {
+		0%, 100% {
+			background-position: 0% 0%;
+			background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
+		}
+		50% {
+			background: linear-gradient(180deg, transparent 40%, #fcd34d 40%);
+		}
 	}
 
 	.byline {

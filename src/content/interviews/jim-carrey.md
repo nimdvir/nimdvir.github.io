@@ -19,29 +19,29 @@ From afar, "Dick and Jane" looks like another family comedy where Jim Carrey mos
 
 ## A Serious Message
 
-> "The movie deals with a very serious subject in a funny way. Think about the story—two people deteriorate to the poverty line, dragged into the world of crime—in an instant, this could have turned into a tear-jerker."
+"The movie deals with a very serious subject in a funny way. Think about the story — two people deteriorate to the poverty line, dragged into the world of crime — in an instant, this could have turned into a tear-jerker."
 
 **So what were you actually trying to say?**
 
-> "The situation today is that the corporate American economy is a rotten apple, and we all nibble on it as long as we don't get sick. There is an exposed nerve in our country—the widening class differences and the worship of money are making us stupider than ever. Once, a CEO earned 40 times more than the simple worker; today he earns 400 times more. It's simply vulgar!"
+"The situation today is that the corporate American economy is a rotten apple, and we all nibble on it as long as we don't get sick. There is an exposed nerve in our country — the widening class differences and the worship of money are making us stupider than ever. Once, a CEO earned 40 times more than the simple worker; today he earns 400 times more. It's simply vulgar!"
 
 ## Clarity and Meditation
 
-Welcome the 2005 model of Jim Carrey—with power, vision, and mostly post-"Dumb and Dumber" era. Don't expect jokes from him, at least not off-screen.
+Welcome the 2005 model of Jim Carrey — with power, vision, and mostly post-"Dumb and Dumber" era. Don't expect jokes from him, at least not off-screen.
 
-> "I'm a clarity freak now. And my energy source is meditation. I was stoned, I was wiped out, I was everything, and now I just want to be so clear that I turn into a ball of light and fly off the planet."
+"I'm a clarity freak now. And my energy source is meditation. I was stoned, I was wiped out, I was everything, and now I just want to be so clear that I turn into a ball of light and fly off the planet."
 
 ## From Janitor to Star
 
 **Do you remember periods when you were poor yourself?**
 
-> "Of course! I once worked as a janitor and security guard at a steel factory. I was 16, and my dad had just become unemployed. I went to school during the day, worked at night, and mostly I was an angry guy all the time. I was angry at what the universe did to me and my dad. Since then, I clean my own toilets; I understand the suffering of janitors."
+"Of course! I once worked as a janitor and security guard at a steel factory. I was 16, and my dad had just become unemployed. I went to school during the day, worked at night, and mostly I was an angry guy all the time. I was angry at what the universe did to me and my dad. Since then, I clean my own toilets; I understand the suffering of janitors."
 
 ## The Experiment of Life
 
 **A whole interview has passed and not a single word about private life.**
 
-> "I am very lucky that I didn't become one of those tabloid things. My personal life is a private matter. People say to me 'Let's go to a club,' and I say 'Let's sit at home and expand our consciousness.' I sound like a psychopath, right? But my life is like an experiment. I am always looking for answers—reading about new things, trying new things with food, trying new people. For me, the peak of ambition is to be a creative human being."
+"I am very lucky that I didn't become one of those tabloid things. My personal life is a private matter. People say to me 'Let's go to a club,' and I say 'Let's sit at home and expand our consciousness.' I sound like a psychopath, right? But my life is like an experiment. I am always looking for answers — reading about new things, trying new things with food, trying new people. For me, the peak of ambition is to be a creative human being."
 
 ---
 

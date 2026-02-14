@@ -31,7 +31,7 @@ She's in the middle of her *Fame Ball Tour*, performing across continents — an
 
 When I reached her in Tokyo, she laughed remembering our NYU days.
 
-> "Wow, that feels like a lifetime ago. I was 19 — making music, studying music, wearing underwear. It was another time."
+"Wow, that feels like a lifetime ago. I was 19 — making music, studying music, wearing underwear. It was another time."
 
 Even then, Gaga was a fixture of downtown Manhattan — a club performer, a promoter, and a walking provocation. "Those were the nights that made me who I am. And now they're playing my songs in those same clubs. That's full circle."
 
@@ -45,7 +45,7 @@ Her friendship with drag artist *Lady Starlight* refined her style and introduce
 
 ## "Gaga Is Art — But She's Real"
 
-> "Gaga isn't a character I play. She's me. She's a piece of performance art that happens to breathe."
+"Gaga isn't a character I play. She's me. She's a piece of performance art that happens to breathe."
 
 She speaks like someone who's perpetually halfway between an art manifesto and a pop anthem. "I always knew I'd be famous. It wasn't luck; it was design. Gaga is a story — one I tell through sound, fashion, and performance."
 
@@ -55,13 +55,15 @@ She rejects the idea that she's a producer's puppet. "That's bullshit. I write m
 
 Her hits — *Poker Face*, *Paparazzi*, *Just Dance* — are less about romance and more about image-making. "My songs are about illusion," she said. "They're about the moment when vanity becomes truth. I want my fans to feel like stars."
 
-When I asked about her nine MTV nominations, she smiled audibly. "It's surreal. But none of this happens without my people — the team, the fans, the weird kids who believe."
+**What about the nine MTV nominations?**
+
+"It's surreal. But none of this happens without my people — the team, the fans, the weird kids who believe."
 
 ## "Performing with the Pet Shop Boys Was a Dream"
 
 At the Brit Awards, critics accused her of singing off-key. She shrugged.
 
-> "I was emotional. Performing with the Pet Shop Boys was a dream. I grew up on their music — I wasn't about to play it safe."
+"I was emotional. Performing with the Pet Shop Boys was a dream. I grew up on their music — I wasn't about to play it safe."
 
 ## "My Dad Gets It Now"
 
@@ -73,7 +75,7 @@ When rumors surfaced online that she was intersex, she simply ignored them. "Peo
 
 ## "I'm Not Rich — I'm Invested"
 
-> "People think I'm rich. I'm not. Every dollar goes back into my art — sets, costumes, videos. I don't own a house. I *own Gaga*. That's where the money goes."
+"People think I'm rich. I'm not. Every dollar goes back into my art — sets, costumes, videos. I don't own a house. I *own Gaga*. That's where the money goes."
 
 ## "I Do It for the Kids"
 
@@ -85,6 +87,4 @@ Lady Gaga is her own performance — a living artwork in motion. What makes her 
 
 ---
 
-**Source:** [Ynet – Lady Gaga Interview by Nimrod Dvir (Hebrew)](https://www.ynet.co.il/articles/0,7340,L-3760766,00.html)
-
-**Citation:** Dvir, Nimrod. "Gaga Show." *Ynet*, August 12, 2009.
+**Source:** [Original article on Ynet (Hebrew)](https://www.ynet.co.il/articles/0,7340,L-3760766,00.html)
