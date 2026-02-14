@@ -1,0 +1,538 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+---
+
+<Layout
+	title="Nim Dvir, PhD"
+	description="UX and AI researcher; Visiting Assistant Professor at SUNY Albany. Research in HCI, information engagement, and responsible AI."
+>
+	<!-- Hero Banner with Particles -->
+	<div class="hero-banner">
+		<div id="particles-js"></div>
+		<div class="hero-content">
+			<div class="hero-text">
+				<span class="badge">UX + AI Researcher</span>
+				<h1>Nim Dvir, PhD</h1>
+				<p class="subtitle">Visiting Assistant Professor<br/>The State University of New York at Albany</p>
+				<p class="intro">
+					Human-computer interaction researcher focused on information engagement, 
+					responsible AI, and data-driven design.
+				</p>
+				<div class="cta-buttons">
+					<a href="mailto:ndvir@albany.edu" class="btn btn-primary">
+						<i class="fas fa-envelope"></i> Contact Me
+					</a>
+					<a href={withBase('/about')} class="btn btn-secondary">
+						<i class="fas fa-user"></i> About Me
+					</a>
+				</div>
+			</div>
+			<div class="hero-image">
+				<img src={withBase('/images/headshot2025.jpg')} alt="Portrait of Nim Dvir" />
+			</div>
+		</div>
+	</div>
+
+	<!-- Social Links Bar -->
+	<section class="social-bar">
+		<a href="https://www.linkedin.com/in/nimdvir/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+		<a href="https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en" target="_blank" rel="noreferrer"><i class="fas fa-graduation-cap"></i> Scholar</a>
+		<a href="https://orcid.org/0000-0001-5462-3180" target="_blank" rel="noreferrer"><i class="fab fa-orcid"></i> ORCID</a>
+		<a href="https://www.researchgate.net/profile/Nim-Dvir" target="_blank" rel="noreferrer"><i class="fab fa-researchgate"></i> ResearchGate</a>
+		<a href="https://www.instagram.com/nimdvir/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+	</section>
+
+	<!-- Extended Bio Section -->
+	<section class="content-section intro-container">
+		<div class="hello-wrapper">
+			<span class="typewriter">Hello!</span>
+		</div>
+		
+		<div class="bio-text">
+			<p class="lead">I’m Nimrod (Nim) Dvir, Ph.D.</p>
+			<p>
+				I am a Mixed Methods Researcher and Lecturer at the University at Albany’s Massry School of Business, specializing in Human-Computer Interaction (HCI) and Business Analytics. My work sits at the intersection of data science and behavioral psychology, where I use computational linguistics and AI-driven modeling to understand and optimize how people engage with digital information.
+			</p>
+
+			<h3>What I Bring to the Table:</h3>
+			<ul class="value-props">
+				<li>
+					<strong>Applied AI Research:</strong> Extensive expertise in Large Language Models (LLMs), NLP, and fine-tuning to solve complex organizational problems.
+				</li>
+				<li>
+					<strong>Evidence-Based Design:</strong> A proven track record of collaborating with industry leaders like Costco, Dexcom, and Google to build user-centered, high-impact digital products.
+				</li>
+				<li>
+					<strong>Education & Mentorship:</strong> Deeply committed to pedagogy, I develop and teach graduate and undergraduate courses on Python, Digital Product Design, and Managing IT.
+				</li>
+			</ul>
+
+			<p>
+				Whether I’m analyzing "Sticky Words" in a dissertation that earned Distinguished Research honors or mentoring the next generation of tech leaders, my goal is always to enhance business performance through innovative, ethical technology management.
+			</p>
+
+			<div class="cta-wrapper">
+				<a href="mailto:ndvir@albany.edu" class="connect-btn">
+					Let's connect to discuss the future of AI, UX, and Digital Citizenship.
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Main Content Cards -->
+	<section class="content-section">
+		<h2 class="section-title"><i class="fas fa-compass"></i> Learn more about my</h2>
+		<div class="nav-circles-grid">
+			<a href={withBase('/about')} class="nav-circle-item">
+				<div class="nav-circle">
+					<i class="fas fa-user"></i>
+				</div>
+				<span>Self</span>
+			</a>
+			<a href={withBase('/research')} class="nav-circle-item">
+				<div class="nav-circle">
+					<i class="fas fa-microscope"></i>
+				</div>
+				<span>Research</span>
+			</a>
+			<a href={withBase('/media')} class="nav-circle-item">
+				<div class="nav-circle">
+					<i class="fas fa-newspaper"></i>
+				</div>
+				<span>Media</span>
+			</a>
+			<a href={withBase('/teaching')} class="nav-circle-item">
+				<div class="nav-circle">
+					<i class="fas fa-chalkboard-teacher"></i>
+				</div>
+				<span>Teaching</span>
+			</a>
+		</div>
+	</section>
+
+	<script src={withBase('/js/particles.js')} is:inline></script>
+<script is:inline>
+	document.addEventListener('DOMContentLoaded', function() {
+		if (typeof particlesJS !== 'undefined') {
+			particlesJS('particles-js', {
+				particles: {
+					number: { value: 80, density: { enable: true, value_area: 900 } },
+					color: { value: '#ffffff' },
+					shape: { type: 'circle' },
+					opacity: { value: 0.6, random: true },
+					size: { value: 3, random: true },
+					line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.4, width: 1 },
+					move: { enable: true, speed: 1.5, direction: 'none', random: true, straight: false, out_mode: 'out' }
+				},
+				interactivity: {
+					detect_on: 'canvas',
+					events: {
+						onhover: { enable: true, mode: 'grab' },
+						onclick: { enable: true, mode: 'push' },
+						resize: true
+					},
+					modes: {
+						grab: { distance: 140, line_linked: { opacity: 1 } },
+						push: { particles_nb: 4 }
+					}
+				},
+				retina_detect: true
+			});
+		}
+	});
+</script>
+</Layout>
+
+<style>
+	/* Hero Banner */
+	.hero-banner {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		margin-top: -24px;
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 40%, #1e1b4b 100%);
+		padding: 60px 24px;
+		margin-bottom: 0;
+	}
+
+	#particles-js {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.hero-content {
+		position: relative;
+		z-index: 2;
+		max-width: 1100px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 300px;
+		gap: 48px;
+		align-items: center;
+	}
+
+	.hero-text {
+		color: #fff;
+	}
+
+	.badge {
+		display: inline-block;
+		background: rgba(255, 255, 255, 0.15);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		padding: 6px 16px;
+		border-radius: 999px;
+		font-size: 13px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin-bottom: 16px;
+	}
+
+	.hero-text h1 {
+		font-size: 56px;
+		margin: 0 0 12px;
+		letter-spacing: -0.03em;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+
+	.hero-text .subtitle {
+		font-size: 20px;
+		margin: 0 0 20px;
+		opacity: 0.9;
+		line-height: 1.4;
+	}
+
+	.hero-text .intro {
+		font-size: 17px;
+		margin: 0 0 28px;
+		opacity: 0.85;
+		line-height: 1.6;
+		max-width: 500px;
+	}
+
+	.cta-buttons {
+		display: flex;
+		gap: 12px;
+		flex-wrap: wrap;
+	}
+
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 14px 24px;
+		border-radius: 12px;
+		font-weight: 600;
+		text-decoration: none;
+		transition: all 0.2s ease;
+		font-size: 15px;
+	}
+
+	.btn-primary {
+		background: #fff;
+		color: #0f172a;
+	}
+
+	.btn-primary:hover {
+		background: #f1f5f9;
+		transform: translateY(-2px);
+	}
+
+	.btn-secondary {
+		background: rgba(255, 255, 255, 0.1);
+		color: #fff;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.btn-secondary:hover {
+		background: rgba(255, 255, 255, 0.2);
+		transform: translateY(-2px);
+	}
+
+	.hero-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-image img {
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+		object-position: 65% 20%;
+		border-radius: 50%;
+		border: 4px solid rgba(255, 255, 255, 0.2);
+		box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+	}
+
+	/* Social Bar */
+	.social-bar {
+		display: flex;
+		justify-content: center;
+		gap: 12px;
+		flex-wrap: wrap;
+		padding: 24px;
+		background: #fff;
+		border-bottom: 1px solid #e5e7eb;
+		margin-bottom: 40px;
+	}
+
+	.social-bar a {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 10px 16px;
+		border-radius: 10px;
+		background: #f8fafc;
+		color: #374151;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 14px;
+		border: 1px solid #e5e7eb;
+		transition: all 0.2s ease;
+	}
+
+	.social-bar a:hover {
+		background: #0f172a;
+		color: #fff;
+		border-color: #0f172a;
+		transform: translateY(-2px);
+	}
+
+	/* Content Sections */
+	.content-section {
+		max-width: 1100px;
+		margin: 0 auto 48px;
+		padding: 0 24px;
+	}
+
+	.section-title {
+		font-size: 24px;
+		margin: 0 0 24px;
+		color: #0f172a;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.section-title i {
+		color: #1e3a5f;
+	}
+
+	/* Nav Circles Grid */
+	.nav-circles-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 32px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.nav-circle-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		text-decoration: none;
+		color: #0f172a;
+		transition: transform 0.2s ease;
+	}
+
+	.nav-circle-item:hover {
+		transform: translateY(-4px);
+	}
+
+	.nav-circle {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background: linear-gradient(135deg, #1e3a5f, #0f172a);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 36px;
+		color: #fff;
+		box-shadow: 0 8px 24px rgba(30, 58, 95, 0.25);
+		transition: box-shadow 0.2s ease;
+	}
+
+	.nav-circle-item:hover .nav-circle {
+		box-shadow: 0 12px 32px rgba(30, 58, 95, 0.4);
+	}
+
+	.nav-circle-item span {
+		font-weight: 600;
+		font-size: 18px;
+		letter-spacing: -0.01em;
+	}
+
+	/* Responsive */
+	@media (max-width: 900px) {
+		.hero-content {
+			grid-template-columns: 1fr;
+			text-align: center;
+		}
+
+		.hero-text h1 {
+			font-size: 40px;
+		}
+
+		.hero-text .intro {
+			max-width: 100%;
+		}
+
+		.cta-buttons {
+			justify-content: center;
+		}
+
+		.hero-image {
+			max-width: 280px;
+			margin: 0 auto;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.hero-banner {
+			padding: 40px 16px;
+		}
+
+		.hero-text h1 {
+			font-size: 32px;
+		}
+
+		.hero-text .subtitle {
+			font-size: 16px;
+		}
+
+		/* Nav Circles Responsive */
+		.nav-circles-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 24px;
+		}
+
+		.nav-circle {
+			width: 80px;
+			height: 80px;
+			font-size: 28px;
+		}
+
+		.social-bar {
+			gap: 8px;
+		}
+
+		.social-bar a {
+			padding: 8px 12px;
+			font-size: 13px;
+		}
+	}
+
+	/* Intro Section & Typewriter */
+	.intro-container {
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 16px;
+		padding: 40px !important;
+		margin-bottom: 48px;
+	}
+
+	.hello-wrapper {
+		margin-bottom: 24px;
+	}
+
+	.typewriter {
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 32px;
+		font-weight: 700;
+		color: #1e3a5f;
+		display: inline-block;
+		overflow: hidden;
+		border-right: 3px solid #f59e0b;
+		white-space: nowrap;
+		letter-spacing: 0.05em;
+		animation: 
+			typing 2.5s steps(10, end) infinite,
+			blink-caret 0.75s step-end infinite;
+		max-width: fit-content;
+	}
+
+	@keyframes typing {
+		0% { width: 0 }
+		15% { width: 0 }
+		40% { width: 6ch } /* "Hello!" is 6 chars */
+		75% { width: 6ch }
+		90% { width: 0 }
+		100% { width: 0 }
+	}
+
+	@keyframes blink-caret {
+		from, to { border-color: transparent }
+		50% { border-color: #f59e0b; }
+	}
+
+	.bio-text {
+		font-size: 17px;
+		line-height: 1.7;
+		color: #374151;
+	}
+
+	.lead {
+		font-size: 20px;
+		font-weight: 600;
+		color: #0f172a;
+		margin-bottom: 16px;
+	}
+
+	.bio-text h3 {
+		font-size: 20px;
+		margin: 32px 0 16px;
+		color: #0f172a;
+	}
+
+	.value-props {
+		margin: 0 0 24px;
+		padding-left: 20px;
+	}
+
+	.value-props li {
+		margin-bottom: 12px;
+	}
+
+	.cta-wrapper {
+		margin-top: 32px;
+		text-align: center;
+	}
+
+	.connect-btn {
+		display: inline-block;
+		background: linear-gradient(90deg, #1e3a5f, #0f172a, #1e3a5f);
+		background-size: 200% 100%;
+		color: #fff;
+		font-weight: 600;
+		font-size: 18px;
+		padding: 16px 32px;
+		border-radius: 999px;
+		text-decoration: none;
+		box-shadow: 0 4px 12px rgba(15, 23, 42, 0.3);
+		transition: all 0.3s ease;
+		animation: shine 3s infinite linear;
+	}
+
+	.connect-btn:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(15, 23, 42, 0.4);
+	}
+
+	@keyframes shine {
+		0% { background-position: 200% center; }
+		100% { background-position: -200% center; }
+	}
+</style>
+

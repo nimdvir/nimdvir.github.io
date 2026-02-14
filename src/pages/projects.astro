@@ -1,0 +1,292 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const projects = [
+	{
+		title: 'Costco Mobile App',
+		slug: 'costco-mobile',
+		category: 'UX Research',
+		summary:
+			'Enhanced the Costco shopping experience by improving checkout line times and incentivizing in-store shopping through new technologies. Implemented Scan&Go checkout and an in-store "Treasure Hunt" game to increase consumer spending.',
+		description: 'Improved the in-store shopping experience with Scan&Go checkout option. Offered discounts and prizes through gamification to encourage more frequent visits. Designed an innovative approach to exceed customer expectations.',
+		image: '/images/costco.png'
+	},
+	{
+		title: 'Barrier Free Living',
+		slug: 'barrier-free-living',
+		category: 'Content Strategy',
+		summary:
+			'UX research project for a leading non-profit helping people with disabilities who suffer from domestic violence in NYC. Developed content strategy to achieve fundraising goals through content optimization.',
+		description: 'Conducted research and evaluation including a deep dive into current website content, interviews with staff and volunteers. Developed recommendations for optimizing the donation page, enhancing storytelling through video and social media, and improving accessibility.',
+		image: '/images/barrier-free-living-new.png'
+	},
+	{
+		title: 'Nasher Sculpture Center',
+		slug: 'nasher-sculpture-center',
+		category: 'UX Research',
+		summary:
+			'UX research project to drive online revenue and engagement for the Nasher Sculpture Center museum in Dallas, Texas. Focused on content strategy, user research, and interaction design.',
+		description: 'Audited all digital content, enhanced search engine optimization, and created a better online membership purchasing experience. Designed a new prototype to provide better online engagement and build user loyalty.',
+		image: '/images/nasher-new.png'
+	},
+	{
+		title: 'Dexcom G7+ Application',
+		slug: 'dexcom',
+		category: 'UX Research',
+		summary:
+			'UX research for the Dexcom G7+ health tech application to gather insights from diabetics (Type 1 and 2) and their caregivers. Identified pain points and areas for improvement.',
+		description: 'Conducted user interviews, surveys, and usability testing. Focused on customization options, predictive measures, event tracking, historical data logging, integration with fitness data, and tracking of hormones in interstitial fluid.',
+		image: '/images/dexcom-new.png'
+	},
+	{
+		title: 'Timeout Tel Aviv',
+		slug: 'timeout',
+		category: 'UX Design',
+		summary:
+			'Website wireframe and design work for Timeout Tel Aviv, a leading city guide publication. Focused on editorial and content strategy.',
+		description: 'Developed website wireframes and UX improvements for the city guide publication to enhance user engagement and content discoverability.',
+		image: '/images/timeout.png'
+	},
+	{
+		title: 'Zang Toi',
+		slug: 'zang-toi',
+		category: 'Digital Strategy',
+		summary:
+			'Online presence redesign for internationally acclaimed fashion designer Zang Toi. Created a visually captivating and user-friendly website embodying the designer\'s signature style and elegance.',
+		description: 'Implemented cohesive branding strategy, PR & press information, marketing, and conversion & retention strategies. Redesigned website to captivate visitors, drive sales, and cultivate a lasting connection with global audience.',
+		image: '/images/zang-toi.png'
+	},
+	{
+		title: 'Facebook Content Strategy',
+		slug: 'facebook',
+		category: 'UX Research',
+		summary:
+			'UX research project to identify content strategy opportunities and re-envision the content experience for Facebook users using qualitative and quantitative methods.',
+		description: 'Used user interviews, surveys, and data analysis to understand how users discovered, consumed, and engaged with content. Provided actionable recommendations for content strategy and user experience improvements.',
+		image: '/images/facebook.png'
+	},
+	{
+		title: 'Sticky Words Research',
+		slug: 'sticky-words',
+		category: 'Research',
+		summary:
+			'Dissertation research using computational linguistics to assess and manipulate information engagement. Distinguished Dissertation Award winner.',
+		description: 'Doctoral dissertation exploring how word choice impacts user engagement using NLP and computational linguistics approaches.',
+		image: '/images/sticky.png'
+	},
+	{
+		title: 'Less is More',
+		slug: 'less-is-more',
+		category: 'Research',
+		summary:
+			'Explores how the amount of information on marketing landing pages impacts user engagement and decision-making through large-scale online experiments.',
+		description: 'Two large-scale experiments (n=535 and n=27,900) conducted in real-world commercial settings. Found negative correlation between information amount and users\' decision-making and engagement.',
+		image: '/images/less-is-more.png'
+	},
+	{
+		title: 'Information Engagement',
+		slug: 'information-engagement',
+		category: 'Research',
+		summary:
+			'Research integrating information behavior and user engagement to understand how people engage with information systems and digital content.',
+		description: 'Foundational research on user engagement with information technology, forming the basis for applied UX and content strategy work.',
+		image: '/images/info-engagement.png'
+	}
+];
+---
+
+<Layout
+	title="Projects"
+	description="Selected UX and AI projects spanning accessibility, culture, commerce, and health tech."
+>
+	<section class="hero">
+		<div class="hero__text">
+			<p class="eyebrow"><i class="fas fa-briefcase"></i> Projects</p>
+			<h1>Applied UX and AI work across domains.</h1>
+			<p class="lede">
+				Collaborations with researchers, industry partners, and designers to deliver data-driven strategies,
+				predictive modeling, and informed decisions.
+			</p>
+		</div>
+		<div class="hero__image">
+			<img src={withBase('/images/portfolio.jpg')} alt="Portfolio overview" loading="lazy" />
+		</div>
+	</section>
+
+	<section class="grid">
+		{projects.map((project) => (
+			<article class="card">
+				<img src={withBase(project.image)} alt={project.title} loading="lazy" />
+				<div class="body">
+					<span class="category"><i class="fas fa-tag"></i> {project.category}</span>
+					<h2><i class="fas fa-folder-open"></i> {project.title}</h2>
+					<p>{project.summary}</p>
+					<details class="project-details">
+						<summary><i class="fas fa-info-circle"></i> More details</summary>
+						<p class="description">{project.description}</p>
+					</details>
+				</div>
+			</article>
+		))}
+	</section>
+</Layout>
+
+<style>
+	.hero {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 24px;
+		align-items: center;
+		padding: 12px 0 20px;
+	}
+
+	.hero__text {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.hero__image img {
+		width: 100%;
+		height: auto;
+		border-radius: 18px;
+		border: 1px solid #e5e7eb;
+		box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+	}
+
+	.eyebrow {
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-weight: 700;
+		color: #6b7280;
+		margin: 0;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 32px;
+		letter-spacing: -0.02em;
+	}
+
+	.lede {
+		margin: 0;
+		color: #1f2937;
+		line-height: 1.6;
+		font-size: 17px;
+		max-width: 680px;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 18px;
+		margin-top: 24px;
+	}
+
+	.card {
+		background: #ffffff;
+		border: 1px solid #e5e7eb;
+		border-radius: 16px;
+		overflow: hidden;
+		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.04);
+		display: flex;
+		flex-direction: column;
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	.card:hover {
+		transform: translateY(-6px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+	}
+
+	.card img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.body {
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.category {
+		font-size: 12px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: #6b7280;
+	}
+
+	.category i {
+		color: #3b82f6;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+	}
+
+	h2 i {
+		color: #6b7280;
+	}
+
+	p {
+		margin: 0;
+		color: #111827;
+		line-height: 1.5;
+	}
+
+	.project-details {
+		margin-top: 8px;
+	}
+
+	.project-details summary {
+		cursor: pointer;
+		font-weight: 600;
+		font-size: 14px;
+		color: #3b82f6;
+		list-style: none;
+	}
+
+	.project-details summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.project-details summary i {
+		margin-right: 6px;
+	}
+
+	.project-details[open] summary {
+		margin-bottom: 8px;
+	}
+
+	.description {
+		font-size: 14px;
+		color: #475569;
+		padding: 12px;
+		background: #f8fafc;
+		border-radius: 8px;
+		border: 1px solid #e2e8f0;
+	}
+
+	@media (max-width: 640px) {
+		h1 {
+			font-size: 26px;
+		}
+
+		.lede {
+			font-size: 16px;
+		}
+
+		.hero__image img {
+			border-radius: 14px;
+		}
+	}
+</style>

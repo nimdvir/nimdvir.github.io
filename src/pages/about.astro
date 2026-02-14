@@ -1,0 +1,714 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cvUrl from '../assets/NimDvirCV250929.pdf';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const glance = [
+	{ emoji: '🎓', value: '4 degrees', label: 'Because one was never enough' },
+	{ emoji: '🔬', value: '10,000+', label: 'Research participants (voluntarily!)' },
+	{ emoji: '📈', value: '40%', label: 'Engagement boost (not a typo)' },
+	{ emoji: '🐍', value: '15+', label: 'Courses taught (mostly Python, mostly awake)' },
+	{ emoji: '🤝', value: '6+', label: 'Industry partners (Costco samples included)' },
+	{ emoji: '🏆', value: '11', label: 'Awards (yes, I counted)' },
+];
+
+const timeline = [
+	{
+		year: '2025–',
+		title: 'Lecturer',
+		org: 'SUNY Albany, Massry School of Business',
+		detail: 'Department of Information Systems and Business Analytics'
+	},
+	{
+		year: '2021–2025',
+		title: 'Visiting Assistant Professor',
+		org: 'SUNY Albany, Massry School of Business',
+		detail: 'Teaching, research, and industry collaboration across HCI, analytics, and AI'
+	},
+	{
+		year: '2019–2020',
+		title: 'Visiting Assistant Professor',
+		org: 'Pratt Institute, NYC',
+		detail: 'Digital Product Design & Content Strategy'
+	},
+	{
+		year: '2015–2019',
+		title: 'Research & Teaching Assistant',
+		org: 'SUNY Albany',
+		detail: 'Ph.D. research on computational linguistics and information engagement'
+	},
+	{
+		year: '2014–2015',
+		title: 'UX Researcher & Dev Manager',
+		org: 'ClaimFame',
+		detail: 'Launched an e-learning platform; 70% retention lift'
+	},
+	{
+		year: '2012–2014',
+		title: 'UX Researcher & Product Manager',
+		org: 'WZO, NYC',
+		detail: 'CRM optimization and Israel Tech Challenge coordination'
+	},
+	{
+		year: '2009–2011',
+		title: 'Chief Digital Content Strategist',
+		org: "Ma'ariv Media Group, Tel Aviv",
+		detail: 'Led 50+ media professionals in data-driven content strategy'
+	},
+];
+
+const education = [
+	{
+		degree: 'Ph.D., Computer & Information Science',
+		school: 'SUNY Albany',
+		year: '2022',
+		note: 'HCI & MIS · "Sticky Words" · Distinguished Dissertation & Excellence in Research'
+	},
+	{
+		degree: 'M.B.A., Marketing & Information Systems',
+		school: 'Baruch College, CUNY',
+		year: '2014',
+		note: 'Summa cum laude'
+	},
+	{
+		degree: 'B.A., Political Science & Journalism',
+		school: 'New York University',
+		year: '2011',
+		note: 'Summa cum laude · Presidential Honor Program'
+	},
+	{
+		degree: 'B.A., Social Sciences & Humanities',
+		school: 'Open University of Israel',
+		year: '2009',
+		note: ''
+	}
+];
+
+const skillCategories = [
+	{
+		icon: 'fas fa-code',
+		title: 'Languages & Data',
+		tags: ['Python', 'JavaScript', 'SQL', 'R', 'MATLAB']
+	},
+	{
+		icon: 'fas fa-robot',
+		title: 'AI & NLP',
+		tags: ['LLMs', 'Fine-tuning', 'RLHF', 'spaCy', 'NLTK', 'TensorFlow']
+	},
+	{
+		icon: 'fas fa-user-check',
+		title: 'UX & Research',
+		tags: ['Study Design', 'Surveys', 'Experiments', 'Usability Testing', 'Qualtrics']
+	},
+	{
+		icon: 'fas fa-chart-bar',
+		title: 'Analytics',
+		tags: ['Stata', 'SPSS', 'JASP', 'Machine Learning', 'Statistical Modeling']
+	},
+	{
+		icon: 'fas fa-palette',
+		title: 'Design & Prototyping',
+		tags: ['Figma', 'Adobe XD', 'UI/UX Prototyping']
+	},
+	{
+		icon: 'fas fa-wand-magic-sparkles',
+		title: 'AI Tools',
+		tags: ['ChatGPT', 'Claude', 'Copilot', 'Gemini']
+	}
+];
+
+const awards = [
+	{ icon: 'fas fa-hands-helping', title: 'Service Award', org: 'SUNY Albany', year: '2025' },
+	{ icon: 'fas fa-flask', title: 'Excellence in Research Project', org: 'SUNY Albany', year: '2023' },
+	{ icon: 'fas fa-trophy', title: 'Distinguished Dissertation', org: 'SUNY Albany', year: '2023' },
+	{ icon: 'fas fa-graduation-cap', title: 'Full Academic Scholarship', org: 'SUNY Albany', year: '2016–2022' },
+	{ icon: 'fas fa-medal', title: 'Doctoral Consortium Award', org: 'AMCIS', year: '2018' },
+	{ icon: 'fas fa-certificate', title: 'Superior Reviewer Award', org: 'Informing Science Institute', year: '2017' },
+	{ icon: 'fas fa-star', title: 'Presidential Honor Scholarship', org: 'NYU', year: '2011' },
+];
+
+const teachingCourses = {
+	graduate: [
+		'BITM 522 — Managing Information Technology',
+		'INF 501 — Case Studies in Digital Citizenship',
+		'BITM 534 — Field Study in IS and Business Analytics',
+		'INFO 646 — Digital Product Design (Advanced UX)',
+		'INFO 642 — Content Strategy'
+	],
+	undergraduate: [
+		'BITM 330 — Improving Business Performance with IT (150+ students)',
+		'ISBA 434 — Business Analytics Practicum',
+		'INF 108 — Intro to Python',
+		'INF 308 — Advanced Python',
+		'INF 496 — UX in E-Commerce',
+		'INF 200 — Research Methods for Information Studies',
+		'INF 401 — Case Studies in Digital Citizenship'
+	]
+};
+
+const service = [
+	'Impact Committee Member, Massry School of Business (2022–2026)',
+	'Climate Committee Member, Massry School of Business (2022–2027)',
+	'LGBTQ+ Student Club Initiator (2024)',
+	'ISBA Pre-Tenure Faculty Brown-Bag Meetings Organizer (2023–2024)',
+	'Program Committee, Israel Association for Information Systems (2023)',
+	'Reviewer, ICIS (2020–present), UXPA (2016–present), AMCIS, CHIIR',
+	'Member, Cengage Introductory Computing Advisory Board (2026–present)',
+	'Member, Association for Computational Creativity',
+	'Member, ASIS&T · AIS'
+];
+---
+
+<Layout title="About" description="Academic background, research focus, and professional experience of Nim Dvir, Ph.D.">
+	<!-- Custom hero for about page -->
+	<div class="about-hero">
+		<div id="particles-header"></div>
+		<div class="hero-inner">
+			<h1>About</h1>
+			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
+			<ul class="glance-strip">
+				{glance.map((item) => (
+					<li>
+						<span class="glance-emoji">{item.emoji}</span>
+						<span class="glance-value">{item.value}</span>
+						<span class="glance-label">{item.label}</span>
+					</li>
+				))}
+			</ul>
+		</div>
+	</div>
+
+	<script is:inline src={`${import.meta.env.BASE_URL}js/particles.js`}></script>
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof particlesJS !== 'undefined') {
+				particlesJS('particles-header', {
+					particles: {
+						number: { value: 60, density: { enable: true, value_area: 800 } },
+						color: { value: '#ffffff' },
+						shape: { type: 'circle' },
+						opacity: { value: 0.5, random: true },
+						size: { value: 3, random: true },
+						line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.3, width: 1 },
+						move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
+					},
+					interactivity: {
+						detect_on: 'canvas',
+						events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
+						modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+					},
+					retina_detect: true
+				});
+			}
+		});
+	</script>
+
+	<!-- Accordion sections -->
+	<section class="accordion-wrap">
+
+	<details class="acc" open>
+		<summary><i class="fas fa-graduation-cap"></i> Education <span class="acc-chevron"></span></summary>
+		<div class="acc-body">
+			<div class="edu-stack">
+				{education.map((ed) => (
+					<div class="edu-card">
+						<div class="edu-year">{ed.year}</div>
+						<div class="edu-info">
+							<strong>{ed.degree}</strong>
+							<span class="edu-school">{ed.school}</span>
+							{ed.note && <span class="edu-note">{ed.note}</span>}
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
+	</details>
+
+	<details class="acc">
+		<summary><i class="fas fa-toolbox"></i> Skills & Tools <span class="acc-chevron"></span></summary>
+		<div class="acc-body">
+			<div class="skill-cats">
+				{skillCategories.map((cat) => (
+					<div class="skill-cat">
+						<h4><i class={cat.icon}></i> {cat.title}</h4>
+						<div class="skill-tags">
+							{cat.tags.map((tag) => (
+								<span class="skill-tag">{tag}</span>
+							))}
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
+	</details>
+
+	<details class="acc">
+		<summary><i class="fas fa-route"></i> Career Journey <span class="acc-chevron"></span></summary>
+		<div class="acc-body">
+		<div class="timeline">
+			{timeline.map((item, i) => (
+				<div class={`tl-item ${i === 0 ? 'tl-current' : ''}`}>
+					<div class="tl-dot"></div>
+					<div class="tl-content">
+						<span class="tl-year">{item.year}</span>
+						<h3>{item.title}</h3>
+						<span class="tl-org">{item.org}</span>
+						<p>{item.detail}</p>
+					</div>
+				</div>
+			))}
+		</div>
+		</div>
+	</details>
+
+	<details class="acc">
+		<summary><i class="fas fa-award"></i> Awards & Honors <span class="acc-chevron"></span></summary>
+		<div class="acc-body">
+		<div class="awards-grid">
+			{awards.map((a) => (
+				<div class="award-card">
+					<i class={a.icon}></i>
+					<strong>{a.title}</strong>
+					<span class="award-meta">{a.org} · {a.year}</span>
+				</div>
+			))}
+		</div>
+		</div>
+	</details>
+
+	<details class="acc">
+		<summary><i class="fas fa-handshake"></i> Service & Affiliations <span class="acc-chevron"></span></summary>
+		<div class="acc-body">
+		<ul class="service-list">
+			{service.map((s) => <li>{s}</li>)}
+		</ul>
+		</div>
+	</details>
+
+	</section><!-- end accordion-wrap -->
+
+	<!-- CTA -->
+	<section class="cta-block">
+		<h2>Let's connect</h2>
+		<p>Whether it's about research collaboration, speaking, or just nerding out about words — I'd love to hear from you.</p>
+		<div class="cta-links">
+			<a href="mailto:ndvir@albany.edu" class="btn-primary"><i class="fas fa-envelope"></i> Email me</a>
+			<a href="https://www.linkedin.com/in/nimdvir/" target="_blank" rel="noreferrer" class="btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+			<a href="https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en" target="_blank" rel="noreferrer" class="btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	/* ===== HERO ===== */
+	.about-hero {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		margin-top: -24px;
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+		padding: 60px 24px 72px;
+		color: #fff;
+		overflow: hidden;
+	}
+
+	#particles-header {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		z-index: 1;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 1100px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-inner h1 {
+		font-size: 56px;
+		font-weight: 800;
+		margin: 0 0 12px;
+		line-height: 1.05;
+		letter-spacing: -0.03em;
+		color: #fff;
+	}
+
+	.hero-subtitle {
+		font-size: 16px;
+		font-weight: 600;
+		margin: 0 0 28px;
+		color: rgba(255,255,255,0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+	.hero-subtitle i { color: #fbbf24; }
+
+	/* Glance strip */
+	.glance-strip {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 12px;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.glance-strip li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+		padding: 16px 10px;
+		border-radius: 14px;
+		background: rgba(0,0,0,0.22);
+		border: 1px solid rgba(255,255,255,0.08);
+	}
+
+	.glance-emoji {
+		font-size: 24px;
+	}
+
+	.glance-value {
+		font-weight: 700;
+		font-size: 18px;
+		color: #fff;
+	}
+
+	.glance-label {
+		font-size: 12px;
+		color: rgba(255,255,255,0.6);
+		line-height: 1.3;
+		text-align: center;
+	}
+
+	.btn-primary {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 12px 24px;
+		border-radius: 999px;
+		background: #fff;
+		color: #1e3a5f;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 15px;
+		transition: transform 0.15s ease;
+	}
+	.btn-primary:hover { transform: translateY(-2px); }
+
+	.btn-outline {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 12px 24px;
+		border-radius: 999px;
+		border: 1.5px solid rgba(255,255,255,0.4);
+		color: #fff;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 15px;
+		transition: background 0.15s ease;
+	}
+	.btn-outline:hover { background: rgba(255,255,255,0.1); }
+
+	/* ===== ACCORDION ===== */
+	.accordion-wrap {
+		max-width: 1000px;
+		margin: 32px auto 0;
+		padding: 0 24px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.acc {
+		border: 1px solid #e5e7eb;
+		border-radius: 16px;
+		background: #fff;
+		box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+		overflow: hidden;
+	}
+
+	.acc summary {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		padding: 20px 24px;
+		font-size: 20px;
+		font-weight: 700;
+		color: #0f172a;
+		cursor: pointer;
+		list-style: none;
+		user-select: none;
+	}
+	.acc summary::-webkit-details-marker { display: none; }
+	.acc summary i { color: #1e3a5f; }
+
+	.acc-chevron {
+		margin-left: auto;
+		transition: transform 0.25s ease;
+		color: #94a3b8;
+		font-size: 14px;
+	}
+	.acc[open] .acc-chevron {
+		transform: rotate(180deg);
+	}
+
+	.acc-body {
+		padding: 0 24px 24px;
+	}
+
+	/* Two col */
+	.two-col {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 48px;
+	}
+
+	/* Education */
+	.edu-stack {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.edu-card {
+		display: flex;
+		gap: 16px;
+		align-items: flex-start;
+		padding: 16px 20px;
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 14px;
+	}
+
+	.edu-year {
+		flex-shrink: 0;
+		font-weight: 700;
+		font-size: 14px;
+		color: #1e3a5f;
+		background: #f0f4f8;
+		padding: 4px 10px;
+		border-radius: 8px;
+		min-width: 48px;
+		text-align: center;
+	}
+
+	.edu-info strong {
+		display: block;
+		font-size: 15px;
+		color: #0f172a;
+		margin-bottom: 2px;
+	}
+	.edu-school {
+		display: block;
+		font-size: 14px;
+		color: #6b7280;
+	}
+	.edu-note {
+		display: block;
+		font-size: 13px;
+		color: #1e3a5f;
+		margin-top: 4px;
+		font-style: italic;
+	}
+
+	/* Skills */
+	.skill-cats {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.skill-cat h4 {
+		font-size: 14px;
+		color: #374151;
+		margin: 0 0 8px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	.skill-cat h4 i { color: #1e3a5f; font-size: 13px; }
+
+	.skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+	.skill-tag {
+		background: #f8fafc;
+		border: 1px solid #e2e8f0;
+		color: #334155;
+		padding: 6px 14px;
+		border-radius: 999px;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	/* Timeline */
+	.timeline {
+		position: relative;
+		padding-left: 32px;
+	}
+	.timeline::before {
+		content: '';
+		position: absolute;
+		left: 7px; top: 8px; bottom: 8px;
+		width: 2px;
+		background: #e5e7eb;
+	}
+
+	.tl-item {
+		position: relative;
+		padding-bottom: 28px;
+	}
+	.tl-item:last-child { padding-bottom: 0; }
+
+	.tl-dot {
+		position: absolute;
+		left: -32px; top: 6px;
+		width: 16px; height: 16px;
+		border-radius: 50%;
+		background: #e5e7eb;
+		border: 3px solid #fff;
+		box-shadow: 0 0 0 2px #e5e7eb;
+	}
+	.tl-current .tl-dot {
+		background: #1e3a5f;
+		box-shadow: 0 0 0 2px #1e3a5f;
+	}
+
+	.tl-year {
+		font-size: 13px;
+		font-weight: 700;
+		color: #1e3a5f;
+		letter-spacing: 0.02em;
+	}
+
+	.tl-content h3 {
+		font-size: 17px;
+		margin: 2px 0 2px;
+		color: #0f172a;
+	}
+
+	.tl-org {
+		font-size: 14px;
+		color: #6b7280;
+		display: block;
+		margin-bottom: 4px;
+	}
+
+	.tl-content p {
+		margin: 0;
+		font-size: 14px;
+		color: #475569;
+		line-height: 1.5;
+	}
+
+	/* Awards */
+	.awards-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 14px;
+	}
+
+	.award-card {
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 14px;
+		padding: 22px 18px;
+		text-align: center;
+		transition: transform 0.15s ease;
+	}
+	.award-card:hover { transform: translateY(-3px); }
+
+	.award-card i {
+		font-size: 28px;
+		color: #f59e0b;
+		margin-bottom: 10px;
+		display: block;
+	}
+	.award-card strong {
+		display: block;
+		font-size: 15px;
+		color: #0f172a;
+		margin-bottom: 4px;
+	}
+	.award-meta {
+		font-size: 13px;
+		color: #6b7280;
+	}
+
+	/* Service */
+	.service-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+
+	.service-list li {
+		padding: 12px 16px;
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 10px;
+		font-size: 14px;
+		color: #334155;
+		line-height: 1.5;
+	}
+
+	/* CTA */
+	.cta-block {
+		max-width: 700px;
+		margin: 64px auto 24px;
+		padding: 48px 32px;
+		text-align: center;
+		background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);
+		border: 1px solid #bfdbfe;
+		border-radius: 20px;
+	}
+	.cta-block h2 {
+		font-size: 28px;
+		margin: 0 0 8px;
+		color: #0f172a;
+	}
+	.cta-block p {
+		color: #475569;
+		margin: 0 0 24px;
+		line-height: 1.6;
+	}
+	.cta-links {
+		display: flex;
+		gap: 12px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.cta-block .btn-primary {
+		background: #1e3a5f;
+		color: #fff;
+	}
+	.cta-block .btn-outline {
+		border-color: #1e3a5f;
+		color: #1e3a5f;
+	}
+	.cta-block .btn-outline:hover { background: rgba(30,58,95,0.06); }
+
+	/* ===== RESPONSIVE ===== */
+	@media (max-width: 900px) {
+		.service-list { grid-template-columns: 1fr; }
+	}
+
+	@media (max-width: 600px) {
+		.about-hero { padding: 40px 16px 48px; }
+		.hero-inner h1 { font-size: 40px; }
+		.glance-strip { grid-template-columns: repeat(2, 1fr); }
+	}
+</style>

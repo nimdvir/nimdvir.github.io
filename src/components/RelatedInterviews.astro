@@ -1,0 +1,183 @@
+---
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const { currentSlug, heading = 'More Interviews' } = Astro.props;
+
+const interviews = await getCollection('interviews');
+const related = interviews.filter((interview) => `interviews/${interview.slug}` !== currentSlug).slice(0, 3);
+---
+
+<section class="related">
+	<div class="related-head">
+		<h2>{heading}</h2>
+		<a class="browse" href={withBase('/blog')}>Browse all <i class="fas fa-arrow-right"></i></a>
+	</div>
+	<div class="related-grid">
+		{related.map((interview) => (
+			<a class="card" href={withBase(`/interviews/${interview.slug}`)}>
+				<div class="thumb-wrap">
+					{interview.data.image && (
+						<img 
+							src={interview.data.image} 
+							alt={interview.data.title} 
+							loading="lazy" 
+						/>
+					)}
+				</div>
+				<div class="card-body">
+					<p class="meta">
+						<span class="date"><i class="far fa-calendar"></i> {interview.data.date}</span>
+						{interview.data.source && <span class="source">{interview.data.source}</span>}
+					</p>
+					<h3>{interview.data.title}</h3>
+					<div class="tags">
+						{interview.data.tags.slice(0, 2).map((tag: string) => (
+							<span class="tag">{tag}</span>
+						))}
+					</div>
+				</div>
+			</a>
+		))}
+	</div>
+</section>
+
+<style>
+	.related {
+		margin-top: 56px;
+		border-top: 1px solid #e5e7eb;
+		padding-top: 32px;
+	}
+
+	.related-head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		margin-bottom: 24px;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 24px;
+		letter-spacing: -0.01em;
+	}
+
+	.browse {
+		font-weight: 600;
+		text-decoration: none;
+		color: #1e3a5f;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		transition: color 0.2s ease;
+	}
+
+	.browse:hover {
+		color: #0f172a;
+	}
+
+	.related-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		gap: 20px;
+	}
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #e5e7eb;
+		border-radius: 16px;
+		overflow: hidden;
+		text-decoration: none;
+		background: #ffffff;
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	.card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+	}
+
+	.thumb-wrap {
+		height: 160px;
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.thumb-wrap img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 3px solid #fff;
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+		transition: transform 0.2s ease;
+	}
+
+	.card:hover .thumb-wrap img {
+		transform: scale(1.05);
+	}
+
+	.card-body {
+		padding: 18px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.meta {
+		margin: 0;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		font-size: 13px;
+		color: #6b7280;
+	}
+
+	.meta .date {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	.meta .source {
+		color: #1e3a5f;
+		font-weight: 600;
+	}
+
+	h3 {
+		margin: 0;
+		color: #0f172a;
+		font-size: 17px;
+		letter-spacing: -0.01em;
+		line-height: 1.4;
+	}
+
+	.tags {
+		display: flex;
+		gap: 6px;
+		flex-wrap: wrap;
+	}
+
+	.tag {
+		background: #ede9fe;
+		color: #7c3aed;
+		padding: 4px 10px;
+		border-radius: 999px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	@media (max-width: 600px) {
+		.related-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

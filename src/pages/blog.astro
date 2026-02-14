@@ -1,0 +1,221 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import PageHeader from '../components/PageHeader.astro';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+// Get blog posts from content collection
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => 
+	new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+// Get interviews from content collection
+const interviews = await getCollection('interviews');
+const sortedInterviews = interviews.sort((a, b) => 
+	new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<Layout title="Writing" description="Essays, research notes, and media interviews.">
+	<PageHeader 
+		title="Essays & Notes" 
+		description="Working notes on UX, AI, research methods, and responsible technology."
+	/>
+
+	<section class="posts-grid">
+		{sortedPosts.map((post) => (
+			<a href={withBase(`/blog/${post.slug}`)} class="post-card">
+				<div class="post-meta">
+					<span>{post.data.date}</span>
+					<span class="tags">{post.data.tags.slice(0, 2).join(' · ')}</span>
+				</div>
+				<h3>{post.data.title}</h3>
+				<p>{post.data.summary}</p>
+			</a>
+		))}
+	</section>
+
+	{sortedInterviews.length > 0 && (
+		<section class="interviews-section">
+			<h2><i class="fas fa-microphone-alt"></i> Media Interviews</h2>
+			<p class="section-intro">Selected interviews from my journalism career.</p>
+			<div class="interviews-grid">
+				{sortedInterviews.map((interview) => (
+					<a href={withBase(`/interviews/${interview.slug}`)} class="interview-card">
+						{interview.data.image && (
+							<img src={interview.data.image} alt={interview.data.title} class="interview-img" />
+						)}
+						<div class="interview-content">
+							<span class="interview-date">{interview.data.date}</span>
+							<h3>{interview.data.title}</h3>
+							<p>{interview.data.summary}</p>
+							{interview.data.source && (
+								<span class="interview-source">{interview.data.source}</span>
+							)}
+						</div>
+					</a>
+				))}
+			</div>
+		</section>
+	)}
+</Layout>
+
+<style>
+	.posts-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 24px;
+		margin-bottom: 48px;
+	}
+
+	.post-card {
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 12px;
+		padding: 24px;
+		text-decoration: none;
+		color: inherit;
+		transition: all 0.2s ease;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.post-card:hover {
+		border-color: #1e3a5f;
+		box-shadow: 0 8px 24px rgba(30, 58, 95, 0.1);
+		transform: translateY(-2px);
+	}
+
+	.post-meta {
+		display: flex;
+		justify-content: space-between;
+		font-size: 13px;
+		color: #6b7280;
+	}
+
+	.post-meta .tags {
+		color: #7c3aed;
+		font-weight: 500;
+	}
+
+	.post-card h3 {
+		margin: 0;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+		color: #111827;
+	}
+
+	.post-card p {
+		margin: 0;
+		font-size: 15px;
+		color: #4b5563;
+		line-height: 1.5;
+	}
+
+	.interviews-section {
+		margin-top: 48px;
+		padding-top: 48px;
+		border-top: 1px solid #e5e7eb;
+	}
+
+	.interviews-section h2 {
+		margin: 0 0 8px;
+		font-size: 24px;
+		letter-spacing: -0.01em;
+	}
+
+	.section-intro {
+		margin: 0 0 24px;
+		color: #6b7280;
+	}
+
+	.interviews-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+		gap: 20px;
+	}
+
+	.interview-card {
+		display: flex;
+		gap: 16px;
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 12px;
+		padding: 16px;
+		text-decoration: none;
+		color: inherit;
+		transition: all 0.2s ease;
+	}
+
+	.interview-card:hover {
+		border-color: #7c3aed;
+		box-shadow: 0 8px 24px rgba(124, 58, 237, 0.1);
+	}
+
+	.interview-img {
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		object-fit: cover;
+		flex-shrink: 0;
+	}
+
+	.interview-content {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		min-width: 0;
+	}
+
+	.interview-date {
+		font-size: 12px;
+		color: #6b7280;
+	}
+
+	.interview-card h3 {
+		margin: 0;
+		font-size: 16px;
+		letter-spacing: -0.01em;
+		color: #111827;
+		line-height: 1.3;
+	}
+
+	.interview-card p {
+		margin: 0;
+		font-size: 13px;
+		color: #6b7280;
+		line-height: 1.4;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.interview-source {
+		font-size: 12px;
+		color: #7c3aed;
+		font-weight: 500;
+	}
+
+	@media (max-width: 600px) {
+		h1 {
+			font-size: 26px;
+		}
+
+		.lede {
+			font-size: 16px;
+		}
+
+		.posts-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.interviews-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

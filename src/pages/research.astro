@@ -1,0 +1,333 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const glance = [
+	{ emoji: '🔬', value: '10,000+', label: 'Research participants' },
+	{ emoji: '📈', value: '40%', label: 'Engagement lift measured' },
+	{ emoji: '📄', value: '10+', label: 'Publications & manuscripts' },
+	{ emoji: '🎤', value: '8+', label: 'Conference talks' },
+	{ emoji: '🤝', value: '6+', label: 'Industry collaborations' },
+	{ emoji: '🏆', value: '3', label: 'Research awards' },
+];
+---
+
+<Layout
+	title="Research"
+	description="UX and AI research: information engagement, computational linguistics, and responsible AI."
+>
+	<div class="research-hero">
+		<div id="particles-header"></div>
+		<div class="hero-inner">
+			<h1>Research</h1>
+			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
+			<ul class="glance-strip">
+				{glance.map((item) => (
+					<li>
+						<span class="glance-emoji">{item.emoji}</span>
+						<span class="glance-value">{item.value}</span>
+						<span class="glance-label">{item.label}</span>
+					</li>
+				))}
+			</ul>
+		</div>
+	</div>
+
+	<script is:inline src={`${import.meta.env.BASE_URL}js/particles.js`}></script>
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof particlesJS !== 'undefined') {
+				particlesJS('particles-header', {
+					particles: {
+						number: { value: 60, density: { enable: true, value_area: 800 } },
+						color: { value: '#ffffff' },
+						shape: { type: 'circle' },
+						opacity: { value: 0.5, random: true },
+						size: { value: 3, random: true },
+						line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.3, width: 1 },
+						move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
+					},
+					interactivity: {
+						detect_on: 'canvas',
+						events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
+						modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+					},
+					retina_detect: true
+				});
+			}
+		});
+	</script>
+
+	<section class="pillars-section" style="max-width: 1100px; margin: 0 auto 48px; padding: 0 24px;">
+		<p style="color: #475569; font-size: 16px; line-height: 1.7; margin: 0 0 24px; max-width: 700px;">My research agenda centers on three interconnected pillars:</p>
+		<div class="pillars-grid">
+			<article class="pillar">
+				<div class="pillar-icon"><i class="fas fa-brain"></i></div>
+				<h3>Analytics + AI for Business</h3>
+				<p>Solving organizational problems through NLP, machine learning, and behavioral analytics — from predicting user engagement to optimizing decision making with AI.</p>
+			</article>
+			<article class="pillar">
+				<div class="pillar-icon"><i class="fas fa-laptop-code"></i></div>
+				<h3>Information Systems Design</h3>
+				<p>Studying how people interact with information systems in real-world settings — and designing products that are trustworthy, usable, and evidence-based.</p>
+			</article>
+			<article class="pillar">
+				<div class="pillar-icon"><i class="fas fa-graduation-cap"></i></div>
+				<h3>AI/ML Pedagogy</h3>
+				<p>Developing curricula and teaching approaches that prepare students to use AI tools responsibly and effectively — from Python to LLMs.</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="split">
+		<div>
+			<h2><i class="fas fa-lightbulb"></i> Research interests</h2>
+			<ul>
+				<li><i class="fas fa-angle-right"></i> User engagement with information technology and digital learning</li>
+				<li><i class="fas fa-angle-right"></i> AI, machine learning, NLP, and computational linguistics</li>
+				<li><i class="fas fa-angle-right"></i> Responsible AI, ethics, and decision-making</li>
+				<li><i class="fas fa-angle-right"></i> Behavioral economics, information behavior, content strategy</li>
+			</ul>
+		</div>
+		<div>
+			<h2><i class="fas fa-tools"></i> Toolkits & methods</h2>
+			<ul>
+				<li><i class="fas fa-angle-right"></i> Usability studies, contextual inquiry, surveys</li>
+				<li><i class="fas fa-angle-right"></i> Python + NLP (spaCy, NLTK), data science (pandas, scikit-learn)</li>
+				<li><i class="fas fa-angle-right"></i> Design research, content strategy, qualitative + quantitative analysis</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="lists">
+		<h2><i class="fas fa-file-alt"></i> Manuscripts in preparation</h2>
+		<ol>
+			<li>Predicting information engagement using computational linguistics and NLP (under review).</li>
+			<li>The Ways of Words: Impact of word choice on engagement and decision making.</li>
+			<li>Phrasing for Success: Optimizing information engagement with AI and computational linguistics.</li>
+			<li>Unified understanding of information engagement: literature review across HCI and behavior.</li>
+			<li>Teaching IT and product design in MBA programs: qualitative exploration.</li>
+		</ol>
+	</section>
+
+	<section class="lists">
+		<h2><i class="fas fa-book"></i> Selected publications</h2>
+		<ul class="pubs">
+			<li>
+				<i class="fas fa-scroll"></i> Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information
+				Engagement (Doctoral dissertation, 2022).
+			</li>
+			<li>
+				<i class="fas fa-scroll"></i> Process of information engagement: Integrating information behavior and user engagement. Proceedings
+				of ASIS&T, 57(1), 2020.
+			</li>
+			<li>
+				<i class="fas fa-scroll"></i> Systematic improvement of user engagement with academic titles using computational linguistics.
+				Informing Science and IT Education Conference, 2019.
+			</li>
+			<li>
+				<i class="fas fa-scroll"></i> When less is more: Consumer behavior and information sharing on landing pages. Informing Science,
+				2018.
+			</li>
+			<li>
+				<i class="fas fa-scroll"></i> What is user engagement? Interdisciplinary perspective on interactions with IT, 2018.
+			</li>
+		</ul>
+	</section>
+
+	<section class="lists">
+		<h2><i class="fas fa-microphone"></i> Recent talks</h2>
+		<ul class="pubs">
+			<li>
+				<i class="fas fa-comments"></i> Does phrasing matter? Using generative text to improve information engagement and UX. ILAIS 2023.
+			</li>
+			<li><i class="fas fa-comments"></i> What do users read? Predictive models of information engagement. ILAIS 2021.</li>
+			<li><i class="fas fa-comments"></i> Sticky words: linguistic analysis for better information interactions. ICIS / ASIS&T 2018.</li>
+			<li>
+				<i class="fas fa-comments"></i> Less is more: digital content volume and engagement. UXPA International / Informing Science, 2018.
+			</li>
+		</ul>
+	</section>
+</Layout>
+
+<style>
+	/* ===== HERO ===== */
+	.research-hero {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		margin-top: -24px;
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+		padding: 60px 24px 72px;
+		margin-bottom: 48px;
+		color: #fff;
+		overflow: hidden;
+	}
+
+	#particles-header {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		z-index: 1;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 1100px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-inner h1 {
+		font-size: 56px;
+		font-weight: 800;
+		margin: 0 0 12px;
+		line-height: 1.05;
+		letter-spacing: -0.03em;
+		color: #fff;
+	}
+
+	.hero-subtitle {
+		font-size: 16px;
+		font-weight: 600;
+		margin: 0 0 28px;
+		color: rgba(255,255,255,0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+	.hero-subtitle i { color: #fbbf24; }
+
+	.glance-strip {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 12px;
+		max-width: 960px;
+	}
+
+	.glance-strip li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+		padding: 16px 10px;
+		border-radius: 14px;
+		background: rgba(0,0,0,0.22);
+		border: 1px solid rgba(255,255,255,0.08);
+	}
+
+	.glance-emoji { font-size: 24px; }
+	.glance-value { font-weight: 700; font-size: 18px; color: #fff; }
+	.glance-label { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.3; text-align: center; }
+
+	/* ===== CONTENT ===== */
+	.split {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: 18px;
+		margin-top: 24px;
+	}
+
+	h2 {
+		margin: 0 0 10px;
+		letter-spacing: -0.01em;
+	}
+
+	ul,
+	ol {
+		margin: 0;
+		padding-left: 18px;
+		color: #111827;
+		line-height: 1.5;
+		display: grid;
+		gap: 10px;
+	}
+
+	.split ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.split ul li i {
+		color: #1e3a5f;
+		margin-right: 8px;
+	}
+
+	.pubs {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.pubs li i {
+		color: #6b7280;
+		margin-right: 10px;
+	}
+
+	.lists {
+		margin-top: 28px;
+	}
+
+	@media (max-width: 640px) {
+		.research-hero { padding: 40px 16px 48px; }
+		.hero-inner h1 { font-size: 40px; }
+		.glance-strip { grid-template-columns: repeat(2, 1fr); }
+
+		h1 {
+			font-size: 26px;
+		}
+
+		.lede {
+			font-size: 16px;
+		}
+	}
+
+	/* Research pillars */
+	.pillars-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+		gap: 20px;
+	}
+
+	.pillar {
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		border-radius: 16px;
+		padding: 28px 24px;
+		box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+	.pillar:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 16px 36px rgba(0,0,0,0.08);
+	}
+
+	.pillar-icon {
+		width: 48px; height: 48px;
+		border-radius: 14px;
+		background: linear-gradient(135deg, #1e3a5f, #2d5a8e);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 16px;
+	}
+	.pillar-icon i { color: #fff; font-size: 20px; }
+
+	.pillar h3 {
+		font-size: 18px;
+		margin: 0 0 8px;
+		color: #0f172a;
+	}
+	.pillar p {
+		margin: 0;
+		color: #475569;
+		line-height: 1.6;
+		font-size: 15px;
+	}
+</style>

@@ -1,0 +1,101 @@
+---
+const links = [
+	{
+		label: 'Email',
+		href: 'mailto:ndvir@albany.edu',
+		icon: 'fa-envelope'
+	},
+	{
+		label: 'LinkedIn',
+		href: 'https://www.linkedin.com/in/nimdvir/',
+		icon: 'fa-linkedin'
+	},
+	{
+		label: 'Google Scholar',
+		href: 'https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en',
+		icon: 'fa-graduation-cap'
+	},
+	{
+		label: 'Instagram',
+		href: 'https://www.instagram.com/nimdvir/',
+		icon: 'fa-instagram'
+	}
+];
+---
+
+<footer class="footer">
+	<div class="name"><i class="fas fa-user-tie"></i> Nim Dvir, PhD</div>
+	<nav class="social">
+		{links.map((link) => (
+			<a href={link.href} aria-label={link.label} target="_blank" rel="noreferrer">
+				<i class={`${link.icon === 'fa-linkedin' || link.icon === 'fa-instagram' ? 'fab' : 'fas'} ${link.icon}`}></i>
+			</a>
+		))}
+	</nav>
+	<div class="copy">&copy; {new Date().getFullYear()} Nim Dvir. All rights reserved.</div>
+</footer>
+
+<style>
+	.footer {
+		margin-top: 48px;
+		padding: 24px;
+		border-top: 1px solid #e5e7eb;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		background: #ffffff;
+		flex-wrap: wrap;
+	}
+
+	.name {
+		font-weight: 700;
+		letter-spacing: -0.01em;
+	}
+
+	.name i {
+		margin-right: 6px;
+		color: #6b7280;
+	}
+
+	.social {
+		display: flex;
+		gap: 12px;
+	}
+
+	.social a {
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+		border: 1px solid #e5e7eb;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		color: #0f172a;
+		text-decoration: none;
+		transition: transform 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease, color 0.1s ease;
+		background: #f8fafc;
+		font-size: 18px;
+	}
+
+	.social a:hover {
+		transform: translateY(-2px);
+		border-color: #0f172a;
+		background: #0f172a;
+		color: #fff;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	}
+
+	.copy {
+		font-size: 13px;
+		color: #6b7280;
+	}
+
+	@media (max-width: 640px) {
+		.footer {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	}
+</style>

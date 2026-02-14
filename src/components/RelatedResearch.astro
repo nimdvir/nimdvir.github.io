@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const { currentSlug, heading = 'Related research' } = Astro.props;
+
+const projects = await getCollection('research');
+const related = projects.filter((proj) => proj.slug !== currentSlug).slice(0, 3);
+---
+
+<section class="related">
+	<div class="related-head">
+		<h2>{heading}</h2>
+		<a class="browse" href={withBase('/research')}>Browse all</a>
+	</div>
+	<div class="related-grid">
+		{related.map((proj) => (
+			<a class="card" href={withBase(`/research/${proj.slug}`)}>
+				{proj.data.image && (
+					<div class="thumb" style={`background-image: ${proj.data.image};`}></div>
+				)}
+				<div class="card-body">
+					<p class="meta">{proj.data.year}</p>
+					<h3>{proj.data.title}</h3>
+				</div>
+			</a>
+		))}
+	</div>
+</section>
+
+<style>
+	.related {
+		margin-top: 48px;
+		border-top: 1px solid #e5e7eb;
+		padding-top: 28px;
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.related-head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 22px;
+		letter-spacing: -0.01em;
+	}
+
+	.browse {
+		font-weight: 700;
+		text-decoration: none;
+		color: #0f172a;
+		transition: color 0.2s ease;
+	}
+
+	.browse:hover {
+		color: #1e3a5f;
+	}
+
+	.related-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 14px;
+	}
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #e5e7eb;
+		border-radius: 14px;
+		overflow: hidden;
+		text-decoration: none;
+		background: #ffffff;
+		transition: transform 0.15s ease, box-shadow 0.15s ease;
+	}
+
+	.card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+	}
+
+	.thumb {
+		height: 120px;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.card-body {
+		padding: 14px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.meta {
+		margin: 0;
+		color: #6b7280;
+		font-size: 13px;
+	}
+
+	h3 {
+		margin: 0;
+		color: #0f172a;
+		font-size: 16px;
+		letter-spacing: -0.01em;
+	}
+</style>

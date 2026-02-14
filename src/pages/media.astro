@@ -1,0 +1,282 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const interviews = await getCollection('interviews');
+const sortedInterviews = interviews.sort((a, b) => 
+	new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+const glance = [
+	{ emoji: '🎬', value: '2+', label: 'Video appearances' },
+	{ emoji: '🎤', value: '4+', label: 'Celebrity interviews' },
+	{ emoji: '📰', value: 'Ynet', label: 'Featured publication' },
+	{ emoji: '🌍', value: 'Global', label: 'Coverage reach' },
+	{ emoji: '🎭', value: 'Culture', label: 'AI & commentary' },
+	{ emoji: '📺', value: 'Live', label: 'On-camera experience' },
+];
+---
+
+<Layout title="Media" description="Video appearances, interviews, and media features.">
+	<div class="media-hero">
+		<div id="particles-header"></div>
+		<div class="hero-inner">
+			<h1>Media</h1>
+			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
+			<ul class="glance-strip">
+				{glance.map((item) => (
+					<li>
+						<span class="glance-emoji">{item.emoji}</span>
+						<span class="glance-value">{item.value}</span>
+						<span class="glance-label">{item.label}</span>
+					</li>
+				))}
+			</ul>
+		</div>
+	</div>
+
+	<script is:inline src={`${import.meta.env.BASE_URL}js/particles.js`}></script>
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof particlesJS !== 'undefined') {
+				particlesJS('particles-header', {
+					particles: {
+						number: { value: 60, density: { enable: true, value_area: 800 } },
+						color: { value: '#ffffff' },
+						shape: { type: 'circle' },
+						opacity: { value: 0.5, random: true },
+						size: { value: 3, random: true },
+						line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.3, width: 1 },
+						move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
+					},
+					interactivity: {
+						detect_on: 'canvas',
+						events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
+						modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+					},
+					retina_detect: true
+				});
+			}
+		});
+	</script>
+
+	<section class="section-header media-header">
+		<h2><i class="fas fa-tv"></i> Media Appearances</h2>
+		<p class="section-desc">Video appearances and featured talks.</p>
+	</section>
+
+	<section class="media-appearances">
+		<div class="video-embed">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/lrN3F6r1VGY?si=_7bFqKBP9zo9OyfG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div class="video-embed">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/0cPdG0gx3fM?si=IAKF-9u6o5UC829j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+	</section>
+
+	<section class="section-header interviews-header">
+		<h2><i class="fas fa-microphone"></i> Interviews</h2>
+	</section>
+
+	<section class="interviews-grid">
+		{sortedInterviews.map((interview) => (
+			<a href={withBase(`/interviews/${interview.slug}`)} class="interview-circle">
+				{interview.data.image && (
+					<img 
+						src={interview.data.image.startsWith('http') ? interview.data.image : withBase(interview.data.image)} 
+						alt={interview.data.title} 
+						loading="lazy" 
+					/>
+				)}
+				<span class="interview-name">{interview.slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</span>
+			</a>
+		))}
+	</section>
+</Layout>
+
+<style>
+	/* ===== HERO ===== */
+	.media-hero {
+		position: relative;
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+		margin-top: -24px;
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+		padding: 60px 24px 72px;
+		margin-bottom: 48px;
+		color: #fff;
+		overflow: hidden;
+	}
+
+	#particles-header {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		z-index: 1;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 1100px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.hero-inner h1 {
+		font-size: 56px;
+		font-weight: 800;
+		margin: 0 0 12px;
+		line-height: 1.05;
+		letter-spacing: -0.03em;
+		color: #fff;
+	}
+
+	.hero-subtitle {
+		font-size: 16px;
+		font-weight: 600;
+		margin: 0 0 28px;
+		color: rgba(255,255,255,0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+	.hero-subtitle i { color: #fbbf24; }
+
+	.glance-strip {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 12px;
+		max-width: 960px;
+	}
+
+	.glance-strip li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+		padding: 16px 10px;
+		border-radius: 14px;
+		background: rgba(0,0,0,0.22);
+		border: 1px solid rgba(255,255,255,0.08);
+	}
+
+	.glance-emoji { font-size: 24px; }
+	.glance-value { font-weight: 700; font-size: 18px; color: #fff; }
+	.glance-label { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.3; text-align: center; }
+
+	.section-header {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.section-header h2 {
+		margin: 0 0 8px;
+		font-size: 24px;
+		letter-spacing: -0.01em;
+	}
+
+	.section-header h2 i {
+		color: #1e3a5f;
+		margin-right: 10px;
+	}
+
+	.section-desc {
+		margin: 0;
+		color: #6b7280;
+		font-size: 15px;
+	}
+
+	.media-header {
+		margin-top: 48px;
+		padding-top: 0;
+		border-top: none;
+	}
+
+	.media-appearances {
+		margin-bottom: 32px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+
+	.video-embed {
+		position: relative;
+		width: 100%;
+		max-width: 560px;
+		aspect-ratio: 16 / 9;
+		border-radius: 12px;
+		overflow: hidden;
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	}
+
+	.video-embed iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.interviews-header {
+		margin-top: 48px;
+		padding-top: 32px;
+		border-top: 1px solid #e5e7eb;
+	}
+
+	.interviews-grid {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 32px;
+		margin-bottom: 48px;
+	}
+
+	.interview-circle {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		text-decoration: none;
+		transition: transform 0.2s ease;
+	}
+	.interview-circle:hover {
+		transform: translateY(-6px);
+	}
+
+	.interview-circle img {
+		width: 140px;
+		height: 140px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 4px solid #e5e7eb;
+		box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+		transition: border-color 0.2s ease, box-shadow 0.2s ease;
+	}
+	.interview-circle:hover img {
+		border-color: #1e3a5f;
+		box-shadow: 0 12px 32px rgba(30,58,95,0.2);
+	}
+
+	.interview-name {
+		font-size: 15px;
+		font-weight: 700;
+		color: #0f172a;
+		transition: color 0.2s ease;
+	}
+	.interview-circle:hover .interview-name {
+		color: #1e3a5f;
+	}
+
+	@media (max-width: 600px) {
+		.media-hero { padding: 40px 16px 48px; }
+		.hero-inner h1 { font-size: 40px; }
+		.glance-strip { grid-template-columns: repeat(2, 1fr); }
+		.interview-circle img { width: 110px; height: 110px; }
+	}
+</style>

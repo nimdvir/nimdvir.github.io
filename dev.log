@@ -1,0 +1,216 @@
+
+> c-users-nd115232-documents-github-nimdvir-site@0.0.1 dev
+> astro dev --host --port 4321
+
+[2m12:13:46[22m [34m[types][39m Generated [2m2ms[22m
+[2m12:13:46[22m [34m[content][39m Syncing content
+[2m12:13:46[22m [34m[content][39m Synced content
+
+[42m[1m astro [22m[49m [32mv5.16.6[39m [2mready in[22m 368 [2mms[22m
+
+[2mΓöâ[22m Local    [36mhttp://localhost:4321/nimdvir-site/[39m
+[2mΓöâ[22m Network  [36mhttp://192.168.1.244:4321/nimdvir-site/[39m
+
+[2m12:13:46[22m [32mwatching for file changes...[39m
+[2m16:22:01[22m Configuration file updated. Restarting...
+[2m16:22:04[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m16:22:13[22m [34m[content][39m Syncing content
+[2m16:22:13[22m [34m[content][39m Astro config changed
+[2m16:22:13[22m [34m[content][39m Clearing content store
+[2m16:22:13[22m [34m[content][39m Synced content
+[2m16:22:13[22m [34m[types][39m Generated [2m10.04s[22m
+[2m16:31:46[22m Configuration file updated. Restarting...
+[2m16:31:55[22m [34m[content][39m Syncing content
+[2m16:31:55[22m [34m[content][39m Astro config changed
+[2m16:31:55[22m [34m[content][39m Clearing content store
+[2m16:31:55[22m [34m[content][39m Synced content
+[2m16:31:55[22m [34m[types][39m Generated [2m7.39s[22m
+[2m16:31:55[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m16:33:25[22m Configuration file updated. Restarting...
+[2m16:33:28[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m16:33:41[22m [34m[content][39m Syncing content
+[2m16:33:41[22m [34m[content][39m Astro config changed
+[2m16:33:41[22m [34m[content][39m Clearing content store
+[2m16:33:41[22m [34m[content][39m Synced content
+[2m16:33:41[22m [34m[types][39m Generated [2m13.81s[22m
+[2m16:33:42[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m16:35:13[22m [34m[watch][39m docs/404.html
+[2m16:35:13[22m [34m[watch][39m docs/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m16:35:13[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m16:35:13[22m [34m[watch][39m docs/projects/index.html
+[2m16:35:13[22m [34m[watch][39m docs/about/index.html
+[2m16:35:13[22m [34m[watch][39m docs/teaching/index.html
+[2m16:35:13[22m [34m[watch][39m docs/research/index.html
+[2m16:35:13[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m16:35:13[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m16:35:13[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m16:35:19[22m [34m[watch][39m docs/404.html
+[2m16:35:22[22m [34m[watch][39m docs/index.html
+[2m16:35:22[22m [34m[watch][39m docs/about/index.html
+[2m16:35:22[22m [34m[watch][39m docs/blog/index.html
+[2m16:35:22[22m [34m[watch][39m docs/research/index.html
+[2m16:35:22[22m [34m[watch][39m docs/projects/index.html
+[2m16:35:22[22m [34m[watch][39m docs/teaching/index.html
+[2m16:35:22[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m16:35:22[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m16:35:22[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m16:35:22[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m16:35:23[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m16:35:23[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m16:35:23[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m16:35:23[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m16:35:23[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m16:35:23[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m16:35:23[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m16:35:29[22m [34m[watch][39m docs/projects/index.html
+[2m16:38:57[22m Configuration file updated. Restarting...
+[2m16:38:58[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m16:39:05[22m [34m[content][39m Syncing content
+[2m16:39:05[22m [34m[content][39m Synced content
+[2m16:39:05[22m [34m[types][39m Generated [2m7.11s[22m
+[2m16:39:05[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m17:19:31[22m [34m[watch][39m docs/404.html
+[2m17:19:31[22m [34m[watch][39m docs/about/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m17:19:31[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m17:19:33[22m [34m[watch][39m docs/index.html
+[2m17:19:33[22m [34m[watch][39m docs/research/index.html
+[2m17:19:33[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m17:19:33[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m17:19:33[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m17:19:33[22m [34m[watch][39m docs/projects/index.html
+[2m17:19:33[22m [34m[watch][39m docs/teaching/index.html
+[2m17:19:36[22m [34m[watch][39m docs/404.html
+[2m17:19:36[22m [34m[watch][39m docs/about/index.html
+[2m17:19:36[22m [34m[watch][39m docs/blog/index.html
+[2m17:19:37[22m [34m[watch][39m docs/research/index.html
+[2m17:19:37[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m17:19:37[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m17:19:37[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m17:19:37[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m17:19:37[22m [34m[watch][39m docs/teaching/index.html
+[2m17:19:37[22m [34m[watch][39m docs/index.html
+[2m17:19:37[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m17:19:37[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m17:19:37[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m17:19:38[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m17:19:38[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m17:19:38[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m17:19:38[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:05:30[22m [34m[200][39m /about [2m50ms[22m
+[2m18:05:30[22m [34m[200][39m /404-preview [2m45ms[22m
+[2m18:08:45[22m [34m[watch][39m docs/404.html
+[2m18:08:45[22m [34m[watch][39m docs/about/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:08:45[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m18:08:45[22m [34m[watch][39m docs/research/index.html
+[2m18:08:45[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m18:08:45[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m18:08:45[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m18:08:45[22m [34m[watch][39m docs/teaching/index.html
+[2m18:08:45[22m [34m[watch][39m docs/index.html
+[2m18:10:39[22m [34m[200][39m /about [2m14ms[22m
+[2m18:10:40[22m [34m[200][39m /about [2m6ms[22m
+[2m18:10:40[22m [34m[200][39m /about [2m5ms[22m
+[2m18:10:40[22m [34m[200][39m /about [2m6ms[22m
+[2m18:10:40[22m [34m[200][39m /about [2m6ms[22m
+[2m18:10:41[22m [34m[200][39m /about [2m7ms[22m
+[2m18:10:41[22m [34m[200][39m /about [2m9ms[22m
+[2m18:10:41[22m [34m[200][39m /about [2m10ms[22m
+[2m18:10:41[22m [34m[200][39m /about [2m7ms[22m
+[2m18:10:43[22m [34m[200][39m /blog [2m13ms[22m
+[2m18:12:13[22m [34m[watch][39m /src/pages/404-preview.astro?astro&type=style&index=0&lang.css
+[2m18:12:13[22m [34m[watch][39m /src/pages/blog.astro?astro&type=style&index=0&lang.css
+[2m18:12:14[22m [34m[200][39m /404-preview [2m46ms[22m
+[2m18:12:14[22m [34m[200][39m /blog [2m25ms[22m
+[2m18:14:08[22m [34m[watch][39m docs/404.html
+[2m18:14:08[22m [34m[watch][39m docs/404.html
+[2m18:14:08[22m [34m[watch][39m docs/404-preview/index.html
+[2m18:14:08[22m [34m[watch][39m docs/404-preview/index.html
+[2m18:14:08[22m [34m[watch][39m docs/about/index.html
+[2m18:14:08[22m [34m[watch][39m docs/about/index.html
+[2m18:14:08[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m18:14:08[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m18:14:09[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m18:14:09[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m18:14:09[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m18:14:09[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m18:14:10[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m18:14:11[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m18:14:11[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m18:14:11[22m [34m[watch][39m docs/blog/index.html
+[2m18:14:11[22m [34m[watch][39m docs/blog/index.html
+[2m18:14:11[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m18:14:11[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m18:14:11[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m18:14:12[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m18:14:12[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m18:14:12[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m18:14:12[22m [34m[watch][39m docs/research/index.html
+[2m18:14:12[22m [34m[watch][39m docs/teaching/index.html
+[2m18:14:12[22m [34m[watch][39m docs/index.html
+[2m18:25:31[22m [34m[watch][39m docs/404-preview/index.html
+[2m18:25:31[22m [34m[watch][39m docs/about/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m18:25:31[22m [34m[watch][39m docs/404.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m18:25:31[22m [34m[watch][39m docs/blog/index.html
+[2m18:25:31[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m18:25:31[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m18:25:31[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m18:25:31[22m [34m[watch][39m docs/research/index.html
+[2m18:25:31[22m [34m[watch][39m docs/teaching/index.html
+[2m18:25:31[22m [34m[watch][39m docs/index.html
+[2m18:25:41[22m [34m[watch][39m docs/404.html
+[2m18:25:43[22m [34m[watch][39m docs/404-preview/index.html
+[2m18:25:43[22m [34m[watch][39m docs/blog/index.html
+[2m18:25:43[22m [34m[watch][39m docs/about/index.html
+[2m18:25:43[22m [34m[watch][39m docs/research/index.html
+[2m18:25:44[22m [34m[watch][39m docs/blog/designing-ai-for-accountability/index.html
+[2m18:25:44[22m [34m[watch][39m docs/blog/measuring-engagement-that-matters/index.html
+[2m18:25:44[22m [34m[watch][39m docs/blog/teaching-digital-citizenship-with-ai-assistants/index.html
+[2m18:25:44[22m [34m[watch][39m docs/blog/field-notes-from-participatory-research/index.html
+[2m18:25:44[22m [34m[watch][39m docs/research/behavioral-signals-in-recommendation/index.html
+[2m18:25:44[22m [34m[watch][39m docs/research/civic-tech-codesign/index.html
+[2m18:25:44[22m [34m[watch][39m docs/research/responsible-ai-toolkits/index.html
+[2m18:25:44[22m [34m[watch][39m docs/index.html
+[2m18:25:45[22m [34m[watch][39m docs/blog/interviews/jim-carrey/index.html
+[2m18:25:45[22m [34m[watch][39m docs/blog/interviews/lady-gaga/index.html
+[2m18:25:45[22m [34m[watch][39m docs/blog/interviews/jamie-foxx/index.html
+[2m18:25:45[22m [34m[watch][39m docs/blog/interviews/michael-fassbender/index.html
+[2m18:25:45[22m [34m[watch][39m docs/teaching/index.html

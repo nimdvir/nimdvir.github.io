@@ -1,0 +1,121 @@
+---
+import Layout from '../layouts/Layout.astro';
+import yorkies from '../assets/images/yorkies.gif';
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+---
+
+<Layout title="Page not found" description="Sorry, we couldn't find that page." noindex={true}>
+	<main class="wrap">
+		<section class="content">
+			<p class="eyebrow">404</p>
+			<h1>Lost in the research maze</h1>
+			<p class="lede">
+				The page you’re looking for doesn’t exist or has moved. Try heading back home or exploring
+				the writing section.
+			</p>
+			<div class="actions">
+				<a class="btn" href={withBase('/')}>Go home</a>
+				<a class="ghost" href={withBase('/blog')}>View writing</a>
+			</div>
+		</section>
+		<div class="image-frame">
+			<img src={yorkies.src} alt="Two yorkie dogs looking curious." loading="lazy" />
+		</div>
+	</main>
+</Layout>
+
+<style>
+	main.wrap {
+		min-height: 80vh;
+		padding: 40px 24px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 28px;
+		align-items: center;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.eyebrow {
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		font-weight: 700;
+		color: #6b7280;
+		font-size: 12px;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 32px;
+		letter-spacing: -0.02em;
+	}
+
+	.lede {
+		margin: 0;
+		color: #111827;
+		line-height: 1.6;
+		max-width: 560px;
+	}
+
+	.actions {
+		display: flex;
+		gap: 12px;
+		flex-wrap: wrap;
+		margin-top: 6px;
+	}
+
+	.btn,
+	.ghost {
+		text-decoration: none;
+		font-weight: 700;
+		padding: 10px 14px;
+		border-radius: 10px;
+		border: 1px solid transparent;
+	}
+
+	.btn {
+		background: linear-gradient(135deg, #2563eb, #0ea5e9);
+		color: #ffffff;
+		box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
+	}
+
+	.ghost {
+		color: #0f172a;
+		border-color: #e5e7eb;
+		background: #ffffff;
+	}
+
+	.ghost:hover {
+		border-color: #cbd5e1;
+	}
+
+	.image-frame {
+		display: flex;
+		justify-content: center;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 16px;
+		border: 1px solid #e5e7eb;
+		box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+	}
+
+	@media (max-width: 640px) {
+		main.wrap {
+			padding: 28px 18px;
+		}
+
+		h1 {
+			font-size: 26px;
+		}
+	}
+</style>

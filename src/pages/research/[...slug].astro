@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import RelatedResearch from '../../components/RelatedResearch.astro';
+
+export async function getStaticPaths() {
+	const projects = await getCollection('research');
+	return projects.map((project) => ({
+		params: { slug: project.slug },
+		props: { project },
+	}));
+}
+
+const { project } = Astro.props;
+const { Content } = await project.render();
+---
+
+<Layout title={project.data.title} description={project.data.summary}>
+	<article class="post">
+		<p class="meta">
+			<span>{project.data.year}</span>
+			<span>&middot;</span>
+			<span>{project.data.tags.join(' | ')}</span>
+		</p>
+		<h1>{project.data.title}</h1>
+		<div class="content">
+			<Content />
+		</div>
+	</article>
+	<RelatedResearch currentSlug={project.slug} />
+</Layout>
+
+<style>
+	.post {
+		max-width: 780px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.meta {
+		color: #6b7280;
+		font-size: 14px;
+		margin: 0;
+		display: flex;
+		gap: 8px;
+		align-items: center;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 32px;
+		letter-spacing: -0.02em;
+	}
+
+	.content {
+		font-size: 18px;
+		color: #111827;
+		line-height: 1.6;
+	}
+
+	.content :global(h2) {
+		margin: 24px 0 12px;
+		font-size: 24px;
+		letter-spacing: -0.01em;
+	}
+
+	.content :global(p) {
+		margin: 0 0 16px;
+	}
+
+	.content :global(ul),
+	.content :global(ol) {
+		margin: 0 0 16px 18px;
+		line-height: 1.5;
+		display: grid;
+		gap: 10px;
+	}
+
+	.content :global(strong) {
+		color: #0f172a;
+	}
+
+	@media (max-width: 640px) {
+		h1 {
+			font-size: 26px;
+		}
+
+		.content {
+			font-size: 16px;
+		}
+	}
+</style>
