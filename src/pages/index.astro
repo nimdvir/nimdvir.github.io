@@ -57,18 +57,31 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 				I am a Mixed Methods Researcher and Lecturer at the University at Albany’s Massry School of Business, specializing in Human-Computer Interaction (HCI) and Business Analytics. My work sits at the intersection of data science and behavioral psychology, where I use computational linguistics and AI-driven modeling to understand and optimize how people engage with digital information.
 			</p>
 
-			<h3>What I Bring to the Table:</h3>
-			<ul class="value-props">
-				<li>
-					<strong>Applied AI Research:</strong> Extensive expertise in Large Language Models (LLMs), NLP, and fine-tuning to solve complex organizational problems.
-				</li>
-				<li>
-					<strong>Evidence-Based Design:</strong> A proven track record of collaborating with industry leaders like Costco, Dexcom, and Google to build user-centered, high-impact digital products.
-				</li>
-				<li>
-					<strong>Education & Mentorship:</strong> Deeply committed to pedagogy, I develop and teach graduate and undergraduate courses on Python, Digital Product Design, and Managing IT.
-				</li>
-			</ul>
+			<h3>At a Glance</h3>
+			<div class="stats-grid">
+				<div class="stat-card">
+					<span class="stat-number">4</span>
+					<span class="stat-label">Degrees</span>
+					<span class="stat-sub">Because one was never enough</span>
+				</div>
+				<div class="stat-card">
+					<span class="stat-number">15+</span>
+					<span class="stat-label">Courses Taught</span>
+				</div>
+				<div class="stat-card">
+					<span class="stat-number">11</span>
+					<span class="stat-label">Awards</span>
+					<span class="stat-sub">Yes, I counted</span>
+				</div>
+				<div class="stat-card">
+					<span class="stat-number">20+</span>
+					<span class="stat-label">Media Appearances</span>
+				</div>
+				<div class="stat-card">
+					<span class="stat-number">50+</span>
+					<span class="stat-label">Celebrity Interviews</span>
+				</div>
+			</div>
 
 			<p>
 				Whether I’m analyzing "Sticky Words" in a dissertation that earned Distinguished Research honors or mentoring the next generation of tech leaders, my goal is always to enhance business performance through innovative, ethical technology management.
@@ -503,6 +516,62 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
 	.value-props li {
 		margin-bottom: 12px;
+	}
+
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 16px;
+		margin: 0 0 24px;
+	}
+
+	.stat-card {
+		background: #f8fafc;
+		border: 1px solid #e2e8f0;
+		border-radius: 12px;
+		padding: 20px 12px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.stat-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+	}
+
+	.stat-number {
+		font-size: 32px;
+		font-weight: 800;
+		color: #1e3a5f;
+		line-height: 1;
+	}
+
+	.stat-label {
+		font-size: 14px;
+		font-weight: 600;
+		color: #334155;
+	}
+
+	.stat-sub {
+		font-size: 11px;
+		color: #94a3b8;
+		font-style: italic;
+	}
+
+	@media (max-width: 768px) {
+		.stats-grid {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	@media (max-width: 480px) {
+		.stats-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
 
 	.cta-wrapper {
