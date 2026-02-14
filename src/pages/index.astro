@@ -60,25 +60,30 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 			<h3>At a Glance</h3>
 			<div class="stats-grid">
 				<div class="stat-card">
-					<span class="stat-number">🎓 4</span>
+					<span class="stat-emoji">🎓</span>
+					<span class="stat-number">4</span>
 					<span class="stat-label">Degrees</span>
 					<span class="stat-sub">Because one was never enough</span>
 				</div>
 				<div class="stat-card">
-					<span class="stat-number">📚 15+</span>
+					<span class="stat-emoji">📚</span>
+					<span class="stat-number">15+</span>
 					<span class="stat-label">Courses Taught</span>
 				</div>
 				<div class="stat-card">
-					<span class="stat-number">🏆 11</span>
+					<span class="stat-emoji">🏆</span>
+					<span class="stat-number">11</span>
 					<span class="stat-label">Awards</span>
 					<span class="stat-sub">Yes, I counted</span>
 				</div>
 				<div class="stat-card">
-					<span class="stat-number">📺 20+</span>
+					<span class="stat-emoji">📺</span>
+					<span class="stat-number">20+</span>
 					<span class="stat-label">Media Appearances</span>
 				</div>
 				<div class="stat-card">
-					<span class="stat-number">🎤 50+</span>
+					<span class="stat-emoji">🎤</span>
+					<span class="stat-number">50+</span>
 					<span class="stat-label">Celebrity Interviews</span>
 				</div>
 			</div>
@@ -560,6 +565,11 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		font-size: 32px;
 		font-weight: 800;
 		color: #1e3a5f;
+		line-height: 1;
+	}
+
+	.stat-emoji {
+		font-size: 28px;
 		line-height: 1;
 	}
 
