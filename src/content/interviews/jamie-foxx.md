@@ -1,5 +1,6 @@
 ---
 title: 'Jamie Foxx Is in the House'
+interviewee: 'Jamie Foxx'
 date: 'Aug 17, 2005'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Oscar winner Jamie Foxx on life after the Academy Award, filming "Stealth," and the perks of superstar status.'

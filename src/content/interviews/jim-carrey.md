@@ -1,5 +1,6 @@
 ---
 title: 'And Now, Seriously: Jim Carrey'
+interviewee: 'Jim Carrey'
 date: 'Jan 18, 2006'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Jim Carrey on "Fun with Dick and Jane," corporate America, meditation, and why he wants to "turn into a ball of light."'

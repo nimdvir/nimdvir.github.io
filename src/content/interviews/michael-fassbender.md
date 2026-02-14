@@ -1,5 +1,6 @@
 ---
 title: "Michael Fassbender: 'I Hope Humanity Has Changed'"
+interviewee: 'Michael Fassbender'
 date: 'Jan 20, 2014'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Michael Fassbender on "12 Years a Slave," working with Steve McQueen, and hoping humanity has moved past such cruelty.'

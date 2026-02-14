@@ -1,5 +1,6 @@
 ---
 title: 'Lady Gaga Show: The Making of a Pop Phenomenon'
+interviewee: 'Lady Gaga'
 date: 'Aug 12, 2009'
 tags: ['Interview', 'Music', 'Media']
 summary: 'Interview with Lady Gaga ahead of her concert in Israel — discussing fame, art, LGBTQ+ fans, and how she engineered her rise to stardom.'

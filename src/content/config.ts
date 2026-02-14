@@ -27,6 +27,7 @@ const interviews = defineCollection({
 	type: 'content',
 	schema: z.object({
 		title: z.string(),
+		interviewee: z.string().optional(),
 		date: z.string(),
 		tags: z.array(z.string()),
 		summary: z.string(),

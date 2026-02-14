@@ -32,6 +32,9 @@ const { Content } = await interview.render();
 				)}
 			</div>
 			<h1>{interview.data.title}</h1>
+			{interview.data.interviewee && (
+				<p class="interview-label"><span class="highlight">Interview — {interview.data.interviewee}</span></p>
+			)}
 			<p class="byline">By <strong>Nimrod Dvir</strong></p>
 			<div class="tags">
 				{interview.data.tags.map((tag) => (
@@ -49,6 +52,24 @@ const { Content } = await interview.render();
 		<div class="content">
 			<Content />
 		</div>
+
+		{(interview.data.source || interview.data.sourceUrl) && (
+			<div class="citation-block">
+				<h3>Cite this article</h3>
+				<p class="citation-text">
+					Dvir, N. ({(() => {
+						const parts = interview.data.date.split(' ');
+						const year = parts[2];
+						const month = parts[0];
+						const day = parts[1].replace(',', '');
+						return `${year}, ${month} ${day}`;
+					})()}). {interview.data.title}. <em>{interview.data.source}</em>.{' '}
+					{interview.data.sourceUrl && (
+						<a href={interview.data.sourceUrl} target="_blank" rel="noreferrer">{interview.data.sourceUrl}</a>
+					)}
+				</p>
+			</div>
+		)}
 
 		<RelatedInterviews currentSlug={`interviews/${interview.slug}`} />
 	</article>
@@ -101,6 +122,18 @@ const { Content } = await interview.render();
 		letter-spacing: -0.02em;
 		margin: 0 0 12px;
 		line-height: 1.2;
+	}
+
+	.interview-label {
+		margin: 0 0 12px;
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 0.02em;
+	}
+
+	.highlight {
+		background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
+		padding: 2px 6px;
 	}
 
 	.byline {
@@ -184,6 +217,39 @@ const { Content } = await interview.render();
 		margin: 48px 0 24px;
 		border: none;
 		border-top: 1px solid #e5e7eb;
+	}
+
+	.citation-block {
+		background: #f9fafb;
+		border: 1px solid #e5e7eb;
+		border-radius: 8px;
+		padding: 20px 24px;
+		margin: 32px 0;
+	}
+
+	.citation-block h3 {
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: #6b7280;
+		margin: 0 0 10px;
+	}
+
+	.citation-text {
+		font-size: 15px;
+		line-height: 1.7;
+		color: #374151;
+		margin: 0;
+		word-break: break-word;
+	}
+
+	.citation-text a {
+		color: #3b82f6;
+		text-decoration: none;
+	}
+
+	.citation-text a:hover {
+		text-decoration: underline;
 	}
 
 	@media (max-width: 600px) {
