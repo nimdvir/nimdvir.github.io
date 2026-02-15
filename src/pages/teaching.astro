@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import feedbackRaw from '../../teaching/feedback.md?raw';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
@@ -90,6 +91,54 @@ const undergraduate = [
 		description: 'Exploring digital rights, misinformation, online safety, and ethical technology use through real-world case analysis.'
 	},
 ];
+
+const graduateGalleryImages = [
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1770858141/APaQ0SSruQHJAILq9qeOP90kUJaP0Iwyl7CHw-3mk3Ep-QqcH3znXVIMOa2zQp6bfFEwXyEloojOg7oStbWM49UQ_y7JurVMipY37o0uW_YMWuY63njomkFWXaGgVPmJ77BG69R0zmOFgKB7aXUoho1QK6ffPdtMwwDwZenfsFWwGMLDABm7yoizL5wr2KqtOvdX6SUnLoBS0-37kjlKj8_UsGK4Qd7ss3cfqKNNJaM_w1280_evph4h.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching2_yt11a0.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138717/me-teaching3_sspjrv.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138719/me-teaching5_mj5t9u.webp',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138722/me-teaching8_plhrqy.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138723/me-teaching9_z4v7la.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138721/me-teaching7_lixiz2.jpg',
+];
+
+const undergraduateGalleryImages = [
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching_f63xsl.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching2_yt11a0.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138720/me-teaching6_p4f8g7.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138722/me-teaching8_plhrqy.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138724/me-teaching10_bhiacw.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138723/me-teaching9_z4v7la.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138726/me-teaching12_bmaugv.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138725/me-teaching11_bmostq.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138729/me-teaching14_ywtjk7.jpg',
+	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138728/me-teaching13_fbtkf3.jpg',
+];
+
+const feedbackEntries = feedbackRaw
+	.split(/\r?\n\s*---+\s*\r?\n/g)
+	.map((block) => block.trim())
+	.filter(Boolean)
+	.map((block) => {
+		const normalizedBlock = block.replace(/\*\*/g, '').trim();
+		const courseMatch = normalizedBlock.match(/(?:-|–|\.)?\s*([A-Za-z]{3,5}\s*\d{3})\s*$/i);
+		const course = (courseMatch?.[1] ?? '')
+			.replace(/\s+/g, ' ')
+			.trim()
+			.toUpperCase();
+
+		const quoteMatch = normalizedBlock.match(/"([\s\S]*?)"/);
+		let quote = quoteMatch?.[1] ?? normalizedBlock;
+
+		if (!quoteMatch && courseMatch) {
+			quote = quote.replace(/(?:-|–|\.)?\s*[A-Za-z]{3,5}\s*\d{3}\s*$/i, '');
+		}
+
+		quote = quote.replace(/\s+/g, ' ').trim();
+
+		return { quote, course };
+	})
+	.filter((entry) => entry.quote.length > 0);
 ---
 
 <Layout
@@ -139,6 +188,11 @@ const undergraduate = [
 	</script>
 
 	<section class="course-section">
+		<div class="teaching-gallery" aria-label="Graduate teaching image gallery">
+			<div id="graduate-gallery-particles" class="gallery-particles" aria-hidden="true"></div>
+			<img id="graduate-gallery-image" src={graduateGalleryImages[0]} alt="Graduate teaching moments" loading="lazy" class="gallery-image visible" />
+			<script id="graduate-gallery-data" type="application/json" set:html={JSON.stringify(graduateGalleryImages)}></script>
+		</div>
 		<h2 class="section-title"><i class="fas fa-user-graduate"></i> Graduate</h2>
 		<div class="courses">
 			{graduate.map((c) => (
@@ -158,6 +212,11 @@ const undergraduate = [
 	</section>
 
 	<section class="course-section">
+		<div class="teaching-gallery" aria-label="Undergraduate teaching image gallery">
+			<div id="undergraduate-gallery-particles" class="gallery-particles" aria-hidden="true"></div>
+			<img id="undergraduate-gallery-image" src={undergraduateGalleryImages[0]} alt="Undergraduate teaching moments" loading="lazy" class="gallery-image visible" />
+			<script id="undergraduate-gallery-data" type="application/json" set:html={JSON.stringify(undergraduateGalleryImages)}></script>
+		</div>
 		<h2 class="section-title"><i class="fas fa-book-open"></i> Undergraduate</h2>
 		<div class="courses">
 			{undergraduate.map((c) => (
@@ -175,6 +234,117 @@ const undergraduate = [
 			))}
 		</div>
 	</section>
+
+	<section class="course-section feedback-section">
+		<h2 class="section-title"><i class="fas fa-comments"></i> Student Feedback</h2>
+		<div class="feedback-grid">
+			<div class="feedback-images">
+				<img src={withBase('/images/teaching/appriciation-letters.jpg')} alt="Student thank-you notes" loading="lazy" />
+				<img src={withBase('/images/teaching/me-class.gif')} alt="In-class student interaction" loading="lazy" />
+			</div>
+
+			<div class="feedback-carousel" aria-live="polite">
+				<p class="feedback-label">What students are saying</p>
+				<blockquote id="feedback-quote"></blockquote>
+				<p id="feedback-course"></p>
+				<script id="feedback-data" type="application/json" set:html={JSON.stringify(feedbackEntries)}></script>
+			</div>
+		</div>
+	</section>
+
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof particlesJS !== 'undefined') {
+				const galleryParticlesConfig = {
+					particles: {
+						number: { value: 92, density: { enable: true, value_area: 700 } },
+						color: { value: '#f8fafc' },
+						shape: { type: 'circle' },
+						opacity: { value: 0.62, random: true },
+						size: { value: 3.1, random: true },
+						line_linked: { enable: true, distance: 130, color: '#ffffff', opacity: 0.42, width: 1.2 },
+						move: { enable: true, speed: 0.65, direction: 'none', random: true, straight: false, out_mode: 'out' }
+					},
+					interactivity: {
+						detect_on: 'canvas',
+						events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
+					},
+					retina_detect: true
+				};
+
+				particlesJS('graduate-gallery-particles', galleryParticlesConfig);
+				particlesJS('undergraduate-gallery-particles', galleryParticlesConfig);
+			}
+
+			const initializeGallery = (dataId, imageId, intervalMs) => {
+				const dataNode = document.getElementById(dataId);
+				const imageNode = document.getElementById(imageId);
+				if (!dataNode || !imageNode) return;
+
+				const images = JSON.parse(dataNode.textContent || '[]');
+				if (!Array.isArray(images) || images.length === 0) return;
+
+				let currentIndex = 0;
+				const rotateImage = () => {
+					let nextIndex = Math.floor(Math.random() * images.length);
+					if (images.length > 1) {
+						while (nextIndex === currentIndex) {
+							nextIndex = Math.floor(Math.random() * images.length);
+						}
+					}
+
+					imageNode.classList.remove('visible');
+					setTimeout(() => {
+						imageNode.src = images[nextIndex];
+						imageNode.classList.add('visible');
+					}, 180);
+					currentIndex = nextIndex;
+				};
+
+				if (images.length > 1) {
+					setInterval(rotateImage, intervalMs);
+				}
+			};
+
+			initializeGallery('graduate-gallery-data', 'graduate-gallery-image', 3800);
+			initializeGallery('undergraduate-gallery-data', 'undergraduate-gallery-image', 4200);
+
+			const dataNode = document.getElementById('feedback-data');
+			const quoteElement = document.getElementById('feedback-quote');
+			const courseElement = document.getElementById('feedback-course');
+
+			if (!dataNode || !quoteElement || !courseElement) return;
+
+			const feedback = JSON.parse(dataNode.textContent || '[]');
+			if (!Array.isArray(feedback) || feedback.length === 0) return;
+
+			let currentIndex = -1;
+			const rotateFeedback = () => {
+				let nextIndex = Math.floor(Math.random() * feedback.length);
+				if (feedback.length > 1) {
+					while (nextIndex === currentIndex) {
+						nextIndex = Math.floor(Math.random() * feedback.length);
+					}
+				}
+
+				const next = feedback[nextIndex];
+				quoteElement.classList.remove('visible');
+				courseElement.classList.remove('visible');
+
+				setTimeout(() => {
+					quoteElement.textContent = `“${next.quote}”`;
+					courseElement.textContent = next.course ? `— ${next.course}` : '';
+					quoteElement.classList.add('visible');
+					courseElement.classList.add('visible');
+				}, 120);
+
+				currentIndex = nextIndex;
+			};
+
+			rotateFeedback();
+			setInterval(rotateFeedback, 5500);
+		});
+	</script>
 </Layout>
 
 <style>
@@ -259,6 +429,10 @@ const undergraduate = [
 		padding: 0 24px;
 	}
 
+	.feedback-section {
+		margin-bottom: 56px;
+	}
+
 	.section-title {
 		font-size: 24px;
 		margin: 0 0 16px;
@@ -333,11 +507,139 @@ const undergraduate = [
 		font-size: 15px;
 	}
 
+	.teaching-gallery {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 14px;
+		padding: 16px;
+		height: 420px;
+		border: 1px solid #e5e7eb;
+		border-radius: 14px;
+		overflow: hidden;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+	}
+
+	.gallery-particles {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.gallery-image {
+		position: relative;
+		z-index: 2;
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center center;
+		opacity: 0;
+		transition: opacity 220ms ease;
+	}
+
+	.gallery-image.visible {
+		opacity: 1;
+	}
+
+	.feedback-grid {
+		display: grid;
+		grid-template-columns: 1.1fr 1fr;
+		gap: 20px;
+		align-items: stretch;
+	}
+
+	.feedback-images {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 14px;
+	}
+
+	.feedback-images img {
+		width: 100%;
+		height: 220px;
+		object-fit: cover;
+		border-radius: 14px;
+		border: 1px solid #e5e7eb;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+	}
+
+	.feedback-carousel {
+		background: #ffffff;
+		border: 1px solid #e5e7eb;
+		border-radius: 14px;
+		padding: 20px;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.feedback-label {
+		margin: 0 0 10px;
+		font-size: 12px;
+		font-weight: 700;
+		color: #1e3a5f;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	#feedback-quote {
+		margin: 0;
+		font-size: 20px;
+		line-height: 1.55;
+		color: #0f172a;
+		font-weight: 600;
+		opacity: 0;
+		transition: opacity 200ms ease;
+	}
+
+	#feedback-course {
+		margin: 14px 0 0;
+		font-size: 14px;
+		font-weight: 700;
+		color: #475569;
+		opacity: 0;
+		transition: opacity 200ms ease;
+	}
+
+	#feedback-quote.visible,
+	#feedback-course.visible {
+		opacity: 1;
+	}
+
 	@media (max-width: 640px) {
 		summary {
 			padding: 14px 16px;
 		}
 		summary h3 { font-size: 14px; }
+
+		.gallery-image {
+			height: 100%;
+		}
+
+		.teaching-gallery {
+			height: 300px;
+			padding: 10px;
+		}
+
+		.feedback-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.feedback-images img {
+			height: 180px;
+		}
+
+		#feedback-quote {
+			font-size: 18px;
+		}
 	}
 
 	@media (max-width: 600px) {

@@ -7,17 +7,17 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 const { currentSlug, heading = 'More Interviews' } = Astro.props;
 
 const interviews = await getCollection('interviews');
-const related = interviews.filter((interview) => `interviews/${interview.slug}` !== currentSlug).slice(0, 3);
+const related = interviews.filter((interview) => `interviews/${interview.slug}` !== currentSlug);
 ---
 
-<section class="related">
+<section class="related" data-base={base}>
 	<div class="related-head">
 		<h2>{heading}</h2>
 		<a class="browse" href={withBase('/media')}>Browse all <i class="fas fa-arrow-right"></i></a>
 	</div>
-	<div class="related-grid">
+	<div class="related-grid" id="related-grid">
 		{related.map((interview) => (
-			<a class="card" href={withBase(`/interviews/${interview.slug}`)}>
+			<a class="card js-related-card" href={withBase(`/interviews/${interview.slug}`)}>
 				<div class="thumb-wrap">
 					{interview.data.image && (
 						<img 
@@ -42,6 +42,32 @@ const related = interviews.filter((interview) => `interviews/${interview.slug}` 
 			</a>
 		))}
 	</div>
+	<script is:inline>
+		document.addEventListener('DOMContentLoaded', () => {
+			const grid = document.getElementById('related-grid');
+			if (!grid) return;
+
+			const cards = Array.from(grid.querySelectorAll('.js-related-card'));
+			if (cards.length <= 3) return;
+
+			const shuffled = [...cards];
+
+			for (let index = shuffled.length - 1; index > 0; index -= 1) {
+				const randomIndex = Math.floor(Math.random() * (index + 1));
+				[shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+			}
+
+			const selected = shuffled.slice(0, 3);
+			cards.forEach((card) => {
+				card.style.display = 'none';
+			});
+
+			selected.forEach((card) => {
+				card.style.display = 'flex';
+				grid.appendChild(card);
+			});
+		});
+	</script>
 </section>
 
 <style>
@@ -84,6 +110,10 @@ const related = interviews.filter((interview) => `interviews/${interview.slug}` 
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 		gap: 20px;
+	}
+
+	.js-related-card:nth-child(n + 4) {
+		display: none;
 	}
 
 	.card {

@@ -82,18 +82,21 @@ const glance = [
 	</section>
 
 	<section class="interviews-grid">
-		{sortedInterviews.map((interview) => (
-			<a href={withBase(`/interviews/${interview.slug}`)} class="interview-circle">
-				{interview.data.image && (
-					<img 
-						src={interview.data.image.startsWith('http') ? interview.data.image : withBase(interview.data.image)} 
-						alt={interview.data.title} 
-						loading="lazy" 
-					/>
-				)}
-				<span class="interview-name">{interview.slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</span>
-			</a>
-		))}
+		{sortedInterviews.map((interview) => {
+			const displayName = interview.data.interviewee ?? interview.slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+			return (
+				<a href={withBase(`/interviews/${interview.slug}`)} class="interview-circle">
+					{interview.data.image && (
+						<img 
+							src={interview.data.image.startsWith('http') ? interview.data.image : withBase(interview.data.image)} 
+							alt={interview.data.title} 
+							loading="lazy" 
+						/>
+					)}
+					<span class="interview-name">{displayName}</span>
+				</a>
+			);
+		})}
 	</section>
 </Layout>
 
