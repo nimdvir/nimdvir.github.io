@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nimdvir.github.io/sitemap-index.xml
