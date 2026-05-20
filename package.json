@@ -7,8 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "git add . && git commit -m \"Content update\" && git push origin master",
-    "deploy:docs": "git add . && git commit -m \"Content update\" && git push origin master"
+    "deploy": "npm run build && git push origin main",
+    "deploy:docs": "npm run deploy"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",

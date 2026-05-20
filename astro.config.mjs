@@ -6,7 +6,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://nimdvir.github.io',
 	base: '/',
-	outDir: 'docs',
 	integrations: [sitemap()],
 	devToolbar: {
 		enabled: false
