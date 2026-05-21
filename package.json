@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/finalize-sitemap.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "optimize:images": "imagemin \"images/**/*.{jpg,jpeg,png,gif,svg}\" --out-dir=images --plugin=mozjpeg --plugin=pngquant --plugin=gifsicle --plugin=svgo",
