@@ -1,16 +1,88 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const toAssetPath = (image?: string) => {
+	if (!image || image.trim().startsWith('url(')) {
+		return undefined;
+	}
+
+	return image;
+};
+
+const researchEntries = await getCollection('research');
+const publicationEntries = await getCollection('publications');
+const talkEntries = await getCollection('talks');
+
+const researchProjects = researchEntries.sort((left, right) => {
+	const featuredDelta = Number(right.data.featured ?? false) - Number(left.data.featured ?? false);
+	if (featuredDelta !== 0) {
+		return featuredDelta;
+	}
+
+	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
+	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
+});
+
+const featuredResearch = researchProjects.filter((entry) => entry.data.featured);
+const additionalResearch = researchProjects.filter((entry) => !entry.data.featured);
+const publications = [...publicationEntries].sort((left, right) => {
+	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
+	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
+});
+const talks = [...talkEntries].sort((left, right) => {
+	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
+	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
+});
+const researchInterestKeywords = [
+	'Artificial Intelligence',
+	'Machine Learning',
+	'User Experience',
+	'Ethics of AI',
+	'Human-Computer Interaction',
+	'Decision-Making',
+	'Digital Learning',
+	'Computational Linguistics',
+	'Information Behavior',
+	'Behavioral Economics',
+	'Natural Language Processing (NLP)',
+	'Content Strategy',
+	'Design Research',
+	'Computers and Society',
+];
+
+const manuscriptsInPreparation = [
+	'Predicting information engagement using computational linguistics and NLP (under review).',
+	'The Ways of Words: Impact of word choice on engagement and decision making.',
+	'Phrasing for Success: Optimizing information engagement with AI and computational linguistics.',
+	'Unified understanding of information engagement: literature review across HCI and behavior.',
+	'Teaching IT and product design in MBA programs: qualitative exploration.',
+];
+
+const publicationSeeds = [
+	'Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information Engagement (Doctoral dissertation, 2022).',
+	'Process of information engagement: Integrating information behavior and user engagement. Proceedings of ASIS&T, 57(1), 2020.',
+	'Systematic improvement of user engagement with academic titles using computational linguistics. Informing Science and IT Education Conference, 2019.',
+	'When less is more: Consumer behavior and information sharing on landing pages. Informing Science, 2018.',
+	'What is user engagement? Interdisciplinary perspective on interactions with IT, 2018.',
+];
+
+const talkSeeds = [
+	'Does phrasing matter? Using generative text to improve information engagement and UX. ILAIS 2023.',
+	'What do users read? Predictive models of information engagement. ILAIS 2021.',
+	'Sticky words: linguistic analysis for better information interactions. ICIS / ASIS&T 2018.',
+	'Less is more: digital content volume and engagement. UXPA International / Informing Science, 2018.',
+];
 
 const glance = [
-	{ emoji: '🔬', value: '10,000+', label: 'Research participants' },
-	{ emoji: '📈', value: '40%', label: 'Engagement lift measured' },
-	{ emoji: '📄', value: '10+', label: 'Publications & manuscripts' },
-	{ emoji: '🎤', value: '8+', label: 'Conference talks' },
-	{ emoji: '🤝', value: '6+', label: 'Industry collaborations' },
-	{ emoji: '🏆', value: '3', label: 'Research awards' },
+	{ value: `${researchProjects.length}`, label: 'Research projects' },
+	{ value: `${featuredResearch.length}`, label: 'Featured projects' },
+	{ value: `${publications.length || publicationSeeds.length}`, label: 'Publications & manuscripts' },
+	{ value: `${talks.length || talkSeeds.length}`, label: 'Talks' },
+	{ value: 'Methods', label: 'NLP, HCI, design research' },
+	{ value: 'Focus', label: 'AI, information behavior, teaching' },
 ];
 ---
 
@@ -22,11 +94,14 @@ const glance = [
 		<div id="particles-header"></div>
 		<div class="hero-inner">
 			<h1>Research</h1>
+			<p class="hero-copy">
+				Research at the intersection of information engagement, computational linguistics, responsible AI,
+				and pedagogy.
+			</p>
 			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
 			<ul class="glance-strip">
 				{glance.map((item) => (
 					<li>
-						<span class="glance-emoji">{item.emoji}</span>
 						<span class="glance-value">{item.value}</span>
 						<span class="glance-label">{item.label}</span>
 					</li>
@@ -84,11 +159,10 @@ const glance = [
 	<section class="split">
 		<div>
 			<h2><i class="fas fa-lightbulb"></i> Research interests</h2>
-			<ul>
-				<li><i class="fas fa-angle-right"></i> User engagement with information technology and digital learning</li>
-				<li><i class="fas fa-angle-right"></i> AI, machine learning, NLP, and computational linguistics</li>
-				<li><i class="fas fa-angle-right"></i> Responsible AI, ethics, and decision-making</li>
-				<li><i class="fas fa-angle-right"></i> Behavioral economics, information behavior, content strategy</li>
+			<ul class="keyword-list">
+				{researchInterestKeywords.map((keyword) => (
+					<li>{keyword}</li>
+				))}
 			</ul>
 		</div>
 		<div>
@@ -101,6 +175,51 @@ const glance = [
 		</div>
 	</section>
 
+	<section class="featured-section">
+		<div class="section-head">
+			<div>
+				<p class="section-label">Featured research</p>
+				<h2>Legacy-backed foundations and current research directions</h2>
+			</div>
+			<a href={withBase('/research/')}>Browse research archive</a>
+		</div>
+		<div class="research-grid">
+			{featuredResearch.map((entry) => (
+				<article class="research-card">
+					{toAssetPath(entry.data.image) && (
+						<a href={withBase(`/research/${entry.slug}/`)}>
+							<img src={withBase(toAssetPath(entry.data.image)!)} alt={entry.data.title} loading="lazy" />
+						</a>
+					)}
+					<div class="research-card__body">
+						<p class="card-meta">{entry.data.year}{entry.data.subtitle ? ` · ${entry.data.subtitle}` : ''}</p>
+						<h3><a href={withBase(`/research/${entry.slug}/`)}>{entry.data.title}</a></h3>
+						<p>{entry.data.summary}</p>
+					</div>
+				</article>
+			))}
+		</div>
+	</section>
+
+	{additionalResearch.length > 0 && (
+		<section class="archive-section">
+			<div class="section-head compact">
+				<div>
+					<p class="section-label">Additional research</p>
+					<h2>Current and emerging work</h2>
+				</div>
+			</div>
+			<ul class="archive-list">
+				{additionalResearch.map((entry) => (
+					<li>
+						<a href={withBase(`/research/${entry.slug}/`)}>{entry.data.title}</a>
+						<span>{entry.data.year}</span>
+					</li>
+				))}
+			</ul>
+		</section>
+	)}
+
 	<section class="lists">
 		<details class="collapsible-section">
 			<summary>
@@ -109,11 +228,7 @@ const glance = [
 			</summary>
 			<div class="list-content">
 				<ol>
-					<li>Predicting information engagement using computational linguistics and NLP (under review).</li>
-					<li>The Ways of Words: Impact of word choice on engagement and decision making.</li>
-					<li>Phrasing for Success: Optimizing information engagement with AI and computational linguistics.</li>
-					<li>Unified understanding of information engagement: literature review across HCI and behavior.</li>
-					<li>Teaching IT and product design in MBA programs: qualitative exploration.</li>
+					{manuscriptsInPreparation.map((item) => <li>{item}</li>)}
 				</ol>
 			</div>
 		</details>
@@ -126,27 +241,21 @@ const glance = [
 				<span class="chevron" aria-hidden="true"></span>
 			</summary>
 			<div class="list-content">
-				<ul class="pubs">
-					<li>
-						<i class="fas fa-scroll"></i> Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information
-						Engagement (Doctoral dissertation, 2022).
-					</li>
-					<li>
-						<i class="fas fa-scroll"></i> Process of information engagement: Integrating information behavior and user engagement. Proceedings
-						of ASIS&T, 57(1), 2020.
-					</li>
-					<li>
-						<i class="fas fa-scroll"></i> Systematic improvement of user engagement with academic titles using computational linguistics.
-						Informing Science and IT Education Conference, 2019.
-					</li>
-					<li>
-						<i class="fas fa-scroll"></i> When less is more: Consumer behavior and information sharing on landing pages. Informing Science,
-						2018.
-					</li>
-					<li>
-						<i class="fas fa-scroll"></i> What is user engagement? Interdisciplinary perspective on interactions with IT, 2018.
-					</li>
-				</ul>
+				{publications.length > 0 ? (
+					<ul class="pubs">
+						{publications.map((entry) => (
+							<li>
+								<i class="fas fa-scroll"></i> {entry.data.title}. {entry.data.venue}, {entry.data.year}.
+							</li>
+						))}
+					</ul>
+				) : (
+					<ul class="pubs">
+						{publicationSeeds.map((item) => (
+							<li><i class="fas fa-scroll"></i> {item}</li>
+						))}
+					</ul>
+				)}
 			</div>
 		</details>
 	</section>
@@ -158,16 +267,21 @@ const glance = [
 				<span class="chevron" aria-hidden="true"></span>
 			</summary>
 			<div class="list-content">
-				<ul class="pubs">
-					<li>
-						<i class="fas fa-comments"></i> Does phrasing matter? Using generative text to improve information engagement and UX. ILAIS 2023.
-					</li>
-					<li><i class="fas fa-comments"></i> What do users read? Predictive models of information engagement. ILAIS 2021.</li>
-					<li><i class="fas fa-comments"></i> Sticky words: linguistic analysis for better information interactions. ICIS / ASIS&T 2018.</li>
-					<li>
-						<i class="fas fa-comments"></i> Less is more: digital content volume and engagement. UXPA International / Informing Science, 2018.
-					</li>
-				</ul>
+				{talks.length > 0 ? (
+					<ul class="pubs">
+						{talks.map((entry) => (
+							<li>
+								<i class="fas fa-comments"></i> {entry.data.title}. {entry.data.event}, {entry.data.year}.
+							</li>
+						))}
+					</ul>
+				) : (
+					<ul class="pubs">
+						{talkSeeds.map((item) => (
+							<li><i class="fas fa-comments"></i> {item}</li>
+						))}
+					</ul>
+				)}
 			</div>
 		</details>
 	</section>
@@ -211,6 +325,14 @@ const glance = [
 		color: #fff;
 	}
 
+	.hero-copy {
+		max-width: 720px;
+		margin: 0 auto 18px;
+		font-size: 18px;
+		line-height: 1.7;
+		color: rgba(255,255,255,0.82);
+	}
+
 	.hero-subtitle {
 		font-size: 16px;
 		font-weight: 600;
@@ -244,7 +366,6 @@ const glance = [
 		border: 1px solid rgba(255,255,255,0.08);
 	}
 
-	.glance-emoji { font-size: 24px; }
 	.glance-value { font-weight: 700; font-size: 18px; color: #fff; }
 	.glance-label { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.3; text-align: center; }
 
@@ -276,9 +397,135 @@ const glance = [
 		padding-left: 0;
 	}
 
+	.keyword-list {
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.keyword-list li {
+		padding: 8px 12px;
+		border-radius: 999px;
+		background: #eff6ff;
+		color: #1e3a5f;
+		font-weight: 600;
+	}
+
 	.split ul li i {
 		color: #1e3a5f;
 		margin-right: 8px;
+	}
+
+	.featured-section,
+	.archive-section {
+		margin-top: 36px;
+	}
+
+	.section-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		gap: 16px;
+		margin-bottom: 18px;
+	}
+
+	.section-head a {
+		color: #1d4ed8;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	.section-label {
+		margin: 0 0 6px;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-size: 12px;
+		font-weight: 700;
+		color: #64748b;
+	}
+
+	.section-head h2 {
+		margin: 0;
+		font-size: 26px;
+	}
+
+	.research-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: 18px;
+	}
+
+	.research-card {
+		background: #ffffff;
+		border: 1px solid #e5e7eb;
+		border-radius: 18px;
+		overflow: hidden;
+		box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
+	}
+
+	.research-card img {
+		display: block;
+		width: 100%;
+		height: 180px;
+		object-fit: cover;
+	}
+
+	.research-card__body {
+		padding: 18px;
+		display: grid;
+		gap: 10px;
+	}
+
+	.card-meta {
+		margin: 0;
+		font-size: 13px;
+		color: #64748b;
+	}
+
+	.research-card__body h3 {
+		margin: 0;
+		font-size: 22px;
+		letter-spacing: -0.02em;
+	}
+
+	.research-card__body h3 a {
+		text-decoration: none;
+	}
+
+	.research-card__body p {
+		margin: 0;
+		color: #334155;
+		line-height: 1.6;
+	}
+
+	.archive-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 12px;
+	}
+
+	.archive-list li {
+		display: flex;
+		justify-content: space-between;
+		gap: 12px;
+		padding: 14px 16px;
+		border-radius: 14px;
+		background: #f8fafc;
+		border: 1px solid #e2e8f0;
+	}
+
+	.archive-list a {
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	.archive-list span {
+		color: #64748b;
+		font-weight: 600;
 	}
 
 	.pubs {
@@ -343,7 +590,13 @@ const glance = [
 	@media (max-width: 640px) {
 		.research-hero { padding: 40px 16px 48px; }
 		.hero-inner h1 { font-size: 40px; }
+		.hero-copy { font-size: 16px; }
 		.glance-strip { grid-template-columns: repeat(2, 1fr); }
+		.section-head,
+		.archive-list li {
+			flex-direction: column;
+			align-items: start;
+		}
 
 		h1 {
 			font-size: 26px;

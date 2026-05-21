@@ -17,6 +17,7 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+.cloudinary-upload-cache.json
 
 # macOS-specific files
 .DS_Store
@@ -29,3 +30,8 @@ scraped_site/
 notebooks/
 versions/
 website_scraper.ipynb
+
+# migration staging
+migration/staging/
+migration/originals/
+migration/cloudinary-uploads/

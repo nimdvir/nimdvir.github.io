@@ -1,133 +1,85 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
-const projects = [
-	{
-		title: 'Costco Mobile App',
-		slug: 'costco-mobile',
-		category: 'UX Research',
-		summary:
-			'Enhanced the Costco shopping experience by improving checkout line times and incentivizing in-store shopping through new technologies. Implemented Scan&Go checkout and an in-store "Treasure Hunt" game to increase consumer spending.',
-		description: 'Improved the in-store shopping experience with Scan&Go checkout option. Offered discounts and prizes through gamification to encourage more frequent visits. Designed an innovative approach to exceed customer expectations.',
-		image: '/images/costco.png'
-	},
-	{
-		title: 'Barrier Free Living',
-		slug: 'barrier-free-living',
-		category: 'Content Strategy',
-		summary:
-			'UX research project for a leading non-profit helping people with disabilities who suffer from domestic violence in NYC. Developed content strategy to achieve fundraising goals through content optimization.',
-		description: 'Conducted research and evaluation including a deep dive into current website content, interviews with staff and volunteers. Developed recommendations for optimizing the donation page, enhancing storytelling through video and social media, and improving accessibility.',
-		image: '/images/barrier-free-living-new.png'
-	},
-	{
-		title: 'Nasher Sculpture Center',
-		slug: 'nasher-sculpture-center',
-		category: 'UX Research',
-		summary:
-			'UX research project to drive online revenue and engagement for the Nasher Sculpture Center museum in Dallas, Texas. Focused on content strategy, user research, and interaction design.',
-		description: 'Audited all digital content, enhanced search engine optimization, and created a better online membership purchasing experience. Designed a new prototype to provide better online engagement and build user loyalty.',
-		image: '/images/nasher-new.png'
-	},
-	{
-		title: 'Dexcom G7+ Application',
-		slug: 'dexcom',
-		category: 'UX Research',
-		summary:
-			'UX research for the Dexcom G7+ health tech application to gather insights from diabetics (Type 1 and 2) and their caregivers. Identified pain points and areas for improvement.',
-		description: 'Conducted user interviews, surveys, and usability testing. Focused on customization options, predictive measures, event tracking, historical data logging, integration with fitness data, and tracking of hormones in interstitial fluid.',
-		image: '/images/dexcom-new.png'
-	},
-	{
-		title: 'Timeout Tel Aviv',
-		slug: 'timeout',
-		category: 'UX Design',
-		summary:
-			'Website wireframe and design work for Timeout Tel Aviv, a leading city guide publication. Focused on editorial and content strategy.',
-		description: 'Developed website wireframes and UX improvements for the city guide publication to enhance user engagement and content discoverability.',
-		image: '/images/timeout.png'
-	},
-	{
-		title: 'Zang Toi',
-		slug: 'zang-toi',
-		category: 'Digital Strategy',
-		summary:
-			'Online presence redesign for internationally acclaimed fashion designer Zang Toi. Created a visually captivating and user-friendly website embodying the designer\'s signature style and elegance.',
-		description: 'Implemented cohesive branding strategy, PR & press information, marketing, and conversion & retention strategies. Redesigned website to captivate visitors, drive sales, and cultivate a lasting connection with global audience.',
-		image: '/images/zang-toi.png'
-	},
-	{
-		title: 'Facebook Content Strategy',
-		slug: 'facebook',
-		category: 'UX Research',
-		summary:
-			'UX research project to identify content strategy opportunities and re-envision the content experience for Facebook users using qualitative and quantitative methods.',
-		description: 'Used user interviews, surveys, and data analysis to understand how users discovered, consumed, and engaged with content. Provided actionable recommendations for content strategy and user experience improvements.',
-		image: '/images/facebook.png'
-	},
-	{
-		title: 'Sticky Words Research',
-		slug: 'sticky-words',
-		category: 'Research',
-		summary:
-			'Dissertation research using computational linguistics to assess and manipulate information engagement. Distinguished Dissertation Award winner.',
-		description: 'Doctoral dissertation exploring how word choice impacts user engagement using NLP and computational linguistics approaches.',
-		image: '/images/sticky.png'
-	},
-	{
-		title: 'Less is More',
-		slug: 'less-is-more',
-		category: 'Research',
-		summary:
-			'Explores how the amount of information on marketing landing pages impacts user engagement and decision-making through large-scale online experiments.',
-		description: 'Two large-scale experiments (n=535 and n=27,900) conducted in real-world commercial settings. Found negative correlation between information amount and users\' decision-making and engagement.',
-		image: '/images/less-is-more.png'
-	},
-	{
-		title: 'Information Engagement',
-		slug: 'information-engagement',
-		category: 'Research',
-		summary:
-			'Research integrating information behavior and user engagement to understand how people engage with information systems and digital content.',
-		description: 'Foundational research on user engagement with information technology, forming the basis for applied UX and content strategy work.',
-		image: '/images/info-engagement.png'
-	}
-];
+const projectEntries = await getCollection('projects');
+const projects = projectEntries.sort((left, right) => {
+	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
+	return orderDelta !== 0 ? orderDelta : left.data.title.localeCompare(right.data.title);
+});
+
+const categories = [...new Set(projects.map((project) => project.data.category))];
+const featuredCount = projects.filter((project) => project.data.featured).length;
 ---
 
 <Layout
 	title="Projects"
-	description="Selected UX and AI projects spanning accessibility, culture, commerce, and health tech."
+	description="Selected industry collaborations and case studies spanning accessibility, culture, commerce, and health tech."
 >
 	<section class="hero">
 		<div class="hero__text">
-			<p class="eyebrow"><i class="fas fa-briefcase"></i> Projects</p>
-			<h1>Applied UX and AI work across domains.</h1>
+			<p class="eyebrow"><i class="fas fa-briefcase"></i> Projects · Case Studies</p>
+			<h1>Industry collaborations and case studies across sectors.</h1>
 			<p class="lede">
-				Collaborations with researchers, industry partners, and designers to deliver data-driven strategies,
-				predictive modeling, and informed decisions.
+				A curated set of client-facing case studies spanning retail, health tech, culture, publishing,
+				nonprofit work, and brand strategy. Each entry documents an industry collaboration or applied design
+				engagement rather than a loose project teaser.
 			</p>
+			<div class="hero__stats">
+				<p><strong>{projects.length}</strong> case studies</p>
+				<p><strong>{featuredCount}</strong> featured projects</p>
+				<p><strong>{projects.filter((project) => project.data.client).length}</strong> industry collaborations</p>
+			</div>
 		</div>
 		<div class="hero__image">
 			<img src={withBase('/images/portfolio.jpg')} alt="Portfolio overview" loading="lazy" />
 		</div>
 	</section>
 
+	<section class="overview" aria-label="Project categories">
+		<div>
+			<h2>Case-study focus</h2>
+			<p>
+				This section is intentionally framed as case studies and industry collaborations. It separates applied
+				practice from research so the portfolio can show client context, role, and outcomes more clearly.
+			</p>
+		</div>
+		<ul class="category-list">
+			{categories.map((category) => (
+				<li>{category}</li>
+			))}
+		</ul>
+	</section>
+
 	<section class="grid">
 		{projects.map((project) => (
 			<article class="card">
-				<img src={withBase(project.image)} alt={project.title} loading="lazy" />
+				<a href={withBase(`/projects/${project.slug}/`)} class="card__image-link">
+					{project.data.image && (
+						<img src={withBase(project.data.image)} alt={project.data.title} loading="lazy" />
+					)}
+				</a>
 				<div class="body">
-					<span class="category"><i class="fas fa-tag"></i> {project.category}</span>
-					<h2><i class="fas fa-folder-open"></i> {project.title}</h2>
-					<p>{project.summary}</p>
-					<details class="project-details">
-						<summary><i class="fas fa-info-circle"></i> More details</summary>
-						<p class="description">{project.description}</p>
-					</details>
+					<div class="card-badges">
+						<span class="case-study-pill">Case Study</span>
+						<span class="category"><i class="fas fa-tag"></i> {project.data.client ? 'Industry collaboration' : 'Applied work'} · {project.data.category}</span>
+					</div>
+					<h2>
+						<a href={withBase(`/projects/${project.slug}/`)}>{project.data.title}</a>
+					</h2>
+					<p>{project.data.summary}</p>
+					{(project.data.client || project.data.role) && (
+						<p class="description">
+							{project.data.client && <span><strong>Client:</strong> {project.data.client}</span>}
+							{project.data.role && <span><strong>Role:</strong> {project.data.role}</span>}
+						</p>
+					)}
+					<a class="case-study-link" href={withBase(`/projects/${project.slug}/`)}>
+						View case study <i class="fas fa-arrow-right" aria-hidden="true"></i>
+					</a>
 				</div>
 			</article>
 		))}
@@ -147,6 +99,21 @@ const projects = [
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
+	}
+
+	.hero__stats {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.hero__stats p {
+		margin: 0;
+		padding: 10px 14px;
+		border-radius: 999px;
+		background: #eff6ff;
+		color: #1e3a5f;
+		font-size: 14px;
 	}
 
 	.hero__image img {
@@ -179,6 +146,42 @@ const projects = [
 		max-width: 680px;
 	}
 
+	.overview {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: 20px;
+		align-items: start;
+		padding: 8px 0 12px;
+	}
+
+	.overview h2 {
+		margin: 0 0 8px;
+		font-size: 22px;
+	}
+
+	.overview p {
+		color: #334155;
+		line-height: 1.6;
+	}
+
+	.category-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.category-list li {
+		padding: 10px 14px;
+		border-radius: 999px;
+		background: #f8fafc;
+		border: 1px solid #dbe4ef;
+		color: #1e293b;
+		font-weight: 600;
+	}
+
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -202,6 +205,10 @@ const projects = [
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 	}
 
+	.card__image-link {
+		display: block;
+	}
+
 	.card img {
 		width: 100%;
 		height: 200px;
@@ -215,12 +222,34 @@ const projects = [
 		gap: 8px;
 	}
 
+	.body a {
+		text-decoration: none;
+	}
+
 	.category {
 		font-size: 12px;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 		color: #6b7280;
+	}
+
+	.card-badges {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.case-study-pill {
+		width: fit-content;
+		padding: 6px 10px;
+		border-radius: 999px;
+		background: #dbeafe;
+		color: #1d4ed8;
+		font-size: 11px;
+		font-weight: 800;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
 	}
 
 	.category i {
@@ -233,6 +262,10 @@ const projects = [
 		letter-spacing: -0.01em;
 	}
 
+	h2 a:hover {
+		color: #1d4ed8;
+	}
+
 	h2 i {
 		color: #6b7280;
 	}
@@ -243,30 +276,6 @@ const projects = [
 		line-height: 1.5;
 	}
 
-	.project-details {
-		margin-top: 8px;
-	}
-
-	.project-details summary {
-		cursor: pointer;
-		font-weight: 600;
-		font-size: 14px;
-		color: #3b82f6;
-		list-style: none;
-	}
-
-	.project-details summary::-webkit-details-marker {
-		display: none;
-	}
-
-	.project-details summary i {
-		margin-right: 6px;
-	}
-
-	.project-details[open] summary {
-		margin-bottom: 8px;
-	}
-
 	.description {
 		font-size: 14px;
 		color: #475569;
@@ -274,6 +283,17 @@ const projects = [
 		background: #f8fafc;
 		border-radius: 8px;
 		border: 1px solid #e2e8f0;
+		display: grid;
+		gap: 6px;
+	}
+
+	.case-study-link {
+		margin-top: auto;
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		color: #1d4ed8;
+		font-weight: 700;
 	}
 
 	@media (max-width: 640px) {

@@ -6,12 +6,12 @@ const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
 const glance = [
-	{ emoji: '🐍', value: '15+', label: 'Courses taught' },
-	{ emoji: '👩‍🎓', value: '150+', label: 'Students per semester' },
-	{ emoji: '🎓', value: 'Grad + UG', label: 'Both levels' },
-	{ emoji: '💻', value: 'Python', label: 'Most-taught language' },
-	{ emoji: '🤖', value: 'AI & UX', label: 'Core focus areas' },
-	{ emoji: '⭐', value: 'Award', label: 'Service recognition' },
+	{ emoji: '📅', value: '10+ years', label: 'University-level teaching' },
+	{ emoji: '👥', value: '3 to 300', label: 'Students in a single course' },
+	{ emoji: '🎓', value: '4,000+', label: 'Students taught' },
+	{ emoji: '🧭', value: '25+', label: 'Course deliveries in multiple formats' },
+	{ emoji: '🏫', value: 'Grad + UG', label: 'Undergraduate and graduate teaching' },
+	{ emoji: '💻', value: 'In-person + Online + Hybrid', label: 'Across delivery formats' },
 ];
 
 const graduate = [
@@ -186,6 +186,34 @@ const feedbackEntries = feedbackRaw
 			}
 		});
 	</script>
+
+	<section class="course-section teaching-intro-section">
+		<div class="teaching-intro-card">
+			<h2 class="section-title"><i class="fas fa-chalkboard-teacher"></i> My Teaching: From Data to Digital Citizenship</h2>
+			<div class="teaching-intro-copy">
+				<p>
+					Most of the year, I teach at the <strong>University at Albany</strong>, offering <strong>undergraduate</strong>
+					and <strong>graduate</strong> courses in <strong>in-person</strong>, <strong>online</strong>, and
+					<strong>hybrid</strong> formats.
+				</p>
+				<p>
+					At the <strong>Massry School of Business</strong>, I teach in the <strong>Department of Information
+					Systems and Business Analytics</strong>, where my courses focus on how information technology, data
+					management, databases, SQL, and predictive analytics support organizational strategy and solve business
+					problems.
+				</p>
+				<p>
+					I am also affiliated with the <strong>Department of Information Sciences and Technology / Informatics</strong>
+					at the <strong>College of Emergency Preparedness, Homeland Security and Cybersecurity</strong>, where I
+					teach courses in digital citizenship and academic writing. From time to time, I also branch out as a
+					visiting professor and guest instructor at other academic institutions, including programs in New York
+					City and Israel. I am always open to meaningful teaching collaborations, workshops, guest lectures, and
+					interdisciplinary course development. For collaborations, please contact me at
+					<a href="mailto:ndvir@albany.edu">ndvir@albany.edu</a>.
+				</p>
+			</div>
+		</div>
+	</section>
 
 	<section class="course-section">
 		<div class="teaching-gallery" aria-label="Graduate teaching image gallery">
@@ -433,6 +461,39 @@ const feedbackEntries = feedbackRaw
 		margin-bottom: 56px;
 	}
 
+	.teaching-intro-section {
+		margin-top: -10px;
+	}
+
+	.teaching-intro-card {
+		background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+		border: 1px solid #e5e7eb;
+		border-radius: 18px;
+		padding: 28px;
+		box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+	}
+
+	.teaching-intro-copy {
+		display: grid;
+		gap: 16px;
+	}
+
+	.teaching-intro-copy p {
+		margin: 0;
+		font-size: 16px;
+		line-height: 1.8;
+		color: #334155;
+	}
+
+	.teaching-intro-copy strong {
+		color: #0f172a;
+	}
+
+	.teaching-intro-copy a {
+		color: #1d4ed8;
+		font-weight: 600;
+	}
+
 	.section-title {
 		font-size: 24px;
 		margin: 0 0 16px;
@@ -619,6 +680,10 @@ const feedbackEntries = feedbackRaw
 			padding: 14px 16px;
 		}
 		summary h3 { font-size: 14px; }
+
+		.teaching-intro-card {
+			padding: 22px 18px;
+		}
 
 		.gallery-image {
 			height: 100%;

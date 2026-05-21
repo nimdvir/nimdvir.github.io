@@ -3,11 +3,29 @@ import { getCollection } from 'astro:content';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const toAssetPath = (image?: string) => {
+	if (!image || image.trim().startsWith('url(')) {
+		return undefined;
+	}
+
+	return image;
+};
 
 const { currentSlug, heading = 'Related research' } = Astro.props;
 
-const projects = await getCollection('research');
-const related = projects.filter((proj) => proj.slug !== currentSlug).slice(0, 3);
+const entries = await getCollection('research');
+const related = entries
+	.filter((entry) => entry.slug !== currentSlug)
+	.sort((left, right) => {
+		const featuredDelta = Number(right.data.featured ?? false) - Number(left.data.featured ?? false);
+		if (featuredDelta !== 0) {
+			return featuredDelta;
+		}
+
+		const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
+		return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
+	})
+	.slice(0, 3);
 ---
 
 <section class="related">
@@ -16,14 +34,15 @@ const related = projects.filter((proj) => proj.slug !== currentSlug).slice(0, 3)
 		<a class="browse" href={withBase('/research')}>Browse all</a>
 	</div>
 	<div class="related-grid">
-		{related.map((proj) => (
-			<a class="card" href={withBase(`/research/${proj.slug}`)}>
-				{proj.data.image && (
-					<div class="thumb" style={`background-image: ${proj.data.image};`}></div>
+		{related.map((entry) => (
+			<a class="card" href={withBase(`/research/${entry.slug}`)}>
+				{toAssetPath(entry.data.image) && (
+					<img class="thumb" src={withBase(toAssetPath(entry.data.image)!)} alt={entry.data.title} loading="lazy" />
 				)}
 				<div class="card-body">
-					<p class="meta">{proj.data.year}</p>
-					<h3>{proj.data.title}</h3>
+					<p class="meta">{entry.data.year}{entry.data.subtitle ? ` · ${entry.data.subtitle}` : ''}</p>
+					<h3>{entry.data.title}</h3>
+					<p class="summary">{entry.data.summary}</p>
 				</div>
 			</a>
 		))}
@@ -88,8 +107,8 @@ const related = projects.filter((proj) => proj.slug !== currentSlug).slice(0, 3)
 
 	.thumb {
 		height: 120px;
-		background-size: cover;
-		background-position: center;
+		width: 100%;
+		object-fit: cover;
 	}
 
 	.card-body {
@@ -103,6 +122,13 @@ const related = projects.filter((proj) => proj.slug !== currentSlug).slice(0, 3)
 		margin: 0;
 		color: #6b7280;
 		font-size: 13px;
+	}
+
+	.summary {
+		margin: 0;
+		color: #475569;
+		line-height: 1.5;
+		font-size: 14px;
 	}
 
 	h3 {

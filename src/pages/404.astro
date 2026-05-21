@@ -1,9 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import yorkies from '../assets/images/yorkies.gif';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const yorkiesGif = withBase('/images/404/yorkies-party.gif');
 ---
 
 <Layout title="Page not found" description="Sorry, we couldn't find that page." noindex={true}>
@@ -12,17 +12,17 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 			<p class="eyebrow">404</p>
 			<h1>Lost in the research maze</h1>
 			<p class="lede">
-				The page you’re looking for doesn’t exist or has moved. Try heading back home or exploring
-				the writing section.
+				The page you’re looking for doesn’t exist or has moved. The yorkies already found their way back home,
+				so following them to the front page is probably the right move.
 			</p>
 			<div class="actions">
 				<a class="btn" href={withBase('/')}>Go home</a>
 				<a class="ghost" href={withBase('/blog')}>View writing</a>
 			</div>
 		</section>
-		<div class="image-frame">
-			<img src={yorkies.src} alt="Two yorkie dogs looking curious." loading="lazy" />
-		</div>
+		<a class="image-frame" href={withBase('/')}>
+			<img src={yorkiesGif} alt="Animated slideshow of two yorkie dogs celebrating." loading="lazy" />
+		</a>
 	</main>
 </Layout>
 
@@ -99,6 +99,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 	.image-frame {
 		display: flex;
 		justify-content: center;
+		text-decoration: none;
 	}
 
 	img {

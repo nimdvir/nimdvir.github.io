@@ -111,6 +111,15 @@ const personSchema = {
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-0PZ8NW81X4"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				window.dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-0PZ8NW81X4');
+		</script>
 	</head>
 	<body>
 		<Nav />
@@ -136,7 +145,7 @@ const personSchema = {
 		margin: 0;
 		width: 100%;
 		font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-		background: #f8fafc;
+		background: #ffffff;
 		color: #0f172a;
 	}
 

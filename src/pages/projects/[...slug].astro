@@ -1,0 +1,215 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	const projects = await getCollection('projects');
+
+	return projects.map((project) => ({
+		params: { slug: project.slug },
+		props: { project },
+	}));
+}
+
+const { project } = Astro.props;
+const { Content } = await project.render();
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const metadata = [project.data.category, project.data.client, project.data.role, project.data.year].filter(Boolean);
+---
+
+<Layout title={project.data.title} description={project.data.summary} image={project.data.image}>
+	<article class="case-study">
+		<a class="back-link" href={withBase('/projects/')}>Back to projects</a>
+		<p class="eyebrow">Projects · Case Study</p>
+		<h1>{project.data.title}</h1>
+		<p class="summary">{project.data.summary}</p>
+		<p class="case-study-note">This page documents a client collaboration or applied industry-facing case study.</p>
+
+		{metadata.length > 0 && (
+			<ul class="meta">
+				{metadata.map((item) => <li>{item}</li>)}
+			</ul>
+		)}
+
+		{project.data.image && (
+			<img class="hero-image" src={withBase(project.data.image)} alt={project.data.title} loading="lazy" />
+		)}
+
+		{project.data.outcome && (
+			<section class="highlight">
+				<h2>Outcome</h2>
+				<p>{project.data.outcome}</p>
+			</section>
+		)}
+
+		<div class="content">
+			<Content />
+		</div>
+
+		{project.data.tags.length > 0 && (
+			<section class="tags-section" aria-label="Project tags">
+				<h2>Tags</h2>
+				<ul class="tags">
+					{project.data.tags.map((tag) => <li>{tag}</li>)}
+				</ul>
+			</section>
+		)}
+
+		{project.data.researchSlug && (
+			<p class="related-link">
+				Related research: <a href={withBase(`/research/${project.data.researchSlug}/`)}>{project.data.researchSlug}</a>
+			</p>
+		)}
+	</article>
+</Layout>
+
+<style>
+	.case-study {
+		max-width: 860px;
+		margin: 0 auto;
+		display: grid;
+		gap: 18px;
+	}
+
+	.back-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		width: fit-content;
+		color: #1d4ed8;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	.eyebrow {
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-weight: 700;
+		color: #64748b;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 40px;
+		letter-spacing: -0.03em;
+	}
+
+	.summary {
+		margin: 0;
+		font-size: 18px;
+		line-height: 1.7;
+		color: #1f2937;
+	}
+
+	.case-study-note {
+		margin: -8px 0 0;
+		font-size: 14px;
+		font-weight: 600;
+		color: #475569;
+	}
+
+	.meta {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.meta li {
+		padding: 8px 12px;
+		border-radius: 999px;
+		background: #eff6ff;
+		color: #1e3a5f;
+		font-weight: 600;
+	}
+
+	.hero-image {
+		width: 100%;
+		height: auto;
+		border-radius: 20px;
+		border: 1px solid #e2e8f0;
+		box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+	}
+
+	.highlight {
+		padding: 20px;
+		border-radius: 20px;
+		background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+		border: 1px solid #dbe4ef;
+	}
+
+	.highlight h2,
+		.tags-section h2,
+		.content :global(h2) {
+		margin: 0 0 10px;
+		font-size: 24px;
+		letter-spacing: -0.02em;
+	}
+
+	.highlight p {
+		margin: 0;
+		line-height: 1.6;
+		color: #0f172a;
+	}
+
+	.content {
+		font-size: 18px;
+		line-height: 1.7;
+		color: #0f172a;
+	}
+
+	.content :global(p) {
+		margin: 0 0 16px;
+	}
+
+	.content :global(ul),
+		.content :global(ol) {
+		margin: 0 0 16px 18px;
+		padding: 0;
+		display: grid;
+		gap: 10px;
+	}
+
+	.tags {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.tags li {
+		padding: 8px 12px;
+		border-radius: 999px;
+		background: #f8fafc;
+		border: 1px solid #dbe4ef;
+		font-weight: 600;
+		color: #334155;
+	}
+
+	.related-link {
+		margin: 0;
+		font-weight: 600;
+	}
+
+	.related-link a {
+		color: #1d4ed8;
+	}
+
+	@media (max-width: 640px) {
+		h1 {
+			font-size: 30px;
+		}
+
+		.summary,
+		.content {
+			font-size: 16px;
+		}
+	}
+</style>

@@ -5,6 +5,12 @@ import cvUrl from '../assets/NimDvirCV250929.pdf';
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
+const personalFacts = [
+	'Proud father of Jeffery the Chameleon, who takes his role as household color critic very seriously.',
+	'Believes a strong research question and a good cup of coffee solve most things faster than panic does.',
+	'Will happily overthink wording, interface labels, and dinner menus with the same level of rigor.',
+];
+
 const glance = [
 	{ emoji: '🎓', value: '4 degrees', label: 'Because one was never enough' },
 	{ emoji: '🔬', value: '10,000+', label: 'Research participants (voluntarily!)' },
@@ -298,6 +304,24 @@ const service = [
 			<a href="https://www.linkedin.com/in/nimdvir/" target="_blank" rel="noreferrer" class="btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
 			<a href="https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en" target="_blank" rel="noreferrer" class="btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
 		</div>
+	</section>
+
+	<section class="personal-block">
+		<div class="personal-copy">
+			<p class="section-label">Off The CV</p>
+			<h2>A few human details</h2>
+			<p>
+				Not everything worth knowing belongs in a formal bio. Yes, I am a proud father of Jeffery the Chameleon.
+				No, he does not help with grading. He mostly supervises from a branch and judges color palettes.
+			</p>
+			<ul class="personal-list">
+				{personalFacts.map((fact) => <li>{fact}</li>)}
+			</ul>
+		</div>
+		<figure class="pet-card">
+			<img src={withBase('/images/about/jeffery.gif')} alt="Animated collage of Jeffery the Chameleon from photos and short video clips." loading="lazy" />
+			<figcaption>Jeffery The Chameleon, morale officer, branch philosopher, and occasional UX reviewer.</figcaption>
+		</figure>
 	</section>
 </Layout>
 
@@ -663,6 +687,75 @@ const service = [
 		font-size: 14px;
 		color: #334155;
 		line-height: 1.5;
+	}
+
+	.section-label {
+		margin: 0 0 6px;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-size: 12px;
+		font-weight: 700;
+		color: #64748b;
+	}
+
+	.personal-block {
+		max-width: 1000px;
+		margin: 40px auto 0;
+		padding: 0 24px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 24px;
+		align-items: center;
+	}
+
+	.personal-copy {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.personal-copy h2 {
+		margin: 0;
+		font-size: 30px;
+		letter-spacing: -0.02em;
+		color: #0f172a;
+	}
+
+	.personal-copy p {
+		margin: 0;
+		color: #475569;
+		line-height: 1.7;
+	}
+
+	.personal-list {
+		margin: 0;
+		padding-left: 18px;
+		display: grid;
+		gap: 10px;
+		color: #334155;
+	}
+
+	.pet-card {
+		margin: 0;
+		padding: 18px;
+		border-radius: 24px;
+		background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+		color: #e2e8f0;
+		box-shadow: 0 20px 40px rgba(15, 23, 42, 0.16);
+	}
+
+	.pet-card img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 18px;
+		border: 1px solid rgba(255,255,255,0.12);
+	}
+
+	.pet-card figcaption {
+		margin-top: 12px;
+		line-height: 1.6;
+		color: rgba(226,232,240,0.9);
 	}
 
 	/* CTA */

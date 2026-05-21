@@ -7,6 +7,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "optimize:images": "imagemin \"images/**/*.{jpg,jpeg,png,gif,svg}\" --out-dir=images --plugin=mozjpeg --plugin=pngquant --plugin=gifsicle --plugin=svgo",
+    "cloudinary:upload": "node scripts/cloudinary-upload.mjs",
+    "cloudinary:upload:file": "node scripts/cloudinary-upload.mjs",
     "deploy": "npm run build && git push origin main",
     "deploy:docs": "npm run deploy"
   },
@@ -15,8 +18,15 @@
     "astro": "^5.16.6"
   },
   "devDependencies": {
+    "cloudinary": "^2.8.0",
     "copyfiles": "^2.4.1",
+    "dotenv": "^17.2.3",
     "gh-pages": "^6.3.0",
+    "imagemin-cli": "^8.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
     "rimraf": "^5.0.10"
   }
 }

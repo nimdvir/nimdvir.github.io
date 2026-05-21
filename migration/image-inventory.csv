@@ -1,0 +1,23 @@
+source_file,source_folder,canonical_name,page_destination,delivery_mode,repo_path,cloudinary_url,status,notes
+headshot2025.jpg,public/images,headshot-2025,home/about,local,public/images/headshot2025.jpg,,ready,Primary identity image
+home-hero.png,public/images,home-hero,home,local,public/images/home-hero.png,,ready,Homepage hero image
+research-hero.png,public/images,research-hero,research,local,public/images/research-hero.png,,ready,Research section hero image
+portfolio.jpg,public/images,projects-hero,projects,local,public/images/portfolio.jpg,,ready,Projects section hero image
+costco-mobile.png,public/images,costco-mobile-app,projects/costco-mobile-app,local,public/images/costco-mobile.png,,ready,Primary Costco case study image
+barrier-free-living.png,public/images,barrier-free-living,projects/barrier-free-living,local,public/images/barrier-free-living.png,,ready,Primary Barrier Free Living case study image
+nasher-sculpture-center.png,public/images,nasher-sculpture-center,projects/nasher-sculpture-center,local,public/images/nasher-sculpture-center.png,,ready,Primary Nasher case study image
+dexcom.png,public/images,dexcom-g7-plus,projects/dexcom-g7-plus,local,public/images/dexcom.png,,ready,Primary Dexcom case study image
+timeout.jpg,public/images,timeout-tel-aviv,projects/timeout-tel-aviv,local,public/images/timeout.jpg,,ready,Primary Timeout Tel Aviv case study image
+zang-toi.jpg,public/images,zang-toi,projects/zang-toi,local,public/images/zang-toi.jpg,,ready,Primary Zang Toi case study image
+facebook.jpg,public/images,facebook-content-strategy,projects/facebook-content-strategy,local,public/images/facebook.jpg,,ready,Primary Facebook content strategy image
+sticky-words-hero.webp,public/images/research,sticky-words-hero,research/sticky-words,local,public/images/research/sticky-words-hero.webp,,ready,Primary Sticky Words hero image
+sticky-words-variant-1.webp,public/images/research,sticky-words-variant-1,research/words-on-trial,local,public/images/research/sticky-words-variant-1.webp,,ready,Related language-research visual
+sticky-words-variant-2.webp,public/images/research,sticky-words-variant-2,research/transparency-in-online-marketing,local,public/images/research/sticky-words-variant-2.webp,,ready,Related language-research visual
+sticky-words-variant-3.webp,public/images/research,sticky-words-variant-3,research/sticky-words,local,public/images/research/sticky-words-variant-3.webp,,ready,Sticky Words gallery image
+ualbany-campus-west.webp,public/images/about,ualbany-campus-west,about/research,local,public/images/about/ualbany-campus-west.webp,,ready,UAlbany campus image for about and pedagogy content
+ualbany-campus-east.webp,public/images/about,ualbany-campus-east,about/research,local,public/images/about/ualbany-campus-east.webp,,ready,UAlbany campus image for about and information engagement content
+ualbany-logo.webp,public/images/about,ualbany-logo,about,local,public/images/about/ualbany-logo.webp,,ready,UAlbany wordmark for about page branding
+ualbany-logo-trans.webp,public/images/about,ualbany-logo-trans,about,local,public/images/about/ualbany-logo-trans.webp,,ready,UAlbany transparent logo watermark
+ualbany-mark.webp,public/images/about,ualbany-mark,about,local,public/images/about/ualbany-mark.webp,,ready,UAlbany mark used in branding block
+jeffery.gif,public/images/about,jeffery-gif,about,local,public/images/about/jeffery.gif,,ready,Optimized GIF built from Jeffery photos and short videos
+yorkies-party.gif,public/images/404,yorkies-party-gif,404,local,public/images/404/yorkies-party.gif,,ready,Optimized 404 slideshow GIF built from yorkie images

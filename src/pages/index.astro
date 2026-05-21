@@ -3,6 +3,11 @@ import Layout from '../layouts/Layout.astro';
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const campusImages = [
+	{ src: withBase('/images/about/ualbany-campus-west.webp'), alt: 'University at Albany campus view at sunset' },
+	{ src: withBase('/images/about/ualbany-campus-east.webp'), alt: 'University at Albany campus view with a broad skyline' },
+];
+const exploreWords = ['Self', 'Research', 'Projects', 'Media', 'Teaching'];
 ---
 
 <Layout
@@ -113,9 +118,64 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		</div>
 	</section>
 
+	<section class="content-section ualbany-section">
+		<div class="ualbany-section__copy">
+			<div class="ualbany-heading-row">
+				<h2>UAlbany — Academic Home Base</h2>
+				<a
+					href="https://www.albany.edu/business/faculty/nim-dvir"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Visit Nim Dvir's University at Albany faculty page"
+					class="ualbany-logo-link"
+				>
+					<img
+						src={withBase('/images/about/ualbany-logo.webp')}
+						alt="University at Albany logo"
+						class="ualbany-logo"
+						loading="lazy"
+					/>
+				</a>
+			</div>
+
+			<p>
+				A significant part of my current research, teaching, and collaborative work grows out of my role at
+				the University at Albany. I am a faculty member in the
+				<a href="https://www.albany.edu/business" target="_blank" rel="noopener noreferrer">
+					Department of Information Systems and Business Analytics at the Massry School of Business
+				</a>,
+				where my work connects business education, data, technology, and applied research.
+			</p>
+
+			<p>
+				I am also affiliated faculty in the
+				<a href="https://www.albany.edu/cehc/information-sciences-and-technology" target="_blank" rel="noopener noreferrer">
+					Department of Information Sciences and Technology / Informatics
+				</a>
+				at the College of Emergency Preparedness, Homeland Security and Cybersecurity. Together, these academic
+				homes reflect the interdisciplinary nature of my work across information systems, analytics,
+				artificial intelligence, human-computer interaction, and technology-driven decision-making.
+			</p>
+		</div>
+
+		<div class="ualbany-section__visual" aria-label="University at Albany campus views">
+			{campusImages.map((image) => (
+				<figure class="campus-preview-card">
+					<img src={image.src} alt={image.alt} loading="lazy" />
+				</figure>
+			))}
+		</div>
+	</section>
+
 	<!-- Main Content Cards -->
 	<section class="content-section">
-		<h2 class="section-title"><i class="fas fa-compass"></i> Learn more about my</h2>
+		<h2 class="section-title section-title--animated">
+			<i class="fas fa-compass"></i>
+			<span>Learn more about my</span>
+			<span class="rotating-word" id="rotating-word" data-words={JSON.stringify(exploreWords)} aria-live="polite">
+				{exploreWords[0]}
+			</span>
+		</h2>
 		<div class="nav-circles-grid">
 			<a href={withBase('/about')} class="nav-circle-item">
 				<div class="nav-circle">
@@ -128,6 +188,12 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 					<i class="fas fa-microscope"></i>
 				</div>
 				<span>Research</span>
+			</a>
+			<a href={withBase('/projects')} class="nav-circle-item">
+				<div class="nav-circle">
+					<i class="fas fa-briefcase"></i>
+				</div>
+				<span>Projects</span>
 			</a>
 			<a href={withBase('/media')} class="nav-circle-item">
 				<div class="nav-circle">
@@ -173,18 +239,47 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 				retina_detect: true
 			});
 		}
+
+		const rotatingWord = document.getElementById('rotating-word');
+		if (rotatingWord) {
+			const words = JSON.parse(rotatingWord.getAttribute('data-words') || '[]');
+			let currentIndex = 0;
+
+			if (Array.isArray(words) && words.length > 1) {
+				setInterval(() => {
+					rotatingWord.classList.add('is-changing');
+					window.setTimeout(() => {
+						currentIndex = (currentIndex + 1) % words.length;
+						rotatingWord.textContent = words[currentIndex];
+						rotatingWord.classList.remove('is-changing');
+					}, 180);
+				}, 2200);
+			}
+		}
 	});
 </script>
 </Layout>
 
 <style>
+	:global(:root) {
+		--home-navy-950: #081a33;
+		--home-navy-900: #0e2d57;
+		--home-navy-800: #18467f;
+		--home-gold-500: #d6a328;
+		--home-gold-400: #e7bc54;
+		--home-gold-300: #f5ddb0;
+		--home-gold-100: #fff8e7;
+	}
+
 	/* Hero Banner */
 	.hero-banner {
 		position: relative;
 		width: 100vw;
 		margin-left: calc(-50vw + 50%);
 		margin-top: -24px;
-		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 40%, #1e1b4b 100%);
+		background:
+			radial-gradient(circle at top right, rgba(231, 188, 84, 0.16), transparent 24%),
+			linear-gradient(135deg, #1e3a5f 0%, #0f172a 46%, #16365f 100%);
 		padding: 60px 24px;
 		margin-bottom: 0;
 	}
@@ -215,8 +310,8 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
 	.badge {
 		display: inline-block;
-		background: rgba(255, 255, 255, 0.15);
-		border: 1px solid rgba(255, 255, 255, 0.3);
+		background: rgba(255, 255, 255, 0.12);
+		border: 1px solid rgba(231, 188, 84, 0.42);
 		padding: 6px 16px;
 		border-radius: 999px;
 		font-size: 13px;
@@ -224,6 +319,8 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		margin-bottom: 16px;
+		color: #fff6d9;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 	}
 
 	.hero-text h1 {
@@ -273,18 +370,19 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 	}
 
 	.btn-primary:hover {
-		background: #f1f5f9;
+		background: #f8fafc;
 		transform: translateY(-2px);
 	}
 
 	.btn-secondary {
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.08);
 		color: #fff;
-		border: 1px solid rgba(255, 255, 255, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.32);
 	}
 
 	.btn-secondary:hover {
-		background: rgba(255, 255, 255, 0.2);
+		background: rgba(255, 255, 255, 0.18);
+		border-color: rgba(255, 255, 255, 0.45);
 		transform: translateY(-2px);
 	}
 
@@ -300,7 +398,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		object-fit: cover;
 		object-position: 65% 20%;
 		border-radius: 50%;
-		border: 4px solid rgba(255, 255, 255, 0.2);
+		border: 4px solid rgba(255, 255, 255, 0.22);
 		box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
 	}
 
@@ -355,15 +453,122 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 	}
 
 	.section-title i {
-		color: #1e3a5f;
+		color: var(--home-gold-500);
+	}
+
+	.section-title--animated {
+		flex-wrap: wrap;
+	}
+
+	.rotating-word {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 9ch;
+		padding: 6px 14px;
+		border-radius: 999px;
+		background: linear-gradient(135deg, rgba(231, 188, 84, 0.2), rgba(214, 163, 40, 0.45));
+		color: var(--home-navy-950);
+		box-shadow: 0 8px 20px rgba(214, 163, 40, 0.18);
+		border: 1px solid rgba(214, 163, 40, 0.4);
+		transition: opacity 0.18s ease, transform 0.18s ease;
+	}
+
+	.rotating-word.is-changing {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+
+	.ualbany-section {
+		display: grid;
+		grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
+		gap: 28px;
+		align-items: center;
+		padding: 32px 24px;
+		border: 1px solid #dbe4ef;
+		border-radius: 20px;
+		background: linear-gradient(135deg, #f8fafc 0%, #edf4ff 100%);
+		box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+	}
+
+	.ualbany-section__copy {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.ualbany-heading-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		flex-wrap: wrap;
+	}
+
+	.ualbany-heading-row h2 {
+		margin: 0;
+		font-size: 30px;
+		letter-spacing: -0.02em;
+		color: #0f172a;
+	}
+
+	.ualbany-logo-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 14px;
+		border-radius: 16px;
+		background: #ffffff;
+		border: 1px solid #dbe4ef;
+		box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+	}
+
+	.ualbany-logo {
+		height: 44px;
+		width: auto;
+		display: block;
+	}
+
+	.ualbany-section p {
+		margin: 0;
+		color: #334155;
+		line-height: 1.75;
+		font-size: 16px;
+	}
+
+	.ualbany-section a {
+		color: #1d4ed8;
+		font-weight: 600;
+		text-decoration-color: rgba(214, 163, 40, 0.65);
+		text-underline-offset: 0.18em;
+	}
+
+	.ualbany-section__visual {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 12px;
+	}
+
+	.campus-preview-card {
+		margin: 0;
+	}
+
+	.campus-preview-card img {
+		display: block;
+		width: 100%;
+		height: 210px;
+		object-fit: cover;
+		border-radius: 18px;
+		border: 1px solid #cbd5e1;
+		box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
 	}
 
 	/* Nav Circles Grid */
 	.nav-circles-grid {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 		gap: 32px;
-		max-width: 800px;
+		max-width: 960px;
 		margin: 0 auto;
 	}
 
@@ -396,7 +601,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 	}
 
 	.nav-circle-item:hover .nav-circle {
-		box-shadow: 0 12px 32px rgba(30, 58, 95, 0.4);
+		box-shadow: 0 12px 32px rgba(30, 58, 95, 0.4), 0 0 0 6px rgba(214, 163, 40, 0.1);
 	}
 
 	.nav-circle-item span {
@@ -410,6 +615,10 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		.hero-content {
 			grid-template-columns: 1fr;
 			text-align: center;
+		}
+
+		.ualbany-section {
+			grid-template-columns: 1fr;
 		}
 
 		.hero-text h1 {
@@ -449,6 +658,18 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 			gap: 24px;
 		}
 
+		.ualbany-section {
+			padding: 24px 18px;
+		}
+
+		.ualbany-heading-row h2 {
+			font-size: 24px;
+		}
+
+		.ualbany-section__visual {
+			grid-template-columns: 1fr;
+		}
+
 		.nav-circle {
 			width: 80px;
 			height: 80px;
@@ -482,10 +703,10 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 		font-family: 'Courier New', Courier, monospace;
 		font-size: 32px;
 		font-weight: 700;
-		color: #1e3a5f;
+		color: var(--home-navy-900);
 		display: inline-block;
 		overflow: hidden;
-		border-right: 3px solid #f59e0b;
+		border-right: 3px solid var(--home-gold-500);
 		white-space: nowrap;
 		letter-spacing: 0.05em;
 		animation: 
@@ -505,7 +726,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 
 	@keyframes blink-caret {
 		from, to { border-color: transparent }
-		50% { border-color: #f59e0b; }
+		50% { border-color: var(--home-gold-500); }
 	}
 
 	.bio-text {
@@ -564,7 +785,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
 	.stat-number {
 		font-size: 32px;
 		font-weight: 800;
-		color: #1e3a5f;
+		color: var(--home-navy-900);
 		line-height: 1;
 	}
 
