@@ -1,0 +1,62 @@
+
+> nimdvir.github.io@0.0.1 build
+> astro build
+
+[2m17:37:06[22m [34m[content][39m Syncing content
+[2m17:37:06[22m [34m[content][39m Synced content
+[2m17:37:06[22m [34m[types][39m Generated [2m724ms[22m
+[2m17:37:06[22m [34m[build][39m output: [34m"static"[39m
+[2m17:37:06[22m [34m[build][39m mode: [34m"static"[39m
+[2m17:37:06[22m [34m[build][39m directory: [34mC:\Users\nd115232\Documents\GitHub\nimdvir.github.io\docs\[39m
+[2m17:37:06[22m [34m[build][39m Collecting build info...
+[2m17:37:06[22m [34m[build][39m [32mΓ£ô Completed in 792ms.[39m
+[2m17:37:06[22m [34m[build][39m Building static entrypoints...
+[2m17:37:09[22m [34m[vite][39m [32mΓ£ô built in 2.81s[39m
+[2m17:37:09[22m [34m[build][39m [32mΓ£ô Completed in 2.90s.[39m
+
+[42m[30m building client (vite) [39m[49m
+[2m17:37:09[22m [34m[vite][39m transforming...
+[2m17:37:09[22m [34m[vite][39m [32mΓ£ô[39m 1 modules transformed.
+[2m17:37:09[22m [34m[vite][39m rendering chunks...
+[2m17:37:09[22m [34m[vite][39m [32mΓ£ô built in 23ms[39m
+
+[42m[30m generating static routes [39m[49m
+[2m17:37:09[22m [32mΓû╢[39m src/pages/404.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/404.html[22m [2m(+17ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/404-preview.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/404-preview/index.html[22m [2m(+8ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/about.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/about/index.html[22m [2m(+9ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/blog.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/blog/index.html[22m [2m(+13ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/blog/[...slug].astro
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/blog/field-notes-from-participatory-research/index.html[22m [2m(+8ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/blog/designing-ai-for-accountability/index.html[22m [2m(+7ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/blog/measuring-engagement-that-matters/index.html[22m [2m(+8ms)[22m 
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/blog/teaching-digital-citizenship-with-ai-assistants/index.html[22m [2m(+6ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/interviews/[...slug].astro
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/interviews/jamie-foxx/index.html[22m [2m(+10ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/interviews/lady-gaga/index.html[22m [2m(+9ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/interviews/jim-carrey/index.html[22m [2m(+9ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/interviews/julia-louis-dreyfus/index.html[22m [2m(+9ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/interviews/michael-fassbender/index.html[22m [2m(+6ms)[22m 
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/interviews/rupaul/index.html[22m [2m(+8ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/media.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/media/index.html[22m [2m(+6ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/projects.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/projects/index.html[22m [2m(+6ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/research.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/research/index.html[22m [2m(+7ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/research/[...slug].astro
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/research/civic-tech-codesign/index.html[22m [2m(+5ms)[22m 
+[2m17:37:09[22m   [34mΓö£ΓöÇ[39m [2m/research/behavioral-signals-in-recommendation/index.html[22m [2m(+6ms)[22m 
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/research/responsible-ai-toolkits/index.html[22m [2m(+11ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/teaching.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/teaching/index.html[22m [2m(+11ms)[22m 
+[2m17:37:09[22m [32mΓû╢[39m src/pages/index.astro
+[2m17:37:09[22m   [34mΓööΓöÇ[39m [2m/index.html[22m [2m(+5ms)[22m 
+[2m17:37:09[22m [32mΓ£ô Completed in 278ms.
+[39m
+[2m17:37:09[22m [34m[@astrojs/sitemap][39m `sitemap-index.xml` created at `docs`
+[2m17:37:09[22m [34m[build][39m 22 page(s) built in [1m4.25s[22m
+[2m17:37:09[22m [34m[build][39m [1mComplete![22m

@@ -1,0 +1,31 @@
+Jennifer Lopez interview image assets
+
+Placed in the site on 2026-05-20 for a future interview entry.
+Recommended future frontmatter:
+image: '/images/interviews/jennifer-lopez/portrait.webp'
+heroImage: '/images/interviews/jennifer-lopez/hero.webp'
+
+Additional optional image:
+/images/interviews/jennifer-lopez/performance.webp
+
+Source and license summary
+1. hero.webp
+   Source page: https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_1.jpg
+   Author: Everwest
+   License: CC BY 4.0
+
+2. portrait.webp
+   Source page: https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_2).jpg
+   Author: Everwest
+   License: CC BY 4.0
+
+3. performance.webp
+   Source page: https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_WorldPride_Music_Festival_in_Washington,_D.C._-_1.jpg
+   Author: APK
+   License: CC BY 4.0
+
+Suggested attribution line
+Photos by Everwest and APK via Wikimedia Commons, licensed CC BY 4.0. Optimized from the originals.
+
+Reuse note
+These are freely licensed images, but identifiable-person/publicity rights can still matter depending on jurisdiction and use. Use them in factual or editorial context and do not imply endorsement.
