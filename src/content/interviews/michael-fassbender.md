@@ -5,6 +5,8 @@ date: 'Jan 20, 2014'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Michael Fassbender on "12 Years a Slave," working with Steve McQueen, and hoping humanity has moved past such cruelty.'
 image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/Fesbender_rphlra.jpg'
+imageAlt: 'Portrait of Michael Fassbender during the 12 Years a Slave press tour.'
+imageCaption: 'Michael Fassbender during publicity for 12 Years a Slave.'
 source: 'Ynet'
 sourceUrl: 'https://www.ynet.co.il/articles/0,7340,L-4478269,00.html'
 ---

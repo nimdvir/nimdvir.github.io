@@ -5,9 +5,13 @@ date: 'Aug 17, 2005'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Oscar winner Jamie Foxx on life after the Academy Award, filming "Stealth," and the perks of superstar status.'
 image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/v1763929038/Jamie_Foxx2_phxzah.jpg'
+imageAlt: 'Portrait of Jamie Foxx during the 2005 Stealth press tour.'
+imageCaption: 'Jamie Foxx during the publicity run that followed his Oscar-winning breakthrough.'
 source: 'Ynet'
 sourceUrl: 'https://www.ynet.co.il/articles/0,7340,L-3128928,00.html'
 heroImage: 'https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929038/Jamie_Foxx_okjmwu.jpg'
+heroImageAlt: 'Jamie Foxx posing during his 2005 post-Oscar rise.'
+heroImageCaption: 'Jamie Foxx at the height of his post-Oscar ascent in 2005.'
 ---
 
 Before becoming an esteemed actor, Jamie Foxx was a stand-up comedian who joked about his struggles to make it in Hollywood. But then came the Oscar win, which changed his punchline.

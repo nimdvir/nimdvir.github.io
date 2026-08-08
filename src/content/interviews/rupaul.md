@@ -5,9 +5,13 @@ date: "Jul 3, 2009"
 tags: ["Interview", "Television", "Culture"]
 summary: "RuPaul on Drag Race, drag as creative expression, media culture, and the art of being juicy without being cruel."
 image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/v1771137257/1_gsd_sph6kg.jpg"
+imageAlt: "Portrait of RuPaul during the first Drag Race season."
+imageCaption: "RuPaul during interviews around the breakout success of Drag Race."
 source: "Ynet"
 sourceUrl: "https://www.ynet.co.il/articles/0,7340,L-3737578,00.html"
 heroImage: "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771137278/2_gd_kunxwp.jpg"
+heroImageAlt: "RuPaul during the early Drag Race era."
+heroImageCaption: "RuPaul during the first wave of Drag Race press and promotion."
 ---
 
 **After reality shows focused on music, design, and modeling, comes the show that will crown America's next drag superstar. Nimrod Dvir interrupted RuPaul, the show's host, in the middle of an office party to talk about eyelashes, lipstick, and Tyra Banks.**
@@ -38,7 +42,10 @@ Now, as mentioned, he is launching "RuPaul's Drag Race" in Israel, where he pres
 
 **And the nails.** "We had small fights, but no crazy 'bitch fights.' Seeing someone create something out of nothing—that's the drama. The real challenge is seeing these creative entertainers doing something together. In that sense, we are more similar to 'Project Runway,' because the drama is in the creation, not in fighting over who took whose mascara."
 
-<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/v1771137278/2_gd_kunxwp.jpg" alt="RuPaul during Drag Race-era interview" style="width:100%;max-width:100%;height:auto;border-radius:8px;margin:1.5rem 0;" />
+<figure class="inline-media">
+	<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/v1771137278/2_gd_kunxwp.jpg" alt="RuPaul during the early Drag Race media rollout" />
+	<figcaption>RuPaul during the early Drag Race media rollout.</figcaption>
+</figure>
 
 ### Eyelashes to Pieces
 

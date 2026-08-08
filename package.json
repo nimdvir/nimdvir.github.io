@@ -10,6 +10,8 @@
     "optimize:images": "imagemin \"images/**/*.{jpg,jpeg,png,gif,svg}\" --out-dir=images --plugin=mozjpeg --plugin=pngquant --plugin=gifsicle --plugin=svgo",
     "cloudinary:upload": "node scripts/cloudinary-upload.mjs",
     "cloudinary:upload:file": "node scripts/cloudinary-upload.mjs",
+    "interview:check": "node scripts/interview-publish.mjs check",
+    "interview:publish": "node scripts/interview-publish.mjs publish",
     "deploy": "npm run build && git push origin main",
     "deploy:docs": "npm run deploy"
   },
@@ -27,6 +29,7 @@
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
     "imagemin-svgo": "^11.0.1",
+    "js-yaml": "^4.1.1",
     "rimraf": "^5.0.10"
   }
 }

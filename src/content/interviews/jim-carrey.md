@@ -5,6 +5,8 @@ date: 'Jan 18, 2006'
 tags: ['Interview', 'Film', 'Media']
 summary: 'Jim Carrey on "Fun with Dick and Jane," corporate America, meditation, and why he wants to "turn into a ball of light."'
 image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/v1763929039/jim-carrey_jqfnzq.jpg'
+imageAlt: 'Portrait of Jim Carrey during the Fun with Dick and Jane press tour.'
+imageCaption: 'Jim Carrey during the publicity run for Fun with Dick and Jane.'
 source: 'Ynet'
 sourceUrl: 'https://www.ynet.co.il/articles/0,7340,L-3202355,00.html'
 ---

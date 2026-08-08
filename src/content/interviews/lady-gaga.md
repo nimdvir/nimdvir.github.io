@@ -5,9 +5,13 @@ date: 'Aug 12, 2009'
 tags: ['Interview', 'Music', 'Media']
 summary: 'Interview with Lady Gaga ahead of her concert in Israel — discussing fame, art, LGBTQ+ fans, and how she engineered her rise to stardom.'
 image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/v1760838070/Lady_Gaga_qdjeiv.png'
+imageAlt: 'Portrait of Lady Gaga ahead of her 2009 visit to Israel.'
+imageCaption: 'Lady Gaga during the Fame Ball era, ahead of her Tel Aviv performance.'
 source: 'Ynet'
 sourceUrl: 'https://www.ynet.co.il/articles/0,7340,L-3760766,00.html'
 heroImage: 'https://res.cloudinary.com/dkndq6lyz/image/upload/v1760838070/Lady_Gaga_l0qvew.jpg'
+heroImageAlt: 'Lady Gaga photographed during the Fame Ball Tour period.'
+heroImageCaption: 'Lady Gaga during the global rise that brought the Fame Ball Tour to Israel.'
 ---
 
 All **Stefani Joanne Angelina Germanotta** ever wanted was attention. So she decided to turn it into *art* — and call herself *Lady Gaga*. Ahead of her concert in Israel, I caught up with my former NYU classmate to talk about **drugs, fame, fake notes, Pet Shop Boys, and underwear** — and why she feels deeply connected to her LGBTQ+ fans in Israel.
