@@ -5,9 +5,13 @@ date: 'Mar 28, 2019'
 tags: ['Interview', 'Television', 'Media']
 summary: 'Julia Louis-Dreyfus on surviving breast cancer, the final season of Veep, political correctness, and life after Seinfeld.'
 image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_300,h_300,c_thumb,g_face,r_max/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg'
+imageAlt: 'Portrait of Julia Louis-Dreyfus during her 2019 return to Veep.'
+imageCaption: 'Julia Louis-Dreyfus during interviews for the final season of Veep.'
 source: 'Israel Hayom'
 sourceUrl: 'https://www.israelhayom.co.il/article/645081'
 heroImage: 'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg'
+heroImageAlt: 'Julia Louis-Dreyfus photographed during the Veep farewell press cycle.'
+heroImageCaption: "Julia Louis-Dreyfus during the media tour for Veep's final season."
 ---
 
 Two years after being diagnosed with breast cancer, **Julia Louis-Dreyfus** is back. She shared her recovery with fans while simultaneously filming the final season of *Veep* — and in this interview she opens up about comedy, politics, and what it means to fight for relevance as a woman in Hollywood.
@@ -22,7 +26,10 @@ Dreyfus, who documented her journey on social media, told *Good Morning America*
 
 Now she returns to the screen for the seventh and final season of *Veep*. "I never doubted for a second that this season would make it," she says. "If anything, the cancer gave me motivation. They say humor is the best medicine — and it's not a cliché. I needed the laughter in my life."
 
-<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1771104966/Julia-cover_clmoms.jpg" alt="Julia Louis-Dreyfus" style="width:100%;max-width:100%;height:auto;border-radius:8px;margin:1.5rem 0;" />
+<figure class="inline-media">
+	<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1771104966/Julia-cover_clmoms.jpg" alt="Julia Louis-Dreyfus during the Veep farewell press tour" />
+	<figcaption>Julia Louis-Dreyfus during the final-season press run for Veep.</figcaption>
+</figure>
 
 ## The Art of the "Horrible" Character
 

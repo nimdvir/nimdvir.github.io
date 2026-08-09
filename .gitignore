@@ -1,6 +1,7 @@
 # build output
 dist/
 docs/
+images/interviews/
 
 # generated types
 .astro/

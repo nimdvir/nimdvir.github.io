@@ -16,9 +16,21 @@ export async function getStaticPaths() {
 
 const { interview } = Astro.props;
 const { Content } = await interview.render();
+const heroImage = interview.data.heroImage ?? interview.data.image;
+const heroImageSrc = heroImage && !heroImage.startsWith('http') ? withBase(heroImage) : heroImage;
+const portraitImageSrc = interview.data.image && !interview.data.image.startsWith('http')
+	? withBase(interview.data.image)
+	: interview.data.image;
+const citationDateMatch = interview.data.date.match(/^([A-Za-z]{3}) (\d{1,2}), (\d{4})$/);
+const citationDate = citationDateMatch
+	? `${citationDateMatch[3]}, ${citationDateMatch[1]} ${citationDateMatch[2]}`
+	: interview.data.date;
+const socialImage = heroImageSrc ?? portraitImageSrc;
+const portraitAlt = interview.data.imageAlt ?? interview.data.title;
+const heroAlt = interview.data.heroImageAlt ?? interview.data.title;
 ---
 
-<Layout title={interview.data.title} description={interview.data.summary}>
+<Layout title={interview.data.title} description={interview.data.summary} image={socialImage}>
 	<article class="interview">
 		<header class="interview-header">
 			<a href={withBase('/blog')} class="back-link"><i class="fas fa-arrow-left"></i> Back to Writing</a>
@@ -43,10 +55,18 @@ const { Content } = await interview.render();
 			</div>
 		</header>
 
-		{interview.data.image && (
-			<div class="hero-image">
-				<img src={interview.data.image} alt={interview.data.title} class="portrait" />
-			</div>
+		{portraitImageSrc && (
+			<figure class="media-figure portrait-figure">
+				<img src={portraitImageSrc} alt={portraitAlt} class="portrait" />
+				{interview.data.imageCaption && <figcaption class="media-caption">{interview.data.imageCaption}</figcaption>}
+			</figure>
+		)}
+
+		{heroImageSrc && heroImageSrc !== portraitImageSrc && (
+			<figure class="media-figure hero-figure">
+				<img src={heroImageSrc} alt={heroAlt} class="hero" />
+				{interview.data.heroImageCaption && <figcaption class="media-caption">{interview.data.heroImageCaption}</figcaption>}
+			</figure>
 		)}
 
 		<div class="content">
@@ -57,13 +77,7 @@ const { Content } = await interview.render();
 			<div class="citation-block">
 				<h3>Cite this article</h3>
 				<p class="citation-text">
-					Dvir, N. ({(() => {
-						const parts = interview.data.date.split(' ');
-						const year = parts[2];
-						const month = parts[0];
-						const day = parts[1].replace(',', '');
-						return `${year}, ${month} ${day}`;
-					})()}). {interview.data.title}. <em>{interview.data.source}</em>.{' '}
+					Dvir, N. ({citationDate}). {interview.data.title}. <em>{interview.data.source}</em>.{' '}
 					{interview.data.sourceUrl && (
 						<a href={interview.data.sourceUrl} target="_blank" rel="noreferrer">{interview.data.sourceUrl}</a>
 					)}
@@ -179,9 +193,16 @@ const { Content } = await interview.render();
 		font-weight: 600;
 	}
 
-	.hero-image {
+	.media-figure {
+		margin: 0 0 32px;
+	}
+
+	.portrait-figure {
 		text-align: center;
-		margin-bottom: 32px;
+	}
+
+	.hero-figure {
+		margin-bottom: 36px;
 	}
 
 	.portrait {
@@ -191,6 +212,24 @@ const { Content } = await interview.render();
 		object-fit: cover;
 		border: 4px solid #e5e7eb;
 		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+	}
+
+	.hero {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		max-height: 520px;
+		object-fit: cover;
+		border-radius: 18px;
+		box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
+	}
+
+	.media-caption {
+		margin-top: 12px;
+		font-size: 14px;
+		line-height: 1.6;
+		color: #6b7280;
+		text-align: center;
 	}
 
 	.content {
@@ -234,6 +273,25 @@ const { Content } = await interview.render();
 		border-radius: 0 8px 8px 0;
 		font-style: italic;
 		color: #374151;
+	}
+
+	.content :global(figure) {
+		margin: 32px 0;
+	}
+
+	.content :global(figure img) {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		border-radius: 12px;
+	}
+
+	.content :global(figcaption) {
+		margin-top: 10px;
+		font-size: 14px;
+		line-height: 1.6;
+		color: #6b7280;
+		text-align: center;
 	}
 
 	.content :global(hr) {

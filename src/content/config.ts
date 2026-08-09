@@ -8,6 +8,10 @@ const taxonomyFields = {
 	sortOrder: z.number().int().optional(),
 };
 
+const shortMonthDate = z.string().regex(/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{1,2}, \d{4}$/, {
+	message: 'Use Mon DD, YYYY, for example Mar 28, 2019.',
+});
+
 const blog = defineCollection({
 	type: 'content',
 	schema: z.object({
@@ -42,12 +46,52 @@ const interviews = defineCollection({
 	type: 'content',
 	schema: z.object({
 		title: z.string(),
-		interviewee: z.string().optional(),
-		date: z.string(),
-		...taxonomyFields,
+		interviewee: z.string().min(1),
+		date: shortMonthDate,
+		tags: z.array(z.string()).default([]),
+		image: z.string().url().optional(),
+		imageAlt: z.string().min(1).optional(),
+		imageCaption: z.string().min(1).optional(),
+		heroImage: z.string().url().optional(),
+		heroImageAlt: z.string().min(1).optional(),
+		heroImageCaption: z.string().min(1).optional(),
+		featured: z.boolean().optional(),
+		sortOrder: z.number().int().optional(),
 		summary: z.string(),
 		source: z.string().optional(),
-		sourceUrl: z.string().optional(),
+		sourceUrl: z.string().url().optional(),
+	}).superRefine((data, context) => {
+		if (!data.tags.includes('Interview')) {
+			context.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['tags'],
+				message: 'Interview entries must include the Interview tag.',
+			});
+		}
+
+		if (Boolean(data.source) !== Boolean(data.sourceUrl)) {
+			context.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['sourceUrl'],
+				message: 'source and sourceUrl must either both be present or both be absent.',
+			});
+		}
+
+		if (data.image && (!data.imageAlt || !data.imageCaption)) {
+			context.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['imageAlt'],
+				message: 'imageAlt and imageCaption are required when image is present.',
+			});
+		}
+
+		if (data.heroImage && (!data.heroImageAlt || !data.heroImageCaption)) {
+			context.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['heroImageAlt'],
+				message: 'heroImageAlt and heroImageCaption are required when heroImage is present.',
+			});
+		}
 	}),
 });
 

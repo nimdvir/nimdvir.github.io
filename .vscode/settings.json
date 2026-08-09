@@ -1,4 +1,12 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "^.*[\\\\/]images[\\\\/].*\\.(png|jpe?g|gif|svg|webp|avif)$",
+                "cmd": "npm exec imagemin -- \"${file}\" --out-dir=\"${fileDirname}\" --plugin=mozjpeg --plugin=pngquant --plugin=gifsicle --plugin=svgo && node scripts/cloudinary-upload.mjs \"${file}\""
+            }
+        ]
+    }
 }
