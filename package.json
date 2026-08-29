@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.16.6"
+    "astro": "^6.1.10"
   },
   "devDependencies": {
     "cloudinary": "^2.8.0",
