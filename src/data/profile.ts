@@ -3,7 +3,7 @@ export const cvUrl = "/cv/";
 export const socialLinks = [
   {
     label: "Email",
-    href: "mailto:ndvir@albany.edu",
+    href: "/contact/",
     icon: "fa-solid fa-envelope",
   },
   {

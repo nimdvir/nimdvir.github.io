@@ -383,8 +383,100 @@ main:focus {
   padding: 6px 10px;
   font-size: 0.8rem;
 }
-.theme-icon {
-  font-size: 1.25rem;
+.theme-picker {
+  position: relative;
+}
+.theme-toggle {
+  border-color: var(--link);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--link) 12%, transparent);
+}
+.theme-toggle:hover,
+.theme-toggle[aria-expanded="true"] {
+  background: var(--soft);
+  color: var(--link);
+}
+.theme-icons {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+}
+.theme-icons svg {
+  position: absolute;
+  inset: 0;
+  width: 22px;
+  height: 22px;
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease;
+}
+.theme-moon,
+:root[data-theme="dark"] .theme-sun {
+  opacity: 0;
+  transform: rotate(-60deg) scale(0.6);
+}
+:root[data-theme="dark"] .theme-moon {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+.theme-options {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 12px);
+  width: 180px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.theme-options button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-size: 0.9rem;
+}
+.theme-options button:hover,
+.theme-options button[aria-pressed="true"] {
+  color: var(--link);
+  background: var(--soft);
+}
+.theme-options button[aria-pressed="true"] {
+  border-color: var(--link);
+  font-weight: 700;
+}
+.theme-options p {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin: 8px 8px 2px;
+}
+.profile-icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex: 0 0 1.15em;
+  display: inline-block;
+  vertical-align: -0.15em;
+}
+.contact-card {
+  max-width: 760px;
+  padding: clamp(20px, 4vw, 40px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.contact-card .contact-email {
+  overflow-wrap: anywhere;
+}
+.copy-status {
+  min-height: 1.65em;
+  margin-bottom: 0;
 }
 .menu-toggle {
   display: none;

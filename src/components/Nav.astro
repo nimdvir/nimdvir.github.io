@@ -1,4 +1,5 @@
 ---
+import ThemePicker from "./ThemePicker.astro";
 const links = [
   { href: "/about/", label: "About" },
   { href: "/research/", label: "Research" },
@@ -12,24 +13,13 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
 <header class="site-header">
   <div class="nav-inner">
     <a class="brand" href="/" aria-label="Nim Dvir home">
-      <img src="/favicon.svg" width="30" height="30" alt="" />
+      <img src="/favicon.png" width="30" height="30" alt="" />
       <span>
         Nim Dvir<span class="brand-degree">, PhD</span>
       </span>
     </a>
     <div class="nav-controls">
-      <button
-        class="theme-toggle"
-        type="button"
-        aria-label="Switch color theme"
-        title="Switch color theme"
-        hidden
-      >
-        <span class="theme-icon" aria-hidden="true">
-          ◐
-        </span>
-        <span class="theme-label">Theme</span>
-      </button>
+      <ThemePicker />
       <button
         class="menu-toggle"
         type="button"
@@ -54,7 +44,7 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
           {link.label}
         </a>
       ))}
-      <a class="nav-contact" href="/#contact">
+      <a class="nav-contact" href="/contact/">
         Let’s talk <span aria-hidden="true">↗</span>
       </a>
     </nav>

@@ -1,0 +1,20 @@
+---
+const { icon } = Astro.props;
+---
+
+{icon === "fa-solid fa-building-columns" ? (
+  <svg
+    class="profile-icon"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <path d="m3 8 9-5 9 5v2H3V8Zm2 2v9m5-9v9m4-9v9m5-9v9M3 19h18v2H3z" />
+  </svg>
+) : (
+  <i class={icon} aria-hidden="true"></i>
+)}

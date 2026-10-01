@@ -1,0 +1,51 @@
+<div class="theme-picker" hidden>
+  <button
+    class="theme-toggle"
+    type="button"
+    aria-label="Choose color theme"
+    aria-expanded="false"
+    aria-controls="theme-options"
+    title="Choose color theme"
+  >
+    <span class="theme-icons" aria-hidden="true">
+      <svg
+        class="theme-sun"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+      >
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
+      </svg>
+      <svg
+        class="theme-moon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+      >
+        <path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z" />
+      </svg>
+    </span>
+    <span class="theme-label">Theme</span>
+  </button>
+  <div
+    id="theme-options"
+    class="theme-options"
+    role="group"
+    aria-label="Color theme"
+    hidden
+  >
+    <button type="button" data-theme-choice="light" aria-pressed="false">
+      Light <span aria-hidden="true">☀</span>
+    </button>
+    <button type="button" data-theme-choice="dark" aria-pressed="false">
+      Dark <span aria-hidden="true">☾</span>
+    </button>
+    <button type="button" data-theme-choice="system" aria-pressed="true">
+      System <span class="small">Auto</span>
+    </button>
+    <p>System follows your device.</p>
+  </div>
+</div>

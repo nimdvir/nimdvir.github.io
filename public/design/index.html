@@ -9,7 +9,8 @@
       name="description"
       content="Unlisted reference for the Nim Dvir website design system."
     />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <base target="_blank" />
     <script src="/js/theme-init.js"></script>
     <link rel="stylesheet" href="/styles/site.css" />
     <link
@@ -19,22 +20,80 @@
     <script src="/js/site.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main-content" target="_self">Skip to content</a>
     <header class="site-header">
       <div class="nav-inner">
         <a class="brand" href="/"
           >Nim Dvir <span class="brand-degree">/ design</span></a
         >
         <div class="nav-controls">
+          <div class="theme-picker" hidden>
+            <button
+              class="theme-toggle"
+              type="button"
+              aria-label="Choose color theme"
+              aria-expanded="false"
+              aria-controls="theme-options"
+              title="Choose color theme"
+            >
+              <span class="theme-icons" aria-hidden="true">
+                <svg
+                  class="theme-sun"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <circle cx="12" cy="12" r="4" />
+                  <path
+                    d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+                  />
+                </svg>
+                <svg
+                  class="theme-moon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z" />
+                </svg>
+              </span>
+              <span class="theme-label">Theme</span>
+            </button>
+            <div
+              id="theme-options"
+              class="theme-options"
+              role="group"
+              aria-label="Color theme"
+              hidden
+            >
+              <button
+                type="button"
+                data-theme-choice="light"
+                aria-pressed="false"
+              >
+                Light <span aria-hidden="true">☀</span>
+              </button>
+              <button
+                type="button"
+                data-theme-choice="dark"
+                aria-pressed="false"
+              >
+                Dark <span aria-hidden="true">☾</span>
+              </button>
+              <button
+                type="button"
+                data-theme-choice="system"
+                aria-pressed="true"
+              >
+                System <span class="small">Auto</span>
+              </button>
+              <p>System follows your device.</p>
+            </div>
+          </div>
+
           <button
-            class="theme-toggle"
-            type="button"
-            aria-label="Switch color theme"
-            hidden
-          >
-            <span class="theme-icon" aria-hidden="true">◐</span
-            ><span class="theme-label">Theme</span></button
-          ><button
             class="menu-toggle"
             type="button"
             aria-expanded="false"
@@ -49,8 +108,10 @@
           class="primary-nav"
           aria-label="Design reference sections"
         >
-          <a href="#tokens">Tokens</a><a href="#type">Typography</a
-          ><a href="#components">Components</a><a href="#behavior">Behavior</a>
+          <a href="#tokens" target="_self">Tokens</a
+          ><a href="#type" target="_self">Typography</a
+          ><a href="#components" target="_self">Components</a
+          ><a href="#behavior" target="_self">Behavior</a>
         </nav>
       </div>
     </header>
@@ -75,7 +136,11 @@
       <section id="tokens" class="section">
         <p class="eyebrow">01 / Foundation</p>
         <h2>Color and surfaces.</h2>
-        <p>Switch themes in the sticky navigation to inspect both palettes.</p>
+        <p>
+          Choose Light, Dark, or System in the sticky navigation. The sun and
+          moon icons follow the active palette. System follows your device, and
+          your choice is remembered.
+        </p>
         <div class="swatches">
           <div>
             <div class="swatch" style="background: var(--bg)"></div>
@@ -372,6 +437,11 @@
 
       <section class="section" aria-labelledby="layout-patterns">
         <p class="eyebrow">05 / Editorial patterns</p>
+        <p>
+          Page links open in a new tab. In-page section links stay on this page.
+          Email links open the contact page with mail app, Gmail, Outlook, and
+          copy-address options.
+        </p>
         <h2 id="layout-patterns">Evidence, features, and contact.</h2>
         <div class="evidence-row">
           <div class="evidence">
@@ -416,9 +486,7 @@
             </p>
           </div>
           <div>
-            <a class="contact-email" href="mailto:ndvir@albany.edu"
-              >ndvir@albany.edu ↗</a
-            >
+            <a class="contact-email" href="/contact/">ndvir@albany.edu ↗</a>
             <nav class="social-links" aria-label="Example professional links">
               <a href="https://www.linkedin.com/in/nimdvir/">LinkedIn</a
               ><a href="https://github.com/nimdvir">GitHub</a

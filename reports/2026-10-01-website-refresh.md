@@ -148,3 +148,33 @@ Before merge, rollback is simply leaving the review branch unmerged. After a fut
 - **Production branch at delivery:** `ce4611700c2d2770445781c6a5e409a01373b13e`, unchanged from the starting commit.
 - Shell Git had no push credentials. The connected GitHub integration uploaded the same files and created the branch and PR. Every uploaded binary blob matched its local Git SHA, and the complete remote tree matched the local tree before branch creation.
 - This final report update records the PR after creation; it changes documentation only. No merge, deployment, DNS change, or modification to the reference repository or original CV occurred.
+
+## Follow-up: theme reference and contact fixes
+
+Completed October 1, 2026, after Nim's review and the [al-folio reference](https://al-folio.github.io/blog/).
+
+### Changes
+
+- Replaced the small half-circle theme symbol with locally rendered sun/moon SVG icons and a more visible outlined control. The menu offers Light, Dark, and System. System tracks the device preference; manual choices persist. Changes in another tab synchronize. The menu supports keyboard focus, Escape, and outside-click dismissal. Reduced-motion preferences suppress icon animation. The unlisted design page demonstrates the same control.
+- Replaced email calls to action across the homepage, shared footer, research, projects, teaching, media, and design reference with `/contact/`. The page offers the user's configured mail app, Gmail, Outlook, and a copy-address button, plus readable text if clipboard access is denied. Plain email/telephone references in the CV retain their native protocol links. A website cannot force an unconfigured operating-system mail handler to open; the webmail and copy options provide alternatives. No message was composed or sent.
+- The requested faculty URL was already present in the shared profile data and homepage. Replaced its font-dependent icon with a local building SVG, reused it on the contact page, and added the faculty URL to the site's structured profile data. The faculty link and icon now appear in the homepage contact area and the shared footer.
+- Copied the exact CCE `docs/assets/images/favicon.png` to `public/favicon.png` and used it for the browser favicon and navigation portrait. SHA-256: `469d6c7a2d679dcc4551dad106128b27197b1b31087b6fe72b25f009b8e3c36a`. The previous SVG file remains in the asset library, but is no longer the active favicon.
+- Set a native new-tab default for website links, including internal page links, and added `noopener noreferrer` to web links with JavaScript. Skip links and same-page section anchors stay in the current page; email-app and telephone protocol links use their native handlers. Browsers decide whether a new browsing context appears as a tab or a window.
+- Saved a [complete article preservation and translation workflow](2026-10-01-interview-workflow.md), grounded in the existing interview schema and the supplied Ynet example. It covers the headline, subheader, full main article, bold interviewer prompts, source capture, images and credits, original-language link, translation review, and citation. This is a proposed workflow; the Broderick interview has not been translated or published.
+
+### Follow-up verification
+
+| Check | Result |
+| --- | --- |
+| Production build and integrity | Passed; 35 generated Astro pages and 63 total HTML files checked |
+| Link and favicon audit | All 36 content pages use the new-tab default and CCE favicon; same-page skip/section anchors retain their behavior; favicon bytes match CCE exactly |
+| Responsive browser matrix | 36 content routes × 320/390/768/1440px × light/dark = 288 checks; no horizontal overflow, broken web-link target policy, or page JavaScript errors |
+| Theme behavior | Light/dark persistence, system changes, keyboard/Escape/focus, picker bounds, and switching with blocked local storage passed |
+| Contact and navigation | Gmail/Outlook new-tab opening and opener isolation, clipboard success and denial fallback, mobile menu, project filtering, and no-JavaScript contact/navigation passed |
+| Accessibility scan | Homepage, contact page, and design reference with the theme chooser open, in both themes: 6 axe-core WCAG A/AA scans, zero detected violations |
+| Visual review | Phone dark theme chooser, desktop light theme chooser, and phone contact page reviewed |
+| Patch check | `git diff --check` passed |
+
+Evidence: [validation results](2026-10-01/followup/validation.json), [light desktop](2026-10-01/followup/theme-light-1440.jpg), [dark desktop](2026-10-01/followup/theme-dark-1440.jpg), [light phone](2026-10-01/followup/theme-light-390.jpg), [dark phone](2026-10-01/followup/theme-dark-390.jpg), and [phone contact page showing the clipboard-denied fallback](2026-10-01/followup/contact-390.jpg).
+
+These follow-up checks used local Chromium 153 with remote resources blocked for deterministic execution. Webmail link destinations and new-tab behavior were checked; signed-in Gmail/Outlook compose screens, the visitor's operating-system mail handler, Firefox/Safari, and physical devices were not tested. Automated scans do not establish complete accessibility conformance. No production merge or deployment was performed.

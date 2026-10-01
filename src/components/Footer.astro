@@ -1,5 +1,6 @@
 ---
 import { socialLinks, cvUrl } from "../data/profile";
+import ProfileIcon from "./ProfileIcon.astro";
 ---
 
 <footer class="site-footer">
@@ -20,7 +21,7 @@ import { socialLinks, cvUrl } from "../data/profile";
       <nav class="social-links" aria-label="Social and professional profiles">
         {socialLinks.map((link) => (
           <a href={link.href}>
-            <i class={link.icon} aria-hidden="true"></i>
+            <ProfileIcon icon={link.icon} />
             {link.label}
           </a>
         ))}

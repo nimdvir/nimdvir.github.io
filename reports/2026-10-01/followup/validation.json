@@ -1,0 +1,1480 @@
+{
+  "browser": "153.0.8010.0",
+  "layoutChecks": [
+    {
+      "route": "/404-preview/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/404.html",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/cv/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/media/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/teaching/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/cv/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/media/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/teaching/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/cv/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/media/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/teaching/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/cv/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/media/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/teaching/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/404.html",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/cv/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/media/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/teaching/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/cv/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/media/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/teaching/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/cv/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/media/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/teaching/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/404-preview/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/cv/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jamie-foxx/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/jim-carrey/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/julia-louis-dreyfus/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/lady-gaga/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/michael-fassbender/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/interviews/rupaul/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/media/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/barrier-free-living/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/claimfame/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/costco-mobile-app/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/dexcom-g7-plus/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/facebook-content-strategy/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/fieldstones/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/golf-buddy/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/nasher-sculpture-center/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/prototypes/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/timeout-tel-aviv/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/trackimo/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/projects/zang-toi/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/ai-pedagogy/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/information-engagement/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/less-is-more/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/sticky-words/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/transparency-in-online-marketing/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/research/words-on-trial/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/teaching/",
+      "width": 1440,
+      "theme": "dark"
+    }
+  ],
+  "errors": [],
+  "interactions": "theme persistence, system preference changes, keyboard/Escape/focus, mobile menu, all web-link targets, email provider popups, opener isolation, clipboard success/failure, project filters, no-JavaScript navigation/contact, blocked-storage theme switching passed",
+  "accessibility": [
+    {
+      "route": "/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/design/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/design/",
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "limits": "External resources blocked for deterministic local checks. No email was sent. Native OS mail handler and signed-in provider compose screens were not tested."
+}

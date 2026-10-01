@@ -1,45 +1,96 @@
 (() => {
   const root = document.documentElement;
   const preference = matchMedia("(prefers-color-scheme: dark)");
-  const themeButton = document.querySelector(".theme-toggle");
-  let manualTheme = false;
-  try {
-    manualTheme = ["light", "dark"].includes(
-      localStorage.getItem("nimdvir-theme"),
-    );
-  } catch {}
-  function syncThemeButton() {
-    const dark = root.dataset.theme === "dark";
-    if (!themeButton) return;
-    themeButton.setAttribute(
+  const picker = document.querySelector(".theme-picker");
+  const themeButton = picker?.querySelector(".theme-toggle");
+  const options = picker?.querySelector(".theme-options");
+  let mode = root.dataset.themePreference || "system";
+  function applyTheme() {
+    const dark = mode === "dark" || (mode === "system" && preference.matches);
+    root.dataset.theme = dark ? "dark" : "light";
+    root.dataset.themePreference = mode;
+    themeButton?.setAttribute(
       "aria-label",
-      `Switch to ${dark ? "light" : "dark"} mode`,
+      `Choose color theme: ${mode}, currently ${root.dataset.theme}`,
     );
-    themeButton.setAttribute(
-      "title",
-      `Switch to ${dark ? "light" : "dark"} mode`,
-    );
-    const label = themeButton.querySelector(".theme-label");
-    if (label) label.textContent = dark ? "Light" : "Dark";
-  }
-  if (themeButton) {
-    themeButton.hidden = false;
-    syncThemeButton();
-    themeButton.addEventListener("click", () => {
-      root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
-      manualTheme = true;
-      try {
-        localStorage.setItem("nimdvir-theme", root.dataset.theme);
-      } catch {}
-      syncThemeButton();
+    themeButton?.setAttribute("title", `Color theme: ${mode}`);
+    picker?.querySelectorAll("[data-theme-choice]").forEach((button) => {
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.themeChoice === mode),
+      );
     });
   }
-  preference.addEventListener("change", (event) => {
-    if (!manualTheme) {
-      root.dataset.theme = event.matches ? "dark" : "light";
-      syncThemeButton();
+  function closeThemePicker(restoreFocus = false) {
+    if (!options || !themeButton) return;
+    options.hidden = true;
+    themeButton.setAttribute("aria-expanded", "false");
+    if (restoreFocus) themeButton.focus();
+  }
+  if (picker && themeButton && options) {
+    picker.hidden = false;
+    applyTheme();
+    themeButton.addEventListener("click", () => {
+      options.hidden = !options.hidden;
+      themeButton.setAttribute("aria-expanded", String(!options.hidden));
+      if (!options.hidden)
+        options.querySelector('[aria-pressed="true"]')?.focus();
+    });
+    options.querySelectorAll("[data-theme-choice]").forEach((button) => {
+      button.addEventListener("click", () => {
+        mode = button.dataset.themeChoice;
+        try {
+          localStorage.setItem("nimdvir-theme", mode);
+        } catch {}
+        applyTheme();
+        closeThemePicker(true);
+      });
+    });
+    document.addEventListener("click", (event) => {
+      if (!picker.contains(event.target)) closeThemePicker();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !options.hidden) closeThemePicker(true);
+    });
+    picker.addEventListener("focusout", (event) => {
+      if (!picker.contains(event.relatedTarget)) closeThemePicker();
+    });
+  }
+  preference.addEventListener("change", () => {
+    if (mode === "system") applyTheme();
+  });
+  window.addEventListener("storage", (event) => {
+    if (event.key !== "nimdvir-theme" && event.key !== null) return;
+    mode = ["light", "dark"].includes(event.newValue)
+      ? event.newValue
+      : "system";
+    applyTheme();
+  });
+  // The HTML base target also opens page links in new tabs without JavaScript.
+  // In-page anchors and protocol handlers keep their native behavior.
+  document.querySelectorAll("a[href]").forEach((link) => {
+    const href = link.getAttribute("href");
+    if (href.startsWith("#") || /^(mailto|tel):/i.test(href)) {
+      link.target = "_self";
+    } else if (["http:", "https:"].includes(link.protocol)) {
+      link.target = "_blank";
+      link.relList.add("noopener", "noreferrer");
     }
   });
+  const copyEmail = document.querySelector("[data-copy-email]");
+  if (copyEmail) {
+    copyEmail.hidden = false;
+    copyEmail.addEventListener("click", async () => {
+      const status = document.querySelector(".copy-status");
+      try {
+        await navigator.clipboard.writeText(copyEmail.dataset.copyEmail);
+        status.textContent = "Email address copied.";
+      } catch {
+        status.textContent =
+          "Select and copy the address above: ndvir@albany.edu";
+      }
+    });
+  }
   const menu = document.querySelector(".menu-toggle");
   const nav = document.querySelector("#primary-nav");
   if (menu && nav) {
