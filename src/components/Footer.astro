@@ -20,7 +20,7 @@ import ProfileIcon from "./ProfileIcon.astro";
       <p class="eyebrow">Stay in touch</p>
       <nav class="social-links" aria-label="Social and professional profiles">
         {socialLinks.map((link) => (
-          <a href={link.href}>
+          <a class="button" href={link.href}>
             <ProfileIcon icon={link.icon} />
             {link.label}
           </a>

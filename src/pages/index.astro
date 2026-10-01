@@ -280,7 +280,7 @@ const selected = (await getCollection("projects"))
             ].includes(l.label),
           )
           .map((l) => (
-            <a href={l.href}>
+            <a class="button" href={l.href}>
               <ProfileIcon icon={l.icon} />
               {l.label}
             </a>

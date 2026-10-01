@@ -746,7 +746,7 @@ main:focus {
 .social-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
+  gap: 10px;
 }
 .social-links a {
   display: inline-flex;
@@ -757,7 +757,8 @@ main:focus {
   text-decoration: none;
 }
 .social-links a:hover {
-  text-decoration: underline;
+  background: var(--soft);
+  border-color: var(--link);
 }
 .site-footer {
   border-top: 1px solid var(--border);

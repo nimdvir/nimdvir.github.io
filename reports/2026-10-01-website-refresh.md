@@ -178,3 +178,13 @@ Completed October 1, 2026, after Nim's review and the [al-folio reference](https
 Evidence: [validation results](2026-10-01/followup/validation.json), [light desktop](2026-10-01/followup/theme-light-1440.jpg), [dark desktop](2026-10-01/followup/theme-dark-1440.jpg), [light phone](2026-10-01/followup/theme-light-390.jpg), [dark phone](2026-10-01/followup/theme-dark-390.jpg), and [phone contact page showing the clipboard-denied fallback](2026-10-01/followup/contact-390.jpg).
 
 These follow-up checks used local Chromium 153 with remote resources blocked for deterministic execution. Webmail link destinations and new-tab behavior were checked; signed-in Gmail/Outlook compose screens, the visitor's operating-system mail handler, Firefox/Safari, and physical devices were not tested. Automated scans do not establish complete accessibility conformance. No production merge or deployment was performed.
+
+## Publication follow-up: October 1, 2026
+
+Nim reported that the changes were not visible at `https://nimdvir.github.io/` and clarified the favicon and faculty-button requirements. The cause was that PR #34 was still a draft on the review branch. The next delivery step is merging that PR and verifying its existing GitHub Pages workflow on `main`.
+
+- Checked the live CCE site's favicon at `https://nimdvir.github.io/cce-2026/assets/images/favicon.png`. Its bytes match the personal site's `public/favicon.png` exactly. Added a version query to the personal site's favicon reference, including `/design/`, to refresh browser caches.
+- Applied the shared outlined `button` class to all personal-profile links in the homepage contact area and shared footer. The UAlbany faculty link uses that same button style and its local building SVG. The faculty destination remains `https://www.albany.edu/business/faculty/nim-dvir` and opens in a new tab. Updated the design reference accordingly.
+- Production build and 63-file integrity check passed. A focused browser check of home, about, contact, and design at four widths in both themes passed all 32 cases. Both homepage faculty buttons were checked for destination, new-tab behavior, icon presence, and visible border. Four accessibility scans on home/contact in both themes detected no violations. The phone layout was visually reviewed and `git diff --check` passed.
+
+This record is written before the merge. The final publication result is available in [PR #34](https://github.com/nimdvir/nimdvir.github.io/pull/34) and the [Pages deployment workflow](https://github.com/nimdvir/nimdvir.github.io/actions/workflows/deploy.yml). Earlier notes about production remaining unchanged describe the historical review stages, not the intended final delivery.
