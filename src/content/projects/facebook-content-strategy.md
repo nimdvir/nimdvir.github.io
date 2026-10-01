@@ -1,25 +1,34 @@
 ---
-title: 'Facebook Content Strategy'
-summary: 'Research into how people discover, interpret, and engage with platform content, aimed at improving the quality and relevance of the content experience.'
-category: 'UX Research'
-client: 'Facebook'
-role: 'Mixed-methods research and content strategy'
-outcome: 'Recommendations for discovery, consumption, and engagement flows'
-tags: ['Platform UX', 'Content Strategy', 'Mixed Methods']
-image: '/images/facebook.jpg'
+title: "Facebook Content Strategy"
+summary: "Research into how people discover, consume, and engage with content on Facebook."
+category: "Content Strategy"
+role: "UX research and concept development"
+outcome: "Content strategy recommendations and interface mockups."
+tags: ["Content Strategy"]
+sortOrder: 10
 featured: false
-sortOrder: 7
-status: 'case-study'
+externalUrl: "https://www.nimdvir.com/portfolio/projects/facebook"
+image: "/images/facebook.jpg"
 ---
 
-## Project focus
+## The question
 
-This project examined the content experience from the user's perspective, asking where discovery patterns, relevance cues, and engagement mechanics were working and where they were falling short.
+How could the content experience better reflect users’ preferences, behaviors, and expectations? The project examined content discovery, consumption, engagement, and the influence of content algorithms.
 
-## Approach
+## Research approach
 
-The research combined qualitative and quantitative methods to study how people encounter content, what makes them continue engaging, and where friction or overload undermines the experience.
+The work combined user interviews, surveys, and data analysis to identify content-strategy opportunities.
 
-## Proposed impact
+## Deliverables
 
-The resulting recommendations focused on designing a more intentional content journey, with clearer alignment between user motivations and platform strategy.
+The original portfolio includes mockup screenshots and a project slide deck. The contribution is a research-informed set of content and UX recommendations.
+
+## Project visuals
+
+[![Facebook content experience concept mockups](/images/projects/facebook-01.webp)](/images/projects/facebook-01.webp)
+
+## Original project materials
+
+- [Nim Dvir - Consumer Content Strategy (PDF)](https://drive.google.com/open?id=1j1dw_8Y6armb3gQB43AkHxxIJeiSPOFj)
+
+These are the original materials linked from the legacy portfolio.

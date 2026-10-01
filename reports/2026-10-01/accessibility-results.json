@@ -1,0 +1,102 @@
+[
+  {
+    "route": "/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/about/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/projects/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/teaching/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/research/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/media/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/design/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/cv/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/projects/prototypes/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/interviews/rupaul/",
+    "theme": "light",
+    "violations": []
+  },
+  {
+    "route": "/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/about/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/projects/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/teaching/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/research/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/media/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/design/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/cv/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/projects/prototypes/",
+    "theme": "dark",
+    "violations": []
+  },
+  {
+    "route": "/interviews/rupaul/",
+    "theme": "dark",
+    "violations": []
+  }
+]

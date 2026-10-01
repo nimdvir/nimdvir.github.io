@@ -1,7 +1,8 @@
 ---
+url: "https://www.proquest.com/docview/2753692156"
 title: 'Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information Engagement'
 year: '2022'
-authors: ['Nim Dvir']
+authors: ["Nim Dvir"]
 venue: 'Doctoral dissertation'
 summary: 'Dissertation research on measuring and improving information engagement through computational linguistics.'
 tags: ['Computational Linguistics', 'NLP', 'Dissertation']

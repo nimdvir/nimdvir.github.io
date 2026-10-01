@@ -1,652 +1,194 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../layouts/Layout.astro';
-
-const base = import.meta.env.BASE_URL;
-const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
-const toAssetPath = (image?: string) => {
-	if (!image || image.trim().startsWith('url(')) {
-		return undefined;
-	}
-
-	return image;
-};
-
-const researchEntries = await getCollection('research');
-const publicationEntries = await getCollection('publications');
-const talkEntries = await getCollection('talks');
-
-const researchProjects = researchEntries.sort((left, right) => {
-	const featuredDelta = Number(right.data.featured ?? false) - Number(left.data.featured ?? false);
-	if (featuredDelta !== 0) {
-		return featuredDelta;
-	}
-
-	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
-	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
-});
-
-const featuredResearch = researchProjects.filter((entry) => entry.data.featured);
-const additionalResearch = researchProjects.filter((entry) => !entry.data.featured);
-const publications = [...publicationEntries].sort((left, right) => {
-	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
-	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
-});
-const talks = [...talkEntries].sort((left, right) => {
-	const orderDelta = (left.data.sortOrder ?? 999) - (right.data.sortOrder ?? 999);
-	return orderDelta !== 0 ? orderDelta : right.data.year.localeCompare(left.data.year);
-});
-const researchInterestKeywords = [
-	'Artificial Intelligence',
-	'Machine Learning',
-	'User Experience',
-	'Ethics of AI',
-	'Human-Computer Interaction',
-	'Decision-Making',
-	'Digital Learning',
-	'Computational Linguistics',
-	'Information Behavior',
-	'Behavioral Economics',
-	'Natural Language Processing (NLP)',
-	'Content Strategy',
-	'Design Research',
-	'Computers and Society',
-];
-
-const manuscriptsInPreparation = [
-	'Predicting information engagement using computational linguistics and NLP (under review).',
-	'The Ways of Words: Impact of word choice on engagement and decision making.',
-	'Phrasing for Success: Optimizing information engagement with AI and computational linguistics.',
-	'Unified understanding of information engagement: literature review across HCI and behavior.',
-	'Teaching IT and product design in MBA programs: qualitative exploration.',
-];
-
-const publicationSeeds = [
-	'Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information Engagement (Doctoral dissertation, 2022).',
-	'Process of information engagement: Integrating information behavior and user engagement. Proceedings of ASIS&T, 57(1), 2020.',
-	'Systematic improvement of user engagement with academic titles using computational linguistics. Informing Science and IT Education Conference, 2019.',
-	'When less is more: Consumer behavior and information sharing on landing pages. Informing Science, 2018.',
-	'What is user engagement? Interdisciplinary perspective on interactions with IT, 2018.',
-];
-
-const talkSeeds = [
-	'Does phrasing matter? Using generative text to improve information engagement and UX. ILAIS 2023.',
-	'What do users read? Predictive models of information engagement. ILAIS 2021.',
-	'Sticky words: linguistic analysis for better information interactions. ICIS / ASIS&T 2018.',
-	'Less is more: digital content volume and engagement. UXPA International / Informing Science, 2018.',
-];
-
-const glance = [
-	{ value: `${researchProjects.length}`, label: 'Research projects' },
-	{ value: `${featuredResearch.length}`, label: 'Featured projects' },
-	{ value: `${publications.length || publicationSeeds.length}`, label: 'Publications & manuscripts' },
-	{ value: `${talks.length || talkSeeds.length}`, label: 'Talks' },
-	{ value: 'Methods', label: 'NLP, HCI, design research' },
-	{ value: 'Focus', label: 'AI, information behavior, teaching' },
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import { verifiedResearch, cvUrl } from "../data/profile";
+const research = (await getCollection("research"))
+  .filter((e) => verifiedResearch.includes(e.slug))
+  .sort((a, b) => (a.data.sortOrder ?? 99) - (b.data.sortOrder ?? 99));
+const publications = (await getCollection("publications")).sort((a, b) =>
+  b.data.year.localeCompare(a.data.year),
+);
+const manuscripts = [
+  [
+    "The ways of words: The impact of word choice on information engagement and decision making",
+    "Decision Support Systems · under review",
+    "https://doi.org/10.48550/arXiv.2305.09798",
+  ],
+  [
+    "Words that stick: Predicting decision making and synonym engagement using cognitive biases and computational linguistics",
+    "The Journal of Computational Creativity · under review",
+    "https://doi.org/10.48550/arXiv.2307.14511",
+  ],
+  [
+    "A predictive model of digital information engagement",
+    "Cognitive Computation · under review",
+    "https://doi.org/10.48550/arXiv.2307.14500",
+  ],
+  [
+    "Trust, credibility, or complexity? The effect of transparency in online marketing",
+    "Journal of Interactive Marketing · under review",
+    "https://doi.org/10.13140/RG.2.2.14206.56642",
+  ],
+  [
+    "The double-edged screen: Balancing benefits and risks of social media in digital citizenship",
+    "With M. R. Heslin · Computers in Human Behavior · under review",
+    "https://doi.org/10.2139/ssrn.4701695",
+  ],
+  [
+    "Beyond compliance: Digital accessibility as a strategic imperative for New York businesses",
+    "With K. Putnam · Business & Society · under review",
+    "",
+  ],
 ];
 ---
 
 <Layout
-	title="Research"
-	description="UX and AI research: information engagement, computational linguistics, and responsible AI."
+  title="Research"
+  description="Nim Dvir’s research on information engagement, computational linguistics, human-centered AI, legal language, and digital learning."
 >
-	<div class="research-hero">
-		<div id="particles-header"></div>
-		<div class="hero-inner">
-			<h1>Research</h1>
-			<p class="hero-copy">
-				Research at the intersection of information engagement, computational linguistics, responsible AI,
-				and pedagogy.
-			</p>
-			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
-			<ul class="glance-strip">
-				{glance.map((item) => (
-					<li>
-						<span class="glance-value">{item.value}</span>
-						<span class="glance-label">{item.label}</span>
-					</li>
-				))}
-			</ul>
-		</div>
-	</div>
-
-	<script is:inline src={`${import.meta.env.BASE_URL}js/particles.js`}></script>
-	<script is:inline>
-		document.addEventListener('DOMContentLoaded', function() {
-			if (typeof particlesJS !== 'undefined') {
-				particlesJS('particles-header', {
-					particles: {
-						number: { value: 60, density: { enable: true, value_area: 800 } },
-						color: { value: '#ffffff' },
-						shape: { type: 'circle' },
-						opacity: { value: 0.5, random: true },
-						size: { value: 3, random: true },
-						line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.3, width: 1 },
-						move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
-					},
-					interactivity: {
-						detect_on: 'canvas',
-						events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
-						modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
-					},
-					retina_detect: true
-				});
-			}
-		});
-	</script>
-
-	<section class="pillars-section" style="max-width: 1100px; margin: 0 auto 48px; padding: 0 24px;">
-		<p style="color: #475569; font-size: 16px; line-height: 1.7; margin: 0 0 24px; max-width: 700px;">My research agenda centers on three interconnected pillars:</p>
-		<div class="pillars-grid">
-			<article class="pillar">
-				<div class="pillar-icon"><i class="fas fa-brain"></i></div>
-				<h3>Analytics + AI for Business</h3>
-				<p>Solving organizational problems through NLP, machine learning, and behavioral analytics — from predicting user engagement to optimizing decision making with AI.</p>
-			</article>
-			<article class="pillar">
-				<div class="pillar-icon"><i class="fas fa-laptop-code"></i></div>
-				<h3>Information Systems Design</h3>
-				<p>Studying how people interact with information systems in real-world settings — and designing products that are trustworthy, usable, and evidence-based.</p>
-			</article>
-			<article class="pillar">
-				<div class="pillar-icon"><i class="fas fa-graduation-cap"></i></div>
-				<h3>AI/ML Pedagogy</h3>
-				<p>Developing curricula and teaching approaches that prepare students to use AI tools responsibly and effectively — from Python to LLMs.</p>
-			</article>
-		</div>
-	</section>
-
-	<section class="split">
-		<div>
-			<h2><i class="fas fa-lightbulb"></i> Research interests</h2>
-			<ul class="keyword-list">
-				{researchInterestKeywords.map((keyword) => (
-					<li>{keyword}</li>
-				))}
-			</ul>
-		</div>
-		<div>
-			<h2><i class="fas fa-tools"></i> Toolkits & methods</h2>
-			<ul>
-				<li><i class="fas fa-angle-right"></i> Usability studies, contextual inquiry, surveys</li>
-				<li><i class="fas fa-angle-right"></i> Python + NLP (spaCy, NLTK), data science (pandas, scikit-learn)</li>
-				<li><i class="fas fa-angle-right"></i> Design research, content strategy, qualitative + quantitative analysis</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="featured-section">
-		<div class="section-head">
-			<div>
-				<p class="section-label">Featured research</p>
-				<h2>Legacy-backed foundations and current research directions</h2>
-			</div>
-			<a href={withBase('/research/')}>Browse research archive</a>
-		</div>
-		<div class="research-grid">
-			{featuredResearch.map((entry) => (
-				<article class="research-card">
-					{toAssetPath(entry.data.image) && (
-						<a href={withBase(`/research/${entry.slug}/`)}>
-							<img src={withBase(toAssetPath(entry.data.image)!)} alt={entry.data.title} loading="lazy" />
-						</a>
-					)}
-					<div class="research-card__body">
-						<p class="card-meta">{entry.data.year}{entry.data.subtitle ? ` · ${entry.data.subtitle}` : ''}</p>
-						<h3><a href={withBase(`/research/${entry.slug}/`)}>{entry.data.title}</a></h3>
-						<p>{entry.data.summary}</p>
-					</div>
-				</article>
-			))}
-		</div>
-	</section>
-
-	{additionalResearch.length > 0 && (
-		<section class="archive-section">
-			<div class="section-head compact">
-				<div>
-					<p class="section-label">Additional research</p>
-					<h2>Current and emerging work</h2>
-				</div>
-			</div>
-			<ul class="archive-list">
-				{additionalResearch.map((entry) => (
-					<li>
-						<a href={withBase(`/research/${entry.slug}/`)}>{entry.data.title}</a>
-						<span>{entry.data.year}</span>
-					</li>
-				))}
-			</ul>
-		</section>
-	)}
-
-	<section class="lists">
-		<details class="collapsible-section">
-			<summary>
-				<h2><i class="fas fa-file-alt"></i> Manuscripts in preparation</h2>
-				<span class="chevron" aria-hidden="true"></span>
-			</summary>
-			<div class="list-content">
-				<ol>
-					{manuscriptsInPreparation.map((item) => <li>{item}</li>)}
-				</ol>
-			</div>
-		</details>
-	</section>
-
-	<section class="lists">
-		<details class="collapsible-section">
-			<summary>
-				<h2><i class="fas fa-book"></i> Selected publications</h2>
-				<span class="chevron" aria-hidden="true"></span>
-			</summary>
-			<div class="list-content">
-				{publications.length > 0 ? (
-					<ul class="pubs">
-						{publications.map((entry) => (
-							<li>
-								<i class="fas fa-scroll"></i> {entry.data.title}. {entry.data.venue}, {entry.data.year}.
-							</li>
-						))}
-					</ul>
-				) : (
-					<ul class="pubs">
-						{publicationSeeds.map((item) => (
-							<li><i class="fas fa-scroll"></i> {item}</li>
-						))}
-					</ul>
-				)}
-			</div>
-		</details>
-	</section>
-
-	<section class="lists">
-		<details class="collapsible-section">
-			<summary>
-				<h2><i class="fas fa-microphone"></i> Recent talks</h2>
-				<span class="chevron" aria-hidden="true"></span>
-			</summary>
-			<div class="list-content">
-				{talks.length > 0 ? (
-					<ul class="pubs">
-						{talks.map((entry) => (
-							<li>
-								<i class="fas fa-comments"></i> {entry.data.title}. {entry.data.event}, {entry.data.year}.
-							</li>
-						))}
-					</ul>
-				) : (
-					<ul class="pubs">
-						{talkSeeds.map((item) => (
-							<li><i class="fas fa-comments"></i> {item}</li>
-						))}
-					</ul>
-				)}
-			</div>
-		</details>
-	</section>
+  <header class="page-intro">
+    <p class="eyebrow">Research / Human-centered technology</p>
+    <h1>
+      How information
+      <br />
+      <span class="gradient-text">moves people.</span>
+    </h1>
+    <p class="lede">
+      I study how language and digital design shape engagement, understanding,
+      and decisions, combining human-computer interaction with computational
+      linguistics and behavioral research.
+    </p>
+  </header>
+  <section class="feature-panel" aria-labelledby="funded-title">
+    <div>
+      <p class="eyebrow">Current funded research · 2026</p>
+      <h2 id="funded-title">Language in mental health treatment courts.</h2>
+      <p>
+        With Nevada’s Eighth Judicial District Court, I’m examining how legal
+        language framing relates to participant comprehension, compliance, and
+        engagement.
+      </p>
+      <a class="text-link" href="/research/words-on-trial/">
+        Explore the project ↗
+      </a>
+    </div>
+    <div>
+      <p class="status-label">Faculty Research Award Program · Category B</p>
+      <h3>Behavioral design meets NLP.</h3>
+      <p>
+        Supported by a $3,242 UAlbany FRAP-B award in Spring 2026. The work
+        combines language analysis and applied predictive modeling in a
+        consequential real-world setting.
+      </p>
+    </div>
+  </section>
+  <section class="section" style="border-top:0">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Research agenda</p>
+        <h2>Connected questions.</h2>
+      </div>
+    </div>
+    <div class="research-grid">
+      {research.map((r) => (
+        <article class="plain-card">
+          <p class="eyebrow">{r.data.category}</p>
+          <h3>
+            <a href={`/research/${r.slug}/`}>{r.data.title}</a>
+          </h3>
+          <p>{r.data.summary}</p>
+          <span class="status-label">{r.data.status}</span>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="split-section">
+    <div>
+      <p class="eyebrow">Selected scholarship</p>
+      <h2>
+        Published work
+        <br />
+        and dissertation.
+      </h2>
+      <p class="small">
+        Publication details and links are drawn from the September 2026 CV.
+      </p>
+      <a
+        class="text-link"
+        href="https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en"
+      >
+        Google Scholar ↗
+      </a>
+    </div>
+    <ul class="reading-list">
+      {publications.map((p) => (
+        <li>
+          <span class="status-label">
+            {p.data.year} · {p.data.type || "Publication"}
+          </span>
+          <h3>
+            {p.data.url ? (
+              <a href={p.data.url}>{p.data.title} ↗</a>
+            ) : (
+              p.data.title
+            )}
+          </h3>
+          <p>
+            {p.data.authors.join(", ")} · <em>{p.data.venue}</em>
+          </p>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="split-section">
+    <div>
+      <p class="eyebrow">Ongoing scholarship</p>
+      <h2>
+        Working papers
+        <br />
+        and manuscripts.
+      </h2>
+      <p class="small">
+        Status as reported in the September 16, 2026 CV. Preprint links are
+        provided where available; review status does not mean acceptance.
+      </p>
+    </div>
+    <ul class="reading-list">
+      {manuscripts.map(([title, status, url]) => (
+        <li>
+          <span class="status-label">{status}</span>
+          <h3>{url ? <a href={url}>{title} ↗</a> : title}</h3>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="split-section">
+    <div>
+      <p class="eyebrow">Conversations</p>
+      <h2>
+        Talks and
+        <br />
+        collaboration.
+      </h2>
+    </div>
+    <div class="prose">
+      <p>
+        I’ve presented at ICIS, AMCIS, ASIS&T, UXPA, and ILAIS. My invited CCE
+        2026 session explores AI agents for academic workflows.
+      </p>
+      <p>
+        I welcome collaborators working on human-centered AI, language and
+        decision-making, digital accessibility, and information systems
+        education.
+      </p>
+      <div class="button-row">
+        <a class="button button-primary" href="/contact/">
+          Discuss research ↗
+        </a>
+        <a class="button" href={cvUrl}>
+          Full publication and talk list ↗
+        </a>
+      </div>
+    </div>
+  </section>
 </Layout>
-
-<style>
-	/* ===== HERO ===== */
-	.research-hero {
-		position: relative;
-		width: 100vw;
-		margin-left: calc(-50vw + 50%);
-		margin-top: -24px;
-		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-		padding: 60px 24px 72px;
-		margin-bottom: 48px;
-		color: #fff;
-		overflow: hidden;
-	}
-
-	#particles-header {
-		position: absolute;
-		top: 0; left: 0;
-		width: 100%; height: 100%;
-		z-index: 1;
-	}
-
-	.hero-inner {
-		position: relative;
-		z-index: 2;
-		max-width: 1100px;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.hero-inner h1 {
-		font-size: 56px;
-		font-weight: 800;
-		margin: 0 0 12px;
-		line-height: 1.05;
-		letter-spacing: -0.03em;
-		color: #fff;
-	}
-
-	.hero-copy {
-		max-width: 720px;
-		margin: 0 auto 18px;
-		font-size: 18px;
-		line-height: 1.7;
-		color: rgba(255,255,255,0.82);
-	}
-
-	.hero-subtitle {
-		font-size: 16px;
-		font-weight: 600;
-		margin: 0 0 28px;
-		color: rgba(255,255,255,0.7);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-	}
-	.hero-subtitle i { color: #fbbf24; }
-
-	.glance-strip {
-		list-style: none;
-		margin: 0 auto;
-		padding: 0;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 12px;
-		max-width: 960px;
-	}
-
-	.glance-strip li {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 4px;
-		padding: 16px 10px;
-		border-radius: 14px;
-		background: rgba(0,0,0,0.22);
-		border: 1px solid rgba(255,255,255,0.08);
-	}
-
-	.glance-value { font-weight: 700; font-size: 18px; color: #fff; }
-	.glance-label { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.3; text-align: center; }
-
-	/* ===== CONTENT ===== */
-	.split {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-		gap: 18px;
-		margin-top: 24px;
-	}
-
-	h2 {
-		margin: 0 0 10px;
-		letter-spacing: -0.01em;
-	}
-
-	ul,
-	ol {
-		margin: 0;
-		padding-left: 18px;
-		color: #111827;
-		line-height: 1.5;
-		display: grid;
-		gap: 10px;
-	}
-
-	.split ul {
-		list-style: none;
-		padding-left: 0;
-	}
-
-	.keyword-list {
-		list-style: none;
-		padding-left: 0;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 10px;
-	}
-
-	.keyword-list li {
-		padding: 8px 12px;
-		border-radius: 999px;
-		background: #eff6ff;
-		color: #1e3a5f;
-		font-weight: 600;
-	}
-
-	.split ul li i {
-		color: #1e3a5f;
-		margin-right: 8px;
-	}
-
-	.featured-section,
-	.archive-section {
-		margin-top: 36px;
-	}
-
-	.section-head {
-		display: flex;
-		justify-content: space-between;
-		align-items: end;
-		gap: 16px;
-		margin-bottom: 18px;
-	}
-
-	.section-head a {
-		color: #1d4ed8;
-		font-weight: 700;
-		text-decoration: none;
-	}
-
-	.section-label {
-		margin: 0 0 6px;
-		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		font-size: 12px;
-		font-weight: 700;
-		color: #64748b;
-	}
-
-	.section-head h2 {
-		margin: 0;
-		font-size: 26px;
-	}
-
-	.research-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-		gap: 18px;
-	}
-
-	.research-card {
-		background: #ffffff;
-		border: 1px solid #e5e7eb;
-		border-radius: 18px;
-		overflow: hidden;
-		box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
-	}
-
-	.research-card img {
-		display: block;
-		width: 100%;
-		height: 180px;
-		object-fit: cover;
-	}
-
-	.research-card__body {
-		padding: 18px;
-		display: grid;
-		gap: 10px;
-	}
-
-	.card-meta {
-		margin: 0;
-		font-size: 13px;
-		color: #64748b;
-	}
-
-	.research-card__body h3 {
-		margin: 0;
-		font-size: 22px;
-		letter-spacing: -0.02em;
-	}
-
-	.research-card__body h3 a {
-		text-decoration: none;
-	}
-
-	.research-card__body p {
-		margin: 0;
-		color: #334155;
-		line-height: 1.6;
-	}
-
-	.archive-list {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		display: grid;
-		gap: 12px;
-	}
-
-	.archive-list li {
-		display: flex;
-		justify-content: space-between;
-		gap: 12px;
-		padding: 14px 16px;
-		border-radius: 14px;
-		background: #f8fafc;
-		border: 1px solid #e2e8f0;
-	}
-
-	.archive-list a {
-		text-decoration: none;
-		font-weight: 700;
-	}
-
-	.archive-list span {
-		color: #64748b;
-		font-weight: 600;
-	}
-
-	.pubs {
-		list-style: none;
-		padding-left: 0;
-	}
-
-	.pubs li i {
-		color: #6b7280;
-		margin-right: 10px;
-	}
-
-	.lists {
-		margin-top: 28px;
-	}
-
-	.collapsible-section {
-		background: #ffffff;
-		border: 1px solid #e5e7eb;
-		border-radius: 14px;
-		overflow: hidden;
-	}
-
-	.collapsible-section summary {
-		list-style: none;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 12px;
-		padding: 16px 18px;
-		cursor: pointer;
-	}
-
-	.collapsible-section summary::-webkit-details-marker {
-		display: none;
-	}
-
-	.collapsible-section summary h2 {
-		margin: 0;
-		font-size: 22px;
-	}
-
-	.collapsible-section .chevron {
-		width: 10px;
-		height: 10px;
-		border-right: 2px solid #94a3b8;
-		border-bottom: 2px solid #94a3b8;
-		transform: rotate(45deg);
-		transition: transform 0.2s ease;
-		flex-shrink: 0;
-	}
-
-	.collapsible-section[open] .chevron {
-		transform: rotate(-135deg);
-	}
-
-	.list-content {
-		border-top: 1px solid #e5e7eb;
-		padding: 14px 18px 18px;
-	}
-
-	@media (max-width: 640px) {
-		.research-hero { padding: 40px 16px 48px; }
-		.hero-inner h1 { font-size: 40px; }
-		.hero-copy { font-size: 16px; }
-		.glance-strip { grid-template-columns: repeat(2, 1fr); }
-		.section-head,
-		.archive-list li {
-			flex-direction: column;
-			align-items: start;
-		}
-
-		h1 {
-			font-size: 26px;
-		}
-
-		.lede {
-			font-size: 16px;
-		}
-	}
-
-	/* Research pillars */
-	.pillars-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-		gap: 20px;
-	}
-
-	.pillar {
-		background: #fff;
-		border: 1px solid #e5e7eb;
-		border-radius: 16px;
-		padding: 28px 24px;
-		box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-		transition: transform 0.2s ease, box-shadow 0.2s ease;
-	}
-	.pillar:hover {
-		transform: translateY(-4px);
-		box-shadow: 0 16px 36px rgba(0,0,0,0.08);
-	}
-
-	.pillar-icon {
-		width: 48px; height: 48px;
-		border-radius: 14px;
-		background: linear-gradient(135deg, #1e3a5f, #2d5a8e);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 16px;
-	}
-	.pillar-icon i { color: #fff; font-size: 20px; }
-
-	.pillar h3 {
-		font-size: 18px;
-		margin: 0 0 8px;
-		color: #0f172a;
-	}
-	.pillar p {
-		margin: 0;
-		color: #475569;
-		line-height: 1.6;
-		font-size: 15px;
-	}
-</style>

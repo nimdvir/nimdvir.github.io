@@ -1,25 +1,34 @@
 ---
-title: 'Zang Toi'
-summary: 'Digital strategy and web redesign work for an internationally recognized fashion brand, combining visual positioning with clearer audience pathways.'
-category: 'Digital Strategy'
-client: 'Zang Toi'
-role: 'Web strategy and brand experience design'
-outcome: 'Redesign direction for brand storytelling, press, and conversion support'
-tags: ['Fashion', 'Brand Strategy', 'Web Design']
-image: '/images/zang-toi.jpg'
+title: "Zang Toi"
+summary: "A digital presence concept that translates a fashion designer’s brand into an online experience."
+category: "Product Design"
+role: "Digital experience and content strategy"
+outcome: "A redesign scope connecting brand, press, marketing, and customer journeys."
+tags: ["Product Design"]
+sortOrder: 7
 featured: false
-sortOrder: 6
-status: 'case-study'
+externalUrl: "https://www.nimdvir.com/portfolio/projects/zang-toi"
+image: "/images/zang-toi.jpg"
 ---
 
-## Project focus
+## The challenge
 
-The challenge was to strengthen the brand's online presence in a way that felt visually aligned with the designer's identity while still supporting practical communication needs such as press access and marketing goals.
+The project asked how an online presence could communicate Zang Toi’s design aesthetic and craftsmanship while remaining clear and usable.
 
-## Approach
+## Scope
 
-The redesign strategy considered visual hierarchy, editorial storytelling, and clearer pathways for audiences arriving through fashion media, brand search, and client interest.
+The redesign covered branding, press information, marketing, conversion, and retention. It aimed to connect the designer’s creative identity with a coherent website experience.
 
-## Proposed impact
+## Intended direction
 
-The work framed the website as a more cohesive brand surface, one that could support both inspiration and action without sacrificing aesthetic control.
+The proposal focused on a consistent brand story and customer journeys supporting both online engagement and offline interest. The original portfolio includes a scope document.
+
+## Project visuals
+
+[![Zang Toi brand mark](/images/projects/zang-toi-01.webp)](/images/projects/zang-toi-01.webp)
+
+## Original project materials
+
+- [Zang Toi - Scope Document 1.0 (PDF)](https://drive.google.com/open?id=1_Rz3zRTgT-sGyu0LxKadCb5pEX9ko3dM)
+
+These are the original materials linked from the legacy portfolio.

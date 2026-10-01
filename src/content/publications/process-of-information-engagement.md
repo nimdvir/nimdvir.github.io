@@ -1,7 +1,8 @@
 ---
+url: "https://doi.org/10.1002/pra2.407"
 title: 'Process of information engagement: Integrating information behavior and user engagement'
 year: '2020'
-authors: ['Nim Dvir']
+authors: ["Nim Dvir"]
 venue: 'Proceedings of ASIS&T, 57(1)'
 summary: 'An interdisciplinary framing of information engagement across information behavior and user engagement research.'
 tags: ['Information Behavior', 'User Engagement']

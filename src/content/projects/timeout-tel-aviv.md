@@ -1,25 +1,30 @@
 ---
-title: 'Timeout Tel Aviv'
-summary: 'Editorial UX and wireframing work for a city-guide publication, focused on helping readers find timely culture and lifestyle content more effectively.'
-category: 'UX Design'
-client: 'Timeout Tel Aviv'
-role: 'Wireframing and editorial experience design'
-outcome: 'Information architecture and interface concepts for content discovery'
-tags: ['Editorial UX', 'Wireframing', 'Content Discovery']
-image: '/images/timeout.jpg'
+title: "Time Out Tel Aviv"
+summary: "A visual archive of editorial and digital content work for Time Out Tel Aviv."
+category: "Content Strategy"
+role: "Editorial and digital content"
+outcome: "Website wireframes and content organization."
+tags: ["Content Strategy"]
+sortOrder: 9
 featured: false
-sortOrder: 5
-status: 'case-study'
+externalUrl: "https://www.nimdvir.com/portfolio/projects/timeout"
+image: "/images/timeout.jpg"
 ---
 
-## Project focus
+## Portfolio archive
 
-This work looked at how editorial and city-guide content could be organized to better support browsing, event discovery, and recurring site use.
+This collection presents website wireframes and content organization for Time Out Tel Aviv, connecting an editorial brand with a clear digital experience.
 
-## Approach
+## Project materials
 
-The project translated content strategy goals into wireframes and experience concepts, with particular attention to how readers scan listings, move between categories, and decide what is worth their time.
+Explore the site structure, content categories, and original website wireframe below.
 
-## Proposed impact
+## Project visuals
 
-The outcome was a clearer framework for surfacing local recommendations while keeping the publication's voice and editorial density intact.
+[![Time Out Tel Aviv site structure and content categories](/images/projects/timeout-02.webp)](/images/projects/timeout-02.webp)
+
+## Original project materials
+
+- [Timeout Tel Aviv website wireframe (PDF)](https://drive.google.com/open?id=1inQC4wEGEls3bS_snxOJ2MtQXLk5-jML)
+
+These are the original materials linked from the legacy portfolio.

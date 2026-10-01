@@ -1,7 +1,8 @@
 ---
+url: "https://doi.org/10.13140/RG.2.2.26789.81122"
 title: 'What is user engagement? Interdisciplinary perspective on interactions with IT'
 year: '2018'
-authors: ['Nim Dvir']
+authors: ["Nim Dvir"]
 venue: 'Interdisciplinary perspective on interactions with IT'
 summary: 'A synthesis of how user engagement is defined and operationalized across adjacent fields.'
 tags: ['User Engagement', 'Theory']

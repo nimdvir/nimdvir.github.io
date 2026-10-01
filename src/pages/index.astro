@@ -1,1002 +1,291 @@
 ---
-import Layout from '../layouts/Layout.astro';
-
-const base = import.meta.env.BASE_URL;
-const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
-const campusImages = [
-	{ src: withBase('/images/about/ualbany-campus-west.webp'), alt: 'University at Albany campus view at sunset' },
-	{ src: withBase('/images/about/ualbany-campus-east.webp'), alt: 'University at Albany campus view with a broad skyline' },
-];
-const exploreWords = ['Self', 'Research', 'Projects', 'Media', 'Teaching'];
-const instagramProfileUrl = 'https://www.instagram.com/nimdvir/?utm_source=ig_embed&utm_campaign=loading';
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import ProfileIcon from "../components/ProfileIcon.astro";
+import { cvUrl, socialLinks } from "../data/profile";
+const selected = (await getCollection("projects"))
+  .filter((p) =>
+    ["costco-mobile-app", "dexcom-g7-plus", "barrier-free-living"].includes(
+      p.slug,
+    ),
+  )
+  .sort((a, b) => (a.data.sortOrder ?? 99) - (b.data.sortOrder ?? 99));
 ---
 
 <Layout
-	title="Nim Dvir, PhD"
-	description="UX and AI researcher; Visiting Assistant Professor at SUNY Albany. Research in HCI, information engagement, and responsible AI."
+  title="Nim Dvir, PhD"
+  description="Nim Dvir is a UX and AI researcher, educator, and builder at the University at Albany. Explore research, industry projects, teaching, and speaking."
 >
-	<!-- Hero Banner with Particles -->
-	<div class="hero-banner">
-		<div id="particles-js"></div>
-		<div class="hero-content">
-			<div class="hero-text">
-				<span class="badge">UX + AI Researcher</span>
-				<h1>Nim Dvir, PhD</h1>
-				<p class="subtitle">Visiting Assistant Professor<br/>The State University of New York at Albany</p>
-				<p class="intro">
-					Human-computer interaction researcher focused on information engagement, 
-					responsible AI, and data-driven design.
-				</p>
-				<div class="cta-buttons">
-					<a href="mailto:ndvir@albany.edu" class="btn btn-primary">
-						<i class="fas fa-envelope"></i> Contact Me
-					</a>
-					<a href={withBase('/about')} class="btn btn-secondary">
-						<i class="fas fa-user"></i> About Me
-					</a>
-				</div>
-			</div>
-			<div class="hero-image">
-				<img src={withBase('/images/headshot2025.jpg')} alt="Portrait of Nim Dvir" />
-			</div>
-		</div>
-	</div>
-
-	<!-- Social Links Bar -->
-	<section class="social-bar">
-		<a href="https://www.linkedin.com/in/nimdvir/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
-		<a href="https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en" target="_blank" rel="noreferrer"><i class="fas fa-graduation-cap"></i> Scholar</a>
-		<a href="https://orcid.org/0000-0001-5462-3180" target="_blank" rel="noreferrer"><i class="fab fa-orcid"></i> ORCID</a>
-		<a href="https://www.researchgate.net/profile/Nim-Dvir" target="_blank" rel="noreferrer"><i class="fab fa-researchgate"></i> ResearchGate</a>
-		<a href="https://www.instagram.com/nimdvir/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
-	</section>
-
-	<!-- Extended Bio Section -->
-	<section class="content-section intro-container">
-		<div class="hello-wrapper">
-			<span class="typewriter">Hello!</span>
-		</div>
-		
-		<div class="bio-text">
-			<p class="lead">I’m Nimrod (Nim) Dvir, Ph.D.</p>
-			<p>
-				I am a Mixed Methods Researcher and Lecturer at the University at Albany’s Massry School of Business, specializing in Human-Computer Interaction (HCI) and Business Analytics. My work sits at the intersection of data science and behavioral psychology, where I use computational linguistics and AI-driven modeling to understand and optimize how people engage with digital information.
-			</p>
-
-			<h3>At a Glance</h3>
-			<div class="stats-grid">
-				<div class="stat-card">
-					<span class="stat-emoji">🎓</span>
-					<span class="stat-number">4</span>
-					<span class="stat-label">Degrees</span>
-					<span class="stat-sub">Because one was never enough</span>
-				</div>
-				<div class="stat-card">
-					<span class="stat-emoji">📚</span>
-					<span class="stat-number">15+</span>
-					<span class="stat-label">Courses Taught</span>
-				</div>
-				<div class="stat-card">
-					<span class="stat-emoji">🏆</span>
-					<span class="stat-number">11</span>
-					<span class="stat-label">Awards</span>
-					<span class="stat-sub">Yes, I counted</span>
-				</div>
-				<div class="stat-card">
-					<span class="stat-emoji">📺</span>
-					<span class="stat-number">20+</span>
-					<span class="stat-label">Media Appearances</span>
-				</div>
-				<div class="stat-card">
-					<span class="stat-emoji">🎤</span>
-					<span class="stat-number">50+</span>
-					<span class="stat-label">Celebrity Interviews</span>
-				</div>
-			</div>
-
-			<h3>What I Bring to the Table:</h3>
-			<ul class="value-props">
-				<li>
-					<strong>Applied AI Research:</strong> Extensive expertise in Large Language Models (LLMs), NLP, and fine-tuning to solve complex organizational problems.
-				</li>
-				<li>
-					<strong>Evidence-Based Design:</strong> A proven track record of collaborating with industry leaders like Costco, Dexcom, and Google to build user-centered, high-impact digital products.
-				</li>
-				<li>
-					<strong>Education & Mentorship:</strong> Deeply committed to pedagogy, I develop and teach graduate and undergraduate courses on Python, Digital Product Design, and Managing IT.
-				</li>
-			</ul>
-
-			<p>
-				Whether I’m analyzing "Sticky Words" in a dissertation that earned Distinguished Research honors or mentoring the next generation of tech leaders, my goal is always to enhance business performance through innovative, ethical technology management.
-			</p>
-
-			<div class="cta-wrapper">
-				<a href="mailto:ndvir@albany.edu" class="connect-btn">
-					Let's connect to discuss the future of AI, UX, and Digital Citizenship.
-				</a>
-			</div>
-		</div>
-	</section>
-
-	<section class="content-section ualbany-section">
-		<div class="ualbany-section__copy">
-			<div class="ualbany-heading-row">
-				<h2>UAlbany — Academic Home Base</h2>
-				<a
-					href="https://www.albany.edu/business/faculty/nim-dvir"
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label="Visit Nim Dvir's University at Albany faculty page"
-					class="ualbany-logo-link"
-				>
-					<img
-						src={withBase('/images/about/ualbany-logo.webp')}
-						alt="University at Albany logo"
-						class="ualbany-logo"
-						loading="lazy"
-					/>
-				</a>
-			</div>
-
-			<p>
-				A significant part of my current research, teaching, and collaborative work grows out of my role at
-				the University at Albany. I am a faculty member in the
-				<a href="https://www.albany.edu/business" target="_blank" rel="noopener noreferrer">
-					Department of Information Systems and Business Analytics at the Massry School of Business
-				</a>,
-				where my work connects business education, data, technology, and applied research.
-			</p>
-
-			<p>
-				I am also affiliated faculty in the
-				<a href="https://www.albany.edu/cehc/information-sciences-and-technology" target="_blank" rel="noopener noreferrer">
-					Department of Information Sciences and Technology / Informatics
-				</a>
-				at the College of Emergency Preparedness, Homeland Security and Cybersecurity. Together, these academic
-				homes reflect the interdisciplinary nature of my work across information systems, analytics,
-				artificial intelligence, human-computer interaction, and technology-driven decision-making.
-			</p>
-		</div>
-
-		<div class="ualbany-section__visual" aria-label="University at Albany campus views">
-			{campusImages.map((image) => (
-				<figure class="campus-preview-card">
-					<img src={image.src} alt={image.alt} loading="lazy" />
-				</figure>
-			))}
-		</div>
-	</section>
-
-	<!-- Main Content Cards -->
-	<section class="content-section">
-		<h2 class="section-title section-title--animated">
-			<i class="fas fa-compass"></i>
-			<span>Learn more about my</span>
-			<span class="rotating-word" id="rotating-word" data-words={JSON.stringify(exploreWords)} aria-live="polite">
-				{exploreWords[0]}
-			</span>
-		</h2>
-		<div class="nav-circles-grid">
-			<a href={withBase('/about')} class="nav-circle-item">
-				<div class="nav-circle">
-					<i class="fas fa-user"></i>
-				</div>
-				<span>Self</span>
-			</a>
-			<a href={withBase('/research')} class="nav-circle-item">
-				<div class="nav-circle">
-					<i class="fas fa-microscope"></i>
-				</div>
-				<span>Research</span>
-			</a>
-			<a href={withBase('/projects')} class="nav-circle-item">
-				<div class="nav-circle">
-					<i class="fas fa-briefcase"></i>
-				</div>
-				<span>Projects</span>
-			</a>
-			<a href={withBase('/media')} class="nav-circle-item">
-				<div class="nav-circle">
-					<i class="fas fa-newspaper"></i>
-				</div>
-				<span>Media</span>
-			</a>
-			<a href={withBase('/teaching')} class="nav-circle-item">
-				<div class="nav-circle">
-					<i class="fas fa-chalkboard-teacher"></i>
-				</div>
-				<span>Teaching</span>
-			</a>
-		</div>
-	</section>
-
-	<section class="content-section instagram-section">
-		<div class="instagram-section__copy">
-			<h2 class="section-title"><i class="fab fa-instagram"></i> On Instagram</h2>
-			<p>
-				A more informal stream of teaching moments, research travel, media work, and the daily scenes behind the
-				projects on this site.
-			</p>
-			<a href={instagramProfileUrl} target="_blank" rel="noopener noreferrer" class="instagram-follow-btn">
-				Follow @nimdvir
-			</a>
-		</div>
-
-		<div class="instagram-embed-shell">
-			<blockquote
-				class="instagram-media"
-				data-instgrm-permalink={instagramProfileUrl}
-				data-instgrm-version="14"
-			>
-				<div class="instagram-fallback">
-					<p class="instagram-fallback__eyebrow">Instagram profile</p>
-					<p class="instagram-fallback__title">Nim Dvir</p>
-					<p class="instagram-fallback__handle">@nimdvir</p>
-					<a href={instagramProfileUrl} target="_blank" rel="noopener noreferrer">
-						View this profile on Instagram
-					</a>
-				</div>
-			</blockquote>
-		</div>
-	</section>
-
-	<script src={withBase('/js/particles.js')} is:inline></script>
-<script id="instagram-embed-script" is:inline async src="https://www.instagram.com/embed.js"></script>
-<script is:inline>
-	document.addEventListener('DOMContentLoaded', function() {
-		const processInstagramEmbeds = () => {
-			if (window.instgrm && window.instgrm.Embeds) {
-				window.instgrm.Embeds.process();
-			}
-		};
-
-		processInstagramEmbeds();
-
-		const instagramEmbedScript = document.getElementById('instagram-embed-script');
-		if (instagramEmbedScript) {
-			instagramEmbedScript.addEventListener('load', processInstagramEmbeds, { once: true });
-		}
-
-		if (typeof particlesJS !== 'undefined') {
-			particlesJS('particles-js', {
-				particles: {
-					number: { value: 80, density: { enable: true, value_area: 900 } },
-					color: { value: '#ffffff' },
-					shape: { type: 'circle' },
-					opacity: { value: 0.6, random: true },
-					size: { value: 3, random: true },
-					line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.4, width: 1 },
-					move: { enable: true, speed: 1.5, direction: 'none', random: true, straight: false, out_mode: 'out' }
-				},
-				interactivity: {
-					detect_on: 'canvas',
-					events: {
-						onhover: { enable: true, mode: 'grab' },
-						onclick: { enable: true, mode: 'push' },
-						resize: true
-					},
-					modes: {
-						grab: { distance: 140, line_linked: { opacity: 1 } },
-						push: { particles_nb: 4 }
-					}
-				},
-				retina_detect: true
-			});
-		}
-
-		const rotatingWord = document.getElementById('rotating-word');
-		if (rotatingWord) {
-			const words = JSON.parse(rotatingWord.getAttribute('data-words') || '[]');
-			let currentIndex = 0;
-
-			if (Array.isArray(words) && words.length > 1) {
-				setInterval(() => {
-					rotatingWord.classList.add('is-changing');
-					window.setTimeout(() => {
-						currentIndex = (currentIndex + 1) % words.length;
-						rotatingWord.textContent = words[currentIndex];
-						rotatingWord.classList.remove('is-changing');
-					}, 180);
-				}, 2200);
-			}
-		}
-	});
-</script>
+  <section class="home-hero" aria-labelledby="home-title">
+    <div>
+      <p class="eyebrow">Researcher · Educator · Builder</p>
+      <h1 id="home-title">
+        Technology works
+        <br />
+        better with
+        <br />
+        <span class="gradient-text">people first.</span>
+      </h1>
+      <p class="typing-line">
+        <span aria-hidden="true" data-typewriter>
+          From questions to useful things.
+        </span>
+        <span class="sr-only">From questions to useful things.</span>
+      </p>
+      <p class="intro">
+        I’m <strong>Nimrod (Nim) Dvir, PhD.</strong> I study how people engage
+        with information and AI, turn research into better digital experiences,
+        and teach others to do the same.
+      </p>
+      <div class="button-row">
+        <a class="button button-primary" href="/projects/">
+          Explore my work <span aria-hidden="true">↗</span>
+        </a>
+        <a class="button" href={cvUrl}>
+          View my CV <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <p class="small">
+        Lecturer, Information Systems and Business Analytics
+        <br />
+        Massry School of Business · University at Albany, SUNY
+      </p>
+    </div>
+    <figure class="portrait-wrap">
+      <img
+        class="hero-portrait"
+        src="/images/nim-dvir-cce.jpg"
+        alt="Nim Dvir"
+        width="800"
+        height="800"
+        fetchpriority="high"
+      />
+      <figcaption class="portrait-caption">
+        <span>
+          <strong>Curiosity, put to work.</strong>UX · AI · Information systems
+        </span>
+        <span aria-hidden="true">↗</span>
+      </figcaption>
+    </figure>
+  </section>
+  <div class="affiliation">
+    <span>
+      At the intersection of{" "}
+      <strong>human behavior, business, and technology.</strong>
+    </span>
+    <a href="https://www.albany.edu/business/faculty/nim-dvir">
+      Meet me at UAlbany ↗
+    </a>
+  </div>
+  <section class="evidence-row" aria-label="Experience and recognition">
+    <div class="evidence">
+      <strong>10+ years</strong>
+      <span>of UX and AI research</span>
+    </div>
+    <div class="evidence">
+      <strong>Research + practice</strong>
+      <span>Mixed methods, NLP, and applied analytics</span>
+    </div>
+    <div class="evidence">
+      <strong>Award-winning</strong>
+      <span>Dissertation and research · UAlbany, 2023</span>
+    </div>
+  </section>
+  <section class="section" style="border-top:0">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">What I do</p>
+        <h2>
+          Good questions.
+          <br />
+          <span class="marker">Useful answers.</span>
+        </h2>
+      </div>
+      <a href="/about/">A little more about me ↗</a>
+    </div>
+    <div class="grid-3">
+      <article class="plain-card">
+        <span class="index">01 / RESEARCH</span>
+        <h3>Understand people.</h3>
+        <p>
+          I use experiments, interviews, and computational linguistics to
+          understand how language and design shape attention, trust, and
+          decisions.
+        </p>
+        <a class="text-link" href="/research/">
+          Explore the research ↗
+        </a>
+      </article>
+      <article class="plain-card">
+        <span class="index">02 / PRACTICE</span>
+        <h3>Make it work better.</h3>
+        <p>
+          I connect user research with product and content strategy, from retail
+          and health technology to museums and nonprofit services.
+        </p>
+        <a class="text-link" href="/projects/">
+          Browse the projects ↗
+        </a>
+      </article>
+      <article class="plain-card">
+        <span class="index">03 / EDUCATION</span>
+        <h3>Help others build.</h3>
+        <p>
+          I teach databases, analytics, Python, information systems, and
+          responsible AI use through applied projects and interactive
+          courseware.
+        </p>
+        <a class="text-link" href="/teaching/">
+          Inside the classroom ↗
+        </a>
+      </article>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Selected work</p>
+        <h2>Research meets the real world.</h2>
+      </div>
+      <a href="/projects/">All 12 portfolio projects ↗</a>
+    </div>
+    <div class="grid-3">
+      {selected.map((p) => (
+        <article class="card">
+          <a
+            class="card-visual contain"
+            href={`/projects/${p.slug}/`}
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <img
+              src={p.data.image}
+              alt=""
+              loading="lazy"
+              width="640"
+              height="400"
+            />
+          </a>
+          <div class="card-body">
+            <p class="eyebrow">{p.data.category}</p>
+            <h3>
+              <a href={`/projects/${p.slug}/`}>{p.data.title}</a>
+            </h3>
+            <p>{p.data.summary}</p>
+            <a class="text-link" href={`/projects/${p.slug}/`}>
+              View project ↗
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <div class="feature-panel">
+      <div>
+        <p class="eyebrow">Research in focus</p>
+        <h2>
+          Small words.
+          <br />
+          Meaningful differences.
+        </h2>
+        <p>
+          My award-winning dissertation, <em>Sticky Words</em>, investigates how
+          phrasing shapes information engagement. That question now connects my
+          work in AI, digital experiences, and legal language.
+        </p>
+        <a class="text-link" href="/research/sticky-words/">
+          Discover Sticky Words ↗
+        </a>
+      </div>
+      <a class="feature-art" href="/research/sticky-words/">
+        <img
+          src="/images/research/sticky-words-hero.webp"
+          alt="Sticky Words research artwork"
+          loading="lazy"
+          width="600"
+          height="375"
+        />
+      </a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Currently building & exploring</p>
+        <h2>From prompting to workflows.</h2>
+      </div>
+    </div>
+    <div class="grid-2">
+      <article class="plain-card">
+        <p class="eyebrow">Teaching + technology</p>
+        <h3>Using Data to Drive Business Performance</h3>
+        <p>
+          An interactive textbook and courseware connecting databases, SQL,
+          analytics, and business judgment. Built for learning by doing.
+        </p>
+        <a
+          class="text-link"
+          href="https://database-textbook.dimapublishing.com/"
+        >
+          Explore the courseware ↗
+        </a>
+      </article>
+      <article class="plain-card">
+        <p class="eyebrow">CCE 2026 · October 21–23</p>
+        <h3>AI Agents in VS Code for Academic Work</h3>
+        <p>
+          A practical session on using AI agents for academic workflows: files,
+          prompts, tools, and reviewable results.
+        </p>
+        <a class="text-link" href="https://nimdvir.github.io/cce-2026/">
+          Visit the session website ↗
+        </a>
+      </article>
+    </div>
+  </section>
+  <section class="contact-section" id="contact">
+    <div>
+      <p class="eyebrow">Let’s connect</p>
+      <h2>
+        Have a question
+        <br />
+        worth exploring?
+      </h2>
+      <p class="lede">
+        Let’s talk about research collaborations, UX and AI consulting,
+        teaching, or speaking.
+      </p>
+    </div>
+    <div class="contact-details">
+      <a class="contact-email" href="/contact/">
+        ndvir@albany.edu ↗
+      </a>
+      <p class="small" style="margin-top:18px">
+        Massry School of Business · BB397
+        <br />
+        University at Albany
+        <br />
+        <a href="tel:+15184421440">518-442-1440</a>
+      </p>
+      <nav class="social-links" aria-label="Connect with Nim">
+        {socialLinks
+          .filter((l) =>
+            [
+              "LinkedIn",
+              "Google Scholar",
+              "GitHub",
+              "Instagram",
+              "UAlbany faculty",
+            ].includes(l.label),
+          )
+          .map((l) => (
+            <a class="button" href={l.href}>
+              <ProfileIcon icon={l.icon} />
+              {l.label}
+            </a>
+          ))}
+      </nav>
+    </div>
+  </section>
 </Layout>
-
-<style>
-	:global(:root) {
-		--home-navy-950: #081a33;
-		--home-navy-900: #0e2d57;
-		--home-navy-800: #18467f;
-		--home-gold-500: #d6a328;
-		--home-gold-400: #e7bc54;
-		--home-gold-300: #f5ddb0;
-		--home-gold-100: #fff8e7;
-	}
-
-	/* Hero Banner */
-	.hero-banner {
-		position: relative;
-		width: 100vw;
-		margin-left: calc(-50vw + 50%);
-		margin-top: -24px;
-		background:
-			radial-gradient(circle at top right, rgba(231, 188, 84, 0.16), transparent 24%),
-			linear-gradient(135deg, #1e3a5f 0%, #0f172a 46%, #16365f 100%);
-		padding: 60px 24px;
-		margin-bottom: 0;
-	}
-
-	#particles-js {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-	}
-
-	.hero-content {
-		position: relative;
-		z-index: 2;
-		max-width: 1100px;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: 1fr 300px;
-		gap: 48px;
-		align-items: center;
-	}
-
-	.hero-text {
-		color: #fff;
-	}
-
-	.badge {
-		display: inline-block;
-		background: rgba(255, 255, 255, 0.12);
-		border: 1px solid rgba(231, 188, 84, 0.42);
-		padding: 6px 16px;
-		border-radius: 999px;
-		font-size: 13px;
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		margin-bottom: 16px;
-		color: #fff6d9;
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
-	}
-
-	.hero-text h1 {
-		font-size: 56px;
-		margin: 0 0 12px;
-		letter-spacing: -0.03em;
-		font-weight: 700;
-		line-height: 1.1;
-	}
-
-	.hero-text .subtitle {
-		font-size: 20px;
-		margin: 0 0 20px;
-		opacity: 0.9;
-		line-height: 1.4;
-	}
-
-	.hero-text .intro {
-		font-size: 17px;
-		margin: 0 0 28px;
-		opacity: 0.85;
-		line-height: 1.6;
-		max-width: 500px;
-	}
-
-	.cta-buttons {
-		display: flex;
-		gap: 12px;
-		flex-wrap: wrap;
-	}
-
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
-		padding: 14px 24px;
-		border-radius: 12px;
-		font-weight: 600;
-		text-decoration: none;
-		transition: all 0.2s ease;
-		font-size: 15px;
-	}
-
-	.btn-primary {
-		background: #fff;
-		color: #0f172a;
-	}
-
-	.btn-primary:hover {
-		background: #f8fafc;
-		transform: translateY(-2px);
-	}
-
-	.btn-secondary {
-		background: rgba(255, 255, 255, 0.08);
-		color: #fff;
-		border: 1px solid rgba(255, 255, 255, 0.32);
-	}
-
-	.btn-secondary:hover {
-		background: rgba(255, 255, 255, 0.18);
-		border-color: rgba(255, 255, 255, 0.45);
-		transform: translateY(-2px);
-	}
-
-	.hero-image {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.hero-image img {
-		width: 300px;
-		height: 300px;
-		object-fit: cover;
-		object-position: 65% 20%;
-		border-radius: 50%;
-		border: 4px solid rgba(255, 255, 255, 0.22);
-		box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
-	}
-
-	/* Social Bar */
-	.social-bar {
-		display: flex;
-		justify-content: center;
-		gap: 12px;
-		flex-wrap: wrap;
-		padding: 24px;
-		background: #fff;
-		border-bottom: 1px solid #e5e7eb;
-		margin-bottom: 40px;
-	}
-
-	.social-bar a {
-		display: inline-flex;
-		align-items: center;
-		gap: 6px;
-		padding: 10px 16px;
-		border-radius: 10px;
-		background: #f8fafc;
-		color: #374151;
-		text-decoration: none;
-		font-weight: 600;
-		font-size: 14px;
-		border: 1px solid #e5e7eb;
-		transition: all 0.2s ease;
-	}
-
-	.social-bar a:hover {
-		background: #0f172a;
-		color: #fff;
-		border-color: #0f172a;
-		transform: translateY(-2px);
-	}
-
-	/* Content Sections */
-	.content-section {
-		max-width: 1100px;
-		margin: 0 auto 48px;
-		padding: 0 24px;
-	}
-
-	.section-title {
-		font-size: 24px;
-		margin: 0 0 24px;
-		color: #0f172a;
-		display: flex;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.section-title i {
-		color: var(--home-gold-500);
-	}
-
-	.section-title--animated {
-		flex-wrap: wrap;
-	}
-
-	.rotating-word {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-width: 9ch;
-		padding: 6px 14px;
-		border-radius: 999px;
-		background: linear-gradient(135deg, rgba(231, 188, 84, 0.2), rgba(214, 163, 40, 0.45));
-		color: var(--home-navy-950);
-		box-shadow: 0 8px 20px rgba(214, 163, 40, 0.18);
-		border: 1px solid rgba(214, 163, 40, 0.4);
-		transition: opacity 0.18s ease, transform 0.18s ease;
-	}
-
-	.rotating-word.is-changing {
-		opacity: 0;
-		transform: translateY(8px);
-	}
-
-	.ualbany-section {
-		display: grid;
-		grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
-		gap: 28px;
-		align-items: center;
-		padding: 32px 24px;
-		border: 1px solid #dbe4ef;
-		border-radius: 20px;
-		background: linear-gradient(135deg, #f8fafc 0%, #edf4ff 100%);
-		box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
-	}
-
-	.ualbany-section__copy {
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
-	}
-
-	.ualbany-heading-row {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 16px;
-		flex-wrap: wrap;
-	}
-
-	.ualbany-heading-row h2 {
-		margin: 0;
-		font-size: 30px;
-		letter-spacing: -0.02em;
-		color: #0f172a;
-	}
-
-	.ualbany-logo-link {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 10px 14px;
-		border-radius: 16px;
-		background: #ffffff;
-		border: 1px solid #dbe4ef;
-		box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
-	}
-
-	.ualbany-logo {
-		height: 44px;
-		width: auto;
-		display: block;
-	}
-
-	.ualbany-section p {
-		margin: 0;
-		color: #334155;
-		line-height: 1.75;
-		font-size: 16px;
-	}
-
-	.ualbany-section a {
-		color: #1d4ed8;
-		font-weight: 600;
-		text-decoration-color: rgba(214, 163, 40, 0.65);
-		text-underline-offset: 0.18em;
-	}
-
-	.ualbany-section__visual {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 12px;
-	}
-
-	.instagram-section {
-		display: grid;
-		grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
-		gap: 28px;
-		align-items: start;
-		padding-bottom: 20px;
-	}
-
-	.instagram-section__copy {
-		display: grid;
-		gap: 16px;
-		align-content: start;
-	}
-
-	.instagram-section__copy p {
-		margin: 0;
-		font-size: 16px;
-		line-height: 1.8;
-		color: #475569;
-	}
-
-	.instagram-follow-btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: fit-content;
-		padding: 12px 20px;
-		border-radius: 999px;
-		background: linear-gradient(135deg, #1e3a5f, #0f172a);
-		color: #fff;
-		font-weight: 600;
-		text-decoration: none;
-		box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
-		transition: transform 0.2s ease, box-shadow 0.2s ease;
-	}
-
-	.instagram-follow-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 14px 28px rgba(15, 23, 42, 0.24);
-	}
-
-	.instagram-embed-shell {
-		display: flex;
-		justify-content: center;
-		padding: 20px;
-		border-radius: 24px;
-		background: linear-gradient(135deg, #f8fafc 0%, #edf4ff 100%);
-		border: 1px solid #dbe4ef;
-		box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-	}
-
-	.instagram-embed-shell :global(.instagram-media) {
-		margin: 0 auto !important;
-		max-width: 540px !important;
-		min-width: min(100%, 326px) !important;
-		width: 100% !important;
-		border-radius: 18px !important;
-		overflow: hidden !important;
-	}
-
-	.instagram-fallback {
-		display: grid;
-		gap: 10px;
-		padding: 28px 24px;
-		background: #ffffff;
-		border: 1px solid #e5e7eb;
-		border-radius: 18px;
-		text-align: center;
-	}
-
-	.instagram-fallback__eyebrow {
-		margin: 0;
-		font-size: 12px;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		font-weight: 700;
-		color: #64748b;
-	}
-
-	.instagram-fallback__title {
-		margin: 0;
-		font-size: 24px;
-		font-weight: 700;
-		color: #0f172a;
-	}
-
-	.instagram-fallback__handle {
-		margin: 0;
-		font-size: 15px;
-		color: #475569;
-	}
-
-	.instagram-fallback a {
-		color: #1d4ed8;
-		font-weight: 600;
-		text-decoration: none;
-	}
-
-	.campus-preview-card {
-		margin: 0;
-	}
-
-	.campus-preview-card img {
-		display: block;
-		width: 100%;
-		height: 210px;
-		object-fit: cover;
-		border-radius: 18px;
-		border: 1px solid #cbd5e1;
-		box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
-	}
-
-	/* Nav Circles Grid */
-	.nav-circles-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-		gap: 32px;
-		max-width: 960px;
-		margin: 0 auto;
-	}
-
-	.nav-circle-item {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-		text-decoration: none;
-		color: #0f172a;
-		transition: transform 0.2s ease;
-	}
-
-	.nav-circle-item:hover {
-		transform: translateY(-4px);
-	}
-
-	.nav-circle {
-		width: 100px;
-		height: 100px;
-		border-radius: 50%;
-		background: linear-gradient(135deg, #1e3a5f, #0f172a);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 36px;
-		color: #fff;
-		box-shadow: 0 8px 24px rgba(30, 58, 95, 0.25);
-		transition: box-shadow 0.2s ease;
-	}
-
-	.nav-circle-item:hover .nav-circle {
-		box-shadow: 0 12px 32px rgba(30, 58, 95, 0.4), 0 0 0 6px rgba(214, 163, 40, 0.1);
-	}
-
-	.nav-circle-item span {
-		font-weight: 600;
-		font-size: 18px;
-		letter-spacing: -0.01em;
-	}
-
-	/* Responsive */
-	@media (max-width: 900px) {
-		.hero-content {
-			grid-template-columns: 1fr;
-			text-align: center;
-		}
-
-		.instagram-section {
-			grid-template-columns: 1fr;
-		}
-
-		.ualbany-section {
-			grid-template-columns: 1fr;
-		}
-
-		.hero-text h1 {
-			font-size: 40px;
-		}
-
-		.hero-text .intro {
-			max-width: 100%;
-		}
-
-		.cta-buttons {
-			justify-content: center;
-		}
-
-		.hero-image {
-			max-width: 280px;
-			margin: 0 auto;
-		}
-	}
-
-	@media (max-width: 600px) {
-		.hero-banner {
-			padding: 40px 16px;
-		}
-
-		.hero-text h1 {
-			font-size: 32px;
-		}
-
-		.hero-text .subtitle {
-			font-size: 16px;
-		}
-
-		/* Nav Circles Responsive */
-		.nav-circles-grid {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 24px;
-		}
-
-		.ualbany-section {
-			padding: 24px 18px;
-		}
-
-		.ualbany-heading-row h2 {
-			font-size: 24px;
-		}
-
-		.ualbany-section__visual {
-			grid-template-columns: 1fr;
-		}
-
-		.instagram-embed-shell {
-			padding: 14px;
-		}
-
-		.nav-circle {
-			width: 80px;
-			height: 80px;
-			font-size: 28px;
-		}
-
-		.social-bar {
-			gap: 8px;
-		}
-
-		.social-bar a {
-			padding: 8px 12px;
-			font-size: 13px;
-		}
-	}
-
-	/* Intro Section & Typewriter */
-	.intro-container {
-		background: #fff;
-		border: 1px solid #e5e7eb;
-		border-radius: 16px;
-		padding: 40px !important;
-		margin-bottom: 48px;
-	}
-
-	.hello-wrapper {
-		margin-bottom: 24px;
-	}
-
-	.typewriter {
-		font-family: 'Courier New', Courier, monospace;
-		font-size: 32px;
-		font-weight: 700;
-		color: var(--home-navy-900);
-		display: inline-block;
-		overflow: hidden;
-		border-right: 3px solid var(--home-gold-500);
-		white-space: nowrap;
-		letter-spacing: 0.05em;
-		animation: 
-			typing 2.5s steps(10, end) infinite,
-			blink-caret 0.75s step-end infinite;
-		max-width: fit-content;
-	}
-
-	@keyframes typing {
-		0% { width: 0 }
-		15% { width: 0 }
-		40% { width: 6ch } /* "Hello!" is 6 chars */
-		75% { width: 6ch }
-		90% { width: 0 }
-		100% { width: 0 }
-	}
-
-	@keyframes blink-caret {
-		from, to { border-color: transparent }
-		50% { border-color: var(--home-gold-500); }
-	}
-
-	.bio-text {
-		font-size: 17px;
-		line-height: 1.7;
-		color: #374151;
-	}
-
-	.lead {
-		font-size: 20px;
-		font-weight: 600;
-		color: #0f172a;
-		margin-bottom: 16px;
-	}
-
-	.bio-text h3 {
-		font-size: 20px;
-		margin: 32px 0 16px;
-		color: #0f172a;
-	}
-
-	.value-props {
-		margin: 0 0 24px;
-		padding-left: 20px;
-	}
-
-	.value-props li {
-		margin-bottom: 12px;
-	}
-
-	.stats-grid {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		gap: 16px;
-		margin: 0 0 24px;
-	}
-
-	.stat-card {
-		background: #f8fafc;
-		border: 1px solid #e2e8f0;
-		border-radius: 12px;
-		padding: 20px 12px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 4px;
-		transition: transform 0.2s, box-shadow 0.2s;
-	}
-
-	.stat-card:hover {
-		transform: translateY(-4px);
-		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-	}
-
-	.stat-number {
-		font-size: 32px;
-		font-weight: 800;
-		color: var(--home-navy-900);
-		line-height: 1;
-	}
-
-	.stat-emoji {
-		font-size: 28px;
-		line-height: 1;
-	}
-
-	.stat-label {
-		font-size: 14px;
-		font-weight: 600;
-		color: #334155;
-	}
-
-	.stat-sub {
-		font-size: 11px;
-		color: #94a3b8;
-		font-style: italic;
-	}
-
-	@media (max-width: 768px) {
-		.stats-grid {
-			grid-template-columns: repeat(3, 1fr);
-		}
-	}
-
-	@media (max-width: 480px) {
-		.stats-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-
-	.cta-wrapper {
-		margin-top: 32px;
-		text-align: center;
-	}
-
-	.connect-btn {
-		display: inline-block;
-		background: linear-gradient(90deg, #1e3a5f, #0f172a, #1e3a5f);
-		background-size: 200% 100%;
-		color: #fff;
-		font-weight: 600;
-		font-size: 18px;
-		padding: 16px 32px;
-		border-radius: 999px;
-		text-decoration: none;
-		box-shadow: 0 4px 12px rgba(15, 23, 42, 0.3);
-		transition: all 0.3s ease;
-		animation: shine 3s infinite linear;
-	}
-
-	.connect-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 8px 20px rgba(15, 23, 42, 0.4);
-	}
-
-	@keyframes shine {
-		0% { background-position: 200% center; }
-		100% { background-position: -200% center; }
-	}
-</style>
-

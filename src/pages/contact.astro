@@ -1,0 +1,66 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProfileIcon from "../components/ProfileIcon.astro";
+---
+
+<Layout
+  title="Contact"
+  description="Contact Nim Dvir for research, teaching, speaking, and UX collaborations."
+>
+  <header class="page-intro">
+    <p class="eyebrow">Get in touch</p>
+    <h1>Let’s talk.</h1>
+    <p class="lede">For research, teaching, speaking, and UX collaborations.</p>
+  </header>
+  <section class="contact-card" aria-labelledby="email-heading">
+    <h2 id="email-heading">Email me</h2>
+    <p class="contact-email">ndvir@albany.edu</p>
+    <p>Choose where to write your message.</p>
+    <div class="button-row">
+      <a
+        class="button button-primary"
+        href="mailto:ndvir@albany.edu"
+        target="_self"
+      >
+        Open email app
+      </a>
+      <a
+        class="button"
+        href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ndvir%40albany.edu"
+      >
+        Gmail ↗
+      </a>
+      <a
+        class="button"
+        href="https://outlook.office.com/mail/deeplink/compose?to=ndvir%40albany.edu"
+      >
+        Outlook ↗
+      </a>
+      <button
+        class="button"
+        type="button"
+        data-copy-email="ndvir@albany.edu"
+        hidden
+      >
+        Copy email address
+      </button>
+    </div>
+    <p class="small">
+      If your email app doesn’t open, use Gmail or Outlook, or copy the address
+      into your message.
+    </p>
+    <p class="copy-status small" role="status" aria-live="polite"></p>
+  </section>
+  <section class="section" aria-labelledby="university-contact">
+    <h2 id="university-contact">At the university</h2>
+    <p>
+      Lecturer · Massry School of Business
+      <br />
+      University at Albany, SUNY
+    </p>
+    <a class="button" href="https://www.albany.edu/business/faculty/nim-dvir">
+      <ProfileIcon icon="fa-solid fa-building-columns" /> UAlbany faculty
+      profile ↗
+    </a>
+  </section>
+</Layout>

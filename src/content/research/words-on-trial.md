@@ -1,22 +1,25 @@
 ---
 title: 'Words on Trial'
-year: '2026'
-subtitle: 'Current research expansion'
-category: 'AI and Language'
-status: 'in progress'
-tags: ['Language', 'Evaluation', 'Responsible AI']
-summary: 'A current research program investigating how phrasing choices shape trust, fairness, and judgment in AI-mediated and information-rich environments.'
+year: '2024–present'
+subtitle: 'Language, Participation, and Engagement in Mental Health Treatment Courts'
+category: 'Language and behavioral design'
+status: 'Funded research in progress'
+summary: 'Research with Nevada’s Eighth Judicial District Court on legal language, comprehension, and engagement in mental health treatment courts.'
+tags: ['NLP', 'Legal language', 'Behavioral design']
 image: '/images/research/sticky-words-variant-1.webp'
-featured: false
 sortOrder: 4
-researchAreas: ['Language evaluation', 'Trust', 'Responsible AI']
-methods: ['Experimental design', 'Text analysis', 'Interface evaluation']
 ---
 
-## Research focus
+## Language, participation, and engagement
 
-Words on Trial examines what happens when language itself becomes the object of evaluation. The project studies how different word choices influence interpretation, perceived fairness, and trust when people encounter decisions, recommendations, or persuasive messages.
+This interdisciplinary collaboration with Nevada’s Eighth Judicial District Court examines how the framing of legal language influences participant comprehension, compliance, and engagement in mental health diversion courts.
 
-## Why it matters
+## Approach
 
-As AI systems increasingly mediate communication, phrasing decisions can quietly shape user judgment. This research asks how those language choices can be made more inspectable, more accountable, and better aligned with human understanding.
+The research combines behavioral design, natural language processing, and applied predictive modeling. It connects the broader question of information engagement to the language people encounter in court processes.
+
+## Research support
+
+The project received a **Faculty Research Award Program, Category B (FRAP-B)** award of **$3,242** from the University at Albany in Spring 2026.
+
+This is ongoing research. Findings and outcome estimates have not been added to this page.

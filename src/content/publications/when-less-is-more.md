@@ -1,7 +1,8 @@
 ---
+url: "https://doi.org/10.28945/4015"
 title: 'When less is more: Consumer behavior and information sharing on landing pages'
 year: '2018'
-authors: ['Nim Dvir']
+authors: ["Nim Dvir", "Ruti Gafni"]
 venue: 'Informing Science'
 summary: 'Findings from live experiments on how landing-page content volume influences engagement and conversion behavior.'
 tags: ['Content Strategy', 'Experiments', 'Consumer Behavior']

@@ -1,0 +1,3 @@
+
+# Generated PDF files must not be normalized or diffed as text.
+*.pdf binary
