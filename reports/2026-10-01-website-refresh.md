@@ -142,4 +142,9 @@ Before merge, rollback is simply leaving the review branch unmerged. After a fut
 
 ## Delivery record
 
-The implementation, public CV, migration inventory, screenshots, and validation evidence are included in the review branch. Pull request and remote verification details are added here after upload.
+- **Draft pull request:** [#34 — responsive personal-site refresh](https://github.com/nimdvir/nimdvir.github.io/pull/34).
+- **Remote implementation commit:** `858599b239cbba7af2093804e819a208c1d37235`.
+- **Verified implementation tree:** `8bd239aca4e202760f85ec93a77d612526eaafdb`, identical to the tested local source tree, including binary assets, PDF, and screenshots.
+- **Production branch at delivery:** `ce4611700c2d2770445781c6a5e409a01373b13e`, unchanged from the starting commit.
+- Shell Git had no push credentials. The connected GitHub integration uploaded the same files and created the branch and PR. Every uploaded binary blob matched its local Git SHA, and the complete remote tree matched the local tree before branch creation.
+- This final report update records the PR after creation; it changes documentation only. No merge, deployment, DNS change, or modification to the reference repository or original CV occurred.
