@@ -1,25 +1,30 @@
 ---
-title: 'Nasher Sculpture Center'
-summary: 'UX and content strategy work for a museum seeking stronger online engagement, membership conversion, and digital discoverability.'
-category: 'UX Research'
-client: 'Nasher Sculpture Center'
-role: 'Content strategy and interaction design'
-outcome: 'Recommendations for membership flow, SEO, and digital engagement'
-tags: ['Museum UX', 'Membership', 'Content Strategy']
-image: '/images/nasher-sculpture-center.png'
-featured: true
+title: "Nasher Sculpture Center"
+summary: "Content strategy and interaction design to support museum visits, membership, and digital engagement."
+category: "Content Strategy"
+role: "Student UX and content-strategy advising"
+outcome: "A content strategy plan and redesigned website prototype."
+tags: ["Content Strategy"]
 sortOrder: 4
-status: 'case-study'
+featured: false
+externalUrl: "https://www.nimdvir.com/portfolio/projects/nasher-sculpture-center"
+image: "/images/nasher-sculpture-center.png"
 ---
 
-## Project focus
+## The challenge
 
-The museum needed a stronger digital experience that could support both public engagement and revenue-related goals such as membership growth.
+The Nasher Sculpture Center in Dallas sought a stronger online experience that would encourage visitors, members, and private-event inquiries.
 
 ## Approach
 
-The work included a digital content audit, review of findability and search performance, and design recommendations for a more intuitive membership journey. The strategy emphasized balancing institutional voice, visitor exploration, and transactional clarity.
+The project combined a digital content audit, user research, search-engine optimization recommendations, and interaction design. A particular focus was making online membership purchasing easier to understand and complete.
 
-## Proposed impact
+## Design contribution
 
-The case study demonstrates how cultural organizations can use UX and content design to move beyond brochure-style websites toward more durable online relationships with visitors and members.
+The team developed a website prototype and content strategy plan intended to connect digital engagement with museum visits, loyalty, membership, and event reservations.
+
+## Original project materials
+
+- [Content strategy plan (PDF)](https://drive.google.com/open?id=1k-ZKhkdw9rHS-YYknF84lrh6l5Kvyolx)
+
+These are the original materials linked from the legacy portfolio.

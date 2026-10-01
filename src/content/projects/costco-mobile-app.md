@@ -1,25 +1,34 @@
 ---
-title: 'Costco Mobile App'
-summary: 'Enhanced the Costco shopping experience by reducing checkout friction and introducing in-store engagement concepts tied to mobile behavior.'
-category: 'UX Research'
-client: 'Costco'
-role: 'UX research and concept design'
-outcome: 'Concept for Scan & Go checkout and in-store discovery flows'
-tags: ['Retail UX', 'Mobile App', 'Gamification']
-image: '/images/costco-mobile.png'
-featured: true
+title: "Costco Mobile App"
+summary: "A mobile shopping concept combining Scan & Go checkout with in-store discovery."
+category: "UX Research"
+role: "Student research and product-design advising"
+outcome: "A research-informed checkout and discovery prototype."
+tags: ["UX Research"]
 sortOrder: 1
-status: 'case-study'
+featured: true
+externalUrl: "https://www.nimdvir.com/portfolio/projects/costco"
+image: "/images/costco-mobile.png"
 ---
 
-## Project focus
+## The challenge
 
-This concept work centered on a practical retail problem: long checkout lines reduce customer satisfaction and cut into the sense of discovery that makes warehouse shopping effective.
+How could a mobile app reduce checkout friction while preserving the discovery that draws people to warehouse shopping? The project focused on checkout line times and incentives for in-store engagement.
 
-## Approach
+## Research and design
 
-The project explored a mobile-assisted journey that combined a faster Scan & Go checkout path with lightweight in-store prompts and rewards. The goal was to reduce friction while still encouraging customers to browse and engage with featured products.
+The team explored Scan & Go checkout and an in-store Treasure Hunt concept offering discounts and prizes. Information architecture and screen designs connected checkout convenience with product discovery.
 
-## Proposed impact
+## Deliverables
 
-The resulting concept framed the mobile app as both a time-saving tool and a loyalty touchpoint, giving Costco a clearer path to improve in-store convenience without stripping away the exploratory nature of the experience.
+The portfolio includes information architecture, screen mockups, a final presentation, and an interactive prototype. The concept connects faster checkout with a more engaging shopping experience.
+
+## Interactive prototypes
+
+- [Open original prototype 1](https://xd.adobe.com/view/1250347c-17c3-40ed-bb35-ea8afcb90297-4703/)
+
+## Original project materials
+
+- [costco Final Presentation (PDF)](https://drive.google.com/open?id=1iCakZ2-mQf2J-ggdiF_GAHNYMoGLaaCM)
+
+These are the original materials linked from the legacy portfolio.

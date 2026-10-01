@@ -1,25 +1,31 @@
 ---
-title: 'Dexcom G7+'
-summary: 'Research for a health-tech application focused on how people with diabetes and their caregivers interpret, personalize, and act on continuous glucose data.'
-category: 'UX Research'
-client: 'Dexcom'
-role: 'User research and experience strategy'
-outcome: 'Prioritized opportunities for customization, historical logging, and predictive support'
-tags: ['Health Tech', 'User Research', 'Data Visualization']
-image: '/images/dexcom.png'
-featured: true
+title: "Dexcom G7+"
+summary: "Research and design recommendations for a more usable diabetes-management application."
+category: "UX Research"
+role: "Student research advising"
+outcome: "User research, a report, and application improvement concepts."
+tags: ["UX Research"]
 sortOrder: 2
-status: 'case-study'
+featured: true
+externalUrl: "https://www.nimdvir.com/portfolio/projects/dexcom"
+image: "/images/dexcom.png"
 ---
 
-## Project focus
+## The challenge
 
-The work examined how a next-generation glucose monitoring experience could better support both routine management and higher-stress decision moments for people living with diabetes.
+The project examined the needs of people with Type 1 and Type 2 diabetes and their caregivers, focusing on pain points in the application experience.
 
-## Approach
+## Research approach
 
-Research combined interviews, surveys, and usability testing with patients and caregivers. The analysis focused on customization needs, event tracking, historical trend review, and opportunities to connect glucose data with other health signals.
+Interviews, surveys, and usability testing explored customization, event tracking, historical data, predictive information, and integration with fitness data. A Situation, Task, Action, Result (STAR) structure organized the research process.
 
-## Proposed impact
+## Deliverables
 
-The recommendations clarified where the product could reduce cognitive load, surface more actionable history, and make data interpretation feel more tailored to each user's daily context.
+The team produced a research report, design ideas, supporting graphs, references, and status presentations. These materials translate user needs into proposed improvements to the application experience.
+
+## Original project materials
+
+- [Research presentation (PDF)](https://drive.google.com/open?id=1X4y66GQgfMStcsSHyUxwB865zbyU3AIC)
+- [Project report (PDF)](https://drive.google.com/open?id=1khSIZLD6uLv3uWWWcmIL4twTxWfNAVwe)
+
+These are the original materials linked from the legacy portfolio.

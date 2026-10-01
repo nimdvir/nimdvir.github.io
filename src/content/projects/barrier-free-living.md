@@ -1,25 +1,31 @@
 ---
-title: 'Barrier Free Living'
-summary: 'Content strategy and UX research for a nonprofit supporting people with disabilities who experience domestic violence in New York City.'
-category: 'Content Strategy'
-client: 'Barrier Free Living'
-role: 'Content audit, interviews, and strategy recommendations'
-outcome: 'Recommendations for donation storytelling, accessibility, and conversion clarity'
-tags: ['Accessibility', 'Nonprofit', 'Content Strategy']
-image: '/images/barrier-free-living.png'
-featured: true
+title: "Barrier Free Living"
+summary: "Accessible content and donation journeys for a nonprofit supporting people with disabilities and survivors of domestic violence."
+category: "Content Strategy"
+role: "Student content-strategy research advising"
+outcome: "A content strategy proposal supporting fundraising and awareness."
+tags: ["Content Strategy"]
 sortOrder: 3
-status: 'case-study'
+featured: true
+externalUrl: "https://www.nimdvir.com/portfolio/projects/barrier-free-living"
+image: "/images/barrier-free-living.png"
 ---
 
-## Project focus
+## The challenge
 
-This engagement addressed a sensitive communication challenge: how to support fundraising and awareness goals without losing clarity, trust, or accessibility for audiences who need the organization most.
+Barrier Free Living supports people with disabilities affected by domestic violence in New York City. The project examined how content could support its fundraising objectives for 2020.
 
-## Approach
+## Research and evaluation
 
-The project included a review of the existing site experience, interviews with staff and volunteers, and a close analysis of donation-path content. Recommendations concentrated on clearer user pathways, stronger storytelling, and more accessible information architecture.
+The team reviewed website content and interviewed staff and volunteers to identify gaps and opportunities in the organization’s communication.
 
-## Proposed impact
+## Recommendations
 
-The resulting strategy connected mission, usability, and fundraising by improving how the organization explains its services and invites support from multiple audience groups.
+The proposal addressed the donation page, storytelling through video and social media, and the accessibility and readability of content. The intended benefits were greater engagement, awareness, and support for the organization’s mission.
+
+## Original project materials
+
+- [Final presentation (PDF)](https://drive.google.com/open?id=1k6uTiKCyxm_Nfl2y8nuWqEyGLxBi4UYK)
+- [Content strategy report (PDF)](https://drive.google.com/open?id=1k4EP1Rif--uCR5RR5zZtI94ykKPkbQvj)
+
+These are the original materials linked from the legacy portfolio.

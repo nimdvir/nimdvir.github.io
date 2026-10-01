@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Design reference | Nim Dvir</title>
+    <meta
+      name="description"
+      content="Unlisted reference for the Nim Dvir website design system."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script src="/js/theme-init.js"></script>
+    <link rel="stylesheet" href="/styles/site.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+    />
+    <script src="/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-inner">
+        <a class="brand" href="/"
+          >Nim Dvir <span class="brand-degree">/ design</span></a
+        >
+        <div class="nav-controls">
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch color theme"
+            hidden
+          >
+            <span class="theme-icon" aria-hidden="true">◐</span
+            ><span class="theme-label">Theme</span></button
+          ><button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+            hidden
+          >
+            Menu ☰
+          </button>
+        </div>
+        <nav
+          id="primary-nav"
+          class="primary-nav"
+          aria-label="Design reference sections"
+        >
+          <a href="#tokens">Tokens</a><a href="#type">Typography</a
+          ><a href="#components">Components</a><a href="#behavior">Behavior</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <header class="page-intro">
+        <p class="eyebrow">Unlisted / Living reference</p>
+        <h1>
+          A common language<br /><span class="gradient-text"
+            >for the whole site.</span
+          >
+        </h1>
+        <p class="lede">
+          The colors, typography, components, and interaction patterns used on
+          Nim Dvir’s personal website. This page uses the same stylesheet and
+          scripts as the public pages.
+        </p>
+        <p class="small">
+          Unlisted and marked noindex. This is a public page, not a private or
+          password-protected space.
+        </p>
+      </header>
+      <section id="tokens" class="section">
+        <p class="eyebrow">01 / Foundation</p>
+        <h2>Color and surfaces.</h2>
+        <p>Switch themes in the sticky navigation to inspect both palettes.</p>
+        <div class="swatches">
+          <div>
+            <div class="swatch" style="background: var(--bg)"></div>
+            <code>--bg</code>
+            <p class="small">Page canvas</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--surface)"></div>
+            <code>--surface</code>
+            <p class="small">Cards and controls</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--soft)"></div>
+            <code>--soft</code>
+            <p class="small">Secondary surface</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--text)"></div>
+            <code>--text</code>
+            <p class="small">Primary text</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--muted)"></div>
+            <code>--muted</code>
+            <p class="small">Supporting text</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--link)"></div>
+            <code>--link</code>
+            <p class="small">Blue / links</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--violet)"></div>
+            <code>--violet</code>
+            <p class="small">Violet / emphasis</p>
+          </div>
+          <div>
+            <div class="swatch" style="background: var(--teal)"></div>
+            <code>--teal</code>
+            <p class="small">Teal / labels</p>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Token</th>
+                <th>Light</th>
+                <th>Dark</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Canvas</td>
+                <td>#fbfcff</td>
+                <td>#0f1318</td>
+              </tr>
+              <tr>
+                <td>Surface</td>
+                <td>#ffffff</td>
+                <td>#151b23</td>
+              </tr>
+              <tr>
+                <td>Text</td>
+                <td>#16202b</td>
+                <td>#e8edf2</td>
+              </tr>
+              <tr>
+                <td>Muted</td>
+                <td>#4d5966</td>
+                <td>#aab5c0</td>
+              </tr>
+              <tr>
+                <td>Blue</td>
+                <td>#0b5fb0</td>
+                <td>#8cc0ff</td>
+              </tr>
+              <tr>
+                <td>Violet</td>
+                <td>#6d3bd1</td>
+                <td>#c6a3ff</td>
+              </tr>
+              <tr>
+                <td>Teal</td>
+                <td>#086e60</td>
+                <td>#6fe3c8</td>
+              </tr>
+              <tr>
+                <td>Focus</td>
+                <td>#9b4c00</td>
+                <td>#ffb35c</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section id="type" class="section">
+        <p class="eyebrow">02 / Voice and typography</p>
+        <h2>Clear, readable, human.</h2>
+        <div class="grid-2">
+          <div class="prose">
+            <h3>Heading scale</h3>
+            <p>
+              Page titles: fluid 2.35–4.6rem. Homepage title: up to 5rem.
+              Section headings: 1.8–2.65rem. Body: 1–1.25rem with generous line
+              spacing.
+            </p>
+            <p>
+              Inter is used on the site, with system fonts as a fallback. Small
+              editorial labels and the typing line use a system monospace font.
+            </p>
+            <p>
+              <span class="marker">A hand-swiped yellow highlight</span> carries
+              the marker treatment from the CCE site. Select any text to see the
+              selection color.
+            </p>
+          </div>
+          <div class="plain-card">
+            <p class="eyebrow">Monospace eyebrow</p>
+            <h3 class="gradient-text">Blue-to-violet emphasis.</h3>
+            <p class="lede">A lead paragraph introduces one clear idea.</p>
+            <p>Body copy stays grounded in specific work and evidence.</p>
+            <p class="small">Supporting detail uses the muted text token.</p>
+            <p class="typing-line">
+              <span data-typewriter aria-hidden="true"
+                >From questions to useful things.</span
+              ><span class="sr-only">From questions to useful things.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="components" class="section">
+        <p class="eyebrow">03 / Components</p>
+        <h2>Reusable building blocks.</h2>
+        <div class="button-row">
+          <a href="/projects/" class="button button-primary">Primary action ↗</a
+          ><a href="/about/" class="button">Secondary action ↗</a
+          ><a href="/research/" class="button button-text">Text action ↗</a>
+        </div>
+        <ul class="tag-list">
+          <li>Research method</li>
+          <li>Project category</li>
+          <li>Working paper</li>
+        </ul>
+        <div class="grid-3" style="margin-top: 28px">
+          <article class="card">
+            <a href="/projects/golf-buddy/" class="card-visual contain"
+              ><img
+                src="/images/golf-buddy.png"
+                alt="Golf Buddy project artwork"
+                loading="lazy"
+                width="640"
+                height="400"
+            /></a>
+            <div class="card-body">
+              <p class="eyebrow">Project card</p>
+              <h3>Golf Buddy</h3>
+              <p>
+                A project visual, category, meaningful title, short summary, and
+                descriptive link.
+              </p>
+              <a class="text-link" href="/projects/golf-buddy/"
+                >Explore project ↗</a
+              >
+            </div>
+          </article>
+          <article class="plain-card">
+            <span class="index">02 / PLAIN CARD</span>
+            <h3>Room for an idea.</h3>
+            <p>
+              Use a simple bordered card for research topics, teaching
+              approaches, and supporting content.
+            </p>
+            <a class="text-link" href="/research/">Read more ↗</a>
+          </article>
+          <article class="plain-card">
+            <p class="eyebrow">Profile image</p>
+            <img
+              class="about-photo"
+              src="/images/nim-dvir-cce.jpg"
+              alt="Nim Dvir, portrait from the CCE site"
+              width="260"
+              height="260"
+            />
+            <p class="small">
+              Reuse the CCE portrait. Rounded square in biographies; arched
+              frame on the homepage.
+            </p>
+          </article>
+        </div>
+        <aside class="highlight-panel">
+          <h3>Callout / project contribution</h3>
+          <p>
+            Use this component for a project’s contribution, research support,
+            or a contextual note.
+          </p>
+        </aside>
+        <blockquote>
+          <p>Plain language. Specific work. Claims that can be supported.</p>
+        </blockquote>
+        <ol class="timeline">
+          <li>
+            <span class="date">2025–present</span>
+            <h3>Timeline item</h3>
+            <p>Dates, role, and organization remain distinct.</p>
+          </li>
+        </ol>
+        <details>
+          <summary>Disclosure component</summary>
+          <p>Native keyboard-accessible disclosure for supporting detail.</p>
+        </details>
+        <div
+          class="project-filters"
+          role="group"
+          aria-label="Example filters"
+          hidden
+        >
+          <button class="filter-button" data-filter="all" aria-pressed="true">
+            All examples</button
+          ><button
+            class="filter-button"
+            data-filter="research"
+            aria-pressed="false"
+          >
+            Research</button
+          ><button
+            class="filter-button"
+            data-filter="design"
+            aria-pressed="false"
+          >
+            Design
+          </button>
+        </div>
+        <p id="filter-status" class="small" role="status">2 projects shown</p>
+        <div class="grid-2">
+          <article class="plain-card" data-project-category="research">
+            <h3>Research example</h3>
+            <p>This specimen demonstrates the portfolio filter.</p>
+          </article>
+          <article class="plain-card" data-project-category="design">
+            <h3>Design example</h3>
+            <p>
+              The filter preserves native focus and reports the result count.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="behavior" class="section">
+        <p class="eyebrow">04 / Layout and interaction</p>
+        <h2>Responsive by default.</h2>
+        <ul class="reading-list">
+          <li>
+            <h3>Grid and spacing</h3>
+            <p>
+              Maximum page width: 1180px. Gutters: 28px, reducing to 20px on
+              phones. Cards: three columns, then two below 960px, then one below
+              650px. Radius: 20px for cards, 10px for buttons.
+            </p>
+          </li>
+          <li>
+            <h3>Navigation</h3>
+            <p>
+              Sticky, translucent navigation. Mobile Menu button exposes its
+              expanded state and closes with Escape, an outside click, or a
+              selected link. Without JavaScript, navigation links stay visible.
+            </p>
+          </li>
+          <li>
+            <h3>Theme</h3>
+            <p>
+              Follow the device preference initially. A user choice persists in
+              local storage and is applied before the first paint. Storage
+              failures do not stop the control.
+            </p>
+          </li>
+          <li>
+            <h3>Motion</h3>
+            <p>
+              Typing runs once for about two seconds; assistive technology gets
+              a static equivalent. Reduced-motion mode disables typing,
+              animation, smooth scrolling, and transitions.
+            </p>
+          </li>
+          <li>
+            <h3>Accessible states</h3>
+            <p>
+              Keyboard focus has a visible outline. Controls have a minimum 44px
+              height. Images have descriptive alternatives. Skip navigation
+              leads directly to main content.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="layout-patterns">
+        <p class="eyebrow">05 / Editorial patterns</p>
+        <h2 id="layout-patterns">Evidence, features, and contact.</h2>
+        <div class="evidence-row">
+          <div class="evidence">
+            <strong>10+ years</strong><span>Experience statement</span>
+          </div>
+          <div class="evidence">
+            <strong>Research</strong><span>Qualitative and quantitative</span>
+          </div>
+          <div class="evidence">
+            <strong>Teaching</strong><span>Applied learning</span>
+          </div>
+        </div>
+        <div class="feature-panel" style="margin-top: 28px">
+          <div>
+            <p class="eyebrow">Feature panel</p>
+            <h3>A deeper look at the work.</h3>
+            <p>
+              Pair a concise introduction with a relevant image. The two columns
+              become one on phones.
+            </p>
+            <a class="text-link" href="/research/sticky-words/"
+              >Explore the research ↗</a
+            >
+          </div>
+          <div class="feature-art">
+            <img
+              src="/images/research/sticky-words-hero.webp"
+              alt="Sticky Words research artwork"
+              loading="lazy"
+              width="600"
+              height="375"
+            />
+          </div>
+        </div>
+        <div class="contact-section">
+          <div>
+            <p class="eyebrow">Contact pattern</p>
+            <h3>Have a question worth exploring?</h3>
+            <p>
+              Keep the invitation specific to research, consulting, teaching, or
+              speaking.
+            </p>
+          </div>
+          <div>
+            <a class="contact-email" href="mailto:ndvir@albany.edu"
+              >ndvir@albany.edu ↗</a
+            >
+            <nav class="social-links" aria-label="Example professional links">
+              <a href="https://www.linkedin.com/in/nimdvir/">LinkedIn</a
+              ><a href="https://github.com/nimdvir">GitHub</a
+              ><a href="https://www.instagram.com/nimdvir/">Instagram</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-bottom">
+        <span>Nim Dvir / Design reference</span
+        ><a href="/">Return to the website ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

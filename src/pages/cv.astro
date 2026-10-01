@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Content } from "../data/cv-public.md";
+---
+
+<Layout
+  title="Curriculum Vitae"
+  description="Nim Dvir’s curriculum vitae: academic appointments, education, research, publications, teaching, and service. Updated September 2026."
+>
+  <header class="page-intro">
+    <p class="eyebrow">Curriculum vitae / September 2026</p>
+    <h1>
+      Nimrod (Nim) Dvir,
+      <br />
+      <span class="gradient-text">PhD, MBA.</span>
+    </h1>
+    <p class="lede">
+      Research, teaching, professional experience, and service.
+    </p>
+    <p class="small">
+      Based on the September 16, 2026 CV. Public version uses university contact
+      details; references are available on request.
+    </p>
+    <div class="button-row">
+      <a class="button button-primary" href="/files/Nim-Dvir-CV-2026-09.pdf">
+        Download CV (PDF) ↓
+      </a>
+      <a class="button" href="/about/">
+        Short biography ↗
+      </a>
+    </div>
+  </header>
+  <article class="prose cv-content">
+    <Content />
+  </article>
+</Layout>
+<style>
+  .cv-content {
+    margin-inline: auto;
+  }
+  .cv-content :global(h1) {
+    font-size: 2rem;
+    border-top: 1px solid var(--border);
+    padding-top: 32px;
+    margin-top: 40px;
+  }
+  .cv-content :global(h2) {
+    font-size: 1.5rem;
+  }
+  .cv-content :global(h3) {
+    font-size: 1.2rem;
+  }
+</style>

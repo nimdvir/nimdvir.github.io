@@ -1,223 +1,74 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
-import RelatedResearch from '../../components/RelatedResearch.astro';
-
-const base = import.meta.env.BASE_URL;
-const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
-const toAssetPath = (image?: string) => {
-	if (!image || image.trim().startsWith('url(')) {
-		return undefined;
-	}
-
-	return image;
-};
-
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { verifiedResearch } from "../../data/profile";
 export async function getStaticPaths() {
-	const entries = await getCollection('research');
-	return entries.map((entry) => ({
-		params: { slug: entry.slug },
-		props: { entry },
-	}));
+  return (await getCollection("research"))
+    .filter((e) => verifiedResearch.includes(e.slug))
+    .map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
 }
-
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const metadata = [entry.data.year, entry.data.subtitle, entry.data.category, entry.data.status].filter(Boolean);
-const heroImage = toAssetPath(entry.data.image);
-const galleryImages = (entry.data.galleryImages ?? []).map((image) => toAssetPath(image)).filter(Boolean);
 ---
 
-
-<Layout title={entry.data.title} description={entry.data.summary} image={heroImage}>
-	<article class="post">
-		<a class="back-link" href={withBase('/research/')}>Back to research</a>
-		<p class="eyebrow">Research</p>
-		<h1>{entry.data.title}</h1>
-		<p class="summary">{entry.data.summary}</p>
-		{metadata.length > 0 && (
-			<ul class="meta">
-				{metadata.map((item) => <li>{item}</li>)}
-			</ul>
-		)}
-		{heroImage && <img class="hero-image" src={withBase(heroImage)} alt={entry.data.imageAlt ?? entry.data.title} loading="lazy" />}
-		{galleryImages.length > 0 && (
-			<section class="gallery" aria-label={`${entry.data.title} image gallery`}>
-				{galleryImages.map((image, index) => (
-					<img src={withBase(image!)} alt={`${entry.data.title} visual ${index + 1}`} loading="lazy" />
-				))}
-			</section>
-		)}
-		{(entry.data.researchAreas?.length || entry.data.methods?.length) && (
-			<section class="taxonomies">
-				{entry.data.researchAreas?.length && (
-					<div>
-						<h2>Research areas</h2>
-						<ul>
-							{entry.data.researchAreas.map((area) => <li>{area}</li>)}
-						</ul>
-					</div>
-				)}
-				{entry.data.methods?.length && (
-					<div>
-						<h2>Methods</h2>
-						<ul>
-							{entry.data.methods.map((method) => <li>{method}</li>)}
-						</ul>
-					</div>
-				)}
-			</section>
-		)}
-		<div class="content">
-			<Content />
-		</div>
-	</article>
-	<RelatedResearch currentSlug={entry.slug} />
+<Layout
+  title={entry.data.title}
+  description={entry.data.summary}
+  image={entry.data.image}
+>
+  <article class="post">
+    <a class="back-link" href="/research/">
+      ← All research
+    </a>
+    <p class="eyebrow" style="margin-top:28px">
+      {entry.data.category}
+    </p>
+    <h1>{entry.data.title}</h1>
+    <p class="summary">{entry.data.summary}</p>
+    <ul class="meta">
+      {[entry.data.year, entry.data.status].filter(Boolean).map((t) => (
+        <li>{t}</li>
+      ))}
+    </ul>
+    {entry.data.image && (
+      <img
+        class="hero-image"
+        src={entry.data.image}
+        alt={entry.data.imageAlt ?? entry.data.title}
+        width="900"
+        height="560"
+      />
+    )}
+    <div class="content">
+      <Content />
+    </div>
+    {entry.data.galleryImages?.length > 1 && (
+      <div class="gallery">
+        {entry.data.galleryImages
+          .filter((i) => i !== entry.data.image)
+          .map((i, n) => (
+            <a href={i}>
+              <img
+                src={i}
+                alt={`${entry.data.title} research artwork ${n + 1}`}
+                loading="lazy"
+              />
+            </a>
+          ))}
+      </div>
+    )}
+    <ul class="tag-list">
+      {entry.data.tags.map((t) => (
+        <li>{t}</li>
+      ))}
+    </ul>
+    <div class="button-row">
+      <a class="button" href="/research/">
+        ← More research
+      </a>
+      <a class="button button-primary" href="mailto:ndvir@albany.edu">
+        Discuss this research ↗
+      </a>
+    </div>
+  </article>
 </Layout>
-
-<style>
-	.post {
-		max-width: 780px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-	}
-
-	.back-link {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
-		width: fit-content;
-		text-decoration: none;
-		color: #1d4ed8;
-		font-weight: 700;
-	}
-
-	.eyebrow {
-		margin: 0;
-		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		font-weight: 700;
-		color: #64748b;
-	}
-
-	.summary {
-		margin: 0;
-		font-size: 18px;
-		line-height: 1.7;
-		color: #1f2937;
-	}
-
-	.meta {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 8px;
-	}
-
-	.meta li {
-		padding: 8px 12px;
-		border-radius: 999px;
-		background: #eff6ff;
-		color: #1e3a5f;
-		font-size: 14px;
-		font-weight: 600;
-	}
-
-	h1 {
-		margin: 0;
-		font-size: 32px;
-		letter-spacing: -0.02em;
-	}
-
-	.hero-image {
-		width: 100%;
-		height: auto;
-		border-radius: 20px;
-		border: 1px solid #e2e8f0;
-		box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
-	}
-
-	.gallery {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-		gap: 12px;
-	}
-
-	.gallery img {
-		width: 100%;
-		height: 180px;
-		object-fit: cover;
-		border-radius: 16px;
-		border: 1px solid #e2e8f0;
-		box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
-	}
-
-	.taxonomies {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-		gap: 18px;
-		padding: 20px;
-		border-radius: 18px;
-		background: #f8fafc;
-		border: 1px solid #e2e8f0;
-	}
-
-	.taxonomies h2 {
-		margin: 0 0 12px;
-		font-size: 18px;
-	}
-
-	.taxonomies ul {
-		margin: 0;
-		padding-left: 18px;
-		display: grid;
-		gap: 8px;
-		color: #334155;
-	}
-
-	.content {
-		font-size: 18px;
-		color: #111827;
-		line-height: 1.6;
-	}
-
-	.content :global(h2) {
-		margin: 24px 0 12px;
-		font-size: 24px;
-		letter-spacing: -0.01em;
-	}
-
-	.content :global(p) {
-		margin: 0 0 16px;
-	}
-
-	.content :global(ul),
-	.content :global(ol) {
-		margin: 0 0 16px 18px;
-		line-height: 1.5;
-		display: grid;
-		gap: 10px;
-	}
-
-	.content :global(strong) {
-		color: #0f172a;
-	}
-
-	@media (max-width: 640px) {
-		h1 {
-			font-size: 26px;
-		}
-
-		.content {
-			font-size: 16px;
-		}
-
-		.summary {
-			font-size: 16px;
-		}
-	}
-</style>

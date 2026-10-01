@@ -1,715 +1,241 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import feedbackRaw from '../../teaching/feedback.md?raw';
-
-const base = import.meta.env.BASE_URL;
-const withBase = (path: string) => `${base}${path.replace(/^\//, '')}`;
-
-const glance = [
-	{ emoji: '📅', value: '10+ years', label: 'University-level teaching' },
-	{ emoji: '👥', value: '3 to 300', label: 'Students in a single course' },
-	{ emoji: '🎓', value: '4,000+', label: 'Students taught' },
-	{ emoji: '🧭', value: '25+', label: 'Course deliveries in multiple formats' },
-	{ emoji: '🏫', value: 'Grad + UG', label: 'Undergraduate and graduate teaching' },
-	{ emoji: '💻', value: 'In-person + Online + Hybrid', label: 'Across delivery formats' },
-];
-
+import Layout from "../layouts/Layout.astro";
+import { cvUrl } from "../data/profile";
 const graduate = [
-	{
-		code: 'BITM 522',
-		title: 'Managing Information Technology',
-		icon: 'fa-server',
-		description: 'Strategic management of IT resources, digital transformation, enterprise systems, and aligning technology with business objectives.'
-	},
-	{
-		code: 'INF 501',
-		title: 'Case Studies in Digital Citizenship',
-		icon: 'fa-users',
-		description: 'Examining real-world cases of digital ethics, online civic engagement, media literacy, and responsible technology use in society.'
-	},
-	{
-		code: 'BITM 534',
-		title: 'Field Study in IS and Business Analytics',
-		icon: 'fa-chart-line',
-		description: 'Applied research practicum partnering with organizations to solve real business problems using data analytics and IS methods.'
-	},
-	{
-		code: 'INFO 646',
-		title: 'Digital Product Design (Advanced UX)',
-		icon: 'fa-pen-ruler',
-		description: 'End-to-end product design process — from user research and wireframing through high-fidelity prototyping and usability testing.'
-	},
-	{
-		code: 'INFO 642',
-		title: 'Content Strategy',
-		icon: 'fa-file-alt',
-		description: 'Planning, creating, and governing digital content across channels — information architecture, editorial workflows, and content audits.'
-	},
+  [
+    "BITM 522",
+    "Managing Information Technology",
+    "University at Albany · MBA · 2022–2026",
+  ],
+  [
+    "INF 501",
+    "Case Studies in Digital Citizenship",
+    "University at Albany · 2022–2026",
+  ],
+  [
+    "BITM 534",
+    "Field Study in Information Systems and Business Analytics",
+    "University at Albany · course development · 2022",
+  ],
+  [
+    "INFO 646",
+    "Digital Product Design (Advanced User Experience Design)",
+    "Pratt Institute · course development · 2019",
+  ],
+  [
+    "INFO 642",
+    "Content Strategy",
+    "Pratt Institute · course development · 2019",
+  ],
 ];
-
 const undergraduate = [
-	{
-		code: 'BITM 330',
-		title: 'Improving Business Performance with IT',
-		icon: 'fa-briefcase',
-		description: 'How organizations leverage information technology to drive efficiency, innovation, and competitive advantage. 150+ students per section.'
-	},
-	{
-		code: 'ISBA 434',
-		title: 'Business Analytics Practicum',
-		icon: 'fa-database',
-		description: 'Hands-on analytics projects using real data — SQL, Python, dashboards, and communicating insights to stakeholders.'
-	},
-	{
-		code: 'INF 108',
-		title: 'Intro to Python',
-		icon: 'fa-code',
-		description: 'Foundational Python programming: variables, control flow, functions, data structures, and introductory data analysis.'
-	},
-	{
-		code: 'INF 308',
-		title: 'Advanced Python',
-		icon: 'fa-terminal',
-		description: 'Object-oriented programming, APIs, web scraping, data pipelines, and building real-world applications with Python.'
-	},
-	{
-		code: 'INF 496',
-		title: 'UX in E-Commerce',
-		icon: 'fa-shopping-cart',
-		description: 'User experience principles applied to online retail — conversion optimization, A/B testing, checkout flows, and persuasive design.'
-	},
-	{
-		code: 'INF 200',
-		title: 'Research Methods for Information Studies',
-		icon: 'fa-flask',
-		description: 'Quantitative and qualitative research design, surveys, experiments, data collection, and statistical analysis fundamentals.'
-	},
-	{
-		code: 'INF 401',
-		title: 'Case Studies in Digital Citizenship',
-		icon: 'fa-globe',
-		description: 'Exploring digital rights, misinformation, online safety, and ethical technology use through real-world case analysis.'
-	},
+  [
+    "BITM 330",
+    "Improving Business Performance with Information Technologies",
+    "University at Albany · 2021–2026 · in person and online",
+  ],
+  [
+    "INF 401",
+    "Case Studies in Digital Citizenship",
+    "University at Albany · 2021–2026 · online",
+  ],
+  [
+    "ISBA 434",
+    "Business Analytics Practicum",
+    "University at Albany · 2021, 2022, 2024–2026",
+  ],
+  [
+    "INF 495",
+    "Special Topics in Research, Applied and Experiential Learning",
+    "University at Albany · 2021",
+  ],
+  ["INF 462/562", "Current Technologies in Web Design", "SUNY Online · 2020"],
+  [
+    "INF 108",
+    "Programming for Problem Solving: Introduction to Python",
+    "University at Albany and SUNY Online · 2017–2023",
+  ],
+  [
+    "INF 308",
+    "Programming for Informatics: Advanced Python",
+    "University at Albany · 2017–2021",
+  ],
+  [
+    "INF 496",
+    "UX in E-Commerce: Principles, Methods, and Technologies",
+    "Academic College of Tel Aviv-Yaffo and University at Albany · 2017–2020",
+  ],
+  [
+    "INF 200",
+    "Research Methods for Information Studies",
+    "University at Albany · 2018–2019",
+  ],
+  ["INF 100", "Information in the 21st Century", "University at Albany · 2019"],
+  [
+    "",
+    "Database Management and Programming",
+    "Academic College of Tel Aviv-Yaffo · 2017",
+  ],
 ];
-
-const graduateGalleryImages = [
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1770858141/APaQ0SSruQHJAILq9qeOP90kUJaP0Iwyl7CHw-3mk3Ep-QqcH3znXVIMOa2zQp6bfFEwXyEloojOg7oStbWM49UQ_y7JurVMipY37o0uW_YMWuY63njomkFWXaGgVPmJ77BG69R0zmOFgKB7aXUoho1QK6ffPdtMwwDwZenfsFWwGMLDABm7yoizL5wr2KqtOvdX6SUnLoBS0-37kjlKj8_UsGK4Qd7ss3cfqKNNJaM_w1280_evph4h.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching2_yt11a0.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138717/me-teaching3_sspjrv.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138719/me-teaching5_mj5t9u.webp',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138722/me-teaching8_plhrqy.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138723/me-teaching9_z4v7la.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138721/me-teaching7_lixiz2.jpg',
-];
-
-const undergraduateGalleryImages = [
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching_f63xsl.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138715/me-teaching2_yt11a0.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138720/me-teaching6_p4f8g7.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138722/me-teaching8_plhrqy.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138724/me-teaching10_bhiacw.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138723/me-teaching9_z4v7la.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138726/me-teaching12_bmaugv.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138725/me-teaching11_bmostq.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138729/me-teaching14_ywtjk7.jpg',
-	'https://res.cloudinary.com/dkndq6lyz/image/upload/v1771138728/me-teaching13_fbtkf3.jpg',
-];
-
-const feedbackEntries = feedbackRaw
-	.split(/\r?\n\s*---+\s*\r?\n/g)
-	.map((block) => block.trim())
-	.filter(Boolean)
-	.map((block) => {
-		const normalizedBlock = block.replace(/\*\*/g, '').trim();
-		const courseMatch = normalizedBlock.match(/(?:-|–|\.)?\s*([A-Za-z]{3,5}\s*\d{3})\s*$/i);
-		const course = (courseMatch?.[1] ?? '')
-			.replace(/\s+/g, ' ')
-			.trim()
-			.toUpperCase();
-
-		const quoteMatch = normalizedBlock.match(/"([\s\S]*?)"/);
-		let quote = quoteMatch?.[1] ?? normalizedBlock;
-
-		if (!quoteMatch && courseMatch) {
-			quote = quote.replace(/(?:-|–|\.)?\s*[A-Za-z]{3,5}\s*\d{3}\s*$/i, '');
-		}
-
-		quote = quote.replace(/\s+/g, ' ').trim();
-
-		return { quote, course };
-	})
-	.filter((entry) => entry.quote.length > 0);
 ---
 
 <Layout
-	title="Teaching"
-	description="Courses on HCI, UX research, responsible AI, and information engagement."
+  title="Teaching"
+  description="Applied teaching in databases, SQL, Python, business analytics, information systems, digital citizenship, and responsible AI at UAlbany and beyond."
 >
-	<div class="teaching-hero">
-		<div id="particles-header"></div>
-		<div class="hero-inner">
-			<h1>Teaching</h1>
-			<p class="hero-subtitle"><i class="fas fa-bolt"></i> At a Glance</p>
-			<ul class="glance-strip">
-				{glance.map((item) => (
-					<li>
-						<span class="glance-emoji">{item.emoji}</span>
-						<span class="glance-value">{item.value}</span>
-						<span class="glance-label">{item.label}</span>
-					</li>
-				))}
-			</ul>
-		</div>
-	</div>
-
-	<script is:inline src={`${import.meta.env.BASE_URL}js/particles.js`}></script>
-	<script is:inline>
-		document.addEventListener('DOMContentLoaded', function() {
-			if (typeof particlesJS !== 'undefined') {
-				particlesJS('particles-header', {
-					particles: {
-						number: { value: 60, density: { enable: true, value_area: 800 } },
-						color: { value: '#ffffff' },
-						shape: { type: 'circle' },
-						opacity: { value: 0.5, random: true },
-						size: { value: 3, random: true },
-						line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.3, width: 1 },
-						move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
-					},
-					interactivity: {
-						detect_on: 'canvas',
-						events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
-						modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
-					},
-					retina_detect: true
-				});
-			}
-		});
-	</script>
-
-	<section class="course-section teaching-intro-section">
-		<div class="teaching-intro-card">
-			<h2 class="section-title"><i class="fas fa-chalkboard-teacher"></i> My Teaching: From Data to Digital Citizenship</h2>
-			<div class="teaching-intro-copy">
-				<p>
-					Most of the year, I teach at the <strong>University at Albany</strong>, offering <strong>undergraduate</strong>
-					and <strong>graduate</strong> courses in <strong>in-person</strong>, <strong>online</strong>, and
-					<strong>hybrid</strong> formats.
-				</p>
-				<p>
-					At the <strong>Massry School of Business</strong>, I teach in the <strong>Department of Information
-					Systems and Business Analytics</strong>, where my courses focus on how information technology, data
-					management, databases, SQL, and predictive analytics support organizational strategy and solve business
-					problems.
-				</p>
-				<p>
-					I am also affiliated with the <strong>Department of Information Sciences and Technology / Informatics</strong>
-					at the <strong>College of Emergency Preparedness, Homeland Security and Cybersecurity</strong>, where I
-					teach courses in digital citizenship and academic writing. From time to time, I also branch out as a
-					visiting professor and guest instructor at other academic institutions, including programs in New York
-					City and Israel. I am always open to meaningful teaching collaborations, workshops, guest lectures, and
-					interdisciplinary course development. For collaborations, please contact me at
-					<a href="mailto:ndvir@albany.edu">ndvir@albany.edu</a>.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="course-section">
-		<div class="teaching-gallery" aria-label="Graduate teaching image gallery">
-			<div id="graduate-gallery-particles" class="gallery-particles" aria-hidden="true"></div>
-			<img id="graduate-gallery-image" src={graduateGalleryImages[0]} alt="Graduate teaching moments" loading="lazy" class="gallery-image visible" />
-			<script id="graduate-gallery-data" type="application/json" set:html={JSON.stringify(graduateGalleryImages)}></script>
-		</div>
-		<h2 class="section-title"><i class="fas fa-user-graduate"></i> Graduate</h2>
-		<div class="courses">
-			{graduate.map((c) => (
-				<details class="course">
-					<summary>
-						<div>
-							<h3><i class={`fas ${c.icon}`}></i> {c.code} — {c.title}</h3>
-						</div>
-						<span class="chevron" aria-hidden="true"></span>
-					</summary>
-					<div class="content">
-						<p>{c.description}</p>
-					</div>
-				</details>
-			))}
-		</div>
-	</section>
-
-	<section class="course-section">
-		<div class="teaching-gallery" aria-label="Undergraduate teaching image gallery">
-			<div id="undergraduate-gallery-particles" class="gallery-particles" aria-hidden="true"></div>
-			<img id="undergraduate-gallery-image" src={undergraduateGalleryImages[0]} alt="Undergraduate teaching moments" loading="lazy" class="gallery-image visible" />
-			<script id="undergraduate-gallery-data" type="application/json" set:html={JSON.stringify(undergraduateGalleryImages)}></script>
-		</div>
-		<h2 class="section-title"><i class="fas fa-book-open"></i> Undergraduate</h2>
-		<div class="courses">
-			{undergraduate.map((c) => (
-				<details class="course">
-					<summary>
-						<div>
-							<h3><i class={`fas ${c.icon}`}></i> {c.code} — {c.title}</h3>
-						</div>
-						<span class="chevron" aria-hidden="true"></span>
-					</summary>
-					<div class="content">
-						<p>{c.description}</p>
-					</div>
-				</details>
-			))}
-		</div>
-	</section>
-
-	<section class="course-section feedback-section">
-		<h2 class="section-title"><i class="fas fa-comments"></i> Student Feedback</h2>
-		<div class="feedback-grid">
-			<div class="feedback-images">
-				<img src={withBase('/images/teaching/appriciation-letters.jpg')} alt="Student thank-you notes" loading="lazy" />
-				<img src={withBase('/images/teaching/me-class.gif')} alt="In-class student interaction" loading="lazy" />
-			</div>
-
-			<div class="feedback-carousel" aria-live="polite">
-				<p class="feedback-label">What students are saying</p>
-				<blockquote id="feedback-quote"></blockquote>
-				<p id="feedback-course"></p>
-				<script id="feedback-data" type="application/json" set:html={JSON.stringify(feedbackEntries)}></script>
-			</div>
-		</div>
-	</section>
-
-	<script is:inline>
-		document.addEventListener('DOMContentLoaded', function() {
-			if (typeof particlesJS !== 'undefined') {
-				const galleryParticlesConfig = {
-					particles: {
-						number: { value: 92, density: { enable: true, value_area: 700 } },
-						color: { value: '#f8fafc' },
-						shape: { type: 'circle' },
-						opacity: { value: 0.62, random: true },
-						size: { value: 3.1, random: true },
-						line_linked: { enable: true, distance: 130, color: '#ffffff', opacity: 0.42, width: 1.2 },
-						move: { enable: true, speed: 0.65, direction: 'none', random: true, straight: false, out_mode: 'out' }
-					},
-					interactivity: {
-						detect_on: 'canvas',
-						events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
-					},
-					retina_detect: true
-				};
-
-				particlesJS('graduate-gallery-particles', galleryParticlesConfig);
-				particlesJS('undergraduate-gallery-particles', galleryParticlesConfig);
-			}
-
-			const initializeGallery = (dataId, imageId, intervalMs) => {
-				const dataNode = document.getElementById(dataId);
-				const imageNode = document.getElementById(imageId);
-				if (!dataNode || !imageNode) return;
-
-				const images = JSON.parse(dataNode.textContent || '[]');
-				if (!Array.isArray(images) || images.length === 0) return;
-
-				let currentIndex = 0;
-				const rotateImage = () => {
-					let nextIndex = Math.floor(Math.random() * images.length);
-					if (images.length > 1) {
-						while (nextIndex === currentIndex) {
-							nextIndex = Math.floor(Math.random() * images.length);
-						}
-					}
-
-					imageNode.classList.remove('visible');
-					setTimeout(() => {
-						imageNode.src = images[nextIndex];
-						imageNode.classList.add('visible');
-					}, 180);
-					currentIndex = nextIndex;
-				};
-
-				if (images.length > 1) {
-					setInterval(rotateImage, intervalMs);
-				}
-			};
-
-			initializeGallery('graduate-gallery-data', 'graduate-gallery-image', 3800);
-			initializeGallery('undergraduate-gallery-data', 'undergraduate-gallery-image', 4200);
-
-			const dataNode = document.getElementById('feedback-data');
-			const quoteElement = document.getElementById('feedback-quote');
-			const courseElement = document.getElementById('feedback-course');
-
-			if (!dataNode || !quoteElement || !courseElement) return;
-
-			const feedback = JSON.parse(dataNode.textContent || '[]');
-			if (!Array.isArray(feedback) || feedback.length === 0) return;
-
-			let currentIndex = -1;
-			const rotateFeedback = () => {
-				let nextIndex = Math.floor(Math.random() * feedback.length);
-				if (feedback.length > 1) {
-					while (nextIndex === currentIndex) {
-						nextIndex = Math.floor(Math.random() * feedback.length);
-					}
-				}
-
-				const next = feedback[nextIndex];
-				quoteElement.classList.remove('visible');
-				courseElement.classList.remove('visible');
-
-				setTimeout(() => {
-					quoteElement.textContent = `“${next.quote}”`;
-					courseElement.textContent = next.course ? `— ${next.course}` : '';
-					quoteElement.classList.add('visible');
-					courseElement.classList.add('visible');
-				}, 120);
-
-				currentIndex = nextIndex;
-			};
-
-			rotateFeedback();
-			setInterval(rotateFeedback, 5500);
-		});
-	</script>
+  <header class="page-intro">
+    <p class="eyebrow">Teaching / Learning by doing</p>
+    <h1>
+      Make it clear.
+      <br />
+      <span class="gradient-text">Make it useful.</span>
+    </h1>
+    <p class="lede">
+      I help students connect technical skills to meaningful questions in
+      business and society, from their first SQL query to a complete product
+      research project.
+    </p>
+  </header>
+  <section class="evidence-row" aria-label="Teaching experience">
+    <div class="evidence">
+      <strong>12</strong>
+      <span>Semesters teaching BITM 330 through Fall 2026</span>
+    </div>
+    <div class="evidence">
+      <strong>~600</strong>
+      <span>Undergraduates per year in BITM 330</span>
+    </div>
+    <div class="evidence">
+      <strong>4</strong>
+      <span>
+        Institutions, spanning undergraduate, graduate, and online teaching
+      </span>
+    </div>
+  </section>
+  <section class="section" style="border-top:0">
+    <div class="feature-panel">
+      <div>
+        <p class="eyebrow">Interactive courseware</p>
+        <h2>Using Data to Drive Business Performance</h2>
+        <p>
+          My textbook and companion courseware connect databases, SQL,
+          analytics, and business intelligence with practical decision-making.
+          Interactive exercises, quizzes, and applied examples support both
+          classroom and online learning.
+        </p>
+        <div class="button-row">
+          <a
+            class="button button-primary"
+            href="https://database-textbook.dimapublishing.com/"
+          >
+            Explore the courseware ↗
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">Building for online learning</p>
+        <h3>Flexible delivery. Purposeful practice.</h3>
+        <p>
+          I lead development of the fully asynchronous BITM 330 for UAlbany’s
+          Online BSBA program, aligned with AACSB Assurance of Learning
+          standards and CATLOE instructional design practices.
+        </p>
+        <p>
+          My teaching incorporates AI-assisted coding, LLM evaluation, and
+          assignments that ask students to explain and assess their results.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="split-section">
+    <div>
+      <p class="eyebrow">Teaching approach</p>
+      <h2>
+        Build skills.
+        <br />
+        Build judgment.
+      </h2>
+    </div>
+    <div class="prose">
+      <p>
+        I use applied projects to make technical material approachable. Students
+        work through databases, analytics, and digital product questions with an
+        emphasis on both the process and the reasoning behind their decisions.
+      </p>
+      <p>
+        In the Business Analytics Practicum and graduate Field Study, student
+        teams work on real organizational problems. Their work connects
+        research, analysis, prototypes, and communication with stakeholders.
+      </p>
+      <p>
+        <span class="marker">
+          Knowing how to use a tool is a beginning. Knowing when to trust the
+          result is the real lesson.
+        </span>
+      </p>
+      <a class="text-link" href="/projects/">
+        Explore advised projects ↗
+      </a>
+    </div>
+  </section>
+  <section class="section">
+    <p class="eyebrow">Course portfolio</p>
+    <h2>Graduate and MBA courses.</h2>
+    <ul class="course-list">
+      {graduate.map(([code, title, context]) => (
+        <li>
+          <p class="status-label">{code}</p>
+          <strong>{title}</strong>
+          <span>{context}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="section">
+    <h2>Undergraduate courses.</h2>
+    <ul class="course-list">
+      {undergraduate.map(([code, title, context]) => (
+        <li>
+          <p class="status-label">{code || "Database studies"}</p>
+          <strong>{title}</strong>
+          <span>{context}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="section">
+    <div class="grid-2">
+      <div>
+        <p class="eyebrow">Faculty development</p>
+        <h2>
+          From prompting
+          <br />
+          to workflows.
+        </h2>
+        <p class="lede">
+          My CCE 2026 session shares practical ways to use AI agents in academic
+          work, including working with files, building websites, and reviewing
+          changes.
+        </p>
+        <a class="text-link" href="https://nimdvir.github.io/cce-2026/">
+          Explore the session and examples ↗
+        </a>
+      </div>
+      <div class="plain-card">
+        <h3>Teaching, workshops, and collaboration</h3>
+        <p>
+          I welcome conversations about information systems education, AI
+          literacy, digital courseware, and practical academic workflows.
+        </p>
+        <div class="button-row">
+          <a class="button button-primary" href="mailto:ndvir@albany.edu">
+            Get in touch ↗
+          </a>
+          <a class="button" href={cvUrl}>
+            Full teaching history ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
-
-<style>
-	/* ===== HERO ===== */
-	.teaching-hero {
-		position: relative;
-		width: 100vw;
-		margin-left: calc(-50vw + 50%);
-		margin-top: -24px;
-		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-		padding: 60px 24px 72px;
-		margin-bottom: 48px;
-		color: #fff;
-		overflow: hidden;
-	}
-
-	#particles-header {
-		position: absolute;
-		top: 0; left: 0;
-		width: 100%; height: 100%;
-		z-index: 1;
-	}
-
-	.hero-inner {
-		position: relative;
-		z-index: 2;
-		max-width: 1100px;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.hero-inner h1 {
-		font-size: 56px;
-		font-weight: 800;
-		margin: 0 0 12px;
-		line-height: 1.05;
-		letter-spacing: -0.03em;
-		color: #fff;
-	}
-
-	.hero-subtitle {
-		font-size: 16px;
-		font-weight: 600;
-		margin: 0 0 28px;
-		color: rgba(255,255,255,0.7);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-	}
-	.hero-subtitle i { color: #fbbf24; }
-
-	.glance-strip {
-		list-style: none;
-		margin: 0 auto;
-		padding: 0;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 12px;
-		max-width: 960px;
-	}
-
-	.glance-strip li {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 4px;
-		padding: 16px 10px;
-		border-radius: 14px;
-		background: rgba(0,0,0,0.22);
-		border: 1px solid rgba(255,255,255,0.08);
-	}
-
-	.glance-emoji { font-size: 24px; }
-	.glance-value { font-weight: 700; font-size: 18px; color: #fff; }
-	.glance-label { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.3; text-align: center; }
-
-	/* ===== COURSE SECTIONS ===== */
-	.course-section {
-		max-width: 1000px;
-		margin: 0 auto 40px;
-		padding: 0 24px;
-	}
-
-	.feedback-section {
-		margin-bottom: 56px;
-	}
-
-	.teaching-intro-section {
-		margin-top: -10px;
-	}
-
-	.teaching-intro-card {
-		background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-		border: 1px solid #e5e7eb;
-		border-radius: 18px;
-		padding: 28px;
-		box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-	}
-
-	.teaching-intro-copy {
-		display: grid;
-		gap: 16px;
-	}
-
-	.teaching-intro-copy p {
-		margin: 0;
-		font-size: 16px;
-		line-height: 1.8;
-		color: #334155;
-	}
-
-	.teaching-intro-copy strong {
-		color: #0f172a;
-	}
-
-	.teaching-intro-copy a {
-		color: #1d4ed8;
-		font-weight: 600;
-	}
-
-	.section-title {
-		font-size: 24px;
-		margin: 0 0 16px;
-		color: #0f172a;
-		display: flex;
-		align-items: center;
-		gap: 10px;
-	}
-	.section-title i { color: #1e3a5f; }
-
-	.courses {
-		display: grid;
-		gap: 12px;
-	}
-
-	.course {
-		background: #ffffff;
-		border: 1px solid #e5e7eb;
-		border-radius: 14px;
-		padding: 0;
-		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-	}
-
-	summary {
-		list-style: none;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 16px;
-		padding: 16px 20px;
-		cursor: pointer;
-	}
-
-	summary::-webkit-details-marker {
-		display: none;
-	}
-
-	summary h3 {
-		margin: 0;
-		font-size: 16px;
-		font-weight: 600;
-		color: #0f172a;
-		display: flex;
-		align-items: center;
-		gap: 10px;
-	}
-	summary h3 i { color: #1e3a5f; font-size: 15px; }
-
-	.chevron {
-		width: 10px;
-		height: 10px;
-		border-right: 2px solid #94a3b8;
-		border-bottom: 2px solid #94a3b8;
-		transform: rotate(45deg);
-		transition: transform 0.2s ease;
-		flex-shrink: 0;
-	}
-
-	details[open] .chevron {
-		transform: rotate(-135deg);
-	}
-
-	.content {
-		border-top: 1px solid #e5e7eb;
-		padding: 14px 20px 18px;
-	}
-
-	.content p {
-		margin: 0;
-		color: #475569;
-		line-height: 1.7;
-		font-size: 15px;
-	}
-
-	.teaching-gallery {
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 14px;
-		padding: 16px;
-		height: 420px;
-		border: 1px solid #e5e7eb;
-		border-radius: 14px;
-		overflow: hidden;
-		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-		background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-	}
-
-	.gallery-particles {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-		pointer-events: none;
-	}
-
-	.gallery-image {
-		position: relative;
-		z-index: 2;
-		display: block;
-		width: 100%;
-		height: 100%;
-		object-fit: contain;
-		object-position: center center;
-		opacity: 0;
-		transition: opacity 220ms ease;
-	}
-
-	.gallery-image.visible {
-		opacity: 1;
-	}
-
-	.feedback-grid {
-		display: grid;
-		grid-template-columns: 1.1fr 1fr;
-		gap: 20px;
-		align-items: stretch;
-	}
-
-	.feedback-images {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 14px;
-	}
-
-	.feedback-images img {
-		width: 100%;
-		height: 220px;
-		object-fit: cover;
-		border-radius: 14px;
-		border: 1px solid #e5e7eb;
-		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-	}
-
-	.feedback-carousel {
-		background: #ffffff;
-		border: 1px solid #e5e7eb;
-		border-radius: 14px;
-		padding: 20px;
-		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.feedback-label {
-		margin: 0 0 10px;
-		font-size: 12px;
-		font-weight: 700;
-		color: #1e3a5f;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	#feedback-quote {
-		margin: 0;
-		font-size: 20px;
-		line-height: 1.55;
-		color: #0f172a;
-		font-weight: 600;
-		opacity: 0;
-		transition: opacity 200ms ease;
-	}
-
-	#feedback-course {
-		margin: 14px 0 0;
-		font-size: 14px;
-		font-weight: 700;
-		color: #475569;
-		opacity: 0;
-		transition: opacity 200ms ease;
-	}
-
-	#feedback-quote.visible,
-	#feedback-course.visible {
-		opacity: 1;
-	}
-
-	@media (max-width: 640px) {
-		summary {
-			padding: 14px 16px;
-		}
-		summary h3 { font-size: 14px; }
-
-		.teaching-intro-card {
-			padding: 22px 18px;
-		}
-
-		.gallery-image {
-			height: 100%;
-		}
-
-		.teaching-gallery {
-			height: 300px;
-			padding: 10px;
-		}
-
-		.feedback-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.feedback-images img {
-			height: 180px;
-		}
-
-		#feedback-quote {
-			font-size: 18px;
-		}
-	}
-
-	@media (max-width: 600px) {
-		.teaching-hero { padding: 40px 16px 48px; }
-		.hero-inner h1 { font-size: 40px; }
-		.glance-strip { grid-template-columns: repeat(2, 1fr); }
-	}
-</style>

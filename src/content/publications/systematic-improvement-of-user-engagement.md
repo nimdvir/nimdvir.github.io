@@ -1,7 +1,8 @@
 ---
+url: "https://doi.org/10/ggjhjw"
 title: 'Systematic improvement of user engagement with academic titles using computational linguistics'
 year: '2019'
-authors: ['Nim Dvir']
+authors: ["Nim Dvir", "Ruti Gafni"]
 venue: 'Informing Science and IT Education Conference'
 summary: 'A study of how title phrasing can be optimized through computational linguistics to improve information engagement.'
 tags: ['Computational Linguistics', 'Academic Communication']

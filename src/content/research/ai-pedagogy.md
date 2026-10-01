@@ -3,7 +3,7 @@ title: 'AI Pedagogy'
 year: '2026'
 subtitle: 'Current research expansion'
 category: 'Teaching and Learning'
-status: 'pilot'
+status: 'Research in preparation'
 tags: ['AI Literacy', 'Teaching', 'Digital Citizenship']
 summary: 'An emerging line of research on how students learn to use AI tools responsibly, critically, and effectively in technical and professional education.'
 image: '/images/about/ualbany-campus-west.webp'
@@ -20,3 +20,7 @@ AI Pedagogy explores how students can move beyond passive tool use toward delibe
 ## Why it matters
 
 Students now encounter AI in nearly every knowledge workflow. This research investigates how to teach evaluation, responsible use, and collaborative human-AI practice without reducing learning to automation.
+
+## Current directions
+
+The September 2026 CV identifies studies in preparation on ChatGPT-assisted summarization and student learning outcomes, AI-enabled academic advising, IT and product design teaching in MBA programs, and student engagement in large STEM courses.
