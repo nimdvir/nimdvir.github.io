@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Draft and future blog/news plus draft publication excluded from all HTML and XML.",
+    "Publication with invalid citation date is rejected by the content schema."
+  ],
+  "fixturesRemoved": true,
+  "finalBuild": "pass"
+}

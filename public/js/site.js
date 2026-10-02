@@ -68,7 +68,14 @@
   });
   // Keep personal-site navigation in this tab. CCE is a separate website
   // hosted under the same GitHub Pages origin.
-  const siteOrigins = [location.origin, "https://nimdvir.github.io"];
+  const siteOrigins = [
+    location.origin,
+    "https://nimdvir.com",
+    "http://nimdvir.com",
+    "https://www.nimdvir.com",
+    "http://www.nimdvir.com",
+    "https://nimdvir.github.io",
+  ];
   document.querySelectorAll("a[href]").forEach((link) => {
     const isWebLink = ["http:", "https:"].includes(link.protocol);
     const isCceSite =

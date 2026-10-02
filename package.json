@@ -14,6 +14,7 @@
     "deploy:docs": "npm run deploy"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.0",
     "astro": "^5.16.6"
   },

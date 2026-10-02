@@ -13,6 +13,11 @@ const { Content } = await project.render();
 
 <Layout
   title={project.data.title}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Projects", path: "/projects/" },
+    { name: project.data.title, path: `/projects/${project.slug}/` },
+  ]}
   description={project.data.summary}
   image={project.data.image}
 >

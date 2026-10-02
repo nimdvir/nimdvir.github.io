@@ -1,0 +1,233 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/publications/ways-of-words/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/publications/words-that-stick/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/publications/predictive-model-information-engagement/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/publications/when-less-is-more/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/publications/ways-of-words/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/publications/words-that-stick/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/publications/predictive-model-information-engagement/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/publications/when-less-is-more/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/publications/ways-of-words/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/publications/words-that-stick/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/publications/predictive-model-information-engagement/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/publications/when-less-is-more/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/publications/ways-of-words/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/publications/words-that-stick/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/publications/predictive-model-information-engagement/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/publications/when-less-is-more/"
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "route": "/about/",
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "route": "/blog/rebuilding-this-website/",
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "route": "/publications/ways-of-words/",
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "route": "/publications/when-less-is-more/",
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "mode": "dark",
+      "violations": []
+    },
+    {
+      "route": "/blog/rebuilding-this-website/",
+      "mode": "dark",
+      "violations": []
+    },
+    {
+      "route": "/publications/ways-of-words/",
+      "mode": "dark",
+      "violations": []
+    },
+    {
+      "route": "/publications/when-less-is-more/",
+      "mode": "dark",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "Research to paper stays in same tab",
+    "Local paper PDF target is same tab",
+    "Original paper source opens new tab without opener",
+    "RSS news anchor resolves"
+  ]
+}

@@ -1,0 +1,183 @@
+---
+import { existsSync } from "node:fs";
+import Layout from "../../layouts/Layout.astro";
+import { getPublications } from "../../utils/publications";
+export async function getStaticPaths() {
+  return (await getPublications())
+    .filter((entry) => entry.data.pageReady)
+    .map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const paper = entry.data;
+const pagePath = `/publications/${entry.slug}/`;
+const pageUrl = new URL(pagePath, Astro.site).href;
+if (
+  paper.pdf &&
+  (!paper.pdf.startsWith(pagePath) ||
+    paper.pdf.includes("..") ||
+    !existsSync(`public${paper.pdf}`))
+) {
+  throw new Error(
+    `${entry.slug}: citation_pdf_url needs an existing PDF in the same directory as the abstract page.`,
+  );
+}
+const citationTags = [
+  ["citation_title", paper.title],
+  ...paper.authors.map((author) => ["citation_author", author]),
+  ["citation_publication_date", paper.publicationDate?.replaceAll("-", "/")],
+  ["citation_journal_title", paper.journal],
+  ["citation_conference_title", paper.conference],
+  ["citation_dissertation_institution", paper.institution],
+  ["citation_volume", paper.volume],
+  ["citation_issue", paper.issue],
+  ["citation_firstpage", paper.firstPage],
+  ["citation_lastpage", paper.lastPage],
+  ["citation_doi", paper.doi],
+  ["citation_arxiv_id", paper.arxivId],
+  ["citation_abstract_html_url", pageUrl],
+  [
+    "citation_pdf_url",
+    paper.pdf ? new URL(paper.pdf, Astro.site).href : undefined,
+  ],
+].filter(([, value]) => value);
+const scholarlyArticle = {
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": `${pageUrl}#paper`,
+  url: pageUrl,
+  headline: paper.title,
+  name: paper.title,
+  description: paper.summary,
+  abstract: paper.abstract,
+  author: paper.authors.map((name) => ({
+    "@type": "Person",
+    name,
+    ...(["Nim Dvir", "Nimrod Dvir"].includes(name)
+      ? {
+          "@id": new URL("#person", Astro.site).href,
+          url: new URL("/about/", Astro.site).href,
+        }
+      : {}),
+  })),
+  datePublished: paper.publicationDate,
+  creativeWorkStatus: paper.status,
+  sameAs: paper.url,
+  ...(paper.doi
+    ? {
+        identifier: {
+          "@type": "PropertyValue",
+          propertyID: "DOI",
+          value: paper.doi,
+        },
+      }
+    : {}),
+  ...(paper.journal || paper.conference
+    ? {
+        isPartOf: {
+          "@type": paper.journal ? "Periodical" : "CreativeWork",
+          name: paper.journal ?? paper.conference,
+        },
+      }
+    : {}),
+  ...(paper.pdf
+    ? {
+        encoding: {
+          "@type": "MediaObject",
+          contentUrl: new URL(paper.pdf, Astro.site).href,
+          encodingFormat: "application/pdf",
+        },
+      }
+    : {}),
+  ...(paper.licenseUrl ? { license: paper.licenseUrl } : {}),
+};
+const citation = `${paper.authors.join(", ")} (${paper.year}). ${paper.title}. ${paper.venue}${paper.volume ? `, ${paper.volume}` : ""}${paper.issue ? `(${paper.issue})` : ""}${paper.firstPage ? `, ${paper.firstPage}${paper.lastPage ? `–${paper.lastPage}` : ""}` : ""}.`;
+---
+
+<Layout
+  title={paper.title}
+  description={paper.summary}
+  type="article"
+  structuredData={[scholarlyArticle]}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Research", path: "/research/" },
+    { name: paper.title, path: pagePath },
+  ]}
+>
+  <Fragment slot="head">
+    {citationTags.map(([name, content]) => (
+      <meta name={name} content={content} />
+    ))}
+  </Fragment>
+  <article class="publication-article">
+    <header>
+      <a class="back-link" href="/research/">
+        ← All research and publications
+      </a>
+      <h1>{paper.title}</h1>
+      <p class="publication-authors">{paper.authors.join(", ")}</p>
+      <p class="small">
+        {paper.year} · {paper.type}
+        {paper.status &&
+        paper.status.toLowerCase() !== paper.type?.toLowerCase()
+          ? ` · ${paper.status}`
+          : ""}
+      </p>
+    </header>
+    <section
+      class="prose publication-abstract"
+      aria-labelledby="abstract-title"
+    >
+      <h2 id="abstract-title">Abstract</h2>
+      {paper.abstract!.split(/\n\s*\n/).map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </section>
+    <div class="button-row">
+      {paper.pdf && (
+        <a class="button" href={paper.pdf}>
+          Read PDF
+        </a>
+      )}
+      <a class="button" href={paper.url}>
+        Original publication record
+      </a>
+      {!paper.pdf && paper.pdfSource && (
+        <a class="button" href={paper.pdfSource}>
+          Publisher PDF
+        </a>
+      )}
+    </div>
+    <section class="prose" aria-labelledby="citation-title">
+      <h2 id="citation-title">Citation</h2>
+      {paper.manuscriptStatus && <p class="small">{paper.manuscriptStatus}</p>}
+      <p>
+        {citation}
+        {paper.doi && (
+          <>
+            {" "}
+            <a href={`https://doi.org/${paper.doi}`}>
+              https://doi.org/{paper.doi}
+            </a>
+          </>
+        )}
+      </p>
+      <p class="small">
+        Abstract from <a href={paper.abstractSource}>the original record</a>.
+        {paper.licenseUrl && (
+          <>
+            {" "}
+            Shared under <a href={paper.licenseUrl}>{paper.license}</a>.
+          </>
+        )}
+        {paper.pdf && (
+          <>
+            {" "}
+            The PDF is an unchanged copy of{" "}
+            <a href={paper.pdfSource}>the source version</a>.
+          </>
+        )}
+      </p>
+    </section>
+  </article>
+</Layout>

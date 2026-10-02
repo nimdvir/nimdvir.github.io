@@ -10,12 +10,38 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 const { Content } = await post.render();
+const articleUrl = new URL(`/blog/${post.slug}/`, Astro.site).href;
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": `${articleUrl}#article`,
+  headline: post.data.title,
+  description: post.data.summary,
+  url: articleUrl,
+  mainEntityOfPage: articleUrl,
+  datePublished: post.data.date,
+  author: {
+    "@type": "Person",
+    "@id": new URL("#person", Astro.site).href,
+    name: "Nim Dvir",
+    url: new URL("/about/", Astro.site).href,
+  },
+  ...(post.data.image
+    ? { image: new URL(post.data.image, Astro.site).href }
+    : {}),
+};
 ---
 
 <Layout
   title={post.data.title}
   description={post.data.summary}
   type="article"
+  structuredData={[articleSchema]}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Blog", path: "/blog/" },
+    { name: post.data.title, path: `/blog/${post.slug}/` },
+  ]}
   image={post.data.image}
 >
   <article class="editorial-article">
