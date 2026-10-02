@@ -2,7 +2,7 @@
 
 Prepared October 2, 2026, on `feat/domain-discoverability-2026-10-02` from main commit `b4b47f5cffcbfb85e5abbcf2c2eeb75722ce39c1`.
 
-This report describes a feature branch for review. It does not record a production deployment.
+This report describes the initial feature branch. Nim subsequently approved publication and requested that About become the complete CV. See [the CV update](2026-10-02-designed-cv.md) and PR #37 for the combined release.
 
 ## Changes
 

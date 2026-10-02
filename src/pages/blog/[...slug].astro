@@ -24,7 +24,7 @@ const articleSchema = {
     "@type": "Person",
     "@id": new URL("#person", Astro.site).href,
     name: "Nim Dvir",
-    url: new URL("/about/", Astro.site).href,
+    url: new URL("/cv/", Astro.site).href,
   },
   ...(post.data.image
     ? { image: new URL(post.data.image, Astro.site).href }

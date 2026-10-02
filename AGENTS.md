@@ -10,6 +10,7 @@
 
 ## Navigation
 
+- The main navigation uses CV in place of About. `/about/` redirects to the complete CV at `/cv/`.
 - Internal pages, local files, and section anchors open in the same tab.
 - External websites open in a new tab with `rel="noopener noreferrer"`.
 - The CCE workshop is a separate site even though it shares the GitHub Pages hostname.
@@ -20,4 +21,5 @@
 
 - Make changes on a feature branch and open a pull request for review.
 - Do not merge or publish to `main` unless Nim explicitly approves publication.
+- Nim explicitly approved publishing PR #37, including the complete designed CV and pending domain/discoverability changes, on October 2, 2026.
 - Build with `npm run build` and check links with `python scripts/verify_site.py`.

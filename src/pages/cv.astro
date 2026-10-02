@@ -1,50 +1,525 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Content } from "../data/cv-public.md";
+import { compiledContent, getHeadings } from "../data/cv-public.md";
+
+// Keep the complete CV in one source shared by the website and downloadable PDF.
+const html = await compiledContent();
+const headings = (await getHeadings()).filter((heading) => heading.depth === 2);
+const blocks = html.split(/(?=<h2\b)/);
+const contactHtml = blocks
+  .shift()!
+  .replace(
+    ">https://www.albany.edu/business/faculty/nim-dvir</a>",
+    ">UAlbany faculty profile</a>",
+  );
+if (blocks.length !== headings.length)
+  throw new Error("CV section headings do not match the source document.");
+const sections = headings.map((heading, index) => ({
+  ...heading,
+  number: String(index + 1).padStart(2, "0"),
+  content: blocks[index].replace(/^<h2\b[^>]*>[\s\S]*?<\/h2>\s*/, ""),
+}));
 ---
 
 <Layout
-  title="Curriculum Vitae"
-  description="Nim Dvir’s curriculum vitae: academic appointments, education, research, publications, teaching, and service. Updated September 2026."
+  title="CV | Academic Appointments, Publications and Teaching"
+  description="Nimrod (Nim) Dvir’s complete curriculum vitae: academic appointments, education, publications, research, teaching, awards, service, and media."
+  profilePage
 >
-  <header class="page-intro">
-    <h1>Curriculum vitae</h1>
-    <p class="lede">
-      Nimrod (Nim) Dvir, PhD, MBA
-      <br />
-      Lecturer · Massry School of Business · University at Albany, SUNY
-    </p>
-    <p class="small">
-      Academic record updated September 16, 2026. Public copy edited October 2,
-      2026.
-    </p>
-    <div class="button-row">
-      <a class="button button-primary" href="/files/Nim-Dvir-CV-2026-09.pdf">
-        Download CV (PDF)
-      </a>
-      <a class="button" href="/about/">
-        About me
-      </a>
+  <div class="cv-page" id="cv-top">
+    <header class="cv-header">
+      <div class="cv-identity">
+        <p class="eyebrow">Curriculum vitae</p>
+        <h1>Nimrod (Nim) Dvir</h1>
+        <p class="cv-degrees">PhD, MBA</p>
+        <p class="cv-position">
+          Lecturer in Information Systems and Business Analytics
+          <br />
+          Massry School of Business · University at Albany, SUNY
+        </p>
+        <div class="button-row">
+          <a
+            class="button button-primary"
+            href="/files/Nim-Dvir-CV-2026-09.pdf"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              aria-hidden="true"
+            >
+              <path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4" />
+            </svg>
+            Download CV (PDF)
+          </a>
+          <a class="button" href="/contact/">
+            Contact
+          </a>
+        </div>
+      </div>
+      <img
+        class="cv-portrait"
+        src="/images/nim-dvir-cce.jpg"
+        alt="Nim Dvir"
+        width="220"
+        height="220"
+      />
+      <div class="cv-contact" set:html={contactHtml} />
+    </header>
+
+    <div class="cv-layout">
+      <aside class="cv-index">
+        <nav aria-label="CV sections">
+          <p class="cv-index-title">On this page</p>
+          <ol>
+            {sections.map((section) => (
+              <li>
+                <a href={`#${section.slug}`}>
+                  <span aria-hidden="true">{section.number}</span>
+                  {section.text}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+        <a class="cv-top-link" href="#cv-top">
+          Back to top ↑
+        </a>
+      </aside>
+      <article class="cv-sections" aria-label="Complete curriculum vitae">
+        {sections.map((section) => (
+          <section
+            class={`cv-section cv-section--${section.slug}`}
+            aria-labelledby={section.slug}
+          >
+            <header class="cv-section-header">
+              <span class="cv-section-number" aria-hidden="true">
+                {section.number}
+              </span>
+              <h2 id={section.slug}>{section.text}</h2>
+            </header>
+            <div class="cv-section-content" set:html={section.content} />
+          </section>
+        ))}
+      </article>
     </div>
-  </header>
-  <article class="prose cv-content">
-    <Content />
-  </article>
+  </div>
 </Layout>
+
 <style>
-  .cv-content {
-    margin-inline: auto;
+  .cv-page {
+    padding-top: 48px;
   }
-  .cv-content :global(h2) {
-    font-size: 2rem;
+  .cv-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: 24px 48px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cv-identity h1 {
+    font-size: clamp(2.5rem, 5.4vw, 4.1rem);
+    letter-spacing: -0.045em;
+    line-height: 1.08;
+    margin: 12px 0;
+  }
+  .cv-degrees {
+    font-size: 1.18rem;
+    color: var(--muted);
+    margin: 0 0 20px;
+  }
+  .cv-position {
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+  .cv-portrait {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 28px;
+    border: 1px solid var(--border);
+  }
+  .cv-header .button {
+    gap: 10px;
+  }
+  .cv-contact {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .cv-contact :global(p) {
+    margin: 0;
+  }
+  .cv-contact :global(a) {
+    overflow-wrap: anywhere;
+  }
+  .cv-contact :global(p:last-child) {
+    margin-left: auto;
+    font-size: 0.8rem;
+  }
+  .cv-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+    padding-top: 40px;
+  }
+  .cv-index {
+    position: sticky;
+    top: 110px;
+    font-size: 0.86rem;
+  }
+  .cv-index-title {
+    margin: 0 0 16px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .cv-index ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .cv-index li {
+    margin: 0 0 4px;
+  }
+  .cv-index li a {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    padding: 9px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .cv-index li a:hover,
+  .cv-index li a:focus-visible {
+    color: var(--link);
+    background: var(--soft);
+  }
+  .cv-index li a span {
+    flex: 0 0 1.4em;
+    white-space: nowrap;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+  .cv-top-link {
+    display: inline-block;
+    margin: 20px 10px 0;
+  }
+  .cv-sections {
+    min-width: 0;
+  }
+  .cv-section {
+    padding: 28px 32px 32px;
+    margin-bottom: 28px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface);
+  }
+  .cv-section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+  }
+  .cv-section-number {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--violet);
+  }
+  .cv-section h2 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.5vw, 1.85rem);
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+  }
+  .cv-section-content {
+    font-size: 0.98rem;
+    line-height: 1.8;
+  }
+  .cv-section-content :global(p) {
+    margin: 0 0 18px;
+  }
+  .cv-section-content :global(a) {
+    overflow-wrap: anywhere;
+  }
+  .cv-section-content :global(h3) {
+    font-size: 1.22rem;
+    line-height: 1.4;
+    margin: 34px 0 18px;
+    padding-top: 22px;
     border-top: 1px solid var(--border);
-    padding-top: 32px;
-    margin-top: 40px;
   }
-  .cv-content :global(h3) {
-    font-size: 1.5rem;
+  .cv-section-content :global(h4) {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 28px 0 16px;
+    color: var(--link);
   }
-  .cv-content :global(h4) {
-    font-size: 1.2rem;
+  .cv-section-content :global(ul),
+  .cv-section-content :global(ol) {
+    padding-left: 1.35rem;
+    margin: 16px 0;
+  }
+  .cv-section-content :global(li) {
+    padding-left: 5px;
+    margin-bottom: 14px;
+  }
+  .cv-section-content :global(li::marker) {
+    color: var(--muted);
+  }
+  .cv-section-content :global(li > p) {
+    margin-bottom: 8px;
+  }
+  .cv-section-content :global(ul ul) {
+    margin: 12px 0 0;
+  }
+  .cv-section-content :global(ul ul li) {
+    font-size: 0.93rem;
+    margin-bottom: 8px;
+  }
+  .cv-section-content :global(> :first-child) {
+    margin-top: 0;
+  }
+  .cv-section-content :global(> :last-child) {
+    margin-bottom: 0;
+  }
+  .cv-section--academic-appointments .cv-section-content :global(> ul),
+  .cv-section--professional-experience .cv-section-content :global(> ul) {
+    list-style: none;
+    padding-left: 8px;
+  }
+  .cv-section--academic-appointments .cv-section-content :global(> ul > li),
+  .cv-section--professional-experience .cv-section-content :global(> ul > li) {
+    position: relative;
+    border-left: 1px solid var(--border);
+    padding: 0 0 22px 24px;
+    margin: 0;
+  }
+  .cv-section--academic-appointments
+    .cv-section-content
+    :global(> ul > li::before),
+  .cv-section--professional-experience
+    .cv-section-content
+    :global(> ul > li::before) {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: var(--violet);
+    border-radius: 50%;
+    top: 9px;
+    left: -5px;
+  }
+  .cv-section--academic-appointments
+    .cv-section-content
+    :global(> ul > li:last-child),
+  .cv-section--professional-experience
+    .cv-section-content
+    :global(> ul > li:last-child) {
+    padding-bottom: 0;
+  }
+  .cv-section--education .cv-section-content :global(> ul) {
+    list-style: none;
+    padding: 0;
+  }
+  .cv-section--education .cv-section-content :global(> ul > li) {
+    padding: 20px;
+    background: var(--soft);
+    border-radius: 10px;
+    margin-bottom: 14px;
+  }
+  .cv-section--teaching-experience
+    .cv-section-content
+    :global(li strong:first-child) {
+    font-weight: 700;
+  }
+  .cv-section--awards-and-honors .cv-section-content :global(> ol > li) {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cv-section--awards-and-honors
+    .cv-section-content
+    :global(> ol > li:last-child) {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  @media (max-width: 1000px) {
+    .cv-layout {
+      grid-template-columns: 185px minmax(0, 1fr);
+      gap: 24px;
+    }
+    .cv-section {
+      padding: 24px;
+    }
+  }
+  @media (max-width: 760px) {
+    .cv-page {
+      padding-top: 28px;
+    }
+    .cv-header {
+      grid-template-columns: minmax(0, 1fr) 82px;
+      gap: 24px 16px;
+      padding-bottom: 28px;
+    }
+    .cv-identity {
+      display: contents;
+    }
+    .cv-identity .eyebrow {
+      grid-column: 1;
+      margin: 0;
+      align-self: center;
+    }
+    .cv-identity h1 {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      font-size: 2.55rem;
+      margin: 0;
+    }
+    .cv-degrees {
+      grid-column: 1 / -1;
+      margin: -12px 0 0;
+    }
+    .cv-position {
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+    .cv-header .button-row {
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+    .cv-portrait {
+      grid-column: 2;
+      grid-row: 1;
+      width: 82px;
+      height: 82px;
+      border-radius: 16px;
+    }
+    .cv-contact {
+      display: block;
+    }
+    .cv-contact :global(p) {
+      margin-bottom: 8px;
+    }
+    .cv-layout {
+      display: block;
+      padding-top: 24px;
+    }
+    .cv-index {
+      position: static;
+      margin-bottom: 28px;
+      padding: 16px;
+      background: var(--soft);
+      border-radius: 12px;
+    }
+    .cv-index ol {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px 8px;
+    }
+    .cv-index li a {
+      padding: 8px 0;
+      gap: 8px;
+      font-size: 0.8rem;
+    }
+    .cv-index-title {
+      margin-bottom: 8px;
+    }
+    .cv-top-link {
+      display: none;
+    }
+    .cv-section {
+      padding: 22px 18px;
+      border-radius: 12px;
+    }
+    .cv-section-header {
+      gap: 10px;
+    }
+    .cv-section-content {
+      font-size: 0.94rem;
+    }
+    .cv-section--education .cv-section-content :global(> ul > li) {
+      padding: 16px;
+    }
+  }
+  @media print {
+    :global(.site-header),
+    :global(.site-footer),
+    :global(.skip-link),
+    .cv-index,
+    .cv-header .button-row {
+      display: none !important;
+    }
+    :global(html) {
+      color-scheme: light !important;
+      --bg: #fff !important;
+      --surface: #fff !important;
+      --soft: #fff !important;
+      --text: #111 !important;
+      --muted: #444 !important;
+      --link: #111 !important;
+      --violet: #333 !important;
+      --border: #bbb !important;
+    }
+    :global(body),
+    :global(main) {
+      color: #111;
+      background: #fff;
+      padding: 0;
+      max-width: none;
+    }
+    .cv-page {
+      padding-top: 0;
+    }
+    .cv-header {
+      display: block;
+      padding-bottom: 16px;
+    }
+    .cv-identity {
+      display: block;
+    }
+    .cv-identity h1 {
+      font-size: 25pt;
+    }
+    .cv-portrait {
+      display: none;
+    }
+    .cv-layout {
+      display: block;
+      padding-top: 12px;
+    }
+    .cv-section {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      margin: 24px 0;
+    }
+    .cv-section-header {
+      break-after: avoid;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .cv-section-content {
+      font-size: 10pt;
+      line-height: 1.5;
+    }
+    .cv-section-content :global(h3),
+    .cv-section-content :global(h4) {
+      break-after: avoid;
+    }
+    .cv-section-content :global(li) {
+      break-inside: avoid;
+    }
   }
 </style>

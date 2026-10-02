@@ -82,7 +82,7 @@ for file, doc in docs.items():
     require(types.get('Person', {}).get('@id') == SITE + '/#person', f'{label}: stable Person identity')
     require(types.get('Person', {}).get('image') == SITE + '/images/nim-dvir-cce.jpg', f'{label}: Person image is not a portrait')
     require(types.get('WebSite', {}).get('url') == SITE + '/', f'{label}: WebSite domain')
-    if label == 'about/index.html': require(types.get('ProfilePage', {}).get('mainEntity', {}).get('@id') == SITE + '/#person', 'About: ProfilePage mainEntity')
+    if label == 'cv/index.html': require(types.get('ProfilePage', {}).get('mainEntity', {}).get('@id') == SITE + '/#person', 'CV: ProfilePage mainEntity')
     parts = file.relative_to(ROOT).parts
     if len(parts) == 3 and parts[0] in ('projects', 'research', 'blog', 'publications'):
         crumbs = types.get('BreadcrumbList', {}).get('itemListElement', [])
@@ -91,7 +91,7 @@ for file, doc in docs.items():
     if parts[0] == 'blog' and len(parts) == 3:
         article = types.get('BlogPosting', {})
         require(article.get('url') == canonical and article.get('headline') in doc.title, f'{label}: blog article identity')
-        require(article.get('datePublished') and article.get('author', {}).get('url') == SITE + '/about/', f'{label}: article date/byline')
+        require(article.get('datePublished') and article.get('author', {}).get('url') == SITE + '/cv/', f'{label}: article date/byline')
     if parts[0] == 'publications':
         publications.append(label)
         for key in ('citation_title', 'citation_publication_date', 'citation_abstract_html_url'):

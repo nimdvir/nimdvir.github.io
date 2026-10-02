@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://nimdvir.com",
   base: "/",
+  redirects: { "/about/": "/cv/" },
   integrations: [
     sitemap({
       filter: (page) =>
