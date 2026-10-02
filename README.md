@@ -2,19 +2,22 @@
 
 An Astro portfolio for research, teaching, applied UX and AI projects, and journalism. Published with GitHub Pages at [nimdvir.github.io](https://nimdvir.github.io).
 
-## Review the October 2026 refresh
+## October 2026 website
 
-The refresh is on **`feat/responsive-portfolio-2026-10-01`**. Production stays on `main` until Nim reviews and merges it.
+The responsive refresh was published on October 1 through PR #34. Production is the `main` branch; new work uses feature branches and pull requests.
 
 - [Detailed execution report](reports/2026-10-01-website-refresh.md)
 - [Visual review screenshots](reports/2026-10-01/screenshots/)
 - [Legacy project migration inventory](migration/2026-10-01-project-inventory.md)
+- [Blog and news templates and publishing instructions](templates/README.md)
 
 ## Run locally
 
 ```bash
 git fetch origin
-git switch feat/responsive-portfolio-2026-10-01
+git switch main
+git pull --ff-only
+git switch -c feat/my-website-update
 npm ci
 npm run dev
 ```
@@ -38,6 +41,9 @@ Use the Node version compatible with the existing Astro dependencies. The GitHub
 | `src/content/research/` | Research descriptions; the verified public set is defined in `src/data/profile.ts` |
 | `src/content/publications/` | Publication, proceeding, dissertation, and preprint records |
 | `src/content/interviews/` | Existing interviews and source attribution |
+| `src/content/blog/` | Blog posts; only explicit `draft: false` entries dated today or earlier are built |
+| `src/content/news/` | Short announcements and full news pages, with the same draft/date rule |
+| `templates/` | Reusable blog, short-news, and full-news Markdown templates and authoring guide |
 | `src/data/profile.ts` | Shared CV URL and social/professional links |
 | `src/data/cv-public.md` | Public CV, based on September 16, 2026 source; excludes personal phone and referee contacts |
 | `public/styles/site.css` | Shared design tokens, themes, typography, components, and responsive layouts |
@@ -60,6 +66,10 @@ python scripts/build-public-cv.py
 ```
 
 The PDF generator uses ReportLab’s bundled fonts. Review the PDF after regeneration, then rebuild and verify the site.
+
+## Add a post or news update
+
+Copy a file from [templates](templates/README.md) into the appropriate content folder. Edit the title, date, summary, and body; keep `draft: true` until ready. Set `draft: false`, build, review, and publish through a pull request. The homepage shows the three latest published items of each type. Drafts are excluded from generated pages, but committed drafts remain visible in this public repository. Future dates require a rebuild on or after the date; there is no automatic publishing schedule.
 
 ## Publishing workflow
 

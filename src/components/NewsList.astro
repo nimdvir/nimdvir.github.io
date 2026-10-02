@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../utils/editorial";
+interface Props {
+  entries: CollectionEntry<"news">[];
+  headingLevel?: "h2" | "h3";
+}
+const { entries, headingLevel = "h3" } = Astro.props;
+const Heading = headingLevel;
+---
+
+<ul class="dated-list news-list">
+  {entries.map((entry) => {
+    const href = entry.data.inline ? entry.data.link : `/news/${entry.slug}/`;
+    return (
+      <li>
+        <time datetime={entry.data.date}>{formatDate(entry.data.date)}</time>
+        <div>
+          <Heading>
+            {href ? <a href={href}>{entry.data.title}</a> : entry.data.title}
+          </Heading>
+          <p>{entry.data.summary}</p>
+        </div>
+      </li>
+    );
+  })}
+</ul>

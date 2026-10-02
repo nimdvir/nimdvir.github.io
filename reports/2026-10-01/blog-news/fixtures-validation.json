@@ -1,0 +1,608 @@
+{
+  "fixtures": true,
+  "checks": [
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 768,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 960,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 961,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1024,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1150,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1180,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/design/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 768,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 960,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 961,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1024,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1150,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1180,
+      "theme": "dark"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/design/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "width": 1440,
+      "theme": "dark"
+    }
+  ],
+  "scans": [
+    {
+      "route": "/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/news/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/design/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/news/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/design/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/blog/qa-editorial-post-0/",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "route": "/news/qa-editorial-long/",
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

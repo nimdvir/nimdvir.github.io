@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NewsList from "../components/NewsList.astro";
+import { getNews } from "../utils/editorial";
+const news = await getNews();
+const years = [...new Set(news.map((entry) => entry.data.date.slice(0, 4)))];
+---
+
+<Layout
+  title="News"
+  description="Updates on Nim Dvir’s research, teaching, projects, and website."
+>
+  <header class="page-intro editorial-intro">
+    <p class="eyebrow">News / Short updates</p>
+    <h1>
+      What’s <span class="gradient-text">new.</span>
+    </h1>
+    <p class="lede">
+      Updates from research, the classroom, and projects in progress.
+    </p>
+    <nav class="editorial-nav" aria-label="Writing and updates">
+      <a href="/blog/">Blog</a>
+      <a href="/news/" aria-current="page">
+        News
+      </a>
+      <a href="/media/">Interviews</a>
+    </nav>
+  </header>
+  <div class="editorial-archive">
+    {years.map((year) => (
+      <section class="news-year" aria-labelledby={`year-${year}`}>
+        <h2 id={`year-${year}`}>{year}</h2>
+        <NewsList
+          entries={news.filter((entry) => entry.data.date.startsWith(year))}
+        />
+      </section>
+    ))}
+    {!news.length && (
+      <p class="editorial-empty">New updates will appear here.</p>
+    )}
+  </div>
+</Layout>

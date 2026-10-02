@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate, readingMinutes } from "../utils/editorial";
+interface Props {
+  entries: CollectionEntry<"blog">[];
+  headingLevel?: "h2" | "h3";
+  compact?: boolean;
+}
+const { entries, headingLevel = "h3", compact = false } = Astro.props;
+const Heading = headingLevel;
+---
+
+<ul class:list={["dated-list", "post-list", { "post-list-full": !compact }]}>
+  {entries.map((post) => (
+    <li>
+      <time datetime={post.data.date}>{formatDate(post.data.date)}</time>
+      <div>
+        <Heading>
+          <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+        </Heading>
+        {!compact && <p>{post.data.summary}</p>}
+        <p class="post-meta">
+          {readingMinutes(post.body)} min read
+          {post.data.category && ` · ${post.data.category}`}
+        </p>
+        {!compact && post.data.tags.length > 0 && (
+          <ul class="editorial-tags" aria-label="Topics">
+            {post.data.tags.map((tag) => (
+              <li>{tag}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </li>
+  ))}
+</ul>

@@ -1,5 +1,57 @@
 ---
-// Earlier essays contained study claims that are not supported by the current CV.
-// Preserve their source files for the owner, but do not publish them as evidence.
-export async function getStaticPaths() { return []; }
+import Layout from "../../layouts/Layout.astro";
+import RelatedPosts from "../../components/RelatedPosts.astro";
+import { getPosts, formatDate, readingMinutes } from "../../utils/editorial";
+export async function getStaticPaths() {
+  return (await getPosts()).map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+const { post } = Astro.props;
+const { Content } = await post.render();
 ---
+
+<Layout
+  title={post.data.title}
+  description={post.data.summary}
+  type="article"
+  image={post.data.image}
+>
+  <article class="editorial-article">
+    <header class="editorial-article-header">
+      <a class="back-link" href="/blog/">
+        ← All posts
+      </a>
+      <p class="eyebrow">
+        Blog{post.data.category && ` / ${post.data.category}`}
+      </p>
+      <h1>{post.data.title}</h1>
+      <p class="lede">{post.data.summary}</p>
+      <p class="post-meta">
+        By Nim Dvir ·{" "}
+        <time datetime={post.data.date}>{formatDate(post.data.date)}</time> ·{" "}
+        {readingMinutes(post.body)} min read
+      </p>
+      {post.data.tags.length > 0 && (
+        <ul class="editorial-tags" aria-label="Topics">
+          {post.data.tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+      )}
+    </header>
+    {post.data.image && (
+      <figure class="editorial-cover">
+        <img src={post.data.image} alt={post.data.imageAlt} />
+        {post.data.imageCaption && (
+          <figcaption>{post.data.imageCaption}</figcaption>
+        )}
+      </figure>
+    )}
+    <div class="prose">
+      <Content />
+    </div>
+    <RelatedPosts currentSlug={post.slug} />
+  </article>
+</Layout>
