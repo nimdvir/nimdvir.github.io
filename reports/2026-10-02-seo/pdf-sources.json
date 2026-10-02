@@ -1,0 +1,26 @@
+[
+  {
+    "path": "public/publications/ways-of-words/paper.pdf",
+    "source": "https://arxiv.org/pdf/2305.09798v1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "bytes": 827047,
+    "sha256": "21d97275741003bdea52049401922b5fd7f97c61e5239aba9f2d4ac547b43a52",
+    "unchanged": true
+  },
+  {
+    "path": "public/publications/words-that-stick/paper.pdf",
+    "source": "https://arxiv.org/pdf/2307.14511v1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "bytes": 303618,
+    "sha256": "ab883c4fed39100c9aa56f394fa8bdb7c268430f17d7c636e0b3b31604d72566",
+    "unchanged": true
+  },
+  {
+    "path": "public/publications/predictive-model-information-engagement/paper.pdf",
+    "source": "https://arxiv.org/pdf/2307.14500v1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "bytes": 681347,
+    "sha256": "a24a9711651d103de0964f52923a6a0f99cfd9696263a6da3b24eeebdfb54b3c",
+    "unchanged": true
+  }
+]

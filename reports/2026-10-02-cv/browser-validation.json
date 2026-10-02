@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "mode": "light"
+    },
+    {
+      "width": 320,
+      "mode": "dark"
+    },
+    {
+      "width": 390,
+      "mode": "light"
+    },
+    {
+      "width": 390,
+      "mode": "dark"
+    },
+    {
+      "width": 768,
+      "mode": "light"
+    },
+    {
+      "width": 768,
+      "mode": "dark"
+    },
+    {
+      "width": 1440,
+      "mode": "light"
+    },
+    {
+      "width": 1440,
+      "mode": "dark"
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "interactions": [
+    "Section jump clears header",
+    "CV navigation active",
+    "About redirects to CV in same tab",
+    "Homepage CV button uses same tab",
+    "PDF uses same tab",
+    "Print layout hides navigation and uses white background"
+  ]
+}

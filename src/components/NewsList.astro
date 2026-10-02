@@ -13,7 +13,7 @@ const Heading = headingLevel;
   {entries.map((entry) => {
     const href = entry.data.inline ? entry.data.link : `/news/${entry.slug}/`;
     return (
-      <li>
+      <li id={`news-${entry.slug}`}>
         <time datetime={entry.data.date}>{formatDate(entry.data.date)}</time>
         <div>
           <Heading>

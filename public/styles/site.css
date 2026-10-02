@@ -1604,3 +1604,30 @@ a {
   flex-wrap: wrap;
   gap: 8px;
 }
+
+/* Publication pages keep the original abstract next to its citation. */
+.publication-article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 36px 0 64px;
+}
+.publication-article h1 {
+  font-size: clamp(1.65rem, 3.2vw, 2.5rem);
+  line-height: 1.2;
+  margin: 24px 0 16px;
+}
+.publication-authors {
+  margin-bottom: 8px;
+}
+.publication-abstract {
+  margin-top: 24px;
+}
+.publication-article .prose {
+  max-width: none;
+}
+.publication-article .button-row {
+  margin: 24px 0;
+}
+.publication-article a {
+  overflow-wrap: anywhere;
+}

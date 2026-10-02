@@ -4,8 +4,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nimdvir.github.io",
+  site: "https://nimdvir.com",
   base: "/",
+  redirects: { "/about/": "/cv/" },
   integrations: [
     sitemap({
       filter: (page) =>

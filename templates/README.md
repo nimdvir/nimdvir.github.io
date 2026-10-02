@@ -1,4 +1,4 @@
-# Add a blog post or news update
+# Add a post, news update, or publication
 
 Choose a template, copy it to the appropriate content folder, and edit the copy.
 You do not need to change any layout, HTML, CSS, or JavaScript.
@@ -7,6 +7,7 @@ You do not need to change any layout, HTML, CSS, or JavaScript.
 | --- | --- | --- |
 | [blog-post.md](blog-post.md) | `src/content/blog/your-post-slug.md` | Full article at `/blog/your-post-slug/`, plus a listing and homepage entry |
 | [news-short.md](news-short.md) | `src/content/news/your-news-slug.md` | Brief dated announcement on the homepage and news archive; optional linked title |
+| [publication.md](publication.md) | `src/content/publications/your-paper-slug.md` | A paper page with its original abstract, citation, source links, and Scholar metadata |
 | [news-long.md](news-long.md) | `src/content/news/your-news-slug.md` | Full announcement at `/news/your-news-slug/`, plus a listing and homepage entry |
 
 ## Six steps
@@ -80,3 +81,35 @@ The site supplies the author name, formatted date, reading-time estimate, shared
 Use specific titles and facts. Write in your own voice, with contractions and the occasional aside. Avoid slogans, self-promotion, obligatory takeaways, and em dashes. The prompts in the templates are suggestions, not mandatory article headings.
 
 Internal links stay in the current tab. Links to other websites open in a new tab.
+
+## Publication records
+
+Use [publication.md](publication.md) for a paper, preprint, or dissertation. This
+has a different workflow from a blog post:
+
+1. Verify the exact title, author order, date, venue, and DOI against the source.
+2. Supply the complete author-written abstract and its source URL. Do not replace
+   it with an AI summary. The short `summary` field is only a page description.
+3. Add optional journal, volume, issue, pages, or dissertation institution fields
+   as applicable. Preprints use the date of the cited preprint, not an expected
+   journal publication date. `manuscriptStatus` keeps a dated review status separate.
+4. Set `workingPaper: true` to list the record under Working papers. Otherwise it
+   appears under Publications and dissertation.
+5. Set `pageReady: true` and `draft: false` after review. `draft: true` hides the
+   record from all generated pages. `pageReady: false` preserves an existing
+   bibliography entry without generating an unverified abstract page.
+6. If redistribution is permitted, copy the unchanged PDF under
+   `public/publications/your-paper-slug/paper.pdf`, and record `pdf`, `pdfSource`,
+   `license`, and `licenseUrl`. The build checks its location. External full text
+   can instead be linked using `pdfSource`; it does not receive `citation_pdf_url`.
+
+Do not rename a paper page once published. Add new papers by copying the template,
+not by replacing an existing research project page. Research project pages describe
+the broader work; publication pages identify a particular scholarly document.
+
+## RSS
+
+`/rss.xml` includes the same published blog and news entries as the website,
+newest first. Drafts and future-dated entries are excluded at build time. Short
+news items have stable anchors in `/news/`, so feed readers can open each update.
+The feed is linked from Blog and News and advertised in the shared page head.

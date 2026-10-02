@@ -30,8 +30,8 @@ The work used text analysis and predictive modeling to examine language patterns
 ## Dissertation and related papers
 
 - [Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information Engagement](https://www.proquest.com/docview/2753692156), University at Albany, 2022.
-- [The ways of words: The impact of word choice on information engagement and decision making](https://doi.org/10.48550/arXiv.2305.09798), preprint.
-- [Words that stick: Predicting decision making and synonym engagement using cognitive biases and computational linguistics](https://doi.org/10.48550/arXiv.2307.14511), preprint.
+- [The ways of words: The impact of word choice on information engagement and decision making](/publications/ways-of-words/), preprint.
+- [Words that stick: Predicting decision making and synonym engagement using cognitive biases and computational linguistics](/publications/words-that-stick/), preprint.
 
 ## Awards
 

@@ -1,29 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { getPublications } from "../utils/publications";
 import { verifiedResearch, cvUrl } from "../data/profile";
 const research = (await getCollection("research"))
   .filter((e) => verifiedResearch.includes(e.slug))
   .sort((a, b) => (a.data.sortOrder ?? 99) - (b.data.sortOrder ?? 99));
-const publications = (await getCollection("publications")).sort((a, b) =>
-  b.data.year.localeCompare(a.data.year),
+const allPublications = await getPublications();
+const publications = allPublications.filter(
+  (entry) => !entry.data.workingPaper,
+);
+const workingPapers = allPublications.filter(
+  (entry) => entry.data.workingPaper,
 );
 const manuscripts = [
-  [
-    "The ways of words: The impact of word choice on information engagement and decision making",
-    "Decision Support Systems · under review",
-    "https://doi.org/10.48550/arXiv.2305.09798",
-  ],
-  [
-    "Words that stick: Predicting decision making and synonym engagement using cognitive biases and computational linguistics",
-    "The Journal of Computational Creativity · under review",
-    "https://doi.org/10.48550/arXiv.2307.14511",
-  ],
-  [
-    "A predictive model of digital information engagement",
-    "Cognitive Computation · under review",
-    "https://doi.org/10.48550/arXiv.2307.14500",
-  ],
   [
     "Trust, credibility, or complexity? The effect of transparency in online marketing",
     "Journal of Interactive Marketing · under review",
@@ -43,7 +33,7 @@ const manuscripts = [
 ---
 
 <Layout
-  title="Research"
+  title="Research | Language and Information Engagement"
   description="Research by Nim Dvir on language, information engagement, digital learning, and decision-making."
 >
   <header class="page-intro">
@@ -98,7 +88,8 @@ const manuscripts = [
     <div>
       <h2>Publications and dissertation</h2>
       <p class="small">
-        Publication details and links are drawn from the September 2026 CV.
+        Publication details are drawn from the September 2026 CV and original
+        publication records.
       </p>
       <a
         class="text-link"
@@ -114,8 +105,15 @@ const manuscripts = [
             {p.data.year} · {p.data.type || "Publication"}
           </span>
           <h3>
-            {p.data.url ? (
-              <a href={p.data.url}>{p.data.title} ↗</a>
+            {p.data.pageReady || p.data.url ? (
+              <a
+                href={
+                  p.data.pageReady ? `/publications/${p.slug}/` : p.data.url
+                }
+              >
+                {p.data.title}
+                {!p.data.pageReady && " ↗"}
+              </a>
             ) : (
               p.data.title
             )}
@@ -131,10 +129,25 @@ const manuscripts = [
     <div>
       <h2>Working papers</h2>
       <p class="small">
-        Status as of September 16, 2026. Links lead to the available preprints.
+        Manuscript status is from the September 2026 CV. Paper pages show the
+        date and authors of the linked preprint.
       </p>
     </div>
     <ul class="reading-list">
+      {workingPapers.map((paper) => (
+        <li>
+          <span class="status-label">
+            {paper.data.year} · {paper.data.type}
+          </span>
+          <h3>
+            <a href={`/publications/${paper.slug}/`}>{paper.data.title}</a>
+          </h3>
+          <p>{paper.data.authors.join(", ")}</p>
+          {paper.data.manuscriptStatus && (
+            <p class="small">{paper.data.manuscriptStatus}</p>
+          )}
+        </li>
+      ))}
       {manuscripts.map(([title, status, url]) => (
         <li>
           <span class="status-label">{status}</span>

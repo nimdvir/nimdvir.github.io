@@ -1,6 +1,12 @@
 # Nim Dvir’s personal website
 
-An Astro portfolio for research, teaching, applied UX and AI projects, and journalism. Published with GitHub Pages at [nimdvir.github.io](https://nimdvir.github.io).
+An Astro portfolio for research, teaching, applied UX and AI projects, and journalism. Hosted with GitHub Pages, with [nimdvir.com](https://nimdvir.com) as the canonical domain.
+
+## Domain and discoverability
+
+The October 2 update sets domain metadata, adds four sourced publication pages and a publication template, and supplies an RSS feed. [Changes, verification, and publication checks](reports/2026-10-02-domain-discoverability.md).
+
+The About page is now a [complete designed CV](https://nimdvir.com/cv/), with section navigation and a PDF download. [CV changes and verification](reports/2026-10-02-designed-cv.md).
 
 ## October 2026 website
 
@@ -29,6 +35,7 @@ Open the local URL printed by Astro. For a production build:
 ```bash
 npm run build
 python scripts/verify_site.py
+python scripts/verify_seo.py
 npm run preview
 ```
 
@@ -45,7 +52,7 @@ Use the Node version compatible with the existing Astro dependencies. The GitHub
 | `src/content/interviews/` | Existing interviews and source attribution |
 | `src/content/blog/` | Blog posts; only explicit `draft: false` entries dated today or earlier are built |
 | `src/content/news/` | Short announcements and full news pages, with the same draft/date rule |
-| `templates/` | Reusable blog, short-news, and full-news Markdown templates and authoring guide |
+| `templates/` | Reusable publication, blog, short-news, and full-news Markdown templates and authoring guide |
 | `src/data/profile.ts` | Shared CV URL and social/professional links |
 | `src/data/cv-public.md` | Public CV, based on September 16, 2026 source; excludes personal phone and referee contacts |
 | `public/styles/site.css` | Shared design tokens, themes, typography, components, and responsive layouts |

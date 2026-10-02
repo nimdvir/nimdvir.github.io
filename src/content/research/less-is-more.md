@@ -27,4 +27,4 @@ In these experiments, more content was associated with lower engagement. The res
 
 ## Paper
 
-Dvir, N., & Gafni, R. (2018). [When less is more: Consumer behavior and information sharing on landing pages](https://doi.org/10.28945/4015). *Informing Science*.
+Dvir, N., & Gafni, R. (2018). [When Less Is More: Empirical Study of the Relation Between Consumer Behavior and Information Provision on Commercial Landing Pages](/publications/when-less-is-more/). *Informing Science*.
