@@ -1,9 +1,8 @@
 ---
 title: "Nasher Sculpture Center"
-summary: "Content strategy and interaction design to support museum visits, membership, and digital engagement."
+summary: "A student website and content proposal covering visits, membership, and events."
 category: "Content Strategy"
 role: "Student UX and content-strategy advising"
-outcome: "A content strategy plan and redesigned website prototype."
 tags: ["Content Strategy"]
 sortOrder: 4
 featured: false
@@ -11,20 +10,18 @@ externalUrl: "https://www.nimdvir.com/portfolio/projects/nasher-sculpture-center
 image: "/images/nasher-sculpture-center.png"
 ---
 
-## The challenge
+## Context and my role
 
-The Nasher Sculpture Center in Dallas sought a stronger online experience that would encourage visitors, members, and private-event inquiries.
+I advised student UX and content-strategy work on the Nasher Sculpture Center’s website. The project considered information for visitors, members, and people arranging private events.
 
-## Approach
+## Work completed
 
-The project combined a digital content audit, user research, search-engine optimization recommendations, and interaction design. A particular focus was making online membership purchasing easier to understand and complete.
+The team conducted a content audit and user research, then prepared recommendations for search visibility and website interactions. One focus was the process of purchasing membership online.
 
-## Design contribution
+## Proposal
 
-The team developed a website prototype and content strategy plan intended to connect digital engagement with museum visits, loyalty, membership, and event reservations.
+The project materials include a content strategy plan and a website prototype.
 
 ## Original project materials
 
 - [Content strategy plan (PDF)](https://drive.google.com/open?id=1k-ZKhkdw9rHS-YYknF84lrh6l5Kvyolx)
-
-These are the original materials linked from the legacy portfolio.

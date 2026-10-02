@@ -1,31 +1,30 @@
 ---
 image: "/images/projects/trackimo-05.webp"
 title: "Trackimo"
-summary: "Research on GPS tracker usage, customer attitudes, and market communication."
+summary: "A 2015 study of GPS-tracker use, customer attitudes, and product messaging."
 category: "UX Research"
 role: "Mixed-method market and user research"
-outcome: "A market study connecting real-world use cases with communication opportunities."
 tags: ["UX Research"]
 sortOrder: 11
 featured: false
 externalUrl: "https://www.nimdvir.com/portfolio/projects/trackimo"
 ---
 
-## The challenge
+## Research question
 
-Trackimo’s research brief focused on user attitudes and product usage to inform advertising, marketing messages, and distributor communications. The question was how retail messaging could better reflect the reasons people use a GPS tracker.
+The study examined why people use GPS trackers and how those uses could inform product descriptions, advertising, and distributor communication.
 
-## Evidence sources
+## Methods
 
-The study combined qualitative and quantitative analysis of online reviews and forum commentary with a survey of the Amazon Mechanical Turk community. Reviews covered Trackimo and competing devices, including discussion in a competitor’s public support forum.
+The research combined analysis of online reviews and forum discussions with a survey recruited through Amazon Mechanical Turk. Reviews covered Trackimo and competing devices.
 
-## Interpreting the evidence
+## Findings and limitations
 
-The survey was not restricted to product owners, so preferred uses reported by respondents were distinguished from observed owner experiences. This limitation matters when translating market interest into conclusions about actual use.
+The report identifies use cases and possible customer groups. Survey participants were not limited to product owners, so their preferred uses were considered separately from owners’ reported experiences.
 
-## Deliverable
+## Report
 
-The original portfolio includes the 2015 market study and research visuals. The work informed potential customer segments, use cases, and messaging priorities.
+The original market study and supporting visuals are available below.
 
 ## Project visuals
 
@@ -36,5 +35,3 @@ The original portfolio includes the 2015 market study and research visuals. The 
 ## Original project materials
 
 - [Trackimo-market-study-2015 (PDF)](https://drive.google.com/open?id=1_fauJXJbRh8MHiEM-cixRwMOYKh4jOHE)
-
-These are the original materials linked from the legacy portfolio.

@@ -6,18 +6,9 @@ const news = await getNews();
 const years = [...new Set(news.map((entry) => entry.data.date.slice(0, 4)))];
 ---
 
-<Layout
-  title="News"
-  description="Updates on Nim Dvir’s research, teaching, projects, and website."
->
+<Layout title="News" description="Dated updates from Nim Dvir.">
   <header class="page-intro editorial-intro">
-    <p class="eyebrow">News / Short updates</p>
-    <h1>
-      What’s <span class="gradient-text">new.</span>
-    </h1>
-    <p class="lede">
-      Updates from research, the classroom, and projects in progress.
-    </p>
+    <h1>News</h1>
     <nav class="editorial-nav" aria-label="Writing and updates">
       <a href="/blog/">Blog</a>
       <a href="/news/" aria-current="page">
@@ -35,8 +26,6 @@ const years = [...new Set(news.map((entry) => entry.data.date.slice(0, 4)))];
         />
       </section>
     ))}
-    {!news.length && (
-      <p class="editorial-empty">New updates will appear here.</p>
-    )}
+    {!news.length && <p class="editorial-empty">No news yet.</p>}
   </div>
 </Layout>

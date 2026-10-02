@@ -81,106 +81,23 @@ const undergraduate = [
 
 <Layout
   title="Teaching"
-  description="Applied teaching in databases, SQL, Python, business analytics, information systems, digital citizenship, and responsible AI at UAlbany and beyond."
+  description="Courses, assignments, courseware, and workshops taught or developed by Nim Dvir."
 >
   <header class="page-intro">
-    <p class="eyebrow">Teaching / Learning by doing</p>
-    <h1>
-      Make it clear.
-      <br />
-      <span class="gradient-text">Make it useful.</span>
-    </h1>
+    <h1>Teaching</h1>
     <p class="lede">
-      I help students connect technical skills to meaningful questions in
-      business and society, from their first SQL query to a complete product
-      research project.
+      I teach undergraduate and graduate courses in information systems,
+      business analytics, databases, and programming. I also advise student
+      research and design projects.
     </p>
   </header>
-  <section class="evidence-row" aria-label="Teaching experience">
-    <div class="evidence">
-      <strong>12</strong>
-      <span>Semesters teaching BITM 330 through Fall 2026</span>
-    </div>
-    <div class="evidence">
-      <strong>~600</strong>
-      <span>Undergraduates per year in BITM 330</span>
-    </div>
-    <div class="evidence">
-      <strong>4</strong>
-      <span>
-        Institutions, spanning undergraduate, graduate, and online teaching
-      </span>
-    </div>
-  </section>
-  <section class="section" style="border-top:0">
-    <div class="feature-panel">
-      <div>
-        <p class="eyebrow">Interactive courseware</p>
-        <h2>Using Data to Drive Business Performance</h2>
-        <p>
-          My textbook and companion courseware connect databases, SQL,
-          analytics, and business intelligence with practical decision-making.
-          Interactive exercises, quizzes, and applied examples support both
-          classroom and online learning.
-        </p>
-        <div class="button-row">
-          <a
-            class="button button-primary"
-            href="https://database-textbook.dimapublishing.com/"
-          >
-            Explore the courseware ↗
-          </a>
-        </div>
-      </div>
-      <div>
-        <p class="eyebrow">Building for online learning</p>
-        <h3>Flexible delivery. Purposeful practice.</h3>
-        <p>
-          I lead development of the fully asynchronous BITM 330 for UAlbany’s
-          Online BSBA program, aligned with AACSB Assurance of Learning
-          standards and CATLOE instructional design practices.
-        </p>
-        <p>
-          My teaching incorporates AI-assisted coding, LLM evaluation, and
-          assignments that ask students to explain and assess their results.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="split-section">
-    <div>
-      <p class="eyebrow">Teaching approach</p>
-      <h2>
-        Build skills.
-        <br />
-        Build judgment.
-      </h2>
-    </div>
-    <div class="prose">
-      <p>
-        I use applied projects to make technical material approachable. Students
-        work through databases, analytics, and digital product questions with an
-        emphasis on both the process and the reasoning behind their decisions.
-      </p>
-      <p>
-        In the Business Analytics Practicum and graduate Field Study, student
-        teams work on real organizational problems. Their work connects
-        research, analysis, prototypes, and communication with stakeholders.
-      </p>
-      <p>
-        <span class="marker">
-          Knowing how to use a tool is a beginning. Knowing when to trust the
-          result is the real lesson.
-        </span>
-      </p>
-      <a class="text-link" href="/projects/">
-        Explore advised projects ↗
-      </a>
-    </div>
-  </section>
-  <section class="section">
-    <p class="eyebrow">Course portfolio</p>
-    <h2>Graduate and MBA courses.</h2>
+  <section class="section" style="border-top:0;padding-top:0">
+    <h2>Courses</h2>
+    <p>
+      My current teaching includes BITM 330 and Digital Citizenship. The lists
+      below include earlier courses and course development, with dates for each.
+    </p>
+    <h3>Graduate and MBA</h3>
     <ul class="course-list">
       {graduate.map(([code, title, context]) => (
         <li>
@@ -190,51 +107,104 @@ const undergraduate = [
         </li>
       ))}
     </ul>
-  </section>
-  <section class="section">
-    <h2>Undergraduate courses.</h2>
+    <h3>Undergraduate</h3>
     <ul class="course-list">
       {undergraduate.map(([code, title, context]) => (
         <li>
-          <p class="status-label">{code || "Database studies"}</p>
+          {code && <p class="status-label">{code}</p>}
           <strong>{title}</strong>
           <span>{context}</span>
         </li>
       ))}
     </ul>
+    <a href={cvUrl}>Full teaching history</a>
   </section>
-  <section class="section">
-    <div class="grid-2">
-      <div>
-        <p class="eyebrow">Faculty development</p>
-        <h2>
-          From prompting
-          <br />
-          to workflows.
-        </h2>
-        <p class="lede">
-          My CCE 2026 session shares practical ways to use AI agents in academic
-          work, including working with files, building websites, and reviewing
-          changes.
-        </p>
-        <a class="text-link" href="https://nimdvir.github.io/cce-2026/">
-          Explore the session and examples ↗
+  <section class="section" id="courseware">
+    <h2>Textbook and courseware</h2>
+    <div class="prose">
+      <h3>Using Data to Drive Business Performance</h3>
+      <p>
+        I’m writing a textbook on databases, SQL, business analytics, and
+        information systems. The companion website includes explanations,
+        exercises, and quizzes used in BITM 330.
+      </p>
+      <p class="small">
+        The manuscript is under review with Cengage Learning, as reported in my
+        September 2026 CV.
+      </p>
+      <a class="button" href="https://database-textbook.dimapublishing.com/">
+        Open courseware ↗
+      </a>
+    </div>
+  </section>
+  <section class="split-section">
+    <h2>Assignments and student projects</h2>
+    <div class="prose">
+      <p>
+        Students work on database queries, data analysis, user research, and
+        prototypes. In the Business Analytics Practicum and graduate Field
+        Study, teams work on questions from organizations and present their
+        research and recommendations.
+      </p>
+      <p>
+        The portfolio includes student projects I advised, including{" "}
+        <a href="/projects/costco-mobile-app/">a shopping-app concept</a>,{" "}
+        <a href="/projects/dexcom-g7-plus/">research on a diabetes app</a>, and{" "}
+        <a href="/projects/barrier-free-living/">
+          content recommendations for a nonprofit
         </a>
-      </div>
-      <div class="plain-card">
-        <h3>Teaching, workshops, and collaboration</h3>
-        <p>
-          I welcome conversations about information systems education, AI
-          literacy, digital courseware, and practical academic workflows.
-        </p>
-        <div class="button-row">
-          <a class="button button-primary" href="/contact/">
-            Get in touch ↗
-          </a>
-          <a class="button" href={cvUrl}>
-            Full teaching history ↗
-          </a>
-        </div>
+        .
+      </p>
+      <a class="text-link" href="/projects/">
+        View projects
+      </a>
+    </div>
+  </section>
+  <section class="split-section">
+    <h2>Online teaching</h2>
+    <div class="prose">
+      <p>
+        I’m developing the fully asynchronous BITM 330 course for UAlbany’s
+        Online BSBA program. I’ve also taught BITM 522 and Digital Citizenship
+        online.
+      </p>
+    </div>
+  </section>
+  <section class="split-section">
+    <h2>AI in coursework</h2>
+    <div class="prose">
+      <p>
+        My assignments include AI-assisted coding and evaluation of model
+        outputs. Students are asked to explain their approach and assess the
+        results they submit.
+      </p>
+      <p>
+        I’m also preparing{" "}
+        <a href="/research/ai-pedagogy/">research on AI and student learning</a>
+        , including AI-assisted summarization and academic advising.
+      </p>
+    </div>
+  </section>
+  <section class="split-section">
+    <h2>Workshops</h2>
+    <div class="prose">
+      <h3>AI Agents in VS Code for Academic Work</h3>
+      <p class="small">
+        Cengage Computing Experience · October 21–23, 2026 · Fort Lauderdale,
+        Florida
+      </p>
+      <p>
+        This session covers files, project instructions, prompts, and using AI
+        agents for academic work. The examples include building websites and
+        reviewing changes.
+      </p>
+      <div class="button-row">
+        <a class="button" href="https://nimdvir.github.io/cce-2026/">
+          Session materials ↗
+        </a>
+        <a class="button" href="https://github.com/nimdvir/cce-2026">
+          GitHub repository ↗
+        </a>
       </div>
     </div>
   </section>

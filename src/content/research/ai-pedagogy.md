@@ -1,11 +1,11 @@
 ---
-title: 'AI Pedagogy'
+title: "AI in Teaching and Learning"
 year: '2026'
 subtitle: 'Current research expansion'
 category: 'Teaching and Learning'
-status: 'Research in preparation'
+status: "Research in preparation"
 tags: ['AI Literacy', 'Teaching', 'Digital Citizenship']
-summary: 'An emerging line of research on how students learn to use AI tools responsibly, critically, and effectively in technical and professional education.'
+summary: "Studies in preparation on AI-assisted coursework, academic advising, and student learning."
 image: '/images/about/ualbany-campus-west.webp'
 featured: false
 sortOrder: 6
@@ -13,14 +13,14 @@ researchAreas: ['AI literacy', 'Curriculum design', 'Responsible use']
 methods: ['Course design', 'Classroom observation', 'Student feedback analysis']
 ---
 
-## Research focus
+## Research questions
 
-AI Pedagogy explores how students can move beyond passive tool use toward deliberate, critical engagement with AI systems. The work draws from classroom practice, digital citizenship, and applied design education.
+How does AI-assisted summarization affect student learning? How might AI tools be used in academic advising? These questions are part of research I’m preparing alongside my teaching.
 
-## Why it matters
+## Current stage
 
-Students now encounter AI in nearly every knowledge workflow. This research investigates how to teach evaluation, responsible use, and collaborative human-AI practice without reducing learning to automation.
+The studies listed in my September 2026 CV cover ChatGPT-assisted summarization, AI-enabled academic advising, information technology and product design teaching in MBA programs, and engagement in large STEM courses. They are in preparation; this page does not report findings.
 
-## Current directions
+## Related teaching
 
-The September 2026 CV identifies studies in preparation on ChatGPT-assisted summarization and student learning outcomes, AI-enabled academic advising, IT and product design teaching in MBA programs, and student engagement in large STEM courses.
+The [Teaching page](/teaching/#courseware) links to my courseware and describes the assignments and courses informing this work.

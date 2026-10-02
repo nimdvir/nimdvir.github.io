@@ -1,9 +1,8 @@
 ---
 title: "Facebook Content Strategy"
-summary: "Research into how people discover, consume, and engage with content on Facebook."
+summary: "Research into how people find and use content on Facebook, with recommendations and mockups."
 category: "Content Strategy"
 role: "UX research and concept development"
-outcome: "Content strategy recommendations and interface mockups."
 tags: ["Content Strategy"]
 sortOrder: 10
 featured: false
@@ -11,17 +10,13 @@ externalUrl: "https://www.nimdvir.com/portfolio/projects/facebook"
 image: "/images/facebook.jpg"
 ---
 
-## The question
+## Research question
 
-How could the content experience better reflect users’ preferences, behaviors, and expectations? The project examined content discovery, consumption, engagement, and the influence of content algorithms.
+The project examined how people discover and use content on Facebook, including their preferences and expectations of the content feed.
 
-## Research approach
+## Work completed
 
-The work combined user interviews, surveys, and data analysis to identify content-strategy opportunities.
-
-## Deliverables
-
-The original portfolio includes mockup screenshots and a project slide deck. The contribution is a research-informed set of content and UX recommendations.
+User interviews, surveys, and data analysis informed a set of content and interface recommendations. The archive includes mockups and the research presentation.
 
 ## Project visuals
 
@@ -30,5 +25,3 @@ The original portfolio includes mockup screenshots and a project slide deck. The
 ## Original project materials
 
 - [Nim Dvir - Consumer Content Strategy (PDF)](https://drive.google.com/open?id=1j1dw_8Y6armb3gQB43AkHxxIJeiSPOFj)
-
-These are the original materials linked from the legacy portfolio.

@@ -8,7 +8,7 @@ inline: false
 # link: "https://example.org/replace-this-link"
 ---
 
-Explain the announcement: what happened, when, who was involved, and why it matters.
+Explain what happened, when, and who was involved.
 Only include confirmed details.
 
 ## Details
@@ -16,7 +16,7 @@ Only include confirmed details.
 Add the context readers need. Credit collaborators and link to the paper, event,
 project, or official announcement where relevant.
 
-## Learn more
+## Related link
 
-Replace this paragraph with a useful next step or link. Remove this heading if the
+Replace this paragraph with a link to the paper, event, or project. Remove this heading if the
 optional related link above is sufficient.

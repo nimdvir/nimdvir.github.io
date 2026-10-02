@@ -1,9 +1,8 @@
 ---
 title: "Fieldstones"
-summary: "Website and content recommendations for a Northern Hudson Valley hospitality destination."
+summary: "Research and recommendations for a hospitality website in the Northern Hudson Valley."
 category: "Content Strategy"
 role: "UX research and content strategy"
-outcome: "Recommendations for information architecture, accommodation content, search, and social channels."
 tags: ["Content Strategy"]
 sortOrder: 6
 featured: false
@@ -11,21 +10,19 @@ externalUrl: "https://www.nimdvir.com/portfolio/projects/fieldstones"
 image: "/images/fieldstones.png"
 ---
 
-## The challenge
+## Context
 
-The project identified missing content, confusing information architecture, weak distribution channels, and search visibility issues in Fieldstones’ digital presence.
+The project examined the Fieldstones website, including how visitors found information about accommodation, location, and events.
 
-## Research approach
+## Work completed
 
-User interviews, usability testing, and data analysis informed recommendations for the website and content marketing.
+User interviews, usability testing, and data analysis informed the content and website recommendations.
 
 ## Recommendations
 
-The plan called for clearer accommodation information, including Wi-Fi, location, breakfast, and reviews. It also addressed SEO, website structure, content types, audience understanding, and social media communication. The aim was to help visitors decide whether Fieldstones suited their getaway or event.
+The proposal called for clearer information about Wi-Fi, breakfast, location, and reviews. It also covered website structure, search visibility, and social-media content.
 
 ## Original project materials
 
 - [Fieldstone-Final (PDF)](https://drive.google.com/open?id=1kMQWij20Ytf-NhBo7YfXWSA14y3eTQvX)
 - [Content strategy research (PDF)](https://drive.google.com/open?id=1kOiJdR2WAm00FEWb8qwP971b8wZxP4m_)
-
-These are the original materials linked from the legacy portfolio.

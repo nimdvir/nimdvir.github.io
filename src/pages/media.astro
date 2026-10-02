@@ -24,25 +24,20 @@ const additional = [
 ---
 
 <Layout
-  title="Media & Interviews"
-  description="Journalism, interviews, and media appearances by Nim Dvir, including conversations on culture, design, and society."
+  title="Journalism and interviews"
+  description="Interviews, articles, and television appearances from Nim Dvir’s work as a journalist and editor."
 >
   <header class="page-intro">
-    <p class="eyebrow">Media / Conversations</p>
-    <h1>
-      Listening closely.
-      <br />
-      <span class="gradient-text">Telling the story.</span>
-    </h1>
+    <h1>Journalism and interviews</h1>
     <p class="lede">
-      Before academia, I worked as an editor and journalist in Israel and New
-      York. Interviewing people, understanding context, and translating complex
-      ideas remain central to my work.
+      I worked as a journalist and editor in Israel and New York before moving
+      into academia. This page collects interviews, articles, and television
+      appearances from that period.
     </p>
   </header>
   <section class="section" style="border-top:0">
     <div class="section-head">
-      <h2>Selected interviews.</h2>
+      <h2>Interviews</h2>
     </div>
     <div class="grid-3">
       {interviews.map((i) => (
@@ -70,9 +65,12 @@ const additional = [
                 {i.data.interviewee || i.data.title}
               </a>
             </h3>
+            <p>
+              <em>{i.data.title}</em>
+            </p>
             <p>{i.data.summary}</p>
             <a class="text-link" href={`/interviews/${i.slug}/`}>
-              Read the interview ↗
+              Read interview
             </a>
           </div>
         </article>
@@ -81,8 +79,7 @@ const additional = [
   </section>
   <section class="split-section">
     <div>
-      <p class="eyebrow">From the archive</p>
-      <h2>More conversations.</h2>
+      <h2>Other articles and interviews</h2>
     </div>
     <ul class="reading-list">
       {additional.map(([name, description, url]) => (
@@ -96,7 +93,7 @@ const additional = [
     </ul>
   </section>
   <section class="section">
-    <h2>On camera.</h2>
+    <h2>Television</h2>
     <div class="grid-2">
       <article>
         <div class="video-embed">
@@ -130,14 +127,4 @@ const additional = [
       </article>
     </div>
   </section>
-  <aside class="highlight-panel">
-    <h2>For speaking and media inquiries</h2>
-    <p>
-      UX, human-centered AI, information engagement, and technology in
-      education.
-    </p>
-    <a class="text-link" href="/contact/">
-      Contact Nim ↗
-    </a>
-  </aside>
 </Layout>

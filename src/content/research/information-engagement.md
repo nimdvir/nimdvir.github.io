@@ -3,9 +3,9 @@ title: 'Information Engagement'
 year: '2020'
 subtitle: 'Computers and Society'
 category: 'Information Behavior'
-status: 'foundational framework'
+status: "Published framework"
 tags: ['Information Behavior', 'User Engagement', 'HCI']
-summary: 'Foundational research integrating information behavior and user engagement to explain how people encounter, interpret, and act on information systems.'
+summary: "A framework for studying how people encounter, interpret, and respond to information."
 image: '/images/about/ualbany-campus-east.webp'
 featured: true
 sortOrder: 3
@@ -13,14 +13,15 @@ researchAreas: ['Information behavior', 'User engagement', 'Digital content']
 methods: ['Conceptual synthesis', 'Interdisciplinary review', 'Applied UX translation']
 ---
 
-## Project description
+## Research question
 
-Information Engagement provides the conceptual backbone for much of the applied and experimental work across the research portfolio. It asks what engagement means when users interact with information rather than with products in the abstract.
+What does engagement mean when the object of attention is information? This work examines the relationship between information behavior and user engagement.
 
-## Core contribution
+## Approach
 
-The project brings together information behavior, HCI, and user engagement scholarship into a more unified understanding of how people search, process, evaluate, and respond to digital content.
+The framework brings together research on how people seek and use information with research on their involvement in interactions with technology. It considers the process of encountering, evaluating, and responding to content.
 
-## Why it matters
+## Papers
 
-By treating engagement as an information-centered process, the framework supports more precise research questions and more actionable design decisions across education, public service, commerce, and media.
+- Dvir, N. (2020). [Process of information engagement: Integrating information behavior and user engagement](https://doi.org/10.1002/pra2.407). *Proceedings of ASIS&T, 57*(1).
+- Dvir, N. (2018). [What is user engagement? Interdisciplinary perspective on interactions with IT](https://doi.org/10.13140/RG.2.2.26789.81122).

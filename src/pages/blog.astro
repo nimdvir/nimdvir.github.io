@@ -7,16 +7,10 @@ const posts = await getPosts();
 
 <Layout
   title="Blog"
-  description="Writing on research, teaching, UX, AI, and building useful things by Nim Dvir."
+  description="Posts by Nim Dvir on research, teaching, and projects."
 >
   <header class="page-intro editorial-intro">
-    <p class="eyebrow">Blog / Longer reads</p>
-    <h1>
-      Ideas, <span class="gradient-text">in progress.</span>
-    </h1>
-    <p class="lede">
-      Research, teaching, and the work of making technology useful.
-    </p>
+    <h1>Blog</h1>
     <nav class="editorial-nav" aria-label="Writing and updates">
       <a href="/blog/" aria-current="page">
         Blog
@@ -30,10 +24,10 @@ const posts = await getPosts();
       <PostList entries={posts} headingLevel="h2" />
     ) : (
       <div class="editorial-empty">
-        <h2>New posts will appear here.</h2>
-        <p>In the meantime, explore my published interviews and journalism.</p>
+        <h2>No posts yet.</h2>
+        <p>My published interviews are in the journalism archive.</p>
         <a class="text-link" href="/media/">
-          Read the interviews ↗
+          Read interviews
         </a>
       </div>
     )}

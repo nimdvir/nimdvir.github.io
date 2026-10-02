@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
 
-const { currentSlug, heading = "More Interviews" } = Astro.props;
+const { currentSlug, heading = "Other interviews" } = Astro.props;
 
 const interviews = await getCollection("interviews");
 const related = interviews.filter(
@@ -16,7 +16,7 @@ const related = interviews.filter(
   <div class="related-head">
     <h2>{heading}</h2>
     <a class="browse" href={withBase("/media")}>
-      Browse all <i class="fas fa-arrow-right"></i>
+      All interviews <i class="fas fa-arrow-right"></i>
     </a>
   </div>
   <div class="related-grid" id="related-grid">

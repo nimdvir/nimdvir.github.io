@@ -344,6 +344,9 @@ main:focus {
   margin-left: auto;
 }
 .primary-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.85rem;
   font-weight: 550;
   text-decoration: none;
@@ -493,6 +496,16 @@ main:focus {
   letter-spacing: -0.055em;
   line-height: 1.04;
 }
+.home-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+.home-position {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
 .home-hero .intro {
   font-size: 1.1rem;
   color: var(--muted);
@@ -501,30 +514,6 @@ main:focus {
 .home-hero .intro strong {
   color: var(--text);
   font-weight: 600;
-}
-.typing-line {
-  font-family: var(--mono);
-  font-size: clamp(0.82rem, 1.35vw, 1rem);
-  color: var(--teal);
-  min-height: 1.7em;
-  margin: 0 0 20px;
-}
-.typing-line::before {
-  content: "> ";
-  color: var(--violet);
-}
-[data-typewriter]::after {
-  content: "▏";
-  color: var(--violet);
-  animation: caret 0.7s steps(1) 5;
-}
-.typing-complete::after {
-  visibility: hidden;
-}
-@keyframes caret {
-  50% {
-    opacity: 0;
-  }
 }
 .portrait-wrap {
   position: relative;
@@ -913,6 +902,9 @@ main:focus {
   padding: 40px 0 48px;
   border-bottom: 1px solid var(--border);
 }
+.home-updates > section:only-child {
+  grid-column: 1 / -1;
+}
 .home-updates > section {
   min-width: 0;
 }
@@ -1094,7 +1086,7 @@ main:focus {
 .more-posts h2 {
   font-size: 1.5rem;
 }
-@media (min-width: 961px) and (max-width: 1150px) {
+@media (min-width: 1101px) and (max-width: 1150px) {
   .nav-inner {
     gap: 18px;
   }
@@ -1327,12 +1319,12 @@ pre code {
   border-radius: 24px;
   margin-bottom: 24px;
 }
-@media (min-width: 961px) {
+@media (min-width: 1101px) {
   .primary-nav {
     display: flex !important;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .nav-inner {
     flex-wrap: wrap;
     gap: 12px;
@@ -1398,6 +1390,9 @@ pre code {
     display: none !important;
   }
   .primary-nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 10px;
   }
   .home-hero {

@@ -6,7 +6,7 @@
 - Let specific facts describe Nim's work. Avoid slogans, self-promotion, grand claims, and sales language.
 - Write naturally, with contractions and occasional dry humor when it fits. Do not invent anecdotes or force jokes into every page.
 - Preserve attribution, research status, and the distinction between Nim's work and student work he advised.
-- The site-wide copy revision is still being reviewed. Do not implement an outline without Nim's approval.
+- Nim approved the revised content outline and publication on October 2, 2026. Future substantial copy revisions should follow the same review process.
 
 ## Navigation
 

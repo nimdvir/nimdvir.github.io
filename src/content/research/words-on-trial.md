@@ -3,23 +3,21 @@ title: 'Words on Trial'
 year: '2024–present'
 subtitle: 'Language, Participation, and Engagement in Mental Health Treatment Courts'
 category: 'Language and behavioral design'
-status: 'Funded research in progress'
-summary: 'Research with Nevada’s Eighth Judicial District Court on legal language, comprehension, and engagement in mental health treatment courts.'
+status: "Research in progress"
+summary: "Research on legal language and participant understanding in mental health treatment courts."
 tags: ['NLP', 'Legal language', 'Behavioral design']
 image: '/images/research/sticky-words-variant-1.webp'
 sortOrder: 4
 ---
 
-## Language, participation, and engagement
+## Research question
 
-This interdisciplinary collaboration with Nevada’s Eighth Judicial District Court examines how the framing of legal language influences participant comprehension, compliance, and engagement in mental health diversion courts.
+How does the framing of legal language relate to participant comprehension, compliance, and engagement in mental health treatment courts?
 
-## Approach
+## Methods and current stage
 
-The research combines behavioral design, natural language processing, and applied predictive modeling. It connects the broader question of information engagement to the language people encounter in court processes.
+This ongoing project combines language analysis, behavioral research, and predictive modeling. Results are not yet reported here.
 
-## Research support
+## Collaboration and funding
 
-The project received a **Faculty Research Award Program, Category B (FRAP-B)** award of **$3,242** from the University at Albany in Spring 2026.
-
-This is ongoing research. Findings and outcome estimates have not been added to this page.
+The project is a collaboration with Nevada’s Eighth Judicial District Court. It received a University at Albany Faculty Research Award Program, Category B (FRAP-B) award of **$3,242** in Spring 2026.
