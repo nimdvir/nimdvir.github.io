@@ -1,40 +1,41 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { getCollection } from "astro:content";
-const interviews = await getCollection("interviews");
+import PostList from "../components/PostList.astro";
+import { getPosts } from "../utils/editorial";
+const posts = await getPosts();
 ---
 
 <Layout
-  title="Writing"
-  description="Selected journalism and interviews by Nim Dvir."
+  title="Blog"
+  description="Writing on research, teaching, UX, AI, and building useful things by Nim Dvir."
 >
-  <header class="page-intro">
-    <p class="eyebrow">Writing / Selected journalism</p>
+  <header class="page-intro editorial-intro">
+    <p class="eyebrow">Blog / Longer reads</p>
     <h1>
-      Questions that
-      <br />
-      <span class="gradient-text">open a conversation.</span>
+      Ideas, <span class="gradient-text">in progress.</span>
     </h1>
     <p class="lede">
-      Interviews and journalism from my work as an editor and correspondent.
+      Research, teaching, and the work of making technology useful.
     </p>
+    <nav class="editorial-nav" aria-label="Writing and updates">
+      <a href="/blog/" aria-current="page">
+        Blog
+      </a>
+      <a href="/news/">News</a>
+      <a href="/media/">Interviews</a>
+    </nav>
   </header>
-  <ul class="reading-list">
-    {interviews.map((i) => (
-      <li>
-        <span class="status-label">
-          {i.data.source} · {i.data.date}
-        </span>
-        <h2 style="font-size:1.5rem">
-          <a href={`/interviews/${i.slug}/`}>{i.data.title}</a>
-        </h2>
-        <p>{i.data.summary}</p>
-      </li>
-    ))}
-  </ul>
-  <div class="button-row">
-    <a class="button" href="/media/">
-      More media and interviews ↗
-    </a>
-  </div>
+  <section class="editorial-archive" aria-label="Blog posts">
+    {posts.length ? (
+      <PostList entries={posts} headingLevel="h2" />
+    ) : (
+      <div class="editorial-empty">
+        <h2>New posts will appear here.</h2>
+        <p>In the meantime, explore my published interviews and journalism.</p>
+        <a class="text-link" href="/media/">
+          Read the interviews ↗
+        </a>
+      </div>
+    )}
+  </section>
 </Layout>

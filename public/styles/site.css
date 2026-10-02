@@ -905,6 +905,234 @@ main:focus {
   letter-spacing: 0.06em;
   color: var(--teal);
 }
+/* Blog and news: compact, dated lists inspired by the al-folio homepage. */
+.home-updates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  padding: 40px 0 48px;
+  border-bottom: 1px solid var(--border);
+}
+.home-updates > section {
+  min-width: 0;
+}
+.home-updates .section-head {
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.home-updates h2 {
+  font-size: 1.6rem;
+}
+.home-updates .section-head > a {
+  font-size: 0.85rem;
+}
+.dated-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dated-list > li {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 22px;
+  padding: 22px 0;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+}
+.dated-list > li:first-child {
+  padding-top: 0;
+}
+.dated-list > li:last-child {
+  border-bottom: 0;
+}
+.dated-list time {
+  color: var(--muted);
+  font: 0.75rem/1.8 var(--mono);
+  padding-top: 3px;
+}
+.dated-list h2,
+.dated-list h3 {
+  font-size: 1.06rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  margin: 0 0 7px;
+}
+.dated-list h2 a,
+.dated-list h3 a {
+  text-decoration: none;
+}
+.dated-list h2 a:hover,
+.dated-list h3 a:hover {
+  text-decoration: underline;
+}
+.dated-list p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+.dated-list > li > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.dated-list p:last-child {
+  margin-bottom: 0;
+}
+.post-list-full > li {
+  padding-block: 30px;
+}
+.post-list-full h2,
+.post-list-full h3 {
+  font-size: 1.5rem;
+}
+.post-meta {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.dated-list .post-meta {
+  font-size: 0.76rem;
+}
+.editorial-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+.editorial-tags li {
+  color: var(--teal);
+  background: var(--soft);
+  padding: 3px 10px;
+  margin: 0;
+  font-size: 0.75rem;
+  border-radius: 5px;
+}
+.editorial-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+.editorial-nav a {
+  padding: 8px 0;
+  min-height: 44px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.editorial-nav a[aria-current] {
+  box-shadow: 0 2px var(--link);
+}
+.editorial-archive {
+  max-width: 880px;
+  padding-bottom: 72px;
+}
+.editorial-empty {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.editorial-empty h2 {
+  font-size: 1.35rem;
+}
+.editorial-empty p {
+  color: var(--muted);
+}
+.editorial-empty.compact {
+  padding: 22px;
+  font-size: 0.9rem;
+}
+.editorial-empty.compact p {
+  margin-top: 0;
+}
+.news-year {
+  padding: 10px 0 32px;
+}
+.news-year > h2 {
+  font-size: 1.45rem;
+  color: var(--teal);
+  margin-bottom: 28px;
+}
+.editorial-article {
+  max-width: 800px;
+  margin: auto;
+  padding: 55px 0;
+}
+.editorial-article-header {
+  margin-bottom: 36px;
+}
+.editorial-article-header .eyebrow {
+  margin-top: 32px;
+}
+.editorial-article h1 {
+  font-size: clamp(2.1rem, 4.6vw, 3.75rem);
+}
+.editorial-article .prose {
+  max-width: none;
+}
+.editorial-cover {
+  margin: 0 0 36px;
+}
+.editorial-cover img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 16px;
+  background: var(--soft);
+}
+.editorial-cover figcaption {
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+.more-posts {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.more-posts h2 {
+  font-size: 1.5rem;
+}
+@media (min-width: 961px) and (max-width: 1150px) {
+  .nav-inner {
+    gap: 18px;
+  }
+  .primary-nav {
+    gap: 13px;
+  }
+  .brand-degree {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .home-updates {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+@media (max-width: 650px) {
+  .home-updates {
+    padding-block: 32px;
+  }
+  .home-updates .section-head {
+    display: flex;
+  }
+  .home-updates .section-head > a {
+    margin-top: 0;
+  }
+  .dated-list > li {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding-block: 18px;
+  }
+  .editorial-article {
+    padding-top: 32px;
+  }
+  .editorial-archive {
+    padding-bottom: 40px;
+  }
+}
 .content,
 .prose {
   max-width: 76ch;
@@ -1059,6 +1287,10 @@ pre {
   padding: 18px;
   background: var(--soft);
   border-radius: 12px;
+}
+pre code {
+  background: transparent;
+  padding: 0;
 }
 .teaching-photo {
   width: 100%;
