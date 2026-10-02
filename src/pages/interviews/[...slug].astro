@@ -22,7 +22,7 @@ const { Content } = await interview.render();
   <article class="interview">
     <header class="interview-header">
       <a href={withBase("/media/")} class="back-link">
-        <i class="fas fa-arrow-left"></i> Back to Media
+        <i class="fas fa-arrow-left"></i> All interviews
       </a>
       <div class="meta">
         <span class="date">
@@ -31,7 +31,11 @@ const { Content } = await interview.render();
         {interview.data.sourceUrl && (
           <span class="source">
             <i class="fas fa-newspaper"></i>
-            <a href={interview.data.sourceUrl} target="_blank" rel="noreferrer">
+            <a
+              href={interview.data.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {interview.data.source}
             </a>
           </span>
@@ -39,9 +43,7 @@ const { Content } = await interview.render();
       </div>
       {interview.data.interviewee && (
         <p class="interview-label">
-          <span class="highlight">
-            Interview — {interview.data.interviewee}
-          </span>
+          <span class="highlight">Interview: {interview.data.interviewee}</span>
         </p>
       )}
       <h1>{interview.data.title}</h1>
@@ -83,7 +85,11 @@ const { Content } = await interview.render();
           })()}
           ). {interview.data.title}. <em>{interview.data.source}</em>.{" "}
           {interview.data.sourceUrl && (
-            <a href={interview.data.sourceUrl} target="_blank" rel="noreferrer">
+            <a
+              href={interview.data.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {interview.data.sourceUrl}
             </a>
           )}

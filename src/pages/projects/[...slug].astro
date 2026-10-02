@@ -39,12 +39,6 @@ const { Content } = await project.render();
         height="560"
       />
     )}
-    {project.data.outcome && (
-      <aside class="highlight-panel">
-        <h2>Project contribution</h2>
-        <p>{project.data.outcome}</p>
-      </aside>
-    )}
     <div class="content">
       <Content />
     </div>
@@ -61,10 +55,7 @@ const { Content } = await project.render();
     )}
     <div class="button-row">
       <a class="button" href="/projects/">
-        ← More projects
-      </a>
-      <a class="button button-primary" href="/contact/">
-        Discuss a collaboration ↗
+        ← All projects
       </a>
     </div>
   </article>

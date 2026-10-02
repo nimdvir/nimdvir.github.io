@@ -66,14 +66,17 @@
       : "system";
     applyTheme();
   });
-  // The HTML base target also opens page links in new tabs without JavaScript.
-  // In-page anchors and protocol handlers keep their native behavior.
+  // Keep personal-site navigation in this tab. CCE is a separate website
+  // hosted under the same GitHub Pages origin.
+  const siteOrigins = [location.origin, "https://nimdvir.github.io"];
   document.querySelectorAll("a[href]").forEach((link) => {
-    const href = link.getAttribute("href");
-    if (href.startsWith("#") || /^(mailto|tel):/i.test(href)) {
-      link.target = "_self";
-    } else if (["http:", "https:"].includes(link.protocol)) {
-      link.target = "_blank";
+    const isWebLink = ["http:", "https:"].includes(link.protocol);
+    const isCceSite =
+      link.pathname === "/cce-2026" || link.pathname.startsWith("/cce-2026/");
+    const isExternal =
+      isWebLink && (!siteOrigins.includes(link.origin) || isCceSite);
+    link.target = isExternal ? "_blank" : "_self";
+    if (isExternal) {
       link.relList.add("noopener", "noreferrer");
     }
   });
@@ -119,28 +122,8 @@
     document.addEventListener("click", (event) => {
       if (!event.target.closest(".site-header")) close();
     });
-    matchMedia("(min-width: 961px)").addEventListener("change", close);
+    matchMedia("(min-width: 1101px)").addEventListener("change", close);
   }
-  // A single short typing pass, with a static screen-reader equivalent.
-  const reduced = matchMedia("(prefers-reduced-motion: reduce)");
-  document.querySelectorAll("[data-typewriter]").forEach((el) => {
-    const text = (el.textContent || "").trim();
-    if (reduced.matches) return;
-    let index = 0;
-    el.textContent = "";
-    const timer = setInterval(() => {
-      if (reduced.matches) {
-        el.textContent = text;
-        clearInterval(timer);
-        return;
-      }
-      el.textContent = text.slice(0, ++index);
-      if (index >= text.length) {
-        clearInterval(timer);
-        el.classList.add("typing-complete");
-      }
-    }, 65);
-  });
   const filters = document.querySelectorAll("[data-filter]");
   const cards = document.querySelectorAll("[data-project-category]");
   if (filters.length) {

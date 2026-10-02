@@ -54,8 +54,8 @@ def add(el,depth=0):
             if value.strip():story.append(Paragraph(label+value,styles['CVBullet']))
             for nested in c:
                 if nested.tag in ('ul','ol'):add(nested,depth+1)
-    elif tag in ('h1','h2','h3'):
-        story.append(Paragraph(inline(el),styles['CVH'+tag[1]]))
+    elif tag in ('h2','h3','h4'):
+        story.append(Paragraph(inline(el),styles['CVH'+str(int(tag[1])-1)]))
     elif tag=='p':story.append(Paragraph(inline(el),styles['CVBody']))
 for element in node:add(element)
 out=ROOT/'public/files/Nim-Dvir-CV-2026-09.pdf';out.parent.mkdir(exist_ok=True)

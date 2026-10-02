@@ -71,21 +71,12 @@ const education = [
 
 <Layout
   title="About"
-  description="Meet Nim Dvir: UX and AI researcher, Lecturer at UAlbany, and educator connecting human behavior, business, and technology."
+  description="Nim Dvir’s background in research, teaching, journalism, and product development."
 >
   <header class="page-intro">
-    <p class="eyebrow">About Nim</p>
-    <h1>
-      Curious about people.
-      <br />
-      <span class="gradient-text">Practical about technology.</span>
-    </h1>
-    <p class="lede">
-      I bring together research, teaching, and product thinking to make
-      information and technology more useful.
-    </p>
+    <h1>About</h1>
   </header>
-  <section class="split-section">
+  <section class="split-section" style="border-top:0;padding-top:0">
     <div>
       <img
         class="about-photo"
@@ -94,53 +85,34 @@ const education = [
         width="400"
         height="400"
       />
-      <a class="button button-primary" href={cvUrl}>
-        Full CV · September 2026 ↗
-      </a>
     </div>
     <div class="prose">
-      <h2>Hi, I’m Nim.</h2>
       <p>
-        I’m Dr. Nimrod (Nim) Dvir, a Lecturer in Information Systems and
-        Business Analytics at the University at Albany’s Massry School of
-        Business. My work spans Human-Computer Interaction, user experience,
-        artificial intelligence, natural language processing, and information
-        systems.
+        I’m Nimrod Dvir, but I go by Nim. I’m a lecturer at the University at
+        Albany’s Massry School of Business, where I teach information systems
+        and business analytics.
       </p>
       <p>
-        Over more than a decade in UX and AI research, I’ve combined qualitative
-        and quantitative methods to study how people interpret information and
-        make decisions. My PhD at UAlbany explored computational linguistics and
-        information engagement. The dissertation received the university’s
-        Distinguished Dissertation and Excellence in Research Awards in 2023.
+        Before academia, I worked as a journalist and editor in Israel and New
+        York, and later in user research and product development. I completed my
+        PhD in Computer and Information Science at UAlbany in 2022. My
+        dissertation, <em>Sticky Words</em>, examined language and information
+        engagement.
       </p>
+      <h2>Current work</h2>
       <p>
-        Before academia, I worked in product development, digital content
-        strategy, and journalism. That background still shapes how I approach
-        research: listen closely, ask a better question, and communicate the
-        result clearly.
-      </p>
-      <p>
-        <span class="marker">
-          I want technology to help people understand, decide, and create.
-        </span>
-      </p>
-      <p>
-        Today, that means studying language in mental health treatment courts,
-        developing interactive business courseware, and helping students and
-        faculty use AI critically and effectively.
+        I’m working on{" "}
+        <a href="/research/words-on-trial/">
+          language in mental health treatment courts
+        </a>
+        , developing <a href="/teaching/#courseware">business courseware</a>,
+        and teaching students to use and evaluate AI tools. I also write about
+        some of that work on the <a href="/blog/">blog</a>.
       </p>
     </div>
   </section>
   <section class="split-section">
-    <div>
-      <p class="eyebrow">Background</p>
-      <h2>
-        A career across
-        <br />
-        disciplines.
-      </h2>
-    </div>
+    <h2>Experience</h2>
     <ol class="timeline">
       {career.map(([date, title, org]) => (
         <li>
@@ -152,14 +124,7 @@ const education = [
     </ol>
   </section>
   <section class="split-section">
-    <div>
-      <p class="eyebrow">Education</p>
-      <h2>
-        Four degrees.
-        <br />
-        One curious mind.
-      </h2>
-    </div>
+    <h2>Education</h2>
     <ol class="timeline">
       {education.map(([date, title, org, note]) => (
         <li>
@@ -172,80 +137,35 @@ const education = [
     </ol>
   </section>
   <section class="split-section">
-    <div>
-      <p class="eyebrow">Recognition</p>
-      <h2>
-        Research and
-        <br />
-        community.
-      </h2>
-    </div>
-    <ul class="reading-list">
-      <li>
-        <span class="status-label">2026 · Research funding</span>
-        <h3>Faculty Research Award Program, Category B</h3>
-        <p>
-          $3,242 to support research on language, participation, and engagement
-          in mental health treatment courts.
-        </p>
-      </li>
-      <li>
-        <span class="status-label">2025 · Service</span>
-        <h3>University at Albany Service Award</h3>
-        <p>Recognition for student support and mentoring.</p>
-      </li>
-      <li>
-        <span class="status-label">2023 · Scholarship</span>
-        <h3>
-          Distinguished Dissertation & Excellence in Research Project Awards
-        </h3>
-        <p>University at Albany recognition for the Sticky Words research.</p>
-      </li>
-    </ul>
-  </section>
-  <section class="split-section">
-    <div>
-      <p class="eyebrow">Ways I contribute</p>
-      <h2>
-        Beyond the
-        <br />
-        classroom.
-      </h2>
-    </div>
+    <h2>Awards and service</h2>
     <div class="prose">
+      <ul>
+        <li>
+          Faculty Research Award Program, Category B, University at Albany,
+          2026.
+        </li>
+        <li>Service Award, University at Albany, 2025.</li>
+        <li>
+          Distinguished Dissertation Award and Excellence in Research Project
+          Award, University at Albany, 2023.
+        </li>
+      </ul>
       <p>
-        I founded <strong>Ballad</strong>, an LGBTQ+ organization for business
-        students at the Massry School of Business, to create space for peer
-        support, dialogue, and professional development.
+        I founded <strong>Ballad</strong>, the LGBTQ+ student organization for
+        business students at the Massry School of Business, in 2024.
       </p>
       <p>
         I serve on the school’s Impact and Climate Committees and the Cengage
         Introductory Computing Thought Advisory Board. I also mentor student
-        research and review work for information systems and user experience
+        research and review papers for information systems and user experience
         conferences.
       </p>
-      <h3>My toolkit</h3>
-      <ul class="tag-list">
-        {[
-          "Mixed methods",
-          "Experiments",
-          "Interviews",
-          "Usability testing",
-          "Python",
-          "SQL",
-          "R",
-          "NLP",
-          "LLM evaluation",
-          "Figma",
-          "Content strategy",
-          "AI workflows",
-        ].map((t) => (
-          <li>{t}</li>
-        ))}
-      </ul>
       <div class="button-row">
-        <a class="button" href="/#contact">
-          Let’s work together ↗
+        <a class="button" href={cvUrl}>
+          Full CV
+        </a>
+        <a class="button" href="/files/Nim-Dvir-CV-2026-09.pdf">
+          Download CV (PDF)
         </a>
       </div>
     </div>

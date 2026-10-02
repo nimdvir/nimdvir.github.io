@@ -3,9 +3,9 @@ title: 'Sticky Words'
 year: '2022'
 subtitle: 'Computation and Language'
 category: 'Computational Linguistics'
-status: 'award-winning dissertation'
+status: "Doctoral dissertation · 2022"
 tags: ['Computational Linguistics', 'NLP', 'Information Engagement']
-summary: 'Doctoral research on how phrasing shapes information engagement, using computational linguistics to assess and improve the language people encounter online.'
+summary: "My doctoral research examined how word choice relates to information engagement."
 image: '/images/research/sticky-words-hero.webp'
 imageAlt: 'The word Words rendered in sticky dripping material.'
 featured: true
@@ -19,14 +19,20 @@ researchAreas: ['Information engagement', 'Natural language processing', 'Behavi
 methods: ['Computational linguistics', 'Predictive modeling', 'Text analysis']
 ---
 
-## Project description
+## Research question
 
-Sticky Words studies how phrasing affects attention, engagement, and downstream decision making in digital environments. The work combines information behavior and computational linguistics to treat wording as a measurable design variable rather than just editorial style.
+How does word choice relate to the way people engage with information? My dissertation examined this question using computational linguistics and behavioral research.
 
-## Core contribution
+## Methods
 
-The project builds a framework for assessing information engagement through language patterns and for testing how strategic wording choices can improve clarity, motivation, and user response.
+The work used text analysis and predictive modeling to examine language patterns associated with information engagement.
 
-## Why it matters
+## Dissertation and related papers
 
-This research connects language, interface design, and behavioral outcomes. It provides a bridge between academic work on engagement and practical UX questions about how titles, prompts, and content framing shape what people do next.
+- [Sticky Words: A Computational Linguistics Approach to Assessment and Manipulation of Information Engagement](https://www.proquest.com/docview/2753692156), University at Albany, 2022.
+- [The ways of words: The impact of word choice on information engagement and decision making](https://doi.org/10.48550/arXiv.2305.09798), preprint.
+- [Words that stick: Predicting decision making and synonym engagement using cognitive biases and computational linguistics](https://doi.org/10.48550/arXiv.2307.14511), preprint.
+
+## Awards
+
+The dissertation received the University at Albany’s Distinguished Dissertation Award and Excellence in Research Project Award in 2023.

@@ -1,0 +1,668 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/projects/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/teaching/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/media/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/blog/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/cv/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/contact/"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/404.html"
+    },
+    {
+      "width": 390,
+      "mode": "light",
+      "route": "/design/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/projects/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/teaching/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/media/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/blog/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/cv/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/contact/"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/404.html"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "route": "/design/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/projects/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/media/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/blog/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/cv/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/contact/"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/404.html"
+    },
+    {
+      "width": 1100,
+      "mode": "light",
+      "route": "/design/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/projects/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/media/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/blog/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/cv/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/contact/"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/404.html"
+    },
+    {
+      "width": 1100,
+      "mode": "dark",
+      "route": "/design/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/projects/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/media/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/blog/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/cv/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/contact/"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/404.html"
+    },
+    {
+      "width": 1101,
+      "mode": "light",
+      "route": "/design/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/projects/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/media/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/blog/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/cv/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/contact/"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/404.html"
+    },
+    {
+      "width": 1101,
+      "mode": "dark",
+      "route": "/design/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/about/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/research/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/projects/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/media/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/blog/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/news/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/cv/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/contact/"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/404.html"
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "route": "/design/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/about/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/research/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/research/words-on-trial/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/projects/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/projects/costco-mobile-app/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/teaching/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/media/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/interviews/jamie-foxx/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/blog/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/blog/rebuilding-this-website/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/news/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/cv/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/contact/"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/404.html"
+    },
+    {
+      "width": 1440,
+      "mode": "dark",
+      "route": "/design/"
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "route": "/",
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "violations": []
+    },
+    {
+      "route": "/teaching/",
+      "violations": []
+    },
+    {
+      "route": "/blog/rebuilding-this-website/",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "Home and About stay in same tab",
+    "external faculty link opens a new tab without opener",
+    "theme picker switches modes"
+  ]
+}

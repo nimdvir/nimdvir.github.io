@@ -3,13 +3,12 @@ import { socialLinks, cvUrl } from "../data/profile";
 import ProfileIcon from "./ProfileIcon.astro";
 ---
 
-<footer class="site-footer">
+<footer class="site-footer" id="contact">
   <div class="footer-inner">
     <div>
       <a class="footer-name" href="/">
         Nim Dvir, PhD
       </a>
-      <p>Research. Teaching. Making things useful.</p>
       <p class="small">
         Lecturer · Massry School of Business
         <br />
@@ -17,7 +16,6 @@ import ProfileIcon from "./ProfileIcon.astro";
       </p>
     </div>
     <div>
-      <p class="eyebrow">Stay in touch</p>
       <nav class="social-links" aria-label="Social and professional profiles">
         {socialLinks.map((link) => (
           <a class="button" href={link.href}>
@@ -30,9 +28,6 @@ import ProfileIcon from "./ProfileIcon.astro";
   </div>
   <div class="footer-bottom">
     <span>© {new Date().getFullYear()} Nim Dvir</span>
-    <a href={cvUrl}>Curriculum vitae · September 2026 ↗</a>
-    <a href="https://github.com/nimdvir/cce-2026">
-      CCE 2026 session repository ↗
-    </a>
+    <a href={cvUrl}>Curriculum vitae · September 2026</a>
   </div>
 </footer>

@@ -18,7 +18,7 @@ const Heading = headingLevel;
         <Heading>
           <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
         </Heading>
-        {!compact && <p>{post.data.summary}</p>}
+        <p>{post.data.summary}</p>
         <p class="post-meta">
           {readingMinutes(post.body)} min read
           {post.data.category && ` · ${post.data.category}`}

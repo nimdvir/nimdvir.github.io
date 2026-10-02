@@ -74,3 +74,9 @@ The site supplies the author name, formatted date, reading-time estimate, shared
 ## Ask an agent to help
 
 > Create a new [blog post / short news update / full news announcement] using the corresponding file in `templates/`. Save it in the correct content folder with the filename [slug]. Use only the content and confirmed facts I provide. Set the date to [YYYY-MM-DD] and keep `draft: true` until I ask you to publish. Preserve my voice, add source links and image credits where supplied, and flag missing information. When I approve it, change the draft flag, build, verify the links and both themes, and use the repository's branch and pull-request workflow.
+
+## Writing
+
+Use specific titles and facts. Write in your own voice, with contractions and the occasional aside. Avoid slogans, self-promotion, obligatory takeaways, and em dashes. The prompts in the templates are suggestions, not mandatory article headings.
+
+Internal links stay in the current tab. Links to other websites open in a new tab.

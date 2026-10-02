@@ -1,8 +1,8 @@
 ---
-title: "A refreshed home for research, teaching, and projects"
+title: "I rebuilt my website"
 date: "2026-10-01"
-summary: "The updated website brings together my research, portfolio, teaching, interviews, and current CV, with a responsive layout and light and dark themes."
+summary: "I’ve updated the site and brought over projects and interviews from the old version. I used AI coding tools to help with the rebuild, and wrote a short post about the process."
 draft: false
 inline: true
-link: "/about/"
+link: "/blog/rebuilding-this-website/"
 ---

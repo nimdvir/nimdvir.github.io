@@ -4,17 +4,17 @@ import Footer from "../components/Footer.astro";
 
 const base = import.meta.env.BASE_URL;
 const siteUrl = "https://nimdvir.github.io";
-const siteName = "Nim Dvir, PhD";
+const siteName = "Nim Dvir";
 
 const {
   title = siteName,
-  description = "Human-centered research across UX, AI, and information systems.",
+  description = "Research, teaching, projects, and writing by Nim Dvir, a lecturer at the University at Albany.",
   image = "/images/nim-dvir-cce.jpg",
   type = "website",
   noindex = false,
 } = Astro.props;
 
-const pageTitle = title === siteName ? title : `${title} — ${siteName}`;
+const pageTitle = title === siteName ? title : `${title} | ${siteName}`;
 const canonicalURL = new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = new URL(image, siteUrl).href;
 
@@ -75,7 +75,6 @@ const personSchema = {
       content="MlEkFKPoB9X-ma4kqEaSQp__q2TJgYxF_gGrpm1l0Oc"
     />
     <link rel="icon" type="image/png" href={`${base}favicon.png?v=20261001`} />
-    <base target="_blank" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Primary Meta Tags -->

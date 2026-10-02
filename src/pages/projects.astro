@@ -9,19 +9,14 @@ const categories = [...new Set(projects.map((p) => p.data.category))];
 
 <Layout
   title="Projects"
-  description="Explore Nim Dvir’s complete portfolio of 12 UX research, product design, content strategy, and industry projects."
+  description="Professional work and student projects advised by Nim Dvir, with research reports, designs, and prototypes."
 >
   <header class="page-intro">
-    <p class="eyebrow">Projects / Applied work</p>
-    <h1>
-      Better experiences
-      <br />
-      begin with <span class="marker">people.</span>
-    </h1>
+    <h1>Projects</h1>
     <p class="lede">
-      Twelve projects across commerce, health, culture, and digital services.
-      Research and professional work sit alongside student projects I advised,
-      with the context identified in each case study.
+      These projects include my professional work and student projects I
+      advised. Each page identifies my role and includes the available reports,
+      designs, or prototypes.
     </p>
   </header>
   <div
@@ -74,20 +69,10 @@ const categories = [...new Set(projects.map((p) => p.data.category))];
           <p>{p.data.summary}</p>
           {p.data.role && <p class="small">{p.data.role}</p>}
           <a class="text-link" href={`/projects/${p.slug}/`}>
-            Explore project ↗
+            View project
           </a>
         </div>
       </article>
     ))}
   </section>
-  <aside class="highlight-panel">
-    <h2>Have a project in mind?</h2>
-    <p>
-      I welcome collaborations that connect user research, AI, and practical
-      design decisions.
-    </p>
-    <a class="text-link" href="/contact/">
-      Let’s talk ↗
-    </a>
-  </aside>
 </Layout>

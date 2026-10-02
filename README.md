@@ -4,6 +4,8 @@ An Astro portfolio for research, teaching, applied UX and AI projects, and journ
 
 ## October 2026 website
 
+The October 2 revision replaces promotional copy, adds Home navigation, corrects internal-link behavior, and publishes the website-rebuild post. [Change and verification record](reports/2026-10-02-copy-revision.md).
+
 The responsive refresh was published on October 1 through PR #34. Production is the `main` branch; new work uses feature branches and pull requests.
 
 - [Detailed execution report](reports/2026-10-01-website-refresh.md)
@@ -48,7 +50,7 @@ Use the Node version compatible with the existing Astro dependencies. The GitHub
 | `src/data/cv-public.md` | Public CV, based on September 16, 2026 source; excludes personal phone and referee contacts |
 | `public/styles/site.css` | Shared design tokens, themes, typography, components, and responsive layouts |
 | `public/js/theme-init.js` | Apply saved/system theme before first paint |
-| `public/js/site.js` | Theme toggle, mobile navigation, short typing effect, and project filters |
+| `public/js/site.js` | Theme toggle, mobile navigation, link behavior, and project filters |
 | `public/design/index.html` | Unlisted design reference at `/design/`; public, not access-controlled |
 | `public/files/Nim-Dvir-CV-2026-09.pdf` | Downloadable public CV |
 | `public/portfolio/` | Compatibility redirects for legacy URLs |
