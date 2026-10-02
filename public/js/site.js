@@ -66,14 +66,18 @@
       : "system";
     applyTheme();
   });
-  // The HTML base target also opens page links in new tabs without JavaScript.
-  // In-page anchors and protocol handlers keep their native behavior.
+  // Keep personal-site navigation in this tab. CCE is a separate website
+  // hosted under the same GitHub Pages origin.
+  const siteOrigins = [location.origin, "https://nimdvir.github.io"];
   document.querySelectorAll("a[href]").forEach((link) => {
-    const href = link.getAttribute("href");
-    if (href.startsWith("#") || /^(mailto|tel):/i.test(href)) {
-      link.target = "_self";
-    } else if (["http:", "https:"].includes(link.protocol)) {
-      link.target = "_blank";
+    const isWebLink = ["http:", "https:"].includes(link.protocol);
+    const isCceSite =
+      link.pathname === "/cce-2026" ||
+      link.pathname.startsWith("/cce-2026/");
+    const isExternal =
+      isWebLink && (!siteOrigins.includes(link.origin) || isCceSite);
+    link.target = isExternal ? "_blank" : "_self";
+    if (isExternal) {
       link.relList.add("noopener", "noreferrer");
     }
   });
