@@ -1,645 +1,739 @@
-"""Build data-source/writing/articles.csv from Nim's article spreadsheets.
+"""Build data-source/writing/articles.csv, the list of Nim's Hebrew journalism.
 
-Run: python scripts/writing/build_inventory.py
+Reads the spreadsheets and CSVs in Media/Interviews/ (never modifying them),
+the published interviews in src/content/interviews/, and the Wikipedia
+citation cache made by fetch_wikipedia_citations.py. Writes the article list
+and reports/writing/inventory-audit.md.
 
-Reads every workbook and CSV in Media/Interviews/ (read-only), including links
-stored as cell hyperlinks, and writes:
-  data-source/writing/articles.csv       one row per article
-  reports/writing/inventory-audit.md     what came from where, and why
+Re-runnable: rows already in articles.csv are never changed. Only articles
+that are not in the list yet are appended, with the next free ID. Files are
+rewritten only when their content changes.
 
-Safe to re-run. Existing rows keep their ID and every value already filled in;
-a re-run only fills empty cells and appends newly found articles.
+Usage: python scripts/writing/build_inventory.py
 """
-from __future__ import annotations
-
 import csv
+import datetime as dt
 import hashlib
 import io
 import json
 import re
 import sys
-from collections import Counter, defaultdict
+import urllib.parse
 from pathlib import Path
-from urllib.parse import parse_qs, urlsplit
 
 import openpyxl
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCES = ROOT / 'Media' / 'Interviews'
-CSV_PATH = ROOT / 'data-source' / 'writing' / 'articles.csv'
-AUDIT_PATH = ROOT / 'reports' / 'writing' / 'inventory-audit.md'
-PAGES = ROOT / 'src' / 'content' / 'interviews'
+SOURCES = ROOT / "Media" / "Interviews"
+INTERVIEWS = ROOT / "src" / "content" / "interviews"
+OUTPUT = ROOT / "data-source" / "writing" / "articles.csv"
+CITATIONS = ROOT / "data-source" / "writing" / "wikipedia-citations.json"
+AUDIT = ROOT / "reports" / "writing" / "inventory-audit.md"
 
-COLUMNS = ['ID', 'Translate?', 'Priority', 'Status', 'Type', 'Interviewee',
-           'Title (Hebrew)', 'Title (English)', 'Publication', 'Date', 'Original URL',
-           'Images', 'Original HTML Path', 'Translation Path', 'Page Path',
-           'Found In', 'Notes']
+COLUMNS = [
+    "ID", "Translate?", "Priority", "Status", "Type", "Interviewee",
+    "Title (Hebrew)", "Title (English)", "Publication", "Date", "Original URL",
+    "Images", "Original HTML Path", "Translation Path", "Page Path",
+    "Found In", "Notes",
+]
+STATUSES = ["not started", "needs checking", "not my writing", "captured",
+            "translated", "page created", "published"]
+TYPES = ["interview", "review", "feature", "column", "report", "other", "unknown"]
 
-# Workbooks with identical content are read once, from the first file listed.
-COPY_GROUP = ['MyWriting.xlsx', 'MyWriting (1).xlsx', 'wiki1.xlsx', 'wiki2.xlsx', 'wiki3.xlsx', 'wiki4.xlsx']
-PARTIAL_COPY = 'MyWriting (2).xlsx'
-GOOGLE_BOOK = 'NimDvirArticles.xlsx'
-GOOGLE_CSV = 'MyWriting - NimDvirArticle.csv'
-SHEET17_CSV = 'MyWriting - Sheet17.csv'
+MAIN_BOOK = "MyWriting.xlsx"
+COPIES = ["MyWriting (1).xlsx", "wiki1.xlsx", "wiki2.xlsx", "wiki3.xlsx", "wiki4.xlsx"]
+SMALL_COPY = "MyWriting (2).xlsx"
+ARTICLES_BOOK = "NimDvirArticles.xlsx"
+ARTICLES_CSV = "MyWriting - NimDvirArticle.csv"
+PRESS_CSV = "MyWriting - Sheet17.csv"
 
-SHEET_ROLES = {
-    'include hebrew titles too. Do t': 'excluded: AI-generated sample table (2021-2025 news Nim did not write)',
-    'Sheet2': 'excluded: AI-generated sample table, CSV text copy of the first sheet',
-    'Sheet3': 'excluded: AI-generated sample table with Google search placeholder links',
-    'Sheet4': 'excluded: AI-generated sample titles (2022 news)',
-    'Sheet5': 'excluded: AI-generated sample titles, copy of Sheet4',
-    'Sheet6': 'excluded: AI-generated "American celebrity interviews" sample with placeholder titles',
-    'Sheet8': 'excluded: AI-generated celebrity interview sample (2021-2025)',
-    'Deepseek': 'excluded: AI-generated sample of 2024 Israel Hayom English news',
-    'Gemini': 'excluded: AI-generated sample table, CSV text copy of the first sheet',
-    'wiki': 'reference: list of Hebrew Wikipedia pages that cite Nim; not articles',
-    'wikipedia': 'reference: Wikipedia search results citing Nim; their article titles are listed in wiki-2',
-    'Sheet15': 'used: two finished English translations (Jamie Foxx, Jim Carrey), already published',
-    'NimDvirArticle': 'used: Google results list, same as NimDvirArticles.xlsx',
-    'Sheet12': 'used: Nim\'s list of journalism and academic work with URLs',
-    'Sheet17': 'used: press coverage and media appearances (CSV text in cells), same as MyWriting - Sheet17.csv',
-    'NimDvirGemini': 'used, flagged: 19 Israel Hayom URLs with suspicious sequential IDs',
-    'wiki-2': 'used: article titles cited on Wikipedia, plus direct links',
+AI_SAMPLE_SHEETS = {
+    "include hebrew titles too. Do t": "AI-generated sample table (headlines with placeholder 'Link' cells)",
+    "Sheet2": "AI-generated sample table pasted as text",
+    "Sheet3": "AI-generated sample table; links point to google.com searches or invented article IDs",
+    "Sheet4": "AI-generated list of generic news headlines",
+    "Sheet5": "AI-generated list of generic news headlines (same as Sheet4)",
+    "Sheet6": "AI-generated 'celebrity interview' sample with placeholder titles",
+    "Sheet8": "AI-generated 'celebrity interview' sample",
+    "Deepseek": "AI-generated sample of Israel Hayom English and Ynetnews items not written by Nim",
+    "Gemini": "AI-generated sample table pasted as text",
 }
+COVERAGE_DOMAINS = {
+    "insidemovies.ew.com", "www.vulture.com", "www.variginlondon.co.uk", "bidur.nana10.co.il",
+    "b.walla.co.il", "e.walla.co.il", "www.bizportal.co.il", "podcasts.apple.com",
+    "open.spotify.com", "w.wiki",
+}
+ACADEMIC_DOMAINS = {"scholar.google.com", "papers.ssrn.com", "arxiv.org", "www.sciencedirect.com"}
+PUBLICATIONS = [
+    ("xnet.ynet.co.il", "Xnet"), ("ynet.co.il", "Ynet"), ("israelhayom.co.il", "Israel Hayom"),
+    ("nrg.co.il", "nrg"), ("makorrishon.co.il/nrg", "nrg"), ("atmag.co.il", "At"),
+    ("prtfl.co.il", "Portfolio"), ("nimdvir.blogspot.com", "Blog (nimdvir.blogspot.com)"),
+    ("jewishjournal.com", "Jewish Journal"),
+]
+HEBREW_MONTHS = {"ינו": 1, "פבר": 2, "מרץ": 3, "מרס": 3, "אפר": 4, "מאי": 5, "יונ": 6,
+                 "יול": 7, "אוג": 8, "ספט": 9, "אוק": 10, "נוב": 11, "דצמ": 12}
+AUTHOR = "נמרוד דביר"
 
-STATUSES = ['not started', 'needs checking', 'not my writing', 'skip',
-            'captured', 'translated', 'page created', 'published']
-TYPES = ['interview', 'review', 'feature', 'column', 'report', 'other', 'unknown']
 
-HEBREW_MONTHS = {'ינו': 1, 'פבר': 2, 'מרץ': 3, 'מרס': 3, 'אפר': 4, 'מאי': 5, 'יוני': 6,
-                 'יולי': 7, 'אוג': 8, 'ספט': 9, 'אוק': 10, 'נוב': 11, 'דצמ': 12}
-ENGLISH_MONTHS = {m: i for i, m in enumerate(
-    ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], 1)}
-BYLINE = re.compile(r'נמרוד דביר')
-# The name preceded by "reporter" means someone else wrote about him.
-ABOUT_NIM = re.compile(r'(?:כתב|הכתב|כתבנו)(?: ynet| הישראלי)? נמרוד דביר')
+# ---------------------------------------------------------------- helpers
 
-
-def sha(path: Path) -> str:
+def sha256(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def cell_text(value) -> str:
-    return '' if value is None else str(value).strip()
+def domain(url):
+    return urllib.parse.urlparse(url).netloc.lower()
 
 
-def sheet_signature(ws) -> str:
-    items = [(c.coordinate, cell_text(c.value), c.hyperlink.target if c.hyperlink else None)
-             for row in ws.iter_rows() for c in row if c.value is not None or c.hyperlink]
-    return hashlib.md5(json.dumps(items, ensure_ascii=False).encode()).hexdigest()
+def comparable_url(url):
+    """Same URL for comparison only: percent-escapes in one case. Stored URLs are never changed."""
+    return re.sub(r"%[0-9a-fA-F]{2}", lambda m: m.group(0).upper(),
+                  urllib.parse.quote(url, safe=":/?&=#%,;+!$'()*@~-._"))
 
 
-def book_signature(wb) -> str:
-    return hashlib.md5('|'.join(f'{ws.title}:{sheet_signature(ws)}' for ws in wb.worksheets).encode()).hexdigest()
+def article_key(url):
+    """Publisher article ID when there is one, otherwise the URL itself."""
+    m = re.search(r"xnet\.ynet\.co\.il/.*?L-(\d+)", url)
+    if m:
+        return "xnet:" + m.group(1)
+    m = re.search(r"ynet\.co\.il/(?:.*?L-(\d+)|article/(\d+))", url)
+    if m:
+        return "ynet:" + (m.group(1) or m.group(2))
+    m = re.search(r"israelhayom\.co\.il/(?:[\w/]*/)?(?:article|opinion)/(\d+)", url)
+    if m:
+        return "ih:" + m.group(1)
+    m = re.search(r"(?:nrg\.co\.il|makorrishon\.co\.il/nrg)/online/\d+/ART\d*/(\d+/\d+)\.html", url)
+    if m:
+        return "nrg:" + m.group(1)
+    return "url:" + comparable_url(url)
 
 
-# ---------- URLs ----------
-
-def unwrap(url: str) -> str:
-    """Return the destination of a Google redirect link, otherwise the URL unchanged."""
-    parts = urlsplit(url)
-    if parts.netloc.endswith('google.com') and parts.path == '/url':
-        return parse_qs(parts.query).get('q', [url])[0]
-    return url
-
-
-def identity(url: str) -> str:
-    """A key that is equal only for links to the same article."""
-    host = urlsplit(url).netloc.lower()
-    if host.endswith('ynet.co.il'):
-        m = re.search(r'L-(\d+)', url) or re.search(r'/article/(\d+)', url)
-        if m:
-            return f'ynet:{m.group(1)}'
-    if host.endswith('israelhayom.co.il'):
-        m = re.search(r'/(?:article|opinion)/(\d+)', url)
-        if m:
-            return f'israelhayom:{m.group(1)}'
-    return url
-
-
-def is_article_url(url: str) -> bool:
-    host = urlsplit(url).netloc.lower()
-    path = urlsplit(url).path
-    if not host:
+def is_article_url(url):
+    """False for section, tag, label, search and topic pages."""
+    if not url or not url.startswith("http"):
         return False
-    if is_index_url(url):
-        return False
-    if host.endswith('ynet.co.il'):
-        return identity(url).startswith('ynet:')
-    if host.endswith('blogspot.com'):
-        return '/search/label/' not in path
-    return True
+    d = domain(url)
+    if "ynet.co.il" in d:
+        return bool(re.search(r"L-\d+|/article/\d+", url))
+    if d == "nimdvir.blogspot.com":
+        return bool(re.search(r"/\d{4}/\d{2}/", url))
+    if d == "www.prtfl.co.il":
+        return "/archives/tag/" not in url
+    return d not in {"www.google.com", "he.wikipedia.org"}
 
 
-def is_index_url(url: str) -> bool:
-    """Pages that list articles rather than being one: never imported as rows."""
-    parts = urlsplit(url)
-    host = parts.netloc.lower()
-    return (host == 'w.wiki' or host.endswith('wikipedia.org') or '/search/label/' in parts.path
-            or (host.endswith('ynet.co.il') and parts.path.startswith('/topics/')))
-
-
-def publication(url: str) -> str:
-    host = urlsplit(url).netloc.lower()
-    for key, name in [('xnet.ynet.co.il', 'Xnet'), ('ynet.co.il', 'Ynet'), ('israelhayom', 'Israel Hayom'),
-                      ('atmag', 'At Magazine'), ('prtfl', 'Portfolio'), ('jewishjournal', 'Jewish Journal'),
-                      ('nrg.co.il', 'nrg'), ('makorrishon.co.il/nrg', 'nrg'), ('blogspot', 'Nim Dvir blog'),
-                      ('ew.com', 'Entertainment Weekly'), ('vulture', 'Vulture'), ('nana10', 'Nana10'),
-                      ('walla', 'Walla'), ('bizportal', 'Bizportal'), ('variginlondon', 'Varig in London'),
-                      ('apple.com', 'Apple Podcasts'), ('spotify', 'Spotify'), ('scholar.google', 'Google Scholar'),
-                      ('ssrn', 'SSRN'), ('arxiv', 'arXiv'), ('sciencedirect', 'ScienceDirect')]:
-        if key in host or key in url:
+def publication(url):
+    for marker, name in PUBLICATIONS:
+        if marker in url:
             return name
-    return host
+    return domain(url).removeprefix("www.")
 
 
-# ---------- text ----------
+def clean_title(text):
+    text = re.sub(r"\s+-\s+ynet\s*$", "", str(text or "").strip())
+    text = re.sub(r"\{\{כ\}\}", "", text)
+    text = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", text)
+    text = text.replace("'''", "").replace("''", "")
+    return re.sub(r"\s+", " ", text).strip()
 
-def norm_title(title: str) -> str:
-    t = re.sub(r'\s*-\s*ynet\s*$', '', title)
-    t = t.replace('ריאיון', 'ראיון')
-    return re.sub(r'[^\w]', '', t)
+
+def normal_title(text):
+    return re.sub(r"[\W_]", "", clean_title(text).lower())
 
 
-def parse_date(text: str) -> str:
-    m = re.search(r'(?<!\d)(\d{1,2})[./](\d{1,2})[./](\d{4}|\d{2})(?!\d)', text)
+def hebrew_date(text):
+    """First date found in a snippet or citation, as YYYY-MM-DD, YYYY-MM or YYYY."""
+    text = str(text or "")
+    for label in ("פורסם", "עודכן"):
+        m = re.search(label + r"\s*:?\s*\d{1,2}:\d{2},\s*(\d{1,2})/(\d{1,2})/(\d{4})", text)
+        if m:
+            return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+        m = re.search(label + r"\s*:?\s*(\d{2})\.(\d{2})\.(\d{2})\s*,", text)
+        if m:
+            return f"20{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    m = re.search(r"(\d{1,2})\s+ב(" + "|".join(HEBREW_MONTHS) + r")\S*\s+(\d{4})", text)
     if m:
-        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
-        y = y + 2000 if y < 100 else y
-        if 1 <= mo <= 12 and 1 <= d <= 31:
-            return f'{y:04d}-{mo:02d}-{d:02d}'
-    m = re.search(r'(\d{1,2}) ב(' + '|'.join(HEBREW_MONTHS) + r')\S* (\d{4})', text)
+        return f"{m.group(3)}-{HEBREW_MONTHS[m.group(2)]:02d}-{int(m.group(1)):02d}"
+    m = re.search(r"(\d{1,2})[./](\d{1,2})[./](\d{4})", text)
     if m:
-        return f'{int(m.group(3)):04d}-{HEBREW_MONTHS[m.group(2)]:02d}-{int(m.group(1)):02d}'
-    m = re.match(r'(\d{4})-(\d{2})(?:-(\d{2}))?$', text.strip()[:10])
+        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+    return ""
+
+
+def url_date(url):
+    m = re.search(r"/(20\d{2})/(\d{2})/", url or "")
+    return f"{m.group(1)}-{m.group(2)}" if m else ""
+
+
+NAME_COLON = re.compile(r"^([^:\"״]{3,30}?)\s*(?:[\"״]\s*:|:\s*[\"״'])")
+INTERVIEW_WITH = re.compile(r"(?:ריאיון|ראיון) עם (.+?)(?:\s+מ[\"״].*)?$")
+
+
+def classify(title, snippet="", section=""):
+    """Return (type, interviewee). Interviewee is 'unknown' when it cannot be read from the text."""
+    title = clean_title(title)
+    lower = title.lower()
+    m = INTERVIEW_WITH.search(title)
     if m:
-        return m.group(0)
-    return ''
+        return "interview", m.group(1).strip()
+    m = NAME_COLON.match(title)
+    if m and len(m.group(1).split()) <= 4:
+        return "interview", m.group(1).strip()
+    if "interview" in lower or re.search(r"ריאיון|ראיון", title) or re.search(r"בראיון|ראיון ל", snippet):
+        return "interview", "unknown"
+    if "ביקורת" in title or "ביקורות" in section or "review" in lower:
+        return "review", ""
+    if "set visit" in lower or "ביקור על הסט" in title:
+        return "feature", ""
+    if "טורים" in section or "מדורים" in section:
+        return "column", ""
+    if "חדשות" in section or re.search(r"הוכרזו|הזוכים|זוכים בפרס|יקבל את פרס|מונה ל|הלך לעולמו", title):
+        return "report", ""
+    if "המלצות" in title or "המלצות" in section or "רשימת קריאה" in title:
+        return "other", ""
+    return "unknown", ""
 
 
-def classify(title: str, snippet: str, breadcrumb: str) -> str:
-    text = f'{title} {snippet}'
-    if re.search(r'ר(?:י)?איון|בראיון|שוחח איתה|שוחח איתו|פגש את', text) or QUOTE_HEADLINE.match(title.lstrip(',')):
-        return 'interview'
-    if 'ביקורות' in breadcrumb or re.search(r'ביקורת|:\s*על ', title):
-        return 'review'
-    if 'טורים' in breadcrumb or 'מדורים' in breadcrumb:
-        return 'column'
-    if 'המלצות' in title:
-        return 'other'
-    if 'חדשות' in breadcrumb or re.search(r'הוכרזו|הזוכים|זוכים בפרס|הלך לעולמו|מונה ל|מגיע לישראל|חוזרת לישראל', title):
-        return 'report'
-    if 'כתבות' in breadcrumb or 'מגזין' in breadcrumb:
-        return 'feature'
-    return 'unknown'
-
-
-# A headline of the form  Name: "quote"  (Wikipedia copies may read  Name":quote").
-QUOTE_HEADLINE = re.compile(r'^([^:"]{3,30}?)\s*(?:"\s*:|:\s*["\'])')
-
-
-def interviewee_from(title: str) -> str:
-    t = re.sub(r'\s*-\s*ynet\s*$', '', title).lstrip(',')
-    m = re.search(r'ר(?:י)?איון עם ([^:"]+?)(?:\s+מ"|\s*\(|$)', t)
-    if m:
-        return m.group(1).strip()
-    m = QUOTE_HEADLINE.match(t)
-    if m and len(m.group(1).split()) <= 3:
-        return m.group(1).strip()
-    return ''
-
-
-# ---------- records ----------
+# ---------------------------------------------------------------- collection
 
 class Inventory:
     def __init__(self):
-        self.records: list[dict] = []
-        self.by_identity: dict[str, dict] = {}
-        self.aliases: dict[str, set] = defaultdict(set)
-        self.skipped: list[tuple[str, str, str]] = []  # (origin, text, reason)
+        self.rows = []
+        self.by_key = {}
+        self.excluded = []      # (source, location, title, url, reason)
+        self.contrib = {}       # source label -> [new, merged]
 
-    def add(self, origin: str, url: str = '', **fields) -> None:
-        url = url.strip()
-        if url:
-            real = unwrap(url)
-            if real != url:
-                fields['notes'] = (fields.get('notes', '') + ' Link was a Google redirect; unwrapped.').strip()
-                url = real
-            if not is_article_url(url):
-                if is_index_url(url) or (not fields.get('title_he') and not fields.get('title_en')):
-                    self.skipped.append((origin, url, 'index or reference page, not an article'))
-                    return
-                fields['notes'] = (fields.get('notes', '') + f' Listed link is not an article page: {url}').strip()
-                url = ''
-        key = identity(url) if url else None
-        if key and key in self.by_identity:
-            rec = self.by_identity[key]
-            rec['origins'].append(origin)
-            if url != rec['url']:
-                self.aliases[key].add(url)
-            for k, v in fields.items():
-                if k == 'notes':
-                    if v and v not in rec['notes']:
-                        rec['notes'] = (rec['notes'] + ' ' + v).strip()
-                elif k == 'status':
-                    rec['status'] = stronger(rec['status'], v)
-                elif v and not rec.get(k):
-                    rec[k] = v
-            return
-        rec = {'url': url, 'origins': [origin], 'title_he': '', 'title_en': '', 'date': '', 'type': '',
-               'interviewee': '', 'status': '', 'notes': '', 'publication': publication(url) if url else ''}
-        rec.update({k: v for k, v in fields.items() if v})
-        self.records.append(rec)
-        if key:
-            self.by_identity[key] = rec
+    def add(self, source, found_in, url="", title="", date="", kind="", interviewee="",
+            notes=(), status="", english="", page_path="", images="", publication_name=""):
+        key = article_key(url) if url else "noref:" + found_in
+        stats = self.contrib.setdefault(source, [0, 0])
+        row = self.by_key.get(key)
+        if row:
+            stats[1] += 1
+            if found_in not in row["found_in"]:
+                row["found_in"].append(found_in)
+            for field, value in (("title", clean_title(title)), ("date", date), ("english", english)):
+                if value and not row[field]:
+                    row[field] = value
+            if kind and row["type"] in ("", "unknown"):
+                row["type"], row["interviewee"] = kind, interviewee
+            for note in notes:
+                if note not in row["notes"]:
+                    row["notes"].append(note)
+            return row
+        stats[0] += 1
+        row = {
+            "key": key, "url": url, "title": clean_title(title), "date": date, "type": kind or "unknown",
+            "interviewee": interviewee, "found_in": [found_in], "notes": list(notes), "status": status,
+            "english": english, "page_path": page_path, "images": images, "html_path": "",
+            "publication": publication_name or (publication(url) if url else ""),
+        }
+        self.rows.append(row)
+        self.by_key[key] = row
+        return row
+
+    def exclude(self, source, location, title, url, reason):
+        self.excluded.append((source, location, clean_title(title), url or "", reason))
 
 
-# Facts noticed while reviewing the sources, attached to the matching row.
-KNOWN_NOTES = {
-    'ynet:4478514': 'Same Hebrew headline as the published Michael Fassbender interview (Ynet L-4478269); '
-                    'probably the same article at a second address.',
-}
-
-# A later source can make a row more cautious, never less.
-STRENGTH = ['not started', 'needs checking', 'skip', 'not my writing', 'published']
-
-
-def stronger(a: str, b: str) -> str:
-    if not a:
-        return b
-    if not b:
-        return a
-    return a if STRENGTH.index(a) >= STRENGTH.index(b) else b
+def frontmatter(path):
+    text = path.read_text(encoding="utf-8")
+    block = text.split("---", 2)[1]
+    data = {}
+    for line in block.splitlines():
+        m = re.match(r"(\w+):\s*(['\"])(.*)\2\s*$", line)
+        if m:
+            data[m.group(1)] = m.group(3)
+    return data
 
 
-def read_google(inv: Inventory, cells: list[tuple[str, str, str]], label: str) -> list[str]:
-    """Search-result triplets: title (with hyperlink), breadcrumb, snippet."""
-    current = None
-    pending_title = ''
-    noise = []
-
-    def flush():
-        if not current:
-            return
-        title, url, crumb, snippet, origin = current
-        byline = bool(BYLINE.search(snippet)) and not ABOUT_NIM.search(snippet)
-        kind = classify(title, snippet, crumb)
-        notes = ''
-        if title.endswith('...'):
-            notes = 'Title is cut off in the search result.'
-        status = 'not started' if byline else 'needs checking'
-        if not byline:
-            notes = (notes + ' Search snippet does not show Nim as the author; confirm he wrote it.').strip()
-        inv.add(origin, url, title_he=re.sub(r'\s*-\s*ynet\s*$', '', title), date=parse_date(snippet),
-                type=kind, status=status, notes=notes, snippet=snippet)
-
-    for coord, text, link in cells:
-        origin = f'{label}!{coord}'
-        if link:
-            if current and link == current[1] and text.startswith('http'):
-                continue  # the URL repeated as text under its own title
-            flush()
-            title = pending_title if text.startswith('http') and pending_title else text
-            current = [title, link, '', '', origin]
-            pending_title = ''
-        elif current and '›' in text and not current[2]:
-            current[2] = text
-        elif current and not current[3]:
-            current[3] = text
-        elif re.match(r'^בערך [\d,]+ תוצאות', text):
-            noise.append(f'{origin}: "{text}" (search result count)')
-        else:
-            pending_title = text
-    flush()
-    return noise
-
-
-def parse_sheet17(text: str) -> list[dict]:
-    """title,short_description,url,date rows; one title contains an unquoted comma."""
-    out = []
-    for fields in list(csv.reader(io.StringIO(text)))[1:]:
-        at = next((i for i, f in enumerate(fields) if f.strip().startswith('http')), None)
-        if at is None or at < 2:
-            continue
-        out.append({'title': ','.join(fields[:at - 1]), 'short_description': fields[at - 1],
-                    'url': fields[at].strip(), 'date': fields[at + 1] if at + 1 < len(fields) else ''})
-    return out
-
-
-def read_sources(inv: Inventory, audit: dict) -> None:
-    files = sorted(p.name for p in SOURCES.iterdir() if p.is_file())
-    audit['files'] = [(n, sha(SOURCES / n)) for n in files]
-    books = {n: openpyxl.load_workbook(SOURCES / n) for n in files if n.endswith('.xlsx')}
-    sigs = {n: book_signature(wb) for n, wb in books.items()}
-    audit['identical'] = [n for n in COPY_GROUP if sigs.get(n) == sigs[COPY_GROUP[0]]]
-    audit['not_identical'] = [n for n in COPY_GROUP if n in sigs and sigs[n] != sigs[COPY_GROUP[0]]]
-    primary = books[COPY_GROUP[0]]
-
-    # MyWriting (2): every sheet it shares with MyWriting must match, otherwise read it too.
-    partial = books.get(PARTIAL_COPY)
-    audit['partial'] = []
-    extra_sheets = []
-    if partial:
-        for ws in partial.worksheets:
-            same = ws.title in primary.sheetnames and sheet_signature(ws) == sheet_signature(primary[ws.title])
-            audit['partial'].append((ws.title, 'identical to MyWriting.xlsx' if same else 'differs: read separately'))
-            if not same:
-                extra_sheets.append(ws)
-
-    # Google results list.
-    gws = books[GOOGLE_BOOK].active
-    gcells = [(c.coordinate, cell_text(c.value), c.hyperlink.target if c.hyperlink else '')
-              for row in gws.iter_rows() for c in row[:1] if c.value is not None]
-    same_as_sheet = [t for _, t, _ in gcells] == [cell_text(r[0].value) for r in primary['NimDvirArticle'].iter_rows() if r[0].value is not None]
-    audit['google'] = {
-        'cells': len(gcells), 'links': sum(1 for *_, l in gcells if l),
-        'distinct': len({l for *_, l in gcells if l}),
-        'same_as_sheet': same_as_sheet,
-        'formulas': [f'{c.coordinate}: {c.value}' for row in gws.iter_rows() for c in row
-                     if isinstance(c.value, str) and c.value.startswith('=')],
-    }
-    audit['noise'] = read_google(inv, gcells, f'{GOOGLE_BOOK}!{gws.title}')
-
-    # The CSV export of the same list lost its links. Report any line the workbook lacks.
-    with open(SOURCES / GOOGLE_CSV, encoding='utf-8-sig', newline='') as f:
-        csv_lines = [r[0].strip() for r in csv.reader(f) if r and r[0].strip()]
-    book_text = {t for _, t, _ in gcells}
-    audit['google_csv'] = {'lines': len(csv_lines), 'missing_from_book': [l for l in csv_lines if l not in book_text]}
-    for line in audit['google_csv']['missing_from_book']:
-        inv.add(f'{GOOGLE_CSV}', '', title_he=line, status='needs checking',
-                notes='Only in the CSV export; no link.', type='unknown')
-
-    # Sheet12: "Hebrew / English" titles with URLs, journalism and academic.
-    for row in primary['Sheet12'].iter_rows(min_row=2):
-        title, source, link = cell_text(row[1].value), cell_text(row[2].value), cell_text(row[3].value)
-        if not link:
-            continue
-        he, _, en = title.partition(' / ')
-        if not re.search(r'[֐-׿]', he):
-            he, en = '', title
-        origin = f'MyWriting.xlsx!Sheet12!{row[1].coordinate}'
-        if source in ('Google Scholar', 'SSRN', 'arXiv', 'ScienceDirect'):
-            inv.add(origin, link, title_en=en, status='skip', type='other',
-                    notes='Academic publication; handled by the publications collection.')
-        elif source == 'Jewish Journal':
-            inv.add(origin, link, title_en=en, status='skip', type='column', notes='Written in English; no translation needed.')
-        else:
-            inv.add(origin, link, title_he=he.strip(), title_en=en.strip(), status='not started',
-                    type=classify(he, '', ''), publication=source if source != 'ynet' else '')
-
-    # Sheet15: finished English translations.
-    for row in primary['Sheet15'].iter_rows(min_row=2):
-        link = cell_text(row[2].value)
-        if link:
-            inv.add(f'MyWriting.xlsx!Sheet15!{row[0].coordinate}', link, title_he=cell_text(row[1].value),
-                    type='interview', notes='English translation exists in MyWriting.xlsx Sheet15.')
-
-    # Sheet17 (CSV text in cells) and its CSV twin.
-    sheet17 = '\n'.join(cell_text(r[0].value) for r in primary['Sheet17'].iter_rows() if r[0].value is not None)
-    with open(SOURCES / SHEET17_CSV, encoding='utf-8-sig', newline='') as f:
-        # A one-column export of the sheet: each line is one cell holding CSV text.
-        csv17 = '\n'.join(r[0] for r in csv.reader(f) if r)
-    rows17 = parse_sheet17(sheet17)
-    rows_csv = parse_sheet17(csv17)
-    audit['sheet17'] = {'sheet_rows': len(rows17), 'csv_rows': len(rows_csv),
-                        'only_in_csv': [r['url'] for r in rows_csv if r['url'] not in {x['url'] for x in rows17}]}
-    for i, r in enumerate(rows17 + [r for r in rows_csv if r['url'] in audit['sheet17']['only_in_csv']], 2):
-        origin = f'MyWriting.xlsx!Sheet17!A{i}' if i - 2 < len(rows17) else f'{SHEET17_CSV}!{r["url"]}'
-        url, desc, title = r['url'].strip(), r['short_description'], r['title'].strip()
-        pub = publication(url)
-        if pub in ('Apple Podcasts', 'Spotify'):
-            inv.skipped.append((origin, url, 'podcast appearance, not writing'))
-            continue
-        he = title if re.search(r'[֐-׿]', title) and 'to verify' not in title else ''
-        if 'response article by' in desc:
-            inv.add(origin, url, title_he=he, status='not my writing', notes='Response to Nim\'s article, written by Yuval Ganor.')
-        elif pub in ('Ynet', 'Xnet', 'nrg'):
-            note = 'Article about Nim\'s encounter with Sacha Baron Cohen; byline needs checking.' if 'Dictator' in desc else ''
-            status = 'needs checking' if note else ''  # a placeholder title says nothing about authorship
-            inv.add(origin, url, title_he=he, date=parse_date(r['date']), status=status, notes=note)
-        else:
-            inv.add(origin, url, title_he=he, title_en='' if he else title, date=parse_date(r['date']),
-                    status='not my writing', notes='Coverage about Nim, not written by him.')
-
-    # NimDvirGemini: suspicious sequential IDs.
-    for row in primary['NimDvirGemini'].iter_rows(min_row=2):
-        link, title = cell_text(row[0].value), cell_text(row[1].value).strip('"')
-        if link:
-            inv.add(f'MyWriting.xlsx!NimDvirGemini!{row[0].coordinate}', link, title_he=title, status='needs checking',
-                    type=classify(title, '', ''),
-                    notes='Suspicious: sequential IDs from an AI-generated sheet. Open in a browser before trusting.')
-
-    # wiki-2: titles cited on Wikipedia, plus direct links.
-    for row in primary['wiki-2'].iter_rows(min_row=2):
-        headline, link = cell_text(row[0].value), cell_text(row[1].value)
-        if not headline and not link:
-            continue
-        origin = f'MyWriting.xlsx!wiki-2!{row[0].coordinate}'
-        host = urlsplit(link).netloc.lower()
-        if 'wikipedia.org' in host:
-            inv.add(origin, '', title_he=headline, type=classify(headline, '', ''), status='needs checking',
-                    notes=f'Title cited on Hebrew Wikipedia ({link}); no article link yet. Punctuation may be scrambled.')
-            continue
-        pub = publication(link)
-        if pub in ('Entertainment Weekly', 'Vulture', 'Nana10', 'Varig in London'):
-            inv.add(origin, link, title_en=headline, status='not my writing', notes='Coverage about Nim, not written by him.')
-        elif pub == 'Nim Dvir blog':
-            inv.add(origin, link, title_en=headline, status='skip', notes='English post on Nim\'s blog; no translation needed.')
-        else:
-            unverified = 'not yet verified' in headline or 'supplied by user' in headline
-            he = '' if unverified or not re.search(r'[֐-׿]', headline) else headline
-            inv.add(origin, link, title_he=he, title_en='' if he or unverified else headline,
-                    type=classify(he, '', ''), status='' if unverified or not he else 'not started')
-
-    for ws in extra_sheets:
-        audit.setdefault('extra', []).append(ws.title)
-
-    audit['sheets'] = [(ws.title, ws.max_row, SHEET_ROLES.get(ws.title, 'unmapped: review')) for ws in primary.worksheets]
-
-
-def read_pages(inv: Inventory) -> None:
-    for path in sorted(PAGES.glob('*.md')):
-        front = path.read_text(encoding='utf-8').split('---')[1]
-        meta = {}
-        for line in front.splitlines():
-            m = re.match(r'(\w+):\s*(.*)$', line)
-            if m:
-                meta[m.group(1)] = m.group(2).strip().strip('"\'')
-        d = re.match(r'(\w{3}) (\d{1,2}), (\d{4})', meta.get('date', ''))
-        date = f'{d.group(3)}-{ENGLISH_MONTHS[d.group(1)]:02d}-{int(d.group(2)):02d}' if d else ''
+def read_published(inv):
+    for path in sorted(INTERVIEWS.glob("*.md")):
+        data = frontmatter(path)
+        date = dt.datetime.strptime(data["date"], "%b %d, %Y").date().isoformat()
         rel = path.relative_to(ROOT).as_posix()
-        inv.add(rel, meta['sourceUrl'], title_en=meta.get('title', ''), interviewee=meta.get('interviewee', ''),
-                date=date, type='interview', status='published', page=rel, images='on Cloudinary',
-                publication=meta.get('source', ''))
-        rec = inv.by_identity[identity(meta['sourceUrl'])]
-        rec['interviewee'] = meta.get('interviewee', '')  # the published page is authoritative
-        rec['type'] = 'interview'
-        rec['title_en'] = meta.get('title', '')
-        rec['date'] = date or rec['date']
+        inv.add("Published interviews", rel, url=data["sourceUrl"], date=date, kind="interview",
+                interviewee=data["interviewee"], status="published", english=data["title"],
+                page_path=rel, images="on Cloudinary", publication_name=data.get("source", ""))
 
 
-def finish(inv: Inventory) -> None:
-    for rec in inv.records:
-        if not rec.get('type'):
-            rec['type'] = classify(rec.get('title_he', ''), rec.get('snippet', ''), '')
-        if rec['type'] == 'interview' and not rec.get('interviewee'):
-            rec['interviewee'] = interviewee_from(rec.get('title_he', '')) or 'unknown'
-            if rec['interviewee'] == 'unknown' and rec['status'] == 'not started':
-                rec['status'] = 'needs checking'
-                rec['notes'] = (rec['notes'] + ' Interviewee not clear from the title.').strip()
-        if not rec.get('status') or (rec['status'] == 'not started' and not rec['url']):
-            rec['status'] = 'needs checking'
-        note = KNOWN_NOTES.get(identity(rec['url'])) if rec['url'] else None
-        if note and note not in rec['notes']:
-            rec['notes'] = (rec['notes'] + ' ' + note).strip()
-            rec['status'] = stronger(rec['status'], 'needs checking')
-
-    # Possible duplicates: same normalized title, never merged automatically.
-    groups = defaultdict(list)
-    for rec in inv.records:
-        key = norm_title(rec.get('title_he') or rec.get('title_en') or '')
-        if len(key) >= 4:
-            groups[key].append(rec)
-    # Two different Ynet article IDs are two different articles, even with the same title.
-    inv.dupes = []
-    for g in groups.values():
-        flagged = [r for r in g if any(o is not r and not both_ynet(r, o) for o in g)]
-        if len(flagged) > 1:
-            inv.dupes.append(flagged)
+def read_sheet15(inv, wb):
+    for row in wb["Sheet15"].iter_rows(min_row=2):
+        cell = row[2]
+        url = cell.hyperlink.target if cell.hyperlink else cell.value
+        if not url:
+            continue
+        found = f"{MAIN_BOOK}!Sheet15!{cell.coordinate}"
+        if article_key(url) in inv.by_key:
+            inv.add("Sheet15", found, url=url, title=row[1].value)
+        else:
+            inv.add("Sheet15", found, url=url, title=row[1].value, kind="interview",
+                    interviewee=str(row[0].value).strip())
 
 
-def both_ynet(a: dict, b: dict) -> bool:
-    return all(r['url'] and identity(r['url']).startswith('ynet:') for r in (a, b))
+def google_target(url):
+    m = re.search(r"[?&]q=([^&]+)", url)
+    return m.group(1) if m else ""
 
 
-def to_row(rec: dict, rid: str) -> dict:
+def read_search_results(inv):
+    """NimDvirArticles.xlsx: a linked title row, then a breadcrumb row and a snippet row."""
+    ws = openpyxl.load_workbook(SOURCES / ARTICLES_BOOK).active
+    csv_lines = {}
+    with open(SOURCES / ARTICLES_CSV, encoding="utf-8-sig", newline="") as handle:
+        reader = csv.reader(handle)
+        for record in reader:
+            if record:
+                csv_lines.setdefault(record[0], f"{ARTICLES_CSV}!line {reader.line_num}")
+
+    records, current, loose = [], None, []
+    for r in range(1, ws.max_row + 1):
+        cell = ws.cell(r, 1)
+        value = str(cell.value or "").strip()
+        if not value:
+            continue
+        link = cell.hyperlink.target if cell.hyperlink else ""
+        if link:
+            if current and value.startswith("http") and link == current["link"]:
+                continue  # the same link repeated as plain text
+            title = value
+            if value.startswith("http") and loose:
+                title = loose[-1][1]  # title sits on its own row above a bare link
+            current = {"cell": cell.coordinate, "link": link, "title": title, "text": value,
+                       "section": "", "snippet": ""}
+            records.append(current)
+            loose = []
+        elif current and not current["section"] and "›" in value:
+            current["section"] = value
+        elif current and not current["snippet"]:
+            current["snippet"] = value
+        else:
+            loose.append((cell.coordinate, value))  # e.g. a results count, or a title on its own row
+
+    for rec in records:
+        url, notes = rec["link"], []
+        found = f"{ARTICLES_BOOK}!{rec['cell']}"
+        if domain(url) == "www.google.com":
+            url = google_target(url)
+            notes.append("link taken from a Google redirect")
+        if not is_article_url(url):
+            inv.exclude(ARTICLES_BOOK, rec["cell"], rec["title"], rec["link"], "Ynet topic page, not an article")
+            continue
+        kind, who = classify(rec["title"], rec["snippet"], rec["section"])
+        row = inv.add(ARTICLES_BOOK, found, url=url, title=rec["title"], kind=kind, interviewee=who,
+                      date=hebrew_date(rec["snippet"]), notes=notes)
+        for text in (rec["text"], rec["section"], rec["snippet"]):
+            if text in csv_lines and csv_lines[text] not in row["found_in"]:
+                row["found_in"].append(csv_lines[text])
+                break
+    return len(records)
+
+
+def read_sheet12(inv, wb):
+    for row in wb["Sheet12"].iter_rows(min_row=2):
+        cell = row[3]
+        url = cell.hyperlink.target if cell.hyperlink else cell.value
+        if not url:
+            continue
+        title = str(row[1].value or "")
+        hebrew = title.split(" / ")[0] if " / " in title else title
+        location = f"Sheet12!{cell.coordinate}"
+        if domain(url) in ACADEMIC_DOMAINS:
+            inv.exclude(MAIN_BOOK, location, title, url, "academic publication (belongs to the publications collection)")
+            continue
+        notes = []
+        if "prtfl.co.il" in url:
+            notes.append("may be a reading list that mentions Nim rather than his own piece")
+        kind, who = classify(hebrew)
+        r = inv.add("Sheet12", f"{MAIN_BOOK}!{location}", url=url, title=hebrew, kind=kind,
+                    interviewee=who, notes=notes)
+        if notes:
+            r["status"] = "needs checking"
+
+
+def wiki_page(url):
+    if domain(url) != "he.wikipedia.org" or "/wiki/" not in url:
+        return None
+    return urllib.parse.unquote(url.split("/wiki/", 1)[1]).replace("_", " ")
+
+
+def citation_by_nim(cite):
+    if cite["kind"] != "template" or not cite.get("url"):
+        return False
+    params = cite["params"]
+    if cite["name"] == "הערה":
+        body = "|".join(p for p in params if not p.startswith("שם="))
+        body = re.sub(r"^1=", "", body)
+        return body.split("[", 1)[0].strip().startswith(AUTHOR)
+    if any(re.match(r"(הכותב|מחבר|כותב|author)\s*=", p) for p in params):
+        return any(re.match(r"(הכותב|מחבר|כותב|author)\s*=.*דביר", p) for p in params)
+    return bool(params) and "דביר" in params[0]
+
+
+def citation_fields(cite):
+    params = cite["params"]
+    named = dict(p.split("=", 1) for p in params if re.match(r"^[^=\[{]+=", p))
+    if cite["name"] == "הערה":
+        return clean_title(cite.get("label")), hebrew_date(cite["raw"])
+    if "כותרת" in named:
+        return clean_title(named["כותרת"]), hebrew_date(named.get("תאריך", ""))
+    title = params[1] if len(params) > 1 else cite.get("label")
+    date = params[3] if len(params) > 3 else ""
+    return clean_title(title), hebrew_date(date)
+
+
+def add_citation(inv, source, page, cite, found_in, extra_notes=()):
+    title, date = citation_fields(cite)
+    kind, who = classify(title)
+    notes = [f"link from {{{{{cite['name']}}}}} citation on he.wikipedia: {page}", *extra_notes]
+    return inv.add(source, found_in, url=cite["url"], title=title, date=date, kind=kind,
+                   interviewee=who, notes=notes)
+
+
+def best_citation(title, cites):
+    if len(cites) == 1:
+        return cites[0]
+    wanted = set(re.findall(r"\w+", clean_title(title)))
+    scored = []
+    for cite in cites:
+        words = set(re.findall(r"\w+", citation_fields(cite)[0]))
+        scored.append((len(wanted & words) / max(len(wanted), 1), cite))
+    scored.sort(key=lambda pair: -pair[0])
+    return scored[0][1] if scored and scored[0][0] >= 0.5 else None
+
+
+def read_wiki2(inv, wb, cache):
+    used = set()
+    for row in wb["wiki-2"].iter_rows(min_row=2):
+        cell = row[1]
+        url = cell.hyperlink.target if cell.hyperlink else cell.value
+        if not url:
+            continue
+        headline = str(row[0].value or "").strip()
+        location = f"wiki-2!{cell.coordinate}"
+        found = f"{MAIN_BOOK}!{location}"
+        d = domain(url)
+        page = wiki_page(url)
+        if page:
+            entry = cache["pages"].get(page, {})
+            cites = [c for c in entry.get("citations", []) if citation_by_nim(c)]
+            cite = best_citation(headline, cites)
+            if cite:
+                used.add((page, cite["raw"]))
+                add_citation(inv, "wiki-2", page, cite, found)
+            else:
+                reason = entry.get("error") and f"page not found ({entry['error']})" or "no citation by Nim matched the headline"
+                kind, who = classify(headline)
+                r = inv.add("wiki-2", found, title=headline.strip(","), kind=kind, interviewee=who,
+                            notes=[f"no article link: he.wikipedia {page}: {reason}"], status="needs checking")
+            continue
+        if d in COVERAGE_DOMAINS:
+            inv.exclude(MAIN_BOOK, location, headline, url, "coverage about Nim, not his writing")
+            continue
+        if not is_article_url(url):
+            if re.search(r"label|archive|tag", headline, re.I) or "/search/label/" in url or "/archives/tag/" in url:
+                inv.exclude(MAIN_BOOK, location, headline, url, "archive, label or tag page, not an article")
+                continue
+            kind, who = classify(headline)
+            inv.add("wiki-2", found, title=headline, kind=kind, interviewee=who, status="needs checking",
+                    notes=[f"listed with a section page, not an article link: {url}"])
+            continue
+        placeholder = "not yet verified" in headline
+        kind, who = classify("" if placeholder else headline)
+        notes = ["headline not verified in source sheet"] if placeholder else []
+        if d == "nimdvir.blogspot.com":
+            notes.append("English post on Nim's blog")
+        inv.add("wiki-2", found, url=url, title="" if placeholder else headline, kind=kind,
+                interviewee=who, date=url_date(url), notes=notes)
+    return used
+
+
+def read_remaining_citations(inv, cache, used):
+    for page in sorted(cache["pages"]):
+        for cite in cache["pages"][page].get("citations", []):
+            if (page, cite["raw"]) in used:
+                continue
+            if not citation_by_nim(cite):
+                if cite.get("url"):
+                    inv.exclude("he.wikipedia", page, cite.get("label"), cite["url"],
+                                "citation does not name Nim as author (coverage about him)")
+                continue
+            used.add((page, cite["raw"]))
+            add_citation(inv, "Wikipedia citations", page, cite, f"he.wikipedia:{page}")
+
+
+def read_press_csv(inv):
+    """Sheet17.csv: each line is one quoted field holding a whole CSV row."""
+    with open(SOURCES / PRESS_CSV, encoding="utf-8-sig", newline="") as handle:
+        outer = [(n, r[0]) for n, r in enumerate(csv.reader(handle), start=1) if r]
+    for number, inner in outer[1:]:
+        fields = next(csv.reader([inner]))
+        # One headline holds an unquoted comma; the last three fields are always description, url, date.
+        title, (description, url, date) = ",".join(fields[:-3]), fields[-3:]
+        location = f"line {number}"
+        found = f"{PRESS_CSV}!{location}"
+        d = domain(url)
+        if d in COVERAGE_DOMAINS and "to verify" in title:
+            inv.exclude(PRESS_CSV, location, title, url, "unverified Walla Branja item; Branja is media-industry "
+                        "news, so probably about Nim rather than by him. Check by hand.")
+            continue
+        if d in COVERAGE_DOMAINS:
+            inv.exclude(PRESS_CSV, location, title, url, f"coverage or appearance, not Nim's writing: {description}")
+            continue
+        doubt = re.search(r"about Nimrod Dvir|response article by", description)
+        placeholder = "to verify" in title
+        key = article_key(url)
+        notes = [f"Sheet17.csv says: {description}"] if doubt else []
+        if key in inv.by_key:
+            row = inv.add("Sheet17.csv", found, url=url, notes=notes)
+            if doubt:
+                row["status"] = "needs checking"
+            continue
+        kind, who = classify("" if placeholder else title)
+        row = inv.add("Sheet17.csv", found, url=url, title="" if placeholder else title, kind=kind,
+                      interviewee=who, date=hebrew_date(date) or (date[:10] if re.match(r"\d{4}-\d{2}", date) else ""),
+                      notes=notes + (["headline and date not verified in source sheet"] if placeholder else []))
+        if doubt:
+            row["status"] = "needs checking"
+
+
+def attach_captures(inv):
+    """PDF captures already saved next to the spreadsheets."""
+    for pdf in sorted(SOURCES.glob("*.pdf")):
+        rel = pdf.relative_to(ROOT).as_posix()
+        key = article_key("https://" + pdf.stem.replace("_", "/"))
+        row = inv.by_key.get(key)
+        if not row:
+            wanted = normal_title(pdf.stem)
+            row = next((r for r in inv.rows if r["title"] and normal_title(r["title"]) == wanted), None)
+        if row:
+            row["html_path"] = rel
+            row["notes"].append("original saved as PDF")
+            if row["status"] in ("", "not started"):
+                row["status"] = "captured"
+
+
+def finish(inv):
+    """Default statuses, interviewee checks and possible-duplicate notes."""
+    for row in inv.rows:
+        if row["type"] == "interview" and not row["interviewee"]:
+            row["interviewee"] = "unknown"
+        if not row["status"]:
+            missing = not row["url"] or not row["title"] or row["interviewee"] == "unknown"
+            row["status"] = "needs checking" if missing else "not started"
+        if row["status"] == "published" and len(row["found_in"]) == 1:
+            row["notes"].append("site sourceUrl not found in any source list")
+
+
+def flag_duplicates(rows):
+    seen_titles, seen_dates = {}, {}
+    for row in rows:
+        title = normal_title(row["title"])
+        if title:
+            for other in seen_titles.get(title, []):
+                if not row["date"] or not other["date"] or row["date"] == other["date"]:
+                    note = f"possible duplicate of {other['id']}"
+                    if note not in row["notes"]:
+                        row["notes"].append(note)
+            seen_titles.setdefault(title, []).append(row)
+        if row["type"] == "interview" and len(row["date"]) == 10:
+            for other in seen_dates.get(row["date"], []):
+                note = f"possible duplicate of {other['id']} (same date, both interviews)"
+                if f"possible duplicate of {other['id']}" not in " ".join(row["notes"]):
+                    row["notes"].append(note)
+            seen_dates.setdefault(row["date"], []).append(row)
+
+
+# ---------------------------------------------------------------- output
+
+def to_csv_row(row):
     return {
-        'ID': rid, 'Translate?': 'No', 'Priority': '', 'Status': rec['status'], 'Type': rec['type'],
-        'Interviewee': rec.get('interviewee', '') if rec['type'] == 'interview' else rec.get('interviewee', ''),
-        'Title (Hebrew)': rec.get('title_he', ''), 'Title (English)': rec.get('title_en', ''),
-        'Publication': rec.get('publication', ''), 'Date': rec.get('date', ''), 'Original URL': rec['url'],
-        'Images': rec.get('images', ''), 'Original HTML Path': '', 'Translation Path': '',
-        'Page Path': rec.get('page', ''), 'Found In': '; '.join(dict.fromkeys(rec['origins'])),
-        'Notes': rec.get('notes', ''),
+        "ID": row["id"], "Translate?": "No", "Priority": "", "Status": row["status"],
+        "Type": row["type"], "Interviewee": row["interviewee"], "Title (Hebrew)": row["title"],
+        "Title (English)": row["english"], "Publication": row["publication"], "Date": row["date"],
+        "Original URL": row["url"], "Images": row["images"], "Original HTML Path": row["html_path"],
+        "Translation Path": "", "Page Path": row["page_path"],
+        "Found In": "; ".join(row["found_in"]), "Notes": "; ".join(row["notes"]),
     }
 
 
-def row_key(row: dict) -> str:
-    return identity(row['Original URL']) if row['Original URL'] else 'origin:' + row['Found In'].split('; ')[0]
+def existing_key(row):
+    if row["Original URL"]:
+        return article_key(row["Original URL"])
+    return "noref:" + row["Found In"].split("; ")[0]
 
 
-def merge(inv: Inventory) -> list[dict]:
-    existing = []
-    if CSV_PATH.exists():
-        with open(CSV_PATH, encoding='utf-8-sig', newline='') as f:
-            existing = list(csv.DictReader(f))
-    by_key = {row_key(r): r for r in existing}
-    next_id = max([int(r['ID'][1:]) for r in existing] or [0]) + 1
+def write_if_changed(path, text, encoding="utf-8"):
+    data = text.encode(encoding)
+    if path.exists() and path.read_bytes() == data:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(data)
+    return True
 
-    def order(rec):
-        return (0 if rec.get('date') else 1, rec.get('date', ''), rec['origins'][0])
 
-    # Duplicate notes need IDs, so assign IDs first.
-    ids = {}
-    for rec in sorted(inv.records, key=order):
-        fresh = to_row(rec, '')
-        old = by_key.get(row_key(fresh))
-        if old:
-            ids[id(rec)] = old['ID']
+def csv_text(rows):
+    buffer = io.StringIO()
+    writer = csv.DictWriter(buffer, fieldnames=COLUMNS, lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(rows)
+    return buffer.getvalue()
+
+
+def sheet_dump(ws):
+    return [(c.coordinate, c.value, c.hyperlink.target if c.hyperlink else None)
+            for row in ws.iter_rows() for c in row if c.value is not None]
+
+
+def nonempty_rows(ws):
+    return sum(1 for row in ws.iter_rows() if any(c.value is not None for c in row))
+
+
+def audit_text(inv, wb, copies_report, final_rows, search_records, wiki_cache):
+    lines = ["# Writing inventory audit", "",
+             "Generated by `scripts/writing/build_inventory.py`. It records where each row of "
+             "`data-source/writing/articles.csv` came from and what was left out, and why. "
+             "No source file was moved or changed.", "",
+             "## Source files", "", "| File | SHA-256 | Notes |", "| --- | --- | --- |"]
+    for path in sorted(SOURCES.iterdir()):
+        if path.is_file():
+            lines.append(f"| `{path.name}` | `{sha256(path)[:16]}…` | {copies_report.get(path.name, '')} |")
+    lines += ["", "Hashes differ between the workbook copies because each file was saved separately; "
+              "the comparison above is of every sheet's cell values and hyperlinks.", ""]
+
+    lines += ["## What each source contributed", "", "| Source | New rows | Merged into an existing row |",
+              "| --- | --- | --- |"]
+    for source, (new, merged) in inv.contrib.items():
+        lines.append(f"| {source} | {new} | {merged} |")
+    lines += ["", f"`{ARTICLES_BOOK}` holds {search_records} linked search results (some repeat). "
+              f"`{ARTICLES_CSV}` is a text export of the same column: every line matches the xlsx, so it "
+              "added no rows; its line numbers are recorded in Found In.", ""]
+
+    lines += ["## Sheets left out", "", "| Sheet | Non-empty rows | Reason |", "| --- | --- | --- |"]
+    for sheet, reason in AI_SAMPLE_SHEETS.items():
+        lines.append(f"| {sheet} | {nonempty_rows(wb[sheet])} | {reason} |")
+    lines.append(f"| NimDvirGemini | {nonempty_rows(wb['NimDvirGemini']) - 1} | AI-generated list: Israel Hayom "
+                 "article IDs run in steps of 2 (768051, 768053...). Israel Hayom blocks automated checks, "
+                 "so these were not verified. Listed below for a manual check. |")
+    lines.append(f"| wiki | {nonempty_rows(wb['wiki']) - 1} | Hebrew Wikipedia pages that mention Nim. Used only "
+                 "to find citations of his articles. |")
+    lines.append(f"| wikipedia | {nonempty_rows(wb['wikipedia'])} | Wikipedia search results (page, snippet, "
+                 "size). Used only to find citations of his articles. |")
+    lines.append(f"| Sheet17 | {nonempty_rows(wb['Sheet17'])} | Same content as `{PRESS_CSV}`, which was read instead. |")
+    lines += ["", "### NimDvirGemini URLs to check by hand", ""]
+    for row in wb["NimDvirGemini"].iter_rows(min_row=2):
+        if row[0].value:
+            lines.append(f"- {row[0].value} {clean_title(row[1].value)}")
+
+    lines += ["", "## Items left out of other sheets", "", "| Source | Where | Title | URL | Reason |",
+              "| --- | --- | --- | --- | --- |"]
+    for source, where, title, url, reason in inv.excluded:
+        lines.append(f"| {source} | {where} | {title.replace('|', '/')} | {url} | {reason} |")
+
+    pages = wiki_cache["pages"]
+    cites = [c for p in pages.values() for c in p.get("citations", [])]
+    errors = {t: p["error"] for t, p in pages.items() if "error" in p}
+    from_wiki = sum(1 for r in final_rows if "he.wikipedia" in r["Notes"] and r["Original URL"])
+    lines += ["", "## Wikipedia citations", "",
+              f"- Pages read: {len(pages)}. Citations naming Dvir: {len(cites)}. "
+              f"Counted as Nim's (Dvir named as author): {sum(1 for c in cites if citation_by_nim(c))}.",
+              f"- Rows whose article link came from a Wikipedia citation: {from_wiki}.",
+              "- The Wikipedia page itself is never used as an article URL. Links were rendered by "
+              "Wikipedia's own citation templates (`action=expandtemplates`)."]
+    for title, error in sorted(errors.items()):
+        lines.append(f"- Page not found: {title} ({error}). The link in the sheet is probably misspelled.")
+
+    dup = [r for r in final_rows if "possible duplicate" in r["Notes"]]
+    lines += ["", "## Possible duplicates (not merged)", ""]
+    for r in dup:
+        lines.append(f"- {r['ID']} {r['Title (Hebrew)'] or r['Title (English)']}: "
+                     + "; ".join(n for n in r["Notes"].split("; ") if "possible duplicate" in n))
+    lines += ["", "## Known issues", "",
+              "- The Michael Fassbender page on the site uses `L-4478269` as its source. That ID is in no "
+              "source list. Hebrew Wikipedia and wiki-2 cite the same headline and date as `L-4478514`. "
+              "Check which link is right before changing the page.",
+              "- Julia Louis-Dreyfus \"חזרתי\" appears under two Israel Hayom IDs (645081 and the magazine "
+              "URL 9387288). They are kept as two rows.",
+              "- Matching rule: two rows are one article only when they share a publisher article ID "
+              "(Ynet `L-n` and `/article/n` are the same ID) or the same URL. URLs are compared with "
+              "percent-escapes in one case; stored URLs are left exactly as found.", ""]
+
+    counts = {}
+    for r in final_rows:
+        counts.setdefault(r["Status"], 0)
+        counts[r["Status"]] += 1
+    lines += ["## Totals", "", f"- Rows: {len(final_rows)}",
+              f"- With an Original URL: {sum(1 for r in final_rows if r['Original URL'])}"]
+    for status in STATUSES:
+        if counts.get(status):
+            lines.append(f"- Status {status}: {counts[status]}")
+    for kind in TYPES:
+        n = sum(1 for r in final_rows if r["Type"] == kind)
+        if n:
+            lines.append(f"- Type {kind}: {n}")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def main():
+    sys.stdout.reconfigure(encoding="utf-8")
+    wb = openpyxl.load_workbook(SOURCES / MAIN_BOOK)
+    reference = {ws.title: sheet_dump(ws) for ws in wb.worksheets}
+
+    copies_report = {MAIN_BOOK: f"read; {len(wb.worksheets)} sheets"}
+    for name in COPIES + [SMALL_COPY]:
+        other = openpyxl.load_workbook(SOURCES / name)
+        same = all(sheet_dump(ws) == reference.get(ws.title) for ws in other.worksheets)
+        all_sheets = {ws.title for ws in other.worksheets} == set(reference)
+        if same and all_sheets:
+            copies_report[name] = f"identical to {MAIN_BOOK} (all {len(other.worksheets)} sheets)"
+        elif same:
+            copies_report[name] = f"{len(other.worksheets)} sheets, each identical to {MAIN_BOOK}; adds nothing"
         else:
-            ids[id(rec)] = f'W{next_id:03d}'
-            next_id += 1
-    for group in inv.dupes:
-        for rec in group:
-            others = ', '.join(sorted(ids[id(o)] for o in group if o is not rec and not both_ynet(rec, o)))
-            rec['notes'] = (rec['notes'] + f' Possible duplicate of {others}.').strip()
+            raise SystemExit(f"{name} differs from {MAIN_BOOK}; review it before building")
+    copies_report[ARTICLES_BOOK] = "read; column A matches the NimDvirArticle sheet, column B holds one stray formula"
+    copies_report[ARTICLES_CSV] = "read; text export of the same list, links lost"
+    copies_report[PRESS_CSV] = "read; press coverage and appearances"
 
-    rows = {r['ID']: r for r in existing}
-    for rec in inv.records:
-        fresh = to_row(rec, ids[id(rec)])
-        old = rows.get(fresh['ID'])
-        if old:
-            for col in COLUMNS:  # fill empty cells only; never overwrite
-                if not old.get(col) and fresh[col]:
-                    old[col] = fresh[col]
-        else:
-            rows[fresh['ID']] = fresh
-    return [rows[k] for k in sorted(rows, key=lambda x: int(x[1:]))]
+    cache = json.loads(CITATIONS.read_text(encoding="utf-8")) if CITATIONS.exists() else {"pages": {}}
+    if not cache["pages"]:
+        print("warning: no Wikipedia citation cache; run fetch_wikipedia_citations.py first")
 
-
-def write_csv(rows: list[dict]) -> None:
-    CSV_PATH.parent.mkdir(parents=True, exist_ok=True)
-    buf = io.StringIO()
-    w = csv.DictWriter(buf, fieldnames=COLUMNS, lineterminator='\n')
-    w.writeheader()
-    w.writerows({c: r.get(c, '') for c in COLUMNS} for r in rows)
-    CSV_PATH.write_text(buf.getvalue(), encoding='utf-8-sig', newline='')
-
-
-def write_audit(inv: Inventory, audit: dict, rows: list[dict]) -> None:
-    L = ['# Article inventory audit', '',
-         'Generated by `python scripts/writing/build_inventory.py`. Do not edit by hand; rerun the script.', '',
-         '## Source files', '', '| File | SHA-256 (first 16) |', '| --- | --- |']
-    L += [f'| `{n}` | `{h[:16]}` |' for n, h in audit['files']]
-    L += ['', '## Copies', '',
-          f'These workbooks have identical sheets, cell values, and hyperlinks (file bytes differ): '
-          f'{", ".join(f"`{n}`" for n in audit["identical"])}. Only `{COPY_GROUP[0]}` is read.']
-    if audit['not_identical']:
-        L.append(f'Not identical, needs review: {", ".join(audit["not_identical"])}.')
-    L += ['', f'`{PARTIAL_COPY}`, sheet by sheet:', '']
-    L += [f'- {t}: {s}' for t, s in audit['partial']]
-    if audit.get('extra'):
-        L.append(f'- Sheets that differ and were NOT imported automatically: {", ".join(audit["extra"])}. Review them.')
-    g = audit['google']
-    L += ['', f'## `{GOOGLE_BOOK}`', '',
-          f'- {g["cells"]} nonempty cells, {g["links"]} hyperlinks, {g["distinct"]} distinct targets.',
-          f'- Same text as the `NimDvirArticle` sheet in `{COPY_GROUP[0]}`: {"yes" if g["same_as_sheet"] else "NO"}.',
-          f'- Formulas: {"; ".join(g["formulas"]) or "none"} (refers to the link already read from A1).']
-    L += [f'- Ignored: {n}' for n in audit['noise']]
-    c = audit['google_csv']
-    L += [f'- `{GOOGLE_CSV}`: {c["lines"]} lines, links lost in export. Lines not in the workbook: '
-          f'{len(c["missing_from_book"])}.']
-    s = audit['sheet17']
-    L += ['', '## Sheet17 and its CSV', '',
-          f'- Sheet rows: {s["sheet_rows"]}; `{SHEET17_CSV}` rows: {s["csv_rows"]}; rows only in the CSV: {len(s["only_in_csv"])}.']
-    L += ['', f'## Sheets in `{COPY_GROUP[0]}`', '', '| Sheet | Rows | Handling |', '| --- | ---: | --- |']
-    L += [f'| {t} | {n} | {r} |' for t, n, r in audit['sheets']]
-    L += ['', '## Counts', '', f'Rows in `articles.csv`: {len(rows)}', '', '| Status | Rows |', '| --- | ---: |']
-    sc = Counter(r['Status'] for r in rows)
-    L += [f'| {k} | {sc[k]} |' for k in STATUSES if sc[k]]
-    L += ['', 'Rows that could be translated (not started, needs checking, published):', '', '| Type | Rows |', '| --- | ---: |']
-    tc = Counter(r['Type'] for r in rows if r['Status'] in ('not started', 'needs checking', 'published'))
-    L += [f'| {k} | {tc[k]} |' for k in TYPES if tc[k]]
-    L += ['', f'- With an article link: {sum(1 for r in rows if r["Original URL"])}',
-          f'- Without a link: {sum(1 for r in rows if not r["Original URL"])}',
-          f'- Interviews with interviewee "unknown": {sum(1 for r in rows if r["Type"] == "interview" and r["Interviewee"] == "unknown")}']
-    L += ['', '## Links listed more than one way', '']
-    L += [f'- `{k}`: {", ".join(sorted(v))}' for k, v in sorted(inv.aliases.items())] or ['None.']
-    L += ['', '## Possible duplicates (same title, not merged)', '']
-    id_by_rec = {}
-    for r in rows:
-        id_by_rec[(r['Original URL'], r['Found In'].split('; ')[0])] = r['ID']
-    for group in inv.dupes:
-        ids = [id_by_rec.get((rec['url'], rec['origins'][0]), '?') for rec in group]
-        L.append(f'- {", ".join(sorted(ids))}: {group[0].get("title_he") or group[0].get("title_en")}')
-    L += ['', '## Not imported', '']
-    L += [f'- {o}: {t} ({why})' for o, t, why in inv.skipped] or ['None.']
-    AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    AUDIT_PATH.write_text('\n'.join(L) + '\n', encoding='utf-8', newline='\n')
-
-
-def main() -> None:
-    inv, audit = Inventory(), {}
-    read_sources(inv, audit)
-    read_pages(inv)
+    inv = Inventory()
+    read_published(inv)
+    read_sheet15(inv, wb)
+    search_records = read_search_results(inv)
+    read_sheet12(inv, wb)
+    used = read_wiki2(inv, wb, cache)
+    read_remaining_citations(inv, cache, used)
+    read_press_csv(inv)
+    attach_captures(inv)
     finish(inv)
-    rows = merge(inv)
-    write_csv(rows)
-    write_audit(inv, audit, rows)
-    print(f'{len(rows)} rows written to {CSV_PATH.relative_to(ROOT)}')
-    print(f'Audit written to {AUDIT_PATH.relative_to(ROOT)}')
+
+    existing = []
+    if OUTPUT.exists():
+        with open(OUTPUT, encoding="utf-8-sig", newline="") as handle:
+            existing = list(csv.DictReader(handle))
+    known = {existing_key(r) for r in existing}
+    next_number = max((int(r["ID"][1:]) for r in existing), default=0) + 1
+    new_rows = []
+    for row in inv.rows:
+        if row["key"] in known:
+            continue
+        row["id"] = f"W{next_number:03d}"
+        next_number += 1
+        new_rows.append(row)
+    flag_duplicates([{**r, "id": r["ID"], "title": r["Title (Hebrew)"], "date": r["Date"], "type": r["Type"],
+                      "notes": r["Notes"].split("; ") if r["Notes"] else []} for r in existing] + new_rows)
+
+    final_rows = existing + [to_csv_row(r) for r in new_rows]
+    final_rows.sort(key=lambda r: int(r["ID"][1:]))
+    changed = write_if_changed(OUTPUT, csv_text(final_rows), encoding="utf-8-sig")
+    audit_changed = write_if_changed(AUDIT, audit_text(inv, wb, copies_report, final_rows, search_records, cache))
+
+    print(f"{len(final_rows)} rows ({len(new_rows)} new); articles.csv {'updated' if changed else 'unchanged'}; "
+          f"audit {'updated' if audit_changed else 'unchanged'}")
 
 
-if __name__ == '__main__':
-    sys.stdout.reconfigure(encoding='utf-8')
+if __name__ == "__main__":
     main()

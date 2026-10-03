@@ -35,3 +35,6 @@ website_scraper.ipynb
 migration/staging/
 migration/originals/
 migration/cloudinary-uploads/
+
+# python bytecode
+__pycache__/

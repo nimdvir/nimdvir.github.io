@@ -19,7 +19,13 @@
 
 ## Review and publishing
 
-- Make changes on a feature branch and open a pull request for review.
-- Do not merge or publish to `main` unless Nim explicitly approves publication.
+- Work on main locally and commit; do not push without Nim's explicit approval.
+- Pushing to `main` publishes the site, so publication needs the same explicit approval.
 - Nim explicitly approved publishing PR #37, including the complete designed CV and pending domain/discoverability changes, on October 2, 2026.
 - Build with `npm run build` and check links with `python scripts/verify_site.py`.
+
+## Writing pipeline
+
+- Nim's article list is `data-source/writing/articles.csv`; its columns are explained in `data-source/writing/README.md`.
+- Use the `translate-article` skill in `.agents/skills/translate-article/` to read the queue and record progress.
+- Python dependencies for the scripts in `scripts/writing/` are in `requirements.txt`.
