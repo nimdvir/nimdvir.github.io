@@ -88,7 +88,7 @@ Copy a file from [templates](templates/README.md) into the appropriate content f
 4. Commit and push the feature branch; open a pull request for Nim’s review.
 5. Merge into `main` only after approval. The existing GitHub Pages workflow then deploys it.
 
-The historical `npm run deploy` command pushes `main`. Do not use it for review work.
+Pull requests run the build and both verifiers automatically. Production deploys only from `main`.
 
 ## Content boundaries
 

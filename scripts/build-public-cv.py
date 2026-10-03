@@ -21,7 +21,7 @@ FONT=Path(reportlab.__file__).parent/'fonts'
 for name,file in [('CV','Vera.ttf'),('CV-Bold','VeraBd.ttf'),('CV-Italic','VeraIt.ttf'),('CV-BoldItalic','VeraBI.ttf')]:
     pdfmetrics.registerFont(TTFont(name,str(FONT/file)))
 pdfmetrics.registerFontFamily('CV',normal='CV',bold='CV-Bold',italic='CV-Italic',boldItalic='CV-BoldItalic')
-text=(ROOT/'src/data/cv-public.md').read_text()
+text=(ROOT/'src/data/cv-public.md').read_text(encoding='utf-8')
 text=re.sub(r'^---\n.*?\n---\n','',text,flags=re.S)
 text=text.replace('📄','').replace('\u200e','').replace('\u200f','').replace('\u2011','-').replace('–','-').replace('—','-')
 node=html.fromstring('<div>'+markdown.markdown(text)+'</div>')
