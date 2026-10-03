@@ -9,8 +9,7 @@ export default defineConfig({
   redirects: { "/about/": "/cv/" },
   integrations: [
     sitemap({
-      filter: (page) =>
-        !page.includes("/design") && !page.includes("/404-preview"),
+      filter: (page) => !page.includes("/design"),
     }),
   ],
   devToolbar: {

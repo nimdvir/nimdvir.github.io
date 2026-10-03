@@ -52,12 +52,6 @@ const { Content } = await project.render();
         <li>{t}</li>
       ))}
     </ul>
-    {project.data.externalUrl && (
-      <p class="source-note">
-        Originally featured in the{" "}
-        <a href={project.data.externalUrl}>nimdvir.com portfolio</a>.
-      </p>
-    )}
     <div class="button-row">
       <a class="button" href="/projects/">
         ← All projects

@@ -6,7 +6,6 @@ role: "Student content-strategy research advising"
 tags: ["Content Strategy"]
 sortOrder: 3
 featured: true
-externalUrl: "https://www.nimdvir.com/portfolio/projects/barrier-free-living"
 image: "/images/barrier-free-living.png"
 ---
 

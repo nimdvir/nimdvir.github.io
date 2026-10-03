@@ -1,6 +1,5 @@
 # build output
 dist/
-docs/
 
 # generated types
 .astro/
@@ -9,6 +8,7 @@ docs/
 node_modules/
 
 # logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -35,6 +35,11 @@ website_scraper.ipynb
 migration/staging/
 migration/originals/
 migration/cloudinary-uploads/
+
+# editor history and extension caches
+.history/
+.paper-refs.json
+.vscode/paper-cache.json
 
 # python bytecode
 __pycache__/

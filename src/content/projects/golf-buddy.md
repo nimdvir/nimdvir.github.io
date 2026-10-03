@@ -6,7 +6,6 @@ role: "Student product-design advising"
 tags: ["Product Design"]
 sortOrder: 5
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/golf-buddy"
 image: "/images/golf-buddy.png"
 ---
 

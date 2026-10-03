@@ -6,7 +6,6 @@ role: "Student research and product-design advising"
 tags: ["UX Research"]
 sortOrder: 1
 featured: true
-externalUrl: "https://www.nimdvir.com/portfolio/projects/costco"
 image: "/images/costco-mobile.png"
 ---
 

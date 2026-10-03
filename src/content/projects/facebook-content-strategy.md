@@ -6,7 +6,6 @@ role: "UX research and concept development"
 tags: ["Content Strategy"]
 sortOrder: 10
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/facebook"
 image: "/images/facebook.jpg"
 ---
 
