@@ -7,7 +7,6 @@ role: "Mixed-method market and user research"
 tags: ["UX Research"]
 sortOrder: 11
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/trackimo"
 ---
 
 ## Research question

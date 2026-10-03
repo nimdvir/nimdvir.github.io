@@ -6,7 +6,6 @@ role: "Digital experience and content strategy"
 tags: ["Product Design"]
 sortOrder: 7
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/zang-toi"
 image: "/images/zang-toi.jpg"
 ---
 

@@ -7,7 +7,6 @@ role: "Student project advising"
 tags: ["Product Design"]
 sortOrder: 12
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/prototypes"
 ---
 
 ## Course and my role

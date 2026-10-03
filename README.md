@@ -92,4 +92,4 @@ Pull requests run the build and both verifiers automatically. Production deploys
 
 ## Content boundaries
 
-Claims should be supported by the current CV, original project materials, or Nim’s explicit instructions. Student concepts are labeled as advised project work; proposals do not imply shipped commercial products or measured outcomes. Three older research drafts and four older essays remain in the repository for owner review but are not published as evidence; their former URLs lead to current research or writing indexes. See the execution report for details.
+Claims should be supported by the current CV, original project materials, or Nim’s explicit instructions. Student concepts are labeled as advised project work; proposals do not imply shipped commercial products or measured outcomes. Three older research drafts and four older placeholder essays were removed from the repository; their former URLs still lead to current research or writing indexes. See the execution report for details.

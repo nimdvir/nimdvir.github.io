@@ -6,7 +6,6 @@ role: "Student research advising"
 tags: ["UX Research"]
 sortOrder: 2
 featured: true
-externalUrl: "https://www.nimdvir.com/portfolio/projects/dexcom"
 image: "/images/dexcom.png"
 ---
 

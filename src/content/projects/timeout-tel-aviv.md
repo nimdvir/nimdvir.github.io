@@ -6,7 +6,6 @@ role: "Editorial and digital content"
 tags: ["Content Strategy"]
 sortOrder: 9
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/timeout"
 image: "/images/timeout.jpg"
 ---
 

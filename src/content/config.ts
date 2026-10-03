@@ -111,7 +111,6 @@ const projects = defineCollection({
     client: z.string().optional(),
     role: z.string().optional(),
     outcome: z.string().optional(),
-    externalUrl: z.string().url().optional(),
     researchSlug: z.string().optional(),
   }),
 });

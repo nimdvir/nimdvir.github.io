@@ -7,7 +7,6 @@ role: "UX Researcher & Development Manager · 2014–2015"
 tags: ["Product Design"]
 sortOrder: 8
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/claimfame"
 ---
 
 ## My role

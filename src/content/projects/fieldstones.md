@@ -6,7 +6,6 @@ role: "UX research and content strategy"
 tags: ["Content Strategy"]
 sortOrder: 6
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/fieldstones"
 image: "/images/fieldstones.png"
 ---
 

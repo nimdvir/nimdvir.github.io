@@ -6,7 +6,6 @@ role: "Student UX and content-strategy advising"
 tags: ["Content Strategy"]
 sortOrder: 4
 featured: false
-externalUrl: "https://www.nimdvir.com/portfolio/projects/nasher-sculpture-center"
 image: "/images/nasher-sculpture-center.png"
 ---
 
