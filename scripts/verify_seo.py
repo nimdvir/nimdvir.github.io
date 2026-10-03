@@ -21,7 +21,7 @@ class Document(HTMLParser):
         self.meta = {}; self.links = []; self.ids = set(); self.schemas = []
         self.title = ''; self.h1 = 0; self.main = 0; self.base = False
         self._title = False; self._schema = None
-        self.feed(path.read_text())
+        self.feed(path.read_text(encoding='utf-8'))
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == 'title': self._title = True
@@ -111,7 +111,7 @@ ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
 urls = [e.text for e in ET.parse(ROOT/'sitemap.xml').findall('s:url/s:loc', ns)]
 require(len(urls) == len(set(urls)), 'Duplicate sitemap URLs')
 require(set(urls) == set(indexed), 'Sitemap must match indexable canonical pages exactly')
-require((ROOT/'robots.txt').read_text() == f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n', 'robots.txt content')
+require((ROOT/'robots.txt').read_text(encoding='utf-8') == f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n', 'robots.txt content')
 feed = ET.parse(ROOT/'rss.xml').getroot(); items = feed.findall('channel/item')
 guids = [item.findtext('guid') for item in items]
 require(len(guids) == len(set(guids)), 'RSS duplicate GUIDs')
