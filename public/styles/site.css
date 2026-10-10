@@ -167,6 +167,46 @@ main {
   padding: 0 28px 56px;
   min-height: 60vh;
 }
+/* Particles sit behind the whole page. The main column covers them with the
+   page color, except for the top intro, so below it they show only in the
+   margins. particles-bg.js sets --veil-top to the bottom of the intro. */
+.bg-particles {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.bg-particles canvas {
+  display: block;
+}
+[data-particles] main {
+  position: relative;
+}
+[data-particles] main::before {
+  content: "";
+  position: absolute;
+  inset: var(--veil-top, 0px) -32px 0;
+  z-index: -1;
+  background: var(--bg);
+  --edge: linear-gradient(
+    to right,
+    transparent,
+    #000 56px,
+    #000 calc(100% - 56px),
+    transparent
+  );
+  --fade: linear-gradient(to bottom, transparent, #000 var(--veil-fade, 0px));
+  -webkit-mask-image: var(--edge), var(--fade);
+  -webkit-mask-composite: source-in;
+  mask-image: var(--edge), var(--fade);
+  mask-composite: intersect;
+}
+@media (max-width: 1260px) {
+  [data-particles] main::before {
+    inset-inline: 0;
+    --edge: linear-gradient(#000, #000);
+  }
+}
 main:focus {
   outline: none;
 }
@@ -259,6 +299,16 @@ main:focus {
 .page-intro {
   padding: 72px 0 44px;
   max-width: 850px;
+}
+[data-particles] .page-intro {
+  margin: 56px 0 44px;
+  padding: 36px 40px 38px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: var(--shadow);
 }
 .page-intro .lede {
   margin: 0;
@@ -493,24 +543,6 @@ main:focus {
   gap: 64px;
   padding: 76px 0 60px;
   align-items: center;
-}
-/* Interactive particles behind the hero, full width, fading out before News. */
-.home-top {
-  position: relative;
-  isolation: isolate;
-}
-.hero-particles {
-  position: absolute;
-  inset: 0 auto 0 50%;
-  width: 100vw;
-  transform: translateX(-50%);
-  z-index: 0;
-  -webkit-mask-image: linear-gradient(to bottom, #000 75%, transparent);
-  mask-image: linear-gradient(to bottom, #000 75%, transparent);
-}
-.hero-particles canvas {
-  display: block;
-  pointer-events: none;
 }
 .hero-card {
   padding: 36px 40px;
@@ -1492,6 +1524,10 @@ pre code {
   .page-intro {
     padding: 42px 0 30px;
   }
+  [data-particles] .page-intro {
+    margin: 32px 0 30px;
+    padding: 26px 22px 28px;
+  }
   .split-section {
     gap: 20px;
     padding: 32px 0;
@@ -1545,6 +1581,7 @@ pre code {
   }
 }
 @media print {
+  .bg-particles,
   .site-header,
   .site-footer,
   .button-row,

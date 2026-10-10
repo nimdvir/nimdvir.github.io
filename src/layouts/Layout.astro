@@ -19,6 +19,7 @@ const {
   profilePage = false,
   structuredData = [],
   breadcrumbs = [],
+  particles = "subtle",
 } = Astro.props;
 
 const pageTitle =
@@ -177,7 +178,8 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
       gtag("config", "G-0PZ8NW81X4");
     </script>
   </head>
-  <body>
+  <body data-particles={particles}>
+    <div class="bg-particles" id="particles-js" aria-hidden="true"></div>
     <a class="skip-link" href="#main-content" target="_self">
       Skip to content
     </a>
@@ -187,5 +189,7 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
     </main>
     <Footer />
     <script src={asset("/js/site.js")} is:inline defer></script>
+    <script src={asset("/js/particles.js")} is:inline defer></script>
+    <script src={asset("/js/particles-bg.js")} is:inline defer></script>
   </body>
 </html>
