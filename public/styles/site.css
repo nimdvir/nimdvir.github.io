@@ -72,6 +72,7 @@ body {
     "Segoe UI",
     sans-serif;
   line-height: 1.65;
+  overflow-x: clip;
 }
 ::selection {
   background: #ffe267;
@@ -485,11 +486,40 @@ main:focus {
   display: none;
 }
 .home-hero {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 1.3fr 0.85fr;
   gap: 64px;
   padding: 76px 0 60px;
   align-items: center;
+}
+/* Interactive particles behind the hero, full width, fading out before News. */
+.home-top {
+  position: relative;
+  isolation: isolate;
+}
+.hero-particles {
+  position: absolute;
+  inset: 0 auto 0 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 75%, transparent);
+  mask-image: linear-gradient(to bottom, #000 75%, transparent);
+}
+.hero-particles canvas {
+  display: block;
+  pointer-events: none;
+}
+.hero-card {
+  padding: 36px 40px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  box-shadow: var(--shadow);
 }
 .home-hero h1 {
   font-size: clamp(2.9rem, 6vw, 5rem);
@@ -1395,6 +1425,9 @@ pre code {
   }
   .home-hero h1 {
     font-size: clamp(2.6rem, 11.5vw, 4rem);
+  }
+  .hero-card {
+    padding: 26px 22px;
   }
   .portrait-wrap {
     max-width: 350px;
