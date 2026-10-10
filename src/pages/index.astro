@@ -12,57 +12,60 @@ const [posts, news] = await Promise.all([getPosts(), getNews()]);
   fullTitle="Nim Dvir | Information Systems, Research and Teaching"
   description="Nim Dvir (Nimrod Dvir) teaches information systems and business analytics at the University at Albany and studies language and information engagement."
 >
-  <section class="home-hero" aria-labelledby="home-title">
-    <div>
-      <h1 id="home-title">Nim Dvir</h1>
-      <p class="home-position">
-        Lecturer in Information Systems and Business Analytics
-        <br />
-        Massry School of Business · University at Albany, SUNY
-      </p>
-      <p class="intro">
-        I study how people read, interpret, and use information. I teach
-        information systems, business analytics, and programming. Before
-        academia, I worked in journalism and digital product development.
-      </p>
-      <div class="button-row">
-        <a class="button button-primary" href={cvUrl}>
-          CV
-        </a>
-        <a class="button" href="/contact/">
-          Email
-        </a>
+  <div class="home-top">
+    <div id="particles-js" class="hero-particles" aria-hidden="true"></div>
+    <section class="home-hero" aria-labelledby="home-title">
+      <div class="hero-card">
+        <h1 id="home-title">Nim Dvir</h1>
+        <p class="home-position">
+          Lecturer in Information Systems and Business Analytics
+          <br />
+          Massry School of Business · University at Albany, SUNY
+        </p>
+        <p class="intro">
+          I study how people read, interpret, and use information. I teach
+          information systems, business analytics, and programming. Before
+          academia, I worked in journalism and digital product development.
+        </p>
+        <div class="button-row">
+          <a class="button button-primary" href={cvUrl}>
+            CV
+          </a>
+          <a class="button" href="/contact/">
+            Email
+          </a>
+        </div>
+        <nav class="social-links" aria-label="Professional profiles">
+          {socialLinks
+            .filter((l) =>
+              [
+                "LinkedIn",
+                "Google Scholar",
+                "GitHub",
+                "Instagram",
+                "UAlbany faculty",
+              ].includes(l.label),
+            )
+            .map((l) => (
+              <a class="button" href={l.href}>
+                <ProfileIcon icon={l.icon} />
+                {l.label}
+              </a>
+            ))}
+        </nav>
       </div>
-      <nav class="social-links" aria-label="Professional profiles">
-        {socialLinks
-          .filter((l) =>
-            [
-              "LinkedIn",
-              "Google Scholar",
-              "GitHub",
-              "Instagram",
-              "UAlbany faculty",
-            ].includes(l.label),
-          )
-          .map((l) => (
-            <a class="button" href={l.href}>
-              <ProfileIcon icon={l.icon} />
-              {l.label}
-            </a>
-          ))}
-      </nav>
-    </div>
-    <figure class="portrait-wrap">
-      <img
-        class="hero-portrait"
-        src="/images/nim-dvir-cce.jpg"
-        alt="Nim Dvir"
-        width="800"
-        height="800"
-        fetchpriority="high"
-      />
-    </figure>
-  </section>
+      <figure class="portrait-wrap">
+        <img
+          class="hero-portrait"
+          src="/images/nim-dvir-cce.jpg"
+          alt="Nim Dvir"
+          width="800"
+          height="800"
+          fetchpriority="high"
+        />
+      </figure>
+    </section>
+  </div>
   <div class="home-updates">
     <section aria-labelledby="home-news-heading">
       <div class="section-head">
@@ -131,4 +134,6 @@ const [posts, news] = await Promise.all([getPosts(), getNews()]);
       </article>
     </div>
   </section>
+  <script src="/js/particles.js" is:inline defer></script>
+  <script src="/js/home-particles.js" is:inline defer></script>
 </Layout>
