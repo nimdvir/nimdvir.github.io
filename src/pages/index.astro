@@ -5,16 +5,15 @@ import PostList from "../components/PostList.astro";
 import ProfileIcon from "../components/ProfileIcon.astro";
 import { getPosts, getNews } from "../utils/editorial";
 import { cvUrl, socialLinks } from "../data/profile";
-import { asset } from "../utils/asset";
 const [posts, news] = await Promise.all([getPosts(), getNews()]);
 ---
 
 <Layout
+  particles="full"
   fullTitle="Nim Dvir | Information Systems, Research and Teaching"
   description="Nim Dvir (Nimrod Dvir) teaches information systems and business analytics at the University at Albany and studies language and information engagement."
 >
   <div class="home-top">
-    <div id="particles-js" class="hero-particles" aria-hidden="true"></div>
     <section class="home-hero" aria-labelledby="home-title">
       <div class="hero-card">
         <h1 id="home-title">Nim Dvir</h1>
@@ -135,6 +134,4 @@ const [posts, news] = await Promise.all([getPosts(), getNews()]);
       </article>
     </div>
   </section>
-  <script src={asset("/js/particles.js")} is:inline defer></script>
-  <script src={asset("/js/home-particles.js")} is:inline defer></script>
 </Layout>
