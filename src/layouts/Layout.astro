@@ -1,6 +1,7 @@
 ---
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
+import { asset } from "../utils/asset";
 
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site!;
@@ -116,8 +117,8 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
     <link rel="canonical" href={canonicalURL} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#0b5fb0" />
-    <script is:inline src="/js/theme-init.js"></script>
-    <link rel="stylesheet" href="/styles/site.css" />
+    <script is:inline src={asset("/js/theme-init.js")}></script>
+    <link rel="stylesheet" href={asset("/styles/site.css")} />
     <meta name="author" content="Nim Dvir" />
 
     <!-- Open Graph / Facebook -->
@@ -185,6 +186,6 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
       <slot />
     </main>
     <Footer />
-    <script src="/js/site.js" is:inline defer></script>
+    <script src={asset("/js/site.js")} is:inline defer></script>
   </body>
 </html>

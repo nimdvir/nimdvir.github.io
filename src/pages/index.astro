@@ -5,6 +5,7 @@ import PostList from "../components/PostList.astro";
 import ProfileIcon from "../components/ProfileIcon.astro";
 import { getPosts, getNews } from "../utils/editorial";
 import { cvUrl, socialLinks } from "../data/profile";
+import { asset } from "../utils/asset";
 const [posts, news] = await Promise.all([getPosts(), getNews()]);
 ---
 
@@ -134,6 +135,6 @@ const [posts, news] = await Promise.all([getPosts(), getNews()]);
       </article>
     </div>
   </section>
-  <script src="/js/particles.js" is:inline defer></script>
-  <script src="/js/home-particles.js" is:inline defer></script>
+  <script src={asset("/js/particles.js")} is:inline defer></script>
+  <script src={asset("/js/home-particles.js")} is:inline defer></script>
 </Layout>
