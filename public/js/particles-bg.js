@@ -29,7 +29,7 @@
   const color = themeColor();
   const look = full
     ? { number: 80, area: 900, opacity: 0.6, line: 0.4, size: 3, speed: 1.5 }
-    : { number: 60, area: 1100, opacity: 0.4, line: 0.22, size: 2.5, speed: 1 };
+    : { number: 100, area: 800, opacity: 0.55, line: 0.35, size: 2.8, speed: 1.2 };
 
   window.particlesJS("particles-js", {
     particles: {
@@ -56,7 +56,7 @@
         resize: true,
       },
       modes: {
-        grab: { distance: 140, line_linked: { opacity: full ? 1 : 0.6 } },
+        grab: { distance: 140, line_linked: { opacity: full ? 1 : 0.8 } },
         push: { particles_nb: 4 },
       },
     },
