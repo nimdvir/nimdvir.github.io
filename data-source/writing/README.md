@@ -61,3 +61,12 @@ The original `reports/writing/inventory-audit.md` documents the initial import. 
 
 Use `templates/writing/README.md` for the Hebrew-extraction and English-translation workflow, separate source/translation folders and the W046 example. Use `templates/TAGS.md` and `src/data/tags.json` for the shared website tag vocabulary. A translated draft is not approval to publish it or to change Nim's translation choices.
 
+
+## Captured article packages
+
+| ID | Subject | Hebrew source | English draft | Current state |
+| --- | --- | --- | --- | --- |
+| W046 | Julianne Moore | [Hebrew Markdown](originals/W046-julianne-moore/article.he.md), [article-only HTML](originals/W046-julianne-moore/article.he.html), [source record](originals/W046-julianne-moore/source-record.json) | [English draft](translations/W046-julianne-moore/article.en.md) | English example awaiting Nim review |
+| W089 | Jodie Comer and Sandra Oh, Killing Eve | [Hebrew Markdown](originals/W089-killing-eve/article.he.md), [article-only HTML](originals/W089-killing-eve/article.he.html), [source record](originals/W089-killing-eve/source-record.json) | Not started | Complete Hebrew text captured; 1 image link and all 3 captions retained; 2 publisher image links missing |
+
+Use the article's ID to locate its folder. The Markdown is the reading/extraction copy, the HTML is the clean article-only keeper, and the source record preserves evidence, image details and extraction checks. Source packages are not published as website pages.
