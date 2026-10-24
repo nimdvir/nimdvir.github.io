@@ -31,11 +31,14 @@ CITATIONS = ROOT / "data-source" / "writing" / "wikipedia-citations.json"
 AUDIT = ROOT / "reports" / "writing" / "inventory-audit.md"
 
 COLUMNS = [
-    "ID", "Translate?", "Priority", "Status", "Type", "Interviewee",
+    "ID", "Main Subject (English)", "Main Subject (Hebrew)", "Translation Value",
+    "Value Reason", "Review Flag", "Translate?", "Priority", "Status", "Type", "Interviewee",
     "Title (Hebrew)", "Title (English)", "Publication", "Date", "Original URL",
     "Images", "Original HTML Path", "Translation Path", "Page Path",
-    "Found In", "Notes",
+    "Found In", "Notes", "Duplicate Of", "Original Language", "Author / Byline",
+    "Metadata Basis", "Evidence URL", "Reviewed On",
 ]
+TRANSLATION_VALUES = ["High", "Medium", "Low", "Unrated"]
 STATUSES = ["not started", "needs checking", "not my writing", "captured",
             "translated", "page created", "published"]
 TYPES = ["interview", "review", "feature", "column", "report", "other", "unknown"]
@@ -548,6 +551,12 @@ def flag_duplicates(rows):
 
 def to_csv_row(row):
     return {
+        "Main Subject (English)": "Not yet reviewed", "Main Subject (Hebrew)": "טרם נבדק",
+        "Translation Value": "Unrated", "Value Reason": "Awaiting subject and translation-value review.",
+        "Review Flag": "Review subject, authorship and translation value before selecting",
+        "Duplicate Of": "", "Original Language": "Unverified", "Author / Byline": "Unverified",
+        "Metadata Basis": "Imported source metadata; awaiting review", "Evidence URL": row["url"],
+        "Reviewed On": "",
         "ID": row["id"], "Translate?": "No", "Priority": "", "Status": row["status"],
         "Type": row["type"], "Interviewee": row["interviewee"], "Title (Hebrew)": row["title"],
         "Title (English)": row["english"], "Publication": row["publication"], "Date": row["date"],
@@ -715,6 +724,11 @@ def main():
         with open(OUTPUT, encoding="utf-8-sig", newline="") as handle:
             existing = list(csv.DictReader(handle))
     known = {existing_key(r) for r in existing}
+    # A reviewed row may now have a URL even though its source still has only
+    # a headline. Keep its original source locations as aliases so it is not
+    # appended again with a new ID on the next build.
+    known.update("noref:" + location for r in existing
+                 for location in r["Found In"].split("; ") if location)
     next_number = max((int(r["ID"][1:]) for r in existing), default=0) + 1
     new_rows = []
     for row in inv.rows:
@@ -737,3 +751,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
