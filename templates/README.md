@@ -5,12 +5,16 @@ You do not need to change any layout, HTML, CSS, or JavaScript.
 
 | Template | Copy to | Result |
 | --- | --- | --- |
+| [writing/hebrew/article.he.md](writing/hebrew/article.he.md) | `data-source/writing/originals/W000-subject/article.he.md` | Complete Hebrew extraction and source record |
+| [writing/english/article.en.md](writing/english/article.en.md) | `data-source/writing/translations/W000-subject/article.en.md` | Separate English article draft for review |
 | [blog-post.md](blog-post.md) | `src/content/blog/your-post-slug.md` | Full article at `/blog/your-post-slug/`, plus a listing and homepage entry |
 | [news-short.md](news-short.md) | `src/content/news/your-news-slug.md` | Brief dated announcement on the homepage and news archive; optional linked title |
 | [publication.md](publication.md) | `src/content/publications/your-paper-slug.md` | A paper page with its original abstract, citation, source links, and Scholar metadata |
 | [news-long.md](news-long.md) | `src/content/news/your-news-slug.md` | Full announcement at `/news/your-news-slug/`, plus a listing and homepage entry |
 
 ## Six steps
+
+For preserved Hebrew articles and English translations, follow [the writing workflow](writing/README.md) instead of these general blog/news steps. See [the shared tag vocabulary](TAGS.md) before assigning tags. Translation drafts stay outside `src/content` until publication is requested.
 
 1. Start a feature branch from the latest `main`. Copy a template, preserving the original for next time.
 2. Name the copy with a short lowercase filename using hyphens, such as `teaching-with-ai.md`. That filename becomes the URL, so avoid renaming it after publication.
@@ -113,3 +117,4 @@ the broader work; publication pages identify a particular scholarly document.
 newest first. Drafts and future-dated entries are excluded at build time. Short
 news items have stable anchors in `/news/`, so feed readers can open each update.
 The feed is linked from Blog and News and advertised in the shared page head.
+

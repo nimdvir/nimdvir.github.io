@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "updated": "2026-10-24",
+  "status": "Draft vocabulary for review; tag archive routes are not implemented by this file.",
+  "tags": [
+    {
+      "slug": "interview",
+      "label": "Interview",
+      "group": "Format",
+      "aliases": [
+        "Interviews"
+      ],
+      "description": "A piece built around an original interview."
+    },
+    {
+      "slug": "review",
+      "label": "Review",
+      "group": "Format",
+      "aliases": [
+        "Reviews"
+      ],
+      "description": "Critical assessment of a film, program, performance, book or exhibition."
+    },
+    {
+      "slug": "feature",
+      "label": "Feature",
+      "group": "Format",
+      "aliases": [
+        "Features"
+      ],
+      "description": "Reported feature or profile that is not primarily Q&A."
+    },
+    {
+      "slug": "opinion",
+      "label": "Opinion",
+      "group": "Format",
+      "aliases": [
+        "Column",
+        "Columns"
+      ],
+      "description": "Argument, commentary or an opinion column."
+    },
+    {
+      "slug": "personal-essay",
+      "label": "Personal Essay",
+      "group": "Format",
+      "aliases": [
+        "Personal Column"
+      ],
+      "description": "First-person writing about an experience or reflection."
+    },
+    {
+      "slug": "set-visit",
+      "label": "Set Visit",
+      "group": "Format",
+      "aliases": [
+        "Behind the Scenes"
+      ],
+      "description": "On-location reporting from a film or television production."
+    },
+    {
+      "slug": "news",
+      "label": "News",
+      "group": "Format",
+      "aliases": [
+        "News Item"
+      ],
+      "description": "A dated factual update or announcement."
+    },
+    {
+      "slug": "research",
+      "label": "Research",
+      "group": "Format",
+      "aliases": [],
+      "description": "A research project or scholarly investigation."
+    },
+    {
+      "slug": "publication",
+      "label": "Publication",
+      "group": "Format",
+      "aliases": [
+        "Paper"
+      ],
+      "description": "An academic paper, preprint or other scholarly publication."
+    },
+    {
+      "slug": "dissertation",
+      "label": "Dissertation",
+      "group": "Format",
+      "aliases": [],
+      "description": "A doctoral dissertation."
+    },
+    {
+      "slug": "talk",
+      "label": "Talk",
+      "group": "Format",
+      "aliases": [
+        "Presentation"
+      ],
+      "description": "A conference talk or other presentation."
+    },
+    {
+      "slug": "workshop",
+      "label": "Workshop",
+      "group": "Format",
+      "aliases": [],
+      "description": "An instructional workshop."
+    },
+    {
+      "slug": "course",
+      "label": "Course",
+      "group": "Format",
+      "aliases": [],
+      "description": "A course or teaching resource."
+    },
+    {
+      "slug": "project",
+      "label": "Project",
+      "group": "Format",
+      "aliases": [],
+      "description": "A professional or creative project."
+    },
+    {
+      "slug": "culture",
+      "label": "Culture",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Cultural practices, criticism and creative life."
+    },
+    {
+      "slug": "media",
+      "label": "Media",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Media production, industries and public representation."
+    },
+    {
+      "slug": "film",
+      "label": "Film",
+      "group": "Culture and journalism",
+      "aliases": [
+        "Cinema",
+        "Movies"
+      ],
+      "description": "Cinema and film work."
+    },
+    {
+      "slug": "television",
+      "label": "Television",
+      "group": "Culture and journalism",
+      "aliases": [
+        "TV"
+      ],
+      "description": "Television programs, production and performers."
+    },
+    {
+      "slug": "music",
+      "label": "Music",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Music, musicians, recordings and performances."
+    },
+    {
+      "slug": "theatre",
+      "label": "Theatre",
+      "group": "Culture and journalism",
+      "aliases": [
+        "Theater"
+      ],
+      "description": "Stage productions, performers and theatre work."
+    },
+    {
+      "slug": "art",
+      "label": "Art",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Visual art, artists and exhibitions."
+    },
+    {
+      "slug": "design",
+      "label": "Design",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Design outside or across the more specific design tags."
+    },
+    {
+      "slug": "fashion",
+      "label": "Fashion",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Fashion, clothing and the fashion industry."
+    },
+    {
+      "slug": "books",
+      "label": "Books",
+      "group": "Culture and journalism",
+      "aliases": [
+        "Literature"
+      ],
+      "description": "Books, authors and literary criticism."
+    },
+    {
+      "slug": "comedy",
+      "label": "Comedy",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Comedy, comedians and comic performance."
+    },
+    {
+      "slug": "reality-television",
+      "label": "Reality Television",
+      "group": "Culture and journalism",
+      "aliases": [
+        "Reality TV"
+      ],
+      "description": "Reality and competition television."
+    },
+    {
+      "slug": "journalism",
+      "label": "Journalism",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Reporting practice and the journalism profession."
+    },
+    {
+      "slug": "lgbtq",
+      "label": "LGBTQ+",
+      "group": "Culture and journalism",
+      "aliases": [
+        "LGBT",
+        "LGBTQ",
+        "Gay Culture"
+      ],
+      "description": "LGBTQ identities, representation, communities and culture."
+    },
+    {
+      "slug": "politics",
+      "label": "Politics",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Politics, political culture and public affairs."
+    },
+    {
+      "slug": "travel",
+      "label": "Travel",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Travel experiences and place-based reporting."
+    },
+    {
+      "slug": "spirituality",
+      "label": "Spirituality",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Spiritual practices, meditation and related personal experiences."
+    },
+    {
+      "slug": "gender",
+      "label": "Gender",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Gender, gender representation and gendered experiences."
+    },
+    {
+      "slug": "aging",
+      "label": "Aging",
+      "group": "Culture and journalism",
+      "aliases": [
+        "Ageing"
+      ],
+      "description": "Aging, age representation and age discrimination."
+    },
+    {
+      "slug": "social-media",
+      "label": "Social Media",
+      "group": "Culture and journalism",
+      "aliases": [],
+      "description": "Social platforms, online participation and online audiences."
+    },
+    {
+      "slug": "ai",
+      "label": "AI",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Artificial Intelligence"
+      ],
+      "description": "Artificial intelligence broadly."
+    },
+    {
+      "slug": "generative-ai",
+      "label": "Generative AI",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "GenAI"
+      ],
+      "description": "Generative models and their uses."
+    },
+    {
+      "slug": "ai-ethics",
+      "label": "AI Ethics",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Ethical questions concerning AI."
+    },
+    {
+      "slug": "ai-literacy",
+      "label": "AI Literacy",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Understanding, evaluating and using AI."
+    },
+    {
+      "slug": "hci",
+      "label": "HCI",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Human-Computer Interaction"
+      ],
+      "description": "Human-computer interaction."
+    },
+    {
+      "slug": "ux",
+      "label": "UX",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "User Experience"
+      ],
+      "description": "User experience broadly."
+    },
+    {
+      "slug": "ux-research",
+      "label": "UX Research",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "User Research"
+      ],
+      "description": "Research methods and findings used to understand users."
+    },
+    {
+      "slug": "product-design",
+      "label": "Product Design",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Design of products and digital experiences."
+    },
+    {
+      "slug": "content-strategy",
+      "label": "Content Strategy",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Planning and organizing useful content."
+    },
+    {
+      "slug": "computational-linguistics",
+      "label": "Computational Linguistics",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Computational study and analysis of language."
+    },
+    {
+      "slug": "nlp",
+      "label": "NLP",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Natural Language Processing"
+      ],
+      "description": "Natural language processing."
+    },
+    {
+      "slug": "information-behavior",
+      "label": "Information Behavior",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "How people seek, encounter and use information."
+    },
+    {
+      "slug": "information-engagement",
+      "label": "Information Engagement",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Engagement with information and its linguistic presentation."
+    },
+    {
+      "slug": "user-engagement",
+      "label": "User Engagement",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Engagement with interfaces, products and services."
+    },
+    {
+      "slug": "decision-making",
+      "label": "Decision-Making",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Decision Making"
+      ],
+      "description": "Judgment and decision processes."
+    },
+    {
+      "slug": "consumer-behavior",
+      "label": "Consumer Behavior",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Consumer responses, choices and behavior."
+    },
+    {
+      "slug": "marketing",
+      "label": "Marketing",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Marketing practice and research."
+    },
+    {
+      "slug": "transparency",
+      "label": "Transparency",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Disclosure, openness and transparency."
+    },
+    {
+      "slug": "digital-citizenship",
+      "label": "Digital Citizenship",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Participation, responsibility and ethics in digital life."
+    },
+    {
+      "slug": "teaching",
+      "label": "Teaching",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Teaching practice and learning activities."
+    },
+    {
+      "slug": "education",
+      "label": "Education",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Educational contexts and systems."
+    },
+    {
+      "slug": "academic-communication",
+      "label": "Academic Communication",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Academic titles, abstracts, publication and scholarly communication."
+    },
+    {
+      "slug": "experimentation",
+      "label": "Experimentation",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Experiments",
+        "Experiment"
+      ],
+      "description": "Experimental methods, design and findings."
+    },
+    {
+      "slug": "predictive-models",
+      "label": "Predictive Models",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Predictive Modeling"
+      ],
+      "description": "Predictive modeling methods and applications."
+    },
+    {
+      "slug": "theory",
+      "label": "Theory",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Theoretical frameworks and conceptual work."
+    },
+    {
+      "slug": "legal-language",
+      "label": "Legal Language",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Legal language"
+      ],
+      "description": "Legal wording, forms and comprehension."
+    },
+    {
+      "slug": "behavioral-design",
+      "label": "Behavioral Design",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Behavioral design"
+      ],
+      "description": "Design informed by behavioral evidence."
+    },
+    {
+      "slug": "it-strategy",
+      "label": "IT Strategy",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Information Technology Strategy"
+      ],
+      "description": "Organizational IT decisions and implementation."
+    },
+    {
+      "slug": "python",
+      "label": "Python",
+      "group": "Research, teaching and professional topics",
+      "aliases": [],
+      "description": "Python programming and teaching."
+    },
+    {
+      "slug": "databases",
+      "label": "Databases",
+      "group": "Research, teaching and professional topics",
+      "aliases": [
+        "Database",
+        "SQL"
+      ],
+      "description": "Database concepts, database teaching and SQL."
+    },
+    {
+      "slug": "israel",
+      "label": "Israel",
+      "group": "Places",
+      "aliases": [],
+      "description": "Israel is a substantive setting or subject."
+    },
+    {
+      "slug": "new-york",
+      "label": "New York",
+      "group": "Places",
+      "aliases": [
+        "NYC",
+        "New York City"
+      ],
+      "description": "New York is a substantive setting or subject."
+    },
+    {
+      "slug": "united-states",
+      "label": "United States",
+      "group": "Places",
+      "aliases": [
+        "US",
+        "USA"
+      ],
+      "description": "The United States is a substantive setting or subject."
+    },
+    {
+      "slug": "united-kingdom",
+      "label": "United Kingdom",
+      "group": "Places",
+      "aliases": [
+        "UK",
+        "Britain"
+      ],
+      "description": "The United Kingdom is a substantive setting or subject."
+    },
+    {
+      "slug": "hollywood",
+      "label": "Hollywood",
+      "group": "Places",
+      "aliases": [],
+      "description": "Hollywood film and entertainment work or culture."
+    },
+    {
+      "slug": "broadway",
+      "label": "Broadway",
+      "group": "Places",
+      "aliases": [],
+      "description": "Broadway theatre and its professional world."
+    },
+    {
+      "slug": "graduate",
+      "label": "Graduate",
+      "group": "Audience",
+      "aliases": [
+        "Graduate Level"
+      ],
+      "description": "Material aimed at graduate students."
+    },
+    {
+      "slug": "undergraduate",
+      "label": "Undergraduate",
+      "group": "Audience",
+      "aliases": [
+        "Undergraduate Level"
+      ],
+      "description": "Material aimed at undergraduate students."
+    }
+  ]
+}
