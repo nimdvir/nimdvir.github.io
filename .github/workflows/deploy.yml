@@ -1,11 +1,17 @@
 name: Deploy to GitHub Pages
 
-# Pull requests run the build and both verifiers. Only pushes to main deploy.
+# Pushes and pull requests validate changes. Publishing is a separate approved action.
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish the site only after Nim approves"
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: read
@@ -34,13 +40,13 @@ jobs:
       - name: Verify SEO metadata
         run: python scripts/verify_seo.py
       - name: Upload artifact
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:

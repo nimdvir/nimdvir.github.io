@@ -19,8 +19,11 @@
 
 ## Review and publishing
 
-- Work on main locally and commit; do not push without Nim's explicit approval.
-- Pushing to `main` publishes the site, so publication needs the same explicit approval.
+- Work directly on `main`, keep files organized, and commit/push requested work there. Nim authorized this workflow on October 24, 2026. Do not create a review branch or require a PR unless Nim asks.
+- Saving to `main` and publishing are separate actions. Pushes run build and verification only. Never publish or run the Pages workflow with `publish: true` until Nim explicitly approves publication.
+- Keep source packages, translation drafts and templates outside `src/content/` until publication is requested. The current interviews collection does not enforce `draft` visibility.
+- For this repository, these instructions replace earlier branch-first and push-approval wording in templates, reports and the article-inventory skill. Other article-preservation and translation rules still apply.
+- For review in ChatGPT, present Markdown as formatted text directly in the chat by default. Do not require Nim to download Markdown files. Offer a native ChatGPT Page for a longer standalone reading view; the repository remains authoritative.
 - Nim explicitly approved publishing PR #37, including the complete designed CV and pending domain/discoverability changes, on October 2, 2026.
 - Build with `npm run build` and check links with `python scripts/verify_site.py`.
 

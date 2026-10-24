@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build_inventory import COLUMNS, OUTPUT, ROOT, STATUSES, TYPES, article_key  # noqa: E402
+from build_inventory import COLUMNS, OUTPUT, ROOT, STATUSES, TYPES, TRANSLATION_VALUES, article_key  # noqa: E402
 
 PATH_COLUMNS = ["Original HTML Path", "Translation Path", "Page Path"]
 DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
@@ -46,6 +46,14 @@ def check(rows, header):
             errors.append(f"{where}: Status '{row['Status']}' is not one of: {', '.join(STATUSES)}")
         if row["Type"] not in TYPES:
             errors.append(f"{where}: Type '{row['Type']}' is not one of: {', '.join(TYPES)}")
+        if row.get("Translation Value") not in TRANSLATION_VALUES:
+            errors.append(f"{where}: Translation Value must be High, Medium, Low or Unrated")
+        for column in ("Main Subject (English)", "Main Subject (Hebrew)", "Value Reason", "Review Flag"):
+            if not row.get(column, "").strip():
+                errors.append(f"{where}: {column} is required")
+        duplicate = row.get("Duplicate Of", "")
+        if duplicate and (duplicate == row["ID"] or duplicate not in {r["ID"] for r in rows}):
+            errors.append(f"{where}: Duplicate Of must name another existing ID")
         if row["Type"] == "interview" and not row["Interviewee"]:
             errors.append(f"{where}: interview rows need an Interviewee (or 'unknown')")
         if row["Interviewee"] == "unknown" and row["Status"] not in ("needs checking", "not my writing"):
@@ -64,10 +72,11 @@ def queue(rows):
     if not chosen:
         print("Queue is empty: no row has Translate? = Yes.")
         return
-    print(f"{'Priority':>8}  {'ID':<5} {'Status':<15} Title")
+    print(f"{'Priority':>8}  {'ID':<5} {'Status':<15} Subject | Title")
     for r in chosen:
         title = r["Title (Hebrew)"] or r["Title (English)"] or r["Original URL"]
-        print(f"{r['Priority']:>8}  {r['ID']:<5} {r['Status']:<15} {title}")
+        subject = r.get("Main Subject (English)") or r.get("Interviewee") or "Subject unreviewed"
+        print(f"{r['Priority']:>8}  {r['ID']:<5} {r['Status']:<15} {subject} | {title}")
 
 
 def main():
@@ -92,3 +101,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

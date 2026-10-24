@@ -1,0 +1,155 @@
+{
+  "articleId": "W046",
+  "status": "draft awaiting Nim review",
+  "sourceTextBlocks": 25,
+  "translatedTextBlocks": 25,
+  "questionBlocks": 8,
+  "images": 2,
+  "alignment": [
+    {
+      "sourceBlock": "W046-b001",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b002",
+      "kind": "image",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b003",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b004",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b005",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b006",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b007",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b008",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b009",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b010",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b011",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b012",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b013",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b014",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b015",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b016",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b017",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b018",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b019",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b020",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b021",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b022",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b023",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b024",
+      "kind": "question",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b025",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b026",
+      "kind": "paragraph",
+      "translated": true
+    },
+    {
+      "sourceBlock": "W046-b027",
+      "kind": "image",
+      "translated": true
+    }
+  ],
+  "decisions": [
+    "Translated from the published Hebrew, not an original English interview transcript.",
+    "Both Hebrew title variants for the film are translated as Freedomland, verified against the Sony Pictures film page.",
+    "Historical age 46 and the source wording are retained. No factual updates were inserted.",
+    "No new body headings or display quotes were inserted because the original has none.",
+    "All eight interviewer prompts are bold and separate, including prompts without question marks.",
+    "Both image captions are translated. Credits are not supplied in the source.",
+    "Source sidebar image is retained after the main text in the linear draft."
+  ],
+  "titleReference": "https://www.sonypictures.com/movies/freedomland"
+}

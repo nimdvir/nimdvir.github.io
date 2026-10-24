@@ -1,6 +1,8 @@
 # Workflow for preserving and translating interviews
 
-Date: October 1, 2026. Status: recommendation for Nim's review; no new interview has been published.
+Date: October 1, 2026. Status: historical recommendation.
+
+Update, October 24, 2026: use `templates/writing/README.md` for the current extraction/translation templates, separate working folders, shared tag vocabulary and W046 example. The earlier proposed folder layout below is retained as history; the current workflow controls new work. No example has been published to the live site.
 
 ## Recommended approach
 
@@ -67,3 +69,4 @@ For the source, use the original article title with an English translation in br
 ## Reusable instruction
 
 > Prepare an English interview page from the supplied original article and source files. Extract only its headline, subheader, main text, section headings, interviewer prompts, and relevant captions/credits. Preserve all content and paragraph order; translate faithfully without summarizing. Make every interviewer prompt bold. Follow the existing interview collection and layout. Include author, original date, publisher, a prominent original-language link, a translation note, and a source citation. Preserve a private original capture where available and document any missing content or images. Do not publish placeholders or unsupported details. Build and check the draft in both themes at phone and desktop widths, then leave it on the review branch.
+

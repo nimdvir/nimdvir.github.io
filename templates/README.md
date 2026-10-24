@@ -5,6 +5,8 @@ You do not need to change any layout, HTML, CSS, or JavaScript.
 
 | Template | Copy to | Result |
 | --- | --- | --- |
+| [writing/hebrew/article.he.md](writing/hebrew/article.he.md) | `data-source/writing/originals/W000-subject/article.he.md` | Complete Hebrew extraction and source record |
+| [writing/english/article.en.md](writing/english/article.en.md) | `data-source/writing/translations/W000-subject/article.en.md` | Separate English article draft for review |
 | [blog-post.md](blog-post.md) | `src/content/blog/your-post-slug.md` | Full article at `/blog/your-post-slug/`, plus a listing and homepage entry |
 | [news-short.md](news-short.md) | `src/content/news/your-news-slug.md` | Brief dated announcement on the homepage and news archive; optional linked title |
 | [publication.md](publication.md) | `src/content/publications/your-paper-slug.md` | A paper page with its original abstract, citation, source links, and Scholar metadata |
@@ -12,12 +14,14 @@ You do not need to change any layout, HTML, CSS, or JavaScript.
 
 ## Six steps
 
-1. Start a feature branch from the latest `main`. Copy a template, preserving the original for next time.
+For preserved Hebrew articles and English translations, follow [the writing workflow](writing/README.md) instead of these general blog/news steps. See [the shared tag vocabulary](TAGS.md) before assigning tags. Translation drafts stay outside `src/content` until publication is requested.
+
+1. Work on the latest `main`. Copy a template, preserving the original for next time.
 2. Name the copy with a short lowercase filename using hyphens, such as `teaching-with-ai.md`. That filename becomes the URL, so avoid renaming it after publication.
 3. Replace the title and summary. Set the date in quotation marks as `"2026-10-01"`, using the date you want displayed. Keep `draft: true` while writing.
 4. Write the body using ordinary Markdown. For short news, put the complete update in `summary`; its body is not displayed. The title and summary are displayed automatically for full articles, so do not repeat them in the body.
-5. When ready, remove template instructions/placeholders and change `draft: true` to `draft: false`. Build and review with the commands below, then commit and push your feature branch.
-6. Review the pull request and merge to `main` to publish. GitHub Pages builds the site. Confirm the live post, news archive, and homepage afterwards.
+5. Remove template instructions/placeholders and keep `draft: true` until Nim approves publication. Build and review with the commands below, then commit and push the requested work to `main`. Saving runs checks but does not publish.
+6. Only after Nim explicitly approves publication, set the intended content's publishing fields, commit the approved version, and manually run the Pages workflow on `main` with `publish: true`. Confirm the live page afterwards. Do not dispatch publishing automatically.
 
 ```bash
 npm ci
@@ -74,7 +78,7 @@ The site supplies the author name, formatted date, reading-time estimate, shared
 
 ## Ask an agent to help
 
-> Create a new [blog post / short news update / full news announcement] using the corresponding file in `templates/`. Save it in the correct content folder with the filename [slug]. Use only the content and confirmed facts I provide. Set the date to [YYYY-MM-DD] and keep `draft: true` until I ask you to publish. Preserve my voice, add source links and image credits where supplied, and flag missing information. When I approve it, change the draft flag, build, verify the links and both themes, and use the repository's branch and pull-request workflow.
+> Create a new [blog post / short news update / full news announcement] using the corresponding file in `templates/`. Save it in the correct content folder with the filename [slug]. Use only the content and confirmed facts I provide. Set the date to [YYYY-MM-DD] and keep `draft: true` until I ask you to publish. Preserve my voice, add source links and image credits where supplied, and flag missing information. When I explicitly approve publication, change the draft flag, build, verify the links and both themes, and run the manual Pages publishing workflow. Save requested work directly to main; saving alone must not deploy it.
 
 ## Writing
 
@@ -113,3 +117,4 @@ the broader work; publication pages identify a particular scholarly document.
 newest first. Drafts and future-dated entries are excluded at build time. Short
 news items have stable anchors in `/news/`, so feed readers can open each update.
 The feed is linked from Blog and News and advertised in the shared page head.
+
