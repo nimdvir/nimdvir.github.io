@@ -4,6 +4,7 @@ title: "Create Nim's writing-voice profile for the article archive and English t
 created: "2026-10-26"
 status: "next"
 priority: "p2"
+kb_reference: pending
 tags: ["writing", "blog", "portfolio", "translation", "voice", "personal-website"]
 ---
 
