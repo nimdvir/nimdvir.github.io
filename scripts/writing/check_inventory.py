@@ -15,7 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_inventory import COLUMNS, OUTPUT, ROOT, STATUSES, TYPES, TRANSLATION_VALUES, article_key  # noqa: E402
 
-PATH_COLUMNS = ["Original HTML Path", "Hebrew Markdown Path", "Translation Path", "Page Path"]
+PATH_COLUMNS = ["Original HTML Path", "Hebrew Markdown Path", "Clean HTML Path", "Translation Path", "Page Path"]
 DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 
 
