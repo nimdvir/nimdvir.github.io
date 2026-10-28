@@ -51,6 +51,9 @@ def main():
             continue
         path = ROOT / row["Hebrew Markdown Path"]
         if path in checked:
+            canonical = json.loads((path.parent / "source-record.json").read_text(encoding="utf-8"))["articleId"]
+            if row.get("Duplicate Of") != canonical:
+                errors.append(f"{row['ID']}: shared package requires Duplicate Of={canonical}")
             continue  # confirmed duplicate rows share a single canonical package
         checked.add(path)
         try:

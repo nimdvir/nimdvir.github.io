@@ -68,5 +68,17 @@
     "publisherResponseSha256": "0331906b69d7c6e7022b7cf6481d9640c8e888b63bbcda90c4f65d99f2b70827",
     "method": "Fetched live publisher HTML; compared every substantive body text node, including raw tails, against Markdown. All substantive text present; only promotional/contact controls excluded. Headline, byline, date, first and final paragraphs checked.",
     "bodyComplete": true
+  },
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 3,
+    "mobileRenderPages": 7,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "21000100c5d46f666af28d377bd6d8fae287ec18231ad545de83a6334022a7dd",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
   }
 }

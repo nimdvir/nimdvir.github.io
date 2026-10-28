@@ -85,7 +85,7 @@
     "metadataComparedWithInventory": true,
     "markdownRendered": true,
     "htmlParsed": true,
-    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "htmlVisualReview": "Passed coordinated WeasyPrint desktop/mobile rendering and overflow checks; Chromium unavailable; see readingCopyValidation",
     "externalStylesheetsOrImages": false,
     "citationFooterVerified": true
   },
@@ -102,5 +102,17 @@
       "text": "ההפקה המחודשת של '90210'",
       "url": "https://www.ynet.co.il/articles/0,7340,L-3591548,00.html"
     }
-  ]
+  ],
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 3,
+    "mobileRenderPages": 6,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "5fe90a52725777b78dccc614179734fab2dc14b8c045de38501dc19a81c0b937",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

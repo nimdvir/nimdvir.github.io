@@ -86,7 +86,7 @@
     "metadataComparedWithInventory": true,
     "markdownRendered": true,
     "htmlParsed": true,
-    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "htmlVisualReview": "Passed coordinated WeasyPrint desktop/mobile rendering and overflow checks; Chromium unavailable; see readingCopyValidation",
     "externalStylesheetsOrImages": false,
     "citationFooterVerified": true
   },
@@ -99,5 +99,17 @@
       "text": "העניק ראיון נרחב ל\"הוליווד ריפורטר\"",
       "url": "http://pplus.ynet.co.il/articles/0,7340,L-4515506,00.html"
     }
-  ]
+  ],
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 4,
+    "mobileRenderPages": 11,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "bc3b771d1fa758c3f6b9a44435aaf25235fae2ea5ee4f62952a842520ac99647",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

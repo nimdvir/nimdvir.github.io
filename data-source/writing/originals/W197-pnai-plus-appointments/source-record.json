@@ -45,5 +45,17 @@
     "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
     "rawResponseSha256": "2099d59c00c4905248a88fc1ade64615e2e8202365b16c7dad3c1b76ecfba30b",
     "imageFilesDownloaded": false
+  },
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 1,
+    "mobileRenderPages": 3,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "46a7aaa4001a123ddbdd041af3301c85788e6a3d90f930e9867dd1802ebd5ab6",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
   }
 }

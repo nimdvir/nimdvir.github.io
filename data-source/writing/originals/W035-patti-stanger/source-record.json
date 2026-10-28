@@ -71,5 +71,17 @@
     "sourceImageCaptionsVerified": true,
     "externalPhotoBinariesDownloaded": false,
     "substantiveTextSha256": "8ef30547336312dfb13f07cbe01e3bd2152df6e4f99eba9b462cc906b542265d"
+  },
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 3,
+    "mobileRenderPages": 7,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "f106caa432c7f7608b19b2d0196ec3887eb3a8949e834c4dc47b6a1e9ba03990",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
   }
 }

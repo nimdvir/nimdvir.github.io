@@ -63,6 +63,10 @@ def check(rows, header):
         for column in PATH_COLUMNS:
             if row[column] and not (ROOT / row[column]).exists():
                 errors.append(f"{where}: {column} points to a missing file: {row[column]}")
+        if bool(row["Hebrew Markdown Path"]) != bool(row["Clean HTML Path"]):
+            errors.append(f"{where}: Hebrew Markdown and clean HTML paths must be registered together")
+        if row["Status"] == "captured" and not row["Hebrew Markdown Path"]:
+            errors.append(f"{where}: captured status requires a Hebrew archive package")
     return errors
 
 
@@ -101,8 +105,16 @@ def main():
         print()
         pending = [r for r in rows if not r.get("Hebrew Markdown Path")]
         tier = {"High": 0, "Medium": 1, "Low": 2, "Unrated": 3}
-        pending.sort(key=lambda r: (0 if ("about Nim" in r.get("Value Reason", "") or r["ID"] in {"W083", "W197", "W198"}) else 1, tier.get(r.get("Translation Value"), 3), 0 if r["Type"] == "interview" else 1, int(r["ID"][1:])))
+        # Source-only packages preserve a retrieval/identity blocker, not a completed
+        # Hebrew article. Keep them accounted for while offering fresh candidates.
+        source_only = {
+            p.parent.name.split("-", 1)[0]
+            for p in (ROOT / "data-source/writing/originals").glob("*/source-record.json")
+            if not (p.parent / "article.he.md").exists()
+        }
+        pending.sort(key=lambda r: (r["ID"] in source_only, 0 if ("about Nim" in r.get("Value Reason", "") or r["ID"] in {"W083", "W197", "W198"}) else 1, tier.get(r.get("Translation Value"), 3), 0 if r["Type"] == "interview" else 1, int(r["ID"][1:])))
         print(f"{len(pending)} Hebrew packages to capture. Suggested top 25:")
+        print(f"{sum(r['ID'] in source_only for r in pending)} pending IDs have source-only review records; these sort after fresh candidates.")
         for row in pending[:25]:
             print(f"{row['ID']}  {row['Translation Value']:<7} {row['Type']:<10} {row['Main Subject (English)']}")
     sys.exit(1 if errors else 0)

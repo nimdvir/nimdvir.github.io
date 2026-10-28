@@ -64,7 +64,13 @@ The original `reports/writing/inventory-audit.md` documents the initial import. 
 Use `templates/writing/README.md` for the Hebrew-extraction and English-translation workflow, separate source/translation folders and the W046 example. Use `templates/TAGS.md` and `src/data/tags.json` for the shared website tag vocabulary. A translated draft is not approval to publish it or to change Nim's translation choices.
 
 
-## Captured article packages
+## Captured article package examples
+
+The authoritative CSV now references 55 unique verified Hebrew packages covering 57 IDs (October 27, 2026 session). The examples below are illustrative, not a second inventory. See `reports/writing/2026-10-27-hebrew-capture-progress.md` and the Claude handoff for current totals and source limits.
+
+A source-only `originals/W000-topic/source-record.json` records retrieval or identity blockers without claiming that a Hebrew body exists. Such records have no Hebrew/HTML paths in the CSV. W100 was verified as an English article by Boaz Dvir, not Nim; its ID and editorial selections remain, with corrected factual attribution.
+
+Run `python scripts/writing/check_captures.py` alongside the inventory validator to check registered reading copies. The capture queue sorts documented source-only blockers after fresh candidates; all IDs remain accounted for.
 
 | ID | Subject | Hebrew source | English draft | Current state |
 | --- | --- | --- | --- | --- |

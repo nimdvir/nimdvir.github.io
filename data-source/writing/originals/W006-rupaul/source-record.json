@@ -129,5 +129,17 @@
       "reuseStatus": "publisher media not downloaded or embedded"
     }
   ],
-  "excludedPromotionalBlocks": []
+  "excludedPromotionalBlocks": [],
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 4,
+    "mobileRenderPages": 9,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "f3e5a493a46032bec912f01d2bf67a94d88a7caaf65d504ecf444dce28c750ba",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

@@ -73,7 +73,7 @@
     "metadataComparedWithInventory": true,
     "markdownRendered": true,
     "htmlParsed": true,
-    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "htmlVisualReview": "Passed coordinated WeasyPrint desktop/mobile rendering and overflow checks; Chromium unavailable; see readingCopyValidation",
     "externalStylesheetsOrImages": false,
     "citationFooterVerified": true
   },
@@ -82,5 +82,17 @@
       "text": "אני, פרנקנשטיין",
       "url": "https://www.ynet.co.il/articles/0,7340,L-4480590,00.html"
     }
-  ]
+  ],
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 2,
+    "mobileRenderPages": 4,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "b222f1bfb1906809beb1bc3106d2c6204b01a4adaf678d82c09772a33e952142",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

@@ -114,5 +114,17 @@
   "publishedDateTimeIso": "2017-11-07T08:27:14+00:00",
   "modifiedDateTimeIso": "2017-11-08T13:03:05+00:00",
   "directPublisherStatusCode": 403,
-  "firecrawlPublisherStatusCode": 200
+  "firecrawlPublisherStatusCode": 200,
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 6,
+    "mobileRenderPages": 15,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "9345e4aa10718e1562ca11da31ab8043800746cce7dc48a4e5bf185812acd3da",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

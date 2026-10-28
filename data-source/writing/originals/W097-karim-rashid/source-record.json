@@ -130,5 +130,17 @@
     "substantiveTextSha256": "d71fffb64114a34731cb5b5608747f36f045ed3a54881721243be73e04d66afc"
   },
   "publishedTimestamp": "2017-04-20T08:11:00+00:00",
-  "sourceTimezone": "UTC (structured metadata only; no time displayed in article byline)"
+  "sourceTimezone": "UTC (structured metadata only; no time displayed in article byline)",
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 6,
+    "mobileRenderPages": 15,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "c27db11cf3392788329f5721254a992232980890ae82e6136e3c7111a1dd6159",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

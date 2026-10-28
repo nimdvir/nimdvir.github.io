@@ -58,5 +58,17 @@
     "externalPhotoBinariesDownloaded": false,
     "substantiveTextSha256": "1718b6fb957411011fa8cbf96f80f480c584d05981d59319906c7ba0e2bf504d"
   },
-  "articleType": "column"
+  "articleType": "column",
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 2,
+    "mobileRenderPages": 4,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "afd81dd2f2c10f1b562a1f7dcf5e6013db2d5400139245ed21f4f0b0179a9dca",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }

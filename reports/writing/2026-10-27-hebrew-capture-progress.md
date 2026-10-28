@@ -1,5 +1,80 @@
 # Hebrew article archive: capture progress (2026-10-27)
 
+## Latest Work session result
+
+| Measure | Result |
+| --- | ---: |
+| Stable inventory records | 198 |
+| Verified unique Hebrew Markdown articles | 55 |
+| Unique clean standalone HTML backups | 55 |
+| Inventory IDs covered by those packages | 57 |
+| Newly captured unique articles this session | 51 |
+| Newly covered IDs, including two confirmed duplicates | 53 |
+| IDs without a registered Hebrew body | 141 |
+| Documented source-only unresolved records | 9 |
+| Documented excluded wrong-person English record | 1 (W100) |
+
+The remaining 141 IDs include W100, which is actually by Boaz Dvir and has no verified Hebrew/Nim portfolio relationship. The other 140 are still potential archival candidates, subject to source and authorship verification. This is substantial progress, not completion of the entire inventory. The 198 IDs and their order remain unchanged.
+
+Every captured package contains the verified Hebrew body, clean HTML, source record, original-source link, reciprocal reading-copy links, and a copyable APA 7 citation. No full article translation was created. Bracketed English citation-title glosses are bibliographic metadata only. No Astro content, existing English articles, CV, design, or website components were changed. GitHub Pages publication was not triggered.
+
+## Verification and preservation
+
+- `python scripts/writing/check_inventory.py`: **198 records, zero problems**.
+- `python scripts/writing/check_captures.py`: **55 unique packages, 57 covered IDs, zero problems**.
+- `npm run build`: passed. The website source and configuration were unchanged by archival work.
+- `python scripts/verify_site.py`: passed, 68 HTML files.
+- `python scripts/verify_seo.py`: passed, 38 canonical pages.
+- All 55 HTML reading copies rendered at 1000-pixel desktop and 390-pixel mobile widths. First-page contact sheets were inspected; text-block bounds on all **638 rendered pages** showed no horizontal overflow. Chromium could not be installed because its download failed; WeasyPrint was used. Its RTL auto-margin issue needed a renderer-only direction workaround; saved article HTML was not changed. Existing remote images were omitted from QA rendering only.
+- All Markdown frontmatter and JSON source records parse; citations and reciprocal links are present. Recorded first/final paragraphs and long Markdown paragraphs match the HTML copies.
+- All original URLs, original PDF/HTML paths, translation/page paths, Translate?, Priority, editorial ratings/reasons, English titles, and existing later statuses were compared to the session baseline and are unchanged. Notes are append-only. W100's factual author/subject attribution was corrected with evidence; its translation choices were preserved.
+- The four baseline captures were reverified against live publisher responses. New source comparisons included raw text outside paragraph tags, source-specific paragraph boundaries, questions without question marks, caption/credit locations, original links, and excluded promotions.
+
+## Review, availability, and authorship
+
+| IDs | Finding and action |
+| --- | --- |
+| W090 / W003 | Identical publisher full bodies and canonical metadata; W090 shares W003 files. Both IDs retained. W090's older `needs checking` status remains, with resolved duplicate evidence in Notes and its source record. |
+| W096 / W089 | Identical full bodies; W096 shares W089 files. No duplicate copy created. |
+| W005 | Listed URL resolves to an unrelated medical column. Existing English text overlaps an abridged portion of W165, but full identity is unproven. Published status and English page unchanged; source-only record retained. |
+| W100 | Verified English article by **Boaz Dvir**, January 18, 2021. Corrected factual attribution and set `not my writing`; no Hebrew body invented. |
+| W101–W105, W110 | Six English Blogspot originals return 404 by direct retrieval and Firecrawl. Possible Hebrew counterparts are evidence only; no unsupported shared paths. |
+| W111, W112 | Workbook hyperlinks are section pages, not unique articles. Title matches do not establish exact duplicates. |
+| W104 | Plausible Hebrew Orly Shani/Fashion Star interview found, but its identity with the missing English post remains unproven. |
+| W016, W083, W095, W197, W198 | Third-party work. Preserve Yuval Ganor, Amir Bogen, Dan Margalit/companion reporters, and nrg Maariv attribution. Exclude from Nim's writing-style corpus. W095 includes Nim's photo credit. |
+| W106 | Coauthored by Dana Darvinsky and Nim. Original listed URL is unavailable; verified official NRG mirror retained separately. Style analysis must account for coauthorship. |
+| W035, W108, W116, W126, W163, W164, W176 | Complete online editions captured. Additional print-only material advertised by the source was not recovered. |
+| W107 | Complete online body, headline and final raw-tail paragraph verified. Older `needs checking` status remains with clarification in Notes. |
+
+Other pre-existing inventory review flags remain for future processing; source-only blockers are sorted after fresh candidates in `--capture-queue`. W167, for example, still lacks a unique source URL and was not resolved this session.
+
+## Images and licensing
+
+No new publisher photo was downloaded, rehosted, or represented as rights-cleared. New reading copies retain captions and credit provenance with placeholders; licensed replacement research remains pending. Existing W046/W089 remote image references were retained. W003 has three empty inline image URLs; W089 has two missing references. Xnet W092/W093/W107/W158 expose incomplete or absent article-photo references; unrelated default/furniture images were excluded. W107 has two empty media containers without source captions. No image or caption was reconstructed.
+
+## Commits and Claude handoff
+
+Eight article batches were committed and saved to `main` through the connected GitHub app after the checkout's unauthenticated Git push failed. The resulting remote trees were checked against the local commit trees before each ref update. Publication remains separate and was never requested.
+
+- [Batch 1](https://github.com/nimdvir/nimdvir.github.io/commit/38f1bc8f9789e2ec81510ddf17d0cfda1712d5ba)
+- [Batch 2](https://github.com/nimdvir/nimdvir.github.io/commit/2fd83a590f3caaadd0be4ae0fa0366b946d08533)
+- [Batch 3](https://github.com/nimdvir/nimdvir.github.io/commit/f91da86b364dc99c45d79e74e0489d7faa8c901e)
+- [Batch 4](https://github.com/nimdvir/nimdvir.github.io/commit/ccd97ba6512a0411bf4713c6dcd43a9d35cd2119)
+- [Batch 5](https://github.com/nimdvir/nimdvir.github.io/commit/e1eb1cf30bd7162f2c8636c4d67b7030e532576c)
+- [Batch 6](https://github.com/nimdvir/nimdvir.github.io/commit/bc74b154e30cc90241a8e1b9c95d244a99cb15bd)
+- [Batch 7](https://github.com/nimdvir/nimdvir.github.io/commit/1c6d1b3356dcc4c5a7fed1e089ca86b9b7e0914d)
+- [Batch 8](https://github.com/nimdvir/nimdvir.github.io/commit/ec65166a185a3e170f3ad7ccd0878c6cc27e3264)
+
+[Claude handoff](2026-10-27-claude-hebrew-handoff.md) explains the canonical source locations, unchanged translation fields, duplicate handling, voice preservation, coauthorship, and print/media limits. Use the CSV as the sole authoritative inventory.
+
+## Next priorities
+
+Continue with remaining original interviews, especially W018 (Split cast), W029 (Dudi Cohen), W128 (Adi Neumann), W140 (Vered Feldman/Ofri Prishkolnik), W147 (Orna Datz), W149 (Hanna Laslo), W155 (Sarai Givaty), and W168 (Dana Semo), then other firsthand features, columns, criticism, and routine reporting. Work through existing review flags and archive sources for the missing portfolio posts without treating subject overlap as proof of duplication. Licensed images can follow text capture.
+
+## Earlier baseline and incremental batch notes
+
+The following sections preserve the earlier four-article snapshot and the session's incremental checkpoints. Their intermediate counts are historical; the table above is the current result.
+
 ## Responsibility and workflow
 
 - Hebrew article extraction, clean Markdown and clean HTML archive, source provenance, APA citation and inventory updates: ChatGPT.

@@ -67,7 +67,7 @@
     "metadataComparedWithInventory": true,
     "markdownRendered": true,
     "htmlParsed": true,
-    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "htmlVisualReview": "Passed coordinated WeasyPrint desktop/mobile rendering and overflow checks; Chromium unavailable; see readingCopyValidation",
     "externalStylesheetsOrImages": false,
     "citationFooterVerified": true,
     "articleHyperlinksVerified": true
@@ -77,5 +77,17 @@
   "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
   "sourcePublicationBrand": "nrg מעריב",
   "sourceTitleDiffersFromInventory": false,
-  "articleType": "feature"
+  "articleType": "feature",
+  "readingCopyValidation": {
+    "checkedOn": "2026-10-27",
+    "method": "WeasyPrint HTML rendering at desktop and mobile widths; first-page contact sheets inspected; all rendered text block bounds checked",
+    "desktopWidthPx": 1000,
+    "mobileWidthPx": 390,
+    "desktopRenderPages": 3,
+    "mobileRenderPages": 7,
+    "horizontalTextOverflow": false,
+    "htmlSha256": "004a77d7b0db32b0eed99613903bf862fb3999045779b9a03e1205986b44fb67",
+    "browserEngineCheck": "Chromium unavailable: browser download failed; HTML parsed and rendered with WeasyPrint instead",
+    "rendererOnlyAdjustments": "HTML root direction overridden to ltr while body remains rtl for WeasyPrint auto-margin bug; existing remote images omitted in QA only. Saved HTML remains unchanged and Hebrew RTL."
+  }
 }
