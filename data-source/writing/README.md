@@ -68,6 +68,8 @@ Use `templates/writing/README.md` for the Hebrew-extraction and English-translat
 
 | ID | Subject | Hebrew source | English draft | Current state |
 | --- | --- | --- | --- | --- |
+| W007 | Megan Hilty and Katharine McPhee, Smash | [Hebrew Markdown](originals/W007-smash-interview/article.he.md), [clean HTML](originals/W007-smash-interview/article.he.html), [source record](originals/W007-smash-interview/source-record.json) | Not started | Captured on 2026-10-27; original publisher images recorded but not reused |
+| W010 | Bill Masters, Seinfeld | [Hebrew Markdown](originals/W010-bill-masters/article.he.md), [clean HTML](originals/W010-bill-masters/article.he.html), [source record](originals/W010-bill-masters/source-record.json) | Not started | Captured on 2026-10-27; original publisher images recorded but not reused |
 | W046 | Julianne Moore | [Hebrew Markdown](originals/W046-julianne-moore/article.he.md), [article-only HTML](originals/W046-julianne-moore/article.he.html), [source record](originals/W046-julianne-moore/source-record.json) | [English draft](translations/W046-julianne-moore/article.en.md) | English example awaiting Nim review |
 | W089 | Jodie Comer and Sandra Oh, Killing Eve | [Hebrew Markdown](originals/W089-killing-eve/article.he.md), [article-only HTML](originals/W089-killing-eve/article.he.html), [source record](originals/W089-killing-eve/source-record.json) | Not started | Complete Hebrew text captured; 1 image link and all 3 captions retained; 2 publisher image links missing |
 
