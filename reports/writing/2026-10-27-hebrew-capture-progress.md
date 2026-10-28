@@ -69,3 +69,7 @@ W021 (Eva Mendes), W023 (Matthew Broderick), W035 (Patti Stanger), W097 (Karim R
 W003 (Julia Louis-Dreyfus) and third-party coverage W083, W197, W198 now have complete verified packages. W083 is by Amir Bogen; W197/W198 retain the nrg Maariv byline. These coverage records remain `not my writing` and have `styleSample: false`. W003 remains `published`; no English page was changed.
 
 W090/W003 and W096/W089 are confirmed duplicates: full-body hashes, publisher canonical links and structured article metadata agree. Both IDs remain in the inventory with shared canonical Hebrew and HTML paths and separate duplicate-evidence source records. W090 retains its existing `needs checking` status; its note now records the resolved duplicate evidence. There are 23 unique packages covering 25 inventory IDs. Both validators pass.
+
+## Continuing Work session: batch 5
+
+Nine further packages: W001 (Jamie Foxx), W002 (Jim Carrey), W004 (Lady Gaga), W006 (RuPaul), W056 (Tim Burton at MoMA), W058 (Michael Lucas film-set reporting), W093 (silent meditation retreat), W158 (Homeland set visit), W172 (Steve Buscemi). Published English-page statuses were retained. Xnet's current W093/W158 responses expose no article-specific photograph URLs; photo recovery is explicitly pending and no unrelated default image was substituted. W011/W165/W186 reading copies also now retain the source trailer captions at their original positions. There are 32 unique packages covering 34 inventory records; both validators pass.

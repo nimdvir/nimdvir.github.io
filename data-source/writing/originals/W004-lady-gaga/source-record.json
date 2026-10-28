@@ -1,0 +1,100 @@
+{
+  "articleId": "W004",
+  "title": "גאגא שואו",
+  "subtitle": "",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3760766,00.html",
+  "publishedDate": "2009-08-12",
+  "publishedTime": "10:11",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "interview",
+  "styleSample": true,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 50,
+  "interviewerPromptCount": 13,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "ליידי גאגא. מודה שהיא בעלת איברי מין נשיים וגבריים",
+      "credit": "Gettyimages Imagebank",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119765/gaga3_wa.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "הדבר הכי מעניין שעולם הפופ ניפק מזה זמן",
+      "credit": "Gettyimages Imagebank",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119761/gaga1_wa.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "\"תמיד ידעתי שאני הולכת להיות כוכבת\"",
+      "credit": "Gettyimages Imagebank",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119743/gaga_wa.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "גאגא. כוכבת הפופ המדוברת ביותר בעולם כרגע",
+      "credit": "צילום: Gettyimages Imagebank",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119756/gaga2_a.jpg",
+      "placement": "source sidebar, linearized after article",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [],
+  "apaCitation": "Dvir, N. (2009, August 12). Gaga sho [Gaga show]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3760766,00.html",
+  "completeness": {
+    "firstTextBlock": "הסיפור של ליידי גאגא, כוכבת הפופ המדוברת ביותר בעולם בשנייה זו, הוא סיפור של אמונה ויהירות. גאגא, או בשמה המלא סטפני ג'ואן אנג'לינה ג'רמונטה, תמיד ידעה שהיא הולכת להיות כוכבת. או יותר נכון, מין פרסונה עולמית בשם \"ליידי גאגא\", דמות צבעונית, סהרורית, רוחנית ומקושקשת, אותה ציירה במו ידיה ושחררה לאוויר הצהובונים.",
+    "lastTextBlock": "\"לאו דווקא. עכשיו, כשאני עושה כסף, אני משקיעה את כולו באמנות שלי. בהופעות, בתלבושות, בקליפים. לא קניתי לעצמי דירה. אני לא מבזבזת את הכסף שלי על שטויות כמו בגדים, דירות והנאות החיים. אין לי בית משלי, אין לי כלום. הכל הולך חזרה לאירוע שהוא ליידי גאגא. אני אוהבת להשקיע בעיצוב. למשל, את פסנתר הבועות שאני משתמשת בו בהופעה עיצבתי בעצמי. אני שותפה מלאה בעיצוב הווידאו קליפים שלי\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Hebrew source fetched directly from inventory publisher URL; existing English page remains unchanged at src/content/interviews/lady-gaga.md.",
+    "All text and interviewer prompts retained, including statements without question marks.",
+    "Publisher sidebar caption linearized after body; original images not downloaded or embedded.",
+    "Source image caption says מודה שהיא בעלת איברי מין נשיים וגבריים, while body identifies the purported interview as likely fabricated and describes denial. Historical source caption retained unchanged; no factual endorsement.",
+    "Original source references print page עמ' 56; preserved.",
+    "End-of-story source-wide photo credit צילום: Gettyimages Imagebank recorded for the inline images. Promotional magazine teaser and subscription banner removed."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "ccdcd10ef824e196994fb99b702c807a523cacea410e728b7adff0becddfbb28",
+    "imageFilesDownloaded": false,
+    "rawSubstantiveNodesRecovered": 0,
+    "independentWholeBodyCharacterComparison": "PASS: all non-whitespace characters in original article DOM after removing source images/captions/promotions match clean HTML body and source headings, in order."
+  },
+  "sectionHeadingCount": 4,
+  "resolvedRelativeLinks": [
+    {
+      "originalHref": "/category/538",
+      "resolvedUrl": "https://www.ynet.co.il/category/538"
+    },
+    {
+      "originalHref": "/entertaiment/category/1479",
+      "resolvedUrl": "https://www.ynet.co.il/entertaiment/category/1479"
+    }
+  ],
+  "existingEnglishPagePath": "src/content/interviews/lady-gaga.md",
+  "sourceMedia": [],
+  "excludedPromotionalBlocks": [
+    "עוד על ליידי גאגא, ההופעה המדוברת בישראל והלבוש המיוחד שלה, בגיליון פנאי פלוס החדש"
+  ]
+}

@@ -60,7 +60,8 @@
       "title": "הטריילר של \"12 שנים של עבדות\"",
       "mediaUrls": [
         "https://progressive-video-ynet.ynethd.com/0114/12 years a slave_768Kbps_360p.mp4"
-      ]
+      ],
+      "beforeSourceBlock": 2
     }
   ],
   "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
@@ -81,7 +82,8 @@
     "מצאתם טעות בכתבה? כתבו לנו"
   ],
   "notes": [
-    "The body spells the actor name in several variants and gives the story setting as 1853; source wording is preserved."
+    "The body spells the actor name in several variants and gives the story setting as 1853; source wording is preserved.",
+    "Original trailer caption retained at its source position in both reading copies; media itself is not rehosted."
   ],
   "apaCitation": "Dvir, N. (2014, January 16). Chiwetel Ejiofor: \"Kulam avadim shel hamaarekhet\" [Chiwetel Ejiofor: \"Everyone is a slave to the system\"]. Ynet. https://www.ynet.co.il/article/4477287",
   "verification": {
@@ -181,6 +183,7 @@
     "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
     "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
     "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
-    "standaloneHtmlChecked": true
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None: all publisher articleBody text accounted for as retained substantive blocks or explicitly excluded website promotions."
   }
 }

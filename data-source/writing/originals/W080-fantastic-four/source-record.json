@@ -295,6 +295,7 @@
     "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
     "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
     "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
-    "standaloneHtmlChecked": true
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None: all publisher articleBody text accounted for as retained substantive blocks or explicitly excluded website promotions."
   }
 }

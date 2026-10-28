@@ -88,7 +88,8 @@
       "title": "הטריילר של \"מקום בתוך היער\" ( )",
       "mediaUrls": [
         "https://progressive-video-ynet.ynethd.com/0513/0805131225makom_768Kbps_360p.mp4"
-      ]
+      ],
+      "beforeSourceBlock": 11
     }
   ],
   "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
@@ -111,7 +112,8 @@
     "מצאתם טעות בכתבה? כתבו לנו"
   ],
   "notes": [
-    "Source wording including אני לא שאעשה זאת שוב and סרט שיעסוק למועדוני הסקס is preserved without correction."
+    "Source wording including אני לא שאעשה זאת שוב and סרט שיעסוק למועדוני הסקס is preserved without correction.",
+    "Original trailer caption retained at its source position in both reading copies; media itself is not rehosted."
   ],
   "apaCitation": "Dvir, N. (2013, May 11). Ryan Gosling: \"Haofnobank hu haelil sheli\" [Ryan Gosling: \"The motorcycle bank robber is my idol\"]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4361635,00.html",
   "verification": {
@@ -286,6 +288,7 @@
     "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
     "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
     "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
-    "standaloneHtmlChecked": true
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None: all publisher articleBody text accounted for as retained substantive blocks or explicitly excluded website promotions."
   }
 }

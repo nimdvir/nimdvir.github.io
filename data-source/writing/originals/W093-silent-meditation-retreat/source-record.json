@@ -1,0 +1,124 @@
+{
+  "articleId": "W093",
+  "title": "למה נמרוד דביר מרגיש היי טבעי?",
+  "subtitle": "נמרוד דביר שתק במשך 10 ימים, עשה מדיטציה, אכל אוכל צמחוני וחשב מחשבות טובות. אנחנו רוצים להרביץ לו, אבל הוא בניו יורק",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Pnai Plus / Xnet",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,14718,L-3093217,00.html",
+  "publishedDate": "2012-02-12",
+  "publishedDisplay": "12.02.12, 10:32",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "column",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "77db0b4318335730aee90360cd0214e751540fbb5b80a341f2492dfd80aeaa54",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 12,
+  "interviewerPromptCount": 0,
+  "promptDisplayBlockCount": 0,
+  "cleanTextDisplayBlocks": 12,
+  "originalImages": [],
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalVideos": [],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "יש בניו יורק כמה חוויות שאי אפשר לחוות בשום מקום אחר. למשל, קורס מדיטציית ויפאסנה שערכתי לאחרונה. לכאורה, משהו שאפשר לעשות בכל מקום על פני הגלובוס, ועדיין, העובדה שעברתי אותו פה גרמה לו להיות, עבורי, חווייה משנת חיים.",
+    "lastTextBlock": "האפשרות הזו, לעשות מדיטציה גם תוך כדי החיים השוטפים, היא בעיניי אחת מנקודות היופי האמיתיות של העיר.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "__________________________________________________________________________________________________________",
+    "עוד בפנאי פלוס:",
+    "[ הרווקים הנחשקים: מורן אטיאס ועוז זהבי ישנים באלכסון ](https://xnet.ynet.co.il/articles/0,7340,L-3093216,00.html)[יום האהבה: המנות שעדיפות על נשיקות רומנטיות ](https://xnet.ynet.co.il/articles/0,7340,L-3093168,00.html)[הראל סקעת יוצא מהארון ועכשיו גם יוצא לשוק](https://xnet.ynet.co.il/articles/0,7340,L-3093213,00.html)",
+    "[ >> בואו להיות חברים של Xnet בפייסבוק ](http://www.facebook.com/pages/Xnet/200215736666697)"
+  ],
+  "notes": [
+    "Publisher image metadata uses a site-wide default image; unrelated hidden site header artwork and navigation thumbnails were excluded.",
+    "Source-relative article links resolved against xnet.ynet.co.il.",
+    "No article-specific photograph URLs or captions are exposed in the current publisher response. Original image recovery remains pending; full article text is available."
+  ],
+  "apaCitation": "Dvir, N. (2012, February 12). Lama Nimrod Dvir margish hay tivi? [Why does Nimrod Dvir feel a natural high?]. Pnai Plus / Xnet. https://xnet.ynet.co.il/xo/articles/0,14718,L-3093217,00.html",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": 0,
+        "type": "p",
+        "sha256": "db8790cf795aa3f9d5382ae92894cf5a1a578fa89afd8e54e0eae6f6f32cdf89"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "p",
+        "sha256": "902cb32ba735b9840109d3c42f338a03cb0cc14bf73d98e219e03858e6889e33"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "a744e7b56bcec0a7350113c65f1e7a861bb6bae1b82cd2110dd3d294f8609faf"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "eb94903f1557962d73d001109afc589eb0e38721a165f76c3a4001935a4f2899"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "p",
+        "sha256": "7fd1cb051cbfbbe05422381bfe8b506717c0f88113bff3dd7a57b88863aca8a2"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "8fe247eded5305f30013deb4986c4262e0038f63bb0fee8d688165116f3b426a"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "3f10f6b0281bd3bab020fe0f09f0b20548fab1d5747e1480e3d417d3ed92d9aa"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "315d7d6db8f015a10861d82e759b332e35ee8532ca73701de2b08b18581c4b02"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "acc65f8f9a5d8435ce1a5e82b843fd7f1a6d711a7f415ca346eb3f9896d760e4"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "p",
+        "sha256": "47689da1d9c9f2ce52034767b405063baea5e596754f3d4c510c803f6fd84bcb"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "a1eff68def2734d04b4779e03a8429a763d020cd867510878e06fd7ef89d974f"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "ae78df5b55ea1a29a0ba5a5e569faaa30ab17a0413fc0336d63677d9df4c5b5f"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML body text equals normalized source text in order; original captions separately verified.",
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None: all publisher articleBody text accounted for as retained article or excluded website promotions."
+  }
+}

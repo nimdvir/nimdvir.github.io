@@ -74,7 +74,8 @@
       "title": "הטריילר של \"12 שנים של עבדות\"",
       "mediaUrls": [
         "https://progressive-video-ynet.ynethd.com/0114/12 years a slave_768Kbps_360p.mp4"
-      ]
+      ],
+      "beforeSourceBlock": 2
     }
   ],
   "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
@@ -98,7 +99,8 @@
   ],
   "notes": [
     "W005 lists source URL L-4478269, which was fetched HTTP 200 and is an unrelated medical column by Dr Arie Yagoda dated 2014-01-21. Its existing English website text overlaps this interview but is abridged; W005 requires source/duplicate review. No W005 files were changed.",
-    "The answer beginning אני עובד כיום occurs outside a paragraph element after a blank paragraph; its original boundary and complete text were recovered."
+    "The answer beginning אני עובד כיום occurs outside a paragraph element after a blank paragraph; its original boundary and complete text were recovered.",
+    "Original trailer caption retained at its source position in both reading copies; media itself is not rehosted."
   ],
   "apaCitation": "Dvir, N. (2014, January 20). Michael Fassbender: 'Mekaveh shehaenoshut hishtanta' [Michael Fassbender: 'I hope humanity has changed']. Ynet. https://www.ynet.co.il/articles/0,7340,L-4478514,00.html",
   "verification": {
@@ -243,6 +245,7 @@
     "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
     "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
     "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
-    "standaloneHtmlChecked": true
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None: all publisher articleBody text accounted for as retained substantive blocks or explicitly excluded website promotions."
   }
 }

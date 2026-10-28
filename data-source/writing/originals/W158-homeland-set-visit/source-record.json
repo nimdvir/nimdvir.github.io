@@ -1,0 +1,306 @@
+{
+  "articleId": "W158",
+  "title": "לרגל העונה השניה: ביקור על הסט של הומלנד",
+  "subtitle": "על הסט של \"הומלנד 2\" המעולה נמצאו כוכבים הוליוודים כמו קלייר דיינס שגרים יחד במעונות, כדורים פסיכיאטרים, סיפורי אימה מהצילומים בישראל ו־150 איש שעובדים שלושה ימים על סצנה אחת וטוענים שזו הסדרה הכי אמיצה באמריקה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Pnai Plus / Xnet",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,7340,L-3097583,00.html",
+  "publishedDate": "2012-10-04",
+  "publishedDisplay": "04.10.12, 12:39",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "feature",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "866020de073b8ce579c38ee6823a2fce52c0b6bce0cd213bef9fe7bc2e0361a7",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 48,
+  "interviewerPromptCount": 4,
+  "promptDisplayBlockCount": 4,
+  "cleanTextDisplayBlocks": 48,
+  "originalImages": [],
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalVideos": [],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "העונה השנייה של, \"הומלנד\", סדרת הלהיט האיכותית מבית שואוטיים מצטלמת באולפנים בפרברי שרלוט הנידחת. עניין של עלויות ומיני הקלות מס משמעותיות, שהביאו גם הפקות כמו \"משחקי הרעב\", \"קפטן אמריקה\" ו\"דוסון קריק\" לצלם באזור.",
+    "lastTextBlock": "לואיס: \"בוודאי. הסברתי לאובמה את התוכנית הכלכלית שלי. אפשר לומר שפתרתי עבורו את כל הבעיות\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "__________________________________________________________________________________________________________________________",
+    "עוד ב[פנאי פלוס](javascript:var x=txt_link(\"category\",\"3376\",\"\")):",
+    "[ מאיה בוסקילה מודה: לא פשוט להיות בהריון ](https://xnet.ynet.co.il/articles/0,7340,L-3097464,00.html)[נינט טייב מחפשת שיר לחופה. ראיון ](https://xnet.ynet.co.il/articles/0,7340,L-3097559,00.html)[\"הנסיכה הקסומה\": איפה הכוכבים היום?](https://xnet.ynet.co.il/articles/0,7340,L-3097503,00.html)"
+  ],
+  "notes": [
+    "Publisher image metadata uses a site-wide default image; unrelated hidden site header artwork and navigation thumbnails were excluded.",
+    "Source-relative article links resolved against xnet.ynet.co.il.",
+    "No article-specific photograph URLs or captions are exposed in the current publisher response. Original image recovery remains pending; full article text is available.",
+    "Several substantive paragraphs and three bold interviewer prompts occur outside paragraph tags; recovered in order.",
+    "A standalone period appears between the pregnancy passage and the Obama passage; preserved as a source anomaly.",
+    "Source wording including הירידה לפרטיים הקטנים is preserved unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2012, October 4). Leregel haona hashniya: Bikur al haset shel Homeland [For the second season: A visit to the Homeland set]. Pnai Plus / Xnet. https://xnet.ynet.co.il/xo/articles/0,7340,L-3097583,00.html",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": 0,
+        "type": "p",
+        "sha256": "34efd4f16fb6dbdccd11ec4c28163fa992d9d0fdd1251971e0ae88c3be5fe003"
+      },
+      {
+        "sourceBlock": 1,
+        "type": "p",
+        "sha256": "49f2cc78cfad704634163ef3b8788eb94e663bf9faa3e625091263154d5f0b34"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "p",
+        "sha256": "114c5b84ce358b4568fe68910bd3097a1ec4059922eddff93d95791091ca8b3c"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "2be19f329cf9eb4b40daec24a24998c33b72ad5718acd784dcc4d680a3b014c1"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "9720dfb75aa7eebe0975548b15c255260bfba2e35ab89ab9ca6598d1c1b30009"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "p",
+        "sha256": "3526a4ee9d48f7da6f9425470996986f86fe9755872bd45e44192faed6c97e6d"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "b17b425f9865404eb5f3db08a7bd57e51bf0bcd7c0dd2dd11571a0f19326fa75"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "eadf3d53284e69fd089fb02efc106f0ff8584bf8bbc3860b9f9aa06400f6dbbd"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "d4cf79494fc41fbeceaada691455ffc851a48a82bc1b4fc04219be21758c9cf4"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "e57ed120ee8e41d84f778aa8549a2539b2a8255cc10ebe61e42559a951c4f1bc"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "p",
+        "sha256": "33985e9a4fe984ee6c97dbd791fe5c67abd8db10e1df77dc00d4ebcb35554f3c"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "9d140b9cd4bd5210cba95a22156ae330acce640508baf34d8f871d85f0b8393c"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "85fe6e8d8971ee54d9cbf4ca3941cb820b21ed0c2121e156983d55932d29dfb8"
+      },
+      {
+        "sourceBlock": 13,
+        "type": "p",
+        "sha256": "8d91a5baf2183d51f31fd812b280bd1948d9702f32665d0f3d2cc5e77cef262b"
+      },
+      {
+        "sourceBlock": 14,
+        "type": "p",
+        "sha256": "1f547db77b11cf9460fef6164e9ffc953d14b03363fb94a2f955169a5eac325d"
+      },
+      {
+        "sourceBlock": 15,
+        "type": "p",
+        "sha256": "98e93e30db888a4c26017c680caae7352df6026d8ee933aed9a1c60294822c62"
+      },
+      {
+        "sourceBlock": 16,
+        "type": "p",
+        "sha256": "a89a4d044f49645f9d8f65708dbe54682a8d2fd77d468c7a8caec72c28ada445"
+      },
+      {
+        "sourceBlock": 17,
+        "type": "p",
+        "sha256": "6960c0fd3faa876a4823cb795cfdad3ae2dd1a2097d8920792aec37c282d3b1e"
+      },
+      {
+        "sourceBlock": 18,
+        "type": "p",
+        "sha256": "56c9ba8eb8d8c005880d106c7069c348485c0fa63254dbe2c117ee90cbe89d8a"
+      },
+      {
+        "sourceBlock": 19,
+        "type": "p",
+        "sha256": "d6dbb46baac7ea626eb7f092baaa3ad7d2b0c18bc375be548d334b6e9b36aa09"
+      },
+      {
+        "sourceBlock": 20,
+        "type": "p",
+        "sha256": "03edf904bc91c3f5bc3106e6131efa042a5c448df0e9fa6161c3fba281c15adb"
+      },
+      {
+        "sourceBlock": 21,
+        "type": "p",
+        "sha256": "68a4c65d7470889859a1c2f01395e2964ac8f45c5d50559332263bbb85b0b9bd"
+      },
+      {
+        "sourceBlock": 22,
+        "type": "p",
+        "sha256": "d73991d3c1bf94c83048fbd78a69424397807a434318d5dacfb2cb6bcfe0c9db"
+      },
+      {
+        "sourceBlock": 23,
+        "type": "p",
+        "sha256": "7e7a251cbe1eaad1f290d95c72b16b79d5925cb63356a210c915e3ec56529281"
+      },
+      {
+        "sourceBlock": 24,
+        "type": "p",
+        "sha256": "e5e496f496b46fcd60dc5b8586dd9ed1cabea5dabbad1d4e967e5da60c1b4cf1"
+      },
+      {
+        "sourceBlock": 25,
+        "type": "p",
+        "sha256": "1ee25731203994a9ac31025f53a4e1df90d11d7be61b4a8cc4a0121889b0eede"
+      },
+      {
+        "sourceBlock": 26,
+        "type": "p",
+        "sha256": "a2ee6e234ee86acfb653148b74c631bc9418dc4ccf18db7c1491ddc3d831db96"
+      },
+      {
+        "sourceBlock": 27,
+        "type": "p",
+        "sha256": "2df9af4710528b321a458cea87019fc3c3d231161c85154da6e2a65c4ae46aa2"
+      },
+      {
+        "sourceBlock": 28,
+        "type": "p",
+        "sha256": "d391d9cd469e810a73789814817add4fb8b2c2dc4ab619a175b21d28d3b498db"
+      },
+      {
+        "sourceBlock": 29,
+        "type": "p",
+        "sha256": "845903e63536a28a45383195bded7cd386b416e2406d07d976182044bc300c6e"
+      },
+      {
+        "sourceBlock": 30,
+        "type": "p",
+        "sha256": "88f0e0b540a1cc03e41c996aef98a232f44fd731619f72cd0a22db54b77b3978"
+      },
+      {
+        "sourceBlock": 31,
+        "type": "p",
+        "sha256": "88927d2047eacb98bd01467998a4d88de16d3ec588681b9de5d9b73b1306be9c"
+      },
+      {
+        "sourceBlock": 32,
+        "type": "p",
+        "sha256": "74aa45bf701e535b2a30f3bad8e09db61c14ecdecc85ba4c8575dd6fe602f59c"
+      },
+      {
+        "sourceBlock": 33,
+        "type": "p",
+        "sha256": "1d434cb072202df1a3a41fc7c8b84c5409702d3e7593019b955d55dfdb8d9800"
+      },
+      {
+        "sourceBlock": 34,
+        "type": "p",
+        "sha256": "8718016fcd06c559c307dc15d52d1d683bef3fc822faa0514533f85f5306bdc0"
+      },
+      {
+        "sourceBlock": 35,
+        "type": "p",
+        "sha256": "3105dc53d580fc9c8de46ecdbe572679dd46f11faf5d17b4bc664453b7bc2da3"
+      },
+      {
+        "sourceBlock": 36,
+        "type": "p",
+        "sha256": "ab30936a8eba884d39f2ff5aef3b7a8bc64f68ca887cc5e0411d9a8d3ef7bfcc"
+      },
+      {
+        "sourceBlock": 37,
+        "type": "p",
+        "sha256": "1c7953ec4a8610b0c38ddb529ac5a809e6cdab82eaf339fb51612487e8cedc8e"
+      },
+      {
+        "sourceBlock": 38,
+        "type": "p",
+        "sha256": "1c4247831745281484dcfc7f59b6be3e42c5c6199f26f12ca561b7515cc502ac"
+      },
+      {
+        "sourceBlock": 39,
+        "type": "p",
+        "sha256": "a434ef620d0c2d2abadd28961bba1f20e7bae5f1fc0adc41299f333fa2aaa168"
+      },
+      {
+        "sourceBlock": 40,
+        "type": "p",
+        "sha256": "d4d9455ce05776e69cc51230b4db065175bf1095f070941d251eee72d3d28ba9"
+      },
+      {
+        "sourceBlock": 41,
+        "type": "p",
+        "sha256": "132b2589a90d282050c36766e3af04d59167b10b203d120871c5b73146e40341"
+      },
+      {
+        "sourceBlock": 42,
+        "type": "p",
+        "sha256": "aec537f6667a020e57890dde9ee8f8b7de2a565e1c91786ca7655136b023214e"
+      },
+      {
+        "sourceBlock": 43,
+        "type": "p",
+        "sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+      },
+      {
+        "sourceBlock": 44,
+        "type": "p",
+        "sha256": "b2192fb87f7efd78514e7c77b66b1d900ee171fb9b2ca61e9bb6780b89a86903"
+      },
+      {
+        "sourceBlock": 45,
+        "type": "p",
+        "sha256": "030bb5d808dd28d50f2ba46e56d0ac5ad919e2bb9ff3a7f6ee21bccc7150edd5"
+      },
+      {
+        "sourceBlock": 46,
+        "type": "p",
+        "sha256": "6a310a3bfc1807698336051a007ffe7dc20f72b61ec5f0b96c57ad06c20a93d9"
+      },
+      {
+        "sourceBlock": 47,
+        "type": "p",
+        "sha256": "c5c02e18dd6650811530e450c2aeab458025c7d4b21a42ea496d791c40eb1f2b"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML body text equals normalized source text in order; original captions separately verified.",
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None after separately accounting for the related-stories label עוד בפנאי פלוס:; all other publisher articleBody text matches retained article or explicitly excluded promotions."
+  }
+}

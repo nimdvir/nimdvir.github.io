@@ -1,0 +1,285 @@
+{
+  "articleId": "W172",
+  "title": "סטיב בושמי, כוכב \"אימפריית הפשע\", לא מפחד למות",
+  "subtitle": "שום דבר לא הכין את כתבנו לרגע שבו הוא ישב ליד סטיב בושמי והבין עד כמה הפרצוף שלו הוא כמו של אנג'לינה ג'ולי, רק הפוך. בעונה השלישית של \"אימפריית הפשע\" בושמי ממשיך לחשוב שנאקי תומפסון הוא בחור כיפי, ולא מזיז לו שיוצרי הסדרה עלולים להרוג אותו",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Pnai Plus / Xnet",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,7340,L-3097837,00.html",
+  "publishedDate": "2012-10-16",
+  "publishedDisplay": "16.10.12, 10:16",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "interview",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "c9c7f36db5bfd209d21afb1afad47030b1873b31d4dd897d7329e845a792df3a",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 39,
+  "interviewerPromptCount": 11,
+  "promptDisplayBlockCount": 11,
+  "cleanTextDisplayBlocks": 39,
+  "originalImages": [
+    {
+      "placement": "publisher header gallery",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/pic/102012/276414/1_1000.jpg",
+      "caption": "לשימוש פנאי פלוס סטיב בושמי אימפריית הפשע (\"התרגלתי לראות את הפרצוף שלי בכל מקום. אני כבר לא שם לב לזה\". בושמי)",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/pic/102012/276426/4_36.jpg",
+      "caption": "לשימוש פנאי פלוס סטיב בושמי אימפריית הפשע מייקל פיט",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 0,
+  "originalVideos": [],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "מכירים יופי מהפנט? כזה שיושב על בן אדם וגורם לו לסובב ראשים בכל מקום כשהוא נכנס אליו? אז לסטיב בושמי יש כיעור מהפנט. אני מתנצל מראש אם אני פוגע במישהו, אבל כמו שכתבות על אנג'לינה ג'ולי נפתחות בתיאורי יופי מדהימים, כך אני חייב להתייחס לכמה שבושמי מכוער.",
+    "lastTextBlock": "\"ממש לא! מה יהיה אם לא נצלם את הפרק האחרון במשך שבע השנים הקרובות? אם אדע מה הולך לקרות זה סתם ישגע אותי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "___________________________________________________________________________________________________________",
+    "עוד ב[פנאי פלוס](javascript:var x=txt_link(\"category\",\"3376\",\"\")):",
+    "[ איך לצאת לדייט עם ירון ברובינסקי? ](https://xnet.ynet.co.il/articles/0,7340,L-3097711,00.html)[אפרת אברמוב על השנה הקשה בחייה ](https://xnet.ynet.co.il/articles/0,7340,L-3097712,00.html)[נינט טייב מחפשת שיר לחופה. ראיון](https://xnet.ynet.co.il/articles/0,7340,L-3097559,00.html)",
+    "[ >> בואו להיות חברים של פנאי פלוס בפייסבוק ](http://www.facebook.com/pnai.plus)"
+  ],
+  "notes": [
+    "Publisher image metadata uses a site-wide default image; unrelated hidden site header artwork and navigation thumbnails were excluded.",
+    "Source-relative article links resolved against xnet.ynet.co.il.",
+    "Header gallery caption contains internal publisher-use wording and a quoted description; preserved exactly from its displayed caption element.",
+    "Interview prompts ending in full stops are retained bold."
+  ],
+  "apaCitation": "Dvir, N. (2012, October 16). Steve Buscemi, kokhav \"Imperyat hapesha\", lo mefached lamut [Steve Buscemi, star of Boardwalk Empire, is not afraid to die]. Pnai Plus / Xnet. https://xnet.ynet.co.il/xo/articles/0,7340,L-3097837,00.html",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": "header-gallery",
+        "type": "image",
+        "sha256": "fe90d427f79dfc16dd8d36cc983507e993593c626f3628a081c034453eec5841"
+      },
+      {
+        "sourceBlock": 0,
+        "type": "p",
+        "sha256": "1a0c43d37eb628401f5d3eedcc5d1315a0bfa57c88e2c2b61b7aed36c47d7679"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "p",
+        "sha256": "b878b8bc59e9f9ffd9036ce98c2044f52cbafa4790c863b7bb1c6bee3042f5dc"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "e0dc8c1ebcf5be545d9e8566df778554d79a299d9321f79d99f730da868a0cfb"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "28616650b67690467fb644f5a672f9a81440b1b134d8e676e9ebf2d2769d9830"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "p",
+        "sha256": "95861b3170a680b1ba8cda7db0a990a31d38f0ad2ebf660140f01a795554e47a"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "c701869c4f6c7ed119cc7fa4f79c2d825230acd4bcd13831e65daaf80e558352"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "0f4d830b50cc52cded5d8feddba547b1a3c76250da263b329cb2d238378bce54"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "67f4113bde02caa7ee937063ca83a1ed7cb03626ae6c3f3a6f35995edb838094"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "28ec59a65847d5099fd4de3a07a8ad0a451a1db8f335343978b3a18cea173bee"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "p",
+        "sha256": "5ffe213d1c19d2ce22567b4d660e16e6090528dcdd12ec4c1c131a7e7ff04f52"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "a3ff4e9080b0b97985ea53287c8fdf1decaf2ee879f095654ffafeac33f3cbf0"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "3815cf628d9018d882f7f2d17815c640fdeea47f7378d73bdf5bf058b5ce1870"
+      },
+      {
+        "sourceBlock": 13,
+        "type": "p",
+        "sha256": "34c5d70aa184fd7cf2b9d6f3c0510c5866e6c1fbb159501d5ae404a6cfb8a30c"
+      },
+      {
+        "sourceBlock": 14,
+        "type": "p",
+        "sha256": "1bcdefa4b45403a1d46fdc1b6ab5fd4dc0fcc20f00d91a723853ed95f7bb81ca"
+      },
+      {
+        "sourceBlock": 15,
+        "type": "p",
+        "sha256": "ecc078bd755e6573aa947a3d5b2333d1ca433cd81cc0b2233434fd2111147624"
+      },
+      {
+        "sourceBlock": 16,
+        "type": "image",
+        "sha256": "3b33df2ec5ef101bce7d09f8d4b2338e3bffdfbddaac447750321707927482d1"
+      },
+      {
+        "sourceBlock": 17,
+        "type": "p",
+        "sha256": "c722094ba21762d656c374933f3a59ee7183271a5e5346c47d67f1e765edf305"
+      },
+      {
+        "sourceBlock": 18,
+        "type": "p",
+        "sha256": "6dca3c93785f28c7bb6077eaca53cbadb088cb2e63bdbb57a0bd03d0fe2a5934"
+      },
+      {
+        "sourceBlock": 19,
+        "type": "p",
+        "sha256": "8bcee4f848c73eafa29f1ae3cbd2ce0d5407cebf7345061da72ee3e093ef1b2f"
+      },
+      {
+        "sourceBlock": 20,
+        "type": "p",
+        "sha256": "512450dc4ea643a337a1dc9db786c219efb063f91ddf3d5704a36f718f9ca3d8"
+      },
+      {
+        "sourceBlock": 21,
+        "type": "p",
+        "sha256": "1391995f593540db375e77fc264b611eafcc19add4131c41166d22748e7333a4"
+      },
+      {
+        "sourceBlock": 22,
+        "type": "p",
+        "sha256": "5adb5f6e7dde2c7f518858846fb37710789d375b40b1c614412657bc097d8f3b"
+      },
+      {
+        "sourceBlock": 23,
+        "type": "p",
+        "sha256": "8d62bbd8c0556dd436007516f77ada5d4d3e011fcc3c6afde6dbcff947a19199"
+      },
+      {
+        "sourceBlock": 24,
+        "type": "p",
+        "sha256": "1fb6d36e197a5e241a93a8c8287c328a7698f481d476a72322fd8b6ac86ba0d0"
+      },
+      {
+        "sourceBlock": 25,
+        "type": "p",
+        "sha256": "9ec71af710f449306f25ff036660e19df52de21cabdf8cad9b3667d8aaec705e"
+      },
+      {
+        "sourceBlock": 26,
+        "type": "p",
+        "sha256": "4fbd9cda3c8274a6eaa219899307fadd0d84f20629b27058e5390ffcf1c15bd7"
+      },
+      {
+        "sourceBlock": 27,
+        "type": "p",
+        "sha256": "a60b60872259c25071d9a992c3e78d24a6155155d09b70a77e71c490c95506de"
+      },
+      {
+        "sourceBlock": 28,
+        "type": "p",
+        "sha256": "4d45c925917e5c8bb71ea4a3f8db46d42abaaf089334cfed31ace12aad43c586"
+      },
+      {
+        "sourceBlock": 29,
+        "type": "p",
+        "sha256": "b03da4d745dfcc23a3aac9274102ebc9b03503cd7aaf7079d80f66c5315ceae0"
+      },
+      {
+        "sourceBlock": 30,
+        "type": "p",
+        "sha256": "963ee0033c6889b05c4a9532cf0cb0b35b8c71dd6e2a952b2125e6621b2d31ae"
+      },
+      {
+        "sourceBlock": 31,
+        "type": "p",
+        "sha256": "128df861a7495845975883a20a58a16619bf9acd6570346c8d71e1f848687055"
+      },
+      {
+        "sourceBlock": 32,
+        "type": "p",
+        "sha256": "8762e50a883a08577fea1b4292fd0ef5e4bae709f81fe6cc8b6ebc7dd5e4e1f9"
+      },
+      {
+        "sourceBlock": 33,
+        "type": "p",
+        "sha256": "7ecd0f095e465b0fb88d55316af261a99c8e23bb55417c1e6edcbb20e5c8a846"
+      },
+      {
+        "sourceBlock": 34,
+        "type": "p",
+        "sha256": "c7bb3915a774add1be8fbb29d1335291864a9f0106679c0d2f33210dadc7b5ad"
+      },
+      {
+        "sourceBlock": 35,
+        "type": "p",
+        "sha256": "5e4071f2960b2eb83983c8cf62bb474f83be326d5b2d2a43bb7f694a46f2f37e"
+      },
+      {
+        "sourceBlock": 36,
+        "type": "p",
+        "sha256": "b4ba6debfa6d7a1ac81ba8bba72686519275f7a5b996107380a369bda73d1de3"
+      },
+      {
+        "sourceBlock": 37,
+        "type": "p",
+        "sha256": "cd1b6913f21a004e9d8ff02c5003562f2f5ab2c1969dff409eecd9bd8a17940c"
+      },
+      {
+        "sourceBlock": 38,
+        "type": "p",
+        "sha256": "9196aeb4a14f2b5e20f154c8434008dc2eb0f86fe52debc1407f9abe6893b02a"
+      },
+      {
+        "sourceBlock": 39,
+        "type": "p",
+        "sha256": "a44450e44556a7f4413c5918083d9918b77e6a6efb6fbbb1eb7a294e975f562a"
+      },
+      {
+        "sourceBlock": 40,
+        "type": "p",
+        "sha256": "afc5f4b8d23ff5168d83520928ec9763bdbb813498a4631f94154d64dce4276f"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML body text equals normalized source text in order; original captions separately verified.",
+    "standaloneHtmlChecked": true,
+    "publisherArticleBodyUnaccountedText": "None after separately accounting for the related-stories label עוד בפנאי פלוס:; all other publisher articleBody text matches retained article or explicitly excluded promotions."
+  }
+}

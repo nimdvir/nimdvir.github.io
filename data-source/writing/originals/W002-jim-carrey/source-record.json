@@ -1,0 +1,81 @@
+{
+  "articleId": "W002",
+  "title": "ועכשיו, ברצינות",
+  "subtitle": "",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3202355,00.html",
+  "publishedDate": "2006-01-18",
+  "publishedTime": "16:06",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "interview",
+  "styleSample": true,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 27,
+  "interviewerPromptCount": 11,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "ג'ים קארי טיאה ליאוני",
+      "credit": null,
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/20122005/706942/jim1_m.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "קארי. במצב של היום, כדי לשרוד צריך לדעת לכופף את החוקים",
+      "credit": null,
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/707079/jim3_a.jpg",
+      "placement": "source sidebar, linearized after article",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [],
+  "apaCitation": "Dvir, N. (2006, January 18). Ve-akhshav, birtzinut [And now, seriously]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3202355,00.html",
+  "completeness": {
+    "firstTextBlock": "פעם אמרו לנו שהפשע לא משתלם. מצד שני, פעם גם אמרו לנו שג'ים קארי הוא מטורף משהו משהו. החל מהשבוע שתי התפיסות האלה עומדות להשתנות: קבלו את \"דיק וג'יין עושים את זה\", סאטירה חברתית משובחת בתחפושת של סרט חגים.",
+    "lastTextBlock": "\"אנשים אומרים לי 'בוא נלך למועדון', ואני אומר 'בואו נשב בבית ונרחיב את התודעה'. אני נשמע פסיכופת, נכון? אבל החיים שלי הם כמו ניסוי. אני תמיד מחפש תשובות - קורא על דברים חדשים, מנסה דברים חדשים באוכל, מנסה אנשים חדשים, וגם לא פוחד לעשות ניסויים עם סרטים. היום, עיקר הביטוי שלי הוא בסרטים. פעם ציירתי, ועכשיו אני עושה קולנוע - דרמה, קומדיה, פיסול, ציור - זה הכל אותו הדבר. מבחינתי, טעם החיים זה לא לעשות מיליונים, או לככב בשערוריית מין שמפרנסות את העיתונים. עבורי, פסגת השאיפות היא להיות בן אדם יוצר\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Hebrew source fetched directly from inventory publisher URL; existing English page remains unchanged at src/content/interviews/jim-carrey.md.",
+    "All text and interviewer prompts retained, including statements without question marks.",
+    "Publisher sidebar caption linearized after body; original images not downloaded or embedded.",
+    "Recovered 1 substantive raw text nodes outside p tags after empty p elements; source splits retained around inline image where present.",
+    "Original apparent typo לעשות לחשוף retained without correction."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "41093c503a3be028d904fa3be3025e181b3113ff981292545c63a07736823c2a",
+    "imageFilesDownloaded": false,
+    "rawSubstantiveNodesRecovered": 1,
+    "independentWholeBodyCharacterComparison": "PASS: all non-whitespace characters in original article DOM after removing source images/captions/promotions match clean HTML body and source headings, in order."
+  },
+  "sectionHeadingCount": 0,
+  "resolvedRelativeLinks": [
+    {
+      "originalHref": "/category/538",
+      "resolvedUrl": "https://www.ynet.co.il/category/538"
+    },
+    {
+      "originalHref": "/entertaiment/category/1479",
+      "resolvedUrl": "https://www.ynet.co.il/entertaiment/category/1479"
+    }
+  ],
+  "existingEnglishPagePath": "src/content/interviews/jim-carrey.md",
+  "sourceMedia": [],
+  "excludedPromotionalBlocks": []
+}

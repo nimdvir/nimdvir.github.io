@@ -1,0 +1,81 @@
+{
+  "articleId": "W001",
+  "title": "ג'יימי פוקס איז אין דה האוס",
+  "subtitle": "",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, מיאמי",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3128928,00.html",
+  "publishedDate": "2005-08-17",
+  "publishedTime": "16:31",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "interview",
+  "styleSample": true,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 22,
+  "interviewerPromptCount": 7,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "ג'יימי פוקס חמקן",
+      "credit": null,
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/01082004/614441/fox1_m&91;1&93;.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "פוקס. עכשיו, כשיש לי הרבה כסף אני לא צריך לעשות כלום",
+      "credit": null,
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/01082004/614440/fox2_a.jpg",
+      "placement": "source sidebar, linearized after article",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [],
+  "apaCitation": "Dvir, N. (2005, August 17). Jamie Foxx iz in de haus [Jamie Foxx is in the house]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3128928,00.html",
+  "completeness": {
+    "firstTextBlock": "ג'יימי פוקס על גג העולם. ולמה שלא יהיה? אחרי שזכה בטקס האוסקר האחרון בפסלון הנכסף על תפקידו הראשי בסרט \"ריי\", הצליח פוקס להתמקם על הדרך המהירה למועדון הפינוקים והקומבינות ההוליוודיות. בעודו יושב - מבסוט מהחיים - בסוויטה במלון מנדרין אוריינטל האולטרה יוקרתי שבמיאמי, שבה שוהה לצורך צילומי העיבוד הקולנועי לסדרה \"מיאמי וייס\", פוקס נהנה מתדמית הנסיך הטרי מבל אייר. רגע אחד הוא משוויץ בשעון יהלומים ענק, שנראה כאילו נבנה על חורבותיו של מכרה בחוף השנהב (\"קיבלתי אותו בחינם, כדי לענוד אותו לאיזה טקס\"). מאוחר יותר הוא שולף מהכיס תמונות אישיות ונטולות חולצה. \"תראה את השרירים\", הוא מתרגש. \"הכל אמיתי, באמת\". ולבסוף, כדי לחזק את מעמדו ככוכב על, הוא לא שוכח גם לקשט כל תשובה שנייה בניים דרופינג קטלני (\"אז נסעתי במכונית עם קניה, קניה ווסט\"). אבל בעוד כוכבים אחרים היו ראויים במצב הזה לכאפת ניעור-שוויץ מתבקשת, דווקא לג'יימי פוקס מתחשק לפרגן. בחור טוב, אתם יודעים.",
+    "lastTextBlock": "\"האמת היא שהוא בכלל אצל הסוכן שלי. אתה מבין, הבית שלי הוא כמו שכונה, כל החברים והמשפחה כל הזמן נכנסים ויוצאים. כשהאוסקר היה אצלי הם כל הזמן היו צוחקים איתו, זורקים אותו מצד לצד, נוגעים בו, כי זה די קטע. עכשיו המנהל שלי שומר עליו כדי שלא יקרה לו כלום. אני מחזיק בבית אוסקר מזויף בשביל האורחים\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Hebrew source fetched directly from inventory publisher URL; existing English page remains unchanged at src/content/interviews/jamie-foxx.md.",
+    "All text and interviewer prompts retained, including statements without question marks.",
+    "Publisher sidebar caption linearized after body; original images not downloaded or embedded.",
+    "Recovered 3 substantive raw text nodes outside p tags after empty p elements; source splits retained around inline image where present.",
+    "Publisher inline image URL contains literal &91; and &93; sequences; recorded unchanged rather than guessed or repaired."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "1094151be409efe7dc1ec61aad2f51949465f592ff33dce1e0ffe546c88ff014",
+    "imageFilesDownloaded": false,
+    "rawSubstantiveNodesRecovered": 3,
+    "independentWholeBodyCharacterComparison": "PASS: all non-whitespace characters in original article DOM after removing source images/captions/promotions match clean HTML body and source headings, in order."
+  },
+  "sectionHeadingCount": 0,
+  "resolvedRelativeLinks": [
+    {
+      "originalHref": "/category/538",
+      "resolvedUrl": "https://www.ynet.co.il/category/538"
+    },
+    {
+      "originalHref": "/entertaiment/category/1479",
+      "resolvedUrl": "https://www.ynet.co.il/entertaiment/category/1479"
+    }
+  ],
+  "existingEnglishPagePath": "src/content/interviews/jamie-foxx.md",
+  "sourceMedia": [],
+  "excludedPromotionalBlocks": []
+}
