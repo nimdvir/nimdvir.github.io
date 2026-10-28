@@ -25,6 +25,7 @@ Open it in Excel or VS Code. It is UTF-8 with a byte-order mark, so Hebrew displ
 | Images | Image status. | blank, `on Cloudinary`, `needs upload` | agent | `on Cloudinary` |
 | Original HTML Path | Saved copy of the original (HTML, MHTML or PDF), relative to the repository. | path or blank | agent | `Media/Interviews/israelhayom.co.il_article_645081.pdf` |
 | Hebrew Markdown Path | Verified, complete Hebrew Markdown extraction for translation; each article ID gets one canonical path. This is independent of Translation Path and Page Path. | repository-relative path or blank | Hebrew capture agent | `data-source/writing/originals/W046-julianne-moore/article.he.md` |
+| Clean HTML Path | Clean, ad-free article-only reading copy generated from the verified Hebrew extraction. Distinct from Original HTML Path, which can refer to an original publisher PDF or snapshot that must be preserved. | repository-relative path or blank | Hebrew capture agent | `data-source/writing/originals/W046-julianne-moore/article.he.html` |
 | Translation Path | English translation file; a draft can still await Nim's review, as recorded in Review Flag and its frontmatter. | path or blank | agent | |
 | Page Path | Website page file. | path or blank | agent | `src/content/interviews/rupaul.md` |
 | Found In | Every source cell the row came from: file, sheet and cell, a CSV line, or a Wikipedia page. | text | script | `NimDvirArticles.xlsx!A49; he.wikipedia:מתיו ברודריק` |
