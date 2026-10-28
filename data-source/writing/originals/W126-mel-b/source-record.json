@@ -1,0 +1,87 @@
+{
+  "articleId": "W126",
+  "title": "TO B: ראיון עם מלאני בי",
+  "subtitle": "החיים לא האירו פנים למל בי אחרי התפרקות הספייס גירלז: הדיסקים שלה נכשלו, כינו אותה \"הנואשת\" והזוגיות שלה עם אדי מרפי (אה?), שממנו יש לה ילדה, הסתיימה בבום טראח. עכשיו היא חוזרת בסדרת ריאליטי חדשה בערוץ בחיים הטובים (\"החיים האמיתיים של מל בי\") ובראיון ל\"רייטינג\" היא חושפת: \"התקשורת לא יודעת את זה, אבל בתי ואדי התחילו להתראות מאחורי דלתיים סגורות\"",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/212/933.html",
+  "publishedDate": "2011-02-17",
+  "publishedDisplay": "17/2/2011 7:00",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "688621bdff4c93e046659cef1189a2ecf461dee00e660e3bf99a4303dfa9d3dc",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 20,
+  "interviewerPromptCount": 6,
+  "sectionHeadingCount": 1,
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/310/511.jpg",
+      "caption": "אוהבים או שונאים? מלאני בי",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/310/510.jpg",
+      "caption": "ממציאים עלינו דברים כל הזמן. מלאני בי ובעלה",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "sourceUrls": [
+        "http://www.youtube.com/v/ueP6rnXPekc?fs=1&hl=iw_IL"
+      ],
+      "captions": []
+    }
+  ],
+  "excludedPromotionalText": [
+    "המשך הכתבה (וגם איפה נמצאות היום בנות הספייס גירלז האחרות) בגיליון \"רייטינג\" החדש",
+    "בואו להיות חברים של \"רייטינג\" בפייסבוק!"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "1996. הספייס גירלז פורצות עם הלהיט \"וונאבי\" וכובשות בסערה את עולם הפופ (והעולם בכלל). מוזר, אבל באותה תקופה נדמה היה שדווקא מלאני בראון, הידועה בכינויה מל \"סקרי ספייס\" בי, תהיה זו שתשרוד ותהפוך לכוכבת גדולה אחרי שהלהקה תסיים את המסלול. שערה הנפוח, גופה החטוב והעובדה שידעה לשיר (הישג ביחס לבנות האחרות) כנראה גרמו לכך, אבל המציאות, כידוע, התפתחה קצת אחרת.",
+    "lastTextBlock": "\"החיים בלוס אנג'לס נהדרים. אם אני רוצה ללכת לים, אני יכולה. אם אני רוצה לעשות סקי, זה במרחק נסיעה. אני גם יכולה לקבוע לעצמי פגישות לגבי סרטים או לסגור עסקה לכתיבת ספר. אני אדם מלא תשוקה. אני לא צריכה לעבוד, אני אוהבת לעבוד. למזלי אני זוכה לעשות את כל הדברים שאני מרגישה כלפיהם תשוקה. החיים באמריקה מאפשרים לי לא להתמקד רק בדבר אחד. לפעמים אני מתגעגעת לאנגליה, אבל לוס אנג'לס היא הבית של הילדים שלי, ואם אני רוצה לבקר חברים, אני תמיד יכולה לקפוץ על מטוס ולהגיע\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header incorrectly also declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "Paragraphs delimited by source BR tags were retained, including substantive text outside p tags.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Complete online version captured. Source advertises continuation in the print Rating issue; print-only material not included or reconstructed.",
+    "Final clutter audit removed the unrelated Rating Facebook promotion from the article body."
+  ],
+  "apaCitation": "Dvir, N. (2011, February 17). TO B: Ra'ayon im Mel B [TO B: Interview with Mel B]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/212/933.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened raw publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding publisher image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; captions independently retained with original credit metadata",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב; original channel/print brand recorded in article text and source headline",
+  "sourceTitleDiffersFromInventory": true
+}

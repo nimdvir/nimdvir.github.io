@@ -1,0 +1,76 @@
+{
+  "articleId": "W185",
+  "title": "לבן בחלום שחור: ראיון עם מייק הנרי",
+  "subtitle": "השחקן מייק הנרי, בכלל לבן עור, הוא האיש מאחורי דמותו של קליבלנד, כוכב הסדרה המצוירת \"קליבלנד\". בראיון בלעדי הוא מספר מה ההבדל בין הסדרה שלו ל\"איש משפחה\", על שיתוף הפעולה עם קניה ווסט ואיך זה לדובב דמות אפרו אמריקאית",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/227/227.html",
+  "publishedDate": "2011-03-30",
+  "publishedDisplay": "30/3/2011 18:11",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "18b573ea3fe70b9e653a7ab38f65d8a93f345b91820f8eb73fb15afc01ae4f52",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 14,
+  "interviewerPromptCount": 6,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/320/465.jpg",
+      "caption": "אני לא אדם גזען. מייק הנרי",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/320/466.jpg",
+      "caption": "סדרה מתוקה. ''קליבלנד''",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "\"זה מגניב מאוד להתראיין לעיתון ישראלי\", אומר מייק הנרי (47), שחקן ומדובב שעומד מאחורי דמותו של קליבלנד בראון, כוכב סדרת האנימציה המצליחה \"קליבלנד\" (שבת בשעה 18:50 Yes Comedy). \"'קליבלנד' כתובה בעיקר על ידי יהודים, ככה שזה מאוד מרגש\".",
+    "lastTextBlock": "\"אני אוהב אנימציה כי אפשר במסגרתה ללכת לכל מקום. אפשר'לצאת בזול' מהרבה דברים כי זו אנימציה. למשל, ב'איש משפ חה' אני מדובב דמות של פדופיל. באנימציה אפשר להציג דברים רציניים בתור פארסה ולא לוקחים אותנו יותר מדי ברצינות. אבל בעתיד אני רוצה לשחק גם בדברים אחרים, אפשר לומר ש' נפלתי' לתוך אנימציה. עשיתי סרטים 'רגילים' עד שפגשתי את סת' והצטרפתי. בעתיד אני בפירוש רוצה לשחק בסרטים אמיתיים\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header incorrectly also declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "Paragraphs delimited by source BR tags were retained, including substantive text outside p tags.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Source repeats יש לי יש and contains spacing artifacts קליבל נד and משפ חה; retained unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2011, March 30). Lavan be-chalom shachor: Ra'ayon im Mike Henry [White in a black dream: Interview with Mike Henry]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/227/227.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened raw publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding publisher image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; captions independently retained with original credit metadata",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב; original channel/print brand recorded in article text and source headline",
+  "sourceTitleDiffersFromInventory": true
+}

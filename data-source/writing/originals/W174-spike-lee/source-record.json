@@ -65,7 +65,8 @@
       ],
       "posterUrls": [
         "https://images1.ynet.co.il/PicServer3/2013/12/04/5016387/s.png"
-      ]
+      ],
+      "captionPreservation": "Exact caption retained before the paragraph beginning אני לא קורא לזה רימייק in both reading copies."
     }
   ],
   "excludedPromotionalText": [],
@@ -81,7 +82,8 @@
   },
   "notes": [
     "Recovered substantive unwrapped HTML text and standalone strong interviewer prompts after empty p tags; empty tvElement within an answer removed without splitting the answer.",
-    "Source calls Elizabeth Olsen אומר rather than אומרת in the final paragraph; preserved unchanged. Whitespace inserted only between adjacent caption and paragraph DOM boundaries."
+    "Source calls Elizabeth Olsen אומר rather than אומרת in the final paragraph; preserved unchanged. Whitespace inserted only between adjacent caption and paragraph DOM boundaries.",
+    "Independent cross-agent audit restored the exact original trailer caption at its source position in Markdown and HTML; full article text, prompts, captions and relevant hyperlinks otherwise match publisher evidence."
   ],
   "apaCitation": "Dvir, N. (2013, December 10). Spike Lee: Ba-Oscar mefashlim lifamim [Spike Lee: At the Oscars they sometimes mess up]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4463232,00.html",
   "authorshipClassification": "Nim-authored journalism",

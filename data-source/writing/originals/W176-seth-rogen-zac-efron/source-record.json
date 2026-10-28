@@ -71,7 +71,8 @@
   },
   "notes": [
     "Complete published online version captured. Source points to a full interview in the print Pnai Plus issue; no claim is made to preserve print-only additional content.",
-    "Source names Melissa McCarthy as ליסה מקרת'י; retained unchanged."
+    "Source names Melissa McCarthy as ליסה מקרת'י; retained unchanged.",
+    "Final hyperlink audit restored the relevant Hollywood Reporter interview link in a raw HTML tail paragraph; article wording unchanged."
   ],
   "apaCitation": "Dvir, N. (2014, May 15). Seth Rogen: Yesh be-Zac Efron mashehu mafchid [Seth Rogen: There is something frightening about Zac Efron]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4518968,00.html",
   "authorshipClassification": "Nim-authored journalism",
@@ -93,6 +94,10 @@
     {
       "text": "בטקס פרסי הקולנוע של MTV האחרון",
       "url": "http://www.ynet.co.il/articles/0,7340,L-4510041,00.html"
+    },
+    {
+      "text": "העניק ראיון נרחב ל\"הוליווד ריפורטר\"",
+      "url": "http://pplus.ynet.co.il/articles/0,7340,L-4515506,00.html"
     }
   ]
 }

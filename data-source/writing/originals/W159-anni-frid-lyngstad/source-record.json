@@ -1,0 +1,88 @@
+{
+  "articleId": "W159",
+  "title": "מאמא מיה! סיפורה של פרידה לינגסטד מאבבא",
+  "subtitle": "לפרידה לינגסטד, הזמרת הברונטית מאבבא שחוגגת השבוע יומולדת 65, יש סוד אפל מהעבר: היא נולדה לאב נאצי ולאם נורבגית במסגרת יוזמה של היינריך הימלר. רק אחרי שזכתה הלהקה באירוויזיון התגלה לה שאביה חי, ומאז פגישתם היא לא הצליחה להתאושש. הסיפור המדהים של אבא של זאת מאבבא",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/177/077.html",
+  "publishedDate": "2010-11-14",
+  "publishedDisplay": "14/11/2010 8:00",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "1c0741f6e8b99b105ef7eef73f1750358eebaf104f858d8eb3b0102f42183458",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 17,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "floated inline after second paragraph",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/282/951.jpg",
+      "publisherRelativePath": "/nrg/images/archive/300x225/1/282/951.jpg",
+      "caption": "לא סבלה מהרדיפות. פרידה",
+      "credit": "Daniel Ahs Karlsson",
+      "displayCaption": "לא סבלה מהרדיפות. פרידה (Daniel Ahs Karlsson)",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/950/556.jpg",
+      "publisherRelativePath": "/nrg/images/archive/465x349/950/556.jpg",
+      "caption": "היו ימים. עם להקת אבבא",
+      "credit": "צילום: יח''צ",
+      "displayCaption": "היו ימים. עם להקת אבבא (צילום: יח''צ)",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/091/894.jpg",
+      "publisherRelativePath": "/nrg/images/archive/465x349/1/091/894.jpg",
+      "caption": "לא הצליחה להתאושש. עם להקת אבבא",
+      "credit": "אי-פי",
+      "displayCaption": "לא הצליחה להתאושש. עם להקת אבבא (אי-פי)",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "ביום שני, 15 בנובמבר, תחגוג אנני-פריד \"פרידה\" לינגסטד, רבע מההרכב הסופר-מצליח אבבא, 65 שנות קיום על הפלנטה. אלו היו 65 שנים סוערות שכוללות - קחו אוויר, זה ארוך: חברות בלהקת הפופ המצליחה בעולם (שנייה רק לביטלס); קריירת סולו שנשענת בעיקר על ההצלחה של הלהקה ההיא; נישואים לחבר הלהקה בני אנדרסון, כולל מגורים בטירה מפוארת, הפיכה לזוג מלכותי אמיתי ולאחר שלוש שנים גירושין מתוקשרים; עוד שני בעלים, האחרון היה הנסיך הגרמני היינריך רוצו, שבזכותו קיבלה את התואר נסיכה; התאלמנות - בעלה נפטר מסרטן; מות בתה (מבעלה הראשון) בתאונת דרכים; מעבר מדינות, כולל מגורים בלונדון ובשווייץ, שם היא גרה כיום; וקריירה מאוחרת בתור פעילה למען קידום המודעות להתחממות כדור הארץ ואיכות הסביבה, שבה היא עוסקת בתקופה זו.",
+    "lastTextBlock": "\"היא השיגה דברים מדהימים בשבדיה\", אמר טור ברנדצ'ר, דובר הארגון מקור החיים. \"אם היא הייתה נשארת בנורבגיה היא הייתה מסומנת בתור ?פריקית? ולא מצליחה להשתלב בחברה בצורה ראויה. אין ספק שבעצם העובדה שפרידה הצליחה ונשארה בעין הציבור, היא הצליחה להזכיר לכולם את הסוד שהנורבגים היו שמחים לשכוח\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "NRG archive source was decoded as Windows-1255, matching its HTML charset; the transport encoding must not be used to decode its Hebrew.",
+    "Substantive paragraphs occur as raw HTML text and within p tags, separated visually by paired br tags. All raw tails after advertising containers recovered; advertising, styles, scripts and toolbars excluded.",
+    "Source literally contains damaged punctuation ארה?ב, ג?ונתן and ?פריקית?; retained unchanged rather than repaired. Source also has irregular English song-title quotation marks and album punctuation; retained unchanged.",
+    "This is a reported biographical feature, not an original interview with Lyngstad. Quotations attributed to the Observer and organizational spokesman retain those original attributions.",
+    "Source carries the רייטינג publication logo within the nrg article credit bar; the legacy article is now hosted by Makor Rishon."
+  ],
+  "apaCitation": "Dvir, N. (2010, November 14). Mamma mia! Sipura shel Frida Lyngstad me-ABBA [Mamma mia! The story of ABBA's Frida Lyngstad]. nrg. https://www.makorrishon.co.il/nrg/online/47/ART2/177/077.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "feature",
+  "sourceEncoding": "windows-1255",
+  "originalPrintPublication": "רייטינג",
+  "currentArchiveHost": "Makor Rishon",
+  "interviewFormat": "Biographical feature using attributed secondary quotations; no direct interview prompts",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text, excluding explicit controls and photo captions, matches extracted article blocks exactly after whitespace and Markdown formatting normalization. Every event checked in original order and in both Markdown and HTML; image captions and credits checked separately.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "38644cf584d683bf27c9a01169233fadda7985e1aefff6a3da007dabbcec292a"
+  }
+}

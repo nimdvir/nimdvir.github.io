@@ -1,0 +1,76 @@
+{
+  "articleId": "W118",
+  "title": "\"אין לאף אחד סיכוי איתי\": ראיון עם רנדי הריסון",
+  "subtitle": "אחרי ביקורו של ג'סטין ביבר, מגיע ארצה ג'סטין אחר שמעורר התרחשויות בקהילה אחרת. רנדי הריסון, כוכב \"הכי גאים שיש\", יגיע השבוע כדי להרצות על סבלנות, סובלנות וקבלת האחר. בראיון ל\"רייטינג\" הוא אומר: \"אני בעיקר מדבר נגד אלימות ובריונות\". גם מנחם בן מוזמן להרצאה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/240/297.html",
+  "publishedDate": "2011-05-15",
+  "publishedDisplay": "15/5/2011 15:01",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "4127fa21bf6331a60fd0d02adaad22742a3afa74e6c83029b81414fc2e8d34cd",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 27,
+  "interviewerPromptCount": 9,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/329/238.jpg",
+      "caption": "ידבר נגד הומופוביה. רנדי הריסון",
+      "credit": "גטי אימג'ס",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/329/242.jpg",
+      "caption": "חשבתי שחלק מהנושאים הוצגו בה בצורה פשטנית מדי. ''הכי גאים שיש''",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "להתבגר זה לא פיקניק, בייחוד אם כל העולם ואחיו הגיי זוכרים לך את הימים שבהם היית פרגית צעירה וחלקה. זהו בערך סיפור חייו עד כה של רנדי הריסון, שגילם את דמותו של ג'סטין, ההומו הצעיר בסדרת הלהיט האמריקאית \"הכי גאים שיש\".",
+    "lastTextBlock": "הריסון צוחק. \"זה מרגש, זה גורם לי לשמוח מאוד. אני מעדיף שאנשים יתרגשו מאשר לא. אבל אני לא אחשוב על זה בכלל. אני לא מתכנן שום דבר במהלך הנסיעה, אתה יכול לכתוב שאין לאף אחד סיכוי איתי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header incorrectly also declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "Paragraphs delimited by source BR tags were retained, including substantive text outside p tags.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Source encodes ח?כ and מנכ?ל literally and gives age 34; retained without correction."
+  ],
+  "apaCitation": "Dvir, N. (2011, May 15). Ein le-af echad sikui iti: Ra'ayon im Randy Harrison [No one has a chance with me: Interview with Randy Harrison]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/240/297.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened raw publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding publisher image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; captions independently retained with original credit metadata",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב; original channel/print brand recorded in article text and source headline",
+  "sourceTitleDiffersFromInventory": true
+}

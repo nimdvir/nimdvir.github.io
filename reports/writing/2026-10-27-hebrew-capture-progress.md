@@ -73,3 +73,9 @@ W090/W003 and W096/W089 are confirmed duplicates: full-body hashes, publisher ca
 ## Continuing Work session: batch 5
 
 Nine further packages: W001 (Jamie Foxx), W002 (Jim Carrey), W004 (Lady Gaga), W006 (RuPaul), W056 (Tim Burton at MoMA), W058 (Michael Lucas film-set reporting), W093 (silent meditation retreat), W158 (Homeland set visit), W172 (Steve Buscemi). Published English-page statuses were retained. Xnet's current W093/W158 responses expose no article-specific photograph URLs; photo recovery is explicitly pending and no unrelated default image was substituted. W011/W165/W186 reading copies also now retain the source trailer captions at their original positions. There are 32 unique packages covering 34 inventory records; both validators pass.
+
+## Continuing Work session: batch 6
+
+Ten more verified packages: W118 (Randy Harrison), W125 (David Duchovny), W126 (Mel B), W182 (Emma Watson), W185 (Mike Henry), W071 (LGBTQ television), W079 (returning to Israel), W087 (online bystanders), W094 (Annapurna memoir), W159 (Anni-Frid Lyngstad feature). NRG responses were explicitly decoded as Windows-1255 despite misleading HTTP charset headers. W159 preserves literal source punctuation defects and remains a feature using attributed secondary quotations, not a claimed direct interview. W126 is the complete online edition, with print continuation outside capture scope.
+
+Cross-review restored W174's trailer caption and W176's relevant Hollywood Reporter hyperlink, and removed a Facebook promotion from W126. No original substantive wording was changed. All 42 unique packages, covering 44 IDs, pass the saved-package and inventory validators.

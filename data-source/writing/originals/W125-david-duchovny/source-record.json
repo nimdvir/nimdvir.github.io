@@ -1,0 +1,83 @@
+{
+  "articleId": "W125",
+  "title": "SEX FILES: ראיון עם דיוויד דוכובני",
+  "subtitle": "בסדרת הלהיט \"קליפורניקיישן\" (שעונתה השלישית עולה השבוע בהוט 3), דיוויד דוכובני מגלם סופר כושל המכור למין. בחייו הפרטיים, דוכובני נפרד לפני שנתיים מאשתו אחרי גל של שמועות על בגידות שלו, ואשפז את עצמו במכון לגמילה מסקס. סדרה אוטוביוגרפית? \"אנחנו באמת נראים דומה\", הוא אומר בריאיון ל\"מעריב\", \"אבל הוא מאופר טוב יותר, זה הכול\". וגם: מה צפוי למעריצי \"תיקים באפלה\"?",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/121/102.html",
+  "publishedDate": "2010-06-18",
+  "publishedDisplay": "18/6/2010 14:08",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "2dd72ea5ab2205a0aa0e012672e63ba81a91af9a74c49225a93a53cf37a2a2ee",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 31,
+  "interviewerPromptCount": 8,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/096/063.jpg",
+      "caption": "החיים הם שיר. דיוויד דוכובני",
+      "credit": "צילום: יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/238/307.jpg",
+      "caption": "קיבלה אותו בחזרה. עם אשתו, טיאה ליאוני",
+      "credit": "צילום: EPA",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/096/066.jpg",
+      "caption": "משהו בתמונה הגדולה לא עובד. דיוויד דוכובני",
+      "credit": "צילום: יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "נכון להיום, רוב הצופים מזהים את דיוויד דוכובני בתור האנק מודי, הסופר השתיין, חובב הסקס וקל הלשון מסדרת הלהיט \"קליפורניקיישן\", שמתחילה השבוע עונה שלישית בערוץ הוט 3.",
+    "lastTextBlock": "\"אין שום תוכניות כרגע, אבל זה לא אומר שאנחנו לא רוצים. אני תמיד שמח לשחק את התפקיד הזה וגם לשחזר את העולם שיצרנו ב'תיקים באפלה'. הבעיה היא שהסרטים שעשינו הם כבר לא שוברי קופות. זו תמיד בעיה כשאתה רוצה להתקדם מול האולפנים, כי בסופו של דבר המטרה של הסרט היא להרוויח כסף. בכל מקרה, לא הייתי רוצה שמאלדר יחזור מבוגר מדי או לא כשיר לפעולה. אני חושב שזה יהיה עצוב. אבל אני לא מוכן עדיין לוותר, לא מוכן לצאת עדיין מארגז החול\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header incorrectly also declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "Paragraphs delimited by source BR tags were retained, including substantive text outside p tags.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Source has spacing artifacts including להיכב נע; retained unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2010, June 18). SEX FILES: Ra'ayon im David Duchovny [SEX FILES: Interview with David Duchovny]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/121/102.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened raw publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding publisher image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; captions independently retained with original credit metadata",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב; original channel/print brand recorded in article text and source headline",
+  "sourceTitleDiffersFromInventory": true
+}

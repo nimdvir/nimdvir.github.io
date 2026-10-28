@@ -1,0 +1,63 @@
+{
+  "articleId": "W094",
+  "title": "אין כמו רגע הקסם בפיסגה",
+  "subtitle": "",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Israel Hayom",
+  "sourceUrl": "https://www.israelhayom.co.il/opinion/226071",
+  "publishedDate": "2014-10-15",
+  "publishedDisplay": "15/10/2014, 00:30, עודכן 16/10/2014, 22:51",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "6160de18f593114e788a9bb859c0f6bac1bc56a96de228c7d11bee5ed53a33b2",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 4,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalImages": [],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "טעינו? נתקן! אם מצאתם טעות בכתבה, נשמח שתשתפו אותנו"
+  ],
+  "imageReuse": "No article images present in current publisher source; no image files downloaded",
+  "completeness": {
+    "firstTextBlock": "יש אנשים שאוהבים לרכוב על אופניים, אחרים משחקים כדורסל, אני אוהב לטפס על הרים. לפני חצי שנה עליתי על טיסה לנפאל כדי להגיע לגבהים עוצרי נשימה, בין השאר באזור האנאפורנה, חלק מרכס ההימלאיה.",
+    "lastTextBlock": "**הכותב טיפס לאחרונה על רכס האנאפורנה**",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "lastSubstantiveParagraph": "אין ספק שיש דברים שצריך להביא בחשבון. מלבד מפולות אבנים ושלגים, יש גם מזג אוויר בלתי צפוי, קרינה חזקה מהשמש, מחסור בחמצן שעלול להוביל למחלת גבהים ומחסור בתשתיות לפינוי ומתן טיפול רפואי. קיים החשש מהתפתחות כאבי גב ורגליים עקב הליכה ממושכת עם משקל. מי שמתכנן לטפס חייב לרכוש ציוד מתאים, בדגש על שק שינה שמותאם לטמפרטורות מאוד נמוכות, נעלי טיפוס מתאימות, תיק גב המותאם לגוף וביגוד חם. יש לעקוב אחרי תנאי מזג האוויר ואין ללכת לבד. אסור להניח ש\"יהיה בסדר\" על סמך טיולים בארץ או שירות קרבי. מדובר פה בעולם אחר עם חוקים משלו. למרות האסונות הטרגיים האלו הממחישים את הסיכון, שאפשר להקטין אך לא להעלים, אין לי ספק כי ישראלים ימשיכו במסעותיהם, הכל בשביל הרגע הנדיר ההוא, שבו נדמה כי הזמן עצר מלכת.",
+    "closingAuthorNote": "הכותב טיפס לאחרונה על רכס האנאפורנה"
+  },
+  "notes": [
+    "Complete current publisher online article consists of three substantive paragraphs plus a closing bold author note; no subtitle or article image is present. Publisher JSON-LD main image URL is the site root, not a recoverable article image.",
+    "Author profile photograph is not treated as an original article photograph.",
+    "Publication and later update dates are both retained. Historical trekking-safety and other claims are preserved as published, without updating or correcting them."
+  ],
+  "apaCitation": "Dvir, N. (2014, October 15). Ein kmo rega ha-kesem ba-pisga [Nothing compares to the magical moment at the summit]. Israel Hayom. https://www.israelhayom.co.il/opinion/226071",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "column",
+  "sourceEncoding": "UTF-8",
+  "updatedDate": "2014-10-16",
+  "updatedTime": "22:51",
+  "canonicalPublisherUrl": "https://www.israelhayom.co.il/opinion/226071",
+  "sourceImageStatus": "No article image present in current publisher page; author portrait excluded from article photos",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text, excluding explicit controls and photo captions, matches extracted article blocks exactly after whitespace and Markdown formatting normalization. Every event checked in original order and in both Markdown and HTML; image captions and credits checked separately.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "9abcab5a566214adeca22ae35cf3d00d1a9d4617f38718bea4b0718a5a399b6b"
+  }
+}

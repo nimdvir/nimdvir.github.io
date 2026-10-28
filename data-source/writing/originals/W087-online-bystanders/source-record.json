@@ -1,0 +1,60 @@
+{
+  "articleId": "W087",
+  "title": "בשידור מת",
+  "subtitle": "בחור שמתאבד בשידור חי ואלפי גולשים שנותרים אדישים גרמו לנמרוד דביר לתהות מה עובר על הדור הזה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3628359,00.html",
+  "publishedDate": "2008-11-26",
+  "publishedDisplay": "26.11.08, 12:53",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "fa333946e098fbdcc309746be2fa0d355b84c4338e99d18b8bdd1c1d8e52126b",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 6,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1633941/yTIK000249_a.jpg",
+      "caption": "לבלוע בשידור חי צילום: אבי מועלם",
+      "credit": "אבי מועלם",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "בשבוע שעבר קרה אסון. בחור בן 19 מפלורידה, אברהם ביגס שמו, שם קץ לחייו בנטילת כדורים. בניגוד לאחרים שבוחרים לגמור עניין בצנעה, ביגס עשה שימוש בשירות אינטרנט נפוץ, Lifecasting, שידור קטעי חיים אונליין. ביגס שידר את ה\"לייפקאסטינג\" שלו (או יותר נכון, \"דאתקאסטינג\") באתר האינטרנט Justin.Tv אל מול עשרות גולשים משולהבים. המעשה לווה גם בסוג של פרומו, שכן כמה שעות לפני הכריז ביגס כי הוא מתכנן לבצע התאבדות פומבית.",
+    "lastTextBlock": "אין לי שום דבר נגד ריאליטי. אין מה לעשות - ריאליטי היא המגדירה של הדור החדש (כפי שנראה גם על השער שלנו). אבל חייבים להודות בהשלכה הכואבת של הנושא - בעולם ללא גבולות, שבו הכל שדיר ומשודר, הקו בין מציאות, טרגדיות ובידור הופך דק מדי.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Publisher splits the sentence after אנחנו into two p tags around an empty tvElement. Both publisher paragraph boundaries and all original wording are preserved."
+  ],
+  "apaCitation": "Dvir, N. (2008, November 26). Be-shidur met [Broadcast dead]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3628359,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "column",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text, excluding explicit controls and photo captions, matches extracted article blocks exactly after whitespace and Markdown formatting normalization. Every event checked in original order and in both Markdown and HTML; image captions and credits checked separately.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "19eae6c814aee499b8eba5d4e4a0991a39d764759426bf0cf410113eeb16bea0"
+  }
+}

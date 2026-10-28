@@ -1,0 +1,52 @@
+{
+  "articleId": "W079",
+  "title": "הכי כיף לחזור",
+  "subtitle": "נמרוד דביר נוחת אל הציונות עם אנרגיות חיוביות. אז מה אם אין לו גרוש בכיס",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3254692,00.html",
+  "publishedDate": "2006-05-24",
+  "publishedDisplay": "24.05.06, 15:58",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "57c9e17a9e98fd304214f1b3105bc901bb5df654d934700be3d74a3be9b4241b",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 9,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalImages": [],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No article images present in current publisher source; no image files downloaded",
+  "completeness": {
+    "firstTextBlock": "שיגעון פה. אחרי שבוע מאומץ של עבודה (נירית הצליפה בכולנו בשוט), שימו לב לגיליון השמנמן שיצא תחת ידינו. גם בשבוע נטול מועד וחג אימנה המערכת את השרירים וחלבה מעצמה את הכי שופרא: יש ראיונות מעניינים ([אמיר פיי גוטמן](https://www.ynet.co.il/articles/0,7340,L-3254583,00.html) יפה ויודע את זה! [יו ג'קמן](https://www.ynet.co.il/articles/0,7340,L-3254615,00.html), רוצה להיות קלינט איסטווד!), יש דיווחים סוערים (צח אוריין חגג באירוויזיון, אמיר קמינר עשה בר-זוהר בפסטיבל קאן), יש יומני מסע מפרכים ([איריס אברמוביץ'](https://www.ynet.co.il/articles/0,7340,L-3254644,00.html) הצטרפה לשמנמודים של \"לרדת בגדול\", וחזרה מזיעה) ויש גם כתבות צבעוניות (הדס בשן, בחורה איכותית, רואה טלוויזיה בריטית. אל תפספסו). פלוס מדורי המוזיקה והקולנוע, גם ככה שני נהדרים, מקבלים עכשיו משב של אנרגיה וכוחות מחודשים (בכל זאת, עורך קולנוע ומוזיקה חדש, צריך להצדיק את המשכורת). לא הייתי אומר שתהיה פה מתיחת פנים, אבל אולי איזו זריקת בוטוקס לאזור הטי.",
+    "lastTextBlock": "לא רק אני בילי בדרכים: בדקה האחרונה קיבלנו תמונות של נינט מרומא, בלעדי-די-די. אני חושב שרק על ההתרגשות שהתחוללה פה בעקבות המאורע נינט חייבת לנו ערימת שוקולדים מהדיוטי. רוצים גם? [כנסו לכאן](https://www.ynet.co.il/articles/0,7340,L-3254625,00.html).",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "First full substantive paragraph occurs as raw HTML text before empty p tags; recovered including its inline article links. Signed editorial role and postscript are part of the original and retained."
+  ],
+  "apaCitation": "Dvir, N. (2006, May 24). Hakhi kef lachzor [The best thing is coming back]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3254692,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "column",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text, excluding explicit controls and photo captions, matches extracted article blocks exactly after whitespace and Markdown formatting normalization. Every event checked in original order and in both Markdown and HTML; image captions and credits checked separately.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "50e9b891a808e279e1cd887435cafd80c324530a564e3c73072b150dbaf61f33"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "articleId": "W182",
+  "title": "קסם אישי: ראיון עם אמה ווטסון",
+  "subtitle": "אמה ווטסון היא כבר לא רק הקוסמת החנונית הרמיוני גריינג'ר. בגיל 21 היא מתפקדת כאייקון אופנה, כמעצבת ועכשיו גם כפרזנטורית של \"לנקום\". בראיון היא מספרת על התספורת הקצרה ועל החיים שאחרי הארי פוטר",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/249/781.html",
+  "publishedDate": "2011-06-16",
+  "publishedDisplay": "16/6/2011 17:25",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "1ed827808c6a128a379cb64969f088422ec7ec22329df97dd8df7488d3228a4b",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 18,
+  "interviewerPromptCount": 5,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 2,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/335/378.jpg",
+      "caption": "אמה ווטסון",
+      "credit": "טום מונרו",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending",
+      "additionalCaption": "\"היה כיף לחיות עם הרמיוני\". ווטסון"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/335/379.jpg",
+      "caption": "התאימה לקונספט של ''ברברי''. ווטסון",
+      "credit": "טום מונרו",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/335/380.jpg",
+      "caption": "''הייתי זקוקה לשינוי הזה''. ווטסון על התספורת הקצרה",
+      "credit": "טום מונרו",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/335/381.jpg",
+      "caption": "אמה ווטסון על שער ווג, יולי 2011",
+      "credit": "צילום השער",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "הצטרפו לעמוד הפייסבוק של סגנון"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "בעשר השנים שחלפו מאז הסרט הראשון בסאגת \"הארי פוטר\", הפכה אמה ווטסון מהרמיוני גריינג'ר, הילדה המעצבנת מבית הספר לקוסמות הוגוורטס, חנונית שעוצרת את הזמן כדי להספיק להגיע לכל השיעורים, לאיקונת אופנה שבוחרת את הטרנד הנכון בזמן הנכון. בקרוב יעלה למסכים הסרט השמיני, שיסכם את הסדרה, ו-ווטסון תוכל להשתחרר מהחלק הזה בקריירה שלה באופן מוחלט. בינתיים היא כבר חתמה על קמפיין ב\"לנקום\" והצטלמה לשני סרטים שימחקו את זכר הרמיוני.",
+    "lastTextBlock": "\"כן! יש לי טונות של מוצרים. תמיד אהבתי איפור ואת היכולת שלו להפוך אותך למישהי אחרת. אני לא שמה הרבה בעצמי, אז זה קצת אירוני שיש לי בבית כל כך הרבה מוצרים\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header incorrectly also declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "Paragraphs delimited by source BR tags were retained, including substantive text outside p tags.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Opening isolated caption follows the floated lead picture; preserved as an additional caption rather than the first narrative paragraph.",
+    "Source wording פנוי אליי is retained unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2011, June 16). Kesem ishi: Ra'ayon im Emma Watson [Personal magic: Interview with Emma Watson]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/249/781.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened raw publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding publisher image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; captions independently retained with original credit metadata",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [
+    {
+      "text": "פרמיירה של \"הארי פוטר\"",
+      "url": "https://www.makorrishon.co.il/nrg/online/55/ART2/178/790.html"
+    }
+  ],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב; original channel/print brand recorded in article text and source headline",
+  "sourceTitleDiffersFromInventory": true
+}
