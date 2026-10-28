@@ -53,3 +53,9 @@ Five further original interviews verified and registered: W011 (Chiwetel Ejiofor
 The four baseline packages were checked against fresh HTTP 200 publisher responses. Every substantive body text node, including raw tails, is present. W010's sidebar photo credit, אלירן אביטל, was recovered and added; its article body is unchanged. New licensed replacement photos remain pending. W005's listed source URL resolves to an unrelated medical column; W165 records the evidence without modifying the existing published English article or claiming W005 is fully resolved.
 
 Inventory validation, Astro build, local site verification and SEO verification pass. Standalone HTML rendering is being checked with WeasyPrint; the Chromium download was unavailable in this environment. Further batches are in progress. No deployment or translation was performed.
+
+## Continuing Work session: batch 2
+
+Five more verified packages: W122 (Aaron Eckhart and Yvonne Strahovski), W163 (Noa Tishby), W171 (Darren Star), W174 (Spike Lee), W176 (Seth Rogen and Zac Efron). The inventory now references 14 unique Hebrew Markdown/HTML packages. W163 and W176 are complete online editions; their publishers advertise additional print-only material that has not been captured. W174 required recovery of substantive text outside normal paragraph tags.
+
+Added `scripts/writing/check_captures.py` to validate UTF-8 YAML metadata, canonical IDs, Hebrew RTL HTML, reciprocal archive links, copyable citations, recorded first/final paragraphs, and Markdown paragraph agreement with HTML. This supplements the existing inventory validator and does not assert live publisher completeness by itself. Dependencies are listed in `requirements.txt`.

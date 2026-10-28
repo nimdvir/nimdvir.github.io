@@ -1,0 +1,108 @@
+{
+  "articleId": "W174",
+  "title": "ספייק לי: \"באוסקר מפשלים לפעמים\"",
+  "subtitle": "הבמאי ספייק לי כבר לא ממש מתייחס להעדפות של האקדמיה האמריקנית לקולנוע, וגם לא להצהרות של העיתונאים על תחיית הקולנוע האפרו-אמריקני. \"אחרי כל הצלחה, יש תשע שנות בצורת\", הוא טוען בראיון לקראת \"שבעה צעדים\" - העיבוד שלו למותחן הקוריאני מ-2003, \"מרגיש שעשינו סרט חדש\"",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-4463232,00.html",
+  "publishedDate": "2013-12-10",
+  "publishedDisplay": "10.12.13, 08:16",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "30602c2c677a837ea04d13ff9cf1cf7b294e3f00c60c1e5130350c9c82bd0192",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 18,
+  "interviewerPromptCount": 6,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 4,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/12/05/5018979/50187440100791640360no.jpg",
+      "caption": "אליזבת' אולסן וג'וש ברולין ב\"שבעה צעדים\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/12/09/5025914/502591201001299640360no.jpg",
+      "caption": "לי חווה עומס חושי כאוהד הניו יורק ניקס במדיסון סקוור גארדן (צילום: GettyImages)",
+      "credit": "צילום: GettyImages",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/12/09/5025944/10_(Medium)&91;1&93;-wa.jpg",
+      "caption": "אליזבת' אולסן. צחוקים על הסט (צילום: גטי אימג' בנק)",
+      "credit": "צילום: גטי אימג' בנק",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/12/09/5025919/50259090100486640360no.jpg",
+      "caption": "\"למי אכפת היום ממיס דייזי?\" ספייק לי (צילום: MCT)",
+      "credit": "צילום: MCT",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/12/09/5025926/502591001002057183103no.jpg",
+      "caption": "ספייק לי. פחות זועם צילום: MCT",
+      "credit": "MCT",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "הטריילר של \"שבעה צעדים\""
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/1213/041213_oldboy_768Kbps_360p.mp4"
+      ],
+      "posterUrls": [
+        "https://images1.ynet.co.il/PicServer3/2013/12/04/5016387/s.png"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "ספייק לי בן ה-56 הוא כבר מזמן לא קולנוען נשכן ובועט שמספק לעולם סרטי \"ג'וינט\" כועסים. הבמאי האפרו-האמריקאי שמזוהה עם סרטים בעלי מסר פוליטי וחברתי כמו \"עשה את הדבר הנכון\" ו\"מלקולם אקס\", התרכך בשנים האחרונות. על כך מעידים גם העובדים איתו שמדווחים על אווירה חמה ונעימה שהוא משרה על הסט, כמעט כמו דוד חביב.",
+    "lastTextBlock": "\"לא לכל סרט יש מוסר השכל. הצופים אמורים לצאת עם הרגשה של 'מה לעזאזל זה היה?'\", אומר אולסן, ולי מצטרף: \"זה סרט נקמה. עבורי זה סרט על קארמה, שאתה מקבל מה שאתה זורע. אבל למעשה הפסקתי לענות על שאלות כאלה. אני מכבד צופים יותר מדי. שכל אחד ירגיש מה שהוא רוצה\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Recovered substantive unwrapped HTML text and standalone strong interviewer prompts after empty p tags; empty tvElement within an answer removed without splitting the answer.",
+    "Source calls Elizabeth Olsen אומר rather than אומרת in the final paragraph; preserved unchanged. Whitespace inserted only between adjacent caption and paragraph DOM boundaries."
+  ],
+  "apaCitation": "Dvir, N. (2013, December 10). Spike Lee: Ba-Oscar mefashlim lifamim [Spike Lee: At the Oscars they sometimes mess up]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4463232,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Publisher UTF-8 HTML independently flattened and compared with ordered extraction events; Markdown rendered and standalone HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; W174 caption-to-paragraph DOM boundaries add whitespace without changing text",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [
+    {
+      "text": "שבעה צעדים",
+      "url": "https://www.ynet.co.il/articles/0,7340,L-4461919,00.html"
+    }
+  ]
+}

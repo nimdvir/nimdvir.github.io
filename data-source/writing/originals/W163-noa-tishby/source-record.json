@@ -1,0 +1,106 @@
+{
+  "articleId": "W163",
+  "title": "מחוברת",
+  "subtitle": "נועה תשבי השיגה תפקיד בדרמה של ABC, דוחפת קדימה את הגרסאות האמריקאיות של \"מרחק נגיעה\" ו\"מסכים\", מפטפטת עם ביל קלינטון ועוד מוצאת זמן לקפוץ הביתה לדגמן. הישראלית הכי בכירה בהוליווד מגישה מדריך לביזנס ופלז'ר בעיר האשליות",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3760291,00.html",
+  "publishedDate": "2009-08-12",
+  "publishedDisplay": "12.08.09, 09:39",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "586a4c6de31dde3fc807d8353b9a004d92489141ba421cd9f4f09dc11c11cc68",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 36,
+  "interviewerPromptCount": 10,
+  "sectionHeadingCount": 4,
+  "publisherInlineImages": 4,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119354/shaar_wa.jpg",
+      "caption": "תשבי. ותיקת ביצה, גם כאן וגם בהוליווד (צילומים: יניב אדרי)",
+      "credit": "יניב אדרי",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119388/shaar1_wa.jpg",
+      "caption": "\"אני מרגישה שעם 'בטיפול' הצלחתי לפתוח את הדלת\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119428/shaar3_wa.jpg",
+      "caption": "בפרימיירה של \"האי\" עם ג'ף גולדבלום. אשפית נטוורקינג",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2119424/shaar2_wa.jpg",
+      "caption": "בחתונה עם גינזבורג",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2118411/pls1043001_a.gif",
+      "caption": "נועה תשבי על השער צילום: יניב אדרי",
+      "credit": "יניב אדרי",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        ""
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/upl/517/748.flv"
+      ],
+      "posterUrls": [
+        "https://images1.ynet.co.il/PicServer2/02022009/2118686/6.jpg_s.jpg"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [
+    "עוד על מעלליה של נועה תשבי בהוליווד, התפקיד שנכתב במיוחד עבורה והפגישה עם ביל קלינטון - בגיליון פנאי פלוס החדש"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "אני כזאת בלבוסטע\", צוחקת נועה תשבי כשהשיחה שלנו גולשת מאזור האולפנים בהוליווד למתכונים מנצחים לשקשוקה. \"אבל אתה יודע מה, אני בלבוסטע בסטילטו\". למרות הקונוטציה המיושנת, בלבוסטע, סוג של אם בית/ביג מאמא שמנהלת את העניינים, היא מילה מגדירה יפה את תשבי.",
+    "lastTextBlock": "\"עד כמה שלוס אנג'לס גדולה, התעשייה מאוד קטנה. כולם כל הזמן מדברים. ברגע שיש לך שם טוב, הוא עובר כמו אש בשדה קוצים. אני מניחה שהשם שלי, שנובע מהדברים שאני עושה ומהגישה שלי, היה טוב מספיק כדי שיעבור. בשלב מסוים התחילו להתקשר אליי מנכ\"לים, סמנכ\"לים. הם רוצים לעבוד עם אנשים טובים. כולם מחפשים תוכן טוב, ומחפשים את זה מאנשים שסומכים עליהם. כנראה שאני אחת כזו\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original opening lacks an opening quotation mark and says שניהם מהם; preserved unchanged.",
+    "Complete online article captured. Source promotes additional material in the print Pnai Plus issue; this package does not claim to include that print-only material.",
+    "Two original production/photo-credit blocks retained separately from interview prompts. Subscription banner and print-issue promotion removed."
+  ],
+  "apaCitation": "Dvir, N. (2009, August 12). Mechuberet [Connected]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3760291,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Publisher UTF-8 HTML independently flattened and compared with ordered extraction events; Markdown rendered and standalone HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; W174 caption-to-paragraph DOM boundaries add whitespace without changing text",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": []
+}

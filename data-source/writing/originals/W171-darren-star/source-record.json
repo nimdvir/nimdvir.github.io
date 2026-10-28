@@ -1,0 +1,106 @@
+{
+  "articleId": "W171",
+  "title": "סופר סטאר",
+  "subtitle": "דארן סטאר, יוצר \"בוורלי הילס 90210\" ו\"סקס והעיר הגדולה\" מבקר בישראל ומנסה לחלוק מעט מהידע שלו עם דור היוצרים הבא. על הדרך הוא סיפר לנו על התנגדותו להפקה המחודשת של \"90210\" וגם פרטים ראשונים על הסדרה הבאה שלו",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3750489,00.html",
+  "publishedDate": "2009-07-23",
+  "publishedDisplay": "23.07.09, 09:39",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "3d72adaaaee14625f5a8b4cd30361a80bac8ff6c063d7735820659b2f72161ee",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 20,
+  "interviewerPromptCount": 7,
+  "sectionHeadingCount": 1,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 2,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2084525/DARREN_gd.jpg",
+      "caption": "סטאר. \"בתקופה של בוורלי היינו היחידים בתחום על המסך\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/1837873/bvh_gd.jpg",
+      "caption": "כוכבי 90210 המקורית. \"ידענו שאנחנו להיט\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1612566/2_a.jpg",
+      "caption": "90210 החדשה. אין כמו המקור צילום: AP",
+      "credit": "AP",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2049973/LAB45_RTS&91;1&93;_a.jpg",
+      "caption": "פרקר. \"לא ידעתי ש'סקס והעיר הגדולה' תהפוך ללהיט\" צילום: רויטרס",
+      "credit": "רויטרס",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "סטאר מדבר על \"סקס והעיר הגדולה\" (צילום ועריכה: עידן הובל) (צילום ועריכה: עידן הובל)"
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/upl/516/584.flv"
+      ],
+      "posterUrls": [
+        "https://images1.ynet.co.il/PicServer2/02022009/2087539/Untitled-1_s.jpg"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "כוכבי סדנאות לוס אנג'לס-תל אביב, שנערכות בימים אלה בתל אביב, הביאו איתם משב מרענן של רוח הוליוודית. שלשום (ג') נערך בבית השגריר האמריקאי ג'יימס ב. קאנינגהם בהרצליה פיתוח אירוע בו הורמה כוסית לכבוד האורחים נינה טסלר, נשיאת חטיבת הבידור של רשת CBS, דארן סטאר, יוצר \"בוורלי הילס 90210\" ו\"סקס והעיר הגדולה\", התסריטאי ביל מאסטרס (\"סיינפלד\"), אשתו המפיקה גייל ברמן, המפיק ג'רמי קליינר ועוד.",
+    "lastTextBlock": "\"כן, בסתיו האחרון הגעתי לביקור פרטי וטיילתי בכל האתרים. זה היה מדהים. הייתי בכל האתרים הקדושים והתרגשתי מאוד. לגבי הביקור הזה, אני עוד לא לגמרי יודע מה מתוכנן איתי מעבר לסדנאות. בטוח שהמארגנים יצליחו למלא לי את הזמן\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [],
+  "apaCitation": "Dvir, N. (2009, July 23). Super Star [Super star]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3750489,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Publisher UTF-8 HTML independently flattened and compared with ordered extraction events; Markdown rendered and standalone HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; W174 caption-to-paragraph DOM boundaries add whitespace without changing text",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true
+  },
+  "articleLinks": [
+    {
+      "text": "Accidentally on Purpose",
+      "url": "http://www.cbs.com/primetime/accidentally_on_purpose"
+    },
+    {
+      "text": "The Good Wife",
+      "url": "http://www.cbs.com/primetime/the_good_wife"
+    },
+    {
+      "text": "ההפקה המחודשת של '90210'",
+      "url": "https://www.ynet.co.il/articles/0,7340,L-3591548,00.html"
+    }
+  ]
+}
