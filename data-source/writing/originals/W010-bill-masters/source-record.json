@@ -1,0 +1,64 @@
+{
+  "articleId": "W010",
+  "title": "בדיחה של מאסטר",
+  "subtitle": "ביל מאסטרס, תסריטאי \"סיינפלד\", \"מרפי בראון\" וסדרות אמריקניות נוספות, חושף בראיון מיוחד ל-ynet סודות מאולפני הצילום, מספר על דעיכת הז'אנר לטובת הריאליטי ותוהה איך קרה שבמדינת היהודים אין יותר סיטקומים",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3750040,00.html",
+  "publishedDate": "2009-07-22",
+  "publishedDisplay": "22.07.09, 12:12",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "extractionStatus": "Complete main article text captured from publisher; excluded navigation, related-story promotions, comments and unrelated embeds",
+  "bodyTextBlocks": 19,
+  "interviewerPromptCount": 5,
+  "publisherInlineImages": 3,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2084621/1_gd.jpg",
+      "caption": "מאסטרס. אחד מהאבות של \"סיינפלד\". שיתוף פעולה והצלחה מסחררת",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2058058/2_gd.jpg",
+      "caption": "סיינפלד. העבודה ממשיכה במהלך העונה והכותבים \"ממתיקים\" את הפרקים",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/1999657/3_gd.jpg",
+      "caption": "\"פולישוק\". \"מוזר שאין אצלכם הרבה סיטקומים\" (צילום: עודד קרני)",
+      "credit": "עודד קרני",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/04062007/1297102/IMG_0048_a.jpg",
+      "caption": "סיינפלד. השוק כבר לא נראה אותו דבר",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "imageReuse": "No original photos downloaded or embedded, pending freely licensed replacements",
+  "completeness": {
+    "firstTextBlock": "סדנאות תל-אביב - לוס אנג'לס השנתיות שנפתחו אתמול (ג') בסינמטק תל-אביב זימנו אליהן לא מעט אנשי מקצוע בעלי שמות עולמיים מתחום הקולנוע והטלוויזיה, הרצאות וכיתות אמן ליוצרים מקומיים.",
+    "lastTextBlock": "\"כי זה מקצוע שבוחר בך, לא אתה בו. אסור להיכנס לזה מתוך מחשבה של ביזנס וכסף. צריך רצון אמיתי לגרום לאנשים לצחוק. אני מאמין שאנשים מוכשרים ישרדו בתעשייה, לא משנה מה. וגם לא מוכשרים\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original section headings preserved.",
+    "Source image captions include a source-supplied photographer credit when present.",
+    "Last publisher sidebar image retained as provenance only."
+  ],
+  "apaCitation": "Dvir, N. (2009, July 22). Bdicha shel master [A master's joke]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3750040,00.html"
+}
