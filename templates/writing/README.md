@@ -17,6 +17,18 @@ The source package contains `article.he.md`, a clean article-only `article.he.ht
 
 These working folders are outside Astro's content collections and are not generated as website pages. The repository is public, so committed source packages and drafts are still readable on GitHub. Do not put private material in them.
 
+## Hebrew-first archive agreement (October 2026)
+
+- ChatGPT handles capture of the full Hebrew article into the existing `originals/W000-slug/article.he.md`, a text-only `article.he.html` keeper and a provenance `source-record.json`. Claude handles English translation later; capture does not automatically initiate translation.
+- All 198 inventory IDs are eventual Hebrew capture candidates, including interviews, features, columns, reports and third-party coverage **about** Nim. For pieces not authored by Nim, preserve the original byline and label them as third-party coverage; do not use them as Nim style samples.
+- Prioritize High-value original interviews and exclusive reporting, then notable coverage about Nim, then Medium/Low items. Never skip a record silently; record blocked/missing sources, duplicates and authorship doubts without inventing text.
+- Every captured Markdown file ends with a clearly separated **archival** citation section: APA 7 (romanized Hebrew title with bracketed English translation as appropriate), a direct original URL and a relative link to `article.he.html`. Make the citation copyable as a plain-text fenced block. The HTML footer repeats the citation and the source link.
+- Record the canonical Markdown path in `articles.csv` -> `Hebrew Markdown Path` and the article-only HTML path in `Original HTML Path` after both files are checked. If an earlier `Original HTML Path` points to a publisher PDF or other evidence, do **not** replace that pointer; keep it and put the additional HTML backup path in Notes/source-record.
+- Set Status to `captured` only when it was `not started`. Preserve `translated`, `page created`, and `published` statuses and never change Translate?, Priority, or other editorial choices.
+- Preserve full original Hebrew text, headings, questions, quotations, dates and captions. Do not contaminate it with editorial corrections, translations or invented sections. Place all non-original notes *after* the article divider or in `source-record.json`.
+- Source image URLs and original captions are provenance, not automatically reusable photos. Do not download/rehost publisher-owned images or imply a photo depicts the original interview unless the license and context support it. Replacements must be from genuinely free-to-reuse sources with license URL, photographer and attribution recorded. Never say a remotely linked image is a local backup.
+- Work directly on `main`, but **do not publish** the GitHub Pages site or move drafts into `src/content/` without separate explicit approval.
+
 ## 1. Extract the complete Hebrew article
 
 Read the original, not just a search excerpt. Preserve its title, subtitle, byline, publication date/time, paragraph sequence, section headings, questions, speaker labels, quotations, relevant images, captions and photo credits. Remove navigation, ads, comments, sharing controls and unrelated recommendations.
