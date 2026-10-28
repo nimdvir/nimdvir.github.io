@@ -59,3 +59,7 @@ Inventory validation, Astro build, local site verification and SEO verification 
 Five more verified packages: W122 (Aaron Eckhart and Yvonne Strahovski), W163 (Noa Tishby), W171 (Darren Star), W174 (Spike Lee), W176 (Seth Rogen and Zac Efron). The inventory now references 14 unique Hebrew Markdown/HTML packages. W163 and W176 are complete online editions; their publishers advertise additional print-only material that has not been captured. W174 required recovery of substantive text outside normal paragraph tags.
 
 Added `scripts/writing/check_captures.py` to validate UTF-8 YAML metadata, canonical IDs, Hebrew RTL HTML, reciprocal archive links, copyable citations, recorded first/final paragraphs, and Markdown paragraph agreement with HTML. This supplements the existing inventory validator and does not assert live publisher completeness by itself. Dependencies are listed in `requirements.txt`.
+
+## Continuing Work session: batch 3
+
+W021 (Eva Mendes), W023 (Matthew Broderick), W035 (Patti Stanger), W097 (Karim Rashid), W108 (Ester Rada) add five verified packages, bringing registered unique packages to 19. W097's direct response was HTTP 403; Firecrawl recovered the full publisher HTML and its source paragraphs/captions were checked in order. W035/W108 capture complete online editions, not the additional print-only material they advertise. Archive and inventory validators pass. A trailing space inside W108's subtitle emphasis was removed so Markdown renders the intended emphasis; its wording is unchanged.

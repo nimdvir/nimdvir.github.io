@@ -1,0 +1,92 @@
+{
+  "articleId": "W021",
+  "title": "אווה מנדז: \"בסרט לא אכפת לי איך אני נראית\"",
+  "subtitle": "לצורך צילומי \"מקום בתוך היער\", השחקנית אווה מנדז עבדה כמלצרית בדיינר, וכך בסרט היא מופיעה במראה הרבה פחות זוהר שלה. האם התפקיד העלה בה מחשבות על אמהות? \"לא יודעת על זה יותר מאשר על שוד בנקים\", היא אומרת בראיון",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-4378999,00.html",
+  "publishedDate": "2013-05-13",
+  "publishedDisplay": "13.05.13, 15:23",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "f14d97d35fd5659e7570f366cb23df347cfcc36f1aa7fd1e4e7b980fc229293e",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 11,
+  "interviewerPromptCount": 3,
+  "sectionHeadingCount": 1,
+  "publisherInlineImages": 3,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/05/09/4615775/461100101000100408271no.jpg",
+      "caption": "אווה מנדז וריאן גוסלינג ב\"מקום בתוך היער\". קצת זרוקה",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/05/12/4619761/461971801007100408568no.jpg",
+      "caption": "אווה מנדז. גם להיראות פחות טוב זו משימה קשה (צילום: gettyimages)",
+      "credit": "צילום: gettyimages",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/05/12/4619717/461100401000100408271no.jpg",
+      "caption": "ריאן גוסלינג ואווה מנדז. כמו בחיים",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/05/12/4619747/46197195941144183103no.jpg",
+      "caption": "אווה מנדז. קצת פחות זוהרת צילום: gettyimages",
+      "credit": "gettyimages",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "הטריילר של \"מקום בתוך היער\" ( )"
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/0513/0805131225makom_768Kbps_360p.mp4"
+      ],
+      "posterUrls": [
+        "https://images1.ynet.co.il/PicServer3/2013/05/08/4612340/makom-s.jpg"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [
+    "ריאן גוסלינג: \"האופנובנק הוא האליל שלי\" אופנוע מהיר, קולנוע איטי: ארז דבורה על \"מקום בתוך היער\""
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "אווה מנדז נחשבת לאחת הנשים היפות בהוליווד, ולצד ההופעות שלה בסרטים שהקנו לה מעמד של מגה-בייב, היא גם מדגמנת ומחלטרת בקמפיינים של רבלון. עם זאת, בסרט \"מקום בתוך היער\" של הבמאי דרק סיאנפרנס, היא מקפידה להיראות הרבה פחות טוב מהדמות הזוהרת הרגילה שלה, אליה הורגלנו ב\"יום אימונים מסוכן\", \"גוסט ריידר\", \"הדייט שתקע אותי\", \"פקד מושחת\" ו\"אתמול בלילה\".",
+    "lastTextBlock": "\"לא. זה הכל בדמיון. אני לא יודעת עכשיו איך זה יהיה להקים משפחה יותר ממה שאני יודעת על איך לשדוד בנק. זה הכל משחק, ואני לא לוקחת את מה שקורה על הסט לחיים האישיים שלי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [],
+  "apaCitation": "Dvir, N. (2013, May 13). Eva Mendes: \"Ba-seret lo ikhpat li eikh ani nir'it\" [Eva Mendes: \"In a film I do not care how I look\"]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4378999,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Every nonempty source paragraph compared with extracted event sequence; captions and excluded publisher promotions accounted for. Every event checked in order against publisher body and in both Markdown and HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "8affaec5883f865b14146e19853bfbbd6cb3e89bbb7f404655cf441a758d0ead"
+  }
+}

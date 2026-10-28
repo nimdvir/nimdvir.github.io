@@ -1,0 +1,82 @@
+{
+  "articleId": "W108",
+  "title": "מגילת אסתר",
+  "subtitle": "מצעקות \"ברוך הגבר\" על קברו של הרוצח ברוך גולדשטיין, דרך נעורים סוערים בשכונת מצוקה בנתניה, הטראומה מאחורי הקלעים של \"הלהקה\" ועד לתפקיד ראשי בדרמת הנוער \"דאוס\" - אסתר רדא היא כוכבת ילדים שונה מכל מה שהכרתם ",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3833348,00.html",
+  "publishedDate": "2010-01-13",
+  "publishedDisplay": "13.01.10, 09:22",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "c7d788aa83d9d08806cfc931bc9bbf578c76f5382100971c6c9ced177d5d0c5e",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 34,
+  "interviewerPromptCount": 9,
+  "sectionHeadingCount": 4,
+  "publisherInlineImages": 3,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/17112009/2360620/17_wa.jpg",
+      "caption": "לא רוצה שהעור שלי יהיה אישו. רדא (צילום: גיא גלעד)",
+      "credit": "גיא גלעד",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/17112009/2360622/18_wa.jpg",
+      "caption": "גאונת מחשבים מבית עני. רדא ב\"דאוס\" (צילום: רועי ברקוביץ')",
+      "credit": "רועי ברקוביץ'",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/17112009/2360568/19_wa.jpg",
+      "caption": "\"הצעד הראשון שלי - 'הלהקה'. חתיכת וולקאם\" (צילום: אריאל בשור)",
+      "credit": "אריאל בשור",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/762170/lahaka_a.jpg",
+      "caption": "\"הלהקה\". רדא התקבלה למחזמר לצד מוקי ושירי מימון צילום: אייל לנדסמן",
+      "credit": "אייל לנדסמן",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "עוד על אסתר רדא, על העבודה עם מיכאל מושונוב והתוכניות לעתיד - בגיליון פנאי פלוס הבא"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "לאחרונה צולמה כוכבת הילדים מירב פלדמן עירומה בתוך אמבט ספגטי עבור מוסף \"7 לילות\". לכאורה, סתם עוד צילום אמנוצ'י שכזה, אך מאחר שמדובר בנציגת ערוץ הילדים, מעוז הדוגמניות העסיסיות אך התמימות, זכתה הגברת בנזיפה והשעיה לשבועיים.",
+    "lastTextBlock": "\"בעונה הראשונה הייתי בדיכאון, למרות שאף אחד לא היה שם עם אגו ותחרותיות ברמה של 'הלהקה'. זה לא היה בהשוואה אליהם, זה היה יותר מהמקום שלי. פתאום הרגשתי שזה גדול עליי באלף מידות. כל הבלגן הזה. רק בעונה השנייה, עכשיו, נרגעתי קצת\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Complete published online version captured. Source promotes further material in an upcoming print Pnai Plus issue; this package does not claim to preserve that additional print-only text."
+  ],
+  "apaCitation": "Dvir, N. (2010, January 13). Megilat Ester [The scroll of Esther]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3833348,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Every nonempty source paragraph compared with extracted event sequence; captions and excluded publisher promotions accounted for. Every event checked in order against publisher body and in both Markdown and HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "38376306d566ea93cd7d845ddad801405aaa9dee482576fad0c9df2d45fd96a0"
+  }
+}

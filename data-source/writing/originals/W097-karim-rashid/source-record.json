@@ -1,0 +1,134 @@
+{
+  "articleId": "W097",
+  "title": "האוטופיה של קארים ראשיד",
+  "subtitle": "טראמפ הוא סמל הרוע בשבילו, אבל הוא ישמח לעצב לו מחדש את הבית הלבן. עם פתיחת מלון הפוליהאוס שעיצב בתל אביב, פגשנו את קארים ראשיד לריאיון על עתיד ורוד לעיצוב",
+  "author": "נמרוד דביר",
+  "byline": "מאת ניו יורק , נמרוד דביר",
+  "publisher": "At (את)",
+  "sourceUrl": "https://www.atmag.co.il/%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F-%D7%A2%D7%9D-%D7%A7%D7%90%D7%A8%D7%99%D7%9D-%D7%A8%D7%90%D7%A9%D7%99%D7%93/",
+  "publishedDate": "2017-04-20",
+  "publishedDisplay": "20 באפריל 2017",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "0f050932748f0404ef0d3d4d53813de9ec5b0c909c282b6c9b2218afa61c728b",
+  "sourceRetrievalMethod": "Firecrawl full rendered publisher HTML",
+  "firecrawlScrapeId": "01a17fdd-111e-715e-8692-57b75348c069",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 34,
+  "interviewerPromptCount": 14,
+  "sectionHeadingCount": 3,
+  "publisherInlineImages": 9,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "header before subtitle in source",
+      "originalUrl": "https://medias.atmag.co.il/www/uploads/2017/04/AAAAA-KenzoDigital_%C2%A9Stanislas-Liban_0249%D6%B9_H-2000x1125.jpg",
+      "caption": "הסטודיו של ראשיד במנהטן | צילום: Stanislas Liban",
+      "credit": "Stanislas Liban",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/%D7%9E%D7%9C%D7%95%D7%9F_%D7%A4%D7%95%D7%9C%D7%99%D7%94%D7%90%D7%95%D7%A1_%D7%A0%D7%97%D7%9C%D7%AA_%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F_1_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91._%D7%A6%D7%99%D7%9C%D7%95%D7%9D_-_%D7%99%D7%A2%D7%9C_%D7%90%D7%A0%D7%92%D7%9C%D7%94%D7%A8%D7%98_2_P_wo_500_367.jpg",
+      "caption": "מלון הפוליהאוס בתל אביב | צילום: יעל אנגלהרט",
+      "credit": "יעל אנגלהרט",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/AAAAA-%D7%9E%D7%9C%D7%95%D7%9F_%D7%A4%D7%95%D7%9C%D7%99_%D7%A0%D7%97%D7%9C%D7%AA_%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F_1_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91_%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%90%D7%A1%D7%A3_%D7%A4%D7%99%D7%A0%D7%A6%D7%95%D7%A7_16_P_wo_500_367.jpg",
+      "caption": "מלון הפוליהאוס בתל אביב | צילום: אסף פינצוק",
+      "credit": "אסף פינצוק",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/KenzoDigital_%C2%A9Stanislas-Liban_0243_P_wo_500_367.jpg",
+      "caption": "הסטודיו של ראשיד במנהטן | צילום: Stanislas Liban",
+      "credit": "Stanislas Liban",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/KenzoDigital_%C2%A9Stanislas-Liban_0333_P_wo_500_679.jpg",
+      "caption": "הסטודיו של ראשיד במנהטן | צילום: Stanislas Liban",
+      "credit": "Stanislas Liban",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/KENZO-Amour-V%C3%A9ronique-Durruty_P_wo_500_367.jpg",
+      "caption": "בקבוקי בושם שראשיד עיצב לקנזו | צילום: יח\"צ",
+      "credit": "יח\"צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/AITALI-KX-GRADIENT_wo_500_367.jpg",
+      "caption": "כורסת Aitali KX-Gradient | צילום: יח\"צ",
+      "credit": "יח\"צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/ESTEELAUDER-perfume_P_wo_500_679.jpg",
+      "caption": "בקבוק בושם שראשיד עיצב לאסתי לאודר | צילום: יח\"צ",
+      "credit": "יח\"צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/OFFECT-Orgy-Sofa_P_wo_500_367.jpg",
+      "caption": "ספת Offect Orgy | צילום: יח\"צ",
+      "credit": "יח\"צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://atmagil-static.s3.eu-central-1.amazonaws.com/media/2017/04/sizes/1-11_P_wo_500_679.jpg",
+      "caption": "קארים ראשיד | צילום: מישל גבניט",
+      "credit": "מישל גבניט",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "",
+    "רוצה לקבל את מגזין ״את״ למייל? הירשמי לניוזלטר שלנו שלחי אני מאשר/ת קבלת ניוזלטרים ומידע פרסומי מאתר ״את״לאישור אנא סמני"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "על הנייר קארים ראשיד הוא מעצב תעשייתי מוביל, אי שם לצד פיליפ סטארק ומרסל וונדרס (המגזין \"טיים\" אף הכתיר אותו כמעצב המשפיע ביותר באמריקה). בפועל, ממש כמו אירית רחמים או עמוד הפייסבוק של מירי רגב, ראשיד בכלל תופס מעצמו מעצב אווירה. בתור שכזה, הוא יודע היטב שאלוהים לא נמצא בפרטים הקטנים אלא בווייב הכללי, ביצירת חוויה שגדולה מסכום רהיטיה. אנחנו נפגשים בסטודיו שלו במנהטן כדי לדבר על פרויקט העיצוב החדש שלו, [מלון הבוטיק הפוליהאוס‏](https://www.atmag.co.il/%d7%a2%d7%99%d7%a6%d7%95%d7%91-%d7%95%d7%90%d7%93%d7%a8%d7%99%d7%9b%d7%9c%d7%95%d7%aa/%d7%a2%d7%99%d7%a6%d7%95%d7%91/%d7%9e%d7%a2%d7%a6%d7%91%d7%99%d7%9d/%d7%a7%d7%90%d7%a8%d7%99%d7%9d-%d7%a8%d7%90%d7%a9%d7%99%d7%93-%d7%9e%d7%a2%d7%a6%d7%91-%d7%90%d7%aa-%d7%9e%d7%9c%d7%95%d7%9f-the-poly-house-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91) שנפתח לאחרונה במרכז תל אביב. \"החלום האולטימטיבי שלי הוא בעצם לעצב כוכב לכת\", הוא צוחק. \"הכי הייתי רוצה להתחיל עולם חדש ולעצב בו את הכל. ריאלית, בשנים האחרונות אני מתעניין בעיצוב בניינים כי זה הכי קרוב לזה. אבל זו עבודה בלתי צפויה: כשמתכננים חלל, אף פעם אי אפשר לדעת מה תהיה התוצאה הסופית. אפשר לדעת מה יהיה צבע הקירות או איך יסודרו החדרים, אבל יש מרכיב רגשי, אווירתי, שאותו אף פעם אי אפשר לחזות. המטרה שלי היא ליצור אנרגיה ייחודית, ותמיד אני במתח אם היא תגיע\".",
+    "lastTextBlock": "\"כי ורוד הוא צבע יפהפה, חיובי, מדהים בעיניי. אני אוהב אותו דווקא בגלל החוקיות הטיפשית שקובעת שהוא 'צבע של בנות'. אני מוציא לה לשון. אני רוצה לשבור את המוסכמות, ואני עושה זאת בוורוד\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Direct publisher request returned HTTP 403. Full rendered publisher HTML was retrieved successfully by Firecrawl with HTTP 200, including headline, article body and final paragraph.",
+    "Publisher byline lists ניו יורק as a separate writer link before נמרוד דביר. The full displayed byline is preserved; New York is a location, not a second human author.",
+    "Publisher typo הייתי מעצב לו את אחד הבתים? preserved unchanged.",
+    "A single publisher paragraph combines several narrative passages and quoted speech; its paragraph boundary is preserved.",
+    "The bold narrative lead-in בתור שגריר של קישוריות שוברת גבולות is retained as emphasized narrative, not counted as an interviewer prompt.",
+    "Header image originally precedes subtitle; it is preserved as the first image placeholder after the byline in the linear archive."
+  ],
+  "apaCitation": "Dvir, N. (2017, April 20). Ha-utopia shel Karim Rashid [Karim Rashid's utopia]. At. https://www.atmag.co.il/%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F-%D7%A2%D7%9D-%D7%A7%D7%90%D7%A8%D7%99%D7%9D-%D7%A8%D7%90%D7%A9%D7%99%D7%93/",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Every nonempty source paragraph compared with extracted event sequence; captions and excluded publisher promotions accounted for. Every event checked in order against publisher body and in both Markdown and HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "d71fffb64114a34731cb5b5608747f36f045ed3a54881721243be73e04d66afc"
+  },
+  "publishedTimestamp": "2017-04-20T08:11:00+00:00",
+  "sourceTimezone": "UTC (structured metadata only; no time displayed in article byline)"
+}

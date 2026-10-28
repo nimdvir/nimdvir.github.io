@@ -1,0 +1,75 @@
+{
+  "articleId": "W035",
+  "title": "כסף כן יכול לקנות אהבה",
+  "subtitle": "פטי סטנגר עלתה על סטארט-אפ גאוני כשפתחה סוכנות שמתמחה בשידוכים למיליונרים ומיליונריות והשתלטה על שוק הפו\"פ הכי רווחי בארצות הברית. בנוסף, הפכה לכוכבת ענקית שאוחזת בתוכנית \"מי רוצה לתפוס מיליונר\"",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3739132,00.html",
+  "publishedDate": "2009-07-01",
+  "publishedDisplay": "01.07.09, 07:10",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "4221db96e7637ad476b7006024157d67fc9a4ea578ad50dc74e68f96e901a13e",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 16,
+  "interviewerPromptCount": 4,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2049294/peti2_Wa.jpg",
+      "caption": "סטנגר. דייטים ששווים מיליונים (צילומים: יחסי ציבור)",
+      "credit": "יחסי ציבור",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2049296/peti3_wa.jpg",
+      "caption": "שוק הפו\"פ בידיה",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2049289/peti1_a.jpg",
+      "caption": "סטנגר. סטארט-אפ ששווה מיליונים",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "**את הראיון המלא עם סטנגר ניתן לקרוא בגליון פנאי פלוס**"
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "אחד הדברים שאני הכי מעריך בעולם, זה אנשים שיכולים לקחת דבר שטותי לחלוטין ולהפוך אותו לאימפריה. אחת מאלה היא פטי סטנגר, שבנתה קריירה מגלגלת מיליונים מרעיון כל כך אידיוטי עד שהוא גאוני: היא שדכנית למיליונרים. וכך, סטנגר מבלה את ימיה כשהיא משתכשכת באחוזון העליון בלוס אנג'לס, מוצאת בחורות נאות או בחורים חטובים עבור המיליונרים והמיליונריות ששוכרים את שירותיה.",
+    "lastTextBlock": "\"תראה, אני בת 47, עשיתי כמה סיבובים מסביב לבלוק. למדתי דברים ואני מיישמת אותם. אני יודעת שיש צופים שאומרים שאני וולגרית או בטוחה מדי בעצמי, והם מוזמנים להעביר ערוץ. השלמתי עם עצמי ועם מה שאני עושה לפני הרבה מאוד שנים\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Complete published online version captured. Source promotes a longer interview in Pnai Plus print; no claim is made to capture the additional print-only text. The bold line שוק הפו״פ בידיה is the caption immediately following the second photo, not an interviewer prompt."
+  ],
+  "apaCitation": "Dvir, N. (2009, July 1). Kesef ken yakhol liknot ahava [Money can buy love]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3739132,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Every nonempty source paragraph compared with extracted event sequence; captions and excluded publisher promotions accounted for. Every event checked in order against publisher body and in both Markdown and HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "8ef30547336312dfb13f07cbe01e3bd2152df6e4f99eba9b462cc906b542265d"
+  }
+}

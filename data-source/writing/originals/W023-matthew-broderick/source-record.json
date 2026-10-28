@@ -1,0 +1,97 @@
+{
+  "articleId": "W023",
+  "title": "צדק חברתי בתפוח הגדול: ראיון עם מתיו ברודריק",
+  "subtitle": "עם תפקיד משני בלבד ב\"מיליארד סיבות לשוד\" ושרה ג'סיקה פרקר לצדו, מתיו ברודריק שמח בחלקו. בראיון ל-ynet הוא מספר על העבודה המהנה לצד בן סטילר ואדי מרפי, ומציע לכתבנו הכנסה צדדית כדורמן בביתו הצנוע שבלב ניו יורק",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/article/4141079",
+  "publishedDate": "2011-11-02",
+  "publishedDisplay": "02.11.11, 16:39",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "4c20fadc4ae7dfda7c7ebb7d0cab3359bfc63694841d455dab1d9aa9b39cccbb",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 26,
+  "interviewerPromptCount": 6,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 4,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/13062011/3539392/2_wa.jpg",
+      "caption": "מתיו ברודריק ב\"מיליארד סיבות לשוד\". מסתדר עם תפקידי משנה",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/13062011/3539405/75255551_wa.jpg",
+      "caption": "מתיו ברודריק ושרה ג'סיקה פרקר. כך הוא לא נראה ביום יום (צילום: gettyimages)",
+      "credit": "צילום: gettyimages",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/13062011/3539402/4_wa.jpg",
+      "caption": "ברודריק ב\"מיליארד סיבות לשוד\". לא בטוח שמדובר בסאטירה נגד עשירים",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/13062011/3539394/3_wa.jpg",
+      "caption": "העניים שנפגעו גונבים מהעשירים",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/13062011/3539398/90579012_a.jpg",
+      "caption": "מתיו ברודריק. הילד גדל וגידל כרס עגלגלה צילום: gettyimages",
+      "credit": "gettyimages",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "הטריילר של \"מיליארד סיבות לשוד\""
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/1111/0111111446Tower Heist.flv"
+      ],
+      "posterUrls": [
+        "https://images1.ynet.co.il/PicServer2/13062011/3540001/3_s.jpg"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "צופי קולנוע רבים מתקשים לקבל את הפאזה הנוכחית של מתיו ברודריק. למרות שמים רבים זרמו בנהרות העיר הגדולה מאז שכיכב בלהיט \"שמתי ברז למורה\" ובשאר הפקות נעורים, קצת מוזר לקבל את העובדה שברודריק הוא כבר מזמן לא אותו בחור שובב ויפה בלורית.",
+    "lastTextBlock": "\"מעולה, דבר איתי אחרי הראיון. אולי נצליח להגיע לאיזה סיכום\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [],
+  "apaCitation": "Dvir, N. (2011, November 2). Tzedek chevrati ba-tapuach ha-gadol: Re'ayon im Matthew Broderick [Social justice in the Big Apple: An interview with Matthew Broderick]. Ynet. https://www.ynet.co.il/article/4141079",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Every nonempty source paragraph compared with extracted event sequence; captions and excluded publisher promotions accounted for. Every event checked in order against publisher body and in both Markdown and HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "bc9f1b8ba8467af0b5cbdf81d8188c2c94e409f1eb5bdcd4b4fe8e89f1f9b3cb"
+  }
+}
