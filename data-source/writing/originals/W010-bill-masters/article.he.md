@@ -79,7 +79,7 @@ imageStorage: "source-photo-references-only; licensed replacements pending"
 
 <!-- תמונה הופיעה בסרגל הצד באתר המקורי; קישור המקור שמור ב-source-record.json. -->
 
-*סיינפלד. השוק כבר לא נראה אותו דבר*
+*סיינפלד. השוק כבר לא נראה אותו דבר (צילום: אלירן אביטל)*
 
 ---
 

@@ -1,0 +1,186 @@
+{
+  "articleId": "W011",
+  "title": "צ'ואיטל אג'יופור: \"כולם עבדים של המערכת\"",
+  "subtitle": "בסרט \"12 שנים של עבדות\", צ'ואיטל אג'יופור מגלם גבר שחור וחופשי שנחטף ושועבד על ידי בעלי מטעים. השחקן הבריטי מספר כי בחום הלוהט של לואיזיאנה התקשה להסתכל הלאה אל האוסקר, בו הוא עשוי לזכות. \"חשבתי איך לשרוד את היום, לא על האפטר פארטי\", הוא מספר בראיון",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/article/4477287",
+  "publishedDate": "2014-01-16",
+  "publishedDisplay": "16.01.14, 09:11",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "interview",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "96082624e9a116c6a17f947a71ffba24df45bed558dd07a72f2b5b8eee4a1afa",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 15,
+  "interviewerPromptCount": 5,
+  "promptDisplayBlockCount": 5,
+  "cleanTextDisplayBlocks": 15,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/15/5100109/509914716820100490489no.jpg",
+      "caption": "צ'ואיטל אג'יופור והבמאי סטיב מקווין (צילום: MCT)",
+      "credit": "(צילום: MCT)",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/15/5100120/50930930100590640360no.jpg",
+      "caption": "צ'ואיטל אג'יופור ובנדיקט קאמברבאץ' ב\"12 שנים של עבדות\"",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/15/5100113/50991490991599640360no.jpg",
+      "caption": "צ'ואיטל אג'יופור. בלי לתפור חליפות (צילום: MCT)",
+      "credit": "(צילום: MCT)",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/15/5100108/50991461991566183103no.jpg",
+      "caption": "צ'ואיטל אג'יפור",
+      "credit": "צילום: MCT",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "publisherInlineImages": 3,
+  "publisherSidebarImages": 1,
+  "originalVideos": [
+    {
+      "placement": "inline",
+      "poster": "https://images1.ynet.co.il/PicServer3/2014/01/13/5093226/s_avdot.jpg",
+      "title": "הטריילר של \"12 שנים של עבדות\"",
+      "mediaUrls": [
+        "https://progressive-video-ynet.ynethd.com/0114/12 years a slave_768Kbps_360p.mp4"
+      ]
+    }
+  ],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "אם יש צדק בתעשיית השואוביז, אז השחקן צ'ואיוטל אג'יופור יסיים את עונת הפרסים הקרובים עם זר פסלונים בכיסו. אג'יופור - שחקן אנגלי ממוצא ניגרי - חרך בחודשים האחרונים את המסכים בארצות הברית בסרט \"12 שנות עבדות\" של הבמאי סטיב מקווין (\"רעב\", \"בושה\") ובהפקת בראד פיט, שאף משתתף בתפקיד משני. הסרט שזכה השבוע בפרס לדרמה הטובה ביותר בטקס גלובוס הזהב, עולה היום (ה') בבתי הקולנוע בישראל.",
+    "lastTextBlock": "\"בכל מקום מדברים איתי על הפרסים והמועמדויות בעקבות הסרט. אני שמח שכך יצא, אבל במהלך הצילומים לרגע לא עברה לי בראש מחשבה על הביקורות או על טקסי הפרסים. כשאתה יושב כפוף בין קני סוכר או שיחי כותנה בחום של מעל 40 מעלות, ומסביב צועקים עליך, ויש הרגשה שרוצים להרוג אותך, המחשבה העיקרית היא יותר איך לשרוד את היום. האפטר פארטי הנוצץ בלוס אנג'לס נראה משם כמו פלנטה אחרת\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "מצאתם טעות בכתבה? כתבו לנו"
+  ],
+  "notes": [
+    "The body spells the actor name in several variants and gives the story setting as 1853; source wording is preserved."
+  ],
+  "apaCitation": "Dvir, N. (2014, January 16). Chiwetel Ejiofor: \"Kulam avadim shel hamaarekhet\" [Chiwetel Ejiofor: \"Everyone is a slave to the system\"]. Ynet. https://www.ynet.co.il/article/4477287",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": 0,
+        "type": "p",
+        "sha256": "4b126362988f0662d1fa4feaabcd72a85b217be5b65ad379f60648cdca171bb6"
+      },
+      {
+        "sourceBlock": 1,
+        "type": "p",
+        "sha256": "25c111aec5fbded6c2ec8d72aa152e65416d17bda3f793134a3dbca93997b89c"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "p",
+        "sha256": "a75615369fea2f11bb899cdfb723aa76a044b56a8392d46753486e2703d5d1ee"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "3c1f358636bafc55cb2320fb16abfb8987ed71a7fadb3b46df615026bd154045"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "ced4872824e76ecff3a9e836d42bed987dcf28a59369d7bac1cefcaada21b4f4"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "image",
+        "sha256": "db62b0be709f28aa3477286e17f630c8fa75b6f7c7c59c34b547b77a21ba0968"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "dee727cd0e4139a2141f4ea9f6c677253d22f4f45dfad1ff46aa3bd83b449622"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "ece211c193711d07295de8dfe19a4dfc2587e0076e4eeaa6dd0b5423d52644de"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "45de65dfa358f9a9ba3e0eb53ccaec0c1ccb42b0dca97e340d79f682ad6dfe3f"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "b41bd3f670f3250cbff54c6b89db2035213c02185d6f1b251a7eb37bb83e4092"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "image",
+        "sha256": "cfac5dcb83d5b87f86567a8f808a0aabf32c477ae57f0e50e7bd3d908a902482"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "2281c249448275a69b2c8ef5da35017c22c4073a5c7af6cacb22336b9140026d"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "be12282977035607b4cff548f5fe81d41bcbdbaab1073107b28a18bf56a65e85"
+      },
+      {
+        "sourceBlock": 13,
+        "type": "p",
+        "sha256": "d96c05b74e7fe801dc6ff92cec5f7210bdb3f9e579c04f77a8f33f4334eade74"
+      },
+      {
+        "sourceBlock": 14,
+        "type": "p",
+        "sha256": "d92a5fcb998d78c8ce1c6bc494eef7c6b87892b83fda58defad1379194ffb5c9"
+      },
+      {
+        "sourceBlock": 15,
+        "type": "image",
+        "sha256": "133277fa65f8c5e44eeba920af66f4ae5d0ad6b2a7ce0ba7cf60b2ef697181ce"
+      },
+      {
+        "sourceBlock": 16,
+        "type": "p",
+        "sha256": "3e40131614f803a2d133fe1860d5ac794e17c4785b07f5310b3fd83c70978870"
+      },
+      {
+        "sourceBlock": 17,
+        "type": "p",
+        "sha256": "3da6aefd93b06d2c06e2afff375bebc50b492eb368cff4d58325b1e3d4f602d2"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
+    "standaloneHtmlChecked": true
+  }
+}

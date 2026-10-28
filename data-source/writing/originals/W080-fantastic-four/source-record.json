@@ -1,0 +1,300 @@
+{
+  "articleId": "W080",
+  "title": "משפחת סופר על",
+  "subtitle": "מדען, איש סלע, לפיד אנושי ואשה בלתי נראית מתאחדים כדי להציל את העולם. זה אולי נשמע כמו התחלה של בדיחה, אבל אל תתבלבלו: מדובר בסרט הקומיקס הקיצי, \"ארבעת המופלאים\". נמרוד דביר פגש את הרביעייה ובירר איתם איך שומרים על הגזרה, למה כולם סובלים מרגשי נחיתות ומדוע נזקק אחד מהם לטיפול פסיכיאטרי",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3112281,00.html",
+  "publishedDate": "2005-07-13",
+  "publishedDisplay": "13.07.05, 16:25",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "interview",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "227d3b1a61b430e70dff1f34808736dba170228c6dfbd80e18eb2c092650884f",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 44,
+  "interviewerPromptCount": 16,
+  "promptDisplayBlockCount": 16,
+  "cleanTextDisplayBlocks": 48,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/01082004/591720/4_m.jpg",
+      "caption": "ארבעת המופלאים",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/01082004/589943/four_a.jpg",
+      "caption": "כריס אוונס. טובע בפחדים ובחוסר ביטחון",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 1,
+  "originalVideos": [],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "עיתונאיות בידור, במיוחד המשופשפות שבינן, הן אולי זן האנושות הכי קורע ומריר על פני הפלנטה: לא רק שהן צריכות לראיין כל היום אנורקטיות וחתיכים, אחר כך הן נאלצות לחזור הביתה ולהזיל עליהם ריר פיקטיבי במקלדת. רצה הגורל והראיון עם כוכבי הסרט \"ארבעת המופלאים\" נערך בחדר מלא מורמוריות שכאלה. לכבוד הסרט, אקשניית קיץ משובחת על ארבעה גיבורי על שעובדים בחברותה, סגרו קומה במלון אסקס האוס שעל הסנטרל פארק וארגנו רוטציה של השחקנים בין חדרי עיתונאים. אותי מתברר, הושיבו אותי כצלע חמישית לצד ארבע כלבות בידור, מין דודות מנופחות שיער מסביב לגלובוס שרק מוכנות לקרוע לג'סיקה אלבה את הצורה. לקח שנייה עד שהבנתי שאני בחדר הכי מוצלח בבית: \"אני אומרת לך, נדפקנו\", התחילה טינה מטייוואן לשבור את הקרח, \"בגלל שאנחנו בבוקר אנחנו מקבלים רק קפה ומאפין. אם היינו בצהריים היו נותנים לנו פסטה\". זהו, מהרגע שעברנו לדבר בשפת אוכלי החינם נפתחנו רשמית, וכך למדתי להכיר את שותפותיי לשולחן: טינה מטיוואן, דורותי מצרפת, לינדה מבריטניה ואנג'ליקה מאיטליה, להלן \"ארבע המופלאות\". ולמה זה פרס? כי לא רק שהדודות המרושעות צחקו על השחקנים בפרצופם, שנייה אחרי שהכוכב התורן יצא מהחדר עסקו אלה בלקרוע לו את הצורה ברכילות עסיסית. הכי אקשן במיץ וייברעס.",
+    "lastTextBlock": "\"אני כל כך מבסוט לצאת מהחליפה שאני לא יכול לחשוב על זה עכשיו. מה שבטוח, אם תהיה פעם הבאה אז נכניס כמה שינויים בחליפה כדי שיהיה לי יותר נוח. להוסיף לה ריצ'רץ' למטה, למשל\". רגע לפני שהבלונדה עם הצעיף גוררת אותו החוצה, מתפנה צ'יקליס לתת מסר לאומה: \"אמרו לי ש'המגן' מצליחה יפה בישראל. זה משמח אותי מאוד כי אשתי יהודייה, אני מרגיש קשור למדינה\". ומה אומרות הדודות לסיכום? איזה סיכום, בשנייה שנגמר הראיון התחרו הארבע זו בזו מי תרוץ ראשונה החוצה לעשן סיגרייה. ככה זה, מלחיץ להיות עיתונאית בידור.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "מצאתם טעות בכתבה? כתבו לנו"
+  ],
+  "notes": [
+    "Four original bold section labels are rendered as level-two headings.",
+    "Questions attributed to other journalists in this roundtable interview are retained, with attribution unchanged. Two questions originally embedded in narrative/answer paragraphs are separated for bold prompt presentation; exact source text order verified.",
+    "Original introductory body text occurs after the opening image outside paragraph tags and was recovered intact."
+  ],
+  "apaCitation": "Dvir, N. (2005, July 13). Mishpachat super al [A super family]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3112281,00.html",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": 0,
+        "type": "image",
+        "sha256": "0039b468ce81a17930ca69f7af63dadee2257bf5ee40a568256c0e0bc03a8eac"
+      },
+      {
+        "sourceBlock": 1,
+        "type": "p",
+        "sha256": "9732a154a7eaed7266e3be11f3e687f4360718dd3c7cda81d3247c8e8d126f9d"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "h2",
+        "sha256": "495ec883d6e789c56d665beec95e778cf97a27059d7325a1ad729218db44530b"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "88b3e7b48bc60ef56fdf62fb22ef169f5ec2420fb777e8c1e047f923e55c48ad"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "1f99c9146281016f09cf7c4fa51eec3d5bea71407a753c38eb9f8121ce74de9c"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "p",
+        "sha256": "086d151dde619d94332c336edb70020f70af0182e4abd88e2bc030d3a14c6acd"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "2312e937ec1cbc926db1ccc20263d83284d4c856e94ca29d8f1ced4967fee4ba"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "a803a48070edd7e71e2f15aa69fec924898bdc3cb90ec04108b269acc4eaf540"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "ac19e903aa62c6eeb43898fed2a9cd3e046fcfdc156b676b14b3a92e8b59a247"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "af0fe52421c60474a60c540eead8fafbeb87a44a33c00a6ee363efa7315b3d3d"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "p",
+        "sha256": "4a27805ce56881dc769a952f3b0fa786454b40200532616a3bea81cfd66e597e"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "25f86f8b95eb717ef09b3114f86f6b405a9e55618d14192b93d7e52bc980811b"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "9882e3d3f8dafcf8a699691d62f9db27177212ba190c0ebccf9edca9f7fc6c4f"
+      },
+      {
+        "sourceBlock": 13,
+        "type": "h2",
+        "sha256": "2a6e59246b52301126707d7fc7ccce2d75ee4a8942caf04532a7e49bc815ab58"
+      },
+      {
+        "sourceBlock": 14,
+        "type": "p",
+        "sha256": "48f6b4bdfd0692d2e714dbf7f9009557558f8f65514ab23588aa6baeef55f278"
+      },
+      {
+        "sourceBlock": 15,
+        "type": "p",
+        "sha256": "f2b4ac31347ee2dae279b42946658f31180045b5f2c3512da2a6c14f18023247"
+      },
+      {
+        "sourceBlock": 16,
+        "type": "p",
+        "sha256": "d49bfffb52132cdb621167958fc7b260a352c8b7b21aa5b12fef04e77a0342d2"
+      },
+      {
+        "sourceBlock": 17,
+        "type": "p",
+        "sha256": "de7bb635dea71e2d617bdec8c13e84bdaeef1d7fd38b8a33cb4d9fe1656db271"
+      },
+      {
+        "sourceBlock": 18,
+        "type": "p",
+        "sha256": "5b28f71ddd6ae5001fcbf52e67099a99f44d27d859923410dc35b4ec1fa3041a"
+      },
+      {
+        "sourceBlock": 19,
+        "type": "p",
+        "sha256": "25de0a82229f2c2aef3f4bdd499ecf3b103f7d53f67b685e5989b752e24b0c1b"
+      },
+      {
+        "sourceBlock": 20,
+        "type": "p",
+        "sha256": "6ffe6be85d649e500edecddea4b49d9611850eead8e3bbca9f566c8114c80633"
+      },
+      {
+        "sourceBlock": 21,
+        "type": "p",
+        "sha256": "0cd5517fdb429cc70e6669290ddab63dcbec5c3c27a51234d6c1abfb183b484e"
+      },
+      {
+        "sourceBlock": 22,
+        "type": "h2",
+        "sha256": "f4e54b964544c36db1adf2c427deef36b9a1e248becfc0495ca61031ae0f225d"
+      },
+      {
+        "sourceBlock": 23,
+        "type": "p",
+        "sha256": "6946a25e9175bb948bd326878e7b9deee6befd1e22943643f92ed173783778bd"
+      },
+      {
+        "sourceBlock": 24,
+        "type": "p",
+        "sha256": "6380e52a99a24b8bd04cdb0601330d278f6510c05ef39b152ef04dd568217dbf"
+      },
+      {
+        "sourceBlock": 25,
+        "type": "p",
+        "sha256": "6c1efca8c72786f2ea269c19ba7c552a69197acbc5e316082a8b3bccb42c71e8"
+      },
+      {
+        "sourceBlock": 26,
+        "type": "p",
+        "sha256": "bbc50d33c850b4b38fb77b2d26a2847d33691f8644bc020746188c77c90ed31c"
+      },
+      {
+        "sourceBlock": 27,
+        "type": "p",
+        "sha256": "7741f17645d574407a698bb56a2bd712d0e939f2863b2b94b11df23382b3fe5e"
+      },
+      {
+        "sourceBlock": 28,
+        "type": "p",
+        "sha256": "621f758c1f7c979a72238200c71e2c9f9de1be9e52e77d3b0fcbef641dc03af2"
+      },
+      {
+        "sourceBlock": 29,
+        "type": "p",
+        "sha256": "05ff0369ac86e67198ccda59c6fdca78519ec1a6c3fb7fb838cb11a433b24569"
+      },
+      {
+        "sourceBlock": 30,
+        "type": "p",
+        "sha256": "f534b797642800c6f6aa12a3f43522ecb5ff2f20b8b537c2f17d0a5963952fa3"
+      },
+      {
+        "sourceBlock": 31,
+        "type": "p",
+        "sha256": "15d592c767222e202f1c1f88fc87e3171319843f8201ffd8c7463b0134bbfe0a"
+      },
+      {
+        "sourceBlock": 32,
+        "type": "p",
+        "sha256": "bfbb6e62e6e74d534c7637b5e1d5fb05c34fd49ac685420bbce34c723dcd71ed"
+      },
+      {
+        "sourceBlock": 33,
+        "type": "p",
+        "sha256": "b84f7e78aa549d6671ebc855591e3616ce6e895e186470f99bfd25cbaa3cfe4a"
+      },
+      {
+        "sourceBlock": 34,
+        "type": "p",
+        "sha256": "7fdac1542e60ce0057ad30022de2a3b165b7500bb4bc44b26883fa79c1f30913"
+      },
+      {
+        "sourceBlock": 35,
+        "type": "p",
+        "sha256": "b72854376239b46e19445075a432384551c649f195be7243fb3b148795ecf72c"
+      },
+      {
+        "sourceBlock": 36,
+        "type": "p",
+        "sha256": "a1229dda2a652645ddb8c5fcde0176e89fb910e4e66eec7ab08a20ccbb95ab37"
+      },
+      {
+        "sourceBlock": 37,
+        "type": "p",
+        "sha256": "e458434e20925bf11ab3aac9deadd5c817259e9812b1522ce86ca68a1bb0dfc7"
+      },
+      {
+        "sourceBlock": 38,
+        "type": "h2",
+        "sha256": "0f0bc2fcc0911ab5c91dede2059617e669bd0a0b81f8b5bdd19a388848541cf3"
+      },
+      {
+        "sourceBlock": 39,
+        "type": "p",
+        "sha256": "8644041942d3d12c933b5c040a1f773f049434e99ca1e532259168d467ce4bfe"
+      },
+      {
+        "sourceBlock": 40,
+        "type": "p",
+        "sha256": "160c2699787911cc248df388d7ca2cc0766f5349a8d3aec4f190b8a53c66e02e"
+      },
+      {
+        "sourceBlock": 41,
+        "type": "p",
+        "sha256": "a4d93ae5850583c10278eed27d4094b0b4b316b5f100f70e33ab4794ad2c1896"
+      },
+      {
+        "sourceBlock": 42,
+        "type": "p",
+        "sha256": "13daa0e24b2c61cecc9582c0e2360f52b915ef09218d58c347b4e053626e939b"
+      },
+      {
+        "sourceBlock": 43,
+        "type": "p",
+        "sha256": "0d5cdea942a37eeb53a736ee42d45fc4e910781f918bc21326662e463d9515b8"
+      },
+      {
+        "sourceBlock": 44,
+        "type": "p",
+        "sha256": "ade08195634942158b4570519555fa16a7d5e49a4fbf760f8e490cca5466973e"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
+    "standaloneHtmlChecked": true
+  }
+}

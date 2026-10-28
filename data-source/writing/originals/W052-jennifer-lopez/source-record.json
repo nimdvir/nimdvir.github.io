@@ -1,0 +1,173 @@
+{
+  "articleId": "W052",
+  "title": "ג'יי לא",
+  "subtitle": "אולי די להזכיר לג'ניפר לופז שלפני כל היהלומים, הכסף והתהילה, היא בסך הכל הילדה הקטנה מהברונקס? אולי מספיק להטריד אותה עם שאלות על חיבתה לפרוות והפיכתה ליעד מספר אחת של ארגוני החיות? אולי פשוט תשאלו אותה כמה שאלות על העבודה עם רוברט רדפורד בסרטם החדש, \"חיים לא גמורים\", ונגמור עם זה? נמרוד דביר יצא לפגוש את הגרציה והסתכסך קשות",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/article/3142058",
+  "publishedDate": "2005-09-14",
+  "publishedDisplay": "14.09.05, 15:40",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "articleType": "interview",
+  "authorship": "Nimrod Dvir original reporting",
+  "appropriateWritingStyleSample": true,
+  "sourceStatusCode": 200,
+  "retrievalMethod": "Direct HTTP publisher response, UTF-8 decoded before DOM parsing",
+  "sourceResponseSha256": "39a2213bacb8f9ede808171091edf32109a679ff084c29940b356e1ed4d1bff7",
+  "extractionStatus": "verified complete article text; publisher photos not reproduced",
+  "bodyTextBlocks": 21,
+  "interviewerPromptCount": 7,
+  "promptDisplayBlockCount": 8,
+  "cleanTextDisplayBlocks": 22,
+  "originalImages": [
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/03072003/380117/lopez_a.jpg",
+      "caption": "אפילו הפרחת נשיקה אחת לא נרשמה. ג'ניפר לופז",
+      "credit": "צילום: רויטרס",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 1,
+  "originalVideos": [],
+  "imageReuse": "No original photos downloaded or embedded; licensed replacement images pending",
+  "completeness": {
+    "firstTextBlock": "\"נמאס לי שבכל ראיון איתי מזכירים לי שאני מהברונקס. זה משהו שתמיד ילווה אותי, כי משם אני באה ושם ביליתי 20 שנה מחיי, ועדיין, אני מרגישה שהתפתחתי המון מאז אותה תקופה\". (ג'ניפר לופז, על שנות הקסם)",
+    "lastTextBlock": "עכשיו, עם העצבים בעיניים והעשן באוזניים, לופז נראית לפתע קצת אחרת: משחקנית חייכנית היא הופכת בין רגע לסוג של דון קורליאונה, כלומר אשת עסקים קשוחה, חמושה בשומרי ראש ובפוזה לוחמנית. למה שתדבר על פרוות? היא הרי ביזנס וומן, ודם זה עניין רע מאוד לעסק. ואולי בעצם הסכיזופרניה הזאת היא סוד קסמה - כל עוד בפרונט היא מצליחה להישאר המאמי הלאומית, כנראה שאין בעיה אם מאחורי הקלעים היא תמשיך לתפקד כסוג של מאפיונרית קשוחה.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceSubtitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "allSubstantiveTextBlocksVerified": true,
+    "textOrderVerified": true,
+    "presentationSplitsPreserveText": true
+  },
+  "excludedWebsiteBlocks": [
+    "מצאתם טעות בכתבה? כתבו לנו"
+  ],
+  "notes": [
+    "Original opening quotation is bold, not an interviewer prompt.",
+    "The final press-conference question is split by the publisher across two paragraphs; both fragments are preserved in order and bold, with their shared prompt identity recorded. The preceding narrative was separated from the prompt for presentation.",
+    "Source spellings ATEP, חיים לא גומרים and שלא עשתה עמדה חסד are preserved without correction."
+  ],
+  "apaCitation": "Dvir, N. (2005, September 14). Jey lo [J-Lo? No]. Ynet. https://www.ynet.co.il/article/3142058",
+  "verification": {
+    "sourceBlockTextHashes": [
+      {
+        "sourceBlock": 0,
+        "type": "p",
+        "sha256": "5ddad2615c5eb50dd16566ca0a9e19413903a39518971ee0c22214a4b7fcc57c"
+      },
+      {
+        "sourceBlock": 1,
+        "type": "p",
+        "sha256": "95320ab0e93f05ea54462f19e9f2897556cd8a304c44e5c49e914985a319c9dd"
+      },
+      {
+        "sourceBlock": 2,
+        "type": "p",
+        "sha256": "930302ec6ffef4da7ea6fc2fbc68f81398636c14a1af14aa68bf60b836376a1d"
+      },
+      {
+        "sourceBlock": 3,
+        "type": "p",
+        "sha256": "3550e77aeec20f9d574454d80f640d5d43bd9d3a499e0768977585bf03d7fae1"
+      },
+      {
+        "sourceBlock": 4,
+        "type": "p",
+        "sha256": "a38fce4e1d953db05ba1b25abae45a41519ee8555027606b92894c0f9d5edd39"
+      },
+      {
+        "sourceBlock": 5,
+        "type": "p",
+        "sha256": "5713d7265063682912f45c1e95cb59bc96d0af83601ae1912f3c46dc12924b7b"
+      },
+      {
+        "sourceBlock": 6,
+        "type": "p",
+        "sha256": "d7c51bece1b401038eff957053ec6bf6eb5b34f4da194723bbcc5d68329c056c"
+      },
+      {
+        "sourceBlock": 7,
+        "type": "p",
+        "sha256": "aef1a79bd3e2315b0deeede02faa7d605ad1f0be1d8a6f3c511dd8f19fd780fb"
+      },
+      {
+        "sourceBlock": 8,
+        "type": "p",
+        "sha256": "1d8043521b6aeeeac2d1e895133a836fc31c6e104b29c0489a4ad2b984293266"
+      },
+      {
+        "sourceBlock": 9,
+        "type": "p",
+        "sha256": "12e99d9d53c2a9d19c25585415043e8f5902abbf979ed9e5bdf157ca8482af02"
+      },
+      {
+        "sourceBlock": 10,
+        "type": "p",
+        "sha256": "27aec2f73c6badd9fcc94bb7516c7bd01ec7fad104c4606d0d134ffe66d12037"
+      },
+      {
+        "sourceBlock": 11,
+        "type": "p",
+        "sha256": "ad49b101fca716df6228233cc871ae21732797826085f39baca8aac2ab71a5d7"
+      },
+      {
+        "sourceBlock": 12,
+        "type": "p",
+        "sha256": "b1bfd0d651817f331c97bb7da52898553ec05a755c980c69495e33bc578ee99d"
+      },
+      {
+        "sourceBlock": 13,
+        "type": "p",
+        "sha256": "28187338cda0cc5cf3902343f0c288400c83a9fe9ebcce115e0f79097d7d0624"
+      },
+      {
+        "sourceBlock": 14,
+        "type": "p",
+        "sha256": "3db4a8f8fe77342a77c1e530df4779c3ae099a0af8dff31e89516205c15eb350"
+      },
+      {
+        "sourceBlock": 15,
+        "type": "p",
+        "sha256": "9799b8ad9c512a08bde4d743f9eb062ef55d4304f7f68033056e877954194cae"
+      },
+      {
+        "sourceBlock": 16,
+        "type": "p",
+        "sha256": "5426b6fe032e8ba74feafdb16ea71f879c12d24e38acdabddbc8588e9c4310b5"
+      },
+      {
+        "sourceBlock": 17,
+        "type": "p",
+        "sha256": "6d2b0e87ec8b685eacdb2e9599f9d1d965ed50405d484be062e4fc47a37ad339"
+      },
+      {
+        "sourceBlock": 18,
+        "type": "p",
+        "sha256": "2bb4b0131f0547634725830647059f955d9212129c830d3be98786a6e24b81cf"
+      },
+      {
+        "sourceBlock": 19,
+        "type": "p",
+        "sha256": "411e5a7800561e6fb368cd08c7c19feb3fc869af3ab95ed9a73aafff6be8b1f4"
+      },
+      {
+        "sourceBlock": 20,
+        "type": "p",
+        "sha256": "293acba38dc8178a7c46afb41ad0de608fec403f8ce8954866afb160bd06393b"
+      }
+    ],
+    "markdownHtmlTextMatch": true,
+    "licensedImageResearch": "Deferred to prioritize complete text capture; no reuse permission asserted",
+    "publisherStructuredArticleBodyComparison": "Every substantive source text block found in order in publisher articleBody metadata, independently of DOM selection.",
+    "htmlBodyTextComparison": "All clean HTML text equals normalized source text in order, with only documented presentation splits.",
+    "standaloneHtmlChecked": true
+  }
+}

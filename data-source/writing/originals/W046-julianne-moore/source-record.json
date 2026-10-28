@@ -170,5 +170,12 @@
       "placement": "source sidebar; retained after main text in linear Markdown"
     }
   ],
-  "existingPdfPath": "Media/Interviews/_את מי אני מעניינת__.pdf"
+  "existingPdfPath": "Media/Interviews/_את מי אני מעניינת__.pdf",
+  "reverification": {
+    "checkedOn": "2026-10-27",
+    "publisherHttpStatus": 200,
+    "publisherResponseSha256": "6c4508ac55a0853e5cf53a5867c838086f7bf721a3dd4eefa1d9e3637a3301c3",
+    "method": "Fetched live publisher HTML; compared every substantive body text node, including raw tails, against Markdown. All substantive text present; only promotional/contact controls excluded. Headline, byline, date, first and final paragraphs checked.",
+    "bodyComplete": true
+  }
 }

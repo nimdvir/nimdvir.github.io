@@ -45,3 +45,11 @@ W007 and W010 were newly extracted on 2026-10-27 from accessible full publisher 
 ## Verification
 
 The four selected CSV records have distinct paths to verified GitHub files. The CSV retained all 198 IDs and 194 unrelated records; unrelated columns in the four selected records were preserved. The full local Astro build and local `check_inventory.py` execution were not run in this connected environment; verify them in a local checkout or CI before treating this as a completed repository-wide audit.
+
+## Continuing Work session: batch 1
+
+Five further original interviews verified and registered: W011 (Chiwetel Ejiofor), W052 (Jennifer Lopez), W080 (Fantastic Four cast), W165 (Michael Fassbender), W186 (Ryan Gosling). The inventory now references nine unique Hebrew Markdown and clean HTML packages. Each new source record includes source-response and text-block hashes, first/final paragraph checks, prompt counts, image provenance and the APA citation. Publisher articleBody metadata independently matched all substantive source text in order.
+
+The four baseline packages were checked against fresh HTTP 200 publisher responses. Every substantive body text node, including raw tails, is present. W010's sidebar photo credit, אלירן אביטל, was recovered and added; its article body is unchanged. New licensed replacement photos remain pending. W005's listed source URL resolves to an unrelated medical column; W165 records the evidence without modifying the existing published English article or claiming W005 is fully resolved.
+
+Inventory validation, Astro build, local site verification and SEO verification pass. Standalone HTML rendering is being checked with WeasyPrint; the Chromium download was unavailable in this environment. Further batches are in progress. No deployment or translation was performed.

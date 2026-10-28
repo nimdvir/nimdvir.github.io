@@ -486,5 +486,12 @@
       "text": "\"בעונה הזאת הן כבר נפגשות. בהמשך יהיו הרבה אינטראקציות. שני עולמות שונים יתחברו סוף־סוף\".",
       "sourceBold": false
     }
-  ]
+  ],
+  "reverification": {
+    "checkedOn": "2026-10-27",
+    "publisherHttpStatus": 200,
+    "publisherResponseSha256": "d560a314f56bb2858802e01eeb72c2c84e95a8ac73ed36a55fcd26b8d11ac4ae",
+    "method": "Fetched live publisher HTML; compared every substantive body text node, including raw tails, against Markdown. All substantive text present; only promotional/contact controls excluded. Headline, byline, date, first and final paragraphs checked.",
+    "bodyComplete": true
+  }
 }

@@ -60,5 +60,12 @@
     "Joined a paragraph accidentally split mid-sentence in publisher extraction; no words changed.",
     "Source photographer credit not displayed beside images; not inferred."
   ],
-  "apaCitation": "Dvir, N. (2013, May 1). Kokhavot Smash: Im ha-sidra tered, nisha'er be-Broadway [Smash stars: If the show is canceled, we'll stay on Broadway]. Ynet. https://www.ynet.co.il/article/4362943"
+  "apaCitation": "Dvir, N. (2013, May 1). Kokhavot Smash: Im ha-sidra tered, nisha'er be-Broadway [Smash stars: If the show is canceled, we'll stay on Broadway]. Ynet. https://www.ynet.co.il/article/4362943",
+  "reverification": {
+    "checkedOn": "2026-10-27",
+    "publisherHttpStatus": 200,
+    "publisherResponseSha256": "c6b20becab0874ac0583afe3426748387261ca19724b1648f33378ec1edb26ee",
+    "method": "Fetched live publisher HTML; compared every substantive body text node, including raw tails, against Markdown. All substantive text present; only promotional/contact controls excluded. Headline, byline, date, first and final paragraphs checked.",
+    "bodyComplete": true
+  }
 }
