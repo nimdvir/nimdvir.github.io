@@ -1,0 +1,24 @@
+{
+  "articleId": "W090",
+  "sourceUrl": "https://www.israelhayom.co.il/magazine/shishabat/article/9387288",
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "duplicateOf": "W003",
+  "extractionStatus": "verified duplicate; canonical article files shared, no duplicate extraction",
+  "canonicalMarkdownPath": "data-source/writing/originals/W003-julia-louis-dreyfus/article.he.md",
+  "canonicalCleanHtmlPath": "data-source/writing/originals/W003-julia-louis-dreyfus/article.he.html",
+  "verification": {
+    "bothPublisherUrlsRetrieved": true,
+    "sameHeadline": true,
+    "sameCanonicalUrl": true,
+    "canonicalUrl": "https://www.israelhayom.co.il/article/645081",
+    "entireTextContentMatch": true,
+    "normalizedTextContentSha256": "826a9e62913a66f0a467163c10ef5c8330c9284fb30c12fb6dd1ee2b5767987e",
+    "normalizedTextContentCharacters": 12786,
+    "sourcePTagCount": 74,
+    "normalization": "Whitespace collapsed to single spaces; complete #text-content including captions and error-report link compared."
+  },
+  "notes": [
+    "Stable inventory ID retained; do not produce duplicate article files."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "articleId": "W096",
+  "sourceUrl": "https://www.israelhayom.co.il/article/648895",
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "duplicateOf": "W089",
+  "extractionStatus": "verified duplicate; canonical article files shared, no duplicate extraction",
+  "canonicalMarkdownPath": "data-source/writing/originals/W089-killing-eve/article.he.md",
+  "canonicalCleanHtmlPath": "data-source/writing/originals/W089-killing-eve/article.he.html",
+  "verification": {
+    "bothPublisherUrlsRetrieved": true,
+    "sameHeadline": true,
+    "sameCanonicalUrl": true,
+    "canonicalUrl": "https://www.israelhayom.co.il/article/648895",
+    "entireTextContentMatch": true,
+    "normalizedTextContentSha256": "eb5187b321d02da90b14e1e424eb5778e580a7c54c41340682e2bd9ccc8dd75c",
+    "normalizedTextContentCharacters": 13664,
+    "sourcePTagCount": 69,
+    "normalization": "Whitespace collapsed to single spaces; complete #text-content including captions and error-report link compared."
+  },
+  "notes": [
+    "Stable inventory ID retained; do not produce duplicate article files."
+  ]
+}

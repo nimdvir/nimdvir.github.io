@@ -1,0 +1,75 @@
+{
+  "articleId": "W083",
+  "title": "\"הדיקטטור\" הצמיד אקדח לחלציו של כתב ישראלי",
+  "subtitle": "הכתב הישראלי נמרוד דביר חשב שהוא רק מגיע לסקר מסיבת עיתונאים עם סשה בארון כהן - אבל מצא עצמו פנים אל מול פנים עם הדיקטטור, כשאקדח מוזהב מכוון לאזור מבהיל. \"הוא ביקש שאוכיח לו שאני יהודי\", הוא מספר ל-ynet",
+  "author": "אמיר בוגן",
+  "byline": "אמיר בוגן",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-4226092,00.html",
+  "publishedDate": "2012-05-08",
+  "publishedTime": "04:37",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "third-party coverage",
+  "styleSample": false,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 9,
+  "interviewerPromptCount": 1,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "בוחנים את הסחורה? נמרוד דביר וסשה ברון כהן בניו יורק",
+      "credit": "(צילום: mct)",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2012/05/08/3910735/391072901000100408287no.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "אל תסתבכו עם רודנים",
+      "credit": "(צילום: mct)",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2012/05/08/3910742/391073001000100408272no.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "סשה ברון כהן. עוד תקרית דיפלומטית",
+      "credit": "צילום: AP",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2012/05/08/3910750/391073119850100116116no.jpg",
+      "placement": "source sidebar, linearized after article",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [
+    "http://www.youtube.com/watch?v=gip2PuH3mXI",
+    "http://www.ynet.co.il/articles/0,7340,L-4209080,00.html",
+    "http://www.ynet.co.il/articles/0,7340,L-4195206,00.html"
+  ],
+  "apaCitation": "Bogen, A. (2012, May 8). \"Ha-diktator\" hitzmid ekdach lechalatzav shel katav Yisraeli [\"The Dictator\" pressed a gun against an Israeli reporter’s groin]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4226092,00.html",
+  "completeness": {
+    "firstTextBlock": "גנרל אלאדין, הלא הוא סשה בארון כהן, ממשיך עם הקמפיין האגרסיבי שלו לקידום סרטו \"הדיקטטור\" - והפעם הוא ירד מתחת לחגורה: במסיבת עיתונאים בניו יורק לרגל יציאת הסרט, התעמת בארון כהן (בצחוק כמובן) עם העיתונאי הישראלי נמרוד דביר, שהגיע לסקר את האירוע עבור התוכנית \"ערב טוב עם גיא פינס\". חילופי הדברים ביניהם הובילו לכך שדביר נדרש על ידי הדיקטטור להוכיח את יהדותו, וזה הגיב בכיוון אקדחו לעבר איזור החלציים של העיתונאי. עוד הצגה, מבדחת במיוחד, לרגל יציאת הסרט לאקרנים בארצות הברית.",
+    "lastTextBlock": "מדובר בעיבוד חופשי לכאורה לספר שכתב סדאם חוסיין, למרות שנראה כי אלאדין, ונשות המשמר שלו מזכירות יותר את שליט לוב לשעבר, מועמר קדאפי. קמפיין הקידום של הסרט כלל שערורויות יזומות רבות ובהן גם התקרית עם ראיין סיקרסט על השטיח האדום בדרך לאוסקר, במהלכה פיזר \"אפרו של קים ג'ונג איל\" על חליפתו של המראיין.",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Third-party coverage about Nimrod Dvir; not authored by him and not a writing-style sample.",
+    "Visible time 04:37 preserved; JSON-LD datePublished is 2012-05-08T07:37:40+03:00. No time-zone reconciliation was invented.",
+    "Source splits the sentence beginning כמובן שבארון כהן into two p tags around an empty div; both source paragraph boundaries retained."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "5ff486e75d5b37d8d9515ba13f42dff02d66dd965517d9a1a8d3b682eba42c6f",
+    "imageFilesDownloaded": false
+  }
+}

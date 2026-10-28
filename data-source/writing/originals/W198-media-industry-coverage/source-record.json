@@ -1,0 +1,66 @@
+{
+  "articleId": "W198",
+  "title": "התחתית",
+  "subtitle": "רני רהב ורונית ארבל במפגש פסגה, בועז בן ציון ומאיה בוסקילה נפרדים ועונת החתונות מגיעה לקשת- \"התחתית\"- מדור רכילות ברנז'ה",
+  "author": "nrg מעריב",
+  "byline": "nrg מעריב",
+  "publisher": "nrg",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/1/ART2/178/322.html",
+  "publishedDate": "2010-11-15",
+  "publishedTime": "12:49",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "third-party coverage",
+  "styleSample": false,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "Windows-1255",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 9,
+  "interviewerPromptCount": 0,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "רני רהב ורנית ארבל באירוע 8 שנים ל''טיים אאוט''",
+      "credit": "גל אוחובסקי",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/283/291.jpg",
+      "placement": "source floating sidebar before following paragraph",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "יוני דותן",
+      "credit": "אמיר מאירי",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/550/620.jpg",
+      "placement": "source floating sidebar before following paragraph",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [
+    "https://www.makorrishon.co.il/nrg/online/1/ART2/175/562.html"
+  ],
+  "apaCitation": "nrg Maariv. (2010, November 15). Ha-tachtit [The bottom]. https://www.makorrishon.co.il/nrg/online/1/ART2/178/322.html",
+  "completeness": {
+    "firstTextBlock": "חודשיים בלבד הספיקו לבועז בן-ציון ומאיה בוסקילה כדי להיפרד.",
+    "lastTextBlock": "בקרוב אגיע רחוק: הדס ריבק נסעה ללמוד בגרמניה והיא צפויה לשוב בקרוב.",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Third-party coverage mentioning Nimrod Dvir; corporate byline nrg מעריב, not Nim and not a writing-style sample.",
+    "Original NRG publisher page hosted on Makor Rishon; source Windows-1255 byte encoding explicitly decoded.",
+    "Publisher ARTICLE_CONTENT_START/END comments delimit full body; paired br tags preserve original paragraph divisions.",
+    "Original title/subtitle use רונית but first image caption uses רנית; both original spellings retained."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "60753bd457f8dedaf440e333e0b9fdc4b8a1ddc1acca9d3eabf09d4c66fc6286",
+    "imageFilesDownloaded": false
+  }
+}

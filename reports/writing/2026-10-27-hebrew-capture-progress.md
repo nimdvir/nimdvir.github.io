@@ -63,3 +63,9 @@ Added `scripts/writing/check_captures.py` to validate UTF-8 YAML metadata, canon
 ## Continuing Work session: batch 3
 
 W021 (Eva Mendes), W023 (Matthew Broderick), W035 (Patti Stanger), W097 (Karim Rashid), W108 (Ester Rada) add five verified packages, bringing registered unique packages to 19. W097's direct response was HTTP 403; Firecrawl recovered the full publisher HTML and its source paragraphs/captions were checked in order. W035/W108 capture complete online editions, not the additional print-only material they advertise. Archive and inventory validators pass. A trailing space inside W108's subtitle emphasis was removed so Markdown renders the intended emphasis; its wording is unchanged.
+
+## Continuing Work session: batch 4
+
+W003 (Julia Louis-Dreyfus) and third-party coverage W083, W197, W198 now have complete verified packages. W083 is by Amir Bogen; W197/W198 retain the nrg Maariv byline. These coverage records remain `not my writing` and have `styleSample: false`. W003 remains `published`; no English page was changed.
+
+W090/W003 and W096/W089 are confirmed duplicates: full-body hashes, publisher canonical links and structured article metadata agree. Both IDs remain in the inventory with shared canonical Hebrew and HTML paths and separate duplicate-evidence source records. W090 retains its existing `needs checking` status; its note now records the resolved duplicate evidence. There are 23 unique packages covering 25 inventory IDs. Both validators pass.

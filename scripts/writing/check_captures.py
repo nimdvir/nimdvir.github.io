@@ -85,6 +85,7 @@ def main():
                 if paragraph.startswith(("#", "<!--", "![")):
                     continue
                 text = Reader(markdown.markdown(paragraph)).text
+                text = text.replace("[תמונה במקור; ממתינה לרישיון שימוש]", "").strip()
                 if len(text) > 90:
                     assert compact(text) in compact(reader.text), f"Markdown paragraph absent from HTML: {text[:55]}"
             boundaries = record.get("completeness", {})

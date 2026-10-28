@@ -1,0 +1,83 @@
+{
+  "articleId": "W003",
+  "title": "חזרתי",
+  "subtitle": "שנתיים חלפו מאז אובחן אצל ג'וליה לואי דרייפוס סרטן השד • היא שיתפה את עוקביה בתהליך ההחלמה, ובמקביל צילמה עונת סיום לקומדיה \"Veep\" • בראיון ל\"שישבת\" היא מדברת על הקשר בין קומדיה לפוליטיקה ומודה: \" להיות אישה בגיל העמידה שמנסה להישאר רלוונטית ומשפיעה.",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Israel Hayom",
+  "sourceUrl": "https://www.israelhayom.co.il/article/645081",
+  "publishedDate": "2019-03-28",
+  "publishedTime": "17:00",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "interview",
+  "styleSample": true,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 68,
+  "interviewerPromptCount": 18,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "צילום: אי.אף.פי // ג'וליה לואי דרייפוס. \"אף פעם לא הייתי בישראל, אבל מאוד הייתי שמחה לבוא לבקר\"",
+      "credit": "אי.אף.פי",
+      "originalUrl": "https://www.israelhayom.co.il/wp-content/uploads/2022/03/24/15537888420815_b-960x640.jpg",
+      "placement": "hero before body",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "מתוך העונה האחרונה של \"Veep\". \"אפשר לומר שעשיתי קריירה מגילום דמויות די איומות\" // צילום HBO",
+      "credit": "HBO",
+      "originalUrl": null,
+      "placement": "inline; publisher figure immediately preceding caption has empty img src",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "עם בעלה, בראד הול. \"התמיכה של כולם עזרה לי לעבור את התקופה הקשה\" // צילום: אי.אף.פי",
+      "credit": "אי.אף.פי",
+      "originalUrl": null,
+      "placement": "inline; publisher figure immediately preceding caption has empty img src",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "דרייפוס באינסטגרם. \"הסרטן נתן לי מוטיבציה\"",
+      "credit": null,
+      "originalUrl": null,
+      "placement": "inline; publisher figure immediately preceding caption has empty img src",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [],
+  "apaCitation": "Dvir, N. (2019, March 28). Chazarti [I’m back]. Israel Hayom. https://www.israelhayom.co.il/article/645081",
+  "completeness": {
+    "firstTextBlock": "השנה האחרונה היתה רחוקה מחיוכים לג'וליה לואי דרייפוס, אישה שמתייחסת לחיים בהומור תמידי. \"כשאבחנו אצלי את סרטן השד, התחלתי לבכות\", היא מספרת על גילוי המחלה הממאירה בגופה ב־2017.",
+    "lastTextBlock": "\"אני לא חושבת. למדתי מהסדרה הזאת הרבה על פוליטיקה. בסך הכל הבנתי שפוליטיקאים הם רק אנשים. זה הכל. מצד אחד זה מנחם, ומצד שני מבעית, בהתחשב בזה שהם צריכים לנהל את ההצגה. זה כמו לבקר במפעל נקניקיות - אתה לא באמת רוצה לראות איך מייצרים אותן\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "W090 is a verified duplicate of this publisher article. Both complete normalized #text-content strings match exactly.",
+    "Publisher subtitle ends with an unmatched quotation and sentence fragment; preserved exactly as visible and in existing source PDF.",
+    "Source claims nine Emmys for Seinfeld, six for acting; historical wording preserved without correction.",
+    "All three inline source figures have empty img src. Captions retained with absent URLs explicitly recorded. Hero image URL retained as provenance only.",
+    "Visible current date/time is 28/3/2019 17:00; existing archived PDF displays 13:00. Date matches. No time-zone reconciliation was invented.",
+    "Compared opening and closing paragraphs and subtitle against existing Media/Interviews/israelhayom.co.il_article_645081.pdf text extraction; publisher section markers retained."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "a129897a673819e806771b987942a81d6a33271a9801274d397421d854f8d1d9",
+    "imageFilesDownloaded": false
+  },
+  "sectionHeadingCount": 4
+}

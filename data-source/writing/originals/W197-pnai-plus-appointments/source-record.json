@@ -1,0 +1,49 @@
+{
+  "articleId": "W197",
+  "title": "פיני אסקל עבר ל\"פנאי פלוס\"",
+  "subtitle": "עורך וואלה! סלבס ונמרוד דביר, עורך התרבות ב\"פנאי פלוס\" מונו לסגניה של נירית וייס. את המעצב אמיר חסון שעוזב יחליף נדב אליהו",
+  "author": "nrg מעריב",
+  "byline": "nrg מעריב",
+  "publisher": "nrg",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/1/ART1/616/912.html",
+  "publishedDate": "2007-08-02",
+  "publishedTime": "13:04",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "not applicable; no publisher article image found",
+  "articleType": "third-party coverage",
+  "styleSample": false,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "Windows-1255",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 5,
+  "interviewerPromptCount": 0,
+  "originalImages": [],
+  "articleHyperlinks": [
+    "https://www.makorrishon.co.il/nrg/online/4/ART1/608/189.html"
+  ],
+  "apaCitation": "nrg Maariv. (2007, August 2). Pini Askal avar le-\"Pnai Plus\" [Pini Askal moved to \"Pnai Plus\"]. https://www.makorrishon.co.il/nrg/online/1/ART1/616/912.html",
+  "completeness": {
+    "firstTextBlock": "פיני אסקל ונמרוד דביר מונו לסגניה של נירית וייס, עורכת המגזין \"פנאי פלוס\". זאת לאחר פרישתו של סגן העורך הקודם, אור קניספל.",
+    "lastTextBlock": "סמנכ\"ל התוכן של וואלה! יהורם דילמאני, מסר בתגובה: \"פיני אסקל הוא מבניה המובחרים של וואלה! והוא תמיד יישאר כזה, אנו מאחלים לו הרבה הצלחה\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Third-party coverage mentioning Nimrod Dvir; corporate byline nrg מעריב, not Nim and not a writing-style sample.",
+    "Original NRG publisher page hosted on Makor Rishon; source Windows-1255 byte encoding explicitly decoded.",
+    "Publisher ARTICLE_CONTENT_START/END comments delimit full body; paired br tags preserve original paragraph divisions.",
+    "Opening quotation mark appears absent before the Nirit Weiss quotation; source wording retained."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher response parsed as HTML; original raw response inspected in scratch",
+    "rawResponseSha256": "2099d59c00c4905248a88fc1ade64615e2e8202365b16c7dad3c1b76ecfba30b",
+    "imageFilesDownloaded": false
+  }
+}
