@@ -30,5 +30,5 @@
 ## Writing pipeline
 
 - Nim's article list is `data-source/writing/articles.csv`; its columns are explained in `data-source/writing/README.md`.
-- Use the `translate-article` skill in `.agents/skills/translate-article/` to read the queue and record progress.
+- Use `.agents/skills/capture-article/SKILL.md` for Hebrew-first extraction and archive inventory updates, then `translate-article` for Claude translation after Nim selects articles. Hebrew capture does not authorize translation.
 - Python dependencies for the scripts in `scripts/writing/` are in `requirements.txt`.
