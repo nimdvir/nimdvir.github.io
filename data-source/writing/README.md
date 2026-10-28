@@ -24,6 +24,7 @@ Open it in Excel or VS Code. It is UTF-8 with a byte-order mark, so Hebrew displ
 | Original URL | Link to the original article. Never a Wikipedia page. | URL or blank | script | `https://www.ynet.co.il/articles/0,7340,L-4141079,00.html` |
 | Images | Image status. | blank, `on Cloudinary`, `needs upload` | agent | `on Cloudinary` |
 | Original HTML Path | Saved copy of the original (HTML, MHTML or PDF), relative to the repository. | path or blank | agent | `Media/Interviews/israelhayom.co.il_article_645081.pdf` |
+| Hebrew Markdown Path | Verified, complete Hebrew Markdown extraction for translation; each article ID gets one canonical path. This is independent of Translation Path and Page Path. | repository-relative path or blank | Hebrew capture agent | `data-source/writing/originals/W046-julianne-moore/article.he.md` |
 | Translation Path | English translation file; a draft can still await Nim's review, as recorded in Review Flag and its frontmatter. | path or blank | agent | |
 | Page Path | Website page file. | path or blank | agent | `src/content/interviews/rupaul.md` |
 | Found In | Every source cell the row came from: file, sheet and cell, a CSV line, or a Wikipedia page. | text | script | `NimDvirArticles.xlsx!A49; he.wikipedia:מתיו ברודריק` |
