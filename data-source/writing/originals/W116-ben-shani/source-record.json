@@ -1,0 +1,81 @@
+{
+  "articleId": "W116",
+  "title": "\"אילנה היא פנומן\"",
+  "subtitle": "בן שני, מבכירי עיתונאי הדוקו בישראל, מעריץ את הבוסית. \"אין 'עובדה' בלי אילנה דיין\", הוא אומר בראיון ל\"רייטינג\", \"כמה שלא תעבוד קשה, היא עובדת קשה יותר\". בכלל, הוא אוהב לצפות בתוכניות שלא מעליבות את הצופה. למרבה ההפתעה זה כולל גם את \"האח הגדול\"",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/1/ART2/185/285.html",
+  "publishedDate": "2010-12-05",
+  "publishedDisplay": "5/12/2010 9:23",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "9b53d9868d15228566be9fda22e216dc3915813cb6ffa5177c4eff3e83e788ee",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 14,
+  "interviewerPromptCount": 4,
+  "sectionHeadingCount": 1,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 2,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/288/747.jpg",
+      "caption": "בן שני",
+      "credit": "צילום: אלון פורת",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/285/383.jpg",
+      "caption": "אילנה דיין",
+      "credit": "ירון לויזון",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "הכתבה המלאה בגיליון \"רייטינג\""
+  ],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "מי שמדמיין את בן שני, מבכירי עיתונאי הדוקו הישראלים, דבוק לערוץ 8 במשך רוב שעות היממה צפוי להיות מופתע. \"כן\", הוא מחייך. \"אני רואה 'האח הגדול' ואת 'מאסטר שף'. אני חושב שאני צרכן של טלוויזיה ואני אוהב שדברים עשויים היטב, שמישהו מכבד אותי, שלא מעליבים את האינטליגנציה שלי. אני מעריך את העבודה ב'האח הגדול'. לנפק פעמיים בשבוע משדר ערוך למופת של שעה וחצי מתוך עשרות שעות של חומר גלם זו לא משימה פשוטה בכלל\".",
+    "lastTextBlock": "\"אין לי מושג. כשלמדתי קולנוע באוניברסיטה שמעתי את המונח בפעם הראשונה. לא חשבתי שאתקל במילה הזאת בעיתונות. זה הסתדר לי עם כוכבי קולנוע, עם אנשים שבזכות השם מוכרים יצירה או סרט. מוזר לי שהמונח הזה חדר גם לעיתונות. אני מניח שאם מישהו עושה כתבה, אנשים מגיעים לראות אותה כי היא מזוהה איתו, כלומר שהעיתונאי מביא טביעת אצבע שלו. קרה פה משהו קצת לא נורמלי - כל דבר הפך להיות אישי ומזוהה\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header also incorrectly declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "All BR-delimited narrative and answer paragraphs retained, including substantive raw HTML tails.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Unbolded interviewer statement beginning אצל רוב העיתונאים is a separate bold prompt in the archive.",
+    "Complete online version captured. Publisher advertises the full feature in the print Rating issue; additional print-only material not reconstructed."
+  ],
+  "apaCitation": "Dvir, N. (2010, December 5). Ilana hi fenomen [Ilana is a phenomenon]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/1/ART2/185/285.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened original publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; original captions and image credits independently retained",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true,
+    "articleHyperlinksVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב",
+  "sourceTitleDiffersFromInventory": false,
+  "articleType": "feature"
+}

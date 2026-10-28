@@ -1,0 +1,24 @@
+{
+  "articleId": "W100",
+  "inventoryOriginalUrl": "https://jewishjournal.com/commentary/327554/what-my-personal-story-from-the-1991-iraqi-scud-assault-teaches-about-covid-19/",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Wrong-person attribution; English source verified",
+  "evidence": {
+    "publisherUrl": "https://jewishjournal.com/commentary/327554/what-my-personal-story-from-the-1991-iraqi-scud-assault-teaches-about-covid-19/",
+    "directRetrieval": "HTTP Error 403: Forbidden",
+    "firecrawlStatusCode": 200,
+    "verifiedAuthor": "Boaz Dvir",
+    "publishedDate": "2021-01-18",
+    "authorLink": "https://jewishjournal.com/author/boazdvir/",
+    "language": "English",
+    "authorBioEvidence": "Publisher bio identifies Boaz Dvir as Saving Israel author and Penn State University assistant professor of journalism."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Correct attribution to Boaz Dvir and mark not my writing; retain stable ID. Do not create Hebrew copy, invent missing Hebrew original, or use as Nim style sample.",
+  "textReconstructed": false,
+  "actualAuthor": "Boaz Dvir",
+  "actualLanguage": "English",
+  "appropriateWritingStyleSample": false,
+  "classification": "misattributed unrelated author, not Nim portfolio coverage"
+}

@@ -1,0 +1,85 @@
+{
+  "articleId": "W195",
+  "title": "תקופת הסטון: אמה סטון כובשת את הוליווד",
+  "subtitle": "עם שני סרטים רותחים על המסכים, תפקיד עתידי כנערתו של ספיידרמן ומעמד של אייקון אופנה בהתהוות, אמה סטון מסתמנת כאיט גירל הכי שווה של הוליווד לשנייה זו. זה עדיין לא עונה לנו על השאלה החשובה באמת: האם היא ג'ינג'ית או בלונדינית?",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/274/272.html",
+  "publishedDate": "2011-08-29",
+  "publishedDisplay": "29/8/2011 12:18",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "427631d13ffce30ec2df57b20857324243e9671b6943b0cb6da43d2308aa04b2",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 19,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 2,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/354/033.jpg",
+      "caption": "כולם מדברים על הסטייל שלה. אמה סטון",
+      "credit": "AP",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/343/524.jpg",
+      "caption": "הנערה הנכונה. אמה סטון על שער וניטי פייר",
+      "credit": "סריקה",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [
+    {
+      "sourceUrls": [
+        "http://www.youtube.com/v/eMHfRaiIYws?version=3&hl=iw_IL"
+      ],
+      "captions": []
+    }
+  ],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "הנה כמה סימנים לכך שאמה סטון הפכה מעוד שחקנית לאיט גירל הרותחת של הוליווד: 1. היא משחקת כרגע בשני סרטים מגה מתוקשרים במקביל. 2. היא תגלם את נערתו של ספיידרמן בסרט החדש בסדרה, שיעלה לאקרנים בקרוב. 3. כולם מדברים על הסטייל שלה. 4. התמונה שלה מתנוססת החודש על שער המגזין היוקרתי \"ואניטי פייר\" כשלגופה ביקיני בלבד. האם מישהו זקוק להוכחות נוספות?",
+    "lastTextBlock": "אף על פי שהיא מעורבת בקהל הנכון, סטון מצליחה להגן על עצמה מזעם הצהובונים. עדיין לא ראינו תמונות שלה שיכורה או עושה דברים מהסוג שדרדר את הקריירה של לינדזי לוהן. \"יש לי מזל שההורים שלי בחיים לא יתנו לי לאבד את הראש ככה\", היא אומרת בהקשר של לינדזי. \"הם פשוט לא ייתנו לזה לקרות. אני צריכה את זה, לדעת שהם תמיד יהיו שם לשמור עלי. אני הייתי הרוסה בלי זה. אני צריכה שיהיו לצדי אנשים שאוכל לבכות להם. אין לי עור עבה, ואני גם לא רוצה לגדל אחד. אני רוצה שיהיו לצדי אנשים שיגנו עלי. אני רואה הרבה שחקנים במקצוע שהם לא אמיתיים, כי אחרי כל השנים של הפגיעות הם גידלו עור של קרנף שמונע מהם להתחבר באמת. אני לא רוצה שזה יקרה גם לי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header also incorrectly declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "All BR-delimited narrative and answer paragraphs retained, including substantive raw HTML tails.",
+    "Removed 0 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Source contains apparent wording/spacing issues including לפי הסיפורים )שלה( and בעיקר המנהל וגם מאוד מאוד רחוק ממני. Historical claims, source ages and wording left unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2011, August 29). Tkufat ha-Stone: Emma Stone koveshet et Hollywood [The Stone age: Emma Stone conquers Hollywood]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/274/272.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened original publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; original captions and image credits independently retained",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true,
+    "articleHyperlinksVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב",
+  "sourceTitleDiffersFromInventory": false,
+  "articleType": "feature"
+}

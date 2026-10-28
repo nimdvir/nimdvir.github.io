@@ -1,0 +1,25 @@
+{
+  "articleId": "W110",
+  "inventoryOriginalUrl": "https://nimdvir.blogspot.com/2023/04/an-interview-with-gila-gamliel-israeli.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Same interviewee; different listed dates/titles, English post missing; relationship unverified",
+  "evidence": {
+    "W110DirectStatus": 404,
+    "W110FirecrawlStatus": 404,
+    "W110InventoryDate": "2023-04",
+    "W098VerifiedPublisher": {
+      "url": "https://www.atmag.co.il/%D7%92%D7%99%D7%9C%D7%94-%D7%92%D7%9E%D7%9C%D7%99%D7%90%D7%9C-%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F/",
+      "directStatus": 403,
+      "firecrawlStatus": 200,
+      "title": "גילה גמליאל מפחדת מהיום בו \"סיפורה של שפחה\" תהיה המציאות בישראל",
+      "author": "נמרוד דביר",
+      "publishedDate": "2017-11-07",
+      "roleInArticle": "Minister for Social Equality"
+    },
+    "distinction": "W110 title calls Gamliel Minister of Intelligence and URL is April2023, while W098 is a Nov2017 interview with Minister for Social Equality. A later repost could update context, but missing body prevents proving same interview or difference."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Do not merge or share paths based on interviewee. Record W098 verified date and continue capture independently; W110 needs checking.",
+  "textReconstructed": false
+}

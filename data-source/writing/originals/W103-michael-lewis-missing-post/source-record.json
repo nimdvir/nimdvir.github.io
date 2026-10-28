@@ -1,0 +1,22 @@
+{
+  "articleId": "W103",
+  "inventoryOriginalUrl": "https://nimdvir.blogspot.com/2012/05/interview-michael-lewis-is-boiling.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Matching subject and month; English post unavailable, equivalence unverified",
+  "evidence": {
+    "W103DirectStatus": 404,
+    "W103FirecrawlStatus": 404,
+    "W164VerifiedPublisher": {
+      "url": "https://xnet.ynet.co.il/xo/articles/0,7340,L-3094833,00.html",
+      "httpStatus": 200,
+      "title": "מייקל לואיס: \"בכל מקרה הייתי עף בין הראשונים\"",
+      "author": "נמרוד דביר",
+      "publishedDisplay": "05.05.12 05:06"
+    },
+    "comparisonLimit": "Same interview subject and May2012 timing, but no English body or original-link evidence recovered from W103."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Capture W164 if desired. Retain W103 needs checking; no shared Hebrew paths or duplicate assertion.",
+  "textReconstructed": false
+}

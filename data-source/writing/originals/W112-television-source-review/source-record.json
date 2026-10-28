@@ -1,0 +1,22 @@
+{
+  "articleId": "W112",
+  "inventoryOriginalUrl": null,
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Probable duplicate title; full equivalence unverified",
+  "evidence": {
+    "W112Workbook": "Media/Interviews/MyWriting.xlsx!wiki-2 A28 title יש מקום לכולם; B28 displayed and actual hyperlink both https://www.ynet.co.il/entertaiment/tvhp/tvreview (section page).",
+    "W016VerifiedPublisher": {
+      "url": "https://www.ynet.co.il/articles/0,7340,L-3730911,00.html",
+      "httpStatus": 200,
+      "title": "יש מקום לכולם",
+      "byline": "יובל גנור",
+      "publishedDisplay": "14.06.09, 13:46",
+      "subtitleEvidence": "Subtitle explicitly says Yuval Ganor responds to Nimrod Dvir’s article."
+    },
+    "comparisonLimit": "W112 has no unique source body; exact same headline and section reference support a candidate only."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Retain W112 ID and candidate duplicate relationship. Do not attribute W112 to Nim or share Hebrew paths until identity is verified. W016 is third-party response, not Nim style sample.",
+  "textReconstructed": false
+}

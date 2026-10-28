@@ -1,0 +1,21 @@
+{
+  "articleId": "W102",
+  "inventoryOriginalUrl": "https://nimdvir.blogspot.com/2012/05/going-viral-sacha-baron-cohen.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Same event; do not conflate authorship or assume duplicate article",
+  "evidence": {
+    "W102DirectStatus": 404,
+    "W102FirecrawlStatus": 404,
+    "W083VerifiedPublisher": {
+      "url": "https://www.ynet.co.il/articles/0,7340,L-4226092,00.html",
+      "title": "\"הדיקטטור\" הצמיד אקדח לחלציו של כתב ישראלי",
+      "author": "אמיר בוגן",
+      "date": "2012-05-08"
+    },
+    "distinction": "W083 is third-party report interviewing Nim about the event; inventory W102 is a first-person English portfolio post about the same event. Missing post body prevents determining repost, commentary, or excerpt."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Retain distinct IDs. W083 verified Hebrew archive exists, but do not assign it as W102 canonical Hebrew without proof that post republishes that article.",
+  "textReconstructed": false
+}

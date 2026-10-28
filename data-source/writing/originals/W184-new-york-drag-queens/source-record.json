@@ -1,0 +1,92 @@
+{
+  "articleId": "W184",
+  "title": "קרב תרנגולות: מאחורי הקלעים של \"מלכות הדראג של ניו יורק\"",
+  "subtitle": "להפגיש בין עשר מלכות הדראג המצליחות והקפריזיות ביותר בארה\"ב זה לא עניין של מה בכך. שלא לדבר על לגרום להן להתנהג יפה, כמו ילדות גדולות, בזמן שמצלמים אותן לסדרת ריאליטי חדשה. כתבנו בהה בהן מאחורי הקלעים של \"מלכות הדראג\" וחזר עם מסקנות צבעוניות",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/125/775.html",
+  "publishedDate": "2010-06-28",
+  "publishedDisplay": "28/6/2010 17:05",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "0c1e0be6773a4ed5e1a744a5e4a2243f95a58a4404f27f281b0dc7f3996249fa",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 41,
+  "interviewerPromptCount": 12,
+  "sectionHeadingCount": 2,
+  "publisherInlineImages": 4,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/241/688.jpg",
+      "caption": "מלכות הדראג של ניו יורק",
+      "credit": "צילום: יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/243/203.jpg",
+      "caption": "כולנו חברות. ליידי באני",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/243/210.jpg",
+      "caption": "שימו לב לאיפור. אסיד בטי",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/243/195.jpg",
+      "caption": "לחיי הדיסקו! מלכות הדראג של ניו יורק",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "נפתח בחדשות ישנות: אמריקה קרועה על תוכניות ריאליטי. מספרות, סלוני שיזוף, ילדים, מגדלי כלבים, עשירים בלוס אנג’לס, היפסטרים בניו יורק, משפחות לא מתפקדות, משפחות מרובות ילדים - כל אלה ועוד מתועדים שם על ידי מצלמות שעוקבות אחריהם יומם וליל, ואז נערכים לפרקים מחוממים, לרווחת הרייטינג.",
+    "lastTextBlock": "השאלה היא, כמובן, אם גם הצופים יחשבו ככה. מהחודש ישודרו בערוץ Here! שמונה פרקים של התוכנית והיד נטויה לעונה שנייה. “אנחנו אופטימיים”, מחייך רותרפורד. “מדובר בצוות מנצח בעטיפה נוצצת. מה יכול לא להצליח?”.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header also incorrectly declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "All BR-delimited narrative and answer paragraphs retained, including substantive raw HTML tails.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Firsthand two-day set reporting. All 12 interviewer statements retained, including the interviewer’s reply אני בהפסקה without a question mark."
+  ],
+  "apaCitation": "Dvir, N. (2010, June 28). Krav tarnegolot: Me-achorei ha-kla'im shel Malkot ha-drag shel New York [Cockfight: Behind the scenes of The Drag Queens of New York]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/125/775.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened original publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; original captions and image credits independently retained",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true,
+    "articleHyperlinksVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב",
+  "sourceTitleDiffersFromInventory": false,
+  "articleType": "feature"
+}

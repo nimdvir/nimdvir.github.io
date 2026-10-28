@@ -1,0 +1,70 @@
+{
+  "articleId": "W162",
+  "title": "מהראג'ה: ראיון עם ראג'ה ראם",
+  "subtitle": "ראג'ה ראם, מגה די ג'י שחוגג עוד מעט 70, מגיע בסוף השבוע הבא להופיע בפסטיבל Blu4Dance באילת. ראיון בלעדי על הגיל והתרגיל",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/123/378.html",
+  "publishedDate": "2010-06-23",
+  "publishedDisplay": "23/6/2010 9:22",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "3303263eeb69613e37ba0293d5e46f5cda1c18c6997ce14f5c999f88590427a3",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 10,
+  "interviewerPromptCount": 3,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 0,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/240/802.jpg",
+      "caption": "מוזיקה היא סם. ראג'ה ראם",
+      "credit": "יח''צ יפה אפרתי",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "רונלד רות'פילד, הוא די ג'י ראג'ה ראם, נמצא בעסק קרוב ל-40 שנים. כשהוא עומד לחגוג את יום הולדתו ה-70, ראם לא ממש נח וממשיך לנגן ברחבי העולם, חלק מצמד הטראנס שפונגל שכולל גם את סיימון פוספורד. בסוף השבוע הבא הוא יגיע אלינו סולו, הפעם לפסטיבל Blu4Dance שמתקיים באילת.",
+    "lastTextBlock": "\"ברור, אני יודע מה ללבוש: סנדלים, מכנסיים קצרים וטי שירט. יש לי גם מאוורר משלי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header also incorrectly declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "All BR-delimited narrative and answer paragraphs retained, including substantive raw HTML tails.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words."
+  ],
+  "apaCitation": "Dvir, N. (2010, June 23). Maharaja: Ra'ayon im Raja Ram [Maharaja: Interview with Raja Ram]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/123/378.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened original publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; original captions and image credits independently retained",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true,
+    "articleHyperlinksVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב",
+  "sourceTitleDiffersFromInventory": true,
+  "articleType": "interview"
+}

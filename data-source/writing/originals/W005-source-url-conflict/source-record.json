@@ -1,0 +1,11 @@
+{
+  "articleId": "W005",
+  "inventoryOriginalUrl": "https://www.ynet.co.il/articles/0,7340,L-4478269,00.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured for this ID; listed source resolves to unrelated article",
+  "sourceEvidence": "Listed URL resolves to a Dr Arie Yagoda medical column, not Michael Fassbender interview. Existing English page overlaps an abridged portion of W165 but full article equivalence remains unverified.",
+  "candidateHebrewSourceRecord": "../W165-michael-fassbender/source-record.json",
+  "canonicalHebrewPath": null,
+  "existingPublishedStatusPreserved": true,
+  "textReconstructed": false
+}

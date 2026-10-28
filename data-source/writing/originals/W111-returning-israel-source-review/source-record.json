@@ -1,0 +1,21 @@
+{
+  "articleId": "W111",
+  "inventoryOriginalUrl": null,
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "Probable duplicate title; full equivalence unverified",
+  "evidence": {
+    "W111Workbook": "Media/Interviews/MyWriting.xlsx!wiki-2 A27 title הכי כיף לחזור; B27 displayed and actual hyperlink both https://www.ynet.co.il/.../pnaiplustest/turim (literal ellipsis, not a recoverable article URL).",
+    "W079VerifiedPublisher": {
+      "url": "https://www.ynet.co.il/articles/0,7340,L-3254692,00.html",
+      "httpStatus": 200,
+      "title": "הכי כיף לחזור",
+      "byline": "נמרוד דביר",
+      "publishedDisplay": "24.05.06, 15:58"
+    },
+    "comparisonLimit": "W111 has no body or unique publication identifier. Exact same headline alone cannot verify full equivalence."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Retain W111 ID and Duplicate Of=W079 as a candidate, needs checking; do not set canonical Hebrew paths solely from title evidence.",
+  "textReconstructed": false
+}

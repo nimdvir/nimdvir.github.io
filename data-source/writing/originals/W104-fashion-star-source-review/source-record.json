@@ -1,0 +1,24 @@
+{
+  "articleId": "W104",
+  "inventoryOriginalUrl": "https://nimdvir.blogspot.com/2012/05/interview-star.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "English Fashion Star post missing; plausible Hebrew candidate found, identity unverified",
+  "evidence": {
+    "W104DirectStatus": 404,
+    "W104FirecrawlStatus": 404,
+    "hebrewCandidate": {
+      "url": "https://xnet.ynet.co.il/xo/articles/0,,L-3094919,00.html",
+      "httpStatus": 200,
+      "title": "אורלי שני: הישראלית שמעצבת בגדים לאמריקאים",
+      "author": "נמרוד דביר",
+      "interviewee": "אורלי שני (Orly Shani)",
+      "publishedDisplay": "08.05.12 09:10",
+      "subject": "Fashion Star contestant Orly Shani; subtitle mentions mentor Jessica Simpson."
+    },
+    "comparisonLimit": "No surviving W104 body/links recovered; matching Fashion Star subject and May2012 date make candidate plausible but do not prove W104 identity."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Record candidate original URL and Orly Shani as candidate interviewee in evidence, not as verified W104 metadata or canonical Hebrew source. Keep needs checking.",
+  "textReconstructed": false
+}

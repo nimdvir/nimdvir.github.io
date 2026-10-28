@@ -1,0 +1,26 @@
+{
+  "articleId": "W101",
+  "inventoryOriginalUrl": "https://nimdvir.blogspot.com/2018/09/film-review-sex-and-city-2.html",
+  "checkedOn": "2026-10-27",
+  "extractionStatus": "not captured; source identity or availability prevents verified Hebrew body",
+  "outcome": "English post unavailable; equivalence/abridgment unverified",
+  "evidence": {
+    "W101DirectStatus": 404,
+    "W101FirecrawlStatus": 404,
+    "W106InventoryUrl": {
+      "attemptedUrl": "http://www.nrg.co.il/online/47/ART2/113/207.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "W106VerifiedMirror": {
+      "url": "https://www.makorrishon.co.il/nrg/online/47/ART2/113/207.html",
+      "httpStatus": 200,
+      "title": "מלכות המדבר: ביקורת \"סקס והעיר הגדולה 2\"",
+      "byline": "דנה דרבינסקי ונמרוד דביר",
+      "publishedDisplay": "28/5/2010 13:05"
+    },
+    "relationshipBasis": "Inventory references NRG article from portfolio post; missing English blog body prevents translation/abridgment comparison."
+  },
+  "canonicalHebrewPath": null,
+  "recommendedAction": "Capture W106 from verified NRG mirror if desired, preserving both authors. Keep W101 needs checking and original URL unchanged; no shared Hebrew path yet.",
+  "textReconstructed": false
+}

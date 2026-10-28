@@ -1,0 +1,78 @@
+{
+  "articleId": "W114",
+  "title": "לרוץ איתו: על הספר החדש של הרוקי מורקמי",
+  "subtitle": "\"על מה אני מדבר כשאני מדבר על ריצה\" מאת הרוקי מורקמי הוא יומן סוחף על מסירות, אהבה וחתירה בלתי נלאית למטרה. מי היה מאמין שאפשר למצוא כל כך הרבה עניין בספר על ריצה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg מעריב",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/149/265.html",
+  "publishedDate": "2010-08-26",
+  "publishedDisplay": "26/8/2010 8:25",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "9b9951ec35eecb8b0cc770622d03031da894d31262a169c0404bbe9a17aed80e",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 10,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 1,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/465x349/1/260/538.jpg",
+      "caption": "לחתור למטרה. הרוקי מורקמי",
+      "credit": "מאסאו קאג'יאמה",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "https://www.makorrishon.co.il/nrg/images/archive/300x225/1/260/540.jpg",
+      "caption": "עטיפת הספר",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused; freely licensed replacement pending"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "imageReuse": "No publisher image files downloaded or embedded; captions and provenance retained; licensed replacement research pending",
+  "completeness": {
+    "firstTextBlock": "\"כאב הוא בלתי נמנע, סבל הוא בחירה\"",
+    "lastTextBlock": "\"על מה אני מדבר כשאני מדבר על ריצה\", הרוקי מורקמי. מיפנית: עינת קופר, כתר, 185 עמודים",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Original retrieved as Windows-1255 bytes; HTTP header also incorrectly declares UTF-8. Decoded strictly as Windows-1255 without replacement characters.",
+    "All BR-delimited narrative and answer paragraphs retained, including substantive raw HTML tails.",
+    "Removed 1 inline advertisement insertion; source text split at the ad was rejoined without changing words.",
+    "Opening bold quotation and final bold book publication line retained as original article text, not interviewer prompts. Original wording מסגנונו מהדרמטי and ואם זאת retained unchanged."
+  ],
+  "apaCitation": "Dvir, N. (2010, August 26). Larutz ito: Al ha-sefer he-chadash shel Haruki Murakami [Running with him: On Haruki Murakami’s new book]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/149/265.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "verification": {
+    "method": "Independently flattened original publisher ARTICLE_CONTENT region compared with ordered extraction events, excluding image captions and recorded promotions; Markdown rendered and HTML parsed",
+    "fullSourceTextMatches": true,
+    "comparisonNormalization": "Whitespace and inline Markdown markup only; original captions and image credits independently retained",
+    "sourceParagraphOrderVerified": true,
+    "rawHtmlTailsIncluded": true,
+    "metadataComparedWithInventory": true,
+    "markdownRendered": true,
+    "htmlParsed": true,
+    "htmlVisualReview": "Pending coordinated visual QA by primary agent",
+    "externalStylesheetsOrImages": false,
+    "citationFooterVerified": true,
+    "articleHyperlinksVerified": true
+  },
+  "articleLinks": [],
+  "sourceEncoding": "Windows-1255",
+  "sourceContentBoundary": "ARTICLE_CONTENT_START through ARTICLE_CONTENT_END in publisher HTML",
+  "sourcePublicationBrand": "nrg מעריב",
+  "sourceTitleDiffersFromInventory": true,
+  "articleType": "review"
+}

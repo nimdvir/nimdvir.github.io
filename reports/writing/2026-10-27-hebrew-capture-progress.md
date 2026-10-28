@@ -79,3 +79,11 @@ Nine further packages: W001 (Jamie Foxx), W002 (Jim Carrey), W004 (Lady Gaga), W
 Ten more verified packages: W118 (Randy Harrison), W125 (David Duchovny), W126 (Mel B), W182 (Emma Watson), W185 (Mike Henry), W071 (LGBTQ television), W079 (returning to Israel), W087 (online bystanders), W094 (Annapurna memoir), W159 (Anni-Frid Lyngstad feature). NRG responses were explicitly decoded as Windows-1255 despite misleading HTTP charset headers. W159 preserves literal source punctuation defects and remains a feature using attributed secondary quotations, not a claimed direct interview. W126 is the complete online edition, with print continuation outside capture scope.
 
 Cross-review restored W174's trailer caption and W176's relevant Hollywood Reporter hyperlink, and removed a Facebook promotion from W126. No original substantive wording was changed. All 42 unique packages, covering 44 IDs, pass the saved-package and inventory validators.
+
+## Continuing Work session: batch 7 and source-identity review
+
+Five more packages bring the total to 47 unique articles covering 49 IDs: W162 (Raja Ram), W184 (New York drag reporting), W195 (Emma Stone feature), W114 (Murakami running-book review), W116 (Ben Shani). W116's online edition promotes a longer print feature; only the complete online text is claimed.
+
+Ten source-only records now document unresolved identities or availability without fabricated article bodies: W005, W100–W105, W110–W112. Six Blogspot URLs return 404 both directly and via Firecrawl. W111/W112 workbook links lead to section pages rather than unique articles. W104's plausible Orly Shani original is recorded as a candidate, not a proven match. None of those suspected relationships supports safely sharing canonical Hebrew paths.
+
+W100 is actually an English article by **Boaz Dvir**, dated January 18, 2021. Its author/subject attribution was corrected and its status set to `not my writing`; its editorial rating, Translate?, Priority and original URL were retained. It is not verified coverage about Nim and must not enter his style corpus. W005 retains its published status and all existing English content despite its incorrect source URL. Both validators pass.
