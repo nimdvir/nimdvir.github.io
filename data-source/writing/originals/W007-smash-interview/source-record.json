@@ -1,0 +1,64 @@
+{
+  "articleId": "W007",
+  "title": "כוכבות סמאש: אם הסדרה תרד - נישאר בברודוויי",
+  "subtitle": "מייגן הילטי וקת'רין מקפי, כוכבות הדרמה המוזיקלית \"סמאש\", נאבקות על תפקיד מרילין מונרו בסדרה אבל חברות טובות בחיים. \"התיאטרון הוא עולם סקנדלי בו כולם כל הזמן קרובים אחד לשני. הקירבה היא הגורם לאקשן\", הן מגיבות לשמועות על סכסוכים",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/article/4362943",
+  "publishedDate": "2013-05-01",
+  "publishedDisplay": "01.05.13, 15:36",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "extractionStatus": "Complete main article text captured from publisher; excluded navigation, related-story promotions, comments and unrelated embeds",
+  "bodyTextBlocks": 19,
+  "interviewerPromptCount": 4,
+  "publisherInlineImages": 3,
+  "publisherSidebarImages": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/04/09/4558244/4558235099186408519no.jpg",
+      "caption": "קרב חתולות. מייגן הילטי וקת'רין מקפי",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/04/09/4558255/4558232099092408257no.jpg",
+      "caption": "קאסט הסדרה",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/04/09/4558254/45582330100297408257no.jpg",
+      "caption": "מייגן הילטי. אני באה מבמה",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2013/04/09/4558249/455823438602356116116no.jpg",
+      "caption": "קת'רין מקפי. שרה כמו מלאך",
+      "credit": null,
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "imageReuse": "No original photos downloaded or embedded, pending freely licensed replacements",
+  "completeness": {
+    "firstTextBlock": "אם פספסתם את העונה הראשונה של \"סמאש\", הסדרה המוזיקלית, הטראשית והממכרת של NBC (המשודרת בארץ ב-HOT3), סביר להניח שאתם לא לגמרי מודעים למלחמת העולם שהניעה את העלילה. התוכנית, שעלילתה מתרחשת מאחורי הקלעים של מחזמר שמתגבש בברודווי ומבוסס על חייה של מרילין מונרו, העניקה לנו הצצה פיקנטית לעולם מחזות הזמר.",
+    "lastTextBlock": "**מקפי:** \"הייתי שמחה לעשות בעתיד מחזה, אבל לא מיוזיקל. ביצעתי כל כך הרבה קטעים מוזיקליים בתוכנית הזו. כל שיר בפרק אנחנו מבצעים כ-30 פעמים, אז אחרי שזה יגמר אני מעדיפה לעשות משהו אחר. כרגע אני רוצה להתמקד בטלוויזיה. אומרים שצריך לשמור את הנעורים עבור המצלמה, אז זה מה שאני עושה. הבמה תחכה בינתיים\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Removed four unrelated ynet promotional/news-box blocks.",
+    "Joined a paragraph accidentally split mid-sentence in publisher extraction; no words changed.",
+    "Source photographer credit not displayed beside images; not inferred."
+  ],
+  "apaCitation": "Dvir, N. (2013, May 1). Kokhavot Smash: Im ha-sidra tered, nisha'er be-Broadway [Smash stars: If the show is canceled, we'll stay on Broadway]. Ynet. https://www.ynet.co.il/article/4362943"
+}
