@@ -34,7 +34,7 @@ COLUMNS = [
     "ID", "Main Subject (English)", "Main Subject (Hebrew)", "Translation Value",
     "Value Reason", "Review Flag", "Translate?", "Priority", "Status", "Type", "Interviewee",
     "Title (Hebrew)", "Title (English)", "Publication", "Date", "Original URL",
-    "Images", "Original HTML Path", "Translation Path", "Page Path",
+    "Images", "Original HTML Path", "Hebrew Markdown Path", "Translation Path", "Page Path",
     "Found In", "Notes", "Duplicate Of", "Original Language", "Author / Byline",
     "Metadata Basis", "Evidence URL", "Reviewed On",
 ]
@@ -561,7 +561,7 @@ def to_csv_row(row):
         "Type": row["type"], "Interviewee": row["interviewee"], "Title (Hebrew)": row["title"],
         "Title (English)": row["english"], "Publication": row["publication"], "Date": row["date"],
         "Original URL": row["url"], "Images": row["images"], "Original HTML Path": row["html_path"],
-        "Translation Path": "", "Page Path": row["page_path"],
+        "Hebrew Markdown Path": "", "Translation Path": "", "Page Path": row["page_path"],
         "Found In": "; ".join(row["found_in"]), "Notes": "; ".join(row["notes"]),
     }
 
