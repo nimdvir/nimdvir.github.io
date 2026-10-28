@@ -1,0 +1,85 @@
+{
+  "articleId": "W107",
+  "title": "דוגי סטייל: הכן כלבך לחורף",
+  "subtitle": "נמרוד דביר חש עצמו פאריס הילטון, אז הוא לקח את הכלב שלו, ממש לא צ'יוואוות מחמד, לבוטיק קוטור לכלבים בלבד",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Xnet (Pnai Plus)",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,,L-3092537,00.html",
+  "publishedDate": "2012-01-15",
+  "publishedDisplay": "15.01.12, 11:57",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "19d7b44fa30bb9200ce48a80eea4ea0d0508fd320927a906c2d9c1ea9646d5b4",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 11,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalImages": [],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    ">> בואו להיות חברים של Xnet בפייסבוק",
+    "__________________________________________________________________________________________________________ עוד בפנאי פלוס: למה אנחנו אוהבים את הקומיקאי ריקי ג'רבייס? מה קרה בין יוסי גיספן לזמר אביב גפן? צפו: לאורי גוטליב נמאס מחיי ההוללות yq('a[href*=\"2016/LearningAcademy\"]').each(function() { yq(this).remove(); }); .text14 iframe { width: 100% !important; }"
+  ],
+  "imageReuse": "No article images retrievable in current publisher source; empty media containers documented; no image files downloaded",
+  "completeness": {
+    "firstTextBlock": "לניו יורק יש יחס דו־קוטבי לכלבים ובעליהם. מצד אחד, מדובר בגן עדן להולכים על ארבע, עם פארקים מיועדים מהמשוכללים שראיתי, הכוללים שטח מגודר בו הכלבים יכולים לשחק אחד עם השני במגלשות, גשרים ובתי עץ מתוקים.",
+    "lastTextBlock": "שם מצאנו מעיל זהה לסט היוקרתי שראינו בבוטיק, כולל ציפוי פליז פנימי ודוגמה חיצונית נאה, ב־9 דולר בלבד. כשיצאנו משם הבנתי שלקנות לכלבים זה כמו לקנות לאנשים: קודם עושים סיבוב דאווין בבוטיקים היוקרתיים, ואחר כך חוזרים הביתה עם תופין איכותי מחנות המציאות.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Full original publisher online article extracted; decorative opening arrow, Facebook promotion, final underscore divider and unrelated Pnai Plus related-story list excluded.",
+    "The current publisher page includes a hidden unrelated 2020 furniture-design promotional header image; it is not an article photo and was excluded. No article photo/caption is retrievable in the current source.",
+    "Final substantive paragraph is raw HTML tail text after an empty p tag; recovered in full. Two empty tvElement containers are retained as missing-media provenance, with no recoverable media URL or caption. Historic prices and wording preserved unchanged.",
+    "Current original publisher page confirms the complete headline דוגי סטייל: הכן כלבך לחורף, resolving the inventory note that it had not been verified in the source sheet."
+  ],
+  "apaCitation": "Dvir, N. (2012, January 15). Doggy style: Hakhen kalbekha la-choref [Doggy style: Get your dog ready for winter]. Xnet. https://xnet.ynet.co.il/xo/articles/0,,L-3092537,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "column",
+  "missingMedia": [
+    {
+      "sourceElementId": "tvElement16918",
+      "originalUrl": null,
+      "caption": null,
+      "status": "Empty source container; media type and original content cannot be verified"
+    },
+    {
+      "sourceElementId": "tvElement16919",
+      "originalUrl": null,
+      "caption": null,
+      "status": "Empty source container; media type and original content cannot be verified"
+    }
+  ],
+  "excludedDecorativeImages": [
+    {
+      "originalUrl": "/Cmm/Api/TextEditor/Static/arrow_article_big.png",
+      "reason": "Decorative paragraph-opening arrow"
+    },
+    {
+      "originalUrl": "https://images1.ynet.co.il/PicServer5/2020/12/30/10453386/1_6.jpg",
+      "reason": "Hidden unrelated 2020 furniture-design promotion; not part of this article"
+    }
+  ],
+  "sourceImageStatus": "No retrievable original article images",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text exactly matches extracted paragraph sequence after whitespace and Markdown normalization and removal of explicit promotional controls. Raw tail text and all source body paragraphs checked; every event verified in order and in Markdown/HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "2a0f15b7099b485af42609551eb8eaa50e679a7b70d4d5efee8a11a4908ed153"
+  },
+  "sourceTitleVerified": true,
+  "sourceSubtitleVerified": true
+}

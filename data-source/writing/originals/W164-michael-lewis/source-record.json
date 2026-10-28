@@ -1,0 +1,76 @@
+{
+  "articleId": "W164",
+  "title": "מייקל לואיס: \"בכל מקרה הייתי עף בין הראשונים\"",
+  "subtitle": "למייקל לואיס נמאס שקוראים לו משתמט, אז הוא ארז את הקוביות ועזב את ישראל. מ\"הישרדות VIP\" הוא ברח אפילו יותר מהר – תאשימו את הבעיות בלב – לטובת תקווה להצליח בניו יורק. אם גם שם הוא לא ישרוד, הוא תמיד יכול להשיב בחיוב על הצעות העבודה שהוא מקבל בסצנת הפורנו",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Xnet",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,7340,L-3094833,00.html",
+  "publishedDate": "2012-05-05",
+  "publishedTime": "05:06",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "interview",
+  "styleSample": true,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 28,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "לשימוש המגזינים פנאי פלוס מייקל לואיס (\"אנשים במדינה שלנו לא אוהבים מצליחנים\". מייקל לואיס)",
+      "credit": null,
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/pic/052012/203417/202030.jpg",
+      "placement": "hero before body",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "לשימוש המגזינים פנאי פלוס אנה ארונוב הישרדות VIP",
+      "credit": "(צילום: ורד אדיר)",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/pic/042012/201846/6_36.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [],
+  "apaCitation": "Dvir, N. (2012, May 5). Michael Lewis: \"Bechol mikre hayiti af bein harishonim\" [Michael Lewis: \"I would have been among the first eliminated anyway\"]. Xnet. https://xnet.ynet.co.il/xo/articles/0,7340,L-3094833,00.html",
+  "completeness": {
+    "firstTextBlock": "הכנות לפגישה עם מייקל לואיס גרמו לי להרגיש כמו דמי מור שמנסה לפתות מאהבון צעיר. אחרי סשן חששות מצידו, ושכנועים מסיביים ואובססיביים מצידי, הצלחתי לגרור את לואיס לביתי בשעה 23:00, כששנינו כבר אחרי כמה דרינקים אקזוטיים.",
+    "lastTextBlock": "\"לא יצליח, אמצא משהו אחר. אבל לפחות ניסינו\".",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Complete published online interview captured. Publisher closing promotion says full interview is in the new Pnai Plus print issue; that longer print version has not been recovered.",
+    "Malformed nested p tags flattened; only leaf substantive paragraphs retained, preserving source order and boundaries.",
+    "Removed opening related-story links and closing magazine/related-story promotions. Empty video placeholder removed; decorative arrow icon is not an article photograph.",
+    "Inline photo metadata unexpectedly labels Anna Aronov; preserved as source-supplied caption without inventing or correcting image identity.",
+    "Hero img title attribute is malformed in original HTML; visible titleCreditDiv text preserved as caption."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher/mirror HTML response, decoded and inspected",
+    "rawResponseSha256": "e375c77bd97e6df49c01f145bb23be872b03f4e4bf88f1612703d8922299d998",
+    "imageFilesDownloaded": false,
+    "orderedParagraphComparison": "PASS: complete ordered source text blocks match clean HTML paragraph text; first and final verified separately.",
+    "independentWholeBodyCharacterComparison": "PASS: all non-whitespace source characters including headings and source credits match clean HTML body in order after removing image captions/media and documented promotional clutter."
+  },
+  "styleSampleQualification": null,
+  "sectionHeadingCount": 0,
+  "onlineVersionComplete": true,
+  "longerPrintVersionAvailable": false,
+  "excludedPromotionalBlocks": [
+    "הראל מויאל הגיע ל\"הישרדות VIP\" בזכות אשתו",
+    "אנה ארונוב: \"לא בא לי להיות סתם כוסית\"",
+    "** את הראיון המלא תוכלו לקרוא בגיליון החדש של פנאי פלוס"
+  ]
+}

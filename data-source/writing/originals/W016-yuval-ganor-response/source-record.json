@@ -1,0 +1,87 @@
+{
+  "articleId": "W016",
+  "title": "יש מקום לכולם",
+  "subtitle": "האם יש סיבה כלשהי להימנע מהחצנת ההומוסקסואליות על מסך הטלוויזיה? יובל גנור טוען שממש לא, ומגיב למאמרו של נמרוד דביר: \"רק כאשר יהיה חופש אמיתי לכל אחד מאיתנו להיות מי שהוא, נוכל לומר שבא הקץ להומופוביה\"",
+  "author": "יובל גנור",
+  "byline": "יובל גנור",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3730911,00.html",
+  "publishedDate": "2009-06-14",
+  "publishedTime": "13:46",
+  "sourceTimezone": null,
+  "language": "he",
+  "extractedOn": "2026-10-27",
+  "status": "verified",
+  "imageStorage": "captions-only; licensed images pending",
+  "articleType": "third-party coverage",
+  "styleSample": false,
+  "capturedOn": "2026-10-27",
+  "sourceStatusCode": 200,
+  "sourceCharacterEncoding": "UTF-8",
+  "extractionStatus": "Complete publisher article text verified; article-only archive",
+  "bodyTextBlocks": 12,
+  "interviewerPromptCount": 0,
+  "originalImages": [
+    {
+      "type": "image",
+      "caption": "מצעד הגאווה 2009. הכל מהכל (צילום: ג'ורג' גינסברג)",
+      "credit": "ג'ורג' גינסברג",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2019637/4-wa.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "לאון ובובליל ב\"אח הגדול\". \"דיבר דקה וחצי על נטיותיו\" (צילום: ערוץ 2)",
+      "credit": "ערוץ 2",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1677839/Image1026-2239_gd.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "פיי גוטמן והחבר ינאי. תביאו אותו להורים (צילום: ענת מוסברג)",
+      "credit": "ענת מוסברג",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/1965013/11_wa.jpg",
+      "placement": "inline",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    },
+    {
+      "type": "image",
+      "caption": "אסף וגל. לא רק הומואים",
+      "credit": "צילום: אלדד רפאלי",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/1993916/2_a.jpg",
+      "placement": "source sidebar, linearized after article",
+      "licenseStatus": "publisher image not reused; replacement photo to be licensed"
+    }
+  ],
+  "articleHyperlinks": [
+    "https://www.ynet.co.il/articles/0,7340,L-3729243,00.html",
+    "https://www.ynet.co.il/articles/0,7340,L-3720238,00.html",
+    "http://www.hoshen.org/"
+  ],
+  "apaCitation": "Ganor, Y. (2009, June 14). Yesh makom lekulam [There is room for everyone]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3730911,00.html",
+  "completeness": {
+    "firstTextBlock": "כשההומופוביה מגיעה מהומואים היא הכי מעצבנת אותי. אבל היא אפילו מעצבנת עוד יותר כשהיא באה במסווה של עקרונות, או אג'נדה \"גאה\". בשבוע שעבר קרא כאן נמרוד דביר לכל ההומואים שמופיעים על מסך הטלוויזיה שלנו להפסיק לעשות עניין מהנטייה המינית שלהם. לא לכולם, רק לכמה מהם. לאחרים פירגן על כך שהם מציגים את הומואיותם \"בקלילות נעימה\".",
+    "lastTextBlock": "הכותב הוא מנהל תחנת הרדיו 88FM ומתנדב בארגון חוש\"ן - מרכז החינוך של הקהילה ההומו-לסבית-בי-טרנס בישראל.",
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true,
+    "bodyParagraphOrderVerified": true
+  },
+  "notes": [
+    "Third-party response to Nimrod Dvir; actual author Yuval Ganor, not Nim. Not a Nim writing-style sample.",
+    "Final publisher author biography appears as raw tail text and inline anchor outside p; recovered as one complete paragraph.",
+    "Original inline photo credits are part of their full captions and preserved unchanged."
+  ],
+  "sourceEvidence": {
+    "retrievalMethod": "Direct HTTPS publisher/mirror HTML response, decoded and inspected",
+    "rawResponseSha256": "8d386caa06b852e27e539b45d8ff59ce4dc627fd3eec762298a1349d81997f1f",
+    "imageFilesDownloaded": false,
+    "orderedParagraphComparison": "PASS: complete ordered source text blocks match clean HTML paragraph text; first and final verified separately.",
+    "independentWholeBodyCharacterComparison": "PASS: all non-whitespace source characters including headings and source credits match clean HTML body in order after removing image captions/media and documented promotional clutter."
+  },
+  "styleSampleQualification": null,
+  "sectionHeadingCount": 1
+}

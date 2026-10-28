@@ -1,0 +1,70 @@
+{
+  "articleId": "W092",
+  "title": "נמרוד דביר מדווח מהתפוח הגדול",
+  "subtitle": "רוחניות חמה: העיתונאי נמרוד דביר לא הפסיק לצחוק בשיעור הבודהיזם במרכז צ'קרסמברה קאדמפה בניו יורק. והלוואי שזה היה נגמר בזה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Xnet (Pnai Plus)",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,14718,L-3091806,00.html",
+  "publishedDate": "2011-12-13",
+  "publishedDisplay": "13.12.11, 06:59",
+  "capturedOn": "2026-10-27",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "368610d25498f772c02fd89d3b291bb78c12d878cb6bf8676167deeb7f5616b9",
+  "extractionStatus": "Complete published online article text captured from publisher; verified against source HTML including raw tails",
+  "bodyTextBlocks": 9,
+  "interviewerPromptCount": 0,
+  "sectionHeadingCount": 0,
+  "publisherInlineImages": 0,
+  "publisherSidebarImages": 0,
+  "originalImages": [],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    ">> בואו להיות חברים של Xnet בפייסבוק",
+    "_________________________________________________________________________________________________________________________ עוד בפנאי פלוס: הסלבס שהחליטו לפצוח בקריירת שירה הוליווד חוזרת אל שנות ה-20 הסוערות אמריקן דרימז: ביקור על הסט של אקס פקטור yq('a[href*=\"2016/LearningAcademy\"]').each(function() { yq(this).remove(); }); .text14 iframe { width: 100% !important; }"
+  ],
+  "imageReuse": "No article images retrievable in current publisher source; empty media containers documented; no image files downloaded",
+  "completeness": {
+    "firstTextBlock": "זו אומנם קלישאה, אבל היא מוכיחה את עצמה: מלחיץ לגור בניו יורק. עם כל היתרונות של העיר, יש פה משהו מעכיר שלווה, מין שילוב קטלני של בהילות־לחץ־חרדה־דיכאון שנושב ברחובות כמו רוח קרה של סוף ספטמבר.",
+    "lastTextBlock": "אחרי זה דווקא היה שיעור מעניין, שמסקנתו היא שהאושר נמצא אצלנו כל הזמן, אנחנו רק צריכים לדעת לשחרר אותו. בשבוע הבא אני בטוח מגיע לעוד שיעור, אבל הפעם בלי לואיס. עם כל הכבוד, אי אפשר לקחת אותו לשום דבר רציני.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceTitleVerified": true,
+    "sourceBylineVerified": true,
+    "sourceDateVerified": true
+  },
+  "notes": [
+    "Full original publisher online article extracted; decorative opening arrow, Facebook promotion, final underscore divider and unrelated Pnai Plus related-story list excluded.",
+    "The current publisher page includes a hidden unrelated 2020 furniture-design promotional header image; it is not an article photo and was excluded. No article photo/caption is retrievable in the current source."
+  ],
+  "apaCitation": "Dvir, N. (2011, December 13). Nimrod Dvir medaveach me-ha-tapuach ha-gadol [Nimrod Dvir reports from the Big Apple]. Xnet. https://xnet.ynet.co.il/xo/articles/0,14718,L-3091806,00.html",
+  "authorshipClassification": "Nim-authored journalism",
+  "appropriateWritingStyleSample": true,
+  "articleType": "column",
+  "missingMedia": [],
+  "excludedDecorativeImages": [
+    {
+      "originalUrl": "/Cmm/Api/TextEditor/Static/arrow_article_big.png",
+      "reason": "Decorative paragraph-opening arrow"
+    },
+    {
+      "originalUrl": "https://images1.ynet.co.il/PicServer5/2020/12/30/10453386/1_6.jpg",
+      "reason": "Hidden unrelated 2020 furniture-design promotion; not part of this article"
+    }
+  ],
+  "sourceImageStatus": "No retrievable original article images",
+  "verification": {
+    "checkedOn": "2026-10-27",
+    "method": "Whole publisher article text exactly matches extracted paragraph sequence after whitespace and Markdown normalization and removal of explicit promotional controls. Raw tail text and all source body paragraphs checked; every event verified in order and in Markdown/HTML.",
+    "allSourceParagraphsAccountedFor": true,
+    "allBodyEventsInOriginalOrder": true,
+    "markdownAndHtmlTextEquivalent": true,
+    "sourceFirstAndFinalParagraphsVerified": true,
+    "sourceImageCaptionsVerified": true,
+    "externalPhotoBinariesDownloaded": false,
+    "substantiveTextSha256": "b1cbaf3ab165e722c91255ad0304066a612008798cb0f2feac129ed80e2d6021"
+  },
+  "sourceTitleVerified": true,
+  "sourceSubtitleVerified": true
+}
