@@ -15,7 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_inventory import COLUMNS, OUTPUT, ROOT, STATUSES, TYPES, TRANSLATION_VALUES, article_key  # noqa: E402
 
-PATH_COLUMNS = ["Original HTML Path", "Translation Path", "Page Path"]
+PATH_COLUMNS = ["Original HTML Path", "Hebrew Markdown Path", "Translation Path", "Page Path"]
 DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 
 
@@ -82,6 +82,7 @@ def queue(rows):
 def main():
     parser = argparse.ArgumentParser(description="Check the article list and print the translation queue.")
     parser.add_argument("--queue", action="store_true", help="list Translate? = Yes rows, by Priority then ID")
+    parser.add_argument("--capture-queue", action="store_true", help="show suggested Hebrew capture order; does not modify translation choices")
     args = parser.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -96,6 +97,14 @@ def main():
     if args.queue:
         print()
         queue(rows)
+    if args.capture_queue:
+        print()
+        pending = [r for r in rows if not r.get("Hebrew Markdown Path")]
+        tier = {"High": 0, "Medium": 1, "Low": 2, "Unrated": 3}
+        pending.sort(key=lambda r: (0 if ("about Nim" in r.get("Value Reason", "") or r["ID"] in {"W083", "W197", "W198"}) else 1, tier.get(r.get("Translation Value"), 3), 0 if r["Type"] == "interview" else 1, int(r["ID"][1:])))
+        print(f"{len(pending)} Hebrew packages to capture. Suggested top 25:")
+        for row in pending[:25]:
+            print(f"{row['ID']}  {row['Translation Value']:<7} {row['Type']:<10} {row['Main Subject (English)']}")
     sys.exit(1 if errors else 0)
 
 
