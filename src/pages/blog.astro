@@ -16,7 +16,7 @@ const posts = await getPosts();
         Blog
       </a>
       <a href="/news/">News</a>
-      <a href="/media/">Interviews</a>
+      <a href="/articles/">Articles</a>
       <a href="/rss.xml">RSS</a>
     </nav>
   </header>
@@ -26,9 +26,9 @@ const posts = await getPosts();
     ) : (
       <div class="editorial-empty">
         <h2>No posts yet.</h2>
-        <p>My published interviews are in the journalism archive.</p>
-        <a class="text-link" href="/media/">
-          Read interviews
+        <p>My translated journalism is in the articles archive.</p>
+        <a class="text-link" href="/articles/">
+          Browse the archive
         </a>
       </div>
     )}

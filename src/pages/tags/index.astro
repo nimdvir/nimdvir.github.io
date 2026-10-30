@@ -1,0 +1,61 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { tagArchives, tagGroups } from "../../utils/tags";
+
+const archives = await tagArchives();
+const total = new Set(archives.flatMap((a) => a.entries.map((e) => e.url))).size;
+const groups = tagGroups
+  .map((group) => ({
+    group,
+    tags: archives
+      .filter((a) => a.group === group)
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  }))
+  .filter((g) => g.tags.length);
+const other = archives.filter((a) => !tagGroups.includes(a.group));
+if (other.length) groups.push({ group: "Other", tags: other });
+const groupNames: Record<string, string> = {
+  Format: "By format",
+  "Culture and journalism": "Culture and journalism",
+  "Research, teaching and professional topics": "Research, teaching, and work",
+  Places: "Places",
+  Audience: "Audience",
+};
+---
+
+<Layout
+  title="Topics"
+  description={`Browse ${total} pages on this site by topic: articles, blog posts, research, projects, and publications grouped under ${archives.length} tags.`}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Topics", path: "/tags/" },
+  ]}
+>
+  <header class="page-intro">
+    <p class="eyebrow">Browse by topic</p>
+    <h1>Topics</h1>
+    <p class="lede">
+      One set of tags runs across the articles, blog posts, research, projects,
+      and publications on this site. Pick a topic to see everything filed under
+      it.
+    </p>
+  </header>
+
+  {groups.map(({ group, tags }) => (
+    <section class="section tag-group">
+      <div class="section-head">
+        <h2>{groupNames[group] ?? group}</h2>
+      </div>
+      <ul class="tag-cloud" aria-label={groupNames[group] ?? group}>
+        {tags.map((tag) => (
+          <li>
+            <a href={`/tags/${tag.slug}/`}>
+              {tag.label}
+              <span class="tag-count">{tag.entries.length}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Layout>

@@ -1,0 +1,45 @@
+{
+  "_about": "Public image for each website article page, keyed by article ID. Built pages read this file. Each record names the hosted image, its photographer, license, and source page. Publisher photographs from the original articles are never used.",
+  "W001": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929038/Jamie_Foxx_okjmwu.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1763929038/Jamie_Foxx_okjmwu.jpg",
+    "alt": "Jamie Foxx",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (jamie-foxx.md)"
+  },
+  "W002": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929039/jim-carrey_jqfnzq.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1763929039/jim-carrey_jqfnzq.jpg",
+    "alt": "Jim Carrey",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (jim-carrey.md)"
+  },
+  "W003": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg",
+    "alt": "Julia Louis-Dreyfus in May 2017",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (julia-louis-dreyfus.md)"
+  },
+  "W004": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760838070/Lady_Gaga_l0qvew.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1760838070/Lady_Gaga_l0qvew.jpg",
+    "alt": "Lady Gaga",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (lady-gaga.md)"
+  },
+  "W006": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771137278/2_gd_kunxwp.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771137278/2_gd_kunxwp.jpg",
+    "alt": "RuPaul",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (rupaul.md)"
+  },
+  "W165": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/Fesbender_rphlra.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/Fesbender_rphlra.jpg",
+    "alt": "Michael Fassbender",
+    "credit": "Image from the existing website page; provenance to be confirmed",
+    "origin": "existing website page (michael-fassbender.md)"
+  }
+}

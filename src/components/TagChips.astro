@@ -1,0 +1,20 @@
+---
+import { canonicalTags } from "../utils/tags";
+
+interface Props {
+  tags: string[];
+  label?: string;
+}
+const { tags, label = "Topics" } = Astro.props;
+const chips = canonicalTags(tags);
+---
+
+{chips.length > 0 && (
+  <ul class="tag-chips" aria-label={label}>
+    {chips.map((tag) => (
+      <li>
+        <a href={`/tags/${tag.slug}/`}>{tag.label}</a>
+      </li>
+    ))}
+  </ul>
+)}
