@@ -41,7 +41,7 @@ Check text outside normal paragraph tags as well as text inside them. Compare th
 
 ## 2. Translate into a separate English file
 
-Copy the English template to the translation folder. Translate from the checked Hebrew extraction, retaining all substantive content and its order. Preserve the original voice and meaning, including the interviewer's jokes and follow-up statements. Do not add a summary, new narrative, new sections or a conclusion.
+Copy the English template to the translation folder. Read `data-source/writing/voice-profile.md` first, especially its translation section. Translate from the checked Hebrew extraction, retaining all substantive content and its order. Preserve the original voice and meaning, including the interviewer's jokes and follow-up statements. Do not add a summary, new narrative, new sections or a conclusion.
 
 Translate title, subtitle, image descriptions and captions. Use established English names and work titles, recording ambiguous choices separately. Preserve historical statements unless Nim asks for corrections. Quoted English dialogue is a translation of the published Hebrew; do not represent it as the recovered wording of the original spoken English interview.
 

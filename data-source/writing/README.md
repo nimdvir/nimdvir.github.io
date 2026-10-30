@@ -59,6 +59,10 @@ New imports start with Unrated translation value and an explicit unreviewed subj
 
 The original `reports/writing/inventory-audit.md` documents the initial import. Its type and status totals predate the October 24 review; see `reports/writing/2026-10-24-selection-review.md` for this review.
 
+## Writing-voice profile
+
+`voice-profile.md` in this folder describes Nim's writing voice from the verified Hebrew corpus: tone, vocabulary, sentence rhythm, humor, structure, interviewing habits, and how to carry each into English or into new writing. `voice-profile-evidence.json` records every source, claim, Hebrew example, and measurement behind it. Read the profile before translating or drafting on Nim's behalf, and let the individual article override it where they differ. The profile is an analysis record, not a second inventory; article selection still happens only in `articles.csv`. Its status is draft until Nim reviews it.
+
 ## Article packages and templates
 
 Use `templates/writing/README.md` for the Hebrew-extraction and English-translation workflow, separate source/translation folders and the W046 example. Use `templates/TAGS.md` and `src/data/tags.json` for the shared website tag vocabulary. A translated draft is not approval to publish it or to change Nim's translation choices.

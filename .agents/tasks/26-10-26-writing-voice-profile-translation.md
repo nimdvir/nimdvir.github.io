@@ -2,7 +2,7 @@
 id: "beb317c1-4eb6-4769-b851-981a05494ec6"
 title: "Create Nim's writing-voice profile for the article archive and English translations"
 created: "2026-10-26"
-status: "next"
+status: "in review"
 priority: "p2"
 kb_reference: pending
 tags: ["writing", "blog", "portfolio", "translation", "voice", "personal-website"]
@@ -10,7 +10,9 @@ tags: ["writing", "blog", "portfolio", "translation", "voice", "personal-website
 
 # Create Nim's writing-voice profile for the article archive and English translations
 
-**Next action:** Select a representative, authorship-verified sample of Nim's Hebrew journalism from `data-source/writing/articles.csv`, analyze his voice and humor, and draft an evidence-based style profile for Nim to review *before* using it to guide further translation or writing.
+**Progress (2026-10-30):** The evidence-based profile and its evidence record now exist at `data-source/writing/voice-profile.md` and `data-source/writing/voice-profile-evidence.json` (49 solo pieces read in full, 20 analyzed closely, 29 used for validation). Workflow docs point to them. Awaiting Nim's review and his selection of article IDs for translation; no articles were selected automatically.
+
+**Original next action:** Select a representative, authorship-verified sample of Nim's Hebrew journalism from `data-source/writing/articles.csv`, analyze his voice and humor, and draft an evidence-based style profile for Nim to review *before* using it to guide further translation or writing.
 
 ## Context
 

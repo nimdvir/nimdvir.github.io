@@ -1,0 +1,2681 @@
+{
+  "profile": "data-source/writing/voice-profile.md",
+  "version": "1.0",
+  "preparedOn": "2026-10-30",
+  "status": "draft for Nim review",
+  "inventory": "data-source/writing/articles.csv",
+  "corpusSummary": {
+    "uniqueVerifiedBodies": 50,
+    "soloByNim": 49,
+    "coauthored": 1,
+    "closeAnalysis": 20,
+    "validation": 29,
+    "excludedThirdPartyOrMisattributed": 6,
+    "duplicatePackages": 2
+  },
+  "separationRule": "Only Nim's narration, scene-setting, commentary, questions, and interviewer statements support voice claims. Quoted answers were used solely to describe how Nim selects, frames, introduces, interrupts, and responds to them. Headlines, subtitles, captions, and publisher tags are treated as weak evidence or house convention.",
+  "sources": [
+    {
+      "id": "W001",
+      "title": "ג'יימי פוקס איז אין דה האוס",
+      "publication": "Ynet",
+      "date": "2005-08-17",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W001-jamie-foxx/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Earliest piece; dense narration, mixed register, generous skepticism",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 425,
+        "narr_sents": 30,
+        "narr_mean": 14.2,
+        "narr_median": 13.0,
+        "narr_short_le6": 0.33,
+        "narr_long_ge25": 0.13,
+        "parens_per100w": 0.7,
+        "quote_sents": 37,
+        "quote_mean": 13.7
+      }
+    },
+    {
+      "id": "W002",
+      "title": "ועכשיו, ברצינות",
+      "publication": "Ynet",
+      "date": "2006-01-18",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W002-jim-carrey/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Proposition-then-undercut opening; challenging prompts",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 269,
+        "narr_sents": 17,
+        "narr_mean": 15.8,
+        "narr_median": 14,
+        "narr_short_le6": 0.18,
+        "narr_long_ge25": 0.29,
+        "parens_per100w": 0.7,
+        "quote_sents": 52,
+        "quote_mean": 11.5
+      }
+    },
+    {
+      "id": "W003",
+      "title": "חזרתי",
+      "publication": "Israel Hayom",
+      "date": "2019-03-28",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W003-julia-louis-dreyfus/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Latest period; measured register; scene reporting",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 506,
+        "narr_sents": 40,
+        "narr_mean": 12.7,
+        "narr_median": 11.5,
+        "narr_short_le6": 0.12,
+        "narr_long_ge25": 0.05,
+        "parens_per100w": 0.0,
+        "quote_sents": 140,
+        "quote_mean": 9.9
+      }
+    },
+    {
+      "id": "W004",
+      "title": "גאגא שואו",
+      "publication": "Ynet",
+      "date": "2009-08-12",
+      "genre": "celebrity interview (phone)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W004-lady-gaga/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 852,
+        "narr_sents": 51,
+        "narr_mean": 16.7,
+        "narr_median": 15,
+        "narr_short_le6": 0.1,
+        "narr_long_ge25": 0.12,
+        "parens_per100w": 0.8,
+        "quote_sents": 85,
+        "quote_mean": 6.3
+      }
+    },
+    {
+      "id": "W006",
+      "title": "\"אני עסיסית, לא כלבה\"",
+      "publication": "Ynet",
+      "date": "2009-07-03",
+      "genre": "celebrity interview (phone)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W006-rupaul/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 234,
+        "narr_sents": 21,
+        "narr_mean": 11.1,
+        "narr_median": 10,
+        "narr_short_le6": 0.38,
+        "narr_long_ge25": 0.1,
+        "parens_per100w": 1.7,
+        "quote_sents": 54,
+        "quote_mean": 8.5
+      }
+    },
+    {
+      "id": "W007",
+      "title": "כוכבות סמאש: אם הסדרה תרד - נישאר בברודוויי",
+      "publication": "Ynet",
+      "date": "2013-05-01",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W007-smash-interview/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 387,
+        "narr_sents": 26,
+        "narr_mean": 14.9,
+        "narr_median": 14.5,
+        "narr_short_le6": 0.23,
+        "narr_long_ge25": 0.19,
+        "parens_per100w": 1.3,
+        "quote_sents": 3,
+        "quote_mean": 15.3
+      }
+    },
+    {
+      "id": "W010",
+      "title": "בדיחה של מאסטר",
+      "publication": "Ynet",
+      "date": "2009-07-22",
+      "genre": "industry interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W010-bill-masters/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 181,
+        "narr_sents": 17,
+        "narr_mean": 10.6,
+        "narr_median": 8,
+        "narr_short_le6": 0.29,
+        "narr_long_ge25": 0.12,
+        "parens_per100w": 2.2,
+        "quote_sents": 33,
+        "quote_mean": 10.4
+      }
+    },
+    {
+      "id": "W011",
+      "title": "צ'ואיטל אג'יופור: \"כולם עבדים של המערכת\"",
+      "publication": "Ynet",
+      "date": "2014-01-16",
+      "genre": "celebrity interview (promotional)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W011-chiwetel-ejiofor/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 160,
+        "narr_sents": 7,
+        "narr_mean": 22.9,
+        "narr_median": 24,
+        "narr_short_le6": 0.0,
+        "narr_long_ge25": 0.43,
+        "parens_per100w": 2.5,
+        "quote_sents": 42,
+        "quote_mean": 10.3
+      }
+    },
+    {
+      "id": "W021",
+      "title": "אווה מנדז: \"בסרט לא אכפת לי איך אני נראית\"",
+      "publication": "Ynet",
+      "date": "2013-05-13",
+      "genre": "celebrity interview (promotional)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W021-eva-mendes/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 157,
+        "narr_sents": 8,
+        "narr_mean": 19.6,
+        "narr_median": 18.5,
+        "narr_short_le6": 0.12,
+        "narr_long_ge25": 0.25,
+        "parens_per100w": 0.0,
+        "quote_sents": 22,
+        "quote_mean": 10.5
+      }
+    },
+    {
+      "id": "W023",
+      "title": "צדק חברתי בתפוח הגדול: ראיון עם מתיו ברודריק",
+      "publication": "Ynet",
+      "date": "2011-11-02",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W023-matthew-broderick/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 367,
+        "narr_sents": 21,
+        "narr_mean": 17.5,
+        "narr_median": 13,
+        "narr_short_le6": 0.29,
+        "narr_long_ge25": 0.33,
+        "parens_per100w": 1.4,
+        "quote_sents": 41,
+        "quote_mean": 10.0
+      }
+    },
+    {
+      "id": "W035",
+      "title": "כסף כן יכול לקנות אהבה",
+      "publication": "Ynet",
+      "date": "2009-07-01",
+      "genre": "personality interview (phone)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W035-patti-stanger/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 294,
+        "narr_sents": 18,
+        "narr_mean": 16.3,
+        "narr_median": 16.5,
+        "narr_short_le6": 0.17,
+        "narr_long_ge25": 0.17,
+        "parens_per100w": 1.4,
+        "quote_sents": 29,
+        "quote_mean": 10.9
+      }
+    },
+    {
+      "id": "W046",
+      "title": "\"את מי אני מעניינת?\"",
+      "publication": "Ynet",
+      "date": "2006-02-22",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W046-julianne-moore/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Existing English draft allows a transfer check; meta-narration",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 439,
+        "narr_sents": 39,
+        "narr_mean": 11.3,
+        "narr_median": 11,
+        "narr_short_le6": 0.28,
+        "narr_long_ge25": 0.03,
+        "parens_per100w": 0.7,
+        "quote_sents": 50,
+        "quote_mean": 9.6
+      }
+    },
+    {
+      "id": "W052",
+      "title": "ג'יי לא",
+      "publication": "Ynet",
+      "date": "2005-09-14",
+      "genre": "celebrity interview / reported feature",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W052-jennifer-lopez/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Longest early narration; hostility handled with comedy; callback ending",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 597,
+        "narr_sents": 37,
+        "narr_mean": 16.1,
+        "narr_median": 14,
+        "narr_short_le6": 0.14,
+        "narr_long_ge25": 0.22,
+        "parens_per100w": 1.0,
+        "quote_sents": 30,
+        "quote_mean": 11.2
+      }
+    },
+    {
+      "id": "W056",
+      "title": "תערוכת רפאים",
+      "publication": "Ynet",
+      "date": "2009-11-23",
+      "genre": "exhibition feature",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W056-tim-burton-moma/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 501,
+        "narr_sents": 31,
+        "narr_mean": 16.2,
+        "narr_median": 17,
+        "narr_short_le6": 0.1,
+        "narr_long_ge25": 0.1,
+        "parens_per100w": 1.8,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W058",
+      "title": "גאים להיות פה",
+      "publication": "Ynet",
+      "date": "2009-10-23",
+      "genre": "set-visit feature",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W058-michael-lucas-israel-set/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 372,
+        "narr_sents": 20,
+        "narr_mean": 18.6,
+        "narr_median": 15.0,
+        "narr_short_le6": 0.05,
+        "narr_long_ge25": 0.25,
+        "parens_per100w": 1.3,
+        "quote_sents": 10,
+        "quote_mean": 13.1
+      }
+    },
+    {
+      "id": "W062",
+      "title": "אין כמו בבית",
+      "publication": "Ynet",
+      "date": "2005-10-11",
+      "genre": "personal column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W062-holidays-homesickness/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Purest early column voice; Israeli references as comic yardsticks",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 325,
+        "narr_sents": 20,
+        "narr_mean": 16.2,
+        "narr_median": 14.0,
+        "narr_short_le6": 0.3,
+        "narr_long_ge25": 0.3,
+        "parens_per100w": 0.6,
+        "quote_sents": 6,
+        "quote_mean": 17.8
+      }
+    },
+    {
+      "id": "W071",
+      "title": "קצת גאווה עצמית",
+      "publication": "Ynet",
+      "date": "2009-06-10",
+      "genre": "opinion column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W071-lgbtq-television/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Argument structure; humor serving a position",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 337,
+        "narr_sents": 22,
+        "narr_mean": 15.3,
+        "narr_median": 13.5,
+        "narr_short_le6": 0.14,
+        "narr_long_ge25": 0.18,
+        "parens_per100w": 0.0,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W079",
+      "title": "הכי כיף לחזור",
+      "publication": "Ynet",
+      "date": "2006-05-24",
+      "genre": "editorial column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W079-returning-to-israel/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Highest aside density; insider editorial voice",
+      "limitations": "Editorial note with house in-jokes",
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 297,
+        "narr_sents": 26,
+        "narr_mean": 11.4,
+        "narr_median": 10.5,
+        "narr_short_le6": 0.38,
+        "narr_long_ge25": 0.08,
+        "parens_per100w": 3.7,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W080",
+      "title": "משפחת סופר על",
+      "publication": "Ynet",
+      "date": "2005-07-13",
+      "genre": "junket interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W080-fantastic-four/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Most structurally playful piece; chorus of other journalists; shortest sentences",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 315,
+        "narr_sents": 36,
+        "narr_mean": 8.8,
+        "narr_median": 4.0,
+        "narr_short_le6": 0.67,
+        "narr_long_ge25": 0.11,
+        "parens_per100w": 0.6,
+        "quote_sents": 76,
+        "quote_mean": 12.1
+      }
+    },
+    {
+      "id": "W087",
+      "title": "בשידור מת",
+      "publication": "Ynet",
+      "date": "2008-11-26",
+      "genre": "opinion column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W087-online-bystanders/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Serious subject; shows where humor is withdrawn",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 293,
+        "narr_sents": 18,
+        "narr_mean": 16.3,
+        "narr_median": 16.5,
+        "narr_short_le6": 0.17,
+        "narr_long_ge25": 0.11,
+        "parens_per100w": 0.7,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W089",
+      "title": "שונאות סיפור אהבה",
+      "publication": "Israel Hayom",
+      "date": "2019-04-11",
+      "genre": "celebrity double interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W089-killing-eve/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 791,
+        "narr_sents": 56,
+        "narr_mean": 14.1,
+        "narr_median": 15.0,
+        "narr_short_le6": 0.23,
+        "narr_long_ge25": 0.14,
+        "parens_per100w": 0.9,
+        "quote_sents": 110,
+        "quote_mean": 10.8
+      }
+    },
+    {
+      "id": "W092",
+      "title": "נמרוד דביר מדווח מהתפוח הגדול",
+      "publication": "Xnet",
+      "date": "2011-12-13",
+      "genre": "personal column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W092-buddhism-new-york/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Comic narrative with self as foil; escalation and release",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 435,
+        "narr_sents": 32,
+        "narr_mean": 13.6,
+        "narr_median": 11.0,
+        "narr_short_le6": 0.22,
+        "narr_long_ge25": 0.09,
+        "parens_per100w": 0.5,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W093",
+      "title": "למה נמרוד דביר מרגיש היי טבעי?",
+      "publication": "Xnet",
+      "date": "2012-02-12",
+      "genre": "personal column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W093-silent-meditation-retreat/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Reflective register; sincerity without sentiment",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 408,
+        "narr_sents": 25,
+        "narr_mean": 16.3,
+        "narr_median": 17,
+        "narr_short_le6": 0.2,
+        "narr_long_ge25": 0.16,
+        "parens_per100w": 1.2,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W094",
+      "title": "אין כמו רגע הקסם בפיסגה",
+      "publication": "Israel Hayom",
+      "date": "2014-10-15",
+      "genre": "opinion column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W094-annapurna-memoir/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Plain advisory register; no humor",
+      "limitations": "Short; written after a fatal storm",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 157,
+        "narr_sents": 10,
+        "narr_mean": 15.7,
+        "narr_median": 12.5,
+        "narr_short_le6": 0.0,
+        "narr_long_ge25": 0.2,
+        "parens_per100w": 0.0,
+        "quote_sents": 8,
+        "quote_mean": 14.1
+      }
+    },
+    {
+      "id": "W097",
+      "title": "האוטופיה של קארים ראשיד",
+      "publication": "At",
+      "date": "2017-04-20",
+      "genre": "magazine interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W097-karim-rashid/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Late confident long-form; first-person design critique",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 295,
+        "narr_sents": 20,
+        "narr_mean": 14.8,
+        "narr_median": 12.0,
+        "narr_short_le6": 0.25,
+        "narr_long_ge25": 0.25,
+        "parens_per100w": 1.4,
+        "quote_sents": 110,
+        "quote_mean": 10.1
+      }
+    },
+    {
+      "id": "W098",
+      "title": "גילה גמליאל מפחדת מהיום בו \"סיפורה של שפחה\" תהיה המציאות בישראל",
+      "publication": "At",
+      "date": "",
+      "genre": "political interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W098-gila-gamliel/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 359,
+        "narr_sents": 25,
+        "narr_mean": 14.4,
+        "narr_median": 14,
+        "narr_short_le6": 0.2,
+        "narr_long_ge25": 0.16,
+        "parens_per100w": 1.4,
+        "quote_sents": 85,
+        "quote_mean": 11.6
+      }
+    },
+    {
+      "id": "W106",
+      "title": "Sex and the City 2 — NRG article link referenced in portfolio post",
+      "publication": "nrg",
+      "date": "",
+      "genre": "coauthored film review",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W106-sex-and-the-city-2/article.he.md",
+      "role": "coauthored (used only to echo established patterns)",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 1357,
+        "narr_sents": 102,
+        "narr_mean": 13.3,
+        "narr_median": 13.0,
+        "narr_short_le6": 0.23,
+        "narr_long_ge25": 0.06,
+        "parens_per100w": 0.6,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W107",
+      "title": "דוגי סטייל: הכן כלבך לחורף",
+      "publication": "Xnet",
+      "date": "2012-01-15",
+      "genre": "personal column",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W107-dogs-new-york-winter/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 352,
+        "narr_sents": 18,
+        "narr_mean": 19.6,
+        "narr_median": 19.0,
+        "narr_short_le6": 0.0,
+        "narr_long_ge25": 0.22,
+        "parens_per100w": 1.7,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W108",
+      "title": "מגילת אסתר",
+      "publication": "Ynet",
+      "date": "2010-01-13",
+      "genre": "profile interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W108-ester-rada/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 337,
+        "narr_sents": 23,
+        "narr_mean": 14.7,
+        "narr_median": 15,
+        "narr_short_le6": 0.13,
+        "narr_long_ge25": 0.04,
+        "parens_per100w": 0.3,
+        "quote_sents": 124,
+        "quote_mean": 7.8
+      }
+    },
+    {
+      "id": "W114",
+      "title": "\"לרוץ איתו\"",
+      "publication": "nrg",
+      "date": "2010-08-26",
+      "genre": "book review",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W114-haruki-murakami-running/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Only solo review; evaluative language",
+      "limitations": "Only solo review in corpus",
+      "analyzedPassageTypes": [
+        "narration",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 307,
+        "narr_sents": 15,
+        "narr_mean": 20.5,
+        "narr_median": 17,
+        "narr_short_le6": 0.07,
+        "narr_long_ge25": 0.33,
+        "parens_per100w": 0.7,
+        "quote_sents": 0,
+        "quote_mean": null
+      }
+    },
+    {
+      "id": "W116",
+      "title": "\"אילנה היא פנומן\"",
+      "publication": "nrg",
+      "date": "2010-12-05",
+      "genre": "industry interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W116-ben-shani/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 131,
+        "narr_sents": 17,
+        "narr_mean": 7.7,
+        "narr_median": 6,
+        "narr_short_le6": 0.59,
+        "narr_long_ge25": 0.0,
+        "parens_per100w": 0.8,
+        "quote_sents": 35,
+        "quote_mean": 10.5
+      }
+    },
+    {
+      "id": "W118",
+      "title": "\"אין לאף אחד סיכוי איתי\": ריאיון עם רנדי הריסון",
+      "publication": "nrg",
+      "date": "2011-05-15",
+      "genre": "celebrity interview (phone)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W118-randy-harrison/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 213,
+        "narr_sents": 16,
+        "narr_mean": 13.3,
+        "narr_median": 13.0,
+        "narr_short_le6": 0.25,
+        "narr_long_ge25": 0.12,
+        "parens_per100w": 0.9,
+        "quote_sents": 77,
+        "quote_mean": 9.9
+      }
+    },
+    {
+      "id": "W122",
+      "title": "\"מיליוני אנשים חשים דחויים כמו פרנקנשטיין\"",
+      "publication": "Ynet",
+      "date": "2014-02-18",
+      "genre": "celebrity interview (promotional)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W122-aaron-eckhart-yvonne-strahovski/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Very short; mostly synopsis and quotation",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 126,
+        "narr_sents": 9,
+        "narr_mean": 14,
+        "narr_median": 16,
+        "narr_short_le6": 0.33,
+        "narr_long_ge25": 0.11,
+        "parens_per100w": 2.4,
+        "quote_sents": 2,
+        "quote_mean": 23
+      }
+    },
+    {
+      "id": "W125",
+      "title": "SEX FILES: ריאיון עם דיוויד דוכובני",
+      "publication": "nrg",
+      "date": "2010-06-18",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W125-david-duchovny/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 482,
+        "narr_sents": 36,
+        "narr_mean": 13.4,
+        "narr_median": 12.0,
+        "narr_short_le6": 0.19,
+        "narr_long_ge25": 0.11,
+        "parens_per100w": 0.4,
+        "quote_sents": 56,
+        "quote_mean": 11.9
+      }
+    },
+    {
+      "id": "W126",
+      "title": "TO B: ריאיון עם מלאני בי",
+      "publication": "nrg",
+      "date": "2011-02-17",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W126-mel-b/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 313,
+        "narr_sents": 22,
+        "narr_mean": 14.2,
+        "narr_median": 14.5,
+        "narr_short_le6": 0.32,
+        "narr_long_ge25": 0.23,
+        "parens_per100w": 1.9,
+        "quote_sents": 39,
+        "quote_mean": 9.1
+      }
+    },
+    {
+      "id": "W158",
+      "title": "לרגל העונה השניה: ביקור על הסט של הומלנד",
+      "publication": "Xnet",
+      "date": "2012-10-04",
+      "genre": "set-visit feature",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W158-homeland-set-visit/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Long reportage; concrete detail; first-person placement",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 745,
+        "narr_sents": 54,
+        "narr_mean": 13.8,
+        "narr_median": 11.0,
+        "narr_short_le6": 0.24,
+        "narr_long_ge25": 0.11,
+        "parens_per100w": 1.6,
+        "quote_sents": 61,
+        "quote_mean": 11.3
+      }
+    },
+    {
+      "id": "W159",
+      "title": "מאמא מיה! סיפורה של פרידה לינגסטד מאבבא",
+      "publication": "nrg",
+      "date": "2010-11-14",
+      "genre": "researched profile",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W159-anni-frid-lyngstad/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "No first person; somber material; restrained mode",
+      "limitations": "Mostly secondary-source history",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 931,
+        "narr_sents": 51,
+        "narr_mean": 18.3,
+        "narr_median": 15,
+        "narr_short_le6": 0.04,
+        "narr_long_ge25": 0.18,
+        "parens_per100w": 1.0,
+        "quote_sents": 4,
+        "quote_mean": 11.8
+      }
+    },
+    {
+      "id": "W162",
+      "title": "מהראג'ה: ריאיון עם ראג'ה ראם",
+      "publication": "nrg",
+      "date": "2010-06-23",
+      "genre": "musician interview (phone)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W162-raja-ram/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 144,
+        "narr_sents": 16,
+        "narr_mean": 9,
+        "narr_median": 6.0,
+        "narr_short_le6": 0.56,
+        "narr_long_ge25": 0.0,
+        "parens_per100w": 0.0,
+        "quote_sents": 20,
+        "quote_mean": 7.7
+      }
+    },
+    {
+      "id": "W163",
+      "title": "מחוברת",
+      "publication": "Ynet",
+      "date": "2009-08-12",
+      "genre": "profile interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W163-noa-tishby/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 274,
+        "narr_sents": 16,
+        "narr_mean": 17.1,
+        "narr_median": 16.0,
+        "narr_short_le6": 0.0,
+        "narr_long_ge25": 0.25,
+        "parens_per100w": 1.1,
+        "quote_sents": 111,
+        "quote_mean": 9.3
+      }
+    },
+    {
+      "id": "W164",
+      "title": "מייקל לואיס: \"בכל מקרה הייתי עף בין הראשונים\"",
+      "publication": "Xnet",
+      "date": "2012-05-05",
+      "genre": "personality interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W164-michael-lewis/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 257,
+        "narr_sents": 21,
+        "narr_mean": 12.2,
+        "narr_median": 10,
+        "narr_short_le6": 0.19,
+        "narr_long_ge25": 0.1,
+        "parens_per100w": 0.4,
+        "quote_sents": 71,
+        "quote_mean": 9.1
+      }
+    },
+    {
+      "id": "W165",
+      "title": "מייקל פאסבנדר: 'מקווה שהאנושות השתנתה'",
+      "publication": "Ynet",
+      "date": "2014-01-20",
+      "genre": "celebrity interview (promotional)",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W165-michael-fassbender/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 208,
+        "narr_sents": 17,
+        "narr_mean": 12.2,
+        "narr_median": 9,
+        "narr_short_le6": 0.41,
+        "narr_long_ge25": 0.12,
+        "parens_per100w": 1.4,
+        "quote_sents": 44,
+        "quote_mean": 11.8
+      }
+    },
+    {
+      "id": "W171",
+      "title": "סופר סטאר",
+      "publication": "Ynet",
+      "date": "2009-07-23",
+      "genre": "industry interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W171-darren-star/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 165,
+        "narr_sents": 13,
+        "narr_mean": 12.7,
+        "narr_median": 8,
+        "narr_short_le6": 0.31,
+        "narr_long_ge25": 0.15,
+        "parens_per100w": 2.4,
+        "quote_sents": 26,
+        "quote_mean": 10.5
+      }
+    },
+    {
+      "id": "W172",
+      "title": "סטיב בושמי, כוכב \"אימפריית הפשע\", לא מפחד למות",
+      "publication": "Xnet",
+      "date": "2012-10-16",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W172-steve-buscemi/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Sustained comic description; hostile subject",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 366,
+        "narr_sents": 24,
+        "narr_mean": 15.2,
+        "narr_median": 14.0,
+        "narr_short_le6": 0.17,
+        "narr_long_ge25": 0.21,
+        "parens_per100w": 1.1,
+        "quote_sents": 88,
+        "quote_mean": 10.2
+      }
+    },
+    {
+      "id": "W174",
+      "title": "ספייק לי: \"באוסקר מפשלים לפעמים\"",
+      "publication": "Ynet",
+      "date": "2013-12-10",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W174-spike-lee/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 174,
+        "narr_sents": 13,
+        "narr_mean": 13.4,
+        "narr_median": 15,
+        "narr_short_le6": 0.31,
+        "narr_long_ge25": 0.08,
+        "parens_per100w": 1.7,
+        "quote_sents": 51,
+        "quote_mean": 7.7
+      }
+    },
+    {
+      "id": "W176",
+      "title": "סת' רוגן\":יש בזאק אפרון משהו מפחיד\"",
+      "publication": "Ynet",
+      "date": "2014-05-15",
+      "genre": "celebrity double interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W176-seth-rogen-zac-efron/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Observation of PR behavior; long comparative sentence",
+      "limitations": "Online excerpt; longer print version advertised but not recovered",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 325,
+        "narr_sents": 10,
+        "narr_mean": 32.5,
+        "narr_median": 22.5,
+        "narr_short_le6": 0.2,
+        "narr_long_ge25": 0.4,
+        "parens_per100w": 2.5,
+        "quote_sents": 55,
+        "quote_mean": 8.2
+      }
+    },
+    {
+      "id": "W182",
+      "title": "קסם אישי: ריאיון עם אמה ווטסון",
+      "publication": "nrg",
+      "date": "2011-06-16",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W182-emma-watson/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 239,
+        "narr_sents": 15,
+        "narr_mean": 15.9,
+        "narr_median": 16,
+        "narr_short_le6": 0.13,
+        "narr_long_ge25": 0.13,
+        "parens_per100w": 0.4,
+        "quote_sents": 32,
+        "quote_mean": 10.0
+      }
+    },
+    {
+      "id": "W184",
+      "title": "קרב תרנגולות: מאחורי הקלעים של \"מלכות הדראג של ניו יורק\"",
+      "publication": "nrg",
+      "date": "2010-06-28",
+      "genre": "behind-the-scenes feature",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W184-new-york-drag-queens/article.he.md",
+      "role": "core close analysis",
+      "inclusionReason": "Reporting plus confrontation about staged reality TV",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 818,
+        "narr_sents": 60,
+        "narr_mean": 13.6,
+        "narr_median": 10.0,
+        "narr_short_le6": 0.3,
+        "narr_long_ge25": 0.1,
+        "parens_per100w": 1.3,
+        "quote_sents": 64,
+        "quote_mean": 9.0
+      }
+    },
+    {
+      "id": "W185",
+      "title": "ריאיון עם מייק הנרי",
+      "publication": "nrg",
+      "date": "2011-03-30",
+      "genre": "industry interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W185-mike-henry/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": "Narration is only three sentences",
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 32,
+        "narr_sents": 3,
+        "narr_mean": 10.7,
+        "narr_median": 4,
+        "narr_short_le6": 0.67,
+        "narr_long_ge25": 0.33,
+        "parens_per100w": 3.1,
+        "quote_sents": 36,
+        "quote_mean": 9.1
+      }
+    },
+    {
+      "id": "W186",
+      "title": "ריאן גוסלינג: \"האופנובנק הוא האליל שלי\"",
+      "publication": "Ynet",
+      "date": "2013-05-11",
+      "genre": "celebrity interview",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W186-ryan-gosling/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 356,
+        "narr_sents": 25,
+        "narr_mean": 14.2,
+        "narr_median": 15,
+        "narr_short_le6": 0.4,
+        "narr_long_ge25": 0.12,
+        "parens_per100w": 0.0,
+        "quote_sents": 38,
+        "quote_mean": 12.6
+      }
+    },
+    {
+      "id": "W195",
+      "title": "תקופת הסטון: אמה סטון כובשת את הוליווד",
+      "publication": "nrg",
+      "date": "2011-08-29",
+      "genre": "researched profile",
+      "byline": "Nimrod Dvir",
+      "hebrewPath": "data-source/writing/originals/W195-emma-stone/article.he.md",
+      "role": "validation",
+      "inclusionReason": "Read in full; used to test claims formed on the close set",
+      "limitations": null,
+      "analyzedPassageTypes": [
+        "narration",
+        "interviewer prompts",
+        "quoted answers (framing only)",
+        "captions and subtitle (furniture)"
+      ],
+      "narrationMeasures": {
+        "narr_words": 764,
+        "narr_sents": 65,
+        "narr_mean": 11.8,
+        "narr_median": 12,
+        "narr_short_le6": 0.31,
+        "narr_long_ge25": 0.02,
+        "parens_per100w": 0.7,
+        "quote_sents": 2,
+        "quote_mean": 8
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "W016",
+      "reason": "Response column by Yuval Ganor about Nim; third-party authorship"
+    },
+    {
+      "id": "W083",
+      "reason": "Report by Amir Bogen; Nim is a subject, not the author"
+    },
+    {
+      "id": "W095",
+      "reason": "Column by Dan Margalit with separately credited reporting; Nim has a photo credit only"
+    },
+    {
+      "id": "W100",
+      "reason": "English article by Boaz Dvir, misattributed"
+    },
+    {
+      "id": "W197",
+      "reason": "nrg Maariv staff item about appointments"
+    },
+    {
+      "id": "W198",
+      "reason": "nrg Maariv media-industry item mentioning Nim"
+    },
+    {
+      "id": "W090",
+      "reason": "Duplicate package of W003"
+    },
+    {
+      "id": "W096",
+      "reason": "Duplicate package of W089"
+    },
+    {
+      "id": "W005, W101-W105, W110-W112",
+      "reason": "Source-only records without a verified Hebrew body"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "dimension": "A. Tone and register",
+      "claim": "Default register is conversational and informal, with direct second-person-plural address to readers.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W002",
+          "hebrew": "קבלו את ג'ים קארי מודל 2005",
+          "shows": "Imperative address opening a turn"
+        },
+        {
+          "article": "W172",
+          "hebrew": "מכירים יופי מהפנט?",
+          "shows": "Question to the reader as opening"
+        },
+        {
+          "article": "W071",
+          "hebrew": "שימו לב ל\"בלוק\"",
+          "shows": "Instruction to the reader inside an argument"
+        },
+        {
+          "article": "W184",
+          "hebrew": "נפתח בחדשות ישנות",
+          "shows": "Reader-facing framing of the lede"
+        }
+      ],
+      "counterexamples": [
+        "W159 and W195 use a thin narrator with little direct address",
+        "W094 is plain advisory prose"
+      ]
+    },
+    {
+      "id": "C02",
+      "dimension": "A. Tone and register",
+      "claim": "Skepticism toward celebrity machinery coexists with generosity toward the person, and the sharp line usually yields to a concession.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W001",
+          "hebrew": "אבל בעוד כוכבים אחרים היו ראויים במצב הזה לכאפת ניעור-שוויץ מתבקשת, דווקא לג'יימי פוקס מתחשק לפרגן. בחור טוב, אתם יודעים",
+          "shows": "Turn from mockery to generosity"
+        },
+        {
+          "article": "W052",
+          "hebrew": "ואפילו בצורה מוצלחת, ייאמר לזכותה",
+          "shows": "Concession inside a hostile piece"
+        },
+        {
+          "article": "W172",
+          "hebrew": "מצד שני, ההתנשאות שלו מעט מכעיסה. אחרי הכל, מדונה הוא עדיין לא",
+          "shows": "Mild rebuke after excusing the subject"
+        },
+        {
+          "article": "W176",
+          "hebrew": "אבל בואו נניח לזאקי",
+          "shows": "Explicit release of the target"
+        }
+      ],
+      "counterexamples": [
+        "W172 sustains the joke about Buscemi's face longer than any other piece",
+        "W052 concedes only briefly"
+      ]
+    },
+    {
+      "id": "C03",
+      "dimension": "A. Tone and register",
+      "claim": "Judgments are stated plainly and hedged only in delivery, through impression verbs.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W172",
+          "hebrew": "אובייקטיבית ניתן לראות שלבושמי... יש פרצוף בת יענה",
+          "shows": "Flat judgment with mock objectivity"
+        },
+        {
+          "article": "W195",
+          "hebrew": "עולה חשד קל שגם להוריה יש יד בדבר",
+          "shows": "Impression-framed doubt"
+        },
+        {
+          "article": "W164",
+          "hebrew": "יש תחושה שלואיס, רק בן 24, תמיד היה בשטח",
+          "shows": "\"There is a sense that\" framing"
+        },
+        {
+          "article": "W186",
+          "hebrew": "זה נשמע קצת מוזר, אבל יש סיכוי ש",
+          "shows": "Soft delivery of a firm reading"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C04",
+      "dimension": "A. Tone and register",
+      "claim": "Register rises and humor is withdrawn when the subject involves death, illness, or real harm.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W087",
+          "hebrew": "בשבוע שעבר קרה אסון",
+          "shows": "Sober opening; no jokes in the body"
+        },
+        {
+          "article": "W094",
+          "hebrew": "אסור להניח ש\"יהיה בסדר\" על סמך טיולים בארץ או שירות קרבי",
+          "shows": "Advisory prose"
+        },
+        {
+          "article": "W003",
+          "hebrew": "לא קל לראות קומיקאית דומעת",
+          "shows": "Restraint on cancer"
+        },
+        {
+          "article": "W159",
+          "hebrew": "בשל נסיבות הולדתם המפוקפקות זכו הילדים ואמהותיהם ליחס של בוגדים",
+          "shows": "Straight historical narration"
+        }
+      ],
+      "counterexamples": [
+        "W159 subtitle still jokes, but subtitles may be editorial"
+      ]
+    },
+    {
+      "id": "C05",
+      "dimension": "B. Vocabulary",
+      "claim": "Register mixing is the signature: literary connectives beside slang, Yiddish-Israeli words, and transliterated English, often in one clause.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "כיאה לבחורה שאוכלת עיתונאים כמו פיסטוקים קלויים",
+          "shows": "Formal כיאה next to a snack joke"
+        },
+        {
+          "article": "W071",
+          "hebrew": "\"פלורנטין\" זצ\"ל",
+          "shows": "Religious honorific for a cancelled show"
+        },
+        {
+          "article": "W002",
+          "hebrew": "מאז ימי השרתים זרמו מים רבים בניאגרה",
+          "shows": "Twisted literary idiom"
+        },
+        {
+          "article": "W062",
+          "hebrew": "גורמת באופן מסורתי לביאוס כללי",
+          "shows": "Slang inside a formal frame"
+        },
+        {
+          "article": "W080",
+          "hebrew": "הכי אקשן במיץ וייברעס",
+          "shows": "Yiddish-Israeli plus English"
+        }
+      ],
+      "counterexamples": [
+        "W003 and W089 (Israel Hayom 2019) contain very little slang",
+        "W094 contains none"
+      ]
+    },
+    {
+      "id": "C06",
+      "dimension": "B. Vocabulary",
+      "claim": "Transliterated English is used for comic timing or to mark showbiz talk; it thins out in the later period.",
+      "confidence": "high for presence; medium for chronology",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W001",
+          "hebrew": "ניים דרופינג קטלני",
+          "shows": "Showbiz term"
+        },
+        {
+          "article": "W052",
+          "hebrew": "ספיקינג אוף פחד",
+          "shows": "Interviewer prompt opened in English"
+        },
+        {
+          "article": "W058",
+          "hebrew": "שוקינג.",
+          "shows": "One-word English verdict"
+        },
+        {
+          "article": "W184",
+          "hebrew": "פייר? היה מרגש",
+          "shows": "Deadpan English interjection"
+        },
+        {
+          "article": "W087",
+          "hebrew": "הכל לייב און טייפ",
+          "shows": "English phrase in an opinion piece"
+        }
+      ],
+      "counterexamples": [
+        "Nearly absent in W003, W089, W098"
+      ]
+    },
+    {
+      "id": "C07",
+      "dimension": "B. Vocabulary",
+      "claim": "Israeli pop-culture references serve as comic yardsticks and assume an Israeli reader of the period.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W062",
+          "hebrew": "להיראות קצת כמו שיר של זהבה בן",
+          "shows": "Singer as measure of sentimentality"
+        },
+        {
+          "article": "W062",
+          "hebrew": "כמו אוכל צבאי ופנינה רוזנבלום",
+          "shows": "Two yardsticks in one"
+        },
+        {
+          "article": "W184",
+          "hebrew": "שכמויות האיפור שלה היו גורמות אפילו לפנינה רוזנבלום להחוויר",
+          "shows": "Same yardstick five years later"
+        },
+        {
+          "article": "W052",
+          "hebrew": "גדול כמו זה שבין שרית חדד לעיריית חדרה",
+          "shows": "Local joke"
+        },
+        {
+          "article": "W097",
+          "hebrew": "ממש כמו אירית רחמים או עמוד הפייסבוק של מירי רגב",
+          "shows": "2017 reference"
+        },
+        {
+          "article": "W158",
+          "hebrew": "חטפתי על כך צרחות משל הייתי ג'ונתן פולארד",
+          "shows": "Historical reference as comedy"
+        }
+      ],
+      "counterexamples": [
+        "Rare in W003 and W089"
+      ]
+    },
+    {
+      "id": "C08",
+      "dimension": "B. Vocabulary",
+      "claim": "Concrete detail over abstraction; numbers and objects carry the evaluation.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W107",
+          "hebrew": "מעיל עור של ג'וסי קוטור (150 דולר)... ב־9 דולר בלבד",
+          "shows": "Priced list as argument"
+        },
+        {
+          "article": "W158",
+          "hebrew": "צוות של כ־150 איש עבד בחריצות מ־8:00 בבוקר עד 22:00... סצנה אחת בלבד (!)",
+          "shows": "Counts as judgment"
+        },
+        {
+          "article": "W158",
+          "hebrew": "במגרות במטבח של ברודי יש סכו\"ם מלא",
+          "shows": "Object detail"
+        },
+        {
+          "article": "W003",
+          "hebrew": "דרייפוס מורידה את נעלי העקב הגבוהות ונשארת יחפה",
+          "shows": "Observed gesture"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C09",
+      "dimension": "B. Vocabulary",
+      "claim": "Evaluation runs through compressed epithets, mock-honorifics for the subject, and affectionate diminutives.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W001",
+          "hebrew": "פצצת הסכרין ג'סיקה ביל",
+          "shows": "Compressed epithet"
+        },
+        {
+          "article": "W052",
+          "hebrew": "ניסיתי את מזלי עם הגרציה",
+          "shows": "Mock-honorific"
+        },
+        {
+          "article": "W006",
+          "hebrew": "המלכה בת ה-48",
+          "shows": "Mock-honorific with age"
+        },
+        {
+          "article": "W080",
+          "hebrew": "ארבע כלבות בידור, מין דודות מנופחות שיער",
+          "shows": "Epithet for a group"
+        },
+        {
+          "article": "W107",
+          "hebrew": "הכלבלב הפרטי... איזה צעיפון דקורטיבי",
+          "shows": "Diminutives"
+        },
+        {
+          "article": "W164",
+          "hebrew": "כמו דמי מור שמנסה לפתות מאהבון צעיר",
+          "shows": "Diminutive in a comparison"
+        }
+      ],
+      "counterexamples": [
+        "No mock-honorifics for the minister in W098 or the 12 Years a Slave cast"
+      ]
+    },
+    {
+      "id": "C10",
+      "dimension": "C. Syntax and rhythm",
+      "claim": "Long accumulation followed by a short verdict, often a single word.",
+      "confidence": "high",
+      "pattern": "recurring; supported by measurement M1",
+      "evidence": [
+        {
+          "article": "W058",
+          "hebrew": "וכמובן, כל סט צילום שכזה נגמר בסקס סוער. שוקינג.",
+          "shows": "One-word verdict"
+        },
+        {
+          "article": "W195",
+          "hebrew": "מה שגרם לה לעזוב את החדר בדמעות. אאוץ'.",
+          "shows": "One-word verdict"
+        },
+        {
+          "article": "W035",
+          "hebrew": "כי גברים הם מצרך יותר נדיר ומבוקש בשוק הדייטינג האכזרי. קשה.",
+          "shows": "One-word verdict"
+        },
+        {
+          "article": "W052",
+          "hebrew": "ואלה שצורחים \"אתם עוזרים לצלם את השטן\". נו, שוין.",
+          "shows": "Two-word verdict"
+        },
+        {
+          "article": "W079",
+          "hebrew": "אז מה.",
+          "shows": "Fragment"
+        },
+        {
+          "article": "W062",
+          "hebrew": "ובכל זאת, זה לא באמת זה.",
+          "shows": "Short closing beat"
+        }
+      ],
+      "counterexamples": [
+        "W011, W021, W122 have thin narration with few verdict sentences"
+      ]
+    },
+    {
+      "id": "C11",
+      "dimension": "C. Syntax and rhythm",
+      "claim": "Parenthetical asides are frequent (about one per 100 narration words) and functional: gloss, confession, accuracy, deflation, or the joke itself.",
+      "confidence": "high",
+      "pattern": "recurring; supported by measurement M2",
+      "evidence": [
+        {
+          "article": "W062",
+          "hebrew": "(טלפון נייד שמחבר אתכם באופן יעיל וחונק לתיבת המייל שלכם. יופי לכם שאתם לא יודעים)",
+          "shows": "Gloss plus deflation"
+        },
+        {
+          "article": "W062",
+          "hebrew": "(אנחנו פולנים, מתרגלים לזה)",
+          "shows": "Confession"
+        },
+        {
+          "article": "W092",
+          "hebrew": "(בחיי שזה השם... וגם אם יכוונו אקדח לראשי לא אצליח לומר אותו כמו שצריך)",
+          "shows": "Accuracy plus self-mockery"
+        },
+        {
+          "article": "W058",
+          "hebrew": "(ולא, לדמות הראשית לא קוראים ישראל)",
+          "shows": "Deflation"
+        },
+        {
+          "article": "W164",
+          "hebrew": "(ראיתי תמונות)",
+          "shows": "Confession"
+        },
+        {
+          "article": "W176",
+          "hebrew": "דייב פרנקו (אח של)",
+          "shows": "Deflation"
+        }
+      ],
+      "counterexamples": [
+        "W071, W094, W021, W162, W186 contain no parentheses"
+      ]
+    },
+    {
+      "id": "C12",
+      "dimension": "C. Syntax and rhythm",
+      "claim": "Rhetorical questions pivot paragraphs; colons, dashes, and numbered tallies set up a payoff.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W080",
+          "hebrew": "ולמה זה פרס?",
+          "shows": "Pivot question"
+        },
+        {
+          "article": "W092",
+          "hebrew": "זה חינם, זה מעשיר, זה מרגיע, מה אפשר להפסיד?",
+          "shows": "List then question"
+        },
+        {
+          "article": "W087",
+          "hebrew": "הסוף היה עגום:",
+          "shows": "Colon setup"
+        },
+        {
+          "article": "W079",
+          "hebrew": "תזכורת לעצמי - הילדים בישראל קשוחים",
+          "shows": "Dash setup"
+        },
+        {
+          "article": "W195",
+          "hebrew": "1. היא משחקת כרגע בשני סרטים... 4. התמונה שלה מתנוססת",
+          "shows": "Numbered tally in prose"
+        },
+        {
+          "article": "W184",
+          "hebrew": "1. הסצנה צולמה בצהרי היום... 2. מילא שהמופע",
+          "shows": "Numbered problems"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C13",
+      "dimension": "C. Syntax and rhythm",
+      "claim": "Paragraphs are short to medium and end on their strongest clause; the joke or judgment is placed last.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W023",
+          "hebrew": "ושיער בעיצוב של \"התעוררתי, העברתי יד והרי אני כאן\". לא בדיוק מה שהייתם מצפים",
+          "shows": "Paragraph ends on the comic line"
+        },
+        {
+          "article": "W172",
+          "hebrew": "זה עסק קל כמעט כמו לחלוב מיץ תפוזים מפרה.",
+          "shows": "Paragraph ends on the comparison"
+        },
+        {
+          "article": "W164",
+          "hebrew": "\"הגזמתי\", מספר מייקל.",
+          "shows": "Single-sentence paragraph as a beat"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C14",
+      "dimension": "D. Humor",
+      "claim": "The comic comparison is the dominant humor device.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W172",
+          "hebrew": "מתעוות כמו שממית לאחר חימום קל במיקרו",
+          "shows": "Simile"
+        },
+        {
+          "article": "W172",
+          "hebrew": "קל כמעט כמו לחלוב מיץ תפוזים מפרה",
+          "shows": "Simile"
+        },
+        {
+          "article": "W164",
+          "hebrew": "כמו דמי מור שמנסה לפתות מאהבון צעיר",
+          "shows": "Simile"
+        },
+        {
+          "article": "W071",
+          "hebrew": "רכב על קלף ההומוסקסואל כמו בוקרת בקריז",
+          "shows": "Simile"
+        },
+        {
+          "article": "W062",
+          "hebrew": "הקהילה הישראלית בניו יורק היא קצת כמו סוכרזית",
+          "shows": "Extended simile"
+        },
+        {
+          "article": "W118",
+          "hebrew": "זה יהיה כמו לזרוק סטייק לכלוב של אריות",
+          "shows": "Simile inside a prompt"
+        },
+        {
+          "article": "W004",
+          "hebrew": "ליאונרדו דה וינטג'.",
+          "shows": "Pun as verdict"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C15",
+      "dimension": "D. Humor",
+      "claim": "Deadpan understatement and mock-formality recur.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "לא נרשמה אפילו הפרחת נשיקה אחת לרפואה",
+          "shows": "Mock-formal understatement"
+        },
+        {
+          "article": "W172",
+          "hebrew": "מדונה הוא עדיין לא",
+          "shows": "Understatement"
+        },
+        {
+          "article": "W079",
+          "hebrew": "לא הייתי אומר שתהיה פה מתיחת פנים, אבל אולי איזו זריקת בוטוקס לאזור הטי",
+          "shows": "Understatement with image"
+        },
+        {
+          "article": "W058",
+          "hebrew": "אבל גם לא משהו שצריך לקטר עליו לאמא",
+          "shows": "Deflation"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C16",
+      "dimension": "D. Humor",
+      "claim": "Self-directed humor is frequent; the narrator is the foil, never the hero.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "אף כיבדה אותי במבט זעם שגרם לי להרגיש כחתלתול מוכה",
+          "shows": "Self as victim of a glare"
+        },
+        {
+          "article": "W052",
+          "hebrew": "בלב רועד עליתי למיקרופון",
+          "shows": "Self-mockery before a challenge"
+        },
+        {
+          "article": "W114",
+          "hebrew": "אני אינני אצן, ולמעשה מתחזק תדמית של פדלאה רצינית",
+          "shows": "Self-deprecation in a review"
+        },
+        {
+          "article": "W093",
+          "hebrew": "ושם יצאה לי המילה היחידה שלי בכל עשרת הימים, \"שיט\"",
+          "shows": "Self as foil"
+        },
+        {
+          "article": "W176",
+          "hebrew": "כמעט הייתי נמס באמונה מוחלטת, אלמלא ראיתי אותו עושה בדיוק את אותו הקטע לעיתונאי מפורטוגל",
+          "shows": "Self nearly fooled"
+        },
+        {
+          "article": "W107",
+          "hebrew": "פאשניסטות מיתון, שזה בדיוק אנחנו",
+          "shows": "Self-mockery"
+        }
+      ],
+      "counterexamples": [
+        "W159, W195 have no first-person narrator"
+      ]
+    },
+    {
+      "id": "C17",
+      "dimension": "D. Humor",
+      "claim": "Setup is a list or escalating sentence; punchline is the final short clause.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W092",
+          "hebrew": "התחיל לצחקק. ואז לצחוק. ולצחוק. ואז גם אני התחלתי לצחוק.",
+          "shows": "Escalation"
+        },
+        {
+          "article": "W092",
+          "hebrew": "ואז הגיע רגע השיא - ללואיס ברח נאד. מיותר לציין שזה היה הרגע בו קרו שלושה דברים",
+          "shows": "Release itemized"
+        },
+        {
+          "article": "W107",
+          "hebrew": "סט דוחה גשם מיוחד, כובע וארבע נעליים (190 דולר)... ב־9 דולר בלבד",
+          "shows": "Priced setup, cheap payoff"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C18",
+      "dimension": "D. Humor",
+      "claim": "Headline wordplay recurs but may be editorial; weak evidence of personal trait.",
+      "confidence": "low",
+      "pattern": "recurring across outlets",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "ג'יי לא",
+          "shows": "Pun headline"
+        },
+        {
+          "article": "W108",
+          "hebrew": "מגילת אסתר",
+          "shows": "Pun headline"
+        },
+        {
+          "article": "W010",
+          "hebrew": "בדיחה של מאסטר",
+          "shows": "Pun headline"
+        },
+        {
+          "article": "W195",
+          "hebrew": "תקופת הסטון",
+          "shows": "Pun headline"
+        }
+      ],
+      "counterexamples": [
+        "Headlines and subtitles are commonly written by editors"
+      ]
+    },
+    {
+      "id": "C19",
+      "dimension": "E. Structure",
+      "claim": "Openings use one of four strategies: scene detail, proposition undercut, direct address, or the subject's words first.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W046",
+          "hebrew": "ג'וליאן מור מותשת. היום שלה רק התחיל",
+          "shows": "Scene"
+        },
+        {
+          "article": "W001",
+          "hebrew": "רגע אחד הוא משוויץ בשעון יהלומים ענק, שנראה כאילו נבנה על חורבותיו של מכרה בחוף השנהב",
+          "shows": "Scene detail with comparison"
+        },
+        {
+          "article": "W002",
+          "hebrew": "פעם אמרו לנו שהפשע לא משתלם. מצד שני, פעם גם אמרו לנו שג'ים קארי הוא מטורף",
+          "shows": "Proposition undercut"
+        },
+        {
+          "article": "W092",
+          "hebrew": "זו אומנם קלישאה, אבל היא מוכיחה את עצמה",
+          "shows": "Proposition undercut"
+        },
+        {
+          "article": "W007",
+          "hebrew": "אם פספסתם את העונה הראשונה",
+          "shows": "Direct address"
+        },
+        {
+          "article": "W116",
+          "hebrew": "מי שמדמיין את בן שני... צפוי להיות מופתע. \"כן\", הוא מחייך",
+          "shows": "Quote-first"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C20",
+      "dimension": "E. Structure",
+      "claim": "Meta-narration about the article's own structure is a signature.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W046",
+          "hebrew": "לפני שממשיכים לחפור בגברת, קצת חומר רקע",
+          "shows": "Announced background"
+        },
+        {
+          "article": "W004",
+          "hebrew": "לפני שממשיכים, חייבים להסביר איך הפכה",
+          "shows": "Announced background"
+        },
+        {
+          "article": "W007",
+          "hebrew": "אם עדיין לא הבנתם על מה הן מדברות, הנה ההסבר בקצרה",
+          "shows": "Announced explanation"
+        },
+        {
+          "article": "W052",
+          "hebrew": "אבל למה להקדים את המאוחר. נתחיל בפרמיירה",
+          "shows": "Announced order"
+        },
+        {
+          "article": "W001",
+          "hebrew": "ונחזור לפוקס.",
+          "shows": "Announced return"
+        },
+        {
+          "article": "W184",
+          "hebrew": "על ליידי באני כבר הרחבנו",
+          "shows": "Self-reference"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C21",
+      "dimension": "E. Structure",
+      "claim": "Character introductions give age and credentials, one physical or behavioral detail, a comic epithet, then a quote.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W080",
+          "hebrew": "אלבה, בקושי בת 24, היא כבר שועלת מקצוע... דופקת כניסה דרמטית תוך שהיא מלמלת \"קר-פה-קר-פה-קר-פה\"",
+          "shows": "Full pattern"
+        },
+        {
+          "article": "W023",
+          "hebrew": "מגיע נבוך ומחוייך, לבוש בפשטות יחסית עם כרס עגלגלה (ודי גדולה)",
+          "shows": "Detail with aside"
+        },
+        {
+          "article": "W097",
+          "hebrew": "הוא דופק איחור של שעה לריאיון, למרות שהוא גר דלת ליד",
+          "shows": "Behavioral detail"
+        },
+        {
+          "article": "W176",
+          "hebrew": "רוגן בן ה־32 מגיע לראיון בטריינינג שנראה כפיג'מה",
+          "shows": "Detail"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C22",
+      "dimension": "E. Structure",
+      "claim": "Endings give the subject the last line, call back to the opening, or draw a modest moral; never a summary.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W023",
+          "hebrew": "\"מעולה, דבר איתי אחרי הראיון. אולי נצליח להגיע לאיזה סיכום\".",
+          "shows": "Subject's last line (doorman)"
+        },
+        {
+          "article": "W003",
+          "hebrew": "זה כמו לבקר במפעל נקניקיות - אתה לא באמת רוצה לראות איך מייצרים אותן",
+          "shows": "Subject's last line"
+        },
+        {
+          "article": "W080",
+          "hebrew": "ככה זה, מלחיץ להיות עיתונאית בידור.",
+          "shows": "Callback to opening"
+        },
+        {
+          "article": "W092",
+          "hebrew": "בשבוע הבא אני בטוח מגיע לעוד שיעור, אבל הפעם בלי לואיס",
+          "shows": "Callback"
+        },
+        {
+          "article": "W107",
+          "hebrew": "קודם עושים סיבוב דאווין בבוטיקים היוקרתיים, ואחר כך חוזרים הביתה עם תופין איכותי מחנות המציאות",
+          "shows": "Modest moral"
+        },
+        {
+          "article": "W062",
+          "hebrew": "זהו, אני את שלי פרקתי, לפחות עד השנה הבאה.",
+          "shows": "Modest sign-off"
+        }
+      ],
+      "counterexamples": [
+        "W056 ends on a service note about the exhibition"
+      ]
+    },
+    {
+      "id": "C23",
+      "dimension": "F. Interviewing",
+      "claim": "Prompts are short; a quarter are statements without a question mark.",
+      "confidence": "high",
+      "pattern": "recurring; supported by measurement M3",
+      "evidence": [
+        {
+          "article": "W006",
+          "hebrew": "והציפורניים.",
+          "shows": "Two-word prompt"
+        },
+        {
+          "article": "W004",
+          "hebrew": "ומלאי ממון.",
+          "shows": "Statement prompt"
+        },
+        {
+          "article": "W126",
+          "hebrew": "זה נראה די מבוים, למען האמת.",
+          "shows": "Statement prompt"
+        },
+        {
+          "article": "W046",
+          "hebrew": "דווקא עושה רושם שבאופן יחסי התקשורת האמריקאית רכה איתך.",
+          "shows": "Statement prompt"
+        },
+        {
+          "article": "W002",
+          "hebrew": "הלו, גם אתה מחשב את השכר שלך במיליונים.",
+          "shows": "Blunt statement prompt"
+        },
+        {
+          "article": "W108",
+          "hebrew": "מכות הלכת?",
+          "shows": "Two-word question"
+        }
+      ],
+      "counterexamples": [
+        "W097 and W098 prompts are longer and more argumentative"
+      ]
+    },
+    {
+      "id": "C24",
+      "dimension": "F. Interviewing",
+      "claim": "Follow-ups reuse the subject's own word and turn it; challenges are stated, not performed.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W046",
+          "hebrew": "לא עשית בעבר, ובכל זאת את מקובעת בעיני רבים בתפקיד \"האמא ההיסטרית\".",
+          "shows": "Reuses \"לא עשיתי בעבר\""
+        },
+        {
+          "article": "W046",
+          "hebrew": "מה הצבע האהוב עלייך?",
+          "shows": "Takes the subject at her word"
+        },
+        {
+          "article": "W184",
+          "hebrew": "את לא? הרגע אמרת שכן.",
+          "shows": "Turns the subject's contradiction"
+        },
+        {
+          "article": "W184",
+          "hebrew": "לא בדיוק. במו עיניי ראיתי שצילמתם שוב",
+          "shows": "Flat challenge"
+        },
+        {
+          "article": "W164",
+          "hebrew": "יש פה משהו. מצד אחד אתה לא כשיר לצבא, ומצד שני אתה מפזז",
+          "shows": "Stated contradiction"
+        },
+        {
+          "article": "W007",
+          "hebrew": "כבוד כבוד, אבל לא בטוח שתהיה עוד עונה.",
+          "shows": "Concede then challenge"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C25",
+      "dimension": "F. Interviewing",
+      "claim": "Playful provocation and flirtation appear in entertainment interviews only.",
+      "confidence": "high",
+      "pattern": "recurring in genre",
+      "evidence": [
+        {
+          "article": "W006",
+          "hebrew": "מקסים. תגיד, אתה פנוי?",
+          "shows": "Flirt prompt"
+        },
+        {
+          "article": "W023",
+          "hebrew": "אם זה לכל המשפחה, כולל אשתך, אז יש מצב.",
+          "shows": "Playful counter"
+        },
+        {
+          "article": "W011",
+          "hebrew": "הכנת כבר את הטוקסידו לאוסקר?",
+          "shows": "Teasing prompt"
+        },
+        {
+          "article": "W158",
+          "hebrew": "אתה מתכנן לנצל את הקשר?",
+          "shows": "Teasing prompt"
+        }
+      ],
+      "counterexamples": [
+        "Absent in W098 (minister), W011/W165 body questions on slavery, W003 cancer passage"
+      ]
+    },
+    {
+      "id": "C26",
+      "dimension": "F. Interviewing",
+      "claim": "Evasion and rebuke are printed and then interpreted in narration rather than fought.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "\"אין תגובה\", אמרה הגברת בקרירות, דרוכה לפתע כסוהרת גרמנייה.",
+          "shows": "Evasion printed with comic tag"
+        },
+        {
+          "article": "W046",
+          "hebrew": "\"די, בואו נדבר על הסרט\". בוא נדבר באמת.",
+          "shows": "Pivot accepted"
+        },
+        {
+          "article": "W089",
+          "hebrew": "\"אתה טריקי, אתה כל הזמן מנסה לגרום לי לשים מסגרות\", נוזפת בי או שוב.",
+          "shows": "Rebuke enjoyed"
+        },
+        {
+          "article": "W021",
+          "hebrew": "\"זו שאלה אישית מדי. אני לא רוצה לענות עליה.\"",
+          "shows": "Refusal printed without comment"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C27",
+      "dimension": "F. Interviewing",
+      "claim": "Rapport is built on shared ground and light flattery; the Israeli angle is a recurring bridge.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W004",
+          "hebrew": "את גאגא, או סטפני, הכרתי עוד בימים שחלקנו ספסל לימודים",
+          "shows": "Shared ground"
+        },
+        {
+          "article": "W035",
+          "hebrew": "אין מה לומר, בחורה כלבבי.",
+          "shows": "Flattery in narration"
+        },
+        {
+          "article": "W158",
+          "hebrew": "התפרסם גם שגלעד שליט הגיע לבקר את הסט.",
+          "shows": "Israeli angle"
+        },
+        {
+          "article": "W003",
+          "hebrew": "מה דעתך על ישראל?",
+          "shows": "Israeli angle"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C28",
+      "dimension": "G. Authorial presence",
+      "claim": "First person singular in interviews and columns; first person plural for Israelis or readers; narrator physically inside the scene as observer.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W158",
+          "hebrew": "מסטורי בורד שנשכח בחדר ישיבות שאליו התגנבתי",
+          "shows": "Narrator inside the scene"
+        },
+        {
+          "article": "W184",
+          "hebrew": "אני הוזמנתי לכאן על תקן אורח והעברתי את רוב היום הזה בלגימת מרטיני ובבהייה בבמה",
+          "shows": "Observer"
+        },
+        {
+          "article": "W004",
+          "hebrew": "גם אלינו היא תגיע",
+          "shows": "\"We Israelis\""
+        },
+        {
+          "article": "W010",
+          "hebrew": "אצלכם בישראל אין הרבה סיטקומים",
+          "shows": "Quote selected for Israeli readers"
+        }
+      ],
+      "counterexamples": [
+        "W159, W195 drop first person"
+      ]
+    },
+    {
+      "id": "C29",
+      "dimension": "G. Authorial presence",
+      "claim": "Personal disclosure is small and functional; the self is a comic foil, not the subject.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W062",
+          "hebrew": "(אנחנו פולנים, מתרגלים לזה)",
+          "shows": "Family detail as joke"
+        },
+        {
+          "article": "W107",
+          "hebrew": "מדובר ביורד מישראל, מעוז החאקי והסרפן",
+          "shows": "Dog's origin as joke"
+        },
+        {
+          "article": "W079",
+          "hebrew": "ללכת יום אחרי הנחיתה לים ולהיחרך כפרחה אמריקאית",
+          "shows": "Self-mockery"
+        },
+        {
+          "article": "W093",
+          "hebrew": "החבורה התמוהה הזו נסעה לה באוטו",
+          "shows": "Self among a comic group"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C30",
+      "dimension": "G. Authorial presence",
+      "claim": "Interpretation is handed back to the reader; pieces end on a line, not a thesis.",
+      "confidence": "high",
+      "pattern": "recurring",
+      "evidence": [
+        {
+          "article": "W052",
+          "hebrew": "ואולי בעצם הסכיזופרניה הזאת היא סוד קסמה",
+          "shows": "Tentative reading as closing"
+        },
+        {
+          "article": "W089",
+          "hebrew": "אולי הווייב הקפדן הוא בעצם הדרך של או... להתענג על מעמד הסופרסטארית",
+          "shows": "Tentative reading"
+        },
+        {
+          "article": "W071",
+          "hebrew": "הבעיה מתחילה כשאנו הופכים את עצמנו לקוריוז.",
+          "shows": "Plain two-sentence thesis in an opinion piece"
+        }
+      ],
+      "counterexamples": [
+        "Opinion columns W071 and W087 do state a position, in two or three plain sentences"
+      ]
+    },
+    {
+      "id": "C31",
+      "dimension": "H. Variation",
+      "claim": "Slang, transliterated English, and Israeli references are densest in 2005 to 2012 Ynet/nrg/Xnet work and thin in 2017 At and 2019 Israel Hayom.",
+      "confidence": "high",
+      "pattern": "period-dependent",
+      "evidence": [
+        {
+          "article": "W062",
+          "hebrew": "ילד האהבה הטראשי שאני משלח כל שבוע",
+          "shows": "2005 density"
+        },
+        {
+          "article": "W089",
+          "hebrew": "שנראית הרבה פחות, אם יורשה לי",
+          "shows": "2019 wit confined to a parenthetical"
+        },
+        {
+          "article": "W003",
+          "hebrew": "דרייפוס מורידה את נעלי העקב הגבוהות ונשארת יחפה",
+          "shows": "2019 scene reporting instead of jokes"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C32",
+      "dimension": "H. Variation",
+      "claim": "Promotional film interviews (2011 to 2014 Ynet) are service journalism with a synopsis paragraph and humor confined to the opening and closing exchange.",
+      "confidence": "high",
+      "pattern": "genre-dependent",
+      "evidence": [
+        {
+          "article": "W122",
+          "hebrew": "את דמותה של וויין הענוגה מגלמת השחקנית האוסטרלית איבון סטרהובסקי",
+          "shows": "Synopsis register"
+        },
+        {
+          "article": "W023",
+          "hebrew": "\"מעולה, דבר איתי אחרי הראיון\"",
+          "shows": "Closing exchange carries the humor"
+        },
+        {
+          "article": "W165",
+          "hebrew": "כשהוא לא מכה עבדים בלואיזיאנה, פאסבנדר מעביר את חייו בין לונדון ללוס אנג'לס",
+          "shows": "Single dry transition in an otherwise straight piece"
+        }
+      ],
+      "counterexamples": []
+    },
+    {
+      "id": "C33",
+      "dimension": "H. Variation",
+      "claim": "Publisher furniture (self-citation tags, caption style, third-person subtitles, the נ.ד bracket) is house convention, not a personal trait.",
+      "confidence": "high",
+      "pattern": "conventions",
+      "evidence": [
+        {
+          "article": "W011",
+          "hebrew": "אומר אג'יפור בראיון ל-ynet",
+          "shows": "Ynet self-citation"
+        },
+        {
+          "article": "W126",
+          "hebrew": "בראיון מיוחד ל\"רייטינג\"",
+          "shows": "nrg self-citation"
+        },
+        {
+          "article": "W056",
+          "hebrew": "ברטון. עושים לו כבוד",
+          "shows": "Ynet caption style"
+        },
+        {
+          "article": "W003",
+          "hebrew": "(ארמדנו לנצ'י; נ\"ד)",
+          "shows": "Standard clarification bracket"
+        }
+      ],
+      "counterexamples": []
+    }
+  ],
+  "measurements": [
+    {
+      "id": "M1",
+      "name": "Narration sentence length",
+      "method": "Narration only: frontmatter, archival footer, captions, bold prompts, and paragraphs opening with a quotation mark removed; quoted spans of 15+ characters inside mixed paragraphs stripped; sentences split on terminal punctuation; words are whitespace tokens of Hebrew text. 49 solo pieces; W106 excluded.",
+      "results": {
+        "totalNarrationWords": 17812,
+        "meanOfArticleMeans": 14.9,
+        "articleMeanRange": [
+          7.7,
+          32.5
+        ],
+        "shareSentencesLe6Words": 0.24,
+        "shareSentencesGe25Words": 0.16,
+        "narrationLongerThanQuotedSpeech": "36 of 41 pieces with both (exceptions W007, W062, W080, W116, W122)"
+      },
+      "caveat": "Hebrew prefixes make word counts lower than English equivalents; do not convert into English targets. The split heuristic undercounts sentences ending inside quotation marks."
+    },
+    {
+      "id": "M2",
+      "name": "Parenthetical asides",
+      "method": "Count of opening parentheses in narration per 100 narration words, same corpus as M1.",
+      "results": {
+        "meanPer100Words": 1.1,
+        "range": [
+          0.0,
+          3.7
+        ],
+        "highest": "W079 (3.7), W185 (3.1), W176 (2.5), W011 (2.5)",
+        "zero": "W071, W094, W021, W162, W186",
+        "validationPiecesWithAsides": "26 of 29"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Interviewer prompts",
+      "method": "Bold paragraphs in article.he.md that are not bylines or closing notes, across the 36 solo pieces that contain prompts.",
+      "results": {
+        "promptsCounted": 281,
+        "shareWithoutQuestionMark": 0.26,
+        "meanWords": 9.2,
+        "medianWords": 8,
+        "shareLe5Words": 0.26,
+        "maxWords": 32
+      }
+    }
+  ],
+  "limitations": [
+    "One solo review (W114) and one coauthored review (W106).",
+    "No English originals, blog posts, academic prose, or professional correspondence in the corpus.",
+    "Seven pieces are online editions of longer print versions (W035, W108, W116, W126, W163, W164, W176).",
+    "Headline and subtitle authorship is uncertain.",
+    "2017 At and 2019 Israel Hayom periods are represented by two pieces each.",
+    "The earlier AI-generated English draft of W046 was not used as evidence."
+  ]
+}
