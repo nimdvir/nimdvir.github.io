@@ -1,0 +1,46 @@
+{
+  "articleId": "W195",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "The Stone Age: Emma Stone Conquers Hollywood",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "classification": "Nim-authored researched profile; Stone's quotations are attributed to earlier interviews ('she said in an interview'), not an original interview by Nim"
+  },
+  "sourceTextBlocks": 21,
+  "translatedTextBlocks": 21,
+  "questionBlocks": 0,
+  "headings": 2,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "19 narrative/quotation paragraphs and 2 section headings translated in original order; the source record counts 19 body blocks and 2 headings.",
+    "Both caption lines translated with credits (AP; scan).",
+    "The short standalone quotation paragraph ('I wanted to act...') kept as its own paragraph as in the source.",
+    "No H1 added; no pull quote; opening and closing paragraphs complete."
+  ],
+  "voiceChecks": [
+    "Numbered tally opening ('1. ... 4.') kept inline, ending on the rhetorical question.",
+    "One-word verdict 'Ouch.' kept as its own sentence after the audition anecdote.",
+    "Parentheticals kept: '(and in certain cases blonde, more on that later)', '(hers)', '(allow us to add: literally)', '(again)'.",
+    "Impression-framed judgment kept ('a slight suspicion arises that her parents had a hand in it too').",
+    "Subtitle's closing joke kept as the last clause; no added humor in the quoted passages."
+  ],
+  "decisions": [
+    "Established English titles used for all Hebrew film and show titles: Superbad, The House Bunny, Ghosts of Girlfriends Past, Zombieland, Easy A, Friends with Benefits, Crazy, Stupid, Love, The Amazing Spider-Man, Dirty Dancing, The Social Network, In Search of the New Partridge Family, Heroes, Medium, Malcolm in the Middle, Drive, Gangster Squad.",
+    "'הכוסית קלת הדעת' rendered as 'the ditzy hot chick' to keep the register of the Hebrew slang.",
+    "The reversed parentheses in ')שלה(' rendered as a normal parenthesis '(hers)'.",
+    "The garbled quotation 'בעיקר המנהל וגם מאוד מאוד רחוק ממני' translated literally ('mainly my manager and also very, very far from me') rather than guessed at.",
+    "'אמה עזבה אותה' read as 'her mother left her' (returned home), consistent with the next clause about living alone.",
+    "'סריקה' credit rendered as '(scan)'."
+  ],
+  "sourceProblems": [
+    "Source contains reversed parentheses ')שלה(' and an apparently garbled quotation about her manager; left unchanged in the Hebrew and flagged here.",
+    "Hair-color and career claims (natural blonde, 'Hot 100' rank 42, People list rank 10) are kept as printed and not fact-checked.",
+    "Source was decoded from Windows-1255 despite a UTF-8 header."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim recalls the intended wording of the garbled manager sentence."
+  ]
+}

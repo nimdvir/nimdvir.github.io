@@ -1,0 +1,46 @@
+{
+  "articleId": "W159",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "Mamma Mia! The Story of ABBA's Frida Lyngstad",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "classification": "Nim-authored researched biographical feature; quotations are attributed secondary sources (the Observer, a Lebensborn organization spokesman), not an original interview"
+  },
+  "sourceTextBlocks": 19,
+  "translatedTextBlocks": 19,
+  "questionBlocks": 0,
+  "headings": 2,
+  "captions": 3,
+  "images": 0,
+  "completenessChecks": [
+    "17 narrative paragraphs and 2 section headings translated in original order; the source record counts 17 body blocks plus 2 headings.",
+    "3 caption lines translated with credits (Daniel Ahs Karlsson, PR, AP).",
+    "Secondary quotations keep their original attributions (the Observer; Tor Brandacher).",
+    "No H1 added; no pull quote; opening and closing paragraphs complete."
+  ],
+  "voiceChecks": [
+    "The one-sentence catalogue of Frida's life kept as a single long semicolon list with the '(take a breath, this is a long one)' aside intact.",
+    "The body is almost entirely serious historical narration; no humor was added and the restrained register was kept throughout the Lebensborn passages.",
+    "Small dry touches kept at the same weight ('65 years of existence on the planet', 'not to say cynically \"created\"', 'To Frida's (relative) good fortune').",
+    "Captions kept in the telegraphic two-part style."
+  ],
+  "decisions": [
+    "The subtitle's pun 'אבא של זאת מאבבא' (abba = dad / ABBA) cannot be carried into English; rendered plainly as 'the father of that one from ABBA'.",
+    "'מקור החיים (Lebensborn Krigsbarnforbundet)' kept as 'the Fount of Life (Lebensborn Krigsbarnforbundet)' exactly as the source combines the terms; not corrected.",
+    "Damaged Hebrew punctuation ('ארה?ב', 'ג?ונתן', '?פריקית?') rendered as the evident intended words (US, Jonathan, 'freak') in English; the Hebrew is untouched.",
+    "The source's scrambled album and song punctuation ('\"נשימות עמוקות\"), \"Djupa andetag\"' and '\"השמש תזרח שוב\", Shine Again The Sun Will\"') rendered in normal English order: 'Djupa andetag' ('Deep Breaths') and 'The Sun Will Shine Again'.",
+    "Historical claims (12,000 children, the LSD allegation, ages, dates, 'Heinrich Ruzzo') are kept exactly as printed and not fact-checked or corrected.",
+    "'מקהלה מקצועית' for The Evald Eks Orchestra rendered as 'professional ensemble' since the source names an orchestra."
+  ],
+  "sourceProblems": [
+    "Source contains damaged punctuation where quotation marks or geresh were lost (ארה?ב, ג?ונתן, ?פריקית?); left unchanged in the Hebrew.",
+    "Source punctuation around the album and song titles is irregular and the English song title is scrambled; left unchanged in the Hebrew, normalized in the English.",
+    "This is a reported feature compiled from secondary sources, not an original interview; the English keeps every attribution.",
+    "The source record notes the piece carried the רייטינג (Rating) supplement logo on nrg; the English frontmatter uses 'nrg' as in the Hebrew frontmatter."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim wants an explanatory note about the lost abba/ABBA pun on the website version."
+  ]
+}

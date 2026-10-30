@@ -1,0 +1,45 @@
+{
+  "articleId": "W058",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "Proud to Be Here",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "classification": "Nim-authored original reporting (set-visit feature with one interviewer prompt)"
+  },
+  "sourceTextBlocks": 12,
+  "translatedTextBlocks": 12,
+  "questionBlocks": 1,
+  "headings": 1,
+  "captions": 4,
+  "images": 0,
+  "completenessChecks": [
+    "10 narrative/quotation paragraphs, 1 section heading and 1 bold interviewer prompt translated in original order; matches source record (bodyTextBlocks 12, interviewerPromptCount 1).",
+    "4 caption lines (video, two inline images, sidebar image) translated; the source video caption's duplicated credit is reproduced verbatim as the source record requires.",
+    "Photo credits to Nimrod Dvir, Avi Hai and Maya Sharon preserved.",
+    "No H1 added; no pull quote; opening and closing paragraphs complete."
+  ],
+  "voiceChecks": [
+    "Proposition-then-undercut opening kept, with the deadpan 'nothing to go whining to Mom about' as the final clause.",
+    "One-word verdict 'Shocking.' preserved as its own sentence after the two deliberate 'naturally's.",
+    "Parenthetical asides kept as parentheses (title gloss, 'straight ones, originally', 'where we were', the injection aside).",
+    "Section heading's two-beat joke ('All for the tourists. The gay ones') kept as two sentences.",
+    "Quotes left plain; no added humor in the subject's answers."
+  ],
+  "decisions": [
+    "The Hebrew parenthesis glossing the English title into Hebrew is rendered as '(or \"Betokh Yisrael,\" in plain translation. And no, the lead character is not named Israel)' so the joke survives for an English reader.",
+    "'יהודי חם' rendered as 'a warm-hearted Jew'.",
+    "'הבין באיזה צד מרוח הכסף' rendered with the English idiom 'which side the money was buttered on'.",
+    "Transliterated English 'שוקינג' rendered as plain 'Shocking.' without compensation.",
+    "Place names use standard English forms: Ga'ash Beach, Golan Heights, Jordan River, Rosh Hanikra.",
+    "Lucas's age (37) and the November release date are kept as printed."
+  ],
+  "sourceProblems": [
+    "Source video caption repeats its filming/editing credit twice; reproduced verbatim.",
+    "Original photographs are credited collectively to Nimrod Dvir without a stated reuse license; not reproduced."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim wants to clear and reuse his own set photographs for the website version, since the credit is his."
+  ]
+}

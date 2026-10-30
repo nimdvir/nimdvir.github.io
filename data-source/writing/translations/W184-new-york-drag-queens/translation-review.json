@@ -1,0 +1,48 @@
+{
+  "articleId": "W184",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "Cockfight: Behind the Scenes of \"The Drag Queens of New York\"",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
+    "classification": "Nim-authored firsthand two-day set reporting with twelve interviewer statements"
+  },
+  "sourceTextBlocks": 43,
+  "translatedTextBlocks": 43,
+  "questionBlocks": 12,
+  "headings": 2,
+  "captions": 4,
+  "images": 0,
+  "completenessChecks": [
+    "29 narrative/quotation paragraphs, 12 bold interviewer prompts and 2 section headings translated in original order; the source record counts 41 body blocks (paragraphs plus prompts) and 2 headings separately.",
+    "All 12 prompts kept bold and separate, including the interviewer's reply 'I'm on a break, and I don't want to steal the focus from the girls.' which has no question mark.",
+    "4 caption lines translated with PR credits.",
+    "Numbered points '1.' and '2.' kept as separate paragraphs as in the source.",
+    "No H1 added; no pull quote; opening and closing paragraphs complete."
+  ],
+  "voiceChecks": [
+    "Opening 'Let's open with old news' and the hanging 'And still.' kept as the paragraph's last beat.",
+    "'Something of a coup.' kept as a fragment for 'סוג של שיחוק'.",
+    "Parenthetical asides retained ('if you can call them that', 'for example, that they are all looking for love', 'in this particular scene they used three').",
+    "Self-mockery kept: martinis and gawking; 'Look for my looks of astonishment when the episode airs.'",
+    "Interviewer's flat challenges ('Not exactly. With my own eyes I saw...') kept blunt, not softened.",
+    "Queens' speech kept at its own register (bitches, honey, sugar, darling) without smoothing."
+  ],
+  "decisions": [
+    "Title: the Hebrew 'קרב תרנגולות' feminizes 'cockfight' (literally a hen fight); rendered as 'Cockfight' to match the verified APA gloss, with the nuance recorded here.",
+    "The show is named as Nim names it, 'The Drag Queens of New York'; the series was later broadcast under the title 'Queens of Drag: NYC', which the website version may want to note.",
+    "Hebrew series titles rendered with established English names: The Hills ('הוליווד הילס'), Keeping Up with the Kardashians ('משפחת קרדשיאן'), The Real Housewives, Desperate Housewives, The L Word ('ישנן בנות'), Project Runway.",
+    "Pnina Rosenblum glossed in three words ('Israel's cosmetics queen') because the joke depends on knowing her trade.",
+    "Transliterated 'פייר?' rendered as 'Honestly?'.",
+    "'אמצ\"ש' rendered as 'midweek'.",
+    "Drag names use their established English spellings (Hedda Lettuce, Sherry Vine, Bianca Del Rio, Mimi Imfurst, Acid Betty, Dallas DuBois); 'Mimi Imfurst' is the established spelling of the name Nim transliterates."
+  ],
+  "sourceProblems": [
+    "Source was decoded from Windows-1255 despite a UTF-8 header; the Markdown text is clean.",
+    "One inline advertisement was removed during capture and the split text rejoined; no wording changed."
+  ],
+  "unresolvedQuestions": [
+    "Whether to retitle 'Cockfight' as 'Catfight' for the website, which is the idiomatic English for the Hebrew pun, or keep the literal rendering."
+  ]
+}

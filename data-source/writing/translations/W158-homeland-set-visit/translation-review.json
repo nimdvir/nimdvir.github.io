@@ -1,0 +1,48 @@
+{
+  "articleId": "W158",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "For the Second Season: A Visit to the Homeland Set",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "classification": "Nim-authored original reporting (set-visit feature with four interviewer prompts)"
+  },
+  "sourceTextBlocks": 48,
+  "translatedTextBlocks": 48,
+  "questionBlocks": 4,
+  "headings": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "44 narrative/quotation paragraphs (including the standalone period the source contains) and 4 bold interviewer prompts translated in original order; matches the source record (bodyTextBlocks 48, interviewerPromptCount 4).",
+    "All 3 body hyperlinks (Israel shoot, The Princess Bride, Danes pregnancy) kept on the same words.",
+    "Multi-paragraph answers (Patinkin, Gansa, Baccarin) keep their original paragraph boundaries and open-quote convention.",
+    "No images or captions exist in the current publisher source; none invented.",
+    "No H1 added; opening and closing paragraphs complete."
+  ],
+  "voiceChecks": [
+    "Jonathan Pollard aside kept as a parenthesis; Coca-Cola formula simile kept.",
+    "'one scene only (!)' and '14 hours times 3' kept as written; the 'recite the text backwards' deadpan kept as a short sentence.",
+    "The 'captive (retired)' joke on 'במיל'' preserved as a parenthetical rank.",
+    "'the sister from Israel' kept rather than normalized to 'the Israeli original'.",
+    "Shalit passage kept flat and serious; the closing Obama exchange keeps Lewis's line as the last word."
+  ],
+  "decisions": [
+    "'10 dunams' kept with a minimal gloss ('about two and a half acres') because the unit is unfamiliar to English readers.",
+    "'הלומי קרב אנגלים' rendered as 'shell-shocked English veterans'.",
+    "Established English titles used: Homeland, The Hunger Games, Captain America, Dawson's Creek, Band of Brothers, The Princess Bride, Pride & Prejudice, 24, True Blood; 'חטופים' rendered as Hatufim with its English title Prisoners of War in parentheses, as Nim glosses titles elsewhere.",
+    "Hebrew 'שיחות הברזייה' rendered as 'water-cooler conversations'.",
+    "'כפי שנראה גם על השער' and similar house references do not occur; the 'yes' broadcaster name kept lowercase as the brand writes it.",
+    "The lone period paragraph between the pregnancy and Obama passages is reproduced so the block count matches the verified source; it is a publisher artifact, not content."
+  ],
+  "sourceProblems": [
+    "A standalone period appears as its own paragraph in the source between the pregnancy passage and the Obama passage; reproduced and flagged for removal in the website version.",
+    "Source wording 'הירידה לפרטיים הקטנים' (sic) translated by sense ('attention to the smallest details').",
+    "No article-specific photograph URLs or captions are exposed by the current publisher page; image recovery remains pending per source-record.json."
+  ],
+  "unresolvedQuestions": [
+    "Confirm removal of the standalone period in the website version.",
+    "Whether to render 'Hatufim' alone or with its English distribution title 'Prisoners of War' on the website."
+  ]
+}

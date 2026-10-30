@@ -1,0 +1,45 @@
+{
+  "articleId": "W056",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "An Exhibition of Ghosts",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
+    "classification": "Nim-authored original reporting (feature)"
+  },
+  "sourceTextBlocks": 14,
+  "translatedTextBlocks": 14,
+  "questionBlocks": 0,
+  "headings": 1,
+  "captions": 7,
+  "images": 0,
+  "completenessChecks": [
+    "13 narrative paragraphs and 1 section heading translated in original order; counts match the source record (bodyTextBlocks 14).",
+    "All 7 caption lines (1 video, 5 inline images, 1 sidebar image) translated with credits preserved (AFP, Gettyimages Imagebank).",
+    "All 4 body hyperlinks (two Ynet, MoMA, YouTube) kept on the same words.",
+    "No H1 added; subtitle placed at the start of the body; no pull quote added.",
+    "Opening and closing paragraphs compared to the Hebrew and complete."
+  ],
+  "voiceChecks": [
+    "Opening parallel structure (Depp crowned / Burton honored) kept as one sentence.",
+    "Parentheticals retained as parentheticals, including the MoMA spelling aside and the Nightmare Before Christmas correction.",
+    "Mild evaluative register kept (\"not-bad service\", \"recommended experience\") without intensifiers.",
+    "Closing sentence kept as a flat verdict, not an upbeat conclusion.",
+    "The piece is a restrained feature with little humor; none was added."
+  ],
+  "decisions": [
+    "Established English film titles used: Beetlejuice, Edward Scissorhands, Batman, The Nightmare Before Christmas, Charlie and the Chocolate Factory, Vincent, Alice in Wonderland.",
+    "The Hebrew aside about MoMA's Hebrew spelling rendered as '(MoMA, or \"Moma\" as Hebrew spells it)' so the gloss still makes sense in English.",
+    "Hebrew caption style (two short parts) kept.",
+    "'עושים לו כבוד' in the sidebar caption rendered as 'Giving him his due'."
+  ],
+  "sourceProblems": [
+    "The source breaks two sentences across paragraph boundaries ('...along the / timeline.' and '...the innovation / and the magic of old.'). The breaks are reproduced in the English so the paragraph count matches; a website version may rejoin them.",
+    "Source wording 'ברטון זכה פה בשירות לא רע סרטו הבא' appears to be missing a preposition; translated according to the evident sense ('service... for his next film') and not corrected in the Hebrew.",
+    "Publisher photographs and the promotional video were not reproduced; captions only."
+  ],
+  "unresolvedQuestions": [
+    "Whether to rejoin the two mid-sentence paragraph breaks in the website version."
+  ]
+}

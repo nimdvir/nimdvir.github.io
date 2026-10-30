@@ -1,0 +1,52 @@
+{
+  "articleId": "W097",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "englishTitle": "Karim Rashid's Utopia",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "מאת ניו יורק , נמרוד דביר",
+    "classification": "Nim-authored magazine interview; 'New York' in the byline is a location link, not a second author"
+  },
+  "sourceTextBlocks": 37,
+  "translatedTextBlocks": 37,
+  "questionBlocks": 14,
+  "boldNarrativeLeadIns": 1,
+  "headings": 3,
+  "captions": 10,
+  "images": 0,
+  "completenessChecks": [
+    "19 narrative/quotation paragraphs, 14 bold interviewer prompts, 1 bold narrative lead-in (the Trump sentence, kept bold and not counted as a prompt, as the source record specifies) and 3 section headings translated in original order; the source record counts 34 body blocks plus 3 headings.",
+    "All 10 caption lines translated with photographer credits kept (Stanislas Liban x3, Yael Engelhart, Assaf Pinchuk, PR x4, Michel Gavnit); the header image placeholder kept before the first paragraph as in the Hebrew archive.",
+    "The single long 'Rashid-land' paragraph and the single long paragraph that combines the White House answer, narration and two further quotations keep their source paragraph boundaries.",
+    "The one body hyperlink (Poli House hotel, long atmag URL) kept exactly on the same words.",
+    "No H1 added; no pull quote; opening and closing paragraphs complete. No closing fashion-credits line exists in this article (that line belongs to W098)."
+  ],
+  "voiceChecks": [
+    "Opening 'On paper... In practice...' structure and the 'God is not in the details but in the overall vibe' twist kept.",
+    "Mock-formal 'Rashid-land' description kept as one accumulating paragraph with its parentheticals ('his favorite color and his trademark', 'some tens of millions of dollars').",
+    "The narrator's concession-then-dig rhythm kept: he arrives an hour late 'even though he lives next door, and still...'.",
+    "Self-critical aside about the studio's cheapness kept at the same weight, with the Dizengoff Center gift-shop comparison intact.",
+    "Rashid's speech kept blunt ('analog bullshit', 'Disney's rules... are bullshit'); nothing sanitized."
+  ],
+  "decisions": [
+    "Irit Rahamim glossed as 'the TV decorator' and Miri Regev as 'the culture minister' because the comparison depends on knowing who they are.",
+    "'חנות סוהו בדיזנגוף סנטר' rendered as 'the Soho gift shop in Dizengoff Center' (Soho is an Israeli design-gift chain); 'the aunt from Ra'anana' kept.",
+    "The hotel is named 'the Poli House' as the hotel itself spells it.",
+    "'הפאסון' rendered as 'the pomp'; 'זיל הזול' heading rendered as 'Dirt cheap'.",
+    "The publisher typo 'הייתי מעצב לו' (first person) in the prompt is rendered as the evidently intended second-person question 'Would you design one of his houses for him?'; the Hebrew is untouched and the typo is recorded below.",
+    "'Offect Orgy' kept as the source spells the brand (the manufacturer spells it Offecct).",
+    "The photographer credit 'מישל גבניט' is transliterated as 'Michel Gavnit'; the Latin spelling could not be verified from the source.",
+    "The byline line notes the printed byline 'By New York, Nimrod Dvir' because the publisher presents New York as a separate link."
+  ],
+  "sourceProblems": [
+    "Publisher typo in the White House prompt (הייתי instead of היית); preserved in the Hebrew, rendered by sense in English.",
+    "One publisher paragraph combines the White House answer, narration, and two further quotations; the boundary is preserved.",
+    "Publisher spells the sofa brand 'Offect'.",
+    "Direct publisher request returned HTTP 403 at capture; text was verified from the full rendered page."
+  ],
+  "unresolvedQuestions": [
+    "Confirm the Latin spelling of the portrait photographer credited as מישל גבניט.",
+    "Whether the Rahamim and Regev glosses should stay in the website version or be dropped for an Israeli audience."
+  ]
+}
