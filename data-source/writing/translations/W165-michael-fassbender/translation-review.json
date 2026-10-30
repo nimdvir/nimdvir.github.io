@@ -1,0 +1,54 @@
+{
+  "articleId": "W165",
+  "englishTitle": "Michael Fassbender: 'I Hope Humanity Has Changed'",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "sourceTextBlocks": 22,
+  "translatedTextBlocks": 22,
+  "questionBlocks": 7,
+  "captions": 7,
+  "images": 0,
+  "completenessChecks": [
+    "All 15 narrative and answer paragraphs, 7 bold prompts and 0 section headings present in original order.",
+    "Answer split across two paragraphs (before and after the 'complicated character' caption, and the 'I work these days' tail recovered in the source record) kept as separate paragraphs.",
+    "All 7 captions translated, including the trailer caption and the empty sidebar credit line; photographer credits kept.",
+    "The single body hyperlink (Oscar nomination) kept on the same words.",
+    "No H1 added; subtitle placed at the start of the body."
+  ],
+  "voiceChecks": [
+    "Opening long sentence on the film's violence kept intact with the delayed clause about returning to everyday life.",
+    "Nim's dry transition 'When he isn't beating slaves in Louisiana' kept as the one comic beat in an otherwise straight piece.",
+    "Slavery passages and Fassbender's answers kept serious; no jokes added.",
+    "Caption two-part style preserved ('Quite the pair', 'An Oscar on the way?')."
+  ],
+  "decisions": [
+    "Title field reuses the published website page's English headline, 'Michael Fassbender: \\'I Hope Humanity Has Changed\\'', which is faithful to the Hebrew headline; the published page was consulted for name and title spellings only, not wording.",
+    "Established English titles used: 12 Years a Slave, Hunger, Shame, X-Men: First Class, 300, Inglourious Basterds.",
+    "'שחקן הבית של מקווין' rendered 'McQueen's in-house actor'.",
+    "'אם כבר הורדת מגננות' rendered 'Speaking of dropping defenses' to keep the pivot off the previous quote.",
+    "'צמד חמד' caption rendered 'Quite the pair'.",
+    "'לשמור על העוגה ולאכול אותה' rendered with the standard English idiom 'having your cake and eating it too'.",
+    "'גלאי בולשיט' kept as 'bullshit detector' at the same register.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source gives the year of Northup's kidnapping as 1841; retained as printed.",
+    "Source spells Matthew Vaughn as מ'תיו ווהן; name rendered with the established English spelling.",
+    "The sidebar image caption contains only a credit, '(צילום: MCT)'; retained as an empty caption with credit.",
+    "Source record notes that W005 lists a different, unrelated URL and that an abridged English website text overlaps this interview; W005 remains unresolved and was not touched."
+  ],
+  "unresolvedQuestions": [
+    "Whether to keep the empty sidebar caption line in a future website version or drop it with the image.",
+    "Published page (src/content/interviews/michael-fassbender.md) is an abridged version: it keeps only 2 of the 7 prompts and about 6 of the 15 answer and narrative paragraphs, and drops the whip, Epps's misery, Patsey, the personal-life, and the fourth-film exchanges, plus all captions.",
+    "Published page adds four section headings ('A Shattering Experience', 'A Powerful Partnership', 'Has Humanity Changed?', 'Toward an Oscar?') that do not exist in the Hebrew, and rewrites the opening into two summary paragraphs.",
+    "Published page links to L-4478269 (an unrelated medical column per the source record); the verified Hebrew source is L-4478514. Nim should decide whether the page should be corrected or replaced by this full draft."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/michael-fassbender.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}

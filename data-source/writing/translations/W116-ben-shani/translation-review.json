@@ -1,0 +1,40 @@
+{
+  "articleId": "W116",
+  "englishTitle": "\"Ilana Is a Phenomenon\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 15,
+  "translatedTextBlocks": 15,
+  "questionBlocks": 4,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "All 10 narrative and answer paragraphs, 4 bold prompts and 1 section heading present in original order.",
+    "The first answer, which the Hebrew splits into two paragraphs ('At first I had to change my thinking'), kept split at the same point.",
+    "The interviewer statement 'With most journalists you expect to see pressure...' kept as a bold prompt, as in the archived Hebrew (the source record notes it was unbolded on the publisher page).",
+    "Both captions translated with credits (Alon Porat; Yaron Loizon).",
+    "The 'N.D.' bracket identifying Keshet kept inside the quote."
+  ],
+  "voiceChecks": [
+    "Opening 'is in for a surprise' kept as the short setup before the quote; the triple 'No pager, no hysterical phone calls, no buzz' kept as a fragment sentence.",
+    "Narration is brief framing throughout, as in the source; no jokes added.",
+    "Shani's quoted praise kept at full length without trimming repetition ('Ilana Dayan is Uvda. There's no Uvda without Ilana.')."
+  ],
+  "decisions": [
+    "Israeli program and outlet names kept as proper nouns: Uvda, Yoman, Keshet, Channel 1, Channel 8, Channel 10, Rating (the nrg TV supplement); Big Brother and MasterChef use the international franchise names.",
+    "Documentary titles rendered 'Remedia's Children' (ילדי רמדיה) and 'Ralph' (רלף).",
+    "'טאלנט' rendered 'a talent' (the industry sense of an on-air personality) and kept in the prompt and answer.",
+    "'איש של מגזין' rendered 'a magazine man'; 'העבודה היא יותר רוחבית' rendered 'the work is more horizontal'.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source record: online version complete, but the publisher advertised the full feature in the print Rating issue; print-only material is not included or reconstructed.",
+    "Source record notes an inline advertisement was removed during capture and the split text rejoined; the English follows the rejoined paragraph.",
+    "The second caption gives a credit without 'Photo:' ('ירון לויזון'); rendered as printed."
+  ],
+  "unresolvedQuestions": []
+}

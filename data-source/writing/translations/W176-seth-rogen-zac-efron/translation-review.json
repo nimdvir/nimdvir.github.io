@@ -1,0 +1,48 @@
+{
+  "articleId": "W176",
+  "englishTitle": "Seth Rogen: \"There's Something Scary About Zac Efron\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "sourceTextBlocks": 24,
+  "translatedTextBlocks": 24,
+  "questionBlocks": 8,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "All 15 narrative and answer paragraphs and 8 bold prompts present in original order; no section headings in the source.",
+    "Three narrative paragraphs that open with bold text in the Hebrew ('But let's leave Zacky alone', 'For Efron', '\"It's a never-ending struggle\"') kept as narrative paragraphs with the same bold span, not converted into prompts.",
+    "In-text bold on names (Zac Efron, Rita Ora, Seth Rogen, Evan Goldberg, Rose Byrne, Dave Franco, Lisa McCarthy, Charlie Day) preserved where the Hebrew bolds them.",
+    "The long combined paragraph of Efron and Rogen quotes on the transition period kept as one paragraph with its original quote sequence.",
+    "Both body hyperlinks (MTV awards, Hollywood Reporter interview) kept on the same words.",
+    "All 5 captions translated, including the final credit-only caption 'Publicity'."
+  ],
+  "voiceChecks": [
+    "The opening parenthetical about the Portuguese journalist kept as a parenthesis; 'Interesting.' kept as a one-word deadpan beat before the bronzer observation.",
+    "The sexual-harassment quip kept at its original weight, followed by the concession 'But let's leave Zacky alone'.",
+    "The very long comparative sentence contrasting Efron and Rogen kept as a single sentence with its semicolon, as in the Hebrew, since the accumulation is the point.",
+    "'(brother of)' kept as the bare deflating aside after Dave Franco.",
+    "The addiction and relapse paragraph kept serious and unsoftened."
+  ],
+  "decisions": [
+    "Established English titles used: Neighbors (for שכנים), High School Musical, Knocked Up (for הדייט שתקע אותי), Pineapple Express, Superbad, This Is the End (for סוף), It's Always Sunny in Philadelphia.",
+    "'זאקי' rendered 'Zacky' to keep the diminutive.",
+    "'סטלן מקצועי' rendered 'professional stoner'.",
+    "'בדיחות הבולבולים' rendered 'dick jokes' at the same register.",
+    "'הציפוי על העוגה' rendered 'the icing on the cake'; 'סיימתי בגדול' rendered 'I finished in style'.",
+    "Caption 'ברור מאמי, גנים!' rendered 'Of course, sweetie, it's genetics!'.",
+    "'יח\"צ' credit rendered 'Publicity'.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source names Melissa McCarthy as 'ליסה מקרת'י'; rendered 'Lisa McCarthy' as printed, per the source record, not corrected.",
+    "Source record: the online version is complete, but the publisher pointed to a fuller interview in the print Pnai Plus issue; print-only material is not included or reconstructed.",
+    "Source has a stray mismatched quotation mark in \"'שכנים\"\" (the relapse paragraph); normalized in English without changing wording."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim wants the misspelled 'Lisa McCarthy' annotated for readers in a website version (the draft keeps the source spelling)."
+  ]
+}

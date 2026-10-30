@@ -1,0 +1,43 @@
+{
+  "articleId": "W186",
+  "englishTitle": "Ryan Gosling: \"The Ofnobank Is My Idol\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "sourceTextBlocks": 26,
+  "translatedTextBlocks": 26,
+  "questionBlocks": 5,
+  "captions": 10,
+  "images": 0,
+  "completenessChecks": [
+    "All 19 narrative and answer paragraphs, 5 bold prompts and 2 section headings present in original order.",
+    "Answers that the Hebrew splits across two paragraphs (dinner with Derek; the 'what makes a man' answer around the trailer caption) kept split at the same points.",
+    "All 10 captions translated, including the trailer caption with its empty parenthesis as printed and the sidebar caption at the end.",
+    "No body hyperlinks in the source; none added."
+  ],
+  "voiceChecks": [
+    "Opening 'The next surprising discovery came right at the start' kept as the dry setup; 'the Hollywood hunk' kept as the mock-epithet.",
+    "Caption 'Spot the differences' under the Leibovitz photo kept; 'Makes you want one' kept as the short caption beat.",
+    "Closing paragraph keeps the turn from 'insists on staying dressed' to the strippers comparison and ends on Gosling's own line about singing and dancing.",
+    "Narration stays in present tense; no jokes added."
+  ],
+  "decisions": [
+    "'האופנובנק' kept as the nickname 'Ofnobank' throughout, with the gloss 'Israel's \"Ofnobank\" motorcycle bank robber' in the subtitle (its first appearance for an English reader); in the body it stays unglossed as in the Hebrew. The APA gloss in the footer is the archive's own bracketed translation and was copied unchanged.",
+    "Established English titles used: The Place Beyond the Pines, Blue Valentine, The Dark Knight, The Notebook, Half Nelson, The Believer, Crazy, Stupid, Love, The Ides of March (for משחקי שלטון).",
+    "Section heading 'מי גבר גבר?' rendered 'Who's the Real Man?'; 'מנסה לצאת מהריבועים' rendered 'Trying to Get Out of the Abs' to keep the pun on six-pack 'squares'.",
+    "'פאדיחות' rendered 'embarrassments'.",
+    "Photographer credit 'מאיר פרטוש' rendered 'Meir Partush'.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source wording 'אז אני לא שאעשה זאת שוב' (garbled) rendered as the evident sense 'so I won't be doing it again'; noted rather than corrected in the Hebrew.",
+    "Source wording 'סרט שיעסוק למועדוני הסקס' (preposition error) rendered 'a film that will deal with the sex clubs'; Hebrew left unchanged per the source record.",
+    "Trailer caption carries an empty parenthesis '( )' in the source; retained."
+  ],
+  "unresolvedQuestions": [
+    "Whether a website version should add a one-line gloss on Roni Leibovitz for non-Israeli readers beyond the subtitle gloss."
+  ]
+}

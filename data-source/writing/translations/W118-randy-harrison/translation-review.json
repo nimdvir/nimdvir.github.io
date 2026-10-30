@@ -1,0 +1,46 @@
+{
+  "articleId": "W118",
+  "englishTitle": "\"No One Stands a Chance With Me\": An Interview With Randy Harrison",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 29,
+  "translatedTextBlocks": 29,
+  "questionBlocks": 9,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "All 19 narrative and answer paragraphs, 9 bold prompts and 2 section headings present in original order.",
+    "The 'Why?' answer, split across two paragraphs in the Hebrew, kept split at the same point.",
+    "Both captions translated with credits (Getty Images; Publicity).",
+    "No body hyperlinks in the source; none added.",
+    "The narrated laugh before the final answer ('Harrison laughs.') kept in the answer paragraph as in the source."
+  ],
+  "voiceChecks": [
+    "Opening 'Growing up is no picnic' and 'the whole world and its gay brother' kept as the comic setup; 'spring chicken' chosen for 'פרגית' to keep the mocking tone.",
+    "'The actor is about to pull a Justin Bieber' and 'give Gal Uchovsky a bit of satisfaction' kept as Nim's dry asides.",
+    "'Nice, but not exactly a series broadcast around the world.' kept as the short deflating sentence.",
+    "The 'steak into a lions' cage' provocation kept in the final prompt; the piece ends on Harrison's line."
+  ],
+  "decisions": [
+    "'הכי גאים שיש' rendered with the established English title Queer as Folk throughout.",
+    "'פרגית צעירה וחלקה' rendered 'a young, smooth spring chicken'.",
+    "'לעשות כמעשה הג'סטין ביבר' rendered 'pull a Justin Bieber'.",
+    "'הטלוויזיה החברתית' rendered 'Social TV'; 'הבית הפתוח' as 'the Open House'; 'ח\"כ' as 'MK'.",
+    "'שיגרמו לגל אוחובסקי קצת נחת' rendered 'that will give Gal Uchovsky a bit of satisfaction'; the Israeli names (Uchovsky, Menachem Ben, Nitzan Horowitz, Yonatan Gher) kept without glosses, matching the original's assumed reader.",
+    "'מתמזמזים' rendered 'making out'.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source gives Harrison's age as 34 (he was born in 1977); retained as printed per the source record.",
+    "Source encodes 'ח?כ' and 'מנכ?ל' with a literal question mark in place of the gershayim; rendered as MK and CEO without comment in the body.",
+    "Source record notes an inline advertisement was removed during capture and the split text rejoined; the English follows the rejoined paragraph.",
+    "The photo credit 'גטי אימג'ס' is given without 'Photo:'; rendered as printed."
+  ],
+  "unresolvedQuestions": [
+    "Whether the printed age 34 should be annotated for readers in a website version."
+  ]
+}

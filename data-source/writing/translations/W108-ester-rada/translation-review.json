@@ -1,0 +1,47 @@
+{
+  "articleId": "W108",
+  "englishTitle": "The Scroll of Esther",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 38,
+  "translatedTextBlocks": 38,
+  "questionBlocks": 9,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "All 25 narrative and answer paragraphs, 9 bold prompts and 4 section headings present in original order.",
+    "Answers that run across two paragraphs in the Hebrew (Kiryat Arba, Netanya, fights, Deus) kept split at the same points with the opening quotation mark repeated as in the source.",
+    "All 5 captions translated with photographer credits (Guy Gilad, Roee Berkovich, Ariel Bashor, Eyal Landesman).",
+    "No body hyperlinks in the source; none added.",
+    "The source has no closing paragraph after the final answer; the English ends at the same point."
+  ],
+  "voiceChecks": [
+    "Opening anecdote about the spaghetti photo kept with its deadpan 'the lady earned a reprimand and a two-week suspension'.",
+    "Nim's narrated concession ('And honestly, she deserves it') kept at the same weight.",
+    "'fixing me with melting eyes' kept as the one flirtatious narrative touch.",
+    "Rada's childhood, Goldstein's grave and the Netanya passages kept serious; her slang ('hardcore', 'drop it', 'some welcome') kept at register.",
+    "Section headings that quote Rada kept as quotations."
+  ],
+  "decisions": [
+    "Headline 'מגילת אסתר' rendered 'The Scroll of Esther', keeping the pun on the biblical book and her first name; the spelling 'Ester Rada' follows the inventory and her established stage name.",
+    "'ברוך הגבר' rendered 'Blessed is the man', the phrase's literal sense, since the pun on Baruch Goldstein's name does not survive in English; noted as a loss.",
+    "'הלהקה' rendered 'The Troupe', the usual English title of the Israeli film and musical.",
+    "'דאוס' kept as 'Deus'; '7 לילות' as '7 Nights'; 'ערוץ הילדים' as 'the Children's Channel'.",
+    "'אמנוצ'י' rendered 'arty-nude'; 'הפאסון' as 'the front'; 'הארד קור' as 'hardcore'; 'ג'יפה' as 'filth'; 'חתיכת וולקאם' as 'some welcome'.",
+    "'אולפנה', 'moshavim' and 'ulpana' kept as Hebrew terms without glosses, matching the original's assumed reader.",
+    "The spelled-out emphasis 'כ־ו־ל־ם' rendered 'e-v-e-r-y-o-n-e'.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source record: online version is complete, but the publisher promoted further material in the print Pnai Plus issue; print-only material is not included or reconstructed.",
+    "Source has an unmatched quotation mark at the end of 'קפצו שתי כיתות'\"'; normalized in English without changing wording.",
+    "The final caption lacks parentheses around its credit in the source; rendered as printed."
+  ],
+  "unresolvedQuestions": [
+    "Whether a website version should gloss 'Blessed is the man' as a pun on Baruch Goldstein's name for non-Hebrew readers."
+  ]
+}

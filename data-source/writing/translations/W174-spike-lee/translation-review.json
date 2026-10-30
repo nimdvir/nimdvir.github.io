@@ -1,0 +1,40 @@
+{
+  "articleId": "W174",
+  "englishTitle": "Spike Lee: \"The Oscars Mess Up Sometimes\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "sourceTextBlocks": 18,
+  "translatedTextBlocks": 18,
+  "questionBlocks": 6,
+  "captions": 7,
+  "images": 0,
+  "completenessChecks": [
+    "All 11 narrative and answer paragraphs and 6 bold prompts present in original order; no section headings in the source.",
+    "Olsen's and Lee's answers inside shared paragraphs kept together as in the Hebrew (the sex-scene answer and the closing moral answer).",
+    "All 7 captions translated (trailer caption plus 6 photo captions) with credits kept, including the final caption's unparenthesized 'Photo: MCT'.",
+    "The one body hyperlink (Oldboy) kept on the film title.",
+    "The 'N.D.' clarification bracket about the Academy kept inside the quote."
+  ],
+  "voiceChecks": [
+    "Opening sentence keeps 'biting, kicking' and the 'joints' reference to Lee's own film branding; 'almost like a favorite uncle' kept as the paragraph's closing beat.",
+    "Lee's rhetorical run ('Driving Miss Daisy?! Really, come on.') kept at the same heat without smoothing.",
+    "No jokes added; narration is light framing, as in the source."
+  ],
+  "decisions": [
+    "Established English titles used: Oldboy (for שבעה צעדים), Do the Right Thing, Malcolm X, No Country for Old Men (for ארץ קשוחה), Martha Marcy May Marlene, 12 Years a Slave, The Butler (for המשרת), Driving Miss Daisy.",
+    "Headline 'באוסקר מפשלים לפעמים' rendered 'The Oscars Mess Up Sometimes' and the matching answer line 'The Academy messes up sometimes'.",
+    "'סרטי ג'וינט' rendered 'joints' in quotation marks, Lee's own term for his films.",
+    "'חגיגה או מדבר' rendered 'a feast or a desert' to keep Lee's image rather than the English 'feast or famine'.",
+    "Caption credit 'גטי אימג' בנק' rendered 'Getty Image Bank' as printed rather than normalized to Gettyimages.",
+    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+  ],
+  "sourceProblems": [
+    "Source uses the masculine 'אומר' for Elizabeth Olsen in the final paragraph; English 'says' is gender-neutral, so no correction was needed, but the quirk is noted per the source record.",
+    "Source record notes an empty media element inside an answer was removed during capture without splitting the answer; the English follows the captured paragraphing."
+  ],
+  "unresolvedQuestions": []
+}
