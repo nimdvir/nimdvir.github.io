@@ -1,0 +1,50 @@
+{
+  "articleId": "W080",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "englishTitle": "A Super Family",
+  "sourceTextBlocks": 48,
+  "translatedTextBlocks": 48,
+  "questionBlocks": 16,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Headline 'משפחת סופר על' rendered 'A Super Family', following the verified citation gloss.",
+    "Questions asked by the other journalists are kept bold with their attributions, as in the source; two prompts that end with the attribution are kept bold in full.",
+    "'וייברעס' rendered 'biddies'; 'הכי אקשן במיץ וייברעס' rendered 'The best action, in biddy juice'.",
+    "'כלבות בידור' rendered 'entertainment bitches'; 'דודות' rendered 'aunties'; 'מורמוריות' rendered 'grumblers'.",
+    "'קר-פה-קר-פה' rendered 'cold-in-here-cold-in-here'.",
+    "'רב מדען' rendered 'chief scientist'; 'שועלת מקצוע' rendered 'old pro'; 'גולת הכותרת' rendered 'the crowning glory'.",
+    "Four bold section labels in the source kept as headings.",
+    "Feminine 'עיתונאיות' rendered 'Female entertainment journalists' in the opening."
+  ],
+  "sourceProblems": [
+    "Opening image caption is just the film title; kept.",
+    "Sidebar image caption retained after the body."
+  ],
+  "unresolvedQuestions": [
+    "Confirm 'A Super Family' for the headline pun on 'super' and 'על'."
+  ]
+}

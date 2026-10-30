@@ -1,0 +1,52 @@
+{
+  "articleId": "W006",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "\"I'm Juicy, Not a Bitch\"",
+  "sourceTextBlocks": 32,
+  "translatedTextBlocks": 32,
+  "questionBlocks": 11,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Title reuses the published page's faithful headline, with the Hebrew quotation marks kept.",
+    "Heading 'און דה ביץ'' puns on beach/bitch; rendered 'On the beach' with the pun lost. Heading 'ריסים לרסיסים' rendered 'Lashes to pieces'.",
+    "'מ-ה-מ-ם' rendered 'stun-ning'.",
+    "'מנחה גבר גבר' caption rendered 'A man's man of a host'.",
+    "All six hyperlinks kept on the same words (Viva la Diva, Supermodel, RuPaul's Drag Race, Logo, the drag queens here, Dana International).",
+    "Answer continuation across two paragraphs (Tel Aviv story) kept with the source's open quotation structure."
+  ],
+  "sourceProblems": [
+    "Hebrew subtitle is empty.",
+    "Source says 'transsexual' of Dana International; kept as the interviewee's wording."
+  ],
+  "unresolvedQuestions": [
+    "Published page src/content/interviews/rupaul.md adds a bold lead paragraph not in the Hebrew and runs prompts and answers together in single paragraphs. Nim to decide on replacement."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/rupaul.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}

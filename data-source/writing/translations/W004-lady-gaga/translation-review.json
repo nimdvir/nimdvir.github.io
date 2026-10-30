@@ -1,0 +1,54 @@
+{
+  "articleId": "W004",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Gaga Show",
+  "sourceTextBlocks": 54,
+  "translatedTextBlocks": 54,
+  "questionBlocks": 13,
+  "captions": 4,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Title 'Gaga Show' follows the Hebrew; the published page's title ('Lady Gaga Show: The Making of a Pop Phenomenon') adds a subtitle the Hebrew does not have, so it was not reused.",
+    "'יהירות' rendered 'arrogance' consistently in the opening and in Gaga's answer about her songs.",
+    "'ליאונרדו דה וינטג'' kept as the pun 'Leonardo da Vintage'.",
+    "'זייפה כחתול דרוס' rendered 'as off-key as a run-over cat'.",
+    "'הביצה הניו יורקית' rendered 'the New York scene'.",
+    "Print cross-reference '(עליו תוכלו לקרוא בהרחבה בעמ' 56)' kept as '(which you can read about at length on p. 56)'.",
+    "The caption 'Admits she has female and male genitalia' is translated as printed even though the body describes the purported interview as likely fabricated."
+  ],
+  "sourceProblems": [
+    "Hebrew subtitle is empty.",
+    "Caption contradicts the body's description of a fabricated interview; historical caption retained without endorsement.",
+    "Source-wide photo credit 'Gettyimages Imagebank' applies to inline images."
+  ],
+  "unresolvedQuestions": [
+    "Published page src/content/interviews/lady-gaga.md restructures the article under twelve invented headings including an 'Epilogue' and bolds only one of thirteen prompts; it is not a faithful translation. Nim to decide on replacement."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/lady-gaga.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}

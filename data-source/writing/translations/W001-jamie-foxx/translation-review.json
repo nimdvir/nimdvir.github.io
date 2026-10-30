@@ -1,0 +1,56 @@
+{
+  "articleId": "W001",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, מיאמי"
+  },
+  "englishTitle": "Jamie Foxx Is in the House",
+  "sourceTextBlocks": 22,
+  "translatedTextBlocks": 22,
+  "questionBlocks": 7,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Title reuses the published page's headline, which is a faithful rendering of the transliterated Hebrew headline.",
+    "Established English film titles used: Ray, Stealth, Miami Vice, Collateral, Sweet Home Alabama, 7th Heaven.",
+    "'מבסוט מהחיים' rendered 'pleased with life'; 'כאפת ניעור-שוויץ מתבקשת' rendered 'an obligatory swagger-shaking slap'; 'מתחשק לפרגן' rendered 'you actually feel like being generous'.",
+    "'בחור עם יהלום על הקצה' (unusual phrase) rendered 'a guy with a bit of an edge'.",
+    "'ועל זה נאמר: שלא יעבדו עליכם' rendered 'To which one can only say: don't let them put one over on you'.",
+    "Transliterated English ('ניים דרופינג', 'פאק איט') rendered as plain English.",
+    "The paragraph split around the inline image (ending 'one of the' / resuming 'biggest flops') is mirrored so the English matches the source structure.",
+    "Foxx's first answer contains a stray internal opening quotation mark in the Hebrew (a merged paragraph); kept as in the source."
+  ],
+  "sourceProblems": [
+    "Hebrew subtitle is empty (an empty bold line in the source).",
+    "Source alternates 'my agent' and 'my manager' for the Oscar's keeper; kept as printed.",
+    "Publisher inline image URL in the source record contains literal entity sequences; not reused."
+  ],
+  "unresolvedQuestions": [
+    "Published page src/content/interviews/jamie-foxx.md adds two lead paragraphs not in the Hebrew and three headings (Life is Good, The 'Stealth' Era, The 'Animal' Within) that the Hebrew does not have; Nim to decide whether the archival draft should replace it.",
+    "Confirm 'a guy with a bit of an edge' for 'בחור עם יהלום על הקצה'."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/jamie-foxx.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}

@@ -70,7 +70,7 @@ Use `templates/writing/README.md` for the Hebrew-extraction and English-translat
 
 ## Captured article package examples
 
-The authoritative CSV now references 55 unique verified Hebrew packages covering 57 IDs (October 27, 2026 session). The examples below are illustrative, not a second inventory. See `reports/writing/2026-10-27-hebrew-capture-progress.md` and the Claude handoff for current totals and source limits.
+The authoritative CSV now references 55 unique verified Hebrew packages covering 57 IDs (October 27, 2026 session). On October 30, 2026 an English draft and review record were saved for every verified package (55 translation folders, duplicates shared); see `reports/writing/2026-10-30-translation-batch.md` for the batch report and the open questions for Nim's review. The examples below are illustrative, not a second inventory. See `reports/writing/2026-10-27-hebrew-capture-progress.md` and the Claude handoff for current totals and source limits.
 
 A source-only `originals/W000-topic/source-record.json` records retrieval or identity blockers without claiming that a Hebrew body exists. Such records have no Hebrew/HTML paths in the CSV. W100 was verified as an English article by Boaz Dvir, not Nim; its ID and editorial selections remain, with corrected factual attribution.
 

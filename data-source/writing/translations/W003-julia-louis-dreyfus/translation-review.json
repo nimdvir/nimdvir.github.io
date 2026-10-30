@@ -1,0 +1,56 @@
+{
+  "articleId": "W003",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "I'm Back",
+  "sourceTextBlocks": 72,
+  "translatedTextBlocks": 72,
+  "questionBlocks": 18,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Title 'I'm Back' follows the Hebrew 'חזרתי'; the published page prefixes the subject's name, which the Hebrew headline does not.",
+    "The publisher's four '• • •' section markers kept as headings.",
+    "Subtitle's unmatched quotation mark and sentence fragment preserved as in the source.",
+    "'שישבת' rendered as the supplement name 'Shishabat'.",
+    "Creator's garbled Hebrew name rendered with the established spelling Armando Iannucci inside the N.D. bracket.",
+    "Established titles used: The New Adventures of Old Christine, National Lampoon's Christmas Vacation (Hebrew 'כיף של חופשה'), Saturday Night Live, Broad City, Good Morning America.",
+    "'גמרת את הסוס' rendered 'you've run your course'.",
+    "Serious passages (cancer, the sister's death) kept entirely straight."
+  ],
+  "sourceProblems": [
+    "Subtitle ends with an unmatched quotation mark and a fragment; preserved.",
+    "Source states nine Emmys for Seinfeld, six for acting; wording kept without correction.",
+    "Three inline source images have no URL in the source record; captions kept with placeholders.",
+    "W090 is a verified duplicate of this article and is not translated separately."
+  ],
+  "unresolvedQuestions": [
+    "Published page src/content/interviews/julia-louis-dreyfus.md has five invented headings and nine prompts against eighteen in the Hebrew, so answers appear merged or omitted. Nim to decide on replacement."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/julia-louis-dreyfus.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}

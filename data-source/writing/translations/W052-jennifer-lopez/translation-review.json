@@ -1,0 +1,50 @@
+{
+  "articleId": "W052",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "J. No",
+  "sourceTextBlocks": 22,
+  "translatedTextBlocks": 22,
+  "questionBlocks": 8,
+  "captions": 1,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Headline pun 'ג'יי לא' (J.Lo / 'J. no') rendered 'J. No'.",
+    "Israeli references kept with minimal glosses: 'the singer Sarit Hadad and the Hadera municipality'; 'a hairdo borrowed from the politician Ora Namir'.",
+    "'הגרציה' rendered 'Her Grace'; 'הגברת' rendered 'the lady'; 'המאמי הלאומית' rendered 'the national sweetheart'.",
+    "'ספיקינג אוף' rendered as plain 'Speaking of'; 'יו נואו' as 'you know'; 'נו, שוין' as 'Oh well.'",
+    "Established titles: An Unfinished Life, Enough (Hebrew 'עד כאן'), Chocolat, The Cider House Rules.",
+    "The final press-conference question is split by the publisher across two bold paragraphs; both bold fragments are kept in order (8 bold blocks, 7 distinct prompts).",
+    "The bold opening quotation with its attribution is kept bold as in the source.",
+    "Source spelling 'ATEP' kept as printed."
+  ],
+  "sourceProblems": [
+    "Source spells the organization 'ATEP' and the film title once as 'חיים לא גומרים'; English uses the correct film title but keeps 'ATEP'.",
+    "Source phrase 'שלא עשתה עמדה חסד' is garbled in the Hebrew; rendered by sense ('did her no favors')."
+  ],
+  "unresolvedQuestions": [
+    "Confirm whether 'ATEP' should stay as printed or be flagged as PETA in a note."
+  ]
+}

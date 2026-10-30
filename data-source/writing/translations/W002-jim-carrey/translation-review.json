@@ -1,0 +1,53 @@
+{
+  "articleId": "W002",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "englishTitle": "And Now, Seriously",
+  "sourceTextBlocks": 27,
+  "translatedTextBlocks": 27,
+  "questionBlocks": 11,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First paragraph matches source first text block",
+    "Last paragraph matches source last text block",
+    "Every bold interviewer prompt present, in order, including statements without question marks",
+    "Every answer paragraph present with original paragraph boundaries and quotation marks",
+    "Section headings present in original positions",
+    "Captions and credits translated, photographer and agency names kept",
+    "Hyperlinks kept on the same words",
+    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
+    "Parentheticals kept as parentheticals with the same function",
+    "Mock-honorifics, epithets and diminutives carried at the same weight",
+    "Understatement not intensified; concessions after sharp lines kept",
+    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
+    "No jokes, transitions, explanations or conclusions added; no em dashes"
+  ],
+  "decisions": [
+    "Title 'And Now, Seriously' follows the Hebrew; the published page's title appends ': Jim Carrey', which the Hebrew headline does not have.",
+    "Established titles used: Fun with Dick and Jane (Hebrew 'דיק וג'יין עושים את זה'), Dumb and Dumber, Ace Ventura, The Mask, The Truman Show, Man on the Moon, Eternal Sunshine of the Spotless Mind, The Godfather.",
+    "Twisted idiom 'זרמו מים רבים בניאגרה' rendered with the twist kept: 'A lot of water has gone over Niagara'.",
+    "'קבלו את' rendered 'meet'; the N.D. bracket explaining Enron kept inside the answer as in the source.",
+    "Speaker label 'קארי:' at the start of the first answer kept as 'Carrey:'.",
+    "Apparent doubled verb in the Hebrew ('גאה לעשות לחשוף') rendered as 'proud to be revealing' rather than reproducing the typo."
+  ],
+  "sourceProblems": [
+    "Hebrew subtitle is empty.",
+    "Source typo 'לעשות לחשוף' retained in the Hebrew; smoothed in English and recorded here.",
+    "Source has no closing period before the closing quote at the end of the 'I don't go out at all' answer; English adds the period."
+  ],
+  "unresolvedQuestions": [
+    "Published page src/content/interviews/jim-carrey.md has four invented headings and bolds only four of the eleven prompts; passages appear merged or condensed relative to the Hebrew. Nim to decide on replacement."
+  ],
+  "existingEnglishPage": {
+    "path": "src/content/interviews/jim-carrey.md",
+    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+  }
+}
