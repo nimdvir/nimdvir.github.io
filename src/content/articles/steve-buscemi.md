@@ -21,6 +21,14 @@ tags:
 - Television
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386470/Database-book-BITM330/vscode-auto/articles/W172-steve-buscemi.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386470/Database-book-BITM330/vscode-auto/articles/W172-steve-buscemi.jpg
+imageAlt: Steve Buscemi on stage at Lebowski Fest
+imageCaption: Steve Buscemi at Lebowski Fest, August 2011.
+imageCredit: 'Photo: Joe Polletta, CC BY-SA 2.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Steve_Buscemi_at_Lebowski_Fest_2011.jpg
 draft: false
 ---
 
