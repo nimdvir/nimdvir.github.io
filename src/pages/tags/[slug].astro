@@ -1,0 +1,65 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { tagArchives } from "../../utils/tags";
+
+export async function getStaticPaths() {
+  return (await tagArchives()).map((tag) => ({
+    params: { slug: tag.slug },
+    props: { tag },
+  }));
+}
+
+const { tag } = Astro.props;
+const collections = [...new Set(tag.entries.map((e) => e.collection))];
+const groups = collections.map((name) => ({
+  name,
+  entries: tag.entries.filter((e) => e.collection === name),
+}));
+const count = tag.entries.length;
+const description = tag.description
+  ? `${tag.description} ${count} ${count === 1 ? "page" : "pages"} on this site are tagged ${tag.label}.`
+  : `${count} ${count === 1 ? "page" : "pages"} on this site tagged ${tag.label}.`;
+---
+
+<Layout
+  title={`${tag.label} · Topic`}
+  description={description}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Topics", path: "/tags/" },
+    { name: tag.label, path: `/tags/${tag.slug}/` },
+  ]}
+>
+  <header class="page-intro">
+    <a class="back-link" href="/tags/">← All topics</a>
+    <p class="eyebrow" style="margin-top:20px">Topic</p>
+    <h1>{tag.label}</h1>
+    <p class="lede">
+      {tag.description && <span>{tag.description} </span>}
+      {count} {count === 1 ? "page" : "pages"} across {collections.length}{" "}
+      {collections.length === 1 ? "section" : "sections"} of the site.
+    </p>
+  </header>
+
+  {groups.map((group) => (
+    <section class="section tag-archive">
+      <div class="section-head">
+        <h2>{group.name}</h2>
+      </div>
+      <ul class="dated-list tag-list">
+        {group.entries.map((entry) => (
+          <li>
+            <span class="tag-list-date">{entry.date}</span>
+            <div>
+              <h3>
+                <a href={entry.url}>{entry.title}</a>
+              </h3>
+              <p>{entry.summary}</p>
+              <p class="post-meta">{entry.kind}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Layout>

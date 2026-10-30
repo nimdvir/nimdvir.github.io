@@ -1,0 +1,26 @@
+---
+import type { Article } from "../utils/articles";
+import { getArticles, relatedArticles } from "../utils/articles";
+import ArticleCard from "./ArticleCard.astro";
+
+interface Props {
+  current: Article;
+  heading?: string;
+}
+const { current, heading = "Related articles" } = Astro.props;
+const related = relatedArticles(current, await getArticles());
+---
+
+{related.length > 0 && (
+  <section class="related-articles" aria-labelledby="related-heading">
+    <div class="section-head">
+      <h2 id="related-heading">{heading}</h2>
+      <a href="/articles/">All articles ↗</a>
+    </div>
+    <div class="grid-3 article-grid">
+      {related.map((article) => (
+        <ArticleCard article={article} />
+      ))}
+    </div>
+  </section>
+)}

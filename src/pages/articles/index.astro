@@ -1,0 +1,88 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { getArticles, articleKindPlural } from "../../utils/articles";
+import { articleKinds } from "../../content/config";
+
+const articles = await getArticles();
+const counts = new Map<string, number>();
+for (const a of articles)
+  counts.set(a.data.kind, (counts.get(a.data.kind) ?? 0) + 1);
+const kinds = articleKinds.filter((k) => counts.has(k));
+const sources = [...new Set(articles.map((a) => a.data.source))];
+const years = articles.map((a) => a.data.date.slice(0, 4));
+const span = `${Math.min(...years.map(Number))} to ${Math.max(...years.map(Number))}`;
+const own = articles.filter((a) => !a.data.thirdPartyCoverage).length;
+---
+
+<Layout
+  title="Articles"
+  description={`${own} interviews, columns, features, and reviews that Nim Dvir published in Hebrew between ${span}, translated into English, with the original sources.`}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Articles", path: "/articles/" },
+  ]}
+>
+  <header class="page-intro">
+    <p class="eyebrow">Journalism archive</p>
+    <h1>Articles</h1>
+    <p class="lede">
+      Between {span} I wrote for Ynet, nrg Maariv, Xnet, At, and Israel Hayom,
+      mostly from New York: celebrity interviews, set visits, columns, and the
+      occasional review. These are English translations of the published
+      Hebrew, with a link to each original and a citation. A few pieces here
+      were written about me by other journalists and are marked as coverage.
+    </p>
+  </header>
+
+  <div
+    class="project-filters archive-filters"
+    role="group"
+    aria-label="Filter articles by kind"
+    hidden
+  >
+    <button class="filter-button" data-filter="all" aria-pressed="true">
+      All ({articles.length})
+    </button>
+    {kinds.map((k) => (
+      <button class="filter-button" data-filter={k} aria-pressed="false">
+        {articleKindPlural(k)} ({counts.get(k)})
+      </button>
+    ))}
+  </div>
+  <p id="filter-status" class="small" role="status" aria-live="polite" data-noun="article">
+    {articles.length} articles shown
+  </p>
+
+  <section class="project-grid article-grid grid-3" aria-label="Articles">
+    {articles.map((article) => (
+      <ArticleCard article={article} headingLevel="h2" />
+    ))}
+  </section>
+
+  <section class="section archive-notes">
+    <div class="section-head">
+      <h2>About this archive</h2>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3>Translations</h3>
+        <p class="small">
+          Every article was translated from the verified Hebrew text, keeping
+          each paragraph, question, and answer in its original order. Quotes
+          are translations of what was published in Hebrew, not recovered
+          English transcripts. Publications represented: {sources.join(", ")}.
+        </p>
+      </div>
+      <div>
+        <h3>Images and sources</h3>
+        <p class="small">
+          Photographs are licensed Wikimedia Commons images or my own, with
+          the photographer and license on each page. The publishers' original
+          photographs are not reproduced. Each page links to the original
+          article and to the archived Hebrew source.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

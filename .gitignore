@@ -43,3 +43,6 @@ migration/cloudinary-uploads/
 
 # python bytecode
 __pycache__/
+
+# downloaded source images for article pages (hosted on Cloudinary; sources in data-source/writing/article-image-sources.json)
+images/articles/

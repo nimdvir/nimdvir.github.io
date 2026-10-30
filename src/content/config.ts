@@ -86,17 +86,68 @@ const research = defineCollection({
   }),
 });
 
-const interviews = defineCollection({
+export const articleKinds = [
+  "interview",
+  "column",
+  "feature",
+  "review",
+  "coverage",
+] as const;
+// Translated journalism from data-source/writing/translations, built by
+// scripts/writing/build_article_pages.py. Images carry their own license.
+const articles = defineCollection({
   type: "content",
-  schema: z.object({
-    title: z.string(),
-    interviewee: z.string().optional(),
-    date: z.string(),
-    ...taxonomyFields,
-    summary: z.string(),
-    source: z.string().optional(),
-    sourceUrl: z.string().optional(),
-  }),
+  schema: z
+    .object({
+      articleId: z.string().regex(/^W\d{3}$/),
+      title: z.string(),
+      subtitle: z.string().optional(),
+      summary: z.string(),
+      kind: z.enum(articleKinds),
+      author: z.string(),
+      authors: z.array(z.string()).default([]),
+      thirdPartyCoverage: z.boolean().default(false),
+      coauthored: z.boolean().default(false),
+      interviewee: z.string().optional(),
+      subjects: z.array(z.string()).default([]),
+      date: z.string(),
+      originalTitle: z.string(),
+      originalLanguage: z.string().default("he"),
+      source: z.string(),
+      sourceUrl: z.string().url(),
+      hebrewSource: z.string().url().optional(),
+      citation: z.string().optional(),
+      ...taxonomyFields,
+      draft: z.boolean().default(true),
+      imageAlt: z.string().optional(),
+      imageCaption: z.string().optional(),
+      imageCredit: z.string().optional(),
+      imageLicense: z.string().optional(),
+      imageLicenseUrl: z.string().url().optional(),
+      imageSource: z.string().url().optional(),
+      thumb: z.string().optional(),
+      legacyPath: z.string().optional(),
+    })
+    .superRefine((data, ctx) => {
+      if (!validDate(data.date))
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["date"],
+          message: "Articles need the original YYYY-MM-DD publication date.",
+        });
+      if (!data.draft && data.image && !data.imageAlt?.trim())
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["imageAlt"],
+          message: "Add descriptive alternative text for the article image.",
+        });
+      if (!data.draft && data.image && !data.imageCredit?.trim())
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["imageCredit"],
+          message: "Record the photographer and license for the article image.",
+        });
+    }),
 });
 
 const projects = defineCollection({
@@ -234,7 +285,7 @@ export const collections = {
   blog,
   news,
   research,
-  interviews,
+  articles,
   projects,
   publications,
   talks,

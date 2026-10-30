@@ -1,0 +1,54 @@
+---
+import type { Article } from "../utils/articles";
+import {
+  articleKindLabel,
+  articleDate,
+  articleMonogram,
+  articleByline,
+} from "../utils/articles";
+
+interface Props {
+  article: Article;
+  headingLevel?: "h2" | "h3";
+}
+const { article, headingLevel = "h3" } = Astro.props;
+const Heading = headingLevel;
+const href = `/articles/${article.slug}/`;
+const d = article.data;
+const visual = d.thumb || d.image;
+---
+
+<article
+  class="card article-card"
+  data-project-category={d.kind}
+  data-year={d.date.slice(0, 4)}
+>
+  <a class="card-visual" href={href} tabindex="-1" aria-hidden="true">
+    {visual ? (
+      <img src={visual} alt="" loading="lazy" width="640" height="400" />
+    ) : (
+      <span class="typo-cover" data-kind={d.kind}>
+        <span class="typo-cover-mark">{articleMonogram(article)}</span>
+        <span class="typo-cover-source">{d.source}</span>
+      </span>
+    )}
+  </a>
+  <div class="card-body">
+    <p class="eyebrow">
+      {articleKindLabel(d.kind)} · {d.source} · {d.date.slice(0, 4)}
+    </p>
+    <Heading>
+      <a href={href}>{d.title}</a>
+    </Heading>
+    {d.interviewee && d.kind === "interview" && (
+      <p class="card-subject">With {d.interviewee}</p>
+    )}
+    {d.thirdPartyCoverage && (
+      <p class="card-subject">By {articleByline(article)}</p>
+    )}
+    <p class="card-summary">{d.summary}</p>
+    <a class="text-link" href={href} aria-label={`Read ${d.title}`}>
+      Read <span class="card-date">· {articleDate(d.date)}</span>
+    </a>
+  </div>
+</article>

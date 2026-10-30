@@ -1,0 +1,176 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import TagChips from "../../components/TagChips.astro";
+import RelatedArticles from "../../components/RelatedArticles.astro";
+import {
+  getArticles,
+  articleKindLabel,
+  articleDate,
+  articleByline,
+  articleMonogram,
+} from "../../utils/articles";
+import { readingMinutes } from "../../utils/editorial";
+
+export async function getStaticPaths() {
+  return (await getArticles()).map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+const d = article.data;
+const url = new URL(`/articles/${article.slug}/`, Astro.site).href;
+const personId = new URL("#person", Astro.site).href;
+const byline = articleByline(article);
+const authorSchema = d.thirdPartyCoverage
+  ? (d.authors.length ? d.authors : [d.author]).map((name) => ({
+      "@type": "Person",
+      name,
+    }))
+  : d.coauthored
+    ? d.authors.map((name) =>
+        name === "Nimrod Dvir"
+          ? { "@type": "Person", "@id": personId, name: "Nim Dvir", url: new URL("/cv/", Astro.site).href }
+          : { "@type": "Person", name },
+      )
+    : [{ "@type": "Person", "@id": personId, name: "Nim Dvir", url: new URL("/cv/", Astro.site).href }];
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${url}#article`,
+  headline: d.title,
+  alternativeHeadline: d.subtitle,
+  description: d.summary,
+  url,
+  mainEntityOfPage: url,
+  inLanguage: "en",
+  datePublished: d.date,
+  author: authorSchema,
+  isBasedOn: d.sourceUrl,
+  translationOfWork: {
+    "@type": "Article",
+    headline: d.originalTitle,
+    inLanguage: d.originalLanguage,
+    url: d.sourceUrl,
+    publisher: { "@type": "Organization", name: d.source },
+    datePublished: d.date,
+  },
+  ...(d.image ? { image: d.image } : {}),
+  keywords: d.tags.join(", "),
+};
+const kind = articleKindLabel(d.kind);
+const minutes = readingMinutes(article.body);
+---
+
+<Layout
+  title={d.title}
+  description={d.summary}
+  type="article"
+  image={d.image}
+  structuredData={[articleSchema]}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Articles", path: "/articles/" },
+    { name: d.title, path: `/articles/${article.slug}/` },
+  ]}
+>
+  <article class="editorial-article journalism-article">
+    <header class="editorial-article-header">
+      <a class="back-link" href="/articles/">← All articles</a>
+      <p class="eyebrow">
+        {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
+      </p>
+      <h1>{d.title}</h1>
+      {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
+      <p class="post-meta article-byline">
+        By <strong>{byline}</strong>
+        {d.interviewee && d.kind === "interview" && (
+          <span> · Interview with {d.interviewee}</span>
+        )}
+        <span> · {minutes} min read</span>
+        <span> · Translated from the Hebrew</span>
+      </p>
+      <TagChips tags={d.tags} />
+    </header>
+
+    {d.thirdPartyCoverage && (
+      <aside class="article-notice" aria-label="About this piece">
+        <p>
+          <strong>Coverage, not my writing.</strong> This piece was written by
+          {" "}{byline} and is included because it is about me. It appears here
+          in translation with its original byline.
+        </p>
+      </aside>
+    )}
+    {d.coauthored && (
+      <aside class="article-notice" aria-label="About this piece">
+        <p>
+          <strong>Written with {d.authors.filter((a) => a !== "Nimrod Dvir").join(" and ")}.</strong>
+          {" "}The original does not indicate who wrote which section.
+        </p>
+      </aside>
+    )}
+
+    {d.image ? (
+      <figure class="editorial-cover article-cover">
+        <div class="cover-frame" style={`--cover: url("${d.image}")`}>
+          <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
+        </div>
+        <figcaption>
+          {d.imageCaption && <span>{d.imageCaption} </span>}
+          {d.imageSource ? (
+            <a href={d.imageSource} target="_blank" rel="noopener noreferrer">
+              {d.imageCredit}
+            </a>
+          ) : (
+            <span>{d.imageCredit}</span>
+          )}
+        </figcaption>
+      </figure>
+    ) : (
+      <div class="typo-cover typo-cover-hero" data-kind={d.kind} aria-hidden="true">
+        <span class="typo-cover-mark">{articleMonogram(article)}</span>
+        <span class="typo-cover-source">{d.source} · {d.date.slice(0, 4)}</span>
+      </div>
+    )}
+
+    <div class="prose article-body">
+      <Content />
+    </div>
+
+    <footer class="article-source">
+      <div class="source-box">
+        <h2>Original publication</h2>
+        <p>
+          <span lang="he" dir="rtl" class="original-title">{d.originalTitle}</span>
+          <br />
+          {d.source}, {articleDate(d.date)}, in Hebrew.
+        </p>
+        <p class="button-row">
+          <a class="button" href={d.sourceUrl} target="_blank" rel="noopener noreferrer">
+            Read the original ↗
+          </a>
+          {d.hebrewSource && (
+            <a class="button" href={d.hebrewSource} target="_blank" rel="noopener noreferrer">
+              Archived Hebrew text ↗
+            </a>
+          )}
+        </p>
+        {d.citation && (
+          <div class="citation-block">
+            <h3>Cite the original</h3>
+            <p class="citation-text">{d.citation}</p>
+            <p class="small">
+              English translation published on this site. Quote the translation
+              with its URL and the date you read it.
+            </p>
+          </div>
+        )}
+      </div>
+    </footer>
+
+    <RelatedArticles current={article} />
+  </article>
+</Layout>
