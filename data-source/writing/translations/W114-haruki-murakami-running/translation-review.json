@@ -1,0 +1,39 @@
+{
+  "articleId": "W114",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Running With Him: On Haruki Murakami's New Book",
+  "sourceTextBlocks": 10,
+  "translatedTextBlocks": 10,
+  "questionBlocks": 0,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "Bold opening epigraph, eight narrative paragraphs and the bold closing bibliographic line translated in original order; the two bold lines are kept bold and are not treated as interviewer prompts, as the source record specifies.",
+    "Both captions translated with credits retained (Masao Kajiyama; publicity photo); image placeholders kept as HTML comments at the original positions.",
+    "No headings or prompts exist."
+  ],
+  "voiceChecks": [
+    "Self-deprecating positioning kept: 'I am no runner, and in fact I maintain the image of a serious couch potato.'",
+    "Short verdict sentence kept: 'Simply a book about running.'",
+    "Parentheticals kept as parentheticals, including '(and yes, he uses this cliché too)'.",
+    "Measured verdict left measured; no praise added."
+  ],
+  "decisions": [
+    "The epigraph is translated from the Hebrew ('Pain is inevitable, suffering is a choice') rather than replaced with the English edition's wording ('Pain is inevitable. Suffering is optional.'), since the source quotes the Hebrew edition.",
+    "Book and author titles use established English forms: What I Talk About When I Talk About Running, What We Talk About When We Talk About Love, Norwegian Wood, After Dark.",
+    "'פדלאה רצינית' rendered as 'a serious couch potato'.",
+    "'יח''צ' in the cover caption rendered as 'publicity photo'.",
+    "Publisher name rendered 'nrg Maariv' in the frontmatter and byline line; the archival citation keeps the verified romanization 'nrg Ma’ariv'."
+  ],
+  "sourceProblems": [
+    "Source wording 'מסגנונו מהדרמטי' and 'ואם זאת' are typographical slips retained in the Hebrew; translated as intended ('from his dramatic style', 'and yet')."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim prefers the epigraph to use the English edition's published wording instead of a translation of the Hebrew edition."
+  ]
+}

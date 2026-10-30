@@ -1,0 +1,35 @@
+{
+  "articleId": "W092",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Nimrod Dvir Reports from the Big Apple",
+  "sourceTextBlocks": 9,
+  "translatedTextBlocks": 9,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "All nine narrative paragraphs translated in original order with original boundaries.",
+    "No headings, prompts, captions or images exist in the verified source (no article photo is retrievable per source-record.json).",
+    "Natalia's three quoted sentences kept in their original order and quotation boundaries."
+  ],
+  "voiceChecks": [
+    "Escalation sequence kept beat for beat: 'started to giggle. Then to laugh. And laugh. And then I started laughing too.'",
+    "The itemized three consequences kept as 'One... Two... And three...' with the climax line short: 'And then came the climax: Luis let one rip.'",
+    "Parentheticals kept as parentheticals, including the two 'not making this up' asides.",
+    "Narrator as foil preserved: admits he could not get up to leave; closing line blames Luis with the Hebrew's mock dignity ('With all due respect, you can't take him anywhere serious')."
+  ],
+  "decisions": [
+    "'ברח נאד' rendered as 'let one rip' to match the colloquial register.",
+    "'בהילות־לחץ־חרדה־דיכאון' kept as a hyphenated chain ('haste-pressure-anxiety-depression').",
+    "'הכי אשראם' rendered as 'pure ashram'.",
+    "'בחורה ספורטיבית ביותר' rendered as 'a very good sport'.",
+    "The center's name and the speaker's name kept exactly as the source transliterates them (Chakrasambara Kadampa; Natalia Drilova)."
+  ],
+  "sourceProblems": [],
+  "unresolvedQuestions": []
+}

@@ -1,0 +1,41 @@
+{
+  "articleId": "W062",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "englishTitle": "There's No Place Like Home",
+  "sourceTextBlocks": 4,
+  "translatedTextBlocks": 4,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "All four narrative paragraphs translated in original order with original paragraph boundaries.",
+    "Closing author signature line (Nimrod Dvir, New York) retained as part of the original article.",
+    "No headings, prompts, captions or images exist in the verified Hebrew source.",
+    "Subtitle translated and placed at the start of the body for the current layout."
+  ],
+  "voiceChecks": [
+    "Opening long accumulation of mock news pegs (Jennifer Lopez, Jessica Alba) kept as short question-and-answer beats.",
+    "Parentheticals kept as parentheticals: '(we're Polish, you get used to it)' and the BlackBerry gloss with its deflating 'Lucky you for not knowing'.",
+    "Short closing beats preserved: 'And still, it isn't really it.' and the modest sign-off.",
+    "Comic comparisons kept literal: Zehava Ben song, army food and Pnina Rosenblum, Sucrazit.",
+    "No jokes added, none explained; sentimentality left at the Hebrew's level."
+  ],
+  "decisions": [
+    "Israeli references kept without substitution: Zehava Ben, Pnina Rosenblum, Dizengoff, Sucrazit, Meital Dohan, Eitan Schwartz, David Z, Yitzhak Tshuva. Sucrazit is unglossed because the sentence itself explains it sweetens coffee.",
+    "'המקובלים' rendered as 'the in-crowd'; 'עמוד הבית' kept as 'Home Page' in quotation marks as in the source.",
+    "'הכי כיף אצל בוש בטברנה' translated literally as 'it's more fun over at Bush's tavern'; the phrase appears to play on a song title and was not replaced.",
+    "'ניג'וסים' rendered as 'nagging'; 'ביאוס' as 'a general funk'; 'חפירה' as 'digging around in each other's lives'; 'ברנז'ה' as 'a local media crowd'.",
+    "'האוכל המכובס של סבתא' rendered as 'Grandma's washed-out food'.",
+    "'מרתון של ערבובים משפחתיים' rendered as 'a marathon of family mixers'.",
+    "'אני את שלי פרקתי' rendered as 'I've gotten mine off my chest'."
+  ],
+  "sourceProblems": [],
+  "unresolvedQuestions": [
+    "Whether 'Bush's tavern' alludes to a specific song or phrase Nim would prefer rendered differently."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "articleId": "W079",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "signedRole": "עורך קולנוע ומוזיקה הנכנס"
+  },
+  "englishTitle": "Coming Back Is the Best Part",
+  "sourceTextBlocks": 5,
+  "translatedTextBlocks": 5,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "Four narrative paragraphs and the postscript paragraph translated in original order.",
+    "Signature block (name, incoming editorial role, parenthetical former role) and the 'P.S.' label retained as printed.",
+    "All five source hyperlinks (Amir Fay Guttman, Hugh Jackman, Iris Abramovich, 'Click here') kept on the same words; the Ninet link is the fourth link and the Fay Guttman, Jackman and Abramovich links are the first three.",
+    "No headings, prompts, captions or images exist in the source."
+  ],
+  "voiceChecks": [
+    "Highest aside density in the corpus preserved: every parenthetical kept as a parenthetical, including the nested exclamations inside the first paragraph.",
+    "Short verdict beats kept: 'So what.' and 'Note to self: the kids in Israel are tough.'",
+    "Understatement kept at its level: 'I wouldn't say there's a facelift coming, but maybe a shot of Botox to the T-zone.'",
+    "Self-mockery (beginner's mistakes, sunburn) kept with the narrator as the foil."
+  ],
+  "decisions": [
+    "This is an editor's note full of house in-jokes about Pnai Plus colleagues (Nirit, Tzach Oryan, Amir Kaminer, Iris Abramovich, Hadas Bashan, Dorit Shoval, the magazines Rosh 1 and GO). All names and jokes translated literally; none explained or replaced. 'עשה בר-זוהר' rendered literally as 'did a Bar-Zohar' because the reference is internal.",
+    "'לרדת בגדול' rendered with the established English title The Biggest Loser; 'שמנמודים' as 'chubsters'.",
+    "'פרחה' rendered as 'freha' (kept as the Israeli term) and Tami Ben Ami kept by name without gloss.",
+    "'הכי שופרא' rendered as 'the very best'; 'גיליון שמנמן' as 'plump issue'.",
+    "'בלעדי-די-די' rendered as 'exclusive-sive-sive' to keep the stammered emphasis.",
+    "Burger Ranch kept by name."
+  ],
+  "sourceProblems": [
+    "'למרות המקפים' (literally 'despite the hyphens') is ambiguous in the source; rendered as 'Despite the hitches' and left for Nim to confirm.",
+    "'לא רק אני בילי בדרכים' appears to be a typo for 'ביליתי'; translated as intended ('I'm not the only one who's been on the road') without altering the Hebrew."
+  ],
+  "unresolvedQuestions": [
+    "Confirm the intended meaning of 'למרות המקפים'.",
+    "Confirm whether 'did a Bar-Zohar' should carry a brief gloss for English readers."
+  ]
+}

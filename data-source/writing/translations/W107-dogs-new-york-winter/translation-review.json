@@ -1,0 +1,42 @@
+{
+  "articleId": "W107",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Doggy Style: Prepare Your Dog for Winter",
+  "sourceTextBlocks": 11,
+  "translatedTextBlocks": 11,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "All eleven narrative paragraphs translated in original order with original boundaries, including the final paragraph the capture recovered from raw HTML tail text.",
+    "The single source hyperlink (Nicole Raidman) kept on the same words.",
+    "No headings, prompts, captions or images exist in the verified source (two empty media containers are recorded in source-record.json, with no caption to translate).",
+    "All five prices preserved exactly."
+  ],
+  "voiceChecks": [
+    "Priced list kept as the setup and '$9' as the payoff; the closing moral kept to the Hebrew's one sentence.",
+    "Mock-honorifics and diminutives kept: 'my own little dog', 'the mixed-breed rat', 'the two Raidmans', 'some decorative little scarf'.",
+    "Self-mockery kept: 'recession fashionistas, which is exactly us'.",
+    "The one parenthetical gloss '(meaning, chic)' kept as a parenthetical."
+  ],
+  "decisions": [
+    "'מעוז החאקי והסרפן' rendered as 'bastion of khaki and the pinafore dress' ('סרפן' is the pinafore dress associated with Israeli kibbutz and school wear).",
+    "'מינוס עשר מעלות' rendered as 'minus ten degrees Celsius'; the word Celsius is an addition for English readers who might assume Fahrenheit.",
+    "'רמ'ז אוגי פטס' transliterated as 'Ramz Oggie Pets' because the shop's English name could not be verified from the source.",
+    "Nicole Raidman kept by name without gloss; 'הראידמניות' rendered as 'the two Raidmans'.",
+    "'סיבוב דאווין' rendered as 'a show-off lap'; 'תופין איכותי' as 'a quality find'.",
+    "'ג'וסי קוטור' rendered with the brand's English name Juicy Couture; 'טי.ג'יי מקס' as T.J. Maxx."
+  ],
+  "sourceProblems": [
+    "The boutique name 'רמ'ז אוגי פטס' is a Hebrew transliteration whose original English spelling is not given in the source."
+  ],
+  "unresolvedQuestions": [
+    "Confirm the English name of the Upper East Side boutique rendered here as 'Ramz Oggie Pets'.",
+    "Confirm whether 'Celsius' should be kept or dropped."
+  ]
+}

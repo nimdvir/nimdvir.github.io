@@ -1,0 +1,38 @@
+{
+  "articleId": "W087",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Dead on Air",
+  "sourceTextBlocks": 6,
+  "translatedTextBlocks": 6,
+  "questionBlocks": 0,
+  "captions": 1,
+  "images": 0,
+  "completenessChecks": [
+    "All six publisher paragraphs translated in original order, including the publisher's split of one sentence after 'אנחנו' ('We') into two paragraphs, reproduced as in the verified source.",
+    "Single caption translated with photographer credit (Avi Moalem); image placeholder kept as an HTML comment.",
+    "No headings or prompts exist in the source."
+  ],
+  "voiceChecks": [
+    "Serious subject kept serious: no humor, no softening, no added commentary.",
+    "Plain declaratives preserved: 'Last week a tragedy happened.' and 'The end was grim:'.",
+    "The one parenthetical coinage ('deathcasting') and the parenthetical cover reference kept as parentheticals.",
+    "Closing sentence left as the Hebrew's modest conclusion without amplification."
+  ],
+  "decisions": [
+    "Headline 'בשידור מת' (a play on 'בשידור חי', live broadcast) rendered as 'Dead on Air'; the archival APA gloss 'Broadcast dead' is retained in the citation.",
+    "'לייב און טייפ' rendered as plain English 'live on tape'; 'Lifecasting' kept as the English term the source uses.",
+    "Einav Bubil kept by name without gloss; 'בשידור חי' in her case rendered 'on live television' since the reference is to a reality show.",
+    "'שדיר ומשודר' rendered as 'broadcastable and broadcast' to keep the pairing."
+  ],
+  "sourceProblems": [
+    "The publisher breaks one sentence across two paragraphs after 'אנחנו' around an empty media container; the break is reproduced rather than repaired."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim prefers the broken sentence joined in the English for readability (it is kept broken to match the verified source)."
+  ]
+}

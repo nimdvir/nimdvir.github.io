@@ -1,0 +1,36 @@
+{
+  "articleId": "W093",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Why Does Nimrod Dvir Feel a Natural High?",
+  "sourceTextBlocks": 12,
+  "translatedTextBlocks": 12,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "All twelve narrative paragraphs translated in original order with original boundaries.",
+    "No headings, prompts, captions or images exist in the verified source (no article photograph is exposed by the publisher per source-record.json)."
+  ],
+  "voiceChecks": [
+    "Reflective register kept sincere without sentimentality; the closing observation about the city left as a single modest sentence.",
+    "Parentheticals kept as parentheticals: the hesitation questions, '(not bad)', '(like me)', the Gretchen mini-suite, and the 'shit' aside.",
+    "Self-mockery kept at the Hebrew's weight: the single word of ten days, the fall into the snow pit, the 'scabies level' remark.",
+    "Comic comparisons kept literal: the horror film Rabies, Tetris blocks."
+  ],
+  "decisions": [
+    "'כלבת' glossed in two words as 'the Israeli horror film Rabies' because the joke depends on knowing it is a film.",
+    "'יערות הכרמל' kept as 'Ya'arot HaCarmel' with the four-word gloss 'after the spa resort back home', since the comparison depends on knowing it is a luxury spa.",
+    "'רמת סקביאס' rendered as 'the scabies level'.",
+    "'היאפים' rendered as 'yuppie'.",
+    "Dhamma Dhara, Shelburne and S. N. Goenka spelled with the established English forms."
+  ],
+  "sourceProblems": [],
+  "unresolvedQuestions": [
+    "Whether the Ya'arot HaCarmel gloss should be dropped for an Israeli-audience edition."
+  ]
+}

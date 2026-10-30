@@ -1,0 +1,40 @@
+{
+  "articleId": "W071",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "A Little Self-Pride",
+  "sourceTextBlocks": 13,
+  "translatedTextBlocks": 13,
+  "questionBlocks": 0,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "Eleven narrative paragraphs and two section headings translated in original order.",
+    "All five captions translated with photographer credits retained (Eliran Avital, Eldad Rafaeli, Anat Mosberg, Peperoni Agency, Keren Natanzon); image placeholders kept as HTML comments at the original positions.",
+    "All three source hyperlinks (Survivor, A Star Is Born, Florentine YouTube clip) kept on the same words.",
+    "No prompts exist; this is an opinion column."
+  ],
+  "voiceChecks": [
+    "Argument stated in two or three plain sentences ('I'm not saying... Quite the opposite... The problem starts when we turn ourselves into a curiosity') with no added rhetoric.",
+    "Comic comparisons kept literal: 'like a cowgirl in withdrawal', 'on the scale of a papal visit', 'a branch of the Aguda'.",
+    "Opening list of names kept as one accumulating sentence; 'Honestly, no complaints about quantity' kept as the short beat that follows.",
+    "No parentheticals exist in the Hebrew body; none were added."
+  ],
+  "decisions": [
+    "Show titles: 'הישרדות - איי הפנינה' rendered as Survivor: Pearl Islands; 'כוכב נולד' as A Star Is Born; 'הכי גאים שיש' as Queer as Folk (established English title); 'אח הגדול' as Big Brother; 'הבלוק' as The Block; 'רצים לדירה', 'פיק אפ', 'וואי בעשר', 'מיי בלוג' and 'ערב טוב עם גיא פינס' transliterated or translated literally since no English titles exist.",
+    "'האגודה' glossed in four words ('the Aguda, the national LGBT association') because the joke depends on knowing what it is.",
+    "'קוקיצת הפרברים' rendered as 'the suburban-queen genre' / 'The suburban queen'; 'מאחצ'ץ'' as 'camping it up'; 'מלרלרים' as 'chattering away'; 'דופקים בוסות' as 'planting smooches'; 'תכלס' as 'Honestly'.",
+    "'זצ\"ל' after Florentine rendered as 'the late, lamented'.",
+    "'הדודים מראשון לציון' kept as 'the uncles from Rishon LeZion' without substitution.",
+    "Heading 'מה העניין?' rendered as 'What's the Issue?'; 'כן לגאווה, לא להחצנה' as 'Yes to Pride, No to Flaunting'.",
+    "Margol kept by name without gloss."
+  ],
+  "sourceProblems": [
+    "The last two captions carry their photo credits without parentheses in the source; reproduced as printed."
+  ],
+  "unresolvedQuestions": []
+}

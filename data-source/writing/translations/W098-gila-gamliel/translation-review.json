@@ -1,0 +1,50 @@
+{
+  "articleId": "W098",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "מאת נמרוד דביר"
+  },
+  "englishTitle": "Gila Gamliel Fears the Day \"The Handmaid's Tale\" Becomes Reality in Israel",
+  "sourceTextBlocks": 51,
+  "translatedTextBlocks": 51,
+  "questionBlocks": 18,
+  "captions": 7,
+  "images": 0,
+  "completenessChecks": [
+    "All 18 interviewer prompts are bold and in their own paragraphs, including the four statement prompts without question marks (Rivlin's speech, Netanyahu investigations, Merav Michaeli, 'a kind of elite').",
+    "All answers kept in their original paragraph boundaries; narrative paragraphs, three section headings and the closing production-credits line translated in original order.",
+    "All seven captions translated with fashion credits and photographer credits retained; image placeholders kept as HTML comments at the original positions.",
+    "All four source hyperlinks (two inside the #MeToo answer, Miri Regev prompt) kept on the same words with the original atmag URLs.",
+    "Originally published date 2017-11-07 taken from the Hebrew frontmatter because the inventory date field is blank."
+  ],
+  "voiceChecks": [
+    "The #MeToo passage and the harassment account are kept serious and plain.",
+    "Nim's narration kept its dry observation without added comment: 'A little surreal, considering that the ministry's previous name... was the Ministry for Pensioners' Affairs.'",
+    "Statement prompts left as statements; challenges kept direct ('Still, the instability comes from your party...').",
+    "The minister's short refusals kept short: 'Netanyahu isn't going anywhere. So there's nothing to talk about at all.'",
+    "No flirtation, mock-honorifics or slang introduced; this is a political interview and the Hebrew is polite throughout."
+  ],
+  "decisions": [
+    "'#גםאני' rendered as '#MeToo' (established English campaign name).",
+    "'סיפורה של שפחה' rendered as The Handmaid's Tale (established title).",
+    "'הדתה' rendered as 'religionization'; 'שבעים פנים לתורה' as 'the seventy faces of the Torah'.",
+    "'הממונים למרותם' rendered as 'appointees under their authority' in quotation marks as in the source.",
+    "'אחרינו המבול' rendered as 'After us, the deluge' (the standard English form of the French phrase).",
+    "Names transliterated: Hovav Dimri, Tahel, Yael, Eva Medzhibozh, Alex Gilady, Oren Hazan, David Bitan, Zehava Galon, Merav Michaeli, Avi Gabbay. 'אוה מדז'יבוז'' is rendered 'Eva Medzhibozh' from the Hebrew spelling.",
+    "'שכונת העיוורים בגדרה' transliterated as 'the Shkhunat HaIvrim neighborhood of Gedera' rather than translated literally.",
+    "Fashion credits kept with brand and store names as printed (Marc Cain, Essentiel at Numero 13, Pollini at Mary Shoes, Audra Belarus for Numero 13, Missoni at Factory 54, Sonia Rykiel at Tactic, Aldo).",
+    "'ש\"ח' rendered as 'shekels'.",
+    "The 'Today (Wednesday)' time reference is preserved as published."
+  ],
+  "sourceProblems": [
+    "The first caption carries the photographer credit twice in the source ('צילום: איליה מלניקוב (איליה מלניקוב)'); reproduced as printed.",
+    "The minister's first answer runs into Nim's narration in a single source paragraph; the paragraph boundary is preserved.",
+    "The brand name 'אודרה בלרוס' and the official's name 'אוה מדז'יבוז'' are transliterations whose Latin spellings could not be verified from the source."
+  ],
+  "unresolvedQuestions": [
+    "Confirm the Latin spelling of 'אוה מדז'יבוז'' (rendered Eva Medzhibozh) and of the fashion label 'אודרה בלרוס' (rendered Audra Belarus).",
+    "Confirm whether 'Shkhunat HaIvrim' should be translated literally ('the Neighborhood of the Blind')."
+  ]
+}

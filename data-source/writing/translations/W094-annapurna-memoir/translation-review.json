@@ -1,0 +1,33 @@
+{
+  "articleId": "W094",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "englishTitle": "Nothing Like the Magic Moment at the Summit",
+  "sourceTextBlocks": 4,
+  "translatedTextBlocks": 4,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "completenessChecks": [
+    "Three narrative paragraphs and the closing bold author note translated in original order.",
+    "The source has no subtitle, headings, prompts, captions or images; the summary field is a neutral description, not a translated subtitle, and no subtitle line was added to the body.",
+    "Source publication date (15/10/2014) used; the source's update stamp (16/10/2014, 22:51) is recorded here rather than in the body."
+  ],
+  "voiceChecks": [
+    "Plain advisory register kept with no humor, no asides and no added color, matching the source.",
+    "Impersonal second-person trekking narration ('you reach the day everyone waits for') kept rather than shifted to first person.",
+    "Historical safety advice preserved as published without updating."
+  ],
+  "decisions": [
+    "'ת'ורונג לה פס' rendered with the established name Thorong La Pass; 'טרק סובב אנאפורנה' as the Annapurna Circuit trek.",
+    "'האסונות הטרגיים האלו' kept as 'these tragic disasters' even though the specific October 2014 storm is not named in the body; no explanatory gloss added.",
+    "'כוויות קור' rendered as 'frostbite'; 'מחלת גבהים' as 'altitude sickness'.",
+    "'הזמן עצר מלכת' rendered as 'time seems to stand still'."
+  ],
+  "sourceProblems": [],
+  "unresolvedQuestions": []
+}
