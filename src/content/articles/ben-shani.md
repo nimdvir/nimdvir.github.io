@@ -22,6 +22,14 @@ tags:
 - Television
 - Journalism
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384161/Database-book-BITM330/vscode-auto/articles/W116-ben-shani.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384161/Database-book-BITM330/vscode-auto/articles/W116-ben-shani.jpg
+imageAlt: Head and shoulders portrait of Ben Shani
+imageCaption: Ben Shani, 2023.
+imageCredit: 'Photo: Yanai Yechiel, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Ben_Shani.jpg
 draft: false
 ---
 

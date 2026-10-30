@@ -21,6 +21,14 @@ tags:
 - New York
 - Spirituality
 - Comedy
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384148/Database-book-BITM330/vscode-auto/articles/W092-buddhism-new-york.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384148/Database-book-BITM330/vscode-auto/articles/W092-buddhism-new-york.jpg
+imageAlt: A street in Chelsea, Manhattan, in daylight
+imageCaption: A street in Chelsea, Manhattan, 2025.
+imageCredit: 'Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons'
+imageLicense: CC BY 4.0
+imageLicenseUrl: https://creativecommons.org/licenses/by/4.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Chelsea_Manhattan_April_2025_075.jpg
 draft: false
 ---
 

@@ -21,6 +21,14 @@ tags:
 - LGBTQ+
 - Reality Television
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384138/Database-book-BITM330/vscode-auto/articles/W071-lgbtq-television.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384138/Database-book-BITM330/vscode-auto/articles/W071-lgbtq-television.jpg
+imageAlt: A parade truck and crowd on Bograshov Street during the Tel Aviv Pride parade
+imageCaption: Tel Aviv Pride parade on Bograshov Street, June 2009.
+imageCredit: 'Photo: Talmoryair, CC BY 3.0, via Wikimedia Commons'
+imageLicense: CC BY 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Tlv_gay_pride2009_007.jpg
 draft: false
 ---
 

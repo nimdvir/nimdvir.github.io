@@ -18,6 +18,14 @@ citation: 'Dvir, N. (2010, August 26). Larutz ito: Al ha-sefer he-chadash shel H
 tags:
 - Review
 - Books
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384160/Database-book-BITM330/vscode-auto/articles/W114-haruki-murakami-running.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384160/Database-book-BITM330/vscode-auto/articles/W114-haruki-murakami-running.jpg
+imageAlt: Haruki Murakami speaking at a podium at the Jerusalem Prize ceremony
+imageCaption: Haruki Murakami receiving the Jerusalem Prize, February 2009.
+imageCredit: 'Photo: Galoren.com, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Haruki_Murakami_at_the_Jerusalem_Prize.JPG
 draft: false
 ---
 

@@ -23,6 +23,14 @@ tags:
 - Television
 - Hollywood
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384175/Database-book-BITM330/vscode-auto/articles/W171-darren-star.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384175/Database-book-BITM330/vscode-auto/articles/W171-darren-star.jpg
+imageAlt: Darren Star, seated, speaking during a television interview
+imageCaption: Darren Star during a Sidewalks Entertainment interview about Younger, 2017.
+imageCredit: 'Photo: Sidewalks Entertainment, CC BY 3.0, via Wikimedia Commons'
+imageLicense: CC BY 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Darren_Star_on_Sidewalks_Entertainment_about_Younger.jpg
 draft: false
 ---
 

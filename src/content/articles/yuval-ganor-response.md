@@ -22,6 +22,14 @@ tags:
 - LGBTQ+
 - Israel
 - Journalism
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384123/Database-book-BITM330/vscode-auto/articles/W016-yuval-ganor-response.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384123/Database-book-BITM330/vscode-auto/articles/W016-yuval-ganor-response.jpg
+imageAlt: The main news studio of the Israeli News Company (Channel 2), with desk and screens
+imageCaption: Main studio of the Israeli News Company (Channel 2), 2016.
+imageCredit: 'Photo: Channel 2 News Israel, CC BY-SA 4.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 4.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+imageSource: https://commons.wikimedia.org/wiki/File:The_Israeli_News_Company_%28Channel_2%29_-_Main_studio.jpg
 draft: false
 ---
 

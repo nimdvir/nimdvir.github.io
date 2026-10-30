@@ -22,6 +22,14 @@ tags:
 - Social Media
 - Reality Television
 - Media
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384145/Database-book-BITM330/vscode-auto/articles/W087-online-bystanders.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384145/Database-book-BITM330/vscode-auto/articles/W087-online-bystanders.jpg
+imageAlt: A laptop screen glowing in a dark room, showing an email inbox
+imageCaption: Laptop screen in a dark room, 2014.
+imageCredit: 'Photo: Jay Wennington, CC0, via Wikimedia Commons'
+imageLicense: CC0
+imageLicenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Reading_mail_at_night_(Unsplash).jpg
 draft: false
 ---
 

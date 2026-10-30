@@ -25,6 +25,14 @@ tags:
 - Hollywood
 - New York
 - Journalism
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384142/Database-book-BITM330/vscode-auto/articles/W080-fantastic-four.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384142/Database-book-BITM330/vscode-auto/articles/W080-fantastic-four.jpg
+imageAlt: 'Jessica Alba on the red carpet at the London premiere of Fantastic Four: Rise of the Silver Surfer'
+imageCaption: 'Jessica Alba at the London premiere of Fantastic Four: Rise of the Silver Surfer, 2007.'
+imageCredit: 'Photo: Miguel from London, United Kingdom, CC BY-SA 2.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Jessica_Alba_at_Fantastic_Four-_Rise_London_Premiere_3.jpg
 draft: false
 ---
 

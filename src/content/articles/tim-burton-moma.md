@@ -20,6 +20,14 @@ tags:
 - Film
 - Art
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384132/Database-book-BITM330/vscode-auto/articles/W056-tim-burton-moma.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384132/Database-book-BITM330/vscode-auto/articles/W056-tim-burton-moma.jpg
+imageAlt: Tim Burton speaking into a microphone on a panel at San Diego Comic-Con
+imageCaption: Tim Burton at San Diego Comic-Con, 2012.
+imageCredit: 'Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Tim_Burton_(7587109150).jpg
 draft: false
 ---
 

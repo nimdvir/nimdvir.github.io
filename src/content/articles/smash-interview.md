@@ -23,6 +23,14 @@ tags:
 - Broadway
 - Theatre
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384119/Database-book-BITM330/vscode-auto/articles/W007-smash-interview.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384119/Database-book-BITM330/vscode-auto/articles/W007-smash-interview.jpg
+imageAlt: Katharine McPhee speaking at a panel for the series Scorpion at San Diego Comic-Con
+imageCaption: Katharine McPhee at San Diego Comic-Con, 2014.
+imageCredit: 'Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Katharine_McPhee_(14770076655).jpg
 draft: false
 ---
 

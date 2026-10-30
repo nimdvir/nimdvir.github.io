@@ -21,6 +21,14 @@ tags:
 - New York
 - Israel
 - Culture
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384136/Database-book-BITM330/vscode-auto/articles/W062-holidays-homesickness.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384136/Database-book-BITM330/vscode-auto/articles/W062-holidays-homesickness.jpg
+imageAlt: A decorated Thanksgiving window display at the Macy's Herald Square store in New York
+imageCaption: Thanksgiving window display at Macy's Herald Square, New York, November 2005.
+imageCredit: 'Photo: C.S. Imming, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Macy_window_display_for_Thanksgiving.jpg
 draft: false
 ---
 

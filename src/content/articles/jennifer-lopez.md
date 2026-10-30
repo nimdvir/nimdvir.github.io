@@ -20,6 +20,14 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384130/Database-book-BITM330/vscode-auto/articles/W052-jennifer-lopez.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384130/Database-book-BITM330/vscode-auto/articles/W052-jennifer-lopez.jpg
+imageAlt: Jennifer Lopez and Marc Anthony being interviewed by a Univision presenter at the Lo Nuestro Awards in Miami
+imageCaption: Jennifer Lopez with Marc Anthony at the Lo Nuestro Awards in Miami, 2007.
+imageCredit: 'Photo: Cris, CC BY 2.0, via Wikimedia Commons'
+imageLicense: CC BY 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Lo_Nuestro_Awards_-JLo_&_Marc.jpg
 draft: false
 ---
 

@@ -20,6 +20,14 @@ tags:
 - Politics
 - Gender
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384155/Database-book-BITM330/vscode-auto/articles/W098-gila-gamliel.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384155/Database-book-BITM330/vscode-auto/articles/W098-gila-gamliel.jpg
+imageAlt: Official portrait of Gila Gamliel in front of an Israeli flag
+imageCaption: Gila Gamliel, official portrait as Minister for Social Equality, 2016.
+imageCredit: 'Photo: Haim Zach, Government Press Office of Israel, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Gila_Gamliel_1_(cropped).jpg
 draft: false
 ---
 

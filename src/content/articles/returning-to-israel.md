@@ -20,6 +20,14 @@ tags:
 - Journalism
 - Israel
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384140/Database-book-BITM330/vscode-auto/articles/W079-returning-to-israel.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384140/Database-book-BITM330/vscode-auto/articles/W079-returning-to-israel.jpg
+imageAlt: Tel Aviv beach and seafront promenade with Jaffa on the horizon
+imageCaption: Tel Aviv beach and promenade looking toward Jaffa, 2012.
+imageCredit: 'Photo: Jorge Láscar, CC BY 2.0, via Wikimedia Commons'
+imageLicense: CC BY 2.0
+imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Central_Tel_Aviv_beaches_and_Jaffa_on_the_background_(9869221525).jpg
 draft: false
 ---
 

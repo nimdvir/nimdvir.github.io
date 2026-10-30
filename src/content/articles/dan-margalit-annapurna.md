@@ -29,6 +29,14 @@ tags:
 - Travel
 - Israel
 - Journalism
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384152/Database-book-BITM330/vscode-auto/articles/W095-dan-margalit-annapurna.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384152/Database-book-BITM330/vscode-auto/articles/W095-dan-margalit-annapurna.jpg
+imageAlt: Snow-covered mountains along the Annapurna Circuit, Nepal
+imageCaption: Snow-covered mountains on the Annapurna Circuit, Nepal, December 2014.
+imageCredit: 'Photo: Anna Stavenskaya, CC BY-SA 4.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 4.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Annapurna_Circuit_Snow_Mountains.jpg
 draft: false
 ---
 

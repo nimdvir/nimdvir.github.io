@@ -23,6 +23,14 @@ tags:
 - Hollywood
 - Israel
 - Media
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384174/Database-book-BITM330/vscode-auto/articles/W163-noa-tishby.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384174/Database-book-BITM330/vscode-auto/articles/W163-noa-tishby.jpg
+imageAlt: Noa Tishby in conversation at an event in Los Angeles
+imageCaption: Noa Tishby during a visit by Foreign Minister Silvan Shalom to Los Angeles, 2004.
+imageCredit: 'Photo: Moshe Milner, Government Press Office of Israel, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Noa_Tishbi_D867-150_(cropped).jpg
 draft: false
 ---
 
