@@ -21,7 +21,7 @@ tags:
 - Reality Television
 - Television
 - United States
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384128/Database-book-BITM330/vscode-auto/articles/W035-patti-stanger.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384128/Database-book-BITM330/vscode-auto/articles/W035-patti-stanger.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384128/Database-book-BITM330/vscode-auto/articles/W035-patti-stanger.jpg
 imageAlt: Patti Stanger in a black T-shirt at the Los Angeles Times Festival of Books
 imageCaption: Patti Stanger at the Los Angeles Times Festival of Books, 2009.

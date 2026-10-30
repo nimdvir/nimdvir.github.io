@@ -22,7 +22,7 @@ tags:
 - Media
 - Journalism
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384178/Database-book-BITM330/vscode-auto/articles/W197-pnai-plus-appointments.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384178/Database-book-BITM330/vscode-auto/articles/W197-pnai-plus-appointments.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384178/Database-book-BITM330/vscode-auto/articles/W197-pnai-plus-appointments.jpg
 imageAlt: A newspaper stand on Ben Yehuda Street in Tel Aviv, 1946
 imageCaption: Newspaper stand on Ben Yehuda Street, Tel Aviv, 1946, photographed by Zoltan Kluger for the Government Press Office.

@@ -21,7 +21,7 @@ tags:
 - Film
 - Hollywood
 - Gender
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384125/Database-book-BITM330/vscode-auto/articles/W021-eva-mendes.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384125/Database-book-BITM330/vscode-auto/articles/W021-eva-mendes.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384125/Database-book-BITM330/vscode-auto/articles/W021-eva-mendes.jpg
 imageAlt: Eva Mendes on the red carpet at the Toronto International Film Festival premiere of The Place Beyond the Pines
 imageCaption: Eva Mendes at the Toronto International Film Festival, 2012.

@@ -25,7 +25,7 @@ tags:
 - Television
 - LGBTQ+
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384177/Database-book-BITM330/vscode-auto/articles/W184-new-york-drag-queens.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384177/Database-book-BITM330/vscode-auto/articles/W184-new-york-drag-queens.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384177/Database-book-BITM330/vscode-auto/articles/W184-new-york-drag-queens.jpg
 imageAlt: Lady Bunny and other drag performers on stage at the Wigstock festival in New York
 imageCaption: Lady Bunny and other performers at Wigstock, New York, 2000.

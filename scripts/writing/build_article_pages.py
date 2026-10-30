@@ -119,13 +119,23 @@ def main() -> int:
     sources = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else {}
     cloud = json.loads(CLOUD.read_text(encoding="utf-8")) if CLOUD.exists() else {}
 
+    HERO = "f_auto,q_auto,w_1600,h_1200,c_limit"
+    THUMB = "f_auto,q_auto,w_640,h_400,c_fill,g_auto"
+
     def transformed(url: str, transformation: str) -> str:
+        """Insert a delivery transformation into an untransformed Cloudinary URL."""
+        if "/image/upload/" not in url or re.search(r"/image/upload/[^/]*[a-z]_[^/]*/", url):
+            return url
         return url.replace("/image/upload/", f"/image/upload/{transformation}/", 1)
 
     def resolve_image(wid: str, folder_name: str) -> dict:
         """Explicit record first, then a verified source hosted through the uploader."""
         explicit = images.get(wid) or {}
         if explicit.get("image"):
+            # The legacy records hold the untransformed upload; size the hero
+            # the same way as the Commons images.
+            explicit = dict(explicit)
+            explicit["image"] = transformed(explicit["image"], HERO)
             return explicit
         src = sources.get(wid) or {}
         if src.get("status") != "found":
@@ -135,11 +145,16 @@ def main() -> int:
         hosted = cloud.get(f"articles/{folder_name}.{ext}")
         if not hosted:
             return {}
+        caption = src.get("caption", "")
+        if src.get("attribution") and src["attribution"] in caption:
+            # The template prints the credit after the caption; don't say it twice.
+            caption = caption.replace(src["attribution"], "").strip().rstrip(".").strip()
+            caption = f"{caption}." if caption else ""
         return {
-            "image": transformed(hosted, "f_auto,q_auto,w_1600,c_limit"),
-            "thumb": transformed(hosted, "f_auto,q_auto,w_640,h_400,c_fill,g_auto"),
+            "image": transformed(hosted, HERO),
+            "thumb": transformed(hosted, THUMB),
             "alt": src["alt"],
-            "caption": src.get("caption", ""),
+            "caption": caption,
             "credit": src["attribution"],
             "license": src["license"],
             "licenseUrl": src.get("licenseUrl"),

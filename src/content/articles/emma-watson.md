@@ -22,7 +22,7 @@ tags:
 - Film
 - Fashion
 - United Kingdom
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386472/Database-book-BITM330/vscode-auto/articles/W182-emma-watson.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386472/Database-book-BITM330/vscode-auto/articles/W182-emma-watson.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386472/Database-book-BITM330/vscode-auto/articles/W182-emma-watson.jpg
 imageAlt: Emma Watson with short hair at a film premiere
 imageCaption: Emma Watson at the New York premiere of Harry Potter and the Deathly Hallows, November 2010.

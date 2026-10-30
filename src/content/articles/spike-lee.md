@@ -22,7 +22,7 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386471/Database-book-BITM330/vscode-auto/articles/W174-spike-lee.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386471/Database-book-BITM330/vscode-auto/articles/W174-spike-lee.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386471/Database-book-BITM330/vscode-auto/articles/W174-spike-lee.jpg
 imageAlt: Spike Lee speaking to reporters, wearing glasses and a cap
 imageCaption: Spike Lee speaking with the press in Brasília, 2012.

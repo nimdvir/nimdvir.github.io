@@ -23,10 +23,10 @@ tags:
 - Comedy
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384953/Database-book-BITM330/vscode-auto/articles/W176-seth-rogen-zac-efron.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384953/Database-book-BITM330/vscode-auto/articles/W176-seth-rogen-zac-efron.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384953/Database-book-BITM330/vscode-auto/articles/W176-seth-rogen-zac-efron.jpg
 imageAlt: Seth Rogen speaking into a microphone at a convention panel
-imageCaption: 'Seth Rogen at WonderCon, Anaheim, March 2013. Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
+imageCaption: Seth Rogen at WonderCon, Anaheim, March 2013.
 imageCredit: 'Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
 imageLicense: CC BY-SA 2.0
 imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/

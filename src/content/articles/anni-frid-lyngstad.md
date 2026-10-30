@@ -19,7 +19,7 @@ citation: Dvir, N. (2010, November 14). Mamma mia! Sipura shel Frida Lyngstad me
 tags:
 - Feature
 - Music
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386468/Database-book-BITM330/vscode-auto/articles/W159-anni-frid-lyngstad.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386468/Database-book-BITM330/vscode-auto/articles/W159-anni-frid-lyngstad.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386468/Database-book-BITM330/vscode-auto/articles/W159-anni-frid-lyngstad.jpg
 imageAlt: Anni-Frid Lyngstad smiling at an event
 imageCaption: 'Anni-Frid Lyngstad at the opening of ABBA: The Museum, Stockholm, May 2013.'

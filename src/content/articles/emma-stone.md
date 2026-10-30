@@ -19,7 +19,7 @@ tags:
 - Film
 - Hollywood
 - Fashion
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386478/Database-book-BITM330/vscode-auto/articles/W195-emma-stone.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386478/Database-book-BITM330/vscode-auto/articles/W195-emma-stone.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386478/Database-book-BITM330/vscode-auto/articles/W195-emma-stone.jpg
 imageAlt: Emma Stone smiling at San Diego Comic-Con
 imageCaption: Emma Stone at San Diego Comic-Con, July 2011.

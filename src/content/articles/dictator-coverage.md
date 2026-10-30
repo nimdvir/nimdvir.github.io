@@ -23,7 +23,7 @@ tags:
 - Comedy
 - New York
 - Journalism
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384143/Database-book-BITM330/vscode-auto/articles/W083-dictator-coverage.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384143/Database-book-BITM330/vscode-auto/articles/W083-dictator-coverage.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384143/Database-book-BITM330/vscode-auto/articles/W083-dictator-coverage.jpg
 imageAlt: Sacha Baron Cohen at a film premiere in New York City, 2011
 imageCaption: Sacha Baron Cohen at the Hugo premiere in New York City, November 2011.

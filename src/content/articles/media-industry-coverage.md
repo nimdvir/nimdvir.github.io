@@ -23,7 +23,7 @@ tags:
 - Media
 - Journalism
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384179/Database-book-BITM330/vscode-auto/articles/W198-media-industry-coverage.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384179/Database-book-BITM330/vscode-auto/articles/W198-media-industry-coverage.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384179/Database-book-BITM330/vscode-auto/articles/W198-media-industry-coverage.jpg
 imageAlt: A news stand in Tel Aviv stocked with newspapers and magazines, 1989
 imageCaption: News stand in Tel Aviv, June 1989.

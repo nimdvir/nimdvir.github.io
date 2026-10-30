@@ -21,7 +21,7 @@ tags:
 - Film
 - New York
 - Hollywood
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384126/Database-book-BITM330/vscode-auto/articles/W023-matthew-broderick.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384126/Database-book-BITM330/vscode-auto/articles/W023-matthew-broderick.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384126/Database-book-BITM330/vscode-auto/articles/W023-matthew-broderick.jpg
 imageAlt: Head and shoulders portrait of Matthew Broderick at the Tribeca Film Festival
 imageCaption: Matthew Broderick at the Tribeca Film Festival, 2009.

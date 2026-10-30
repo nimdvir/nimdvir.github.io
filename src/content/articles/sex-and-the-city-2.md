@@ -25,7 +25,7 @@ tags:
 - LGBTQ+
 - Gender
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384156/Database-book-BITM330/vscode-auto/articles/W106-sex-and-the-city-2.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384156/Database-book-BITM330/vscode-auto/articles/W106-sex-and-the-city-2.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384156/Database-book-BITM330/vscode-auto/articles/W106-sex-and-the-city-2.jpg
 imageAlt: Sarah Jessica Parker in costume on a New York street during filming of Sex and the City 2
 imageCaption: Sarah Jessica Parker on the set of Sex and the City 2, New York, November 2009.

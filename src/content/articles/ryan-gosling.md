@@ -23,7 +23,7 @@ tags:
 - Hollywood
 - New York
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386476/Database-book-BITM330/vscode-auto/articles/W186-ryan-gosling.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386476/Database-book-BITM330/vscode-auto/articles/W186-ryan-gosling.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386476/Database-book-BITM330/vscode-auto/articles/W186-ryan-gosling.jpg
 imageAlt: Ryan Gosling in a suit at the Cannes Film Festival
 imageCaption: Ryan Gosling at the Cannes Film Festival, May 2011.

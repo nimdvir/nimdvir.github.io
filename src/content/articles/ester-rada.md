@@ -22,7 +22,7 @@ tags:
 - Television
 - Music
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384158/Database-book-BITM330/vscode-auto/articles/W108-ester-rada.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384158/Database-book-BITM330/vscode-auto/articles/W108-ester-rada.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384158/Database-book-BITM330/vscode-auto/articles/W108-ester-rada.jpg
 imageAlt: Ester Rada singing into a microphone on stage
 imageCaption: Ester Rada performing at the InDnegev festival, 2012.

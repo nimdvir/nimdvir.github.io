@@ -21,7 +21,7 @@ tags:
 - Interview
 - Television
 - Comedy
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386474/Database-book-BITM330/vscode-auto/articles/W185-mike-henry.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386474/Database-book-BITM330/vscode-auto/articles/W185-mike-henry.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386474/Database-book-BITM330/vscode-auto/articles/W185-mike-henry.jpg
 imageAlt: Mike Henry seated at a convention panel
 imageCaption: Mike Henry at San Diego Comic-Con, July 2011.

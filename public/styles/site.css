@@ -1805,9 +1805,31 @@ a {
 .article-notice p {
   margin: 0;
 }
+.article-cover .cover-frame {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 16px;
+  background: var(--soft);
+  isolation: isolate;
+}
+.article-cover .cover-frame::before {
+  /* A blurred copy of the photo fills the frame behind portrait-format images. */
+  content: "";
+  position: absolute;
+  inset: -32px;
+  background: var(--cover) center / cover no-repeat;
+  filter: blur(28px) saturate(1.15);
+  opacity: 0.75;
+  z-index: -1;
+}
 .article-cover img {
-  max-height: 560px;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 0;
+  background: transparent;
 }
 .article-cover figcaption a {
   color: inherit;

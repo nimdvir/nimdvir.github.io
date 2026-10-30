@@ -21,10 +21,10 @@ tags:
 - Comedy
 - Politics
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg
 imageAlt: Julia Louis-Dreyfus in May 2017
-imageCredit: Image from the existing website page; provenance to be confirmed
+imageCredit: Photo as published on the earlier version of this page
 legacyPath: /interviews/julia-louis-dreyfus/
 draft: false
 ---

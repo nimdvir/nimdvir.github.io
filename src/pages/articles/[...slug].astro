@@ -115,7 +115,9 @@ const minutes = readingMinutes(article.body);
 
     {d.image ? (
       <figure class="editorial-cover article-cover">
-        <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
+        <div class="cover-frame" style={`--cover: url("${d.image}")`}>
+          <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
+        </div>
         <figcaption>
           {d.imageCaption && <span>{d.imageCaption} </span>}
           {d.imageSource ? (

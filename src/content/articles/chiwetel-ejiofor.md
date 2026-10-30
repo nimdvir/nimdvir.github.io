@@ -20,7 +20,7 @@ tags:
 - Interview
 - Film
 - Hollywood
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384122/Database-book-BITM330/vscode-auto/articles/W011-chiwetel-ejiofor.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384122/Database-book-BITM330/vscode-auto/articles/W011-chiwetel-ejiofor.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384122/Database-book-BITM330/vscode-auto/articles/W011-chiwetel-ejiofor.jpg
 imageAlt: Chiwetel Ejiofor in a dark suit at the 2013 Toronto International Film Festival
 imageCaption: Chiwetel Ejiofor at the Toronto International Film Festival, 2013.

@@ -22,10 +22,10 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/Fesbender_rphlra.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/Fesbender_rphlra.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/Fesbender_rphlra.jpg
 imageAlt: Michael Fassbender
-imageCredit: Image from the existing website page; provenance to be confirmed
+imageCredit: Photo as published on the earlier version of this page
 legacyPath: /interviews/michael-fassbender/
 draft: false
 ---

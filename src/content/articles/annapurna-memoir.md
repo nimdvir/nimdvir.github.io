@@ -18,7 +18,7 @@ citation: Dvir, N. (2014, October 15). Ein kmo rega ha-kesem ba-pisga [Nothing c
 tags:
 - Opinion
 - Travel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384149/Database-book-BITM330/vscode-auto/articles/W094-annapurna-memoir.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384149/Database-book-BITM330/vscode-auto/articles/W094-annapurna-memoir.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384149/Database-book-BITM330/vscode-auto/articles/W094-annapurna-memoir.jpg
 imageAlt: Snow-covered peaks of the Damodar Himal at Thorong La pass, Nepal
 imageCaption: Thorong La pass, Damodar Himal, Nepal, 2007.

@@ -21,7 +21,7 @@ tags:
 - Interview
 - Film
 - Hollywood
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384164/Database-book-BITM330/vscode-auto/articles/W122-aaron-eckhart-yvonne-strahovski.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384164/Database-book-BITM330/vscode-auto/articles/W122-aaron-eckhart-yvonne-strahovski.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384164/Database-book-BITM330/vscode-auto/articles/W122-aaron-eckhart-yvonne-strahovski.jpg
 imageAlt: Aaron Eckhart speaking on a panel at San Diego Comic-Con
 imageCaption: Aaron Eckhart at San Diego Comic-Con, 2013, where I, Frankenstein was presented.

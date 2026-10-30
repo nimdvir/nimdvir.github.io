@@ -19,10 +19,10 @@ tags:
 - Television
 - Reality Television
 - LGBTQ+
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/v1771137278/2_gd_kunxwp.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1771137278/2_gd_kunxwp.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771137278/2_gd_kunxwp.jpg
 imageAlt: RuPaul
-imageCredit: Image from the existing website page; provenance to be confirmed
+imageCredit: Photo as published on the earlier version of this page
 legacyPath: /interviews/rupaul/
 draft: false
 ---

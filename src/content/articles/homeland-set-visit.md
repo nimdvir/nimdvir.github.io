@@ -26,7 +26,7 @@ tags:
 - Television
 - Israel
 - United States
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384170/Database-book-BITM330/vscode-auto/articles/W158-homeland-set-visit.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384170/Database-book-BITM330/vscode-auto/articles/W158-homeland-set-visit.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384170/Database-book-BITM330/vscode-auto/articles/W158-homeland-set-visit.jpg
 imageAlt: Claire Danes on the red carpet at the Golden Globe Awards
 imageCaption: Claire Danes at the 69th Golden Globe Awards, January 2012, the night Homeland won Best Drama Series.

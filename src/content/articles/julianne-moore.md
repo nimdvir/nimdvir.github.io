@@ -22,7 +22,7 @@ tags:
 - Gender
 - Aging
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384129/Database-book-BITM330/vscode-auto/articles/W046-julianne-moore.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384129/Database-book-BITM330/vscode-auto/articles/W046-julianne-moore.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384129/Database-book-BITM330/vscode-auto/articles/W046-julianne-moore.jpg
 imageAlt: Julianne Moore photographed at an event in May 2008
 imageCaption: Julianne Moore, 2008.

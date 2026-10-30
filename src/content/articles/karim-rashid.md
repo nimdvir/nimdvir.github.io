@@ -22,7 +22,7 @@ tags:
 - Israel
 - New York
 - Politics
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384154/Database-book-BITM330/vscode-auto/articles/W097-karim-rashid.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384154/Database-book-BITM330/vscode-auto/articles/W097-karim-rashid.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384154/Database-book-BITM330/vscode-auto/articles/W097-karim-rashid.jpg
 imageAlt: Karim Rashid speaking with reporters at the Innoprom industrial fair in Yekaterinburg
 imageCaption: Karim Rashid talking to the press at Innoprom 2012, Yekaterinburg.
