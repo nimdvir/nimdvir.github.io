@@ -149,7 +149,8 @@
     "No new body headings or display quotes were inserted because the original has none.",
     "All eight interviewer prompts are bold and separate, including prompts without question marks.",
     "Both image captions are translated. Credits are not supplied in the source.",
-    "Source sidebar image is retained after the main text in the linear draft."
+    "Source sidebar image is retained after the main text in the linear draft.",
+    "2026-10-30: archival footer (APA citation, publisher link, Hebrew Markdown and HTML backup links) and author field added for consistency with the batch translations; body unchanged."
   ],
   "titleReference": "https://www.sonypictures.com/movies/freedomland"
 }

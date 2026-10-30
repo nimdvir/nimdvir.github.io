@@ -11,6 +11,7 @@ summary: Oh, honey, don't be so modest. Of course you're interesting. To us. Jul
   about life after 40 in an industry that worships youth. "Most of the attention these
   days goes to young people, the Jessica Simpsons of the world," she says. "At my
   age, I'm probably well outside the age range people talk about."
+author: Nimrod Dvir
 interviewee: Julianne Moore
 subjects:
 - Julianne Moore
@@ -98,3 +99,17 @@ Has Moore finished with depression once and for all, or should we expect more in
 ![Julianne Moore in Freedomland. Mostly talking about family.](https://images1.ynet.co.il/PicServer2/20122005/729376/lies2_a.jpg)
 
 *Julianne Moore in Freedomland. Mostly talking about family.*
+
+---
+
+## Source, backup and citation (archival information; not part of the original article)
+
+**APA 7 citation, copy-ready:**
+
+```text
+Dvir, N. (2006, February 22). Et mi ani me'anyenet? [Who is interested in me?]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3219720,00.html
+```
+
+[Original article at the publisher](https://www.ynet.co.il/articles/0,7340,L-3219720,00.html) · [Verified Hebrew Markdown](../../originals/W046-julianne-moore/article.he.md) · [Clean Hebrew HTML backup](../../originals/W046-julianne-moore/article.he.html)
+
+*This English translation was prepared on October 24, 2026 and was not published by the original publisher. Source images remain remote publisher references and were not downloaded or re-hosted; captions are preserved as provenance.*
