@@ -22,6 +22,14 @@ tags:
 - Television
 - Comedy
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793379302/nimdvir-site/articles/W010-bill-masters.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793379302/nimdvir-site/articles/W010-bill-masters.jpg
+imageAlt: Street-level exterior of Tom's Restaurant at Broadway and 112th Street in Manhattan, with its red neon sign
+imageCaption: Tom's Restaurant in Manhattan, the exterior used for Monk's Cafe in Seinfeld, 2000.
+imageCredit: 'Photo: Rick Dikeman, CC BY-SA 3.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 3.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Tom's_Restaurant,_NYC.jpg
 draft: false
 ---
 

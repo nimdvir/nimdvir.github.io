@@ -3,7 +3,9 @@
 Usage: python scripts/writing/build_article_pages.py [--draft]
 
 Reads data-source/writing/translations/W###-slug/article.en.md, the article
-inventory, and data-source/writing/article-images.json, then writes one
+inventory, data-source/writing/article-images.json (explicit image records),
+data-source/writing/article-image-sources.json (verified Commons sources)
+and src/data/cloudinary-images.json (hosted copies), then writes one
 src/content/articles/<slug>.md per package. The translation packages stay the
 editorial source of truth; this script only derives the page files, so it
 can be rerun after a draft or an image record changes.
@@ -27,6 +29,8 @@ ROOT = Path(__file__).resolve().parents[2]
 TRANSLATIONS = ROOT / "data-source" / "writing" / "translations"
 INVENTORY = ROOT / "data-source" / "writing" / "articles.csv"
 IMAGES = ROOT / "data-source" / "writing" / "article-images.json"
+SOURCES = ROOT / "data-source" / "writing" / "article-image-sources.json"
+CLOUD = ROOT / "src" / "data" / "cloudinary-images.json"
 OUT = ROOT / "src" / "content" / "articles"
 REPO_BLOB = "https://github.com/nimdvir/nimdvir.github.io/blob/main/"
 TAGS = ROOT / "src" / "data" / "tags.json"
@@ -112,6 +116,35 @@ def main() -> int:
         for r in csv.DictReader(INVENTORY.open(encoding="utf-8-sig", newline=""))
     }
     images = json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else {}
+    sources = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else {}
+    cloud = json.loads(CLOUD.read_text(encoding="utf-8")) if CLOUD.exists() else {}
+
+    def transformed(url: str, transformation: str) -> str:
+        return url.replace("/image/upload/", f"/image/upload/{transformation}/", 1)
+
+    def resolve_image(wid: str, folder_name: str) -> dict:
+        """Explicit record first, then a verified source hosted through the uploader."""
+        explicit = images.get(wid) or {}
+        if explicit.get("image"):
+            return explicit
+        src = sources.get(wid) or {}
+        if src.get("status") != "found":
+            return {}
+        ext = src["originalUrl"].rsplit(".", 1)[-1].lower()
+        ext = {"jpeg": "jpg"}.get(ext, ext)
+        hosted = cloud.get(f"articles/{folder_name}.{ext}")
+        if not hosted:
+            return {}
+        return {
+            "image": transformed(hosted, "f_auto,q_auto,w_1600,c_limit"),
+            "thumb": transformed(hosted, "f_auto,q_auto,w_640,h_400,c_fill,g_auto"),
+            "alt": src["alt"],
+            "caption": src.get("caption", ""),
+            "credit": src["attribution"],
+            "license": src["license"],
+            "licenseUrl": src.get("licenseUrl"),
+            "source": src["descriptionUrl"],
+        }
     registry = {t["label"] for t in json.loads(TAGS.read_text(encoding="utf-8"))["tags"]}
     aliases = {
         a: t["label"]
@@ -198,7 +231,7 @@ def main() -> int:
         if citation:
             data["citation"] = citation
         data["tags"] = tags
-        image = images.get(wid) or {}
+        image = resolve_image(wid, folder.name)
         if image.get("image"):
             data["image"] = image["image"]
             if image.get("thumb"):
