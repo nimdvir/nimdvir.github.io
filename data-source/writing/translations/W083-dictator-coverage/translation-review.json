@@ -1,0 +1,42 @@
+{
+  "articleId": "W083",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Amir Bogen",
+    "bylineAsPrinted": "אמיר בוגן",
+    "note": "third-party coverage about Nimrod Dvir; not a sample of his writing. Nim appears as a quoted source and as the subject of the incident."
+  },
+  "sourceTextBlocks": 9,
+  "translatedTextBlocks": 9,
+  "questionBlocks": 1,
+  "captions": 3,
+  "images": 3,
+  "englishTitle": "\"The Dictator\" Pressed a Gun to an Israeli Reporter's Groin",
+  "completenessChecks": [
+    "All nine body text blocks translated in order, including the source's split of one sentence ('In return / for the grand performance') across two paragraphs, which is preserved as in the Hebrew capture.",
+    "The single interviewer prompt is bold and separate.",
+    "All three hyperlinks kept on the same words (Matt Lauer clip, student festival item, Seacrest item).",
+    "Three captions translated with credits; sidebar image linearized after the body as in the Hebrew."
+  ],
+  "voiceChecks": [
+    "Bogen's news-report register is kept: wire-style lead, parenthetical '(in jest, of course)', attribution tags 'Dvir recounts in a conversation with ynet'.",
+    "Nim's quoted speech is translated as published Hebrew, including the explicit sexual joke, without sanitizing.",
+    "No Nim-style narration was introduced; the piece reads as a third-party report."
+  ],
+  "decisions": [
+    "'ירד מתחת לחגורה' rendered 'went below the belt'.",
+    "'יהודי חם' rendered 'a warm Jew' to keep the Hebrew idiom's affectionate sense.",
+    "'חוצפה ישראלית' kept as 'Israeli chutzpah'.",
+    "Character and film names use the established English forms: General Aladeen, Republic of Wadiya, Larry Charles, Matt Lauer, Ryan Seacrest.",
+    "Photo credit 'mct' kept lowercase as printed."
+  ],
+  "sourceProblems": [
+    "The last word of the plot summary, 'וזקן', is ambiguous without vowels ('and old' or 'and a beard'); the film's plot has Aladeen lose his beard. Translated literally as 'and old' without correction; Nim may prefer a different reading.",
+    "The source's displayed time 04:37 differs from its JSON-LD timestamp; the source record notes this. Not relevant to the translation.",
+    "Baron Cohen is spelled both בארון כהן and ברון כהן in the source captions; English uses the established 'Baron Cohen' throughout."
+  ],
+  "unresolvedQuestions": [
+    "Reading of 'וזקן' (see sourceProblems)."
+  ]
+}

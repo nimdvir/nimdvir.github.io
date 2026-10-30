@@ -1,0 +1,41 @@
+{
+  "articleId": "W016",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Yuval Ganor",
+    "bylineAsPrinted": "יובל גנור",
+    "note": "third-party coverage about Nimrod Dvir; not a sample of his writing. Ganor is responding to Nim's Ynet column of June 10, 2009 (inventory W071)."
+  },
+  "sourceTextBlocks": 12,
+  "translatedTextBlocks": 12,
+  "questionBlocks": 0,
+  "captions": 4,
+  "images": 4,
+  "englishTitle": "There Is Room for Everyone",
+  "completenessChecks": [
+    "All 12 body text blocks (11 paragraphs plus the author biography line) translated in source order; one section heading retained.",
+    "All three body hyperlinks preserved on the same words (Nim's column, the Survivor victory news item, Hoshen).",
+    "All four image captions translated with photographer credits; the sidebar image stays linearized after the body as in the Hebrew.",
+    "First and last substantive paragraphs compared against source-record.json firstTextBlock and lastTextBlock."
+  ],
+  "voiceChecks": [
+    "Ganor's argumentative, first-person reply register is kept: direct admissions ('I admit that on first reading I nodded'), rhetorical questions, and the closing conditional sentence.",
+    "Phrases Ganor quotes from Nim's column (suburban queen, cowgirl in withdrawal, with pleasant ease) are translated literally so they can be matched against the W071 translation; the W071 translator should align wording if it differs.",
+    "No softening of the charge that the column's position is homophobic; 'disguised as principles' and the talkback quote are rendered as bluntly as the Hebrew."
+  ],
+  "decisions": [
+    "'קוקיצת הפרברים' rendered 'suburban queen'; 'בוקרת בקריז' rendered 'cowgirl in withdrawal' (drug-craving sense of קריז).",
+    "'הומואים סטרייטים' rendered 'straight gays' with the Hebrew quotation marks kept.",
+    "'וכך קיבלנו את ההבחנה בין...' and the following one-line paragraph 'בין אמיר פיי גוטמן...' are kept as two separate paragraphs, matching the source's fragment.",
+    "Show titles: Survivor, Big Brother, The Block, Seven Days (Shiv'a Yamim) rendered in English; people's names transliterated (Schneidrowski, Fay Guttman, Uchovsky, Buganim, Bublil).",
+    "Hoshen's self-description is translated as the source words it (gay, lesbian, bisexual and transgender community)."
+  ],
+  "sourceProblems": [
+    "The Hebrew says the talkback quote contains homophobia 'in five words'; the English quote also has five words, so the count is preserved.",
+    "No source typos requiring a note."
+  ],
+  "unresolvedQuestions": [
+    "Whether to display this piece on the website at all, given it is a rebuttal to Nim rather than his work; it is translated for completeness of the archive."
+  ]
+}

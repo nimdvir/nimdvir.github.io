@@ -1,0 +1,32 @@
+{
+  "articleId": "W197",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "nrg Maariv staff (corporate byline)",
+    "bylineAsPrinted": "nrg מעריב",
+    "note": "third-party coverage about Nimrod Dvir; not a sample of his writing. Nim is one of two appointees reported."
+  },
+  "sourceTextBlocks": 5,
+  "translatedTextBlocks": 5,
+  "questionBlocks": 0,
+  "captions": 0,
+  "images": 0,
+  "englishTitle": "Pini Askal Moves to \"Pnai Plus\"",
+  "completenessChecks": [
+    "All five paragraphs translated in order; the single hyperlink (Or Knispel item) kept on the same words.",
+    "No images in the source; footer says so."
+  ],
+  "voiceChecks": [
+    "Plain trade-news register kept; quotations from Nirit Weiss and Yehoram Dilmani translated as printed."
+  ],
+  "decisions": [
+    "'סגניה' rendered 'deputies to Nirit Weiss' (the Hebrew makes both appointees her deputies).",
+    "'מבניה המובחרים של וואלה!' rendered 'one of Walla!'s finest sons' to keep the idiom.",
+    "The headline's past tense 'עבר' is rendered as the English headline present 'Moves', matching English headline convention; the APA romanized title keeps 'moved' as captured."
+  ],
+  "sourceProblems": [
+    "The source omits the opening quotation mark before Nirit Weiss's statement but closes it; the English reproduces the same asymmetry rather than correcting it."
+  ],
+  "unresolvedQuestions": []
+}

@@ -1,0 +1,46 @@
+{
+  "articleId": "W095",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Dan Margalit (column)",
+    "companionReportAuthors": ["Shlomo Tsezana", "Nitzchia Yaakov", "Dan Lavie"],
+    "companionReportContributor": "Meital Yasur Beit-Or",
+    "bylineAsPrinted": "דן מרגלית",
+    "note": "third-party coverage; not a sample of Nimrod Dvir's writing. Nim is credited only as photographer of the lead image (הדרך לת'ורונג לה)."
+  },
+  "sourceTextBlocks": 20,
+  "translatedTextBlocks": 20,
+  "questionBlocks": 0,
+  "captions": 1,
+  "images": 1,
+  "englishTitle": "Nature Is Stronger Than Everything",
+  "completenessChecks": [
+    "Margalit's seven column paragraphs, the asterisk separator, the section heading, the bold deck, the nine news paragraphs, and the two italic credit lines are all present in source order (20 blocks, matching source-record bodyTextBlocks).",
+    "Lead image caption translated with Nim's photo credit in both positions as printed.",
+    "No hyperlinks in the source body; none added.",
+    "First and last blocks compared against source-record.json."
+  ],
+  "voiceChecks": [
+    "Margalit's elevated column register (biblical allusions, long periodic sentences, semicolon lists) is preserved rather than simplified.",
+    "The companion report keeps a wire-service register with attributed quotations and figures as printed.",
+    "No Nim narration introduced; the archival lead line states his role as photographer."
+  ],
+  "decisions": [
+    "Psalm 8:4 rendered in the King James wording ('What is man, that thou art mindful of him?...') as the most recognizable English equivalent of the Hebrew verse.",
+    "Margalit writes 'שנתיים לאחר הרעש' ('two years after the earthquake'); the biblical verse (Amos 1:1) reads 'before'. Translated as printed, without correction.",
+    "'המילקי' kept as the brand name 'Milky' without a gloss; it alludes to the 2014 'Milky protest' over Israeli living costs.",
+    "'את המנגינה הזאת אי אפשר להפסיק' rendered 'This tune cannot be stopped', described as an Air Force song as the Hebrew says.",
+    "'עולם כמנהגו נוהג' rendered 'the world goes on as usual'.",
+    "'לקטמנדו ולהוקרה' rendered Kathmandu and Pokhara (the Hebrew spelling הוקרה is kept uncorrected in the source; the English uses the established place name).",
+    "Magen David Adom spelled out at first use with the MDA abbreviation afterward, as the Hebrew abbreviates it."
+  ],
+  "sourceProblems": [
+    "'שנתיים לאחר הרעש' reverses the biblical 'before'; left as printed (see decisions).",
+    "The source record notes a publisher Facebook-follow promotional span was removed during capture; nothing else omitted.",
+    "Figures in the news report (29 dead, 17 rescued, 128/135/200 contacts) are historical as printed on October 16, 2014 and were not updated."
+  ],
+  "unresolvedQuestions": [
+    "Whether the website should present this item at all, since Nim's only contribution is the photograph; the translation exists for archive completeness."
+  ]
+}

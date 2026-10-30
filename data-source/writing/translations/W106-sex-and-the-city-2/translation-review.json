@@ -1,0 +1,48 @@
+{
+  "articleId": "W106",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "authors": ["Dana Darvinsky", "Nimrod Dvir"],
+    "bylineAsPrinted": "דנה דרבינסקי ונמרוד דביר",
+    "note": "coauthored; paragraph authorship not supplied by the source. Not usable as an unqualified sample of Nim's solo voice."
+  },
+  "sourceTextBlocks": 14,
+  "translatedTextBlocks": 14,
+  "questionBlocks": 0,
+  "captions": 5,
+  "images": 4,
+  "video": 1,
+  "englishTitle": "Queens of the Desert: A Review of \"Sex and the City 2\"",
+  "completenessChecks": [
+    "Film data line, three introductory paragraphs, and all ten section headings with their paragraphs are present in source order (14 text blocks, matching source-record bodyTextBlocks).",
+    "Four image captions and the trailer caption translated; PR credits kept; positions preserved with HTML comments in place of the unembedded media.",
+    "The parenthetical digressions inside the Age section (the long aside about a third film) are kept inside the same sentence as in the Hebrew.",
+    "First and last blocks compared against source-record.json."
+  ],
+  "voiceChecks": [
+    "The review's category structure and the mixed register (critical vocabulary beside slang such as 'trashy', 'tits', 'nagging') are kept without sanitizing.",
+    "First-person plural 'we' and the occasional singular 'I' alternate exactly as the Hebrew does; no attempt was made to assign passages to either author.",
+    "Jokes stay in their original positions (yellow stars, Fellini, the Paula Abdul aside, the clicker).",
+    "Because the piece is coauthored, no Nim-specific stylistic choices were imposed beyond fidelity."
+  ],
+  "decisions": [
+    "Section heading 'העיר הגדולה (או \"ניו יורק\")' rendered 'The Big City (or \"New York\")' to keep the play on the Hebrew title of the series, which calls it 'Sex and the Big City'.",
+    "'חטופים' rendered by its established English title 'Prisoners of War'.",
+    "'דירוג של טראש' rendered 'a trash rating'; 'כוכבים צהובים' kept literal as 'yellow stars'.",
+    "'מדושן' rendered 'portly'; 'ערבי מחמד אוחצ'י' rendered 'a camp Arab pet'.",
+    "'קארי, לטיפולך' rendered 'Carrie, over to you'.",
+    "'אח, אחותי, איפה את?' rendered 'Oh, sister, where are you?' and 'חברה, את חסרה' as 'Girlfriend, we miss you'.",
+    "Character and show names use established English forms (Stanford and Anthony, Big, Patricia Field, Suzanne Somers, Liza Minnelli, 'Single Ladies').",
+    "The source's visual 3.5/5 star rating is recorded in source-record.json and not reproduced in the text because the published text does not state it."
+  ],
+  "sourceProblems": [
+    "The inventory's original nrg.co.il URL returns 404; the Hebrew was verified against the nrg archive at makorrishon.co.il, and both links are given in the footer.",
+    "Source typos (e.g. 'נהנת', 'בינהם', 'שיטחי', 'ניראות', 'להתלונו', 'הסדרה הכולה') are not reproduced in English and were not noted as errors in the text.",
+    "The source's claim of '45 states' where same-sex marriage was illegal in 2010 is historical wording and left as printed.",
+    "No Hebrew body hyperlinks; a related-story promotional link was excluded at capture."
+  ],
+  "unresolvedQuestions": [
+    "Whether Nim can identify which sections he wrote, which would allow the piece to be used as a voice sample for those parts."
+  ]
+}

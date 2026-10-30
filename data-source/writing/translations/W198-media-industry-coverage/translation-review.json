@@ -1,0 +1,39 @@
+{
+  "articleId": "W198",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "nrg Maariv staff (corporate byline)",
+    "bylineAsPrinted": "nrg מעריב",
+    "note": "third-party coverage mentioning Nimrod Dvir ('Nimrod Dvir of Maariv' in a party guest list); not a sample of his writing."
+  },
+  "sourceTextBlocks": 9,
+  "translatedTextBlocks": 9,
+  "questionBlocks": 0,
+  "captions": 2,
+  "images": 2,
+  "englishTitle": "The Bottom Line",
+  "completenessChecks": [
+    "All nine gossip items translated in order; the single hyperlink ('we reported') kept on the same words.",
+    "Both captions translated with credits and kept before the paragraphs they precede, as in the Hebrew capture.",
+    "Every name in the guest lists is present; none dropped or merged."
+  ],
+  "voiceChecks": [
+    "Gossip-column register kept: clipped items, 'Wedding season 1 / 2' labels, the dry joke about the guest who arrived a day late, the sign-off pun on Hadas Rivak's trip.",
+    "No narration added to explain who the people are."
+  ],
+  "decisions": [
+    "Column title 'התחתית' rendered 'The Bottom Line' (the Hebrew literally 'the bottom' is the column's name; the APA line keeps the captured literal gloss 'The bottom').",
+    "'קרב חתולות' rendered 'catfight'.",
+    "'בקרוב אגיע רחוק' rendered 'Soon I'll go far', keeping the item's wordplay on the name Rivak/far.",
+    "The first caption keeps the source's misspelling 'רנית' as 'Ranit' because the Hebrew capture preserves both spellings; the subtitle and body use 'Ronit'.",
+    "Show and outlet names use established English forms where they exist (Beauty and the Geek, Big Brother, The Amazing Race, MasterChef, Calcalist, Israel Hayom, Yedioth Ahronoth); 'HOT Bidur Yisraeli' and 'Café Telad' are transliterated."
+  ],
+  "sourceProblems": [
+    "Spelling inconsistency רונית / רנית in the source, retained (see decisions).",
+    "'הזוג' spellings and the dash in the subtitle ('לקשת- \"התחתית\"-') are typographic in the source and normalized to a colon in English."
+  ],
+  "unresolvedQuestions": [
+    "Whether the archive needs this item on the website; Nim is only a name in a guest list."
+  ]
+}
