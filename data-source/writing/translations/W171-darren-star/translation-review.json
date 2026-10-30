@@ -1,0 +1,39 @@
+{
+  "articleId": "W171",
+  "englishTitle": "Super Star",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 21,
+  "translatedTextBlocks": 21,
+  "questionBlocks": 7,
+  "captions": 4,
+  "images": 0,
+  "completenessChecks": [
+    "First block (workshop opening at the ambassador's residence) and last block (the 'organizers will fill my time' answer) match the source-record first and last text blocks.",
+    "20 body text blocks plus 1 section heading translated in order; 7 prompts bold and separate; the two-paragraph answer about Kitchen Confidential keeps its boundary.",
+    "All three source hyperlinks (CBS show pages and the Ynet 90210 reboot story) kept on the same words.",
+    "Four captions translated with AP and Reuters credits kept; the two sidebar captions remain at the end as in the Hebrew file."
+  ],
+  "voiceChecks": [
+    "'Not bad.' kept as a two-word verdict sentence.",
+    "'The man, the legend, and the father of the classics' kept as the mock-grand epithet; 'between yet another lecture and yet another glittering event' keeps the dry repetition.",
+    "'our shared adoration' kept so the narrator's fan admission stays in.",
+    "No jokes added; the piece's service register preserved."
+  ],
+  "decisions": [
+    "Series titles use established English titles (Beverly Hills, 90210; Melrose Place; Sex and the City; Models Inc.; Curb Your Enthusiasm; The Real Housewives of New York City rendered as the source names it, 'The Real Housewives of New York'; Kitchen Confidential; Dharma & Greg; ER).",
+    "'הפקה מחודשת' rendered as 'reboot' in the subtitle and the linked prompt.",
+    "'הערצה המוטורפת' rendered as 'crazy devotion'.",
+    "'שלשום (ג')' rendered as 'The day before yesterday (Tuesday)'.",
+    "'בטיפול' kept as BeTipul with In Treatment as the American title, following Star's own wording."
+  ],
+  "sourceProblems": [
+    "Source calls Gail Berman Bill Masters's wife ('אשתו המפיקה גייל ברמן'); kept as printed without verification.",
+    "Source says Star is 48 in July 2009 (born July 1961); kept as printed."
+  ],
+  "unresolvedQuestions": []
+}

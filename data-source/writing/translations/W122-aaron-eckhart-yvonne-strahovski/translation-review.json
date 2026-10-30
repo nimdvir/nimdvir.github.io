@@ -1,0 +1,38 @@
+{
+  "articleId": "W122",
+  "englishTitle": "\"Millions of People Feel Rejected, Like Frankenstein\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
+  },
+  "sourceTextBlocks": 5,
+  "translatedTextBlocks": 5,
+  "questionBlocks": 0,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block (Mary Shelley's monster) and last block (Eckhart on rejection) match the source-record first and last text blocks.",
+    "5 body text blocks translated in order, including the publisher's split of 'Bill / Nighy' across two paragraph blocks, which is reproduced rather than silently rejoined.",
+    "No interviewer prompts exist in this piece; both captions translated (no credits in the source); the Ynet film-page hyperlink kept on the same words."
+  ],
+  "voiceChecks": [
+    "'Even good-looking.' kept as the piece's one short verdict sentence.",
+    "The narrator's single dry transition ('And with the shirt coming off there is naturally also someone who is supposed to be tempted') kept at its weight.",
+    "Synopsis register preserved; nothing added."
+  ],
+  "decisions": [
+    "Established English titles used: I, Frankenstein, Dexter, Chuck, Killer Elite ('יחידת עילית').",
+    "Character name 'טרה וויין' rendered as Terra Wade (the film's character name) rather than a transliteration of the Hebrew spelling.",
+    "'קרב המאסף' rendered as 'the last-ditch battle'.",
+    "'מודה אקהרט' rendered as 'Eckhart admits', following the Hebrew verb."
+  ],
+  "sourceProblems": [
+    "Publisher splits the name Bill Nighy across two paragraph tags (ביל / ניי); both source paragraph boundaries are reproduced in the English, so the name is split across a paragraph break (source-record note).",
+    "Hebrew character name 'טרה וויין' differs from the film's 'Terra Wade'; the English uses the film's name and this note records the difference."
+  ],
+  "unresolvedQuestions": [
+    "Should the website page rejoin 'Bill Nighy' into one paragraph (a presentation fix of a publisher glitch), or keep the source's paragraph split as the draft does?"
+  ]
+}

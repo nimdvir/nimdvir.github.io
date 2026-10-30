@@ -1,0 +1,35 @@
+{
+  "articleId": "W162",
+  "englishTitle": "Maharaja: An Interview with Raja Ram",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 10,
+  "translatedTextBlocks": 10,
+  "questionBlocks": 3,
+  "captions": 1,
+  "images": 0,
+  "completenessChecks": [
+    "First block (Ronald Rothfield introduction) and last block (sandals, shorts, fan) match the source-record first and last text blocks.",
+    "10 body text blocks translated in order, including the two-paragraph continuing answers; 3 prompts bold and separate, including the statement prompt 'You know it's hot here.'",
+    "Single caption translated with its credit (publicity, Yaffa Efrati) kept; no images embedded."
+  ],
+  "voiceChecks": [
+    "Short narration kept short; no added color.",
+    "The playful subtitle phrase 'על הגיל והתרגיל' rendered as 'about age and the trick of it' to keep the light rhyme-like pairing without inventing a new joke.",
+    "Closing exchange kept as a deadpan statement prompt and a flat answer, which is where the humor sits."
+  ],
+  "decisions": [
+    "Shpongle and Simon Posford named in their established English spellings; 'הפורום' rendered as 'the Forum club in Beersheba'.",
+    "'טירוף חושים' rendered as 'a frenzy of the senses'; 'אחלה עמדה' as 'a great position to be in'.",
+    "Festival name Blu4Dance kept as printed."
+  ],
+  "sourceProblems": [
+    "Source says Ram is 'about to celebrate his 70th birthday' in June 2010; kept as printed without checking the date of birth.",
+    "Caption credit 'יח''צ יפה אפרתי' translated as 'publicity, Yaffa Efrati' (publicist credit, not photographer)."
+  ],
+  "unresolvedQuestions": []
+}

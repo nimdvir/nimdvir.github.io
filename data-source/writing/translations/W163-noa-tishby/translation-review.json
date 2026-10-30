@@ -1,0 +1,45 @@
+{
+  "articleId": "W163",
+  "englishTitle": "Connected",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 40,
+  "translatedTextBlocks": 40,
+  "questionBlocks": 10,
+  "captions": 5,
+  "creditLines": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block (the balabusta opening, which the source prints without an opening quotation mark; reproduced the same way) and last block (the 'apparently I'm one of those' answer) match the source-record first and last text blocks.",
+    "36 body text blocks plus 4 section headings translated in order; 10 prompts bold and separate.",
+    "Multi-paragraph answers keep their paragraph boundaries (three-paragraph answer after the first prompt, two-paragraph answers elsewhere).",
+    "Two production/photo credit lines (video credit after paragraph 2; photo credits before the final caption) kept as plain lines in their original positions; 5 captions translated; no images embedded."
+  ],
+  "voiceChecks": [
+    "The '(take a breath)' aside before the long list of occupations kept as a parenthetical.",
+    "Comic measures kept: 'a pace that would give an ordinary person a mild epileptic fit', 'as industrious as an ant, plowing the city on heels', 'swims hard in the Los Angeles industry'.",
+    "Narration's impression framing ('she seems to rather enjoy mixing business into her résumé') kept, no intensifiers.",
+    "Short prompts kept short ('Why?', 'How much money is in it?')."
+  ],
+  "decisions": [
+    "'בלבוסטע' kept as 'balabusta' because Tishby defines it in the text; the narrator's gloss translated as 'a sort of house mother slash big mama who runs things'.",
+    "'ותיקת ביצה' rendered as 'veteran of the swamp' to keep the Israeli idiom for the local scene rather than flattening to 'veteran of the scene'.",
+    "Israeli series titles: 'בטיפול' kept as BeTipul with In Treatment used where the Hebrew uses the English title; 'מרחק נגיעה' rendered as Touching Distance and 'מסכים' as Screens (literal glosses; no established English titles); 'רמת אביב ג'' as Ramat Aviv Gimmel; Tzvika Pick's 'להקת השכנים' as 'the Neighbors'; 'להקת חיל החינוך' as the Education Corps entertainment troupe.",
+    "'מהמם' / 'מהמם פלוס' in Tishby's answer rendered as 'gorgeous' / 'gorgeous plus' to keep her slang.",
+    "'קטונתי' rendered as 'who am I to argue'; 'התבאסתי' as 'was very bummed'.",
+    "Fashion label 'ml' and company name Noa's Arc kept as printed.",
+    "Film and series titles use their English originals (Ghosts of Girlfriends Past, Big Love, NCIS, The Deep End, Nip/Tuck, Charmed, CSI: NY, The Island, Six Feet Under)."
+  ],
+  "sourceProblems": [
+    "Source opening lacks an opening quotation mark and reads 'שניהם מהם ל־HBO' (should be 'שניים מהם'); the English says 'two of them for HBO' and the missing quotation mark is reproduced as in the source.",
+    "Source promotes additional material in the print Pnai Plus issue; this package is the complete online edition only (source-record note).",
+    "The subtitle credits 'Touching Distance and Screens' as HBO projects while the answer says both are in development with no pilot shot; both kept as printed."
+  ],
+  "unresolvedQuestions": [
+    "Should 'Touching Distance' and 'Screens' carry the Hebrew titles in brackets on the website page, given that neither adaptation has an established English title?"
+  ]
+}

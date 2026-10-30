@@ -1,0 +1,50 @@
+{
+  "articleId": "W023",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "Social Justice in the Big Apple: An Interview with Matthew Broderick",
+  "sourceTextBlocks": 28,
+  "translatedTextBlocks": 28,
+  "questionBlocks": 6,
+  "sectionHeadings": 2,
+  "captions": 5,
+  "imagesEmbedded": 0,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "Nim's title aside reversed for an English reader: 'Tower Heist (released in Israel under the Hebrew title \"A Billion Reasons for a Robbery,\" though the English is closer to \"the robbery of the tower\")'.",
+    "Twisted idiom 'מים רבים זרמו בנהרות העיר הגדולה' kept as 'a lot of water has flowed through the rivers of the big city'.",
+    "Established English titles used: Ferris Bueller's Day Off, The Producers, How to Succeed in Business Without Really Trying, The Odd Couple, Easy A, Sex and the City.",
+    "'לוזר' kept as 'loser' / 'loser-ish' as in the Hebrew."
+  ],
+  "sourceProblems": [
+    "Source lists Broderick in 'קלה להשגה' (Easy A); Broderick does not appear in that film to my knowledge. Left as printed; flag for Nim.",
+    "Character name 'צ'ייס פיטציו' rendered Chase Fitzhugh per the film's credits."
+  ],
+  "unresolvedQuestions": [
+    "Confirm whether the Easy A credit should carry a translator's note or be left as a source error."
+  ],
+  "translationPath": "data-source/writing/translations/W023-matthew-broderick/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W023-matthew-broderick/article.he.md"
+}

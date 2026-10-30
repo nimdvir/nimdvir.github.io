@@ -1,0 +1,49 @@
+{
+  "articleId": "W010",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "A Master's Joke",
+  "sourceTextBlocks": 21,
+  "translatedTextBlocks": 21,
+  "questionBlocks": 5,
+  "sectionHeadings": 2,
+  "captions": 4,
+  "imagesEmbedded": 0,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "Heading 'התיישנות הצחוק' rendered 'When Laughter Expires'; 'מפעלי סיטקום בע\"מ' rendered 'Sitcom Factories Inc.'.",
+    "Director 'ג'רי לוין' transliterated as Jerry Levine as the Hebrew gives it; not verified against credits.",
+    "'פולישוק' caption kept as Polishuk (Israeli sitcom) without gloss.",
+    "The Chinese-restaurant YouTube link kept on the same words."
+  ],
+  "sourceProblems": [
+    "Source gives Masters's age as 59 and the workshop dates as printed; left as is."
+  ],
+  "unresolvedQuestions": [
+    "Check the spelling of the Chicago Hope director's name (Jerry Levine vs. another transliteration)."
+  ],
+  "translationPath": "data-source/writing/translations/W010-bill-masters/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W010-bill-masters/article.he.md"
+}

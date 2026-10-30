@@ -1,0 +1,50 @@
+{
+  "articleId": "W035",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "Money Can Buy Love After All",
+  "sourceTextBlocks": 18,
+  "translatedTextBlocks": 17,
+  "questionBlocks": 4,
+  "sectionHeadings": 2,
+  "captions": 3,
+  "imagesEmbedded": 0,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "Title: 'כסף כן יכול לקנות אהבה' rendered 'Money Can Buy Love After All' to carry the emphatic כן; citation gloss remains 'Money can buy love'.",
+    "'שוק הפו\"פ' (פנים אל פנים, first in-person dates) rendered 'first-date market'; caption likewise.",
+    "Show title rendered with the established English name The Millionaire Matchmaker.",
+    "'בלבוסטה' kept as 'balabusta' (profile guidance); 'בחורה כלבבי' rendered 'a girl after my own heart'.",
+    "One-word verdict 'קשה.' kept as 'Tough.'",
+    "Publisher paragraph split mid-sentence ('אני' / 'חושבת') joined into one paragraph; hence 17 translated blocks against 18 source blocks."
+  ],
+  "sourceProblems": [
+    "Source promotes a longer print interview in Pnai Plus that was not recovered; this is the online edition only.",
+    "Source record confirms the bold caption 'שוק הפו\"פ בידיה' is a caption, not a prompt."
+  ],
+  "unresolvedQuestions": [],
+  "translationPath": "data-source/writing/translations/W035-patti-stanger/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W035-patti-stanger/article.he.md"
+}

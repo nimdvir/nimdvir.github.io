@@ -1,0 +1,43 @@
+{
+  "articleId": "W164",
+  "englishTitle": "Michael Lewis: \"I would have been among the first out anyway\"",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 28,
+  "translatedTextBlocks": 28,
+  "questionBlocks": 6,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block (Demi Moore opening) and last block ('But at least we tried.') match the source-record first and last text blocks.",
+    "28 body text blocks (22 narrative/answer paragraphs plus 6 prompts, no headings) translated in order; the four-paragraph answer after the first prompt and the two-paragraph answer before it keep their boundaries.",
+    "Both captions, including the publisher's internal 'For Pnai Plus magazine use' wording and the Anna Aronov caption, translated as printed; hero caption placed before the body as in the Hebrew file.",
+    "Both source image placeholders kept as HTML comments plus italic captions; nothing embedded."
+  ],
+  "voiceChecks": [
+    "Opening comic frame (Demi Moore and the young lover, scented candles, 'the art of seduction') kept at full strength with its concession ('And the surprise... he's also fairly intelligent and charming').",
+    "'אתר מורשת ישראלי' rendered as 'an Israeli heritage site' for the abs; '(I've seen pictures)' aside kept.",
+    "Crude quoted speech kept at register: 'I don't give a fuck', 'not give a shit about anyone', 'son of a bitch' graffiti, 'get cancer and burn'.",
+    "Statement prompts kept as statements ('There's a chance Survivor will make it worse.', 'Funny that yours restarted and Buki Naeh's didn't.')."
+  ],
+  "decisions": [
+    "'מאהבון צעיר' rendered as 'young boy toy'; 'חתיך היסטרי' as 'a hysterical hunk' to keep the Hebrew intensifier rather than normalizing to 'ridiculously good-looking'.",
+    "'הישרדות VIP' rendered as Survivor VIP; 'רוקדים עם כוכבים' as Dancing with the Stars; 'ווייפאאוט' as Wipeout; Israeli titles 'האלופה' (HaAlufa), 'דני הוליווד' (Danny Hollywood), 'נשות הטייסים' (The Pilots' Wives) and 'פסטיגל' (the Festigal) kept as Israeli references without substitution.",
+    "'איי דונט גיב א פאק' (transliterated English) rendered as plain 'I don't give a fuck'; 'לא לשים זין על אף אחד' as 'not give a shit about anyone'; 'לא לשים על אף אחד אחר' as 'don't give a damn about anyone else'.",
+    "'אסור לעצור באדום' rendered literally as 'You can't stop at a red light'.",
+    "'עם ישראל בשבילי זה...' rendered as 'The people of Israel, for me, are...' to keep the phrase.",
+    "Bar name 'אנטיב' transliterated as Antib; agency names kept as printed."
+  ],
+  "sourceProblems": [
+    "Publisher closing promotion said the full interview was in the print Pnai Plus issue; source-record records the online version as complete and 'longerPrintVersionAvailable: false'. Nothing reconstructed.",
+    "Second image caption labels Anna Aronov although the article is about Michael Lewis; kept as the source-supplied caption (source-record note).",
+    "Lewis's age appears as 24 and his girlfriend's as 24; kept as printed."
+  ],
+  "unresolvedQuestions": [
+    "Buki Naeh is named without explanation in a prompt (a fellow Survivor VIP contestant); add a short gloss on the website page or leave as in the original?"
+  ]
+}

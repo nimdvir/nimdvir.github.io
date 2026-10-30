@@ -1,0 +1,43 @@
+{
+  "articleId": "W125",
+  "englishTitle": "SEX FILES: An Interview with David Duchovny",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 33,
+  "translatedTextBlocks": 33,
+  "questionBlocks": 8,
+  "captions": 3,
+  "images": 0,
+  "completenessChecks": [
+    "Opening paragraph (Hank Moody introduction) and closing answer (Mulder sandbox line) match the source-record first and last blocks.",
+    "31 body text blocks plus 2 section headings translated in original order; the three-paragraph continuing answer after the first heading keeps its paragraph boundaries.",
+    "All 8 interviewer prompts are bold and separate; none ends without a question mark in this piece.",
+    "Three captions translated with credits (publicity, EPA) kept; no publisher images embedded, matching the Hebrew file."
+  ],
+  "voiceChecks": [
+    "Narration kept its contrast structure (Mulder versus Moody) with the same sentence splits.",
+    "The 'on a third hand' escalation and the trailing 'is . . . somewhere' joke on the X-Files motto kept at their understated weight.",
+    "No jokes added; the duty-bound final prompt ('will probably follow you to the end of your days') kept as a bold statement-question.",
+    "Quoted speech translated at register (bullshit kept)."
+  ],
+  "decisions": [
+    "Series and film titles use established English titles: Californication, The X-Files, Red Shoe Diaries.",
+    "'במכון לגמילה מסקס' rendered as sex-addiction clinic / facility; 'מכור למין' as addicted to sex.",
+    "'יצור כלאיים מוזר, קומדיה רגשנית' rendered as 'a strange hybrid, an emotional comedy'.",
+    "The Hebrew gloss 'וגם יהודי, הנושא בשם עמרם' rendered as '(and Jewish, with the first name Amram)'.",
+    "'האיגוד האמריקני למשוררים' translated descriptively as 'the American society of poets' rather than naming a specific organization the Hebrew does not name.",
+    "Hebrew 'ל\"מעריב\"' kept as Maariv; publisher name in frontmatter follows the Hebrew file (nrg Maariv)."
+  ],
+  "sourceProblems": [
+    "Hebrew source has spacing artifacts ('להיכב נע', 'ומודי ,') retained in the Hebrew; translated as intended words.",
+    "Source states Duchovny is 'כבר בן 50' in June 2010; he turned 50 in August 2010. Wording kept as printed.",
+    "Source says he separated from his wife two years earlier (subtitle) while the body says he is married to Téa Leoni; both statements kept as printed."
+  ],
+  "unresolvedQuestions": [
+    "Subtitle says HOT 3; keep the Israeli channel name in the English, or add a gloss when the page is built?"
+  ]
+}

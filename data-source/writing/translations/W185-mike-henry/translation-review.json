@@ -1,0 +1,35 @@
+{
+  "articleId": "W185",
+  "englishTitle": "White in a Black Dream: An Interview with Mike Henry",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 14,
+  "translatedTextBlocks": 14,
+  "questionBlocks": 6,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block (the 'very cool to be interviewed by an Israeli paper' opening) and last block (the animation answer) match the source-record first and last text blocks.",
+    "14 body text blocks (8 narrative/answer paragraphs plus 6 prompts, no headings) translated in order; prompts bold and separate, including the statement prompt about Kanye West.",
+    "Both captions translated with publicity credits kept; no images embedded."
+  ],
+  "voiceChecks": [
+    "Minimal narration kept minimal; the piece is almost entirely the subject's voice and was not padded.",
+    "The opening quote-first structure preserved; the broadcast-slot parenthetical kept as a parenthetical."
+  ],
+  "decisions": [
+    "'קליבלנד' rendered as The Cleveland Show and 'איש משפחה' as Family Guy (established English titles); 'סאות' פארק' as South Park.",
+    "'סוטים' in Henry's list of character types rendered as 'perverts'.",
+    "The subtitle's 'בכלל לבן עור' rendered as 'who is in fact white'.",
+    "The Israeli broadcast note '(שבת בשעה 18:50 Yes Comedy)' rendered as '(Saturdays at 6:50 p.m. on Yes Comedy)'."
+  ],
+  "sourceProblems": [
+    "Source has OCR-style spacing glitches ('קליבל נד', 'משפ חה', 'ש' נפלתי'') and a repeated 'יש לי יש'; translated as the intended words, Hebrew left unchanged (source-record note).",
+    "Source calls Kevin Michael Richardson 'שחור עור' and says he plays Cleveland's son; kept as printed."
+  ],
+  "unresolvedQuestions": []
+}

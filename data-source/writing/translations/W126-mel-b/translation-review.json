@@ -1,0 +1,43 @@
+{
+  "articleId": "W126",
+  "englishTitle": "TO B: An Interview with Melanie B",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 21,
+  "translatedTextBlocks": 21,
+  "questionBlocks": 6,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block ('1996. The Spice Girls burst out...') and last block (Los Angeles answer) match the source-record first and last text blocks.",
+    "20 body text blocks plus 1 section heading translated in order; 6 prompts bold and separate, including the statement prompt 'It looks fairly staged, to be honest.' and 'So basically you got a family home video in a professional package.'",
+    "Both captions translated with the publicity credit kept; no images embedded, matching the Hebrew file.",
+    "The censored insult about Eddie Murphy keeps its asterisk."
+  ],
+  "voiceChecks": [
+    "Narration keeps the 'fourth division of celebrity' and 'as befits a true fourth-division celebrity' callback, the '(huh?)' and '(we'll get to him, don't worry)' asides, and the deadpan 'Not exactly a healthy environment for tender souls.'",
+    "'חלטרה עצמה לדעת' rendered as 'moonlighted herself silly' to keep the mock-formal exaggeration.",
+    "Skeptical framing ('to Scary's credit, it must be said that she isn't afraid to sacrifice her nearest and dearest') kept at the same ironic weight, no intensifiers.",
+    "Statement prompts kept as statements."
+  ],
+  "decisions": [
+    "Israeli channel 'ערוץ החיים הטובים' rendered as 'The Good Life channel'; the Hebrew show title 'החיים האמיתיים של מל בי' translated literally ('The Real Life of Mel B') beside the English title given in the source.",
+    "'בבום טראח' rendered as 'with a crash and a bang'.",
+    "'ליגה ד'' rendered as 'the fourth division' (Israeli football league ladder) rather than an American equivalent.",
+    "'הז*ן מבוורלי הילס' rendered as 'the d*ck from Beverly Hills', keeping the source's censoring asterisk.",
+    "Publication names: Rating (nrg's TV supplement) kept as Rating; 'מעריב' not referenced in this piece.",
+    "Album and show titles use their English originals: 'Hot', 'L.A. State of Mind', 'Rent', 'Dancing with the Stars', 'Mel B: It's a Scary World'."
+  ],
+  "sourceProblems": [
+    "Source advertises continuation in the print Rating issue; this is the complete online edition only (source-record note). Not reconstructed.",
+    "Source wording 'חיי המשפחה הנורמליים שניהלנו' (past tense, 'the normal family life we led') kept as printed.",
+    "Hebrew quotation marks around the English show title are doubled in the source ('\"\"Mel B - It's a Scary World'); rendered once in English."
+  ],
+  "unresolvedQuestions": [
+    "Should the Israeli channel name stay as 'The Good Life channel' or be rendered as 'Channel HaChaim HaTovim' when the page is built?"
+  ]
+}

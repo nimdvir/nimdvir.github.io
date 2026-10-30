@@ -1,0 +1,39 @@
+{
+  "articleId": "W182",
+  "englishTitle": "Personal Magic: An Interview with Emma Watson",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 20,
+  "translatedTextBlocks": 20,
+  "questionBlocks": 5,
+  "captions": 5,
+  "images": 0,
+  "completenessChecks": [
+    "First block (ten years since the first Harry Potter film) and last block ('Yes! I have tons of products...') match the source-record first and last text blocks.",
+    "18 body text blocks plus 2 section headings translated in order; 5 prompts bold and separate.",
+    "The isolated opening caption ('It was fun living with Hermione.' Watson) kept as an additional caption after the lead picture caption, as in the Hebrew file, not as a narrative paragraph.",
+    "All five captions translated with Tom Munro credits and the cover-photo credit kept; the nrg premiere hyperlink kept on the same words."
+  ],
+  "voiceChecks": [
+    "'far from the leftovers of Daniel Radcliffe' and 'like the checks on a trench coat' kept as the piece's two comic comparisons, nothing added.",
+    "'Her inspirations are shrewd' kept as a plain narrator judgment.",
+    "Service register of the piece preserved; no jokes manufactured for the fashion passages."
+  ],
+  "decisions": [
+    "Brand and product names in their established forms (Lancôme, Burberry, Chanel, People Tree, Trésor Midnight Rose, Vogue); 'בית הספר לקוסמות הוגוורטס' rendered as 'the Hogwarts school of witchcraft'.",
+    "'פרזנטורית' rendered as 'the face of' (subtitle) and 'ambassadors' (in Watson's answer, where the Hebrew uses שגרירות).",
+    "'שמלת טוונטיז' rendered as 'a twenties dress'; 'מחלפותיה' as 'her locks'; 'מראה הטוויגי' as 'the Twiggy look'.",
+    "'פרפורמייר' (the source's spelling) rendered as 'a perfumer'.",
+    "'גיליון יולי של האמריקאי' rendered as 'the July issue of the American edition' (of Vogue)."
+  ],
+  "sourceProblems": [
+    "Source wording 'למה פנוי אליי' (apparent typo for 'פנו אליי') retained in the Hebrew; translated as 'why they turned to me'.",
+    "Source names the dress designer as 'רפאל לופז'; rendered as Rafael López without verifying the designer's name.",
+    "Caption credit 'צילום השער' translated as 'cover photo'; no photographer named in the source."
+  ],
+  "unresolvedQuestions": []
+}

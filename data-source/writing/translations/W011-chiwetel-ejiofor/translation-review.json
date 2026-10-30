@@ -1,0 +1,48 @@
+{
+  "articleId": "W011",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "Chiwetel Ejiofor: \"Everyone Is a Slave to the System\"",
+  "sourceTextBlocks": 15,
+  "translatedTextBlocks": 15,
+  "questionBlocks": 5,
+  "sectionHeadings": 0,
+  "captions": 5,
+  "imagesEmbedded": 0,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "Serious subject: no comic devices introduced; the single light prompt about the tuxedo kept at its original weight.",
+    "Caption 'בלי לתפור חליפות' rendered 'Not getting suits tailored'.",
+    "Trailer placeholder caption kept at its source position.",
+    "Golden Globes link kept on the same words."
+  ],
+  "sourceProblems": [
+    "Source gives the story's year as 1853 (the film is set from 1841); left as printed per the no-correction rule.",
+    "Source spells the actor's name in several Hebrew variants; English uses Chiwetel Ejiofor throughout."
+  ],
+  "unresolvedQuestions": [],
+  "translationPath": "data-source/writing/translations/W011-chiwetel-ejiofor/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W011-chiwetel-ejiofor/article.he.md"
+}

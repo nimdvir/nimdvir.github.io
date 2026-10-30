@@ -1,0 +1,49 @@
+{
+  "articleId": "W007",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "Smash Stars: If the Show Is Canceled, We'll Stay on Broadway",
+  "sourceTextBlocks": 19,
+  "translatedTextBlocks": 19,
+  "questionBlocks": 4,
+  "sectionHeadings": 0,
+  "captions": 4,
+  "imagesEmbedded": 0,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "'רחמנא ליצלן' rendered 'heaven help us'.",
+    "'כבוד כבוד, אבל' rendered \"Honor's honor, but\" to keep the concede-then-challenge shape.",
+    "Speaker labels **Hilty:** / **McPhee:** kept at the head of answer paragraphs as in the Hebrew.",
+    "'הסדרה בנות' identified as HBO's Girls; established English titles used for Rent, Spring Awakening, Hit List.",
+    "Caption 'קרב חתולות' rendered 'Catfight'."
+  ],
+  "sourceProblems": [
+    "Hebrew body misspells Hilty once as 'הייטי'; translated as Hilty without comment in the text.",
+    "Source record notes a publisher paragraph accidentally split mid-sentence was joined at capture; no further splits found."
+  ],
+  "unresolvedQuestions": [],
+  "translationPath": "data-source/writing/translations/W007-smash-interview/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W007-smash-interview/article.he.md"
+}

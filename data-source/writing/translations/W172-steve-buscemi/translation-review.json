@@ -1,0 +1,44 @@
+{
+  "articleId": "W172",
+  "englishTitle": "Steve Buscemi, Star of Boardwalk Empire, Isn't Afraid to Die",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר"
+  },
+  "sourceTextBlocks": 39,
+  "translatedTextBlocks": 39,
+  "questionBlocks": 11,
+  "captions": 2,
+  "images": 0,
+  "completenessChecks": [
+    "First block ('You know hypnotic beauty?') and last block ('Absolutely not! ...') match the source-record first and last text blocks.",
+    "39 body text blocks (28 narrative/answer paragraphs plus 11 prompts, no headings) translated in order; multi-paragraph answers (three paragraphs on Jimmy Darmody, two on seepage, three on research and the 1920s) keep their boundaries.",
+    "Both Xnet hyperlinks (Angelina Jolie, Boardwalk Empire) kept on the same words.",
+    "Both captions, including the publisher's internal 'For Pnai Plus use' wording, translated; header caption placed before the body as in the Hebrew file."
+  ],
+  "voiceChecks": [
+    "The hypnotic-ugliness opening, the apology, the ostrich face, the gecko in the microwave, and 'milking orange juice from a cow' kept at full strength.",
+    "Mock-objective 'objectively it can be seen' and the understatements 'he isn't Madonna yet' and 'not the best-looking mug in town' kept without intensifiers.",
+    "The concession structure ('Not that you can blame him... On the other hand, his condescension is a little annoying') kept in order.",
+    "Statement prompts kept as statements (the Jimmy Darmody prompt, the Hotel Transylvania prompt, the directing prompt)."
+  ],
+  "decisions": [
+    "Series and film titles use established English titles (Boardwalk Empire, The Sopranos, Reservoir Dogs, Armageddon, The Big Lebowski, Fargo, Hotel Transylvania, Oz, 30 Rock).",
+    "'תקופת היובש' rendered as Prohibition.",
+    "'ללקלק לעיתונאים' rendered as 'butter up journalists'; 'גוד טיים' (transliterated English) rendered as plain 'a good time'.",
+    "'וודג'' rendered as 'mug' to keep the slangy register for 'face'.",
+    "'ההוא מ־' rendered as 'that guy from'.",
+    "The 'נ.ד' clarification brackets rendered as '(Pitt, the actor; N.D.)' and '(Terence Winter, the creator; N.D.)', following the existing W003-style convention of keeping the initials.",
+    "Nucky's quoted line 'אל תזלזל בי, אני יכול לדאוג שיהרגו אותך' translated from the Hebrew rather than replaced with the show's original English dialogue."
+  ],
+  "sourceProblems": [
+    "Header caption contains the publisher's internal-use wording ('לשימוש פנאי פלוס'); preserved as printed per the source-record note.",
+    "Source says the Nucky character is based on 'Nucky Johnson'; kept as printed.",
+    "Source states Buscemi is 54 in October 2012 (born December 1957); kept as printed."
+  ],
+  "unresolvedQuestions": [
+    "The quoted Nucky line and the 'You can't be half a gangster' line are translations of the Hebrew; if the website page should use the show's original English dialogue, that would be a separate editorial decision."
+  ]
+}

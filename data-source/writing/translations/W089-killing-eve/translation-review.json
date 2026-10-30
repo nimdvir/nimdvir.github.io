@@ -1,0 +1,53 @@
+{
+  "articleId": "W089",
+  "status": "draft awaiting Nim review",
+  "translatedOn": "2026-10-30",
+  "authorship": {
+    "author": "Nimrod Dvir",
+    "bylineAsPrinted": "נמרוד דביר | ישראל היום",
+    "thirdPartyCoverage": false
+  },
+  "englishTitle": "Haters: A Love Story",
+  "sourceTextBlocks": 64,
+  "translatedTextBlocks": 64,
+  "questionBlocks": 11,
+  "sectionHeadings": 0,
+  "captions": 3,
+  "imagesEmbedded": 1,
+  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "completenessChecks": [
+    "First and last paragraphs compared with source-record completeness fields.",
+    "Every interviewer prompt present, bold, in its own paragraph, in order.",
+    "Every answer paragraph present with original boundaries and quotation marks.",
+    "Section headings, captions and photo credits present in original positions.",
+    "Hyperlinks from the Hebrew body kept on the same words.",
+    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
+    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+  ],
+  "voiceChecks": [
+    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
+    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
+    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
+    "No jokes added, explained or removed; no transitions or conclusions appended.",
+    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
+    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+  ],
+  "decisions": [
+    "Title follows the verified citation gloss 'Haters: A love story'; the Hebrew pun (haters / they hate) cannot carry both senses.",
+    "Hebrew film title 'סטריפטיז באיגואנה הכחולה' rendered with the established English title Dancing at the Blue Iguana.",
+    "'למה התכוון המשורר' kept as 'what the poet meant' (Israeli classroom idiom) inside Oh's quoted answer.",
+    "'בעלה הנחנח' rendered 'her wimp of a husband'; 'תכלס' in the last prompt rendered 'let's be honest'; 'בדיחות קרש' rendered 'groaners'.",
+    "Section separators '* * *' kept as in the Hebrew.",
+    "Only the first image has a usable URL in the source; it is embedded with translated alt text. The two missing publisher images are kept as caption-only placeholders."
+  ],
+  "sourceProblems": [
+    "Source states that Eve is not mentioned at all in Codename Villanelle; left as printed, not verified.",
+    "Source record notes one interviewer question bolded by the extraction for consistency; translation follows the extraction (11 prompts).",
+    "Two publisher image links are missing at the source; no replacement guessed."
+  ],
+  "unresolvedQuestions": [
+    "Confirm the English title; 'Hating a Love Story' is a possible alternative that keeps the verb."
+  ],
+  "translationPath": "data-source/writing/translations/W089-killing-eve/article.en.md",
+  "hebrewSource": "data-source/writing/originals/W089-killing-eve/article.he.md"
+}
