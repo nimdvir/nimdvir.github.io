@@ -475,6 +475,51 @@
       "File:Annapurna Range between Ledar and Thorong Phedi.jpg"
     ]
   },
+  "W097": {
+    "slug": "W097-karim-rashid",
+    "status": "found",
+    "commonsTitle": "File:Karim Rashid talks to press at Innoprom-2012.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Karim_Rashid_talks_to_press_at_Innoprom-2012.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Karim_Rashid_talks_to_press_at_Innoprom-2012.jpg",
+    "width": 2592,
+    "height": 1944,
+    "artist": "Ssr",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Ssr, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Karim Rashid speaking with reporters at the Innoprom industrial fair in Yekaterinburg",
+    "caption": "Karim Rashid talking to the press at Innoprom 2012, Yekaterinburg.",
+    "dateOriginal": "2012-07-13",
+    "reason": "Only sizeable freely licensed photo of Rashid himself on Commons (the 2007 portrait is 280 px). 2012 is five years before the article, at the edge of the preferred window. Shot on a phone, so sharpness is modest; the hotel and rug photos of his designs are alternatives if a product image is preferred.",
+    "alternatives": [
+      "File:카림 라시드.PNG",
+      "File:Prizeotel Bern-City designed by Karim Rashid.jpg",
+      "File:IKONA 1.jpg",
+      "File:Likuid Rug.jpg"
+    ]
+  },
+  "W098": {
+    "slug": "W098-gila-gamliel",
+    "status": "found",
+    "commonsTitle": "File:Gila Gamliel 1 (cropped).jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gila_Gamliel_1_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gila_Gamliel_1_%28cropped%29.jpg",
+    "width": 2000,
+    "height": 2859,
+    "artist": "Haim Zach, Government Press Office of Israel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Haim Zach, Government Press Office of Israel, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Official portrait of Gila Gamliel in front of an Israeli flag",
+    "caption": "Gila Gamliel, official portrait as Minister for Social Equality, 2016.",
+    "dateOriginal": "2016-08-11",
+    "reason": "Official GPO portrait taken a year before the article, high resolution, clear face, CC BY-SA 3.0. Knesset Archive photos from 2013, 2015 and 2019 are CC BY-SA 4.0 alternatives.",
+    "alternatives": [
+      "File:Gila Gamliel (IMG 5542).jpg",
+      "File:Gila Gamliel (ISH 7807).jpg",
+      "File:Gila Gamliel (E32J0961).jpg"
+    ]
+  },
   "W106": {
     "slug": "W106-sex-and-the-city-2",
     "status": "found",
@@ -503,6 +548,28 @@
     "reason": "The categories 'Dogs in New York City' and 'Dogs wearing coats' returned no files, full-text searches for dog coat/sweater in snow returned only scanned books, and the 'Dogs in winter clothing' category and 'filetype:bitmap' searches were blocked by Wikimedia's 429 response on the container IP before any candidate could be verified.",
     "alternatives": []
   },
+  "W108": {
+    "slug": "W108-ester-rada",
+    "status": "found",
+    "commonsTitle": "File:Ester Rada.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ester_Rada.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ester_Rada.jpg",
+    "width": 2848,
+    "height": 3903,
+    "artist": "Fantman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Fantman, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Ester Rada singing into a microphone on stage",
+    "caption": "Ester Rada performing at the InDnegev festival, 2012.",
+    "dateOriginal": "2012-10-19",
+    "reason": "Closest in date to the 2010 article among usable photos, high resolution, performer clearly framed. 2015 festival shots by G.Garitan and a 2018 portrait by Daniel Kaminsky are alternatives.",
+    "alternatives": [
+      "File:Ester Rada 1.jpg",
+      "File:Ester Rada 06457.JPG",
+      "File:Ester Rada 06417.JPG"
+    ]
+  },
   "W114": {
     "slug": "W114-haruki-murakami-running",
     "status": "found",
@@ -523,6 +590,110 @@
       "File:Murakami Haruki (2009).jpg",
       "File:New York Marathon 2010, Finish line, Central Park.JPG",
       "File:Haruki Murakami 2018.jpg"
+    ]
+  },
+  "W116": {
+    "slug": "W116-ben-shani",
+    "status": "found",
+    "commonsTitle": "File:Ben Shani.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ben_Shani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ben_Shani.jpg",
+    "width": 809,
+    "height": 853,
+    "artist": "Yanai Yechiel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Yanai Yechiel, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Head and shoulders portrait of Ben Shani",
+    "caption": "Ben Shani, 2023.",
+    "dateOriginal": "2023-05-16",
+    "reason": "The only Commons photo of Ben Shani; VRTS permission confirmed, CC BY-SA 3.0, just above 800 px. It is 13 years after the 2010 article. If the era matters more than the subject, use Ilana Dayan's 2016 portrait (File:Ilana Dayan 2016 (cropped).jpg, Mark Neyman, Spokesperson Unit of the President of Israel, CC BY-SA 3.0, 1024x1134) instead, since the article is largely about her.",
+    "alternatives": [
+      "File:Ilana Dayan 2016 (cropped).jpg",
+      "File:Ilana Dayan1.jpg"
+    ]
+  },
+  "W118": {
+    "slug": "W118-randy-harrison",
+    "status": "found",
+    "commonsTitle": "File:Randy harrison at edward II in nyc.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Randy_harrison_at_edward_II_in_nyc.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Randy_harrison_at_edward_II_in_nyc.jpg",
+    "width": 852,
+    "height": 1241,
+    "artist": "BrianheartsJustin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: BrianheartsJustin, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Randy Harrison standing outdoors in New York after a theatre performance",
+    "caption": "Randy Harrison in New York after appearing in Edward II, December 2007.",
+    "dateOriginal": "2007-12",
+    "reason": "The only photo of Harrison on Commons; CC BY-SA 3.0, no restrictions, 852 px wide, four years before the 2011 article. Artist is the Wikipedia user BrianheartsJustin (self-published).",
+    "alternatives": []
+  },
+  "W122": {
+    "slug": "W122-aaron-eckhart-yvonne-strahovski",
+    "status": "found",
+    "commonsTitle": "File:Aaron Eckhart by Gage Skidmore 3.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aaron_Eckhart_by_Gage_Skidmore_3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aaron_Eckhart_by_Gage_Skidmore_3.jpg",
+    "width": 2682,
+    "height": 3168,
+    "artist": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Aaron Eckhart speaking on a panel at San Diego Comic-Con",
+    "caption": "Aaron Eckhart at San Diego Comic-Con, 2013, where I, Frankenstein was presented.",
+    "dateOriginal": "2013-07-20",
+    "reason": "Taken at the 2013 Comic-Con I, Frankenstein panel, a year before the article; high resolution, clear face, no personality-rights restriction flag (the 2010 Skidmore photos carry one). Yvonne Strahovski was not needed.",
+    "alternatives": [
+      "File:Aaron Eckhart 2011 Independent Spirit Awards.jpg",
+      "File:Aaron Eckhart (29830286295) (cropped).jpg",
+      "File:Yvonne Strahovski SDCC 2013.jpg"
+    ]
+  },
+  "W125": {
+    "slug": "W125-david-duchovny",
+    "status": "found",
+    "commonsTitle": "File:David Duchovny 2010.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:David_Duchovny_2010.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/David_Duchovny_2010.jpg",
+    "width": 1536,
+    "height": 2048,
+    "artist": "Greg Hernandez",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Greg Hernandez, CC BY 2.0, via Wikimedia Commons",
+    "alt": "David Duchovny smiling at a press event",
+    "caption": "David Duchovny, July 2010.",
+    "dateOriginal": "2010-07-28",
+    "reason": "Same year as the article, portrait orientation, clear face, CC BY 2.0 with no restriction flag. The 2011 Shankbone photos carry a personality-rights flag and were rejected; Gage Skidmore's 2013 photo is a higher-resolution alternative.",
+    "alternatives": [
+      "File:David Duchovny by Gage Skidmore.jpg",
+      "File:David Duchovny Golden Globe 2009 afterparty.jpg"
+    ]
+  },
+  "W126": {
+    "slug": "W126-mel-b",
+    "status": "found",
+    "commonsTitle": "File:Mel B (6959698816).jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mel_B_(6959698816).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mel_B_%286959698816%29.jpg",
+    "width": 1000,
+    "height": 1500,
+    "artist": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Eva Rinaldi, CC BY-SA 2.0, via Wikimedia Commons",
+    "alt": "Mel B posing at a red carpet event in Sydney",
+    "caption": "Mel B in Sydney, April 2012.",
+    "dateOriginal": "2012-04-23",
+    "reason": "Within a year of the 2011 article, 1000 px wide, clear face. The November 2011 Eva Rinaldi shots are closer in date but only 550 px wide.",
+    "alternatives": [
+      "File:Mel. B - Flickr - Eva Rinaldi Celebrity and Live Music Photographer (1).jpg",
+      "File:Melanie B 7, 2012.jpg",
+      "File:Mel B (6330979387).jpg"
     ]
   },
   "W158": {
@@ -547,6 +718,70 @@
       "File:Filming Hatufim (\"Prisoners of War\"), season2 - 4.jpg"
     ]
   },
+  "W159": {
+    "slug": "W159-anni-frid-lyngstad",
+    "status": "found",
+    "commonsTitle": "File:Anni-Frid Lyngstad, May 2013.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Anni-Frid_Lyngstad,_May_2013.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Anni-Frid_Lyngstad%2C_May_2013.jpg",
+    "width": 1008,
+    "height": 1280,
+    "artist": "Frankie Fouganthin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Frankie Fouganthin, CC BY-SA 4.0, via Wikimedia Commons",
+    "alt": "Anni-Frid Lyngstad smiling at an event",
+    "caption": "Anni-Frid Lyngstad at the opening of ABBA: The Museum, Stockholm, May 2013.",
+    "dateOriginal": "2013-05-06",
+    "reason": "Three years after the 2010 article, clear portrait, CC BY-SA 4.0, 1008x1280, no restrictions. The 2008 Daniel Åhs Karlsson photo is closer in date but under 400 px wide. The 1976 Anefo CC0 Schiphol photo is the best ABBA-era option.",
+    "alternatives": [
+      "File:Anni-Frid Lyngstad May 6, 2013.jpg",
+      "File:Frida Lyngstad Schiphol 1976.jpg",
+      "File:Frida Lyngstad 1982.jpg"
+    ]
+  },
+  "W162": {
+    "slug": "W162-raja-ram",
+    "status": "found",
+    "commonsTitle": "File:Ronald Rothfield Raja Ram.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ronald_Rothfield_Raja_Ram.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ronald_Rothfield_Raja_Ram.jpg",
+    "width": 2448,
+    "height": 3264,
+    "artist": "Armando Olivo Martín del Campo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Armando Olivo Martín del Campo, CC BY-SA 4.0, via Wikimedia Commons",
+    "alt": "Raja Ram (Ronald Rothfield) at an outdoor psytrance event in Mexico",
+    "caption": "Raja Ram (Ronald Rothfield) during the 1200 Micrograms tour in Teotihuacan, Mexico, 2009.",
+    "dateOriginal": "2009-03-14",
+    "reason": "A year before the 2010 article, high resolution, CC BY-SA 4.0. The landscape companion shot and a 470 px 2006 photo are the alternatives.",
+    "alternatives": [
+      "File:Ronald Rothfield.jpg",
+      "File:Raja ram.jpg"
+    ]
+  },
+  "W163": {
+    "slug": "W163-noa-tishby",
+    "status": "found",
+    "commonsTitle": "File:Noa Tishbi D867-150 (cropped).jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Noa_Tishbi_D867-150_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Noa_Tishbi_D867-150_%28cropped%29.jpg",
+    "width": 904,
+    "height": 1105,
+    "artist": "Moshe Milner, Government Press Office of Israel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Moshe Milner, Government Press Office of Israel, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Noa Tishby in conversation at an event in Los Angeles",
+    "caption": "Noa Tishby during a visit by Foreign Minister Silvan Shalom to Los Angeles, 2004.",
+    "dateOriginal": "2004-03-20",
+    "reason": "GPO photo five years before the 2009 article, cropped to her, 904 px wide, CC BY-SA 3.0. The only other option is a 2021 portrait (File:Noa Tishby Photo.jpg, Alon Shafransky, CC BY-SA 4.0, 1284x856), twelve years after the article but sharper and closer to a studio portrait.",
+    "alternatives": [
+      "File:Noa Tishby Photo.jpg",
+      "File:Noa Tishby Photo (cropped).jpg"
+    ]
+  },
   "W171": {
     "slug": "W171-darren-star",
     "status": "found",
@@ -565,6 +800,69 @@
     "reason": "Only free images of Darren Star on Commons are two frames from a CC BY 3.0 Sidewalks Entertainment interview (2017). This crop is a clear head-and-shoulders portrait at 1783x2101. Caveat: it is a video still and eight years after the 2009 article; nothing closer to 2009 exists under a free license.",
     "alternatives": [
       "File:Miriam Shor and Darren Star on Sidewalks Entertainment about Younger.jpg"
+    ]
+  },
+  "W172": {
+    "slug": "W172-steve-buscemi",
+    "status": "found",
+    "commonsTitle": "File:Steve Buscemi at Lebowski Fest 2011.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Steve_Buscemi_at_Lebowski_Fest_2011.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Steve_Buscemi_at_Lebowski_Fest_2011.jpg",
+    "width": 3456,
+    "height": 2304,
+    "artist": "Joe Polletta",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Joe Polletta, CC BY-SA 2.0, via Wikimedia Commons",
+    "alt": "Steve Buscemi on stage at Lebowski Fest",
+    "caption": "Steve Buscemi at Lebowski Fest, August 2011.",
+    "dateOriginal": "2011-08-16",
+    "reason": "Only free Buscemi photo from 2011; closest to the 2012 Boardwalk Empire-era article. CC BY-SA 2.0, 3456x2304, no restrictions. The Commons year categories for 2012 and 2013 are empty; the 2024 Sopranos-anniversary PNGs are far too late.",
+    "alternatives": [
+      "File:Steve Buscemi 2024 Sopranos anniversary (cropped).png"
+    ]
+  },
+  "W174": {
+    "slug": "W174-spike-lee",
+    "status": "found",
+    "commonsTitle": "File:Spike Lee (2012).jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Spike_Lee_(2012).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Spike_Lee_%282012%29.jpg",
+    "width": 2760,
+    "height": 2009,
+    "artist": "José Cruz/ABr",
+    "license": "CC BY 3.0 BR",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/",
+    "attribution": "Photo: José Cruz/ABr, CC BY 3.0 BR, via Wikimedia Commons",
+    "alt": "Spike Lee speaking to reporters, wearing glasses and a cap",
+    "caption": "Spike Lee speaking with the press in Brasília, 2012.",
+    "dateOriginal": "2012-04-25",
+    "reason": "Professional Agência Brasil press photo from April 2012, one year before the article; 2760x2009, CC BY 3.0 BR, no restrictions. The 2013 category has only a small two-person snapshot and a wide event shot.",
+    "alternatives": [
+      "File:London Premier of Bad 25 - Spike Lee.JPG",
+      "File:Spike Lee na saída do Ilê (8461617526).jpg"
+    ]
+  },
+  "W182": {
+    "slug": "W182-emma-watson",
+    "status": "found",
+    "commonsTitle": "File:Emma Watson, November 2010.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emma_Watson,_November_2010.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Emma_Watson%2C_November_2010.jpg",
+    "width": 1616,
+    "height": 2077,
+    "artist": "Joella Marano",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Joella Marano, CC BY-SA 2.0, via Wikimedia Commons",
+    "alt": "Emma Watson with short hair at a film premiere",
+    "caption": "Emma Watson at the New York premiere of Harry Potter and the Deathly Hallows, November 2010.",
+    "dateOriginal": "2010-11-15",
+    "reason": "Closest free portrait to the 2011 article (no 2011 category exists). CC BY-SA 2.0, 1616x2077, no restrictions. Several sibling files from the same premiere and the 2012 Shankbone JPGs carry a personality-rights Restrictions value and were rejected.",
+    "alternatives": [
+      "File:Emma Watson 2010 2.jpg",
+      "File:Emma Watson 2012.jpg",
+      "File:Emma Watson, 2012.jpg"
     ]
   },
   "W184": {
@@ -587,6 +885,70 @@
       "File:Lady Bunny 2001.jpg",
       "File:Lady Bunny at the 2008 Tribeca Film Festival.JPG",
       "File:Lady Bunny by David Shankbone.JPG"
+    ]
+  },
+  "W185": {
+    "slug": "W185-mike-henry",
+    "status": "found",
+    "commonsTitle": "File:Mike Henry by Gage Skidmore 3.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mike_Henry_by_Gage_Skidmore_3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mike_Henry_by_Gage_Skidmore_3.jpg",
+    "width": 2134,
+    "height": 2740,
+    "artist": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons",
+    "alt": "Mike Henry seated at a convention panel",
+    "caption": "Mike Henry at San Diego Comic-Con, July 2011.",
+    "dateOriginal": "2011-07-24",
+    "reason": "Same year as the article, clear head-and-shoulders crop by Gage Skidmore, CC BY-SA 3.0, 2134x2740, no restrictions.",
+    "alternatives": [
+      "File:Mike Henry (5980332931).jpg",
+      "File:Mike Henry by Gage Skidmore 2.jpg",
+      "File:Mike Henry at NYTVF.jpg"
+    ]
+  },
+  "W186": {
+    "slug": "W186-ryan-gosling",
+    "status": "found",
+    "commonsTitle": "File:Ryan Gosling - Cannes Film Festival - 01 (cropped).jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ryan_Gosling_-_Cannes_Film_Festival_-_01_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ryan_Gosling_-_Cannes_Film_Festival_-_01_%28cropped%29.jpg",
+    "width": 2124,
+    "height": 2848,
+    "artist": "Raffi Asdourian",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Raffi Asdourian, CC BY 2.0, via Wikimedia Commons",
+    "alt": "Ryan Gosling in a suit at the Cannes Film Festival",
+    "caption": "Ryan Gosling at the Cannes Film Festival, May 2011.",
+    "dateOriginal": "2011-05-21",
+    "reason": "Two years before the 2013 article; no 2012 or 2013 free photos exist. Portrait crop, CC BY 2.0, 2124x2848, no restrictions. The Georges Biard and Lifelemon Cannes shots are under 410 px wide and one carries a Restrictions value.",
+    "alternatives": [
+      "File:Ryan Gosling - Cannes Film Festival - 01.jpg",
+      "File:Ryan Gosling - Cannes Film Festival - 02.jpg",
+      "File:Ryan Gosling 2 Cannes 2011 (cropped).jpg"
+    ]
+  },
+  "W195": {
+    "slug": "W195-emma-stone",
+    "status": "found",
+    "commonsTitle": "File:Emma Stone 2011 at Comic Con - flickr.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emma_Stone_2011_at_Comic_Con_-_flickr.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Emma_Stone_2011_at_Comic_Con_-_flickr.jpg",
+    "width": 775,
+    "height": 1210,
+    "artist": "Gerald Geronimo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Gerald Geronimo, CC BY-SA 2.0, via Wikimedia Commons",
+    "alt": "Emma Stone smiling at San Diego Comic-Con",
+    "caption": "Emma Stone at San Diego Comic-Con, July 2011.",
+    "dateOriginal": "2011-07-22",
+    "reason": "Same year as the article, portrait framing, CC BY-SA 2.0, no restrictions. Width is 775 px, slightly under the 800 px preference; the same photographer’s wider ET interview shot (1900x1267) is the fallback. The Deauville 2011 Biard photos are tiny and carry a Restrictions value.",
+    "alternatives": [
+      "File:Emma Stone ET interview (5965813109).jpg"
     ]
   },
   "W197": {
