@@ -782,6 +782,27 @@
       "File:Noa Tishby Photo (cropped).jpg"
     ]
   },
+  "W164": {
+    "alt": "Israeli model Michael Lewis posing for a portrait",
+    "alternatives": [
+      "File:Anamikel.jpg",
+      "File:Sharon Inbar on the set.jpg"
+    ],
+    "artist": "Israel Atar (ישראל עטר)",
+    "attribution": "Photo: Israel Atar (ישראל עטר), CC BY-SA 3.0, via Wikimedia Commons",
+    "caption": "Michael Lewis, 2011. Photo: Israel Atar (ישראל עטר), CC BY-SA 3.0, via Wikimedia Commons",
+    "commonsTitle": "File:Michael Lewis.jpg",
+    "dateOriginal": "2011-12-09",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Michael_Lewis.jpg",
+    "height": 974,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Michael_Lewis.jpg",
+    "reason": "The only solo portrait of the Israeli model Michael Lewis on Commons; described as \"The Israely model Michael Lewis\", taken December 2011, within a year of the 2012 article. CC BY-SA 3.0, no restrictions. Caveat: 590 px wide, under the 800 px preference. File:Anamikel.jpg is public domain and 3648x2736 but shows him with dance partner Anna Aronov on the Dancing with the Stars set (2010) and would need cropping. The Hebrew-name search returned no additional files.",
+    "slug": "W164-michael-lewis",
+    "status": "found",
+    "width": 590
+  },
   "W171": {
     "slug": "W171-darren-star",
     "status": "found",
@@ -842,6 +863,29 @@
       "File:London Premier of Bad 25 - Spike Lee.JPG",
       "File:Spike Lee na saída do Ilê (8461617526).jpg"
     ]
+  },
+  "W176": {
+    "alt": "Seth Rogen speaking into a microphone at a convention panel",
+    "alternatives": [
+      "File:Seth Rogen WonderCon 2, 2013.jpg",
+      "File:Zac Efron, 2012 (cropped).jpg",
+      "File:Zac Efron (6914102612).jpg",
+      "File:Seth Rogen, Jay Baruchel, Jonah Hill This is the End Screening 1 (cropped).jpg"
+    ],
+    "artist": "Gage Skidmore",
+    "attribution": "Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons",
+    "caption": "Seth Rogen at WonderCon, Anaheim, March 2013. Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons",
+    "commonsTitle": "File:Seth Rogen WonderCon 2013.jpg",
+    "dateOriginal": "2013-03-30",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Seth_Rogen_WonderCon_2013.jpg",
+    "height": 2758,
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Seth_Rogen_WonderCon_2013.jpg",
+    "reason": "No free photo shows Rogen and Efron together. This Gage Skidmore portrait crop is one year before the Neighbors article, 2093x2758, CC BY-SA 2.0, no restrictions; Rogen has no 2014 or 2015 category. The best Efron option is a 2012 Eva Rinaldi premiere crop (800x1140); the 2013 Efron files are shirtless paparazzi-style shots and were skipped. The 2013 Hollywood Walk of Fame photos of Rogen carry a Restrictions value.",
+    "slug": "W176-seth-rogen-zac-efron",
+    "status": "found",
+    "width": 2093
   },
   "W182": {
     "slug": "W182-emma-watson",
