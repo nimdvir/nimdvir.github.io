@@ -21,5 +21,39 @@
   },
   "canonicalHebrewPath": null,
   "recommendedAction": "Do not merge or share paths based on interviewee. Record W098 verified date and continue capture independently; W110 needs checking.",
-  "textReconstructed": false
+  "textReconstructed": false,
+  "additionalRetrievalAttempts": [
+    {
+      "checkedOn": "2026-10-31",
+      "outcome": "Live Blogspot URL returns 404. An archived Blogger shell preserves the title and post ID, but no body; public post feed also returns 404. Independent Hebrew interview W098 is archived; exact repost equivalence remains unproved.",
+      "textReconstructed": false,
+      "archiveEvidence": {
+        "id": "W110",
+        "url": "nimdvir.blogspot.com/2023/04/an-interview-with-gila-gamliel-israeli.html",
+        "cdx": [
+          [
+            "urlkey",
+            "timestamp",
+            "original",
+            "mimetype",
+            "statuscode",
+            "digest",
+            "length"
+          ],
+          [
+            "com,blogspot,nimdvir)/2023/04/an-interview-with-gila-gamliel-israeli.html",
+            "20231205081823",
+            "https://nimdvir.blogspot.com/2023/04/an-interview-with-gila-gamliel-israeli.html",
+            "text/html",
+            "200",
+            "CVCVC5MJS64AOFGXO7ND42QHVFTZGTRR",
+            "2425"
+          ]
+        ],
+        "snapshotUrl": "https://web.archive.org/web/20231205081823id_/https://nimdvir.blogspot.com/2023/04/an-interview-with-gila-gamliel-israeli.html",
+        "status": 200,
+        "bytes": 20203
+      }
+    }
+  ]
 }

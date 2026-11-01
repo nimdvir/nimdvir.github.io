@@ -1,0 +1,110 @@
+{
+  "articleId": "W156",
+  "title": "לא צעירים לנצח",
+  "subtitle": "לכבוד חזרתם למסך של צעירי תל אביב הושבנו את כוכבי הסדרה, שיר גוטליב, סער פין, ניר גבע ואלינור אהרון, לשיחה על הטראומה שלאחר ההצלחה, הדרמות מאחורי הקלעים והסיכוי לאיחוד",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3749822,00.html",
+  "publishedDate": "2009-07-22",
+  "publishedDisplay": "22.07.09, 10:08",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "c467441bd8d79aad8488658d391fd73c382fa35d440eaef122eccd0f1bf1211a",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 32,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2084888/tel3_wa.jpg",
+      "caption": "צעירי תל אביב. הקאמבק",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2084886/tel2_wa.jpg",
+      "caption": "אלינור אהרון. הטראומה שאחרי ההצלחה? (צילום: דביר כחלון)",
+      "credit": "דביר כחלון",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2084890/tel3_a.jpg",
+      "caption": "צעירים לנצח? לא ממש",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "את הראיון המלא ניתן לקרוא בגליון החדש של פנאי פלוס"
+  ],
+  "apaCitation": "Dvir, N. (2009, July 22). Lo tzeirim la-netzach [Not young forever]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3749822,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "היה משהו מעניין בחיבור שהתרחש בשבוע שעבר בסטודיו של הצלם דביר כחלון. מצד אחד, מלכת הדראג ההיסטרית קיי לונג נמרחה על הסט, דפקה פוזות לצלילי מוזיקת האוס בפול ווליום (אם לא קראתם את הראיון איתה בגיליון הקודם, רוצו לסגור את החור הזה) ופיזרה נצנצים ורוח אוחצ'ית של שנת 2009.",
+    "lastTextBlock": "אהרון: \"כן, עשיתי קלטות ילדים ו'אבניו קיו' ועוד דברים. אבל הקצב שלי מאוד מאוד איטי. אני לא עושה מספיק, יחסית למה שאני רוצה לעשות. אני מרגישה שלא קורה כלום. לא הייתי באודישן, כבר שנה. אני מרגישה שאין משהו מתאים\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 25,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "ab674d757baa7129f58d478539fda4417cb915ca3a398d767d2a7c6d347530aa",
+      "1f83e58580a31950923769f96ce05d177cb679f8c47883c06fb4f7b25b4ded4c",
+      "26ce5c10250096b9bfe610aab01375df88633cf6593d2b86aa5ec0641c24c1cb",
+      "c48658786eb20f01a3b4bd18cd88234cdf0fc3430dde8b6ccf7caa275e9b3aea",
+      "3e320058b76b45e853e0f860e576c39296e5dce00a5d993a5da0f3c5b4c4641e",
+      "1eb46a9971b33a72cd6e3e1ec4bca4f61ecceca508358093f26751e9ba8049b5",
+      "deb7992062c55a464a41f39bfca1c39aac0328af069909c7ddfd07a203f25efa",
+      "15d62d37d5516b2edaad5bade2e0059f32a464d2eaefa3866982f6c5f101c020",
+      "ea9e5f4c933c64871a88007c3e639cb9209e2009024ab2bf7c18acfd37824138",
+      "60bb0d0eea348759fa1ab2290d30ed9e9398625c59c4413e89acd8209e06954a",
+      "94717f8731843ced36b838b0b03293e1b7944723fc2361c2ea000d23f291b71d",
+      "cf2e90493b02cea3691482ea4731054289da6cfc76cd2cfa642898e89410d84d",
+      "a2dd2a7dea34b6b5c9059a130f14c85f73f2d62e7bb9e04158d428621a667eac",
+      "96bb50129361e45d0fb503d17d86c51990f730f60400dc15956f56dde041780c",
+      "9344dc8d772cd207db0784ab0c7ef291b311f7b826a282e5c41b8b9bcccbe059",
+      "c43d71839f939036d29b4fcba9ebb3d2f905ece2a58d9798c40147df24a5486b",
+      "a7a4ce102eb5d22f6080b6c4070d76368e433f01bd6d9a274edc55acbd8b8194",
+      "04dbe71e34d8885b60b9bcf564e5e8501b9ea07797efebaa64682b496faab76d",
+      "d610aa739d569fc9449ece8806afa26cc51fd0ef49a8b6f641df37f92c299ecf",
+      "9289bf4894513db7e6116dcc01442ad73725e82306a5a8270b5becb35b71816c",
+      "dc813a67b42863ef5bcf590db936f5e5f2c6f1139bfd2ade6864e3f1f22335e4",
+      "ab076b9a2cf19f2bbd250b6faf49055f8c1b1d33a1bcbd57c57e8ea97a3cb695",
+      "ed252381bf51bafa714f89906bca529ee5e432fcf57a981e40aeeba0f9e7098c",
+      "6fed9f8da9cbfc27b0d573527b34a5a93dd38aadbde300a8539b8526f8ab09e2",
+      "7b26e2390158f4716439f922943901a5ca52b28516bc0a814960f9b0128e7406",
+      "820a4d41e42fd17bcaee19246b05a7f581751194d163265d28b8bb7a8785a38b",
+      "9731d29d095701bce403a5808d9a8d5881161e9701c8c2a71fbcddda952e4265",
+      "8bedc24f2290179e14cdadfd7782d5be8ffd7538671ee19b74bd0805881f0f3a",
+      "4c35e033d732b8e1da7e56f99aed8ba4ccbb92f6cdf3352f5d247fea0ddcca75",
+      "d4724b4f8a54a38324daa5c4eaeca7e794c6ec9e80f2bac98e932a9f5ac2bb22",
+      "fa84554cf192321ddfe2cf3c0e7bca362de675998a027318ed066750e842d59e",
+      "c0420cc1a04a2aecbf192d70805dfb948754fe433bcf48c59f2475336308fc61"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1093,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

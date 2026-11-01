@@ -1,0 +1,104 @@
+{
+  "articleId": "W207",
+  "title": "אורלי שני: הישראלית שמעצבת בגדים לאמריקאים",
+  "subtitle": "חובבי \"פרויקט מסלול\" שימו לב: לאמריקאים יש ריאליטי אופנה חדש והיסטרי וקוראים לו \"פאשן סטאר\". אורלי שני, אחת המתמודדת הבולטות (עם שורשים ישראליים), מדברת על סיפור האהבה עם המנטורית ג'סיקה סימפסון, ועל איך הבגדים שלה נחטפים מהמדפים של סאקס פיפת אווניו",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Xnet",
+  "sourceUrl": "https://xnet.ynet.co.il/xo/articles/0,,L-3094919,00.html",
+  "publishedDate": "2012-05-08",
+  "publishedDisplay": "08.05.12, 09:10",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "8a06f577f4a1f2cad5e024383de7d41ba709c76d5a34185d5005b7679c61e5c5",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 30,
+  "interviewerPromptCount": 7,
+  "originalImages": [],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2012, May 8). Orly Shani: Ha-yisraelit she-meatzevet bgadim la-amerikaim [Orly Shani: The Israeli designing clothes for Americans]. Xnet. https://xnet.ynet.co.il/xo/articles/0,,L-3094919,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "שמונה שנים אחרי ש\"פרויקט מסלול\" הביאה למסכים בשורה של שילוב איכותי וממכר בין אופנה וריאליטי, מגיעה תוכנית חדשה שמנסה לגהץ את הקמטים שדבקו בז'אנר. הרי כבר שנים שהתיעוד הטלוויזיוני של עולם האופנה הוא לא קוטור ומלא בעיקר בתוכניות זולות, ממוחזרות ולא מעניינות.",
+    "lastTextBlock": "\"חוץ מהמנטורים שלי בתוכנית, לא היה לי הכבוד לעבוד עדיין עם סלבז. לקוחות החלומות שלי הן [מילה קוניס](https://xnet.ynet.co.il/articles/0,7340,L-3091104,00.html), [בלייק לייבלי](https://xnet.ynet.co.il/articles/0,7340,L-3091741,00.html), [אמה סטון,](https://xnet.ynet.co.il/articles/0,7340,L-3088658,00.html) [ג'ניפר אניסטון](https://xnet.ynet.co.il/articles/0,7340,L-3091846,00.html) ו[ג'סיקה אלבה](https://xnet.ynet.co.il/articles/0,7340,L-3085102,00.html). בנות שמשדרות משהו רגוע, סקסי ולא זוהר מדי. בקיצור, בנות שהייתי רוצה לשתות איתן בירה\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "ג'סיקה סימפסון",
+      "href": "/articles/0,7340,L-3094821,00.html"
+    },
+    {
+      "text": "מילה קוניס",
+      "href": "/articles/0,7340,L-3091104,00.html"
+    },
+    {
+      "text": "בלייק לייבלי",
+      "href": "/articles/0,7340,L-3091741,00.html"
+    },
+    {
+      "text": "אמה סטון,",
+      "href": "/articles/0,7340,L-3088658,00.html"
+    },
+    {
+      "text": "ג'ניפר אניסטון",
+      "href": "/articles/0,7340,L-3091846,00.html"
+    },
+    {
+      "text": "ג'סיקה אלבה",
+      "href": "/articles/0,7340,L-3085102,00.html"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 26,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "9df591d033899d89d224849976efae8ab950c45430925603e5ab982df69ca897",
+      "d6c1dbb81fa3c4ff5ca548bf4467eee16a6ee8bf65b979bab123808453dfa97d",
+      "701e57676b6e4de2990a61900f7bfdc50d2c1eaae05712a21587d43e426e68a0",
+      "466c748eb6d44ab4f3f6270dc2a7a06c3f0940af27a66860314963764c52ca85",
+      "e47b8481a141f77af957ec3262415cd759b1ac7608744f20fb2e3cf5172d5167",
+      "77a1951dd205b42293432cc428a4ec6d1402ea6059ce5af912cb6bf5cd215dd5",
+      "70adf1677ad3d4355e93aa8ad6f47134e85bcadaa26f9df12ca022783e010910",
+      "5f14435fb3fcc38f79049b59318cc588804d81a4c29f53c127039c7b78938b32",
+      "d8be20d9c626141fa9a2e1d799fd8dcc3d2bcb518b57c08c73df1ec0bb5534cc",
+      "e118f5552e31724908f71005649dcabbce4395518037e7a7905150ee7ae954e7",
+      "52dcef419d7d40ba26291bd3f762c81ad21cb6b54c49f1689b99994b72f13c6b",
+      "8bf5fc62255dac029c5e793a32fd64128ac0adeaddff0bdc7ffc35530eba75a4",
+      "dc90ad860192c8d763ba1c615abd6d58020c79fe4b202026d03d8d6741bd92b9",
+      "4c0ecf1b2c03c826c288470e637e4356e5c8f383e9ab788f8b565e87ea3085eb",
+      "1a01f00be468875dc298b4834e6be7b910783fd07e7f8d66bae17887b2278e7d",
+      "52a3831d7911943ac5e12026ed5ee5fc27f42989458f16d623dfbb5c949c313d",
+      "afd77aed2e5377e2487a96c1f1d0162ec92ec9dc5885b336fd476b091147ed43",
+      "dd00eb06d97bb929a42546c251e4e21b035222ee2dac7fc2f28b09695c466471",
+      "4c93dca89a77b4eba7fdf6cacac233058687b39cd8984b6110cc86b17b8a6174",
+      "ecfd0a1244409cdd64c14ccc2324e45ffa8f6c4f51bea84249fd33fc8dfafeb6",
+      "be9d9ec683cfa680aa1c8a394fa5bd63d72189818cfd07fcada063962239b4d7",
+      "7f5c170a2cb387c9f6ae2be1233134075ad44616b171981281fd0195b97c5e3b",
+      "e0f68f935e096cba97e0e9997f782ab6fe9eac986e45e950cb3f846f9f653289",
+      "c78db31a4b2ba69b1fc5c38dcfe233a771aee07eea48bc5ecd6d5ec64af2299a",
+      "1e8e20c7d1ed5a2f73558dd5e9df9a44470afa6eb2d623cc3785bb03ae4f4dc3",
+      "806247727b8496293cee27d107d54fa3f52e7baac584503b1149e21033e27239",
+      "cd7e7fe80bdeced8581f9e9341f9785dbfd858753d57d2916fa85834144f2776",
+      "340c696faceff2258c67c551e13b0d52ccf5a08efb6a674f518cae7d7120252a",
+      "90090b80cc0ce0ca3c1a8f2f0708431b4dc80afd77e81cad475aa2ede68d06d5",
+      "c5d4c5364e6929ef8cd41843e47a4c787916e47bc1af682e69f291d51240eab0"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1065,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

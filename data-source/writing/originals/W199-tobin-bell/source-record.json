@@ -1,0 +1,123 @@
+{
+  "articleId": "W199",
+  "title": "מסור לעבודה: ראיון עם טובין בל",
+  "subtitle": "טובין בל, כוכב \"המסור 7 3D \" שעלה בסוף השבוע בישראל, חושב שהדם שנשפך על המסך הוא לא העיקר. בראיון בלעדי למעריב הוא מספר איך מעצבים דמות של רוצח סדרתי מטורף ואיך נשארים בתמונה גם כשדמותו מתה כבר בסרט השלישי",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/200/242.html",
+  "publishedDate": "2011-01-16",
+  "publishedDisplay": "16/1/2011 7:00",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "166837b14f48af28ff2087a78e0ec667bb07c7cb51bc8ea87f66163b9013c6c5",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 16,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images//archive/300x225/1/301/026.jpg",
+      "caption": "נושאים שמהדהדים אצל כולנו. טובין בל",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/279/243.jpg",
+      "caption": "זה לא רק סרט אימה. מתוך ''המסור 7''",
+      "credit": "צילום מסך",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [
+    {
+      "sourceUrls": [
+        "http://www.youtube.com/v/nVQZIJr6z2g?fs=1&hl=iw_IL"
+      ],
+      "captions": []
+    },
+    {
+      "sourceUrls": [
+        "http://www.youtube.com/v/DUaWv5POLVU?fs=1&hl=iw_IL"
+      ],
+      "captions": []
+    }
+  ],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2011, January 16). Masur la-avoda: Raayon im Tobin Bell [Dedicated to the job: Interview with Tobin Bell]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/200/242.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "מה בדיוק אנשים מוצאים בסדרת סרטי \"המסור\"? על פניו, מדובר בסדרה מדממת, עמוסת איברים חתוכים וגופות נזרקות. ועדיין, מאז שיצא הסרט הראשון בסדרה בשנת 2004 הצליחו סרטי \"המסור\" להפוך ללהיט עולמי ולסחוף מיליוני מעריצים. בסוף השבוע האחרון עלה בישראל \"המסור 7 3D\", החלק האחרון בסדרה (ומדמם ביותר, יש לציין) שיוצע לצופים בתלת מימד.",
+    "lastTextBlock": "\"לא התחלתי לגלם את התפקידים שאני מסוגל להם. במקצוע שלנו לא יודעים מה בהמשך הדרך. אני רוצה לגלם דמיות מגוונת, עם הרבה צדדים. המשימה שלי עכשיו היא לשכנע אנשים שאני מסוגל לעשות דברים שהם לא אימה. זה כמו בכל אמנות. אם אתה מצייר ציורי אמנות אימפרסיוניסטית ואז אתה רוצה לשנות לאקספרסיוניסטית זו אחראיות שלך למצוא דרך לעשות את זה ולגרום לאנשים לקבל אותך באור אחר. זה העסק שבו אנחנו נמצאים. אם אנשים רואים אותך עושה משהו היטב, הם רוצים לראות אותך עושה אותה שובו ושוב. אבל זה דבר טוב. אני מצפה לאתגר הבא, להמציא את עצמי מחדש. זה יהיה מסע מעניין\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "N01",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/200/242.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/200/242.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/200/242.html",
+        "20110211121017",
+        "http://www.nrg.co.il:80/online/47/ART2/200/242.html",
+        "text/html",
+        "200",
+        "PICQRCVL4ZWW4OMDTOMCTGK2NCYPDMBK",
+        "18459"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110211121017id_/http://www.nrg.co.il:80/online/47/ART2/200/242.html",
+    "status": 200,
+    "bytes": 69748,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 2,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "51b4da563142e6498988ccc611569a53a21370b49cb4164218a2f54750a84e1e",
+      "5da09d607f2cd130ac622ddba602276564ad759c6911c09910f3d6637e9e6132",
+      "955da3fa80117ca3552007904b94eba3ccbfc176dfc0b4a940d4acb86a5fa897",
+      "e131132ec6a23105bfb9eb74cb1b336481613213c32e233d699e65458965f1c1",
+      "ba8a5f0d0ea319278bf433ef8f6f1d1c7ebe79b0e6674f60366016411ee98e76",
+      "d0523a4de6c2dd96e28333dcd3c8f619fa5aed1f7e56061260f5071fb7fa5938",
+      "d8b4bc5cd57f741edddeb29c702b897ffff0f74df8a7af1f6a79e9c5d6d2c469",
+      "b3253729371f4e6bfd376d4f1e644889396a1ed3f314be1cb623d164827469c8",
+      "793e38bb8f49fc7150300977dc63d1d9341a861de75ac1aae15f031f219927c2",
+      "cdbfdf3b00f48263d3bd1000161c6988040182da38bd003e74f1f96170053df5",
+      "03b84bfed1f7c34c67515979348869b00803d938d733b4f566fa0461967f5e47",
+      "4c5ca6fb41d7863cc576950570cbc6610d41bb3795b825f4dfa450000b2f9832",
+      "2bdeb270989a88395f680a1f9a5547e2e217c25710ee4d3d28ccbb8f9466183b",
+      "a8556497f8da469728ea291244f81f9b39d93a8df3627272a9ec3ac4096dcc7b",
+      "7e5fd1b5fcd19e69c4ef970a08edf53a345bab01c5177d01ba624697f39c31e6",
+      "1f0342986010ab58ee1989daaecdb76607f9e7fb02976a3620a9219506596450"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 825,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

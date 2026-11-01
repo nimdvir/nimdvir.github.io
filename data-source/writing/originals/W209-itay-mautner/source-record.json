@@ -1,0 +1,121 @@
+{
+  "articleId": "W209",
+  "title": "מועדון הפצ'ה: ראיון עם איתי מאוטנר על הפצ'ה קוצ'ה",
+  "subtitle": "בשבוע הבא תל אביב תתרגש מאירוע ה\"פצ'ה קוצ'ה\", ערב אמנות בו אמנים צעירים (וכאלה שכבר לא) מציגים את עבודותיהם במשך שש דקות וארבעים שניות. איתי מאוטנר, ממארגני האירוע, מסביר למה הפורמט הקשוח עובד, איפה כדי לישון ללילה אחד ואיך שומרים על החד פעמיות. ראיון ב-640 מילים",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/094/529.html",
+  "publishedDate": "2010-04-14",
+  "publishedDisplay": "14/4/2010 13:00",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "42737d2426f0f779ceb7d257d22328afa1d24433592ba6aa03c5db108783c325",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 17,
+  "interviewerPromptCount": 5,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/213/367.jpg",
+      "caption": "כך זה נראה. איתי מאוטנר וענת ספרן ב''פצ'ה קוצ'ה''",
+      "credit": "צילום: עלמה מכנס קז",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/899/099.jpg",
+      "caption": "יש משהו בתמצות. \"פצ'ה קוצ'ה\"",
+      "credit": "תמר מרקוביץ'",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/213/366.jpg",
+      "caption": "קאט דה בולשיט. איתי מאוטנר",
+      "credit": "אייל לנדסמן",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, April 14). Moadon ha-Pecha: Raayon im Itay Mautner al ha-Pecha Kucha [The Pecha club: Interview with Itay Mautner about PechaKucha]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/094/529.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "ביום רביעי הבא יערך בהאנגר 11 בתל אביב אירוע בשם \"[פצ'ה קוצ'ה](http://www.nrg.co.il/online/5/ART1/700/781.html)\". לרבים מחובבי האמנות המקומיים מדובר באירוע שאסור לפספס. הערב, שמתרחש כבר בפעם התשיעית, מושך אליו באופן מסורתי קהל רב (בפעם הקודמת הגיעו כ-2000 איש שדיווחו על הנאה גדולה) כשכל הכרטיסים, שמחירם 20 שקלים, נמכרים בתוך שעות ספורות.",
+    "lastTextBlock": "\"לא, זה ארגון לא למטרות רווח. נכון, כל 2000 הכרטיסים נמכרים תוך שעות, אבל למעשה בכל ערב כזה אנחנו קצת מפסידים כסף. זה נורא יקר להפיק והכרטיסים הם רק 20 שקלים. חברת ההפקות 'פאזה' תומכת בנו, ואנחנו ממשיכים להריץ את הערב בגישת 'אמני העולם התאחדנה'. זה אירוע חשוב לתרבות המקומית. מדובר בערב שכשאתה יוצא ממנו בא לך ללכת וליצור משהו\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "פצ'ה קוצ'ה",
+      "href": "http://www.nrg.co.il/online/5/ART1/700/781.html"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "W209",
+    "url": "www.nrg.co.il/online/47/ART2/094/529.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/094/529.html",
+        "20100417055152",
+        "http://www.nrg.co.il:80/online/47/ART2/094/529.html?",
+        "text/html",
+        "200",
+        "Q2LCZDRZXJDXWQNI7SZFXN7WSNEUY4F7",
+        "17027"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100417055152id_/http://www.nrg.co.il:80/online/47/ART2/094/529.html?",
+    "status": 200,
+    "bytes": 65608
+  },
+  "verification": {
+    "sourceParagraphsChecked": 2,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "c0ecd0563f99361f8806c825ae561bde32ba69fed7b3c0fc828967c2b19cf6b1",
+      "f587548a86a927c1a40f6a3b720517547d893bf9fd0af73ab26042c65fad211a",
+      "e7605b1be2ba1f70070d71dbd1a589244da04c3b3107260455ad6414a903d707",
+      "2bbcbce4153691a7dd83e2ed784f0b033fac0f59013eacf4ca12db5ff606d601",
+      "d894a250a9498f347254be75ef154daa2c5f74e607b1fecb0af23671b6470b2c",
+      "f874badaaaa3947e8d64ac8e2e0409085636e329bf8abd5a61c2eab49e8ee4ef",
+      "a5ba22285be6a5de9a8bbea44404c36b97a765721d8dd9d60bccd8aab84c664a",
+      "af1d6ad3e5278bd673d85a6af9503c9f0a5c52152b595ce27dcd377487b6643c",
+      "05409f397001c547f9f4504562fb7b36c11a55a11aa0aa5374e77f40314423db",
+      "b5106ca7f3dbbf16e3be5631af0f034d4cdc81bd240ba4268b0be1f8bc9e92f5",
+      "2b47f88201033166be88609b1e2e41b159a8783f36692dc887549aed016436a3",
+      "4cad3f027355e2967d7740dd67ce6ae63a160d1c0cd08ea802e0e6d3dd65a84c",
+      "fa6e68fd276606ab6d1f284abbcdb40bbf74c86a36655bb445de486824f0043e",
+      "e4ab73959d57ab5a5a0d549b7b4be2f25cd50a370fd4ea0487fcd0e81402f41b",
+      "2dd7cabbdaefbf20ef95747b8ea71f20fe6c60a1a20029eec533e2566f799b4d",
+      "d25b05c48b516e669a5b0249a02fc8c55c0d34b26f255377f502fb845ead7c31",
+      "a511face0691defd32e2a5c4636e27003923a3a3ac3c3275a00ee068474e2d8c"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 689,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

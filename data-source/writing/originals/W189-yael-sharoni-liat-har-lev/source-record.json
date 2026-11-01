@@ -1,0 +1,142 @@
+{
+  "articleId": "W189",
+  "title": "שידורים בצבע: ראיון עם יעל שרוני וליאת הר לב",
+  "subtitle": "יעל שרוני וליאת הר לב, שתי הנשים המצחיקות שסוחבות על גבן את הגברים ב\"רמזור\", חוזרות לעונה שלישית. נמרוד דביר נקלע לשיחה על בורגנות, נישואים והיריון, והבין כמה חסר לו הומור נשי בחיים",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/243/378.html",
+  "publishedDate": "2011-05-30",
+  "publishedDisplay": "30/5/2011 15:21",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "0e275b3e3714ce030b352befdb47fdbd722cf75c3f43572522c7940bab5a6d96",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 41,
+  "interviewerPromptCount": 8,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/332/438.jpg",
+      "caption": "פאוור קאפל. יעל שרוני וליאת הר לב",
+      "credit": "אלון שפרנסקי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/332/444.jpg",
+      "caption": "לומדות לאהוב את הדמויות. יעל שרוני וליאת הר לב",
+      "credit": "אלון שפרנסקי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/332/443.jpg",
+      "caption": "המקצוע נורא שומר עלייך מהתברגנות. יעל שרוני וליאת הר לב",
+      "credit": "אלון שפרנסקי",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2011, May 30). Shidurim be-tzeva [Broadcasts in colour]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/243/378.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "יעל שרוני וליאת הר לב לא מפסיקות לצחוק מהרגע שהן נפגשות. צוחקות על בחירת המקום בבית הקפה בו נפגשנו, צוחקות מיושבי בית הקפה, צוחקות מהמלצרית, צוחקות ממזג האוויר, צוחקות מההזמנה (לא ברור למה, אבל בחירת סוג הקפה גורמת להן לשאוג בקול) וככל הנראה צוחקות גם ממני.",
+    "lastTextBlock": "הר לב: \"בא לי לעשות סרט מצחיק ממש, כמו הסרטים של סת' רוגן נגיד. לא קומדיה פוליטית, לא חברתית, פשוט סרט פאן, מצחיק, קליל. אולי יום אחד אשב ואכתוב את זה\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W189",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/243/378.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/243/378.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/243/378.html",
+        "20110602143955",
+        "http://www.nrg.co.il:80/online/47/ART2/243/378.html?",
+        "text/html",
+        "200",
+        "OEPNNUYULYPMXWM5CDK2V3ELJ6CFV6EM",
+        "20659"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110602143955id_/http://www.nrg.co.il:80/online/47/ART2/243/378.html?",
+    "status": 200,
+    "bytes": 74899,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 3,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "f26f8fffd7c4e0ba51f71376b709c79bfb5514107d09b19c7f3f6108d7ce30d2",
+      "a18938af7279b849ae0c094fa5fa118beca88085ceeb93150929298d8ed8c765",
+      "8230789ee323c95af6316e3da9eb7097293dd18bac1a0ae76078155ecee08166",
+      "46ef26633180b8599d9fa1583edd5688497c3f20916989cd715b6df5a311193e",
+      "88eda515c8a8426e6ad33b754dd580d82f34744ef8e75f126696aa289e17d4d0",
+      "adb2a4bba9906b3779540288a873fe2913f7f9d3699bbc2fff5c06475e52dc0f",
+      "da234ec54f8d753b818eb38d67c4433feaac79e454fe3466159d69a8ddd119ad",
+      "5de168f1be9eed4415e53f899a7de8b74596bcf466ee211773c3cad923170d6f",
+      "c9ee515dd657ff6a3d546f7f9eaad5b869d870bd5d50c6a33b503dc742d846f7",
+      "a05cf69d3d1bb3d2a820c6344af9688afe4adaaadb3b0933e5971076d1acf052",
+      "708d6910d7a477960b2245601f73b9250e50d6b795e37967cd80aa8bab9d4169",
+      "1cbdcaf172d72cc30fcc41444b2c869bc1d8fbc62841975402855f6993b31b0e",
+      "828d96a5df2c963cf968f7bfae024cf92efc2fca3fd4f39e1b21ea48589e8069",
+      "b4c04a0410e9d079b4cb9a8fc7239130cc8e674fb470ac80dfcdedda4d3dd7af",
+      "0285ee138616f22fb56385391d630d1889bf4188552f58c4bd24bba8a32b13a7",
+      "e60b9aadd6afd5276dfabbdbb37a2142a9e07c34a06b40ea69ceb966a988e297",
+      "7a8b58f95fbc4db388c01d3d4937e5621f4ba80f213735b9e3efe2e3687031b6",
+      "0d6b84922d1729a2eb5d48cfcd63e3a8962ff8872c6ee4f3be363b07da51546a",
+      "e7a53591dd9d645cd98ee50027775480f8754bba039467f8c22471f040e9e42a",
+      "feb52c05bf52b1e4219c5ae3f478929824745e83611ce53753a512e943ac5aa9",
+      "189c5bd830742f65b76c2a5f6ac1f8028ddfad910c2a02b649493a93da2a79f5",
+      "475f64ff655ae7c69e6415838d2c2bbc07a6868b332cc426602f430f6f66e78a",
+      "c5c509293c53a1c8312479ec42c4c19e532709a0be1e67c5fc81c1a22a55fba6",
+      "f672572217ee0244b1269c6d55b77466792c85963557ec920a67fe14e870e886",
+      "86a4eeeb0f2ba06cfea058a2af392be03782dea4ee0cf3322fcc7a1b755a4ab2",
+      "56361ee7de20a42823b46abbde72a757c001d56293fb4a2a0110dd36945bf301",
+      "a6334a438197039135fc01b0c0462db04f69d722b9c1514aa0e7cc8d66cf31d3",
+      "da857f9aad010bde4a87c330d661bfa98ddc15b987211842cb02f51b9c0f31ae",
+      "1e53a34aa83d96f1d3963754263bf1e06012c03c6a909fb5fc160ff411a996f8",
+      "01c35a2dcedba4e69ef1ddf5e4f4cacc864d6da6c0e63f020dce69dcdbc8e6fc",
+      "5551935ed745a40b170390ce16453843dfdd049ff6876fe42fe32d2931e7363b",
+      "143ed9871f31ddc7c452e8cb4154f7aa5654f97257f1be92254782911b30ca7b",
+      "76d6d788d1990ede057745f2de0f009e073c95f4eebacf15edc44a677a05936c",
+      "285cb0e07cef0793837a6f73a02b2b85d5969fe4e21e6b01755f1bdbc47be90b",
+      "4c6abde5acc045b2f01b9f3ed483ed8ebec9338910a1f53fa575c6380d11779f",
+      "2a2b4ce7aa4536da0ebd96780ab69ee594f1c8ecc7676de2f50b96ac729b09fa",
+      "a9131a4504133afc2387800abe194eb2985f1b8e26b3f1857fcca5f34ad817e5",
+      "928bb291868b9002fbf057cf14a08061843a9b3e395ef0d7248027f09f44b482",
+      "a586e0c26d7bf55c80f69524dfb1ea69ae180518e8acc69b1793983ba471ff0d",
+      "acad2479c6732217927dd17d4eeca41b47837c5f3ac096bedb4f1dc722b9125f",
+      "a2ee8f9c6950278f7ad0565d0a5465bb317e31ef5174604b488b71c3c1737aa4"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1593,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

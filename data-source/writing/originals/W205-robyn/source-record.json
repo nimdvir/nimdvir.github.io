@@ -1,0 +1,117 @@
+{
+  "articleId": "W205",
+  "title": "דאנסינג קווין: ראיון עם רובין",
+  "subtitle": "סוכריית הפופ השוודית רובין חוזרת עם אלבום חדש. בראיון בלעדי ל\"מעריב\" היא מסבירה למה החליטה להוציא אלבום בשלושה חלקים, מספרת על האהבה לדאנס ולמועדונים ומבטיחה לבוא לרקוד בישראל",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/128/132.html",
+  "publishedDate": "2010-07-04",
+  "publishedDisplay": "4/7/2010 8:47",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "7b9d8bebb08447d55f002a71b3691d1e6c8e6b4a0fd51d8cc310f1c3672ea17c",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 18,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/244/849.jpg",
+      "caption": "למען הקהילה. רובין",
+      "credit": "צילום: רנקין",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/244/860.jpg",
+      "caption": "אוהבת מוזיקה שמחה. רובין",
+      "credit": "צילום: רנקין",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, July 4). Dancing Queen: Raayon im Robyn [Dancing Queen: Interview with Robyn]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/128/132.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "רובין מרים קרלסון, בת ‭,30‬ היא סוכריית פופ שוודית שהחלה לעבוד בתחום כבר בגיל ‭.12‬ בניגוד לקולגות שלה, היא לא ממש מתפתחת, אלא נשארת בנישת האלקטרו-דאנס-פופ, כולל שיתופי פעולה עם רויקסופ ואמנים אחרים מהז'אנר. זה עבד לה די טוב: היא ניפקה לא מעט להיטים (אנחנו הכי אוהבים את ‭,(With Every Heartbeat‬ זכתה בשלל פרסים, הפכה לסוג של כוכבת גם מחוץ למולדתה ואף הקימה לייבל משלה.",
+    "lastTextBlock": "\"זה סיפור נחמד. המפיק שלי בדיוק קנה את המיקרופון ששימש בעבר את הזמרת המקומית מוניקה זטרלנד, שהקליטה את השיר הזה ב‭.1964-‬ שנינו אוהבים אותו, לכן החלטנו שיהיה כיף לנסות לשיר את השיר שלה, במיקרופון המקורי ששימש אותה. זה יצא מגניב, אז הכנסנו לאלבום. אני ממש לא יודעת אם נהפוך את זה למסורת‭,\"‬ היא צוחקת לסיום.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "לביקורת על האלבום של רובין",
+      "href": "http://www.nrg.co.il/online/47/ART2/127/954.html?hp=47&cat=309"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "N07",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/128/132.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/128/132.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/128/132.html",
+        "20100708004120",
+        "http://www.nrg.co.il:80/online/47/ART2/128/132.html",
+        "text/html",
+        "200",
+        "WG3OPO5EBFRRNNXKCAL4RPXOFNMAAGQP",
+        "15254"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100708004120id_/http://www.nrg.co.il:80/online/47/ART2/128/132.html",
+    "status": 200,
+    "bytes": 56131,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 1,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "fda4275e9280f53d585315531dee310fb7551d5bae4e630ac939c252a9c7f333",
+      "b48c468d442632c29c6f2bc7f434aa7b73e9d7293bcfaaff8698c24c12472a51",
+      "117b88a9c566aa146ee66e4d5f1f727661cc44c57397daea961da5bb01b02e1b",
+      "3290bde9bc2ef3d851c33a0bd0547aad99810c4b1da783fad52dd1758c75468e",
+      "8fee211940a9b527565d3b2c3de3ca90243336c3499acd57aecb306a73e283db",
+      "45d0e1360b81e0c1669c53803951d0082499f107de51f5ba806608ad3f6d8712",
+      "efefd9a70b0fdb4f700cb9d28396c591441dbf1a256039cac47b2afccba89693",
+      "67a9c14ebe342c3ff41ef8d8a2e3b83c6bc5dfa00b538267b05be8b94e591e0a",
+      "5e9b650ec931aaf9e9bd2d6ef0c0118779d358287919e82c73c703149d1319ef",
+      "f503c031597949500e6c32489a43cabb16f4c9aad091622fa92c2da147ff8930",
+      "d2f895a4a19602ba718f0fddc3f5500ed8028a1346b8ece9e973a3c3529d3978",
+      "1316f6b9640c586a4ecd7708538261a7348752d425759064ea48a0cd1c0d5fa9",
+      "29c332a8df8a0f7e0c28ad27fb9a4c6027c8fe315257bc199eb3e1f87fd50a8e",
+      "76b5c5fe1ff11e3bc8f9945e7f705b1860181cbce724b9423013bd83bc310e9a",
+      "37ac58fded89878438a3507dca99f7c54ca0407b4fc2797fad464703b8bef45a",
+      "12ab03925eb3f3b73be8ec0c5fca42bbeec07cade508534695976e6dfe1fecf4",
+      "614cd7298b15a6e8cfe4700511ed6708c0e69012ce7ca91657b6e941b0f68519",
+      "8b4f6ba4c2f2f22dcbb1d1aba1628fdb5a536773d76a61f9f65c541d4394557c"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 618,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

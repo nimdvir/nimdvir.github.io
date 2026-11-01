@@ -1,0 +1,164 @@
+{
+  "articleId": "W139",
+  "title": "המאמי הלאומית",
+  "subtitle": "שנתיים עברו מאז התפוצצה פרשת יהודה-נינט-אפרת-רן שהסעירה את הביצה, והנה, אפרת בוימולד, הנפגעת העיקרית, מתאוששת: היא לא מפסיקה לעבוד בטלוויזיה, בתיאטרון, ובקולנוע. היא גם מתחזקת זוגיות חדשה, ומאמינה ש\"כל אחת מהנפשות הפועלות בסיפור הזה - יהודה, נינט ואני - נמצא היום בדיוק במקום הנכון בשבילו\". חג הקורבן",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3524075,00.html",
+  "publishedDate": "2008-03-26",
+  "publishedDisplay": "26.03.08, 20:02",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "3a6e93cefb84cc20dee1c9a022bc443ca85dd2c3a6df85244d8ff7aa96a8afb7",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 54,
+  "interviewerPromptCount": 24,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1424552/971efrat03pn_wa.jpg",
+      "caption": "\"פרסום זה לא הדבר הראשון שאני רואה במקצוע\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1424544/971efrat04pn1_wa.jpg",
+      "caption": "\"לא הייתי רוצה להיות כבר עכשיו במקום שאני מרגישה שאני בטופ\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1385874/lemanui.gif",
+      "caption": "",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/02012008/1424566/971efrat01_m.jpg",
+      "caption": "לשימוש פנאי פלוס בלבד!!! אפרת בוימולד (צילום: דביר כחלון)",
+      "credit": "(צילום: דביר כחלון)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/04062007/1258485/Dana-6_&91;1&93;_m.jpg",
+      "caption": "גילה אלמגור אדי תרומת אברים (צילום: דנה קופל)",
+      "credit": "(צילום: דנה קופל)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/04062007/1195127/938tehefrat03_a.jpg",
+      "caption": "לא שונאת צהובונים. בוימולד מסתתרת מהפפראצי צילום: ניר פקין",
+      "credit": "ניר פקין",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "בוימולד בצילומים לשער פנאי פלוס (עילי קמחי)"
+      ],
+      "sourceUrls": [
+        "http://www.ynet.co.il/common/wmvPlayer/wmvPlayer.html?clipid=182824"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2008, March 26). Ha-mami ha-leumit [The national sweetheart]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3524075,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "בשיחה הראשונה שלי עם אפרת בוימולד היא קראה לי \"מותק\" שלוש פעמים. בשיחה השנייה ארבע פעמים. מגניב, חוץ מהעובדה שזה מוזר כי לא נפגשנו מעולם. \"כל ה'מותק' הזה הוא איזשהו ניסיון לייצר חום\", היא מסבירה כשאנחנו נפגשים במסעדה בתל אביב. \"גם אם אני לא מכירה אותך, למה שלא נתחיל את הספתח שלנו בחמימות? אם תפתיע אותי, אני תמיד יכולה לקחת את המותק בחזרה, אבל למה לא להתחיל בטוב?\".",
+    "lastTextBlock": "\"כן. אתה יכול לרשום שיש לי חבר. אתה לא מכיר אותו, הוא לא קשור לתחום. אני נורא לא רוצה לדבר על חיי האהבה שלי. רק נאמר שזוגיות זה מאוד מאוד כיף\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "פנאי פלוס",
+      "href": "javascript:var x=txt_link(\"category\",\"1444\",\"width=0,height=0,toolbar=1,scrollbars=yes,status=1,resizable=1,location=1,menubar=1,left=0,top=0\")"
+    },
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 29,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "94de743a9415dc68eaefb7ef946a04e98af686a1477d4ebefab0447eb2e023be",
+      "50726c1956274cc5e5b761bab12ba97e2db533736de9377ba133f920a501e330",
+      "f91e352a7ecaa57c3a6867db7ecfe026db3d89de702f8d3a0f6106b9ac7dcc22",
+      "347ba37756afe188f145c79e2dd0a78e7435dacc42a99ca772d1983a4c2204b0",
+      "9e5e434144912417b07d9cc52fc473c90e92d99314335c02a33fb574d4300859",
+      "77d220deeed8971007eabc976b9ffaf94b4bc1da759fafb2790b517de7d3a7df",
+      "522f4274482cc92f599ec59612ba67b421b21ff7a13187c648e4c8946d951cac",
+      "480997aa634bad70a6f29971e1b7bc8e981d0831d7ae5a34f5912c0de0ae9150",
+      "115224be39f22d731539cb84e663925a4f46229df30e060725b20ad95a49eca1",
+      "e3fbec893ca5fefdcb95d54276d330127233235fc201c6af38a0b917a509d250",
+      "ffc0e7e23d4ac218839a7164f4ed76fd1ec8d7ea8d642701b2cc38826a61213a",
+      "5d8390ade51603869a777b49b6c28d32eb9f36d3064b2a2ec8fb4a8745a72025",
+      "4ee9fcd0b6fc22bbf16e6d56eb93c44639d7277fbb25ac87d15e460a700e0443",
+      "aa6e996f8f04590b687070a6f9ce7e2dc04cd4f0e7e48ce2d4a1d51f4de2400e",
+      "b0c889b3bc715f497330ccdff1d62df1a081c84934ed78ed99c73c3596a5e878",
+      "067239cbcf87ab51a1a3e2051b39308574a96aa379ccdbcf1f42077c955e5e3a",
+      "028c5d121d386f5f494ad2677f30e3da2ad3c6aeb1c52ffd94784c7f2657f34d",
+      "65676ae0eb753a38bc124a5361b62d83f497765a79dd7045124312f1e14f499a",
+      "79704627f7354676a581a7746dd01c5209f3748865fd5aa3c938074de1cb2860",
+      "c253b851fdfc23c333d806899b95e2541b1d5bfd022ab84079c0276422807ae0",
+      "87e0b7b67eb6b1fc8f41185c61546860f58a2d8dd1a97dd478307a391f1945ad",
+      "70b27f7d42c56e4f9e5c5a636a1f1e2b5526e56f6be8097c5fc86c6d0bebfd5f",
+      "d1d31a2f20ec3dbd11cb64212ddbeefc5693a4781cbf92499777c3029d818bdb",
+      "3c70c5a4fc12bd82ab90df5c44403ce02c01914da4df8e3f633c2c0ed41b4e8b",
+      "1bae2a651d2a60f8848171709d1fe29d490640bec08dc91742463b8f80228bce",
+      "ea59bf9a72ad22cb9b54c7993d207b9dacae55789bdcc1dcc1320a4eeb9d651d",
+      "3c2fd09396ef864986993225fbfa03e5ede731e71b7da03e80c362b8753ab07a",
+      "a6dcaae6bbca9314da4cafb195f80add5d12ac938be88653b3bd3b53cf6f35bf",
+      "2a6c6916b9f71a3de00e1f97ddd6f4bbe43be8532e0136ba8d62e06c846e37e8",
+      "ead7a34b865f8011ff4ad81b3bbde8c1f18973b8c23bdb91ef21dc432cc6ef4c",
+      "45fc4170a777d8d1152e463b8c2c4b68d725ab851920e72a80b41117b3e3c2ef",
+      "7027a381e6db0b8b89255f06dad121ae2b95140b2f5b7f5429fc5fa586f7ef01",
+      "95f1bbe1231d3f84c32d42a8fd8c9431ed21bf4f420bdd5b910b6bf44b6025c0",
+      "325e991cf5b4db0c09d434cde9fdce9adb564e20207199f4139c603d90de90c5",
+      "ec6f4e14a6b65168e034c3e69bde4e766aa80bad246acd5d6549eab5e13d7e84",
+      "215ffa6d4b023f7a7dc95479ae4fbd7726f59106e2325c8dbbb99f44d117093b",
+      "448196fd0772562a2d3682d7f026c12000174511956e6a911157e38b7be5b6fb",
+      "f7cfec0f586dbc009611b26663c3f66f3eaa52ad1a13ac9f0b525c775d41846e",
+      "ce0e7190d276301963093579a61e7b6422dba040f1ee31f31ef2ffe8f10f7b93",
+      "585d90e9abe01ab5e7f003ca0d2bd83a70ab64c6884353baf06d22eaf7d1c8c2",
+      "3c4a751251e225891944eb164413033ff152ccb9d04d2e3ba82a4391c85a77bb",
+      "076fbc6ecbb9717b506614566308f4b6ab98b8068996664fb901de07caba67c8",
+      "40f463f0dd0d85240ee9853c5d6bc060c5523365184141f1717237adc21875fa",
+      "7f61fda7eb46c46ee692d03c6ffbdceccaf6417c0087a35b36cc9d66452a5308",
+      "b4aacce253a81e4365cf89a6ab31e52bbb7face5ca757ef2b82d1eaa4e4cb3f5",
+      "59df5ef4be55b340f8e9bdaabfa5864481e3af3c5fff1f43051a0260b147b442",
+      "dce365bf648b87592eccec1ea96a3fe156da63814830b07e15f718e199a15bf5",
+      "9c0d11108165f25fe7a79b28f77c237398eb748d3079a95435edf0b7ada73958",
+      "19918a8673906e793debed9dcccfbb2fd1f9a191ac064fd44e26e226abf76b26",
+      "c85a8351a8af50d301a28ad18def91364aa69d0955d645539a14b53abf36c834",
+      "33e7445aac4690899d0491f12c8d6772486854efc3e12db7c873070b245ea9be",
+      "a62535c87e67647af840a6e77ab7a9daf40e5e52788f53d2c4327d55f00a75bf",
+      "60e7cfb74b079685246e1f58b81f716915adc6a11c8aeeae30a57627f9df6dbe",
+      "efcf4b00c52ae83db3ff1594b696485587462a06c3e3b97dbe0b3a169a97a40e"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1678,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

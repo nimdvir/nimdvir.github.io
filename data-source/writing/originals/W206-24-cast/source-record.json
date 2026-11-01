@@ -1,0 +1,136 @@
+{
+  "articleId": "W206",
+  "title": "לדפוק שעון",
+  "subtitle": "היום בלילה (א') סדרת המתח \"24\" עולה לעונה שמינית בארה\"ב, ובמקביל גם אצלנו בשידור ישיר. הסוכן ג'ק באואר ממשיך להציל את העולם כשהפעם הוא עושה את זה עם פרדי פרינז ג'וניור על תקן אקססורי לצדו. לקראת המאורע, אנחנו מביאים ראיון בלעדי עם השניים (ומגלים קצת מה הולך לקרות)",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/041/379.html",
+  "publishedDate": "2010-01-17",
+  "publishedDisplay": "17/1/2010 17:00",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "10f6ee8f0d6a060c32e4997f99029d8ee29a09db8dca2d7dd0bad89a48abdbed",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 22,
+  "interviewerPromptCount": 5,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/172/429.jpg",
+      "caption": "עוברים דירה. ''24''",
+      "credit": "",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/058/617.jpg",
+      "caption": "\"דמויות לטיניות מתות מהר\". פרינז ג'וניור",
+      "credit": "צילום: אי-פי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/172/399.jpg",
+      "caption": "תביא סטארבקס אם אתה כבר בחוץ. ג'ק באואר בניו יורק",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, January 17). Lidfok shaon [Punching the clock]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/041/379.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "עוד לפני ש\"[האח הגדול](http://www.nrg.co.il/online/47/ART2/041/254.html)\" נחת בישראל, הייתה סדרה אחרת שהציגה מעקב במשך 24 שעות. אולי ההקבלה קצת מאולצת, אבל הקונספט של \"[24](http://www.nrg.co.il/online/47/ART1/920/406.html)\", שחוזרת הערב לעונה שמינית הן בארה\"ב והן בישראל, מבוסס גם הוא על זמן אמת.",
+    "lastTextBlock": "\"24\", רביעי, 22:05, HOT 3 (ומהיום, א', בלילה ב-HOT V.O.D)",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "האח הגדול",
+      "href": "http://www.nrg.co.il/online/47/ART2/041/254.html"
+    },
+    {
+      "text": "24",
+      "href": "http://www.nrg.co.il/online/47/ART1/920/406.html"
+    },
+    {
+      "text": "פרדי פרינז ג'וניור",
+      "href": "http://www.nrg.co.il/online/47/ART1/896/934.html"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "N08",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/041/379.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/041/379.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/041/379.html",
+        "20100120075527",
+        "http://www.nrg.co.il:80/online/47/ART2/041/379.html?",
+        "text/html",
+        "200",
+        "HFMVOKNRXDGV7ZLSFHB6FKF2CGWU4FUA",
+        "17191"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100120075527id_/http://www.nrg.co.il:80/online/47/ART2/041/379.html?",
+    "status": 200,
+    "bytes": 66018,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 2,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "be3651939434a540f50d886b3b4666a3de9fa2d3f1d0071c21cb1a2e0dd7ea93",
+      "9d9b1dbd306bf31d08893d6097b1d39b7752f68938fb4a25677f6392e5decd4b",
+      "41b21d1a672db55b2cd80067fa44b6a1d36a9a64bae17e55c996f89c99729469",
+      "316a01ccd413d49a0956475a1a49692e5fea9c101a19bc29825c8da4c83ed0d3",
+      "ff75f8b9666a98bf286166ca9d506869c5061be14b3749bca9ed8bf02e8b8e45",
+      "f65da0650b9d3803093102a5de9dc136fa4ae1a147422739f2b4901be17ec9fb",
+      "da7dd145c3a4e1b8979215d36a7e3b4faece6ce692a758572b6898b21c4de23a",
+      "47c01d1cc4e07f0601c90e37e2239765bc684838b0ab71ec08f8fdaf72f7647b",
+      "77b04a0b7c144e703dee8abb9cce08383ccde0056c18a9692be8205dd10a8bea",
+      "67b511c7dc68cf24de003da7365c8e5586abae7a8a510cd5b2f8385a45fd261a",
+      "5cffab35f3e9605fdca28e8ebb5f7695a39b4722cc68565f12d236e5008e7046",
+      "c20f986433b79bd25b296cd5ac75a9d8a68382b10628f56c14cee4993281e985",
+      "8837b0d4a1ad462a6d513ca49d76c79624beea3d1167bf878e807905075263af",
+      "11a95c1023fbf9b4fae0c379cf7288dff71119a9e5a7c2767c0138e9565bcbe4",
+      "9063ede8cc05d9db0c46626eef2f346cd40b4b105e657d9931470624fe0aac92",
+      "ce9d916b0c26de05cee1938cc887aeb78fb56c60b29fe3194e55eb1907d7fe10",
+      "969ac0df445ad7c0970518086f6c6de41dca236fba2596447c5e76b034957273",
+      "265ecc20fb5c0ba9f81956f746c56878f4f72ccca88246d1ffafe0121743cec5",
+      "999a5627e7509fefca80397e22f2fdad678b9e045105b36bbe772e9f73eaa8b0",
+      "e0ec080bd6e06f985dd2f88c9f552233c5f8cbdca21d32112c7851020eea7f4a",
+      "93d20a0f6702a24c3df5eb5a5343db6b2a9bbee96dfae780f60e8c23e7b9ebb4",
+      "a168f93475823b169498775fe95c59d3e78bf85881a9d08b902b0174c942f749"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 799,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

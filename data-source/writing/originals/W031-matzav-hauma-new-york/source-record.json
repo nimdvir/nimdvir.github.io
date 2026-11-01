@@ -1,0 +1,105 @@
+{
+  "articleId": "W031",
+  "title": "\"אוהבים את ישראל ואוהבים לקטר עליה\"",
+  "subtitle": "בצילומים של \"מצב האומה\" בניו יורק צחקו על הכל - מפרויקט תגלית ועד ג'ונתן פולארד ואפילו מרב מיכאלי. אבל מאחורי הקלעים סיפרו חברי הפאנל שהגיעו לארצות הברית כדי לקרב בין המדינות. שליין: \"אנחנו צוחקים על דברים כי אכפת לנו, אחרת לא היינו טורחים\" ",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-4477544,00.html",
+  "publishedDate": "2014-01-19",
+  "publishedDisplay": "19.01.14, 08:58",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "9bd5396ec795b8d476c7f6b749f3472fe2296fd226a7c0db7b25cf8955630542",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 15,
+  "interviewerPromptCount": 1,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/19/5106087/510605401002399490251no.jpg",
+      "caption": "\"מצב האומה\" בניו יורק. דווקא פטריוטים (צילום: גילי גץ)",
+      "credit": "(צילום: גילי גץ)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/19/5106085/51060561993099490229no.jpg",
+      "caption": "מתוך תוכנית הפתיחה (צילום: גילי גץ)",
+      "credit": "(צילום: גילי גץ)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/19/5106078/510605901000100490326no.jpg",
+      "caption": "צוחקים על הכל (צילום: ניב עשת כהן) (צילום: גילי גץ)",
+      "credit": "(צילום: גילי גץ)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/19/5106092/510605301000100490326no.jpg",
+      "caption": "ליאור שליין עם ג'ואן ריברס (צילום: גילי גץ)",
+      "credit": "(צילום: גילי גץ)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer3/2014/01/16/5101964/46288652284648183103no.jpg",
+      "caption": "\"מצב האומה\". באו להצחיק",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2014, January 19). Ohavim et Yisrael ve-ohavim lekater aleha [We love Israel and love complaining about it]. Ynet. https://www.ynet.co.il/articles/0,7340,L-4477544,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "\"אם אתם צוחקים מבדיחות על נינט, כנראה שבאמת לא התנתקתם\", ירה ליאור שליין לעבר הקהל הישראלי המקומי, שבא לחזות בהקלטת פרק בכורת העונה השביעית של \"מצב האומה\" בניו יורק. שליין, גורי אלפי, עינב גלילי ואורנה בנאי הגיעו לעיר בשבוע שעבר כדי לצלם את הפרק, שישודר ביום שלישי הקרוב ברשת.",
+    "lastTextBlock": "\"גם אני מרגיש מאוד ישראלי ומחובר למדינה\", מסכם שליין. \"בת זוגי היא חברת כנסת, אני מתפרנס מהשפה העברית. לאן אעבור? זה לא אומר שאין בעיות ושאין סכנות. האיום בעיניי הוא לא הגרעין האיראני, הוא אנחנו נגד עצמנו. הכלי שלנו להאיר את הבעיות זה לצחוק עליהן, בין אם זה מהארץ או מחו\"ל\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 15,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "70a73678b93c7c46d165ddc972762af7fe90a683b4ccd196d3ba353afa4a83ca",
+      "8653bd107efe6f8e821aac64878b8b948f93f5e742f1f71b05d86f3e3802f34c",
+      "91eaddbdcdca344e9685c019f6d5b513f2eeb5b8e2e1ba7d255283fa6b8a3fd4",
+      "8ceef40ffb02fa7c27de46a15329a11a7cf8f6d1f13af43c32cfac6e32f968a1",
+      "7fb2951a4fd852f65f0f6e35fc25b463948ec261d0cb552121414bacce2e5ce6",
+      "3d44c77a0d2150d490bdc241e5310d57de17e1231902e9304e5293a540d6730d",
+      "49f697b5d0ef6917ce1e5046a6ad8a1afcaee337b359119fbe0664df99e7e0a8",
+      "84d68799f066a023f0ddcd15ed646a2b9d2268d905bfc5859dd688e0019aa0ad",
+      "1720ce1bc9bcf45e8b1a9dec3c57a6dc460e00462f7876dcab4150959376645b",
+      "d6ee316556e59e523808856f8b207772785ad14de84be3de02dd8630b0c80a9d",
+      "62b1ab350a73b34c17c076d262999896bbc9de2ef046a41d392a53e6983313be",
+      "5117ce00d9e0ef849d27ce8e1d2f8a06979064cb15a5a299bab73f4f5b9d6aab",
+      "c1df36c95b0da475f904923ad0a552a0132bdf11f5d9122e9c62103a53811a70",
+      "60240071d5a3f061dd2f94721759d971a87f8002a88c8158e3519df63a08a5e6",
+      "32ec6986e1164775903664abbe786ce03ae832b86c45200cca02a5972caa6127"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 793,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

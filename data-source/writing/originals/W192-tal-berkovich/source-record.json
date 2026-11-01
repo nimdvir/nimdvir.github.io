@@ -1,0 +1,125 @@
+{
+  "articleId": "W192",
+  "title": "שלח לי שקט: ראיון עם טל ברקוביץ'",
+  "subtitle": "טל ברקוביץ' רוצה הכול, והרבה: לדגמן בקמפיינים גדולים, לשחק בסרט של אלמודובר, לגדל ילדים בטבעון וליהנות מהחיים בלונדון. אבל בגיל 25, אחרי \"פלייבוי\", \"רוקדים עם כוכבים\" ואריק ברמן, היא מייחלת לעצמה בעיקר דבר אחד: קצת שקט",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/212/290.html",
+  "publishedDate": "2011-02-20",
+  "publishedDisplay": "20/2/2011 0:06",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "af5a1f0228d8ebbd1d4d64c12b62c35bea1f207c15af76eeb2786192aae7c83b",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 31,
+  "interviewerPromptCount": 11,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/310/820.jpg",
+      "caption": "לא מתחתנת. טל ברקוביץ'",
+      "credit": "צילום: דביר כחלון סטיילינג: שירן מניה",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/303/449.jpg",
+      "caption": "אהבה. עם אריק ברמן",
+      "credit": "בייגל",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2011, February 20). Shlach li sheket [Send me silence]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/212/290.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "טל ברקוביץ? מאוהבת. כבר חודשיים היא מתחזקת רומן עם הזמר אריק ברמן. אומנם לפני כשבוע היא ארזה מזוודות וחזרה ללונדון, מקום מגוריה בחמש שנים האחרונות, ואת ולנטיינ'ס היא וברמן חגגו בנפרד, אבל העיניים שלה עדיין נוצצות בכל פעם שהיא מדברת עליו. \"יש לי זוגיות חדשה\", היא מספרת. \"הכרנו דרך חברים ובינתיים זו זוגיות מאוד טובה. זה מתקדם יפה מאוד\".",
+    "lastTextBlock": "\"אני בדרך לשם. יש לי רעש כי אני כל הזמן רוצה עוד, כל הזמן מסתכלת קדימה. לא רק במקצוע, גם מבחינה אישית. אני אף פעם לא שבעה. לא הייתי בזוגיות כבר חמש שנים ויש לזה סיבה. אני רומנטיקנית, רוצה שהכול יהיה גדול, מושלם. עם הזמן אני מתחילה להבין שאולי אין דבר כזה מושלם. אני בלרינה בראש שלי, כל הזמן רציתי להיות הכי טובה בהכול. חמש שנים קרעתי את עצמי עם עבודה ואני רוצה לאזן את זה. אני מקווה שאחרי 'רוקדים עם כוכבים' אבלה יותר זמן בארץ ויהיו לי עוד הצעות. אני מקווה שתהיה לי עבודה גם פה. זה יעשה אותי הכי שמחה בעולם\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W192",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/212/290.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/212/290.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/212/290.html",
+        "20110225034731",
+        "http://www.nrg.co.il:80/online/47/ART2/212/290.html",
+        "text/html",
+        "200",
+        "OFOSGUQVDLLGU4LB4NRVMVYL3EAIA6HB",
+        "20340"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110225034731id_/http://www.nrg.co.il:80/online/47/ART2/212/290.html",
+    "status": 200,
+    "bytes": 73290,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 3,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "6ca0f058c4d2adba6b8c8a75337cefbd5b37dce864599287ac62057807456b30",
+      "c282406d5e0e83db52920f1fcd7dc8a6bdfd6e19feb171ac0419f870098a540b",
+      "a24d2efaedc4011a6b4f8ffedd08a4c4b7f444ec61e3cb127b7042d41217e9f8",
+      "8c416f42c6abb72c2743017959fcd0e1f343fd63ba8936c9b6d44a2086717d0f",
+      "8dab01ced4720ad7791e00b5530490a8d2e757626b2f9ad1d411e864b905c7ac",
+      "88e029ebbdc317f730c13b2f954c6e0140e294af81ae83cfdaaddfc825efc25e",
+      "d463e67ecbd65413f25ca220ddc883b1998b89def377c5593b31ec136f3fc0c8",
+      "0c5134f0e8c6f78ba916283619ffaa4749bae3b403098dbb14bf6bfa8dbcf422",
+      "b8f20a63a9b3a6ab88b041c6c3baf81038f8e7dbabed0a30e0097dd1378cfbbb",
+      "03c1d8e3698c4677ff0c53d59fe8e87786eec58f598ebd7772b3ef420f778170",
+      "cd4f98a889ef476e25397b47647bf2c78dd9d32997536461c508120439d148ac",
+      "30a144a2c0a92cb14d443c6f9bf29efc69437ee20a40adc04917bd3de50b37fe",
+      "9843267821ea46c779f32262b089ad89396a2a95bf1a106f0efd2019936b6683",
+      "f5689e10235042e4f645c18da030ec169fff9f79e7035c037467e8a6608fb87f",
+      "56b6909a356c87184dc59686edc58add0a5bc0cd631749ec6e498e9e8b5e37b7",
+      "2a8bd69492681d9aa6b88dd592f150efce14c13deb5f06b039ffc5e454b5842d",
+      "2541a4b7b8685a5ba6238b17d0d8a91bce38adb25bed32e53981a7be26a5a62d",
+      "05431c8b8c562854060e5a207c01960722f707a1a5e7d3c86dd6c6a6cc4b85a3",
+      "d750038e2406e7eb2451221a9350108a3e256ea3819c5fc4c0d9cf939c7ddd94",
+      "3b267ef852b5631105d8f08543c5aff6c92abd4e58b7c775189c823bf201334a",
+      "6c71d90da818ed945f78f0f02414bea0e2b6dd395bbd9b594070b67e805f03f6",
+      "725ca229e1643937b95b62e631d4e15b146c8f38fb1932293f22c4d350a93be1",
+      "9049cad8102b32d8a106d18698d937ae032c9de299fb74f73701f430ecff4c60",
+      "5fc0d2b5fa2d1210e71209409a4802cf86de172d7ad8c0007bd7317f79498220",
+      "172f1cf23dcdced9f7ed4b92eff827610d299dc38bce1efa1ead61663229d61e",
+      "77b1012b36177f9bc3cab7c8cb71e16296da75ed4f3e9be475b48fbfa1f6a1af",
+      "bdf82680a4b35bb160df044447afb8bde41dc597c112b5c75ea9f75900f3e1e6",
+      "7b675e619f1820e6a6d8f5838416337a82ab81f602a55a7489d13dcb03534549",
+      "8bd85386019875bcad1e962ba9ff6a1f9ccb82bd309cb0c47133ccab81fad632",
+      "eef302dea6c607096bca6ee1092bdb86c086c4be66e12cc350b5791818c0124e",
+      "d656533a9bf9c8a476c9264d60fc3db6fd42ee06e8a7f8737699950c4f74b19e"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1538,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

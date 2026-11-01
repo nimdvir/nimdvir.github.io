@@ -1,0 +1,120 @@
+{
+  "articleId": "W200",
+  "title": "שעת כושר: ראיון עם כוכב \"ג'רזי שור\"",
+  "subtitle": "רגע לפני שעולה העונה השנייה של \"ג'רזי שור\", אחת מתוכניות הריאליטי הכי טראשיות בשטח, הכוכב שלה, רוני אורטיז מגרו, מתפנה לשיחה בלעדית ל\"מעריב\". ראיון עם שרירים",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/132/423.html",
+  "publishedDate": "2010-07-14",
+  "publishedDisplay": "14/7/2010 8:39",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "b904ff397f10b9b7f55817eaf1b6c9a9f73c9b4f8f5f4131366c3e5975e4642e",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 19,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images//archive/300x225/1/248/144.jpg",
+      "caption": "\"התנהגתי בצורה אמיתית\". רוני",
+      "credit": "MTV International",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/248/135.jpg",
+      "caption": "הפכו לכוכבים. צוות ג'רזי שור",
+      "credit": "MTV International",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/248/141.jpg",
+      "caption": "בעניין של קלטת כושר. רוני בפוזה אופיינית",
+      "credit": "MTV International",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, July 14). Shaat kosher: Raayon im kokhav Jersey Shore [Fitness time: Interview with the Jersey Shore star]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/132/423.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "רוני אורטיז מגרו, גוש השרירים והג'ל לשיער מסדרת הטראש ריאליטי \"ג'רזי שור\", נמצא על גג העולם. בעוד שבועיים (29 ביולי) תעלה לשידור העונה השנייה של סדרת הלהיט שלו, ובינתיים הוא משוטט ברחבי ארצות הברית על חשבון הרשת המשדרת, MTV, ומקדם את הסיפור. חיים טובים. העונה השנייה של הסדרה, אגב, שבימים אלו משודרת ב-MTV ישראל העונה הראשונה שלה בימי חמישי ב-21:00, תגיע בהמשך השנה גם לארץ.",
+    "lastTextBlock": "\"כן, שאני כאן לשירותכם. תראו את הסדרה, תיהנו ממנה. זו המטרה שלי, בסופו של דבר. אני בא כדי לבדר אתכם\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "N02",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/132/423.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/132/423.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/132/423.html",
+        "20100717100012",
+        "http://www.nrg.co.il:80/online/47/ART2/132/423.html?",
+        "text/html",
+        "200",
+        "RVNEKXES76GDPKA5EBPR6LBWJQMQSEMK",
+        "15195"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100717100012id_/http://www.nrg.co.il:80/online/47/ART2/132/423.html?",
+    "status": 200,
+    "bytes": 55512,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 1,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "a353fbbb289ef704d294b4ae98b1b68df5c97d76886a59f9bbd891cfc34c753f",
+      "4de1720231efe2ca32bb0560c51d27d25fd5f52015667821d686178b3de6e6d4",
+      "fe75301dc563f639c0ede8259853047e1ec91da2ac144a80a7ff46a4d45cf7ff",
+      "03c655f9992b9d9092019417d85528ea2aae378c4db8dfa7daa87a370ee294f6",
+      "ed74caebca0690c992a17f52692e1ba2518c8f6480a3c13eab2b5b520dba14ec",
+      "60316b47e6cfacd29e6a296b2c14de465e464c77e3531159f327f55ce1413176",
+      "48197456d181d43d2e6745eeee4ce50f1051991d6bdc7afc0db5bb51aa05749b",
+      "a09e56667c3de4b24d289fb4ca60d5357583781d28c1dbd2596b1aa2d1b5b2e2",
+      "efcf9d0153c87bdd7d9758b2defd0434ae26b63904d3d156bdd451f312dbcac3",
+      "ab8be310c634a2363f057877b52a92a293cd2e7f11c45d71a193515a28e60383",
+      "abb345b497b7652fb73deaf7851931f64309eabbdf9e86cd2712873b615686be",
+      "aa8d0633187f0c32b27dd7613b49c746ff6d868e56a81e6389d85cf9c208b925",
+      "d7d182ae24e8fcb232cb4b772e3935dde5991f6d2d743d2113e3343d5d8ac58b",
+      "d655769e89a079f8deb14357ca6dec92e5fb99f50a401c453dff5e1248d8718f",
+      "edd354269642bfcc143aaa303e261bb4600008c6e6cc2b50b643987098124b23",
+      "4676ea9827da3cb91f057a09d3641ede6f417b9e748744ba493f993eab5f7236",
+      "ed2cb3c6be8c0fb4efb2c9f6c43eaf6ca245992916db13b4a5c946230135c0fb",
+      "2c6e802efe652848a9cd6e8aedc6eaf120c882cc4d17fb27e490c18af57fea35",
+      "bff3e550599273d13f0851918cd5c9b3b1f677885a3a2d3ccaa479a3c0042e2b"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 682,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

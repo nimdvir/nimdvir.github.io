@@ -1,0 +1,140 @@
+{
+  "articleId": "W201",
+  "title": "לא לוקח לריאות",
+  "subtitle": "ג'סטין קירק, כוכב \"העשב של השכן\", מספר על התפקיד של חייו (\"אני פשוט אוהב את הסדרה\"), יחסו לסמים (\"בזמננו אפשר להיות סובלניים לדברים חדשים\") ומיטל דוהן (\"היא היתה אחת מהפרטרנריות הכי טובות שהיו לי\"). בלעדי ל-ynet",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3760571,00.html",
+  "publishedDate": "2009-08-14",
+  "publishedDisplay": "14.08.09, 09:56",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "76764e9244e37d37561e39ff02ae34c8f83b607117db32bbeab98b4fbc251d19",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 33,
+  "interviewerPromptCount": 12,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2123040/ABACA_A34413_017_gd.jpg",
+      "caption": "קירק. שינויים בעלילה (צילום: MCT)",
+      "credit": "MCT",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1397553/2.jpg_wa.jpg",
+      "caption": "כוכבי \"העשב\" (פרקר וקירק במרכז). כימיה ארוכת שנים",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/968395/905magmeital05_wa.jpg",
+      "caption": "דוהן וקירק ב\"עשב\". \"אין סיבה שהיא לא תצליח בתעשייה\"",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02022009/2122995/weeds2_a.jpg",
+      "caption": "קירק. פשוט אוהב את הסדרה",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/04062007/1335596/weeds_a.jpg",
+      "caption": "",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "\"העשב של השכן\" (© MMIX Lions Gate Television Inc. All rights reserved) (©MMIX Lions Gate Television Inc. All rights reserved)"
+      ],
+      "sourceUrls": [
+        "https://progressive-video-ynet.ynethd.com/upl/517/745.flv"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2009, August 14). Lo lokeach la-reot [Does not inhale]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3760571,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "\"יוֹ דוּד!!!!\", צוהל לכיווני השחקן ג'סטין קירק מעבר לקו. \"כיף לדבר איתך שוב\".",
+    "lastTextBlock": "\"בחיי, אחרי כל כך הרבה שנים במקצוע אני באמת לא יודע איך מישהו מצליח בתעשייה, ישראלי או לא. אבל אני לא רואה סיבה למה לא. מיטל עשתה טוב לעצמה עד עכשיו. גם אני מופתע עד היום בכל פעם שאני מקבל עבודה. זה עסק קשה. לקבל בו עבודה זה בערך כמו לזכות בלוטו. אנחנו מאוד בני מזל לעבוד בטלוויזיה ובקולנוע\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "מלאכים באמריקה",
+      "href": "http://www.youtube.com/watch?v=mt6sHBvkEck"
+    },
+    {
+      "text": "התארחה בסדרה השחקנית מיטל דוהן",
+      "href": "http://www.youtube.com/watch?v=2vLOefG6EbQ"
+    },
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 20,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "4c966c8e5d85f6522420caef367236f2336f641d877d502cc63fcf38379ea548",
+      "c2149d22b7ca59a316adafc186a5c20c669f52809de96b8876c3086cc4e8261e",
+      "19f20e362751ee71e15b17b83da1dd3e79387281ed2b949b1d68a4389a80e8e7",
+      "f8b4bb8c2a23df5d085591afc40b77f87daae9449f07a683175f9ac60d3e8469",
+      "dedd9a5ac63cca67c3e26f4752cce824fba2f2bcb410b94d96f3556a07071fd8",
+      "a8bd9acbcb1ee04edd7637d7ecd6ce287649cafd6fbaba763e10575345683a13",
+      "8de71e9053c4fdfddf7fef3def4216024ac47e9b620bc2c9e762921a5a77278c",
+      "7dcc66b2f57d81d0ed1498aba8b41de4d9297dca4ccaa777b00e746e15116a60",
+      "bdc3f5fa33ae9a2ea53435963d1e6af5d63a2decfcd48a5d05590cef2998ae18",
+      "e71d880f1f343077a7ab37ea2c4cca217e103798128aeff75760f9e905e2f818",
+      "f4e3b6ae29e29f9223e9e19ef725949d4fb7230fb2723257f83b237c7b2f353a",
+      "9f8eee9043c757124f624e6449a9c76b6e192dd71abc661ce221c583844cf6e8",
+      "fe7ed7769362313738ef3d616cc97351df9a3096959003cbd60be2da320713a6",
+      "5b0a2cbdde872fa5d9819e0f0619147746f7246a2859dcefff41fc1c7167445e",
+      "a6bcf1cbef28c923a9f44c6a316da090b026db726f00be27a2e890ab5a09c91d",
+      "ef7bca92d3089f5e5ca823202d5379ef3e547317405f5fcc924ba7daaed071be",
+      "7370a041b03f75662c8125ea8c6001393c1d710db67981949faea8ff2d9419cd",
+      "50d53f9156fb08e04447ef5a5e4a27fb3f827997c861515d5a87a9fc219ab441",
+      "595c49ae514f9938abb0e7f09efbba9eccced195d7aacc333c1f4f90dc9aa486",
+      "d9ac148e037fe722d096a7e4fc6dc81ce4aaf85b2d55f9fc413b3bebba29d85d",
+      "e5214a2f78ef982ea60288df1e6360842815335d566ace3108df130406822678",
+      "f0489faaaa7dc3142a646415977fd8028389dad5e9bc370c69cd37ac2cafc680",
+      "24ffe9a590742bfb7a49a86f7140be2a4902112be4149727d22220d74a9f9027",
+      "b6c78ee5af2abd7dd661bbb88a18893858d96efdd06d3676259bc6151cb561b3",
+      "7418e4214b87d0fc0af39238cb59a8a097d5640788637e3da26994dfe3fc2757",
+      "59804e70581ecbd445e83043e09e4cf2a2afa55ac5aed9b8184177b88b8b6016",
+      "034a16f377b034c43c5a79fd3148bae3b41e6c3fad9dc2578942a3905b6bf5e9",
+      "23843bf4431fed342c4929bfeaa5cb76a28b6614e16ffb00fd55a928085a3511",
+      "8c77b5dc154d93313187f780bd5fdfd63c97e6ccaa6d65bf43f72317cdf2da52",
+      "4e2b1ca67b5dab73bcd3335fc6f91e392bd43a0fbd5e49a396b2874cdaecebea",
+      "19ca5ddeee4bffedda349f4ad8d523abaa93d0cab5db6252e3870ddb4210ff27",
+      "1b82b8e9c83d992385296580262b5613046594f834375d30c4da61bb062f8aed",
+      "2ac2203c873cb1225e1116e8367f730415fbc395e0640b72962f816d260846c5"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 901,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

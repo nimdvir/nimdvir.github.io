@@ -1,0 +1,143 @@
+{
+  "articleId": "W155",
+  "title": "לא נערת זוהר: ראיון עם שרי גבעתי",
+  "subtitle": "ההורים שלה דואגים כי היא לא מתחתנת. יש לה תפקיד בולט ב-NCIS, ובמקביל היא הספיקה להשתתף בחמש תערוכות יחיד עם ציוריה. שרי גבעתי, בחופשת מולדת, עושה אודישנים לבעל, מפנטזת על ילדים ולא רוצה לכבוש את הוליווד",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/199/636.html",
+  "publishedDate": "2011-01-13",
+  "publishedDisplay": "13/1/2011 1:17",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "83bc90319f44623109907cd815b29b4859e2b9cd7c1ad7c3a8dd664204ef6a04",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 40,
+  "interviewerPromptCount": 14,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/300/492.jpg",
+      "caption": "ש לי חלום לעשות סרטים מדהימים. שרי גבעתי",
+      "credit": "צילום: דודי חסון, סטיילינג: מעין גולדמן. חולצה וסריג: אמריקן אפרל, גטקעס: אמריקן וינטג' ל''בנקר'', נעליים: יותם",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/300/495.jpg",
+      "caption": "אי אפשר לקחת את מערכות היחסים שלי ולמצוא מכנה משותף. שרי גבעתי",
+      "credit": "צילום: דודי חסון, סטיילינג: מעין גולדמן",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [
+    {
+      "sourceUrls": [
+        "http://www.youtube.com/v/b0G4lBFvVbE?fs=1&hl=iw_IL"
+      ],
+      "captions": [
+        "רואים את הפירות. בראיון על NCIS"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2011, January 13). Lo naarat zohar [Not a glamour girl]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/199/636.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "בגיל 28, שרי גבעתי צברה שעות טיסה כמו טייס מנוסה של \"אל על\". כבר עשור שהיא מזגזגת על הקו בין לוס אנג'לס וישראל, עם גיחות קבועות לפריז, לונדון ושאר בירות אופנה. \"אומרים שהדברים שהכי מלחיצים בן אדם זה גירושים ולעבור דירה\", היא אומרת. \"מבחינתי, לעבור דירה זה משהו שעושים בין שתיים לארבע, ואז אני בדרך כלל מספיקה לעשות עוד משהו\".",
+    "lastTextBlock": "\"אני מאחלת לעצמי למצוא את האיזון בין חיי המשפחה והאהבה לבין עבודה מרגשת ומספקת. אני רואה שחקנים שיש להם קריירה מדהימה, אבל חיים אישיים דפוקים לגמרי. אני רוצה להיות כמו דסטין הופמן-הוא כוכב ענק, ויש לו משפחה מדהימה ונורמלית לגמרי. אני לא רוצה משהו יותר מדי גדול. רוצה לחיות בכבוד, להתפרנס, להיות חלק מזוגיות\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W155",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/199/636.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/199/636.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/199/636.html",
+        "20110116181418",
+        "http://www.nrg.co.il:80/online/47/ART2/199/636.html?",
+        "text/html",
+        "200",
+        "CSC2ZU4CM5PKCXUL363V5U5YRUF3HSAU",
+        "20891"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110116181418id_/http://www.nrg.co.il:80/online/47/ART2/199/636.html?",
+    "status": 200,
+    "bytes": 74856,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 3,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "aa8cc50a1d8cca13ca3dd40cd70a05cc5e618824629ae5f2e5d58929679a85dc",
+      "b81de940181697de5c120a0bef763570a7a57efce1a6838cb0c6bcae70d22cdc",
+      "6474a0edce38c0416c9426bc7a5545d25344f9b0113868e6fcecdcb49b21ff86",
+      "9f682a6b48468841adf7866392517b38b0d866efe3b30a7981d6176baadd9059",
+      "9e0cfe9bcaba245fc5af99613a291a5b4c193d097f5bf994fdd52dd6b24fa503",
+      "d8b80e7503bacb73370d15ce77169337a6c7a3a94b0939e1cfe9735b056a442a",
+      "cb5efc16e9472551d99037ce56dbb0e2e96d7f4c4858910fe5429cc3e0638edc",
+      "8893dce1b97da9bc2e79fa90c1a317dbfb6321db75a948401eb5cbccfe1b8576",
+      "d4174bfa3274a07c6914a6d0629534227c3ec069925a7cefb3350552687cb857",
+      "e5da47a076dd6eb6afc543f22fe8d0f951aa0bfefe7ad3fb1734e840b3276799",
+      "a810375b20a942d1b666afbf3cf23268b231d70aeb8683df0e662081b1568893",
+      "fd21999a3b04806ce08f8520d998c4a0dd69e1cc0b2fe4b5d09151c97035f78d",
+      "ce18a8a5d4c076126d0cd16cdab2443ea56409555fea5c4b185bfaf981462b73",
+      "dd82882c4082ef027041122e8dcfce352fb78c22c7016c43f3a1ace71878ae17",
+      "ce7b94396dd4849b1ea1e2efe9175a895d36bad0add289313e582a0ad351181d",
+      "547d689d9f906b76b4e5f32d2133429d4df3e737d25a048415078a0afecf2209",
+      "fa97ff3a25c987cd262e22ef7a92d8e306771b9b3844d4a02e758da247c3cbd2",
+      "8fcd4c386c9e68071c6c6231f9ba206dadaaea0c40b0f79bd03209d8196f8371",
+      "c6f5983a685671fa82ed0e841e745c286ac382789b836eb8cc2e4040554923b3",
+      "7baabf30f187a5530331a81605cd1f937f0163371a5f18307ee7a1dca39c9d9e",
+      "e8cf0c49bebedf06b5fc3223b5de934cd92e3e17d04bc2ebb4345a90d4761a09",
+      "5478f2dc1c02dbc1ee1ce9cfbbaea7f76f1763b1d5dbf0cd9eae4c3ee4a7b3e6",
+      "a55d09af25769daae90cfd98f7a83635d42d649275ae95f5770d427b7524f911",
+      "3ba0f07f9777fc52df8c2cc5d9a4019a45eea36d8d067c7ba257731b47888116",
+      "3ca2df0cbcdf2f0f5c48a94310e201ef5333f8580089b720ed97b65b2111d15e",
+      "e4a0f5b5da6dd926971998d3aaebf656c7eefb73c4af13381c28c9b13cd37a29",
+      "be3028cc1ef1b4764d326e7ab03904043ae82d0754645365e9f1e5923edc63d8",
+      "0ffffa758948d4f5a4eb868668a897dd161c9878259043e3b43f6e659bdadf2b",
+      "e873a21bddc5a7be09f5cdc254f2dfa5158cc2b4ea011efd58f5090302944852",
+      "b0061c8445928276ceb4a78d22ff4efd2bfb39d02964d76ee097c83a4bf541c2",
+      "d9f7bf84cd232b64778b6f2d04dc21495817fcdf3c16897c40fb8c71db6fd722",
+      "bfe9dfd4217f4d0917e6f8704b50e6bfd8eaf8c8edb493e56f08a119405df5dd",
+      "826ed64689e0428b395c617fac75062e6b4e8e106838acce2d3f69864cbf4f36",
+      "2cb75e878c75ee0a4be7870ae76d2336383e52a2b1e230a4f3eb799551bd41ca",
+      "6a243e3ed0fb4b379d404d1282057fdb74c322782259690cdd8830af1305cdca",
+      "524dc75b61c1ec507802c059e213323124fd52b30babc7545e34a9d4a3f636e2",
+      "0c8dd47fbb5b514c8133e478d9f290f5e6f4b3c2b9f1f40e4f74dedbb310dc64",
+      "65d58416afc197488e5d9f2bbcbbd634c9fe820b9a747d48cc4266e9d1f2c79b",
+      "322eaa7fffd7665567536631adcf122c7dbb33a6a1c7e9f6697b09f7068bcfee",
+      "cc61daafecee95a9b4f487956564562d49e0577ba8f48ac5feac21a8bb8ab4c8"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1677,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

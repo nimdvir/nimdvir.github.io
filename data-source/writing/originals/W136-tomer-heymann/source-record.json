@@ -1,0 +1,108 @@
+{
+  "articleId": "W136",
+  "title": "הולך הביתה",
+  "subtitle": "לקראת הפרק האחרון של \"בדרך הביתה\", הערב בערוץ \"יס דוקו\", תומר היימן חולק קטע וידיאו ומספר על החיים שאחרי החשיפה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/030/940.html",
+  "publishedDate": "2010-01-06",
+  "publishedDisplay": "6/1/2010 16:20",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "5c7caf088ee383cea113461bf0fd37b87bc366d1fe2a39c157476a93b12f2dce",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 12,
+  "interviewerPromptCount": 3,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/825/621.jpg",
+      "caption": "מתחפר פנימה. היימן",
+      "credit": "איתי רזיאל",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, January 6). Holekh ha-bayta [Going home]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/030/940.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "הרבה נכתב על [\"בדרך הביתה\"](http://net.nrg.co.il/online/47/ART1/968/222.html), פרויקט הדוקו-אקסהיביציוניזם השאפתני של הבמאי תומר היימן (\"תומר והשרוטים\", \"בובות של נייר\"). למי שפספס, מדובר בסדרה בת שמונה פרקים המבוססת על חומר גלם דוקומנטרי אותו אסף היימן במשך 15 שנים.",
+    "lastTextBlock": "\"בדרך הביתה\", הערב (ד'), 22:00, יס דוקו",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "\"בדרך הביתה\"",
+      "href": "http://net.nrg.co.il/online/47/ART1/968/222.html"
+    },
+    {
+      "text": "\"בדרך הביתה\"",
+      "href": "http://net.nrg.co.il/online/47/ART1/988/627.html"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "W136",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/030/940.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/030/940.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/030/940.html",
+        "20100109025317",
+        "http://www.nrg.co.il:80/online/47/ART2/030/940.html?",
+        "text/html",
+        "200",
+        "SXKDJSV6C22F3OWI4R42TA5HYWKVBZTP",
+        "16442"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100109025317id_/http://www.nrg.co.il:80/online/47/ART2/030/940.html?",
+    "status": 200,
+    "bytes": 65512,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 0,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "7d6930ec5622dc6ca983a409f035161a08baf9148ae6beb37711b455476ef49f",
+      "86b04aa5809fecb2cd164e1d8750044ac36a796314afa5d3fa3fe28119e0ae4a",
+      "b989699af0afea6f8e431337753a69a8bdad48fbd61eda181d4679881f7789dd",
+      "65f0f780bc469fba1b72eea554b1b1499d74a8433f3b2eff3759a54ed2d1bbf0",
+      "ddf0a1117a699f8b89808ac8c8b2fb40792b4e0a443c9f307358bfea10d7147d",
+      "bb85422c0ac25569a23935c9b83066618a4acb000e94df7f6fb3435e76fa105e",
+      "d0776f75d2cfda5f5348a01071fb07e559d78422857d49c54c12dfd2f7a6bc3c",
+      "62483df0a11ff3dcde6a4b31d0d33a8850fa81b2168c8216466a148dbd1c57fc",
+      "590b853a9c666bcf929f11c8b0df5b621803f0e693e3c28bb78b1d294e099453",
+      "a74f2f43a4708d88b04b5e0379318e67af0b66cc0a37f3d2c9ce5d9a48526275",
+      "fd1d1834bb379ee82a501f7fe5829ed0e0fe05b59f03f2986e67cc67c0b7a9c8",
+      "1da254ecce15281e6c6cad023a2dc51d3a2a336e64efb74bf48888b9725f1c5d"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 394,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

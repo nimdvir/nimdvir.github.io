@@ -1,0 +1,139 @@
+{
+  "articleId": "W191",
+  "title": "של הביוקר: ראיון עם דנה רון מ\"האח הגדול\"",
+  "subtitle": "רק אחרי היציאה מהווילה, רק אחרי שהמצלמות סביבה כבו, דנה רון מוכנה להיחשף. על האימהות בגיל 18, פשיטת הרגל בגיל 20 וקצת, פרק ב' בזוגיות ובמשפחה שהתחיל רק אחרי גיל 30. היא אומנם מדברת בלייב כבר חודשיים, אבל יש לה עוד הרבה מה להגיד: על היחסים עם פרידה, על הסליחה ליורם זק ועל החלומות הלאה. רק אל תגידו שהיא כאן בשביל להתפרסם",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/214/461.html",
+  "publishedDate": "2011-02-23",
+  "publishedDisplay": "23/2/2011 12:14",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "35de5d8b55e362744a86c7b65a9d4b84b66c2dd478cca005e8d10c30b7524c2b",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 31,
+  "interviewerPromptCount": 9,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/312/272.jpg",
+      "caption": "העליהום עלי היה גדול. דנה רון",
+      "credit": "צילום: יניב אדרי, סטיילינג: ראובן כהן",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/312/245.jpg",
+      "caption": "מבחינתי יורם הוא חבר. דנה רון",
+      "credit": "צילום: יניב אדרי, סטיילינג: ראובן כהן, מכנסיים: בלנסיאגה באמור, חולצה: מייקל קורס באמור, חזייה: דלצ'ה וגבאנה באמור, נעליים: סרג'יו רוסי בהלגה עיצובים, טבעת: פדני",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/312/234.jpg",
+      "caption": "יש אקשן בריב. דנה רון",
+      "credit": "צילום: יניב אדרי, סטיילינג: ראובן כהן, בגד ים: גוטקס",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "מה דנה מספרת על הסקס של ליהיא ועתי ומה התוכניות שלה להמשך? הראיון המלא במוסף \"סגנון\" של מעריב שיצא היום"
+  ],
+  "apaCitation": "Dvir, N. (2011, February 23). Shel ha-yoker [The expensive kind]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/214/461.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "אחרי חודשיים שבהם צפיתם בכל צעד שלה, אתם רגילים לראות את דנה רון בתור אישה חזקה וכוחנית, שנראה שהתפקיד העיקרי שלה בבית \"האח הגדול\" היה לפתוח במריבות קולניות עם האויבת המושבעת שלה, פרידה הכט. אבל במציאות, רון, אשת יחסי ציבור בת 39, היא אישה מקסימה, מרשימה וכמעט עדינה. לא בדיוק דנה מהווילה.",
+    "lastTextBlock": "חנויות: בוטיק דפנה, ה' באייר 14; אמור, ה' באייר 74; אניגמה, ה' באייר 34; שואו רום, ה' באייר 16; הלגה עיצובים, ה' באייר 12; רשתות גוטקס, פדני",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "שלמה עם הכל: צפו בוידיאו מהצילומים של דנה",
+      "href": "http://www.nrg.co.il/online/47/ART2/214/112.html"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "W191",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/214/461.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/214/461.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/214/461.html",
+        "20110226191107",
+        "http://www.nrg.co.il:80/online/47/ART2/214/461.html",
+        "text/html",
+        "200",
+        "Z2JAAF3U5F7NICCA2F4DVJHOLWL3CFJG",
+        "20899"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110226191107id_/http://www.nrg.co.il:80/online/47/ART2/214/461.html",
+    "status": 200,
+    "bytes": 74843,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 1,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "5ee39cdfc98fa67e1a3d7e0aa52a0fdc5a7666d8a9d24cbc5a061c2e8bb8b772",
+      "c25b7004ad0951d3085a745ee689678f8f4e359e8220ab3097cceb2f68e607cb",
+      "d3082634595b86e2fc1382005dea12d355a858a999f8032390fe5494b61f8070",
+      "aef9f805bd830e974e36b85f307104984543a8c87eb92726ed7673f2d4f94283",
+      "a1061c081837bcaab72cfa0f45faf5f12afad37ec1b98d9cba0a4b22cf4cd987",
+      "f2861e7afadb6b9a397e66fb0f18e3f57eee159317c0a1fef9498a5257ba9f45",
+      "d8e746864f99e16e0ef789651754634f6b152c19a620aa4421c8db2a96cc0ab1",
+      "1efbaa20e437f917aae389ee2f14bb0df81909565a5e1e0bed410f486b320182",
+      "0678411b10c4050df43d2a1f11dc6d1d509ec18535742e7fcd6382a665c700ff",
+      "7bcccfa2f130b6d0faaba9b1f77e81e622e4c5711452792bd7c06ca6472b7fdf",
+      "fe17e1f4bde4c257f2acb0d2e0c998e5f6944948fcc0319bd6854227b6d648cc",
+      "7f2389c24562b8cf8c72f1752597914b168f19d8f256272bcd5792c996169cbd",
+      "065a6d4f9f29a878b19491324734bccd37b5315f6c487aef61fcbd75a7266bd2",
+      "8aca2b32a1ab9eb3613f04e41499ad413862d9ba534b60980f01e109ed4960ef",
+      "0e131d4af02b3bdcf1dfadbc4450ab4231d9396b32d6ec2a7ce7697177ca6fd0",
+      "cfdda7f6f1676120dc6902827bb67983bc7586a6b82fd8aaa90263921a8e0bb2",
+      "e0f4490f49c61f35ea8a8673f601ea24c70b6d1c05cb07a33a96fb41d6eb8071",
+      "eee91d549f4cd503484261bd27101da161092b9c6d69576916909d90ed9e7abd",
+      "88f2ed63243156ed58401b1bc287275ffefca5ddbc2a99f62af3bdd4721c39e3",
+      "6c0d62035d394460824d9329c872aca73dd27ea6d5511c0a68f7bdf10f39bfda",
+      "8053312a447e370e32e5c1adf7c8e8a2c4b31e47589693649d90da6cd85fa5c9",
+      "50545b514c420b735a6b8482085eb18f5db34b88c9c3ff34ed3232a1e5b52d9a",
+      "d32eb1a2ae6e99c8106add3a1d3d8b59c87cc99f644d741d3ede6dcb21085089",
+      "d9d3d44580083909a948062dd38a6a28f60d2d04a6d023a0d5ec02127b22187b",
+      "8cca4d590248a2ac3aaa3c76e042c552ec5881abafb79146df55ee875884c33a",
+      "36ef9b99dc5df837d666ac1a6c44b9eb843829363c0496136eeed9674b6a4296",
+      "796b2aa4f56e69ff41ab57dc5d40261aed59fbfaac5d39429a33c2b5c0c1811f",
+      "766ec730547bccc588d99dd833149b75274764d1d7d3f5167d005eb704df1ddb",
+      "72ce2c6752b5f753c4094569be3f8d4bd77347cabd455f43bbee326336f68761",
+      "0632082ca1b2396b84a5f095085dc25fc4f1adb546265cdbc972d83761552173",
+      "48b04b23539437128a363579229cf6e25848e1180d17b8a530a7732a4ae9ff02"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1594,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}
