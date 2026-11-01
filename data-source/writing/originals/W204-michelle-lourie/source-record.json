@@ -1,0 +1,123 @@
+{
+  "articleId": "W204",
+  "title": "החיים כמישל",
+  "subtitle": "היא מראיינת סלבז ב\"אזור התעשייה\" של HOT, אבל בקושי מזהה אותם (\"שלחתי את גלי עטרי להביא לי שמלה, חשבתי שהיא המוכרת\"), היא משוכנעת שבחורות בבגדי ים זו אמירה ובטוחה ש\"כוכב נולד\" דבילי. מישל לורי, ג'ואיש אמריקן פרינסס מהרצליה פיתוח, מחפשת משמעות. צהבת מתקדמת",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3565765,00.html",
+  "publishedDate": "2008-07-09",
+  "publishedDisplay": "09.07.08, 20:16",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "ba2a31dd0db82fdb3119e7bfae3880b57dfce5d57b5acee93eee91e57bf64fd5",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 29,
+  "interviewerPromptCount": 9,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1539054/lori1_wa.jpg",
+      "caption": "",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/20122005/727847/1_m.jpg",
+      "caption": "מור ו מישל (צילום: מאיר פרטוש)",
+      "credit": "(צילום: מאיר פרטוש)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/02012008/1357963/956maghisarcast16_o&91;1&93;_m.jpg",
+      "caption": "הישרדות דן מנו (צילום: אייל נבו)",
+      "credit": "(צילום: אייל נבו)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/xnet/PicServer2/20122005/945653/901yaeli11pn_m.jpg",
+      "caption": "יעל בר זוהר (צילום: יניב אדרי)",
+      "credit": "(צילום: יניב אדרי)",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/712743/8_a.jpg",
+      "caption": "פנויה להובלה. לורי צילום: עידו לביא",
+      "credit": "עידו לביא",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2008, July 9). Ha-chayim ke-Michelle [Life as Michelle]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3565765,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "מזל שבאתי עם פלטס (נעליים שטוחות - נ.ד)\", נאנחת מישל לורי כשאני גורר אותה ברחובות תל אביב בחיפוש אחר מקום לשבת, \"כל ההליכה הזאת מייבשת אותי לגמרי\". ייאמר לזכותה: לורי, דוגמנית, מגישה ופליטת ריאליטי גאה, אולי מתעייפת במהירות מלצעוד, אבל היא ללא ספק יודעת למשוך תשומת לב. בעודה משתרכת אחריי ברחבי העיר המהבילה ובהמשך גם למצעד הגאווה, היא מסובבת ראשים, מנופפת בבלונד ועושה רעש לפחות כמו מיקי בוגנים, גרסת הפטיט.",
+    "lastTextBlock": "אולי בסוף עוד אעשה מאיה בוסקילה או משהו\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "אזור התעשייה",
+      "href": "/articles/0,7340,L-3566130,00.html"
+    },
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 20,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "7e178afdbc93a3808f305873c81e07e5d6dc488fcd3c3553c11ebe9591793dab",
+      "244fca0b7d33f99ee6221f97e04bf415f01bebb47b728b3ed7c0056843b2f735",
+      "90a4c289cd15f073fb7a5b61b8840ddba2d450a0441e8e08c822b61378636052",
+      "3485873c9df0787d10286a7d118b08839c5497c636cdb6ebe8c314091899e9f6",
+      "84352c2aa97b1bd1efe0e3384d40b4dd39d842e3695067c0a4ed29cf0ba30c7b",
+      "ea4c1dba4616fc4ba61ca60548a9fb15ba199ab32a5b0f7139da337053e00b8b",
+      "f6510e56e92ae10bc8dd2522be98947ea812b82f805b20e48c998772428421eb",
+      "6bb996c4a576f13f703ea7d423b900974d8ae68b280c86525c393090dce5fb9b",
+      "23a7a97ce342e198692986ed78fb46a487bf235caeb22ca72670514caf514876",
+      "cfb403fb106731cdd9a5361fb9c37f57cf76d9fdefe5b9217d50365eed494fdf",
+      "69c03c08e75fe7a7942e2204e5fc0cfbbbff332c1fa30130ce36192c166fa7e4",
+      "594e68f0c19f1274bcf597caa6e0b6b1c5acd8d3fabd9bed9fb8df150702195e",
+      "6c42f220217ffbc313debfcfc2484fdbca1f3d6b1daf08f9b36c69037f99ae08",
+      "7292b6680a57e3a4cc54dec605d0ad1532e38ac15a2069aec8146b78d9adcccd",
+      "f1995b85c05c019088991de8df1228ebceb9c5911397a609b5c531f2f79386a7",
+      "87bfdcb179e80a518768c89178fe19339a69eca5656474e776294044043a362c",
+      "170ba8d41a0a8a1a6eca42e43e33fb1e04703a54fbceda93f53b25d8fc09e3c4",
+      "5a339037e4dad517be7fb9d9b92ce78ffdc343b3a627eab163b993190bf771ca",
+      "60796b2fcb28d00b834313ac5c13eb61a4e98a95ee3d793f4d608dd9f01aca24",
+      "94b39cd88fdedabe200c590b5d639c72ba42fe89b16cab4e63d49adcac72c968",
+      "e2cdfb615428e01e401ed035b5244c0ea8c3056ca22ddea86bfcfc1768317b6c",
+      "990c8efa46646eecf727961bfc102411a0cfb1ef22e9a5d1350f8e1affad4992",
+      "846c4c937195172853f2f83895e0696e9d39b68e3b8ac8eaa724984dd24e7946",
+      "6c87764f4b03252beb7ef992d3dc1f3b602c98eadda0b7636e4e1e9f208ec32b",
+      "4e0bdacc7c0fe0dcfc20cd67883fa8256da7a71eda4e26172fdee045e8dcf215",
+      "c7a3d2122fe5169d9205a950eb10897a13aae72de54b0ec9111ab0ea808a19a0",
+      "96b255f2197e8f6a93d9b1909424ef5b213a3b39f51793cc5dbd4077ba59ec7b",
+      "d950e880784f972e861e314d9a83b1801484e123ddfddd860399a408b778a0b7",
+      "de58f733edd43f134fad9e2da6b61c6043f3a03bfba0d69d61f063ad8e9e4756"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1169,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

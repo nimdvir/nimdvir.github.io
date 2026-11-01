@@ -1,0 +1,172 @@
+{
+  "articleId": "W188",
+  "title": "שחקן קבוצתי: ראיון עם דני גבע",
+  "subtitle": "דני גבע מככב בסרט האימה הציוני הראשון, \"כלבת\", למרות שהוא בכלל לא בעניין של אימה. מה שכן מעניין אותו זה עבודת הצוות, המשחק והיצירה. ריאיון נטול פחד",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/183/405.html",
+  "publishedDate": "2010-12-07",
+  "publishedDisplay": "7/12/2010 9:12",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "c6a59cd6b9a372e335e810f6a7fd7831e795bac520f897ec0508b91819c608dd",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 55,
+  "interviewerPromptCount": 18,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/289/365.jpg",
+      "caption": "מה שחשוב זה מה שאתה חושב על עצמך. דני גבע",
+      "credit": "רון קדמי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/289/364.jpg",
+      "caption": "אני מרגיש שמצאתי את מקומי. דני גבע",
+      "credit": "רון קדמי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/289/367.jpg",
+      "caption": "אני דתי, בדת שלי. דני גבע",
+      "credit": "רון קדמי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/287/942.jpg",
+      "caption": "תפקיד מעולה. ''כלבת''",
+      "credit": "גיא רז",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, December 7). Sachkan kvutzati [Team player]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/183/405.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "דני גבע הוא טיפוס של קהילה. אוהב את היופי שבעבודת צוות, את תחושת השליחות. הוא רואה את עצמו חלק מקולקטיב ובוחר לחיות כך את חייו. הוא עובד בקבוצות ואוהב את זה, מחשיב את עצמו כשליח הציבור, לא יעזוב את ישראל בגלל הקהילתיות ואחד מהדברים שהוא הכי אוהב במשחק זה תחושת הגוורדיה.",
+    "lastTextBlock": "\"אני לא חושב שקשה להתפרנס ממשחק. אולי רצף העבודה לא מובטח לך בתור שחקן, אבל אם אתה באמת מסור, אז אתה כן יכול לדעת כמה ומתי תעבוד. זה איכשהו מסתדר. אני מניח שאם הייתי רוצה שיהיה לי רכב מסוג 'האמר' לא הייתי פונה למקצוע הזה, אלא לאחד המקצועות החופשיים. למרות שגם במשחק יש אנשים עם 'האמר'. אני לא מתלונן\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [
+    {
+      "text": "נגד: שניצר חושב ש\"כלבת\" הוא אחד הסרטים הגרועים שנוצרו",
+      "href": "http://www.nrg.co.il/online/47/ART2/184/552.html"
+    },
+    {
+      "text": "בעד: ניב שטנדל דווקא חושב שמדובר באחלה סרט",
+      "href": "http://www.nrg.co.il/online/47/ART2/184/396.html"
+    }
+  ],
+  "archiveRetrieval": {
+    "id": "W188",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/183/405.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/183/405.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/183/405.html",
+        "20131113124555",
+        "http://www.nrg.co.il/online/47/ART2/183/405.html",
+        "text/html",
+        "200",
+        "H7MYEMQPGKFNCV7WQJBDTJA4HYCXKLNM",
+        "21080"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20131113124555id_/http://www.nrg.co.il/online/47/ART2/183/405.html",
+    "status": 200,
+    "bytes": 69808,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 4,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "1051b643d05f9a6344b142cca0532d1fe2f3ff1eb78c141fe97fe4c0f2f7f95e",
+      "eececb482667a45de1377012bc1391214cf6994a6df8d33a8213b48db3006557",
+      "ee187dddda9a5a177b9488bc4380d2a0ea89f2cf504a2473b7ed413777f7b84b",
+      "baabc996663d6f6d904b184a45ece9bdb7b2ea01031f23e3f2f5909190a9739a",
+      "049d27fdbfd0ccf833e5bbb4de28c965257e338229d5eab1f4e6f6c63149d489",
+      "ab5be8e1db1a1ba8a2b7119de1dfeb1197619791176adb026c3af8ca3b42952f",
+      "fbeaf5e4bae1bf53426584b83832a69b96c8e8df132c3ee7e2c4bc292064f44f",
+      "8e880aef68a0221dcdb9ed0a4dd11d719fed5bb67aaabbaef3119bb852a681f7",
+      "68aca5454eda3823b0e28d3598c171e994acb13d9d49ce94385c734fb265f803",
+      "c152623b296945eba4e6174efcd346628a4385b8465ead13e597f18b1ea53a72",
+      "ab48e74712a4ac8753ecf48b748e0c05603f57d26650721deb69df4cbf52d1fc",
+      "12ea43675503999a29f99378a68937cd2fea37bdfd2559b73ce63fbac02da2ab",
+      "5175e930cfe053e337d75d0a413210960d69c31384efc97dac4ed6d437666ecb",
+      "2de969042f4d576e11ff84a591e94d406556173e6ccfce3f9d93460635303230",
+      "cc3c825891b241240c4e885d120ec5f1a99c37a31bfea9f70348f53694002d29",
+      "baf99366d0096eea8d5a20009ded00404d0d69573b832c39d01d2b3adcc70d52",
+      "a08476aa3189b59a50e3ce321f54666db32b52867ea03b7f40d37db7bf1527be",
+      "d86043628a1b7dd7d0436b400ab8fe12fc5056d583e9c9bc3cef69e6d398f325",
+      "59ef7e26274d5315f91f20e30fbd946a7311b8d3e4d854f918bcb4e6c3ab70e9",
+      "c0909193948348518b11128a0dced69a495e15e47d9ff515c2ed394f91e81ae0",
+      "331459f42d50e483ee52886342a2f7e1f4c45322c14c241ac36e30459bfb2153",
+      "8bb96e1d1850a279f5bc1e3cfe8323a6b6459b9c90bd7244d0eabd43d2eddd55",
+      "037197d3db36ce77b84ce18a19205c3c931d89910bbc2bf1850ded2e1d29774a",
+      "8cbc576d4d8db2181ad552628bd857c2935fb9b421d44422252af9f8a6136871",
+      "3f0991789134dbe4b920de4311b9beb102e6affa7494c98c9eff196571f8d906",
+      "96902c34e0571957499c17ab5a78e430dcf8e785035a8a1ff2d42a40936cc352",
+      "dd3285d808ffb3b07aa3c48808835caa6c5cce8ee3d7333b68f7be341fb4f6fc",
+      "bd7f227b7f2aff412c1c2e011e3ab24d7361f2bb85b716383c1a2c791769e90a",
+      "2118a9a10362d0084b14f81cc4c8845a3b08386fc143ddea2f025b0b6d083135",
+      "3831947889191bcb978222fef6023994c808a9a8ab52a0b8ad09408236cbf533",
+      "197084879c1e934c51fcafb97ab746425f276db67fd8bc79c0c799fae9b69036",
+      "c9a0952406c9088ad14e9f7c8eeb2567305fe66cef3cd40c9da023a57f2231ca",
+      "e313408297ffaaf5c1695575c370361971196f4fa7ab9e5c5601d74c58e70955",
+      "d19c76ee68d9a946122803f8d0b456955603091f9ef0c695be37e90279a4245a",
+      "900eb2f39fbba00894d9e7422aedb0c5c8e43348a0f9abe14c1a959c51200bc9",
+      "2ddbc997deaf8deae0877bd88e1cdf8f34ad05c16c0a8634ed28b3f56d573134",
+      "6c1241350c96aa34eb9850fcaf9575d60e681b0e7106fff5a73ea5aaec4743f6",
+      "e5c8820d2a8e77ae90bef52384ef4d5fe485ebb73a12dce66ec39f0df2ff99fb",
+      "9b4f034f9d13e8ef3e92049ac8ecf3927f5f65babf4499ee7231ea17d2e8837d",
+      "fba930ca3176b5a35264ddbebf00fb4fed449119da5d63fb3ecf4f8dc11abe46",
+      "bffbc8b21d1b7031676dda55d737dfb847bcde6a74ed7056be665387d5766470",
+      "af00a7e05dfca9bd0e59aa38bf1aec3b032f5e415087e68882cfab30679ef52c",
+      "4a8276168cb07cae8820164254506eb221cb1f95cd21220792dd992964193507",
+      "3f7195c58c3f11f399c1cc7236b46eade2320f17ffd5d526f35868a2e42a23ab",
+      "e31b8d9d810613ee4f521a162a54b09993fa02f889a2ecf6a40db99891e2699d",
+      "4f2ffd9d8d55cbecd350edb98ae74646cd5b0007b9741d91619890735cabeaa0",
+      "4aab6d6e00f56989483b70c48b5ad2d13b734efe519e411deffe545c4c1e088f",
+      "40a5f7e3b848ab69a7b6e5441b0dea99910b3cfdd5c0264b9bbb72ae603fe53f",
+      "99613e71858fae0a2030e536f334c5289d51176f3d77076ff23ca192924d9616",
+      "db566c07aa6ea054db880c4499e5324a6599dc1a2c28faca7f2900570d8de0de",
+      "49a0471e5f0aae3f680f3c5a9746c19d33962117c6b2ec5a60b091cb8cd4ce42",
+      "d87063d21498e61fe73064f6380a398aa4d862955fa1cac51d51e3bee347e678",
+      "da5bd276c5ab9833d5fda666dc921b6a8bbb47e59b9e97765fdfbd280e9d6845",
+      "f51587a92f84f83c54b38310b73fee373276a6ef60e5982f36931a4fbd2642c9",
+      "86a7eb9675ca7e5189058e75371eddb5c9d310897b80a04e2443fa7d5fe41c9d"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 2309,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

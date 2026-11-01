@@ -18,5 +18,39 @@
   },
   "canonicalHebrewPath": null,
   "recommendedAction": "Capture W164 if desired. Retain W103 needs checking; no shared Hebrew paths or duplicate assertion.",
-  "textReconstructed": false
+  "textReconstructed": false,
+  "additionalRetrievalAttempts": [
+    {
+      "checkedOn": "2026-10-31",
+      "outcome": "Live Blogspot URL returns 404. An archived Blogger shell preserves the title and post ID, but no body; public post feed also returns 404. Independent Hebrew interview W164 is archived; exact repost equivalence remains unproved.",
+      "textReconstructed": false,
+      "archiveEvidence": {
+        "id": "W103",
+        "url": "nimdvir.blogspot.com/2012/05/interview-michael-lewis-is-boiling.html",
+        "cdx": [
+          [
+            "urlkey",
+            "timestamp",
+            "original",
+            "mimetype",
+            "statuscode",
+            "digest",
+            "length"
+          ],
+          [
+            "com,blogspot,nimdvir)/2012/05/interview-michael-lewis-is-boiling.html",
+            "20231205082233",
+            "https://nimdvir.blogspot.com/2012/05/interview-michael-lewis-is-boiling.html",
+            "text/html",
+            "200",
+            "JJCNNNJRPQAZHWAPMFLJ46Z7MYKEUSFW",
+            "2275"
+          ]
+        ],
+        "snapshotUrl": "https://web.archive.org/web/20231205082233id_/https://nimdvir.blogspot.com/2012/05/interview-michael-lewis-is-boiling.html",
+        "status": 200,
+        "bytes": 20645
+      }
+    }
+  ]
 }

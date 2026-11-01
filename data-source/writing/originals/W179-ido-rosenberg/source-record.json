@@ -1,0 +1,120 @@
+{
+  "articleId": "W179",
+  "title": "פסטיבל האביב: ראיון עם עידו רוזנברג",
+  "subtitle": "כולם מדברים על המחזמר \"אביב מתעורר\" בבית לסין, פחות בגלל התוכן הפרובוקטיבי ויותר בגלל הכוכבת, אחת בשם נינט. עידו רוזנברג, השחקן שלצדה, מסתכל על המהומה בריחוק ואומר: \"אני באמת לא מבין מאיפה היא מוצאת את הסבלנות והכוח לזה\". ראיון",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/102/752.html",
+  "publishedDate": "2010-05-04",
+  "publishedDisplay": "4/5/2010 16:33",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "9b25fc6c8c9ed79be65738f3b6d21b6e492b336cacca5faa09d7dd78dba34523",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 19,
+  "interviewerPromptCount": 4,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/220/597.jpg",
+      "caption": "פרסום זה לא משהו שאני חושב עליו. רוזנברג",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/220/602.jpg",
+      "caption": "נינט לא פלשה. \"אביב מתעורר\"",
+      "credit": "אייל לנדסמן",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/104/973.jpg",
+      "caption": "אין על התיאטרון. רוזנברג ב\"תמיד אותו חלום\"",
+      "credit": "צילום: מתוך הסדרה",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, May 4). Festival ha-aviv [Spring festival]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/102/752.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "כבר הרבה זמן שמחזמר, שלא לומר גרמני, שלא לומר נכתב בשנת 1891, שלא לומר מועלה על ידי קבוצת צעירי (!) תיאטרון בית לסין, זכה פה לכל כך הרבה תשומת לב וחשיפה תקשורתית. 0:00 / 0:00 קשה לו. \"אביב מתעורר\"",
+    "lastTextBlock": "כמו שאתה יודע, שתי הרגליים שלי עמוק עמוק בתיאטרון. עשיתי טלוויזיה, 'תמיד אותו חלום', אבל זה היה סוג של מחזמר לטלוויזיה. פרסום זה לא משהו שאני חושב עליו. כרגע אני מחוייב לפרויקטים לקאמרי. אין, בעיני, על התיאטרון\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W179",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/102/752.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/102/752.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/102/752.html",
+        "20100508211526",
+        "http://www.nrg.co.il:80/online/47/ART2/102/752.html?",
+        "text/html",
+        "200",
+        "FGRD4ISZQKY3UCKWFCDUOHX6ERFYHKMA",
+        "18544"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20100508211526id_/http://www.nrg.co.il:80/online/47/ART2/102/752.html?",
+    "status": 200,
+    "bytes": 74397,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 1,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "6c3e7293d64dc9c31b33d7ec970d18abe5cd49a9ed201eb6e74fc0066044ab91",
+      "5aba2c0fc65116a25f62e1c8c107d59e6e86dcb947d0c4b078f083872a7fb9a9",
+      "2c026f6b6cd9bcd8b1aa643501c69b0ee3bd53b0382d7806c8ea3eb62ad0d344",
+      "907d30406d2cb7ba0cdff7584590829cff849afc0d4c0ab9ec00961a891febc2",
+      "03a8a255d3db7934d0a8302c2a36d98cc46b6c0e23fef8f47eb34dfefb5407d7",
+      "ef36ebac50f68873889a8a4fcece851869b33e00ee2467b1c1d784630369ea54",
+      "2e0ef3e27f47a194476d50a48a1b3fc4f6b9c57bd8da37f0b1329b6cff7919b5",
+      "ebf450dacc50bbab18e2e3c82beebd9d20de7e98c5cff0421cca275761642cce",
+      "a57ce68f3e9694711db26d7c90b6ae669512d52c2c0e76b33ffab5a22b59ed37",
+      "13335a50b65e066f03aab9475ed59ad95c85b3c62a3d13f189f6a82d728cddd2",
+      "e610a911b4268e392faacd2306b738f69c530eed8d2992a6d120bdf799e7bf5f",
+      "6223325594d7461e05f74b67456f03a98eaa1e8015a633d3c47190d47adfc25c",
+      "9252420afaaa261dc61a349554273ef1a7a599aba716e6901d8d62393bdf9605",
+      "56531bfcd80288cade793b640379710ff32c318fe2a138507fffe5566f5d90af",
+      "5f17d214daedaa54b08593fcc458670b2a53b26dc94766c1057be70a0bac285d",
+      "71916fb05b0b252d68e68de59e7dbc55938b65a6fd1f9a4c29747253ea3a191f",
+      "d93c5b82fb6dfcd1a2a46a3a0279771738b59fa3550e58d8ae0d4c495e0821e7",
+      "8b764b0894ce565052ff5a4ec335673b4f49c5e932d26191f1d5440ba67c3a35",
+      "d9e81f71d01a6e242101cc39be7556b1d86641f7ba7d2209ab77df560d111d93"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 662,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

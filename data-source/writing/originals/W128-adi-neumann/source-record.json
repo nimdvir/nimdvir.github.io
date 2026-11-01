@@ -1,0 +1,121 @@
+{
+  "articleId": "W128",
+  "title": "אדומה ולוהטת: ראיון עם עדי נוימן",
+  "subtitle": "אחרי שנים של חיים על רכבת הרים בניו יורק עדי נוימן קנתה דירה ביפו, הוציאה רישיון, פתחה בר, התאפסה על חבר כדורגלן (אבי יחיאל), נרשמה ללימודים והחליטה שהגיע הזמן לנסות להתביית. רק לנסות, כמובן. בכל זאת, עדי נוימן",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/7/ART2/278/125.html",
+  "publishedDate": "2011-09-02",
+  "publishedDisplay": "2/9/2011 16:30",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "0efa3d673909243c264462208deb1bbbadbbae49fc9236ad9d772ba2e83303f9",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 18,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/345/888.jpg",
+      "caption": "חזרה לארץ. נוימן",
+      "credit": "צילום: יעל מש",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/346/950.jpg",
+      "caption": "עושות חיים. די נוימן, גילי סער",
+      "credit": "צילום: רפי דלויה",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/354/394.jpg",
+      "caption": "ג'ינג'ית פרועה. עדי נוימן לשער רייטינג",
+      "credit": "צילום: דודי ויזגאן. עריכה: תמי בנימין",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [
+    "המשך הכתבה מתפרסם במגזין \"רייטינג\" שמצורף לעיתון \"מעריב\" שיוצא היום"
+  ],
+  "apaCitation": "Dvir, N. (2011, September 2). Aduma ve-lohetet: Raayon im Adi Neumann [Red and hot: Interview with Adi Neumann]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/7/ART2/278/125.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "יש מצב שעדי נוימן סוף סוף חזרה הביתה. אולי אפילו לתמיד. שום דבר אמנם לא סגור-בכל זאת, יש לנו פה עסק עם אחת הדוגמניות התזזיתיות בעולם, שפנפנת אנרג'ייזר שובבה ובלתי צפויה-אבל עכשיו, בעודה סוגרת עשרה חודשים שלמים בישראל, עושה רושם שמשהו אצלה הולך לכיוון של התייצבות, השתקעות, התבגרות. אולי זה הגיל(היום, שישי, היא חוגגת 29. תנו לה במזל\"ט בפייסבוק).",
+    "lastTextBlock": "\"האמת היא שמה שעשיתי אף פעם לא הטריד אותי. מה שכן השפיע עליי היה דבר שעבר על החבר האחרון שלי בניו יורק. הוא עבר התמוטטות עצבים מול העיניים שלי. חייתי איתו באורח חיים קיצוני, אבל אותו זה לקח למקומות רעים. לי היה מזל, במירכאות, לראות אותו מתמוטט ולהבין שאולי גם לי זה יקרה עוד כמה שנים. הוא פשוט לא עמד בקצב של החיים שלנו. טיסות, לא לישון, להיות מוקף באנשים חזקים, לשנות לוח זמנים, שיחות על כסף גדול, כל זה. יום אחד אתה עובד מצוין ואז כמה שבועות אתה לא עובד. זה ממש חיים של מרדף. אין ספק: הדבר שהעיר אותי וגרם לי להבין שהגיע הזמן לשינוי קיצוני היה ההתמוטטות שלו. זה נורא להגיד 'היה לי מזל', אבל המזל הוא שזה קרה למישהו אחר. שמתי לב שזה אורח החיים שגם אני חיה בו - וכן, רציתי לעצור את הכל לפני שיקרה משהו\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W128",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/7/ART2/278/125.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/7/ART2/278/125.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/7/art2/278/125.html",
+        "20111123174721",
+        "http://www.nrg.co.il:80/online/7/ART2/278/125.html",
+        "text/html",
+        "200",
+        "ZMCR5OGYE25SDJHOVT4KVQBURLUVRN62",
+        "17755"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20111123174721id_/http://www.nrg.co.il:80/online/7/ART2/278/125.html",
+    "status": 200,
+    "bytes": 62138,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 1,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "f836812a4d3cf4362709bc77e767526054a472ceb8c6bcd2e48c66ed5799f784",
+      "5afaa756e2a66639aa746543a07d67024f80dc6637d1f59fbce5cf1e753c6983",
+      "950bfb01b4bb83a15555506567582aace02aa109a99df37c08e37e7309767f9b",
+      "7eb915f9fa82acf31416fe26a7dfb8f0cc5651d7710717a2ff082be23e32613f",
+      "d6762f43258bf898a109e0419d4564759d0cb42c93e0521b2cbdd987ec4ba29d",
+      "792d33b2e4fe41a7bae963e3c688d539fe39d8592d6d5c9031b2db620f10b0a1",
+      "76de3d3214c62c5b71aa7de5b144d0e7ad154d861e8b791f4c9d3b12ad3b6621",
+      "78fc980a8f16c9d6e15c0a615006abbec9590f5d7cbaac08aba21d144855dec2",
+      "8ce6b87fba59fe63550ecb0e38d19b427fda62e4fd0bf4dedcbfe3e2babd54f5",
+      "98fca9f3a3cb11eed92b26c939baf29ee842364443215996788553e49baa978f",
+      "a6be5a36ffcad3b17f772136c81780d70932b44babb7a318a10cc65d790d52e9",
+      "cbdbb65a36fba9d819680e99ea92d7172fce1ca672c2b2d7e96664de18c37a05",
+      "42bcae4d1e7eb878c4b0935cfe20c189ad8c07b601b21ddfb7db3a9ddda542a0",
+      "c7fcda0c6030e15a1b2d737ae4dbe2c8f4bb9fae0930134c2177825f7a22e84b",
+      "48698cfffa20729a4204f8bc2f6a78860432054d65e97dc1a492514f93a99607",
+      "afde2ffcc389358b870e95d82ef3c1693dbfaa6af50ab365064da50e4300fe41",
+      "929facb589a8cbb0e1fac9e40cee506b5a4ffdaf763175c60b60f8f5dba2fad2",
+      "6d5ff9c8fb6d49174c783a7e97546809981dff2351a948a81dded23838513f10"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1211,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

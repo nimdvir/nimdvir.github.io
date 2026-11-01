@@ -1,0 +1,152 @@
+{
+  "articleId": "W208",
+  "title": "הגל השקט",
+  "subtitle": "גלי עטרי סיימה את תקופת האבל על שוש אחותה. כן, היא חושבת עליה כל יום (\"היא היתה החצי השני שלי. הייתי מדברת איתה 20 פעם ביום בטלפון. לא חשבתי לבד\"), אבל ממשיכה הלאה. עם אהבה גדולה וחיים בורגניים מפנקים במגדלי אקירוב, הייאוש נעשה מאוד נוח. ולמרות קבלת הפנים האוהבת לדיסק החדש שלה, היא כבר מתכוננת לפרישה: \"עייפתי מהמרוץ של עולם המוזיקה, אני מוכנה לחיים האמיתיים\"",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3594673,00.html",
+  "publishedDate": "2008-09-10",
+  "publishedDisplay": "10.09.08, 17:06",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "8bd0e68c5d473a2f1163caab5933cfc48125c6ce2148f2a3188717a298196a16",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 67,
+  "interviewerPromptCount": 27,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1626486/gali2_wa.jpg",
+      "caption": "",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1626484/gali1_wa.jpg",
+      "caption": "החברה האולטימטיבית שלי. עם שוש עטרי ז\"ל. צילום: ליאור נורדמן",
+      "credit": null,
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/02012008/1626483/gali1_a.jpg",
+      "caption": "גלי עם אחותה שוש ז\"ל צילום: ליאור נורדמן",
+      "credit": "ליאור נורדמן",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [
+    {
+      "captions": [
+        "(אורלי דיין עריכה: רונה פפר)"
+      ],
+      "sourceUrls": [
+        "http://www.ynet.co.il/common/wmvPlayer/wmvPlayer.html?clipid=188321"
+      ]
+    }
+  ],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2008, September 10). Ha-gal ha-shaket [The quiet wave]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3594673,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "שתי דקות אחרי שנפגשתי עם גלי עטרי היא כבר נכנסה להתקלח. זה לא שחיממתי אותה יותר מדי חלילה, פשוט היא היתה כל היום בריצות וחיפושים אחר שמלה לכבוד בת המצווה של בתה, לי, שנערכה השבוע, וכל העסק, כולל מפגש סוער ונוסטלגי עם טובה'לה, עשה לה חם.",
+    "lastTextBlock": "\"פחות בשעות היום. אני לא מאלה שיושבות בבית קפה עם חברות. יש לי חברות, ואני כן עושה לפעמים יומולדת בנות ומזמינה חברות הביתה. אבל במהלך היום אני מתעסקת בשלי. קוקה, שוש, באמת היתה החברה האולטימטיבית שלי\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 38,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "e2a3d3ea82541fb3125254cd0b46af3f40b74bb48fe5028d2f6195f8e13fd669",
+      "e4c5d2f92905a5e956c04ebae3f2747e8fed534a10f1a3ac3da3ca4d0cb00a6b",
+      "a387f5cd1f24f6fa9f9ba98dfb10a84a476e2d3323e235d3c31ff3100e9470cd",
+      "89d160a5a482d9b1a2d3291da7248eea3ec59690b837c9b9c3cd804d3fa7320d",
+      "5272d70b9a8e8da5a749018f16c3777daffb4e01023bd3f7b201dffa31b00576",
+      "0133260058f58288e6b71affc66298ed4b635a7de2b68ca2f663471bcb6f2e12",
+      "33881fe4f50842b9268700e47cfa7949c2cb7768620427c57e96f844f31c6b34",
+      "71c5f2bed8c6d1596d62e1c720381347e3f50a6982e8fe4b0bf8b356e6c59e16",
+      "6e408fe1fc92cdd05fe6ff71f92f01d66c58a7e56257c7464785d43d51a50362",
+      "fa4cea302109b9f2379d29784e936b39c330f5b4624b27668b06510e2eabca2d",
+      "69619a095ebc611d2a39b8b83b4f5155fbd5192725290d8a9f106aaa87a4f4fc",
+      "bb9274578185937c1df9328e3072ecb1911918ddc9059bb04bf7e898a31e4e09",
+      "5967e41655b183b580eb7948e8ff5f0ae1d0c1c7791420aa70808af66d31667a",
+      "7fddf33987cddd80a856bad4b112db2155705daedf23003881d8190fe414d5fc",
+      "4da210e248e0c31bbb5976e7636178d0c8a4f124bdab79ecc29bcae3186ddd4a",
+      "cf2046f0c649a77e53e2320a5105912ee56e884c27326a3a8a1bd454b2c8ebf0",
+      "f602fdd5ddfcc45e3c34339d3ed4c7f4d1c777b848bb0bba71605856c0463f74",
+      "d3c229bf5546af94518eef4c8310cf5ecb66250d6f36cfafe68944ed77505e22",
+      "f0ed6ecbafd536345c354264fd4d8bddb9b5c4e4ef39d08452f4196d1f46fcc7",
+      "1197cf628b0cafe0ac4174cee2dad84a74e4eb5c6716e5542b8356ec28b95e36",
+      "70c80e17f88b450305e0d0b6b962fbc2281c128947ad8e8192c1d87839fc1d45",
+      "a3a08eefca2e274c3466336b297cc029d337956156c54fb4ff8fd281aea0e028",
+      "03b75f47399fa20cb9e185a7daa28334cd28dc66b58e27e9478f147f418470e4",
+      "c845221013c5424378c8f4a09e9d641cc4975467d22c0e478f495200f3a8d452",
+      "674e8fdf39c8cc8f7ea69d4691a4f42682ab7fd06b422f4d12315c509567b83d",
+      "a07d5f050c44891467ded623dfd27bdf06c7ab6567187efac096bfb19310e8d8",
+      "61edaf6c5b84256fff4bc7232e66277899e8d0cd9f585139d64114d65967b4e7",
+      "30c50066ac129391a4ee3a9c9a2b078a7c8246e9e306e95755383dfd582451a6",
+      "8da990e53d7e2fc508b34a75ef36ff51eeb8d1a027fec3e50816d199299af751",
+      "d30e915d57b8a0952f1257dc260f95e5daee0308858b66d2303b290614e1e4ee",
+      "4f80a89dcf241d210d646ea2fdd269ca5d270a98785a929bcf5de5cbb697650a",
+      "4b919d11819a81b36017c29ab4f5bbcfe8b3a3594371b38e0ee015fe50fa6f7f",
+      "edd7270dd2bfc0e47a230c0f68957d7c2734fb71fb39731ad2af436e3bf2917b",
+      "97dc01721e56c84262f63e5fa23d6fd37c67563754918f6eea9a322671904b7f",
+      "ff6f07c4a043528a1d0139976abd137ee5db230e385fe71a1356de164ddc0267",
+      "b4a9a70b191ccbb88773a1eaa02b03286c0f372b7cd78e396bb4d56f4863987b",
+      "6f2845cb958c444c6e266870f240e8e80411f3e98a6dbb97739ba35dbe9943ca",
+      "972719939e4dea14708c6d86ba12bded3c655d94066aa41c956d91bbe1ff4d88",
+      "79b0425c57ac380d5070b86e090a46e9ef23fafc05ab750949d7501863013506",
+      "a0ee0b47a4e9995595becec1721036c3b2342c262e066fec68b10d0fbdb0c356",
+      "05c658e3240d8fcbdebc6ce0caf8ac14df643da3545751a0bc2d6576266546e9",
+      "d8258c40a416ae3d3d3703adc45cdc72d5073e97a0dd93c3756d6bb9c8a24058",
+      "22bed01b32896dc7b947e53596d11a0bed7314829364bfc34c5fc19fe9aa133e",
+      "6b9d95ba88c66d6eea84b15bebccf9f80052c372cd4ad1c70d55dcb84ed9438a",
+      "8f2259de530f5ec39434aa6af7d84e53ea4774047c23f9601da397e8c0ca9eb5",
+      "f3e9e5067665d8fc496200b801c75732b94a89d7f74177eb09941d1d97c4c32e",
+      "8621e450ef318cd5a6914a825894a6aa50878cc93222a466a5c2ca763199aa5b",
+      "6de1bf57922ba19faa45c7efa842b2196e94520607a1ec4354f85597fb5877a4",
+      "58134ec16326e20a75e77d297c95dd3861a7c7690fa2714a5616b9051f8c5a3a",
+      "75e359101023b31763c40d49f003db822278985c4d1f3b6bd579a4195f7f2f1d",
+      "5397e83a535f349c0d38da25750ff0a69d2dcd60aad17ada543f788f36ff32fc",
+      "791ef5bd14b46273c82cd6cbe5b776e0231a18cbdf612c39e469b075745dda0f",
+      "3f0c1bb247be1ebe286b1f2e236347046a48b55a245ec24ae29d92e5b57961f4",
+      "e89be4272557c82970e3670aacbe057cb9038624414e59727aa7f60a212553da",
+      "03b80801f70d1fcc098180c8fa665bba99844d0b719cb0c8fd9786d980c6dc5e",
+      "20171069f8ba3eea2bce268408a53dc9c80e834c743ae99016ae1557d2aa0fea",
+      "e2550b06f15eda4434582faf00147761ab03b052584721091526319186028718",
+      "03f1b0a9567fa2ab4b98b546c074a717846d79f1301ad3ef835e024a2e7d5672",
+      "c606498dbb65bb9ae61664230e245080ac1ab01731537e44c0374b45110f35f6",
+      "a18061f52cdf34d283dbd7e430744aa616b8c31ed7b4449a7c995ee3a4ac0027",
+      "b4e355b3d015096d6b9435474146ca29917561970ffbe6e7810ba8042f928acc",
+      "179c047f01642f9ca2465307efea34923cc42ee4faac34048960b2097eb60dd1",
+      "a9881894b6e16569eae645eb38a5f82654e7fff3d537202d3d766a8936893a9c",
+      "7a3d70a7b06b7c547f2138cac2700717d890cdce7f1135b7edc402094314c1d5",
+      "4faf5ac18a95f4843a75da1cfd3085940bafa7aed5a094173e13a22c1f78bc22",
+      "65fe084ca0098d4ddad8627e02626e6ca8e22471cbcd9f6248e43bf68071d483",
+      "7200c8b94d90867afee7c133d0b81ae135b21b0dbc67137df2b8171cdfb151f2"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 2410,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

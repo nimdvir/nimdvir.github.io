@@ -1,0 +1,110 @@
+{
+  "articleId": "W019",
+  "title": "גבירותיי ורבותי: דיווח מהחזית",
+  "subtitle": "ביקור בסט של \"המהפך\" הציע תמהיל עסיסי של עקבים גבוהים, איפור מתמרח, שחקניות כדורסל רעבות ואורנה דץ אחת. לכבוד חודש האופנה בטלוויזיה, כתבנו יצא לשטח וחזר נוצץ ",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3317324,00.html",
+  "publishedDate": "2006-10-20",
+  "publishedDisplay": "20.10.06, 08:43",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "4df1f1b3f4c0af72b22dcd103d6b4b0833df3883698c9d40417be5456e192e8b",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 27,
+  "interviewerPromptCount": 2,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/916347/896mahapach01_wa.jpg",
+      "caption": "בועה ורודה ואוורירית. אולפן \"המהפך\" החדש (צילום הראל רינצלר)",
+      "credit": "הראל רינצלר",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/916364/896mahapach12_wa.jpg",
+      "caption": "קופצנית ורעננה כגבעול עירית. דצה עם ליאת אשורי (צילום הראל רינצלר)",
+      "credit": "הראל רינצלר",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/916349/896mahapach08_a.jpg",
+      "caption": "הפכו אותי. אסתי אוחיון מחויטת צילום: הראל רינצלר",
+      "credit": "הראל רינצלר",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/916362/896mahapach11_a.jpg",
+      "caption": "מלכת הטיף והטף. אורנה דץ צילום: הראל רינצלר",
+      "credit": "הראל רינצלר",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2006, October 20). Gvirotai ve-rabotai: Divuach me-ha-chazit [Ladies and gentlemen: Reporting from the front]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3317324,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "עם ישראל בטירוף היופי. פעם בכמה זמן, כשרוחות המלחמה שוקעות, חוזרות לאוויר רוחות הרימל והדיבור עובר לאיפור, בגדים וכל השטחיות שביניהם. דוגמה לפריקת המתח הציבורית הזו הוא \"מודה\", חודש האופנה בערוץ 2 (קשת) שמוקדש כולו לתרבות הטיפוח עם טיפים, בגדים ויעל בר-זוהר אחת (שמנחה את התוכנית \"פרסי האופנה\". היכונו לגמר הגדול ב-27.10).",
+    "lastTextBlock": "\"אז עשו אותה טוב\", היא אומרת ונכנסת למונית, בדרך להזיע על המגרש. כי עם כל הכבוד ליום הנסיכות שהיה לה, החיים האמיתיים קוראים בחזרה.",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 24,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "88f8688928283796d28ad110a371f252b94b2b8745e168dea01271cac6d272fb",
+      "ceaf22dd7d509c057a3252db5869c7d6d3943473dba55e4eb44a2b8538171063",
+      "28cc25d368c896d4f100dab4432540d4bc033690a13a9f1dbee25629f25ef549",
+      "143a61577eacbe4c6b1f8f239494917958ae9ba01c1d834267738a895d0cc95c",
+      "ac5b3af5ff15dc6071fb68baf9efb268e6c45541140b796859c3d73f7979e06a",
+      "039fe626dad3ff1125b7120a7992822f3e7a4d1139f7286d8781d55d091ed2c5",
+      "0a2210619568dc422d992f0ce08129b89a52539687cf2d0550a92dc1615414ba",
+      "62caf5428190e044187054a1f2067afe2d4f1740da4cde3d90e0d3e9734da445",
+      "89d578dccba0835d4a5cf05d32445d0aac9c1490b91cdc33b3529f0f9777b28c",
+      "6bb1d1a355710ebe2503ec70a708750c150e708df93094192c69032df2581e7f",
+      "5fbc27563aa613f17d706b63f1bb236acdb8539f93d2c8dbc9ef02bfd3c62de0",
+      "81c4f6847aea708e80588696a40a93de3dd96585f385bff0ba195664a37d7000",
+      "9896afb71fb822ba9ae47eeea383f5d4058c3245aabc28abcefbb2884fcaa9e7",
+      "a7e348306600bb5a2978ef91ebd4c76dadcc5596339fc4cfbb7853fe504056ef",
+      "ed09d39545c887175bf82f8ddee0b2858341d970291385196e56a9188ab6ad66",
+      "fa5fb0132aaf505e8ba973a5898438b3c80e4861a2d12cea2f94e474e75973f3",
+      "363af79e0c8a3099348102c80aa9a4f6c7c51effc597270da7cf5511b09d7ab5",
+      "8cb323a64254d303bc493fe844ed23132f169c9b1ae48db1064a5ea823f4583d",
+      "bc896a34b70f6eabc8a69df7e8d7fc8d2503d440075b6c34526ea74968ed4be4",
+      "c8ddf55661044ea6a0870d3d160dac0e1144724351bd76eddd59a90bd37d9f89",
+      "bdb3293c27a09e5c303a7003268b7f8d10d1f996bc173502a74107fa878f3520",
+      "e721a358cee29630a6e0000cee58b0da6a968976e029c2ec382ca186624fae05",
+      "b85962c3db26a8ea033184b6e9aa75cc02516e95faedcec3bb5bd8fb23369429",
+      "5298ec5e4b03069a502be12ae4479de6ef16064c8fe319749b275812d74bc4f3",
+      "b5406de3efa682238b4d33878b50cf7204678391180ef2d9967d74f81f0b641e",
+      "c38897b39213c88bf8e4d62e8575b1da47fa66cf17e48ec7fb520ea7e6bad5d4",
+      "35aaba7a5f307b07ff9ea3e90be7138b8450db0dd9075b5197dda9c9b80ff776"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1215,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

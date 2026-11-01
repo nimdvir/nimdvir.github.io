@@ -20,5 +20,39 @@
   },
   "canonicalHebrewPath": null,
   "recommendedAction": "Record candidate original URL and Orly Shani as candidate interviewee in evidence, not as verified W104 metadata or canonical Hebrew source. Keep needs checking.",
-  "textReconstructed": false
+  "textReconstructed": false,
+  "additionalRetrievalAttempts": [
+    {
+      "checkedOn": "2026-10-31",
+      "outcome": "Live Blogspot URL returns 404. An archived Blogger shell preserves the title and post ID, but no body; public post feed also returns 404. Full Orly Shani Fashion Star interview now captured as W207; exact repost equivalence remains unproved.",
+      "textReconstructed": false,
+      "archiveEvidence": {
+        "id": "W104",
+        "url": "nimdvir.blogspot.com/2012/05/interview-star.html",
+        "cdx": [
+          [
+            "urlkey",
+            "timestamp",
+            "original",
+            "mimetype",
+            "statuscode",
+            "digest",
+            "length"
+          ],
+          [
+            "com,blogspot,nimdvir)/2012/05/interview-star.html",
+            "20231206073359",
+            "https://nimdvir.blogspot.com/2012/05/interview-star.html",
+            "text/html",
+            "200",
+            "7Z6ZHRCGR5ISCXL5ADTJIIGWQA7G4PAV",
+            "963"
+          ]
+        ],
+        "snapshotUrl": "https://web.archive.org/web/20231206073359id_/https://nimdvir.blogspot.com/2012/05/interview-star.html",
+        "status": 200,
+        "bytes": 19064
+      }
+    }
+  ]
 }

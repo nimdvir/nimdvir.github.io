@@ -1,0 +1,96 @@
+{
+  "articleId": "W161",
+  "title": "מהלב",
+  "subtitle": "הבמאי איתי לב עשה לעצמו שם כאושיה תל אביבית שיוצרת סרטים על ברים מעושנים. זה לא מפריע לו לשחרר עכשיו את \"גיבורים קטנים\", סרט נוער בסגנון חסמב\"ה. או כמו שהוא מגדיר את זה: הוליווד בעברית, עם קריצה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3289368,00.html",
+  "publishedDate": "2006-08-10",
+  "publishedDisplay": "10.08.06, 16:54",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "87722ff317be5cc2175811dfdaea6d7fb2f5a8c167d2d7414d6c8e9a6cc0a333",
+  "retrievalMethod": "Direct publisher response; UTF-8",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 23,
+  "interviewerPromptCount": 8,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/859149/886itailev11pn_wa.jpg",
+      "caption": "עושה מה שבא לו. לב (צילום: ינאי יחיאל)",
+      "credit": "ינאי יחיאל",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source sidebar",
+      "originalUrl": "https://images1.ynet.co.il/PicServer2/20122005/859145/886itailev06_a.jpg",
+      "caption": "\"יצא לי שם של אחד ש'מתאבד' על עבודתו\". איתי לב צילום: ינאי יחיאל",
+      "credit": "ינאי יחיאל",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2006, August 10). Me-ha-lev [From the heart]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3289368,00.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "הראיון עם הבמאי איתי לב מתחיל בניחוח ברנז'אי: \"זאת לא הדירה שלי\", הוא מתנצל בשעה שהוא פותח את הדלת, \"היא שייכת לידידה שנותנת לי לישון בסלון עד שאסתדר. זאת מישהי שדווקא די פופולרית אצלכם בעיתון. מיכל אנסקי, מכיר?\". לו רק הייתי רון גרנות, הייתי מזניק מיד חמולת צלמים לתקתק את חדר האמבטיה. במקום זה בחרתי להרהר איך זה שלב, 35, במאי מוערך בקהילת הקולנוענים המקומית, נאלץ להיעזר בטובות של חברים כדי לגמור את החודש. הוא התפרסם בזכות סרטו הראשון, \"חמש דקות בהליכה\" (2003), סרט פשע בשחור לבן בו השתתפו מיטב שחקנינו חינם אין כסף (אדם הורוביץ, טל כהנא, שרון אלכסנדר ועוד). גם סרטו הבא, \"מלח ים\", המספר על חבורת קולנוענים שיוצאת לטיול בים המלח, מכיל פיגורות כמו אנסקי, ליאור מילר, ליאת גליק, עומר ברנע ואחרים. גם הם, מיותר לציין, באו לעבוד בשביל המצב רוח הטוב.",
+    "lastTextBlock": "\"בגלל שאני לא מפיק את הסרט הזה, אז אני פחות במשחק. יש משפט של קולנוענים, שלכל סרט יש את הקארמה שלו ואי אפשר לשלוט במה שיקרה. איכשהו, התחושה עכשיו היא שאנשים מאוד אוהבים אותו. מאז שאני בתוך הפרויקט אנשים באים אליי עם זה שילדים זה הצלחה בטוחה, קהל היעד הכי טוב. לכל אחד יש פתאום משנות על כלכלת ילדים. אני לא יכול לומר שאני מבין בזה משהו. בקושי בכלכלה שלי אני מבין\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package."
+  ],
+  "originalLinks": [
+    {
+      "text": "יאיר רוה",
+      "href": "/articles/0,7340,L-3285349,00.html"
+    },
+    {
+      "text": "מצאתם טעות בכתבה? כתבו לנו",
+      "href": "https://www.ynet.co.il/redmail"
+    }
+  ],
+  "verification": {
+    "sourceParagraphsChecked": 14,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "462032217288a43d87f526a68ffd2707cc54ad8277440b30e15cef2f3ca2dcac",
+      "9548353b29b51194e0f1a6d5a1532f7a64e4250ee3088029dd7889682497752f",
+      "02222ce42cd888161659046479b85b2654f003c528f69b2194472efd3e893a72",
+      "ebadbddc838085700b8e04e5f24f040a7ff6a042923bcdb626261b7410522b3e",
+      "4d6702e6fd393fefe6eeda49f1655f5a5c0334fb4e6eb817b0cb8670c9f18069",
+      "0702241324d038d942761f2801066c37946c9b6be5dea16047a2595399fac29e",
+      "32f8903923db2a2b85edab0be8c30c5affcfc8b23aa8a1f0f6a2b3e470da4a02",
+      "5c47c345c7fed92fd823bd1fddc2c206e1be0cf2a9a52bd0d7f1db3508ea0017",
+      "fc3eff9929d1200ecf3ff054bc085d9897b08b6efb7d03101161dd1c1f223bf4",
+      "d85f6d9816fc110f2a50450fc3c466be6487d55ee4226153a36c964842a9f8c1",
+      "fff13ee6f7482e9c3484b683ece448d3bdc5660929de287912528578eae4c79c",
+      "b9835c82792e11910abd56fa72d88f562956b850eef4e0ea6acc6d03009a39d9",
+      "9bfe3d21e1419ec50a14ebe99e4357c5aba8cbde6280b7ec7ebe93c28be810ef",
+      "9cca275919ad7842c617f0c42e5f9fe997bb01166a855deba8dbf3ef2895fd61",
+      "9b3b123f4412b734fbd05e8df72cbd5bbe9e2b248aab3a59809229a2f9899175",
+      "69a657c7b6fd5130a9dd0280894821a6c1a47e2901d3cdbac2540d42d0b681de",
+      "6417d4585220bcb903120af1f32c93652cef074cf5e66ae8ae1c274e0eb07f73",
+      "3c5ea6b89fc8619effe4cc445ad7b4f5d88be6f822eb408ff4f2981d48dfbb66",
+      "fac8c97e429d039389d2f6981e1373099a1bd22aa0f83d0dc3e90868a470f2ff",
+      "67894be1c36c4272b0d995f6ae6589e9805da5d15aa04c401429f30b9ef5a8ef",
+      "d7b33bcdce6d8631f6c92086e4cb8ad1741f25c6fd5c8d965281291cd16c4cf6",
+      "c86325c5bba1a5098f4027a34c3260e15e9cd8ff144e9d26a52bad34a688dcc4",
+      "df987b50b9380fd305ab2caa25cdbbbef4e727ca2af860add56d6879f411f2fc"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1356,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "articleId": "W168",
+  "title": "מצחיקולה: ראיון עם דנה סמו",
+  "subtitle": "דנה סמו מקווה שעכשיו, כשהיא מככבת בתפקיד המזכירה המטורללת ב\"פולישוק\", תבינו שהיא לא רק אשתו ואם ילדיו של יובל סמו. בינתיים היא מנסה להסביר איך בחורה מהמושב משתלבת בעולם הזוהר, ומה בכלל היא עשתה בהלוויה של נתיבה בן יהודה",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/241/607.html",
+  "publishedDate": "2011-05-22",
+  "publishedDisplay": "22/5/2011 14:57",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "ac6faaa1529784e129afb70323b6882417ca9fe5a421e48b424854a70b1daaf7",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 31,
+  "interviewerPromptCount": 12,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/330/349.jpg",
+      "caption": "אני לא רודפת אחרי פרסום. דנה סמו",
+      "credit": "גל אלי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/253/483.jpg",
+      "caption": "חתונה מזעזעת. עם יובל",
+      "credit": "בייגל",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/330/348.jpg",
+      "caption": "לא יכולה לעבוד במשרד. מתוך ''פולישוק''",
+      "credit": "רועי ברקוביץ",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2011, May 22). Matzchikula [Funny girl]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/241/607.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "השבוע שעבר, הקרנת הפרק הראשון בעונה השנייה של הסדרה \"פולישוק\" בסינמטק תל-אביב. דנה אברהם סמו, שמגלמת בסדרה את ויקי, המזכירה הקלולסית והמאוהבת של השר פולישוק, מגיעה ומושכת אליה את עדר צלמי התקשורת. אף שלשחקנית בת ה-33 יש כמה תפקידים טלוויזיוניים ברזומה (\"האי\", \"שוטטות\", \"שאול\"), הסיבה שבגינה צלמי הפפראצי התמגנטו אליה היא כנראה נוכחותו של בעלה, השחקן המאוד מצליח יובל סמו (\"ארץ נהדרת\", \"החברים של נאור\").",
+    "lastTextBlock": "\"לא נראה לי. העובדה ששנינו עצמאיים היא יתרון בגידול משפחה. החיים שלנו דינמיים, אנחנו הורים שנמצאים הרבה בבית. זה נוח ששנינו לא עובדים במשרד. יובל נון קונפורמיסט, לא יכול לעבוד במשרד, וגם אני כזו. אולי לתקופה קצרה הייתי יכולה. אני מתאהבת בדברים הקטנים - הטלפון, הפתקים, העטים, אבל אני משערת שאחרי כמה ימים, שבוע, הייתי מבינה את העניין ורוצה לחזור לשחק \".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "W168",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/241/607.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/241/607.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/241/607.html",
+        "20110525080821",
+        "http://www.nrg.co.il:80/online/47/ART2/241/607.html?",
+        "text/html",
+        "200",
+        "FH6EGIAU5HNPOQN5Q7MHXXXJ46KMTI2Y",
+        "20753"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20110525080821id_/http://www.nrg.co.il:80/online/47/ART2/241/607.html?",
+    "status": 200,
+    "bytes": 74839,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 2,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "7f6c80b1ca9dfa7134f24269468f7e88ed3df83c23bb49bc39584d8f2a8938eb",
+      "5c7b14c78464d6f9e0ddeba2a2e68f66c98c63b88795133b5bf7929c3a2ddede",
+      "6cca2983f14263555cc0108fc2cc5baebc6523bd9855b5d64caa54704f1a27f0",
+      "b681843bcc93892998119115cccbbd457deaf0db3df66b71a25304c1473800c4",
+      "e43ba037d890eafe1e03177d3703d89be2f89cc5ee73de712f0c05f683be19d3",
+      "80a0b3769a5a95a3e27fcc2be390576b2865d61c86cb86e760654ad52d6def44",
+      "7bd9ed19057853ac56a9e499d67fb85cfb5b0f7cded3bc889e6a9092ababe689",
+      "ad83c1e179d7ea86a59e38381d93f71562dcfb38f478cc42fbb42511bd54bd03",
+      "8289188794e5d36060585d1822f515c95211645fdbffb86105f312e09b5988eb",
+      "e8c257d205912313fe483a299061b8df2d9363ad93d9b086799cf3d599d9c510",
+      "b02e7d88526c4de05d2a3c118da9d7962e5c5f80e790a0f69e3ee74567d317cd",
+      "32b259170ae05093a6ccc384160d0a18534c2fd1dcb383853eed97a6d7476e90",
+      "6f2172839c46af0165684eb037f983aa7fe95c83a26732ec6d8f5bf30fca88b4",
+      "4a6e0a47df9f4bd887ea5ffff7a233de8ab4b4b24a31404802a0d4b4def7f6f6",
+      "db5c50900940e86ccffc366737ace9771b3e15e6105c1f2c23c34f319858d9d4",
+      "a3e1ee21e6f2bb86e727b493b172581ad3be802de8a7ad5babdf6089a9d172c1",
+      "700b40bbf661f03a067e934b49e71573cb195caebe52d9777b2cd6c5084029d9",
+      "802fc6bbe0417fc4cefe17fb96220c8d7e9565654a8ceb7d6f828a2067439839",
+      "c4d37a30b995f3f25afbf90c847ef5f5dd234369329f2859ab69158ced4f1c6e",
+      "97a85ed7c2e7714fcdf1dcf5a9a418addf2dff972f72010e774aeb98409f749b",
+      "2c30a061974e13f64e62fa6804fc6a111acc46218fc8832501590de077fe40eb",
+      "896308b713ac3e90f5da24caa56e861a469ad0ddaf964b1145b5f3d856e46b5a",
+      "ad92e4ab48385a7a2b193abe4ce9735b1a3009ff54ab460acd4123af4199c1ad",
+      "40a0b4ca1747b5b5db98f8689a448395a2f6e1b87e8ceac1b552a70363115acd",
+      "d844fd7084c87e4e56c8a41b5d3d80f8cad9bcd763d153e0905f3524f698b64d",
+      "9df110c697f6254a8ca763d32f6c91c7036296d25e1617fa47ee5c437c7727be",
+      "d041335b32798eef5ced9af973d9e1d004801ef91dab411459790ee4ffd4f6ec",
+      "3f391f93d80b1af5a2385265abf5adc90011edaa9e52a3484ae5722c9018a736",
+      "34f72a091cb10a9395e6b2d49357cb58ba669ee2eff2364e13cbb962a3db6c0c",
+      "82e11268ee7ef332d42dd37c2cec6630a046b66c4ca2dec07697187c4440244c",
+      "e4254d053e9cd2508954943340dc7f7e54b6ddb82c67e0e17525c1fa8d79c7c7"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1576,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

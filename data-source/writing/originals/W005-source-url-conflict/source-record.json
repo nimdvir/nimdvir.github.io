@@ -7,5 +7,12 @@
   "candidateHebrewSourceRecord": "../W165-michael-fassbender/source-record.json",
   "canonicalHebrewPath": null,
   "existingPublishedStatusPreserved": true,
-  "textReconstructed": false
+  "textReconstructed": false,
+  "additionalRetrievalAttempts": [
+    {
+      "checkedOn": "2026-10-31",
+      "outcome": "Listed Ynet URL is an unrelated medical column. Fassbender interview W165 is already archived, but equivalence to this separately published portfolio record remains unproved.",
+      "textReconstructed": false
+    }
+  ]
 }

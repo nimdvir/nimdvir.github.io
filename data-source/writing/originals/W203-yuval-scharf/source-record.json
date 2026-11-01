@@ -1,0 +1,177 @@
+{
+  "articleId": "W203",
+  "title": "שורפת: ראיון עם יובל שרף",
+  "subtitle": "רק בזמן האחרון יובל שרף השלימה סוף סוף עם העובדה שהיא שחקנית. עזרו לתובנה הסדרה החדשה \"חיים אחרים\", שבה היא שוב מגלמת צעירה דתייה, שלוש ההצגות שבהן היא משחקת ושני סרטי הקולנוע בכיכובה שייצאו בקרוב. כך או כך, זאת הזדמנות לשמוע בפעם הראשונה על הפרידה הזמנית משלומי שבן ועל החשמל שחלקה עם עוז זהבי",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/165/502.html",
+  "publishedDate": "2010-10-14",
+  "publishedDisplay": "14/10/2010 13:00",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "8cd2166006ff4b097b49e2df4cce288d2b1c30a0391fa05614abe8b1c629599d",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 41,
+  "interviewerPromptCount": 16,
+  "originalImages": [
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/273/685.jpg",
+      "caption": "שוב דתייה. שרף ב\"חיים אחרים\"",
+      "credit": "צילום: עודד חכים",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/273/680.jpg",
+      "caption": "רק לאחרונה התחלתי לומר שאני שחקנית. שרף",
+      "credit": "צילום: עמית ישראלי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/273/687.jpg",
+      "caption": "\"אין חוקים לבחירות בקריירה\". שרף",
+      "credit": "צילום: עמית ישראלי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/273/686.jpg",
+      "caption": "למדתי הרבה. שרף ב''חיים אחרים''",
+      "credit": "צילום: עודד חכים",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/214/578.jpg",
+      "caption": "יפה ונכון. זהבי",
+      "credit": "צילום: ביגל",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/273/688.jpg",
+      "caption": "''היום אני הרבה יותר שלמה עם עצמי''.. שרף",
+      "credit": "צילום: עמית ישראלי",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/203/385.jpg",
+      "caption": "הזמינו פפראצי? שרף עם שלומי שבן",
+      "credit": "צילום: בייגל",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/201/812.jpg",
+      "caption": "\"לא עשיתי שום דבר גדול באמת בדוגמנות\". שרף הצעירה",
+      "credit": "אלי דסה",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, October 14). Sorefet: Raayon im Yuval Scharf [Burning: Interview with Yuval Scharf]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/165/502.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "\"תמיד רציתי להיות המסתורית הזו, זאת עם השיער השחור, השקטה, שלא יודעים עליה הרבה\", אומרת יובל שרף, 25, ומיותר לציין שזה לא ממש הלך לה. \"במקום זה, אני סתם מדברת המון\", היא מודה מתחת לרעמת שיער בצבע אש. אחרי כמה שעות בבית קפה הסמוך לדירה בתל אביב, אותה היא חולקת עם בן הזוג שלומי שבן, ברור לחלוטין שהיא גם לא מסתורית.",
+    "lastTextBlock": "סטיילינג: מעין גולדמן",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "N05",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/165/502.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/165/502.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/165/502.html",
+        "20101017133608",
+        "http://www.nrg.co.il:80/online/47/ART2/165/502.html?",
+        "text/html",
+        "200",
+        "K6J74LURX6FENI2LWC7XNSWGN5QH2A7P",
+        "21077"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20101017133608id_/http://www.nrg.co.il:80/online/47/ART2/165/502.html?",
+    "status": 200,
+    "bytes": 75726,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 4,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "657ac9a36f5a25b7b728a830223b7d369622823caaafa8ede781a474fbd8bdd0",
+      "d575444a6165cf71fa4f010c9ffe86b285968ffaf98c4588b82f941792fe8898",
+      "171a2c17e19500a061e5bd2b7265924c794121478448418f1ada932f2c63e098",
+      "9757682b2d024f35e22f2b12ed23d9d83ffcb312637b6cd9d840c074ab11de48",
+      "2a16fb6d68aa81f474ee3228978bfce61ab6d6cf92356e9c4ae633b607d5e9df",
+      "1d7863271f7c02a8125602909224ecfab064bbb9cfed8c102e07ed5f0522d28a",
+      "5a8187ac94c1f8f1eee38a7b5bdf1c8fa0a376097ded684c1d6e2364051b36de",
+      "c62b62d66251b8a9668308341bb2afadd67689b7571bcdec9e7fca47ee5abcdb",
+      "5029b462f1caa2454b05ccc96f3c5cec12ef55a6251c453cf42133579bcaabde",
+      "8ec6ec28acb6901d0db9602c5f00451a1d8c1b113bd1fbf0006baf40dd9706e3",
+      "1d2e1bf333e78ccce5524a6275611d64a01ff4ed42467754df5426b7093664e2",
+      "d035a9375caf52f9d9bd2d60a973dfb2536decd27b7dbd4e1a355ca0353027f4",
+      "3529171531ad71d64697a2d9a6ca69e485792c02c6d0a0a32cdbeee1f0bf2096",
+      "3fc883942d5bcb623772973da3b035be3ca4f896012dfb55e35bc7322043376e",
+      "cb34d6312d2e746c258ce9f8b12aab32930795cb47ca13b8b1aa7e5ddfaabcd4",
+      "fb9233f8fa38ade0d3abbaf3a59365aa4b6fd3c792c53313f0788dc827a7098a",
+      "28a91b0d5ce8a30e4795492a02911e8f65225b12481f948d187754b0e8d7f9c9",
+      "d7889965995920a8a66d977424b1fd56c75083a4959d62a0ac8f267d64577014",
+      "d054c0e55ca75ebaee509bb255f764f1d055c3ca4c562f372400bd09a7fa043d",
+      "deb904e05fb7c265b0a333a114e4f23f44830f7d5244aa2ed18ce990a0a3def0",
+      "d7246943ecca0e1b24287aa1c6761ed01b7641e378e83f9ffa1d522f262dc1a8",
+      "05bbb3ccba8d9b1ecfba8674321948da9db9e7d23d6886e04cd9371fb42d88cb",
+      "26705248f5cc8de946189725bd283dfb8eb71744e0698a57391055a86984b67a",
+      "39fdeb1ddbcabf197fcc35eff4490a752c25faedd3642b7f066bee9886157c64",
+      "594dfc0d11250ccff09d43c5a27d2f19a2b0a14863b6d18a88c5dff54700e99b",
+      "9d0157e83c548eb97c8feffc7c9ade3fe57a7e9c2377ea0cea40e03485b47d47",
+      "fe0a06facd6c01af1e50aa364cccf9564e6673b85a619c496df627ed7585a38d",
+      "592b109148c4d72c1cf4361627da6ae03b6e007f3b670d9e6791e7642561f2e7",
+      "f4596081b4b1a15980ef64e888776552a44886273daa26c3a56f173ba026abfa",
+      "f24ca0a1d045e4229d4dd3a159ea71f5238527bd71a776b8578660eed9a538fc",
+      "482f9f58d4bc060b07d6a1a4d038cdddcc7992a0bd69aaa479cc5fb6631bcb9d",
+      "36126695216f4049a60aec40a59d7ee78e6651f57a4b01aab6624560fc82a2fc",
+      "448c57af8651f059f5985e44547f538fac025c2a19c46e4c4903d2232583cb5e",
+      "d3f50b14c6ae94f506b0ab5d3cffcc58f00a4ba3fbf691ac23685ff51504f25f",
+      "e33a83dd96e2e4f6f14a8ba75f1d9932357ef8513ab850bd5cefdde628b8daa3",
+      "d2d78989be2fcda391b720d365027fcb68d140a58421ba7d46c79356e92a0b90",
+      "25733b831217e38b4fc98768deb2c699602c02036ec6961b21e1ded9b56289de",
+      "43bcfa35a344171270603e6684356834f3e71a7f947283bce4d6365b5de316c3",
+      "c249f12cc60e3079d165102659b21af2277b7e9f02ff72bb058c04296015eb95",
+      "7e4364578244d1e0a0abd7df872b8f55e6a7247a36e12d7c52aebaab6c331d35",
+      "865127c70ba7294c085c9cced02a9517f13932c4856fdc85d9aecb31688177e6"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 1921,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}

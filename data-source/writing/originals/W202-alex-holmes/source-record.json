@@ -1,0 +1,111 @@
+{
+  "articleId": "W202",
+  "title": "סדאם אמיתי: ראיון עם יוצר \"בית סדאם\"",
+  "subtitle": "מה מסתתר מאחורי דמותו האניגמטית של סדאם חוסיין? אלכס הולמס, המפיק/תסריטאי/במאי שאחראי למיני סדרה \"בית סדאם\" מספר בראיון בלעדי איך הגיע ליצור סדרה על השליט האכזר ומה הוא למד בתהליך",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "nrg Ma’ariv",
+  "sourceUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/163/793.html",
+  "publishedDate": "2010-10-07",
+  "publishedDisplay": "7/10/2010 14:30",
+  "capturedOn": "2026-10-31",
+  "language": "he",
+  "sourceStatusCode": 200,
+  "sourceHtmlSha256": "6aa45e1686432a07d6a8da56b117fa896c476bed4ef1af3740a28f2d5d99687c",
+  "retrievalMethod": "Internet Archive snapshot of original publisher HTML, decoded strictly as Windows-1255; live mirror returned HTTP 403",
+  "extractionStatus": "Complete accessible online edition captured; source body comparison recorded",
+  "bodyTextBlocks": 17,
+  "interviewerPromptCount": 6,
+  "originalImages": [
+    {
+      "placement": "inline",
+      "originalUrl": "http://www.nrg.co.il/images/archive/465x349/1/271/799.jpg",
+      "caption": "לא היה הרבה שחקנים שהתאימו לתפקיד. ''בית סדאם''",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused"
+    },
+    {
+      "placement": "source floated/sidebar at this text position",
+      "originalUrl": "http://www.nrg.co.il/images/archive/300x225/1/271/796.jpg",
+      "caption": "מבודד בפסגה. \"בית סדאם\"",
+      "credit": "יח''צ",
+      "licenseStatus": "Publisher image not reused"
+    }
+  ],
+  "originalVideos": [],
+  "excludedPromotionalText": [],
+  "apaCitation": "Dvir, N. (2010, October 7). Saddam amiti: Raayon im yotzer Beit Saddam [Real Saddam: Interview with the creator of House of Saddam]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/163/793.html",
+  "appropriateWritingStyleSample": true,
+  "completeness": {
+    "firstTextBlock": "איך מגיעים ליצור מיני סדרה שעוסקת כולה במשפחתו ומורשתו של סדאם חוסיין? וקשה מכך - איך משכנעים את הרשת הבריטית BBC ואת הרשת האמריקאית HBO להשקיע בפרויקט כזה?",
+    "lastTextBlock": "\"נכון. זה מה שנתן לי השראה. כשהתחלתי לחקור אותו הבנתי כמה מעט ידעתי על האדם ומאיפה הוא בא. מוזר, כי גדלתי במדינה שפעמיים בתקופה חיי יצאה למלחמה עם האיש הזה. הרגשתי שיש לי אחריות להבין אותו ולעזור לאחרים להבין אותו\".",
+    "sourceFirstParagraphVerified": true,
+    "sourceLastParagraphVerified": true,
+    "sourceBylineVerified": true,
+    "allLongSourceParagraphsVerified": true
+  },
+  "notes": [
+    "All text outside normal paragraph tags is retained. Publisher text, ages, spellings and historical statements are unchanged.",
+    "Only the accessible online edition is preserved. Any additional print-only interview text is outside this package.",
+    "Original publisher image URLs are provenance only; those remote files were not downloaded. The archived source URL is retained in archiveRetrieval."
+  ],
+  "originalLinks": [],
+  "archiveRetrieval": {
+    "id": "N04",
+    "publisherUrl": "https://www.makorrishon.co.il/nrg/online/47/ART2/163/793.html",
+    "archiveOriginalPattern": "www.nrg.co.il/online/47/ART2/163/793.html",
+    "cdx": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "il,co,nrg)/online/47/art2/163/793.html",
+        "20101010033451",
+        "http://www.nrg.co.il:80/online/47/ART2/163/793.html?",
+        "text/html",
+        "200",
+        "JKSURMVB7MLAWSBJLWCYX4KSYVKUQ5ND",
+        "17903"
+      ]
+    ],
+    "snapshotUrl": "https://web.archive.org/web/20101010033451id_/http://www.nrg.co.il:80/online/47/ART2/163/793.html?",
+    "status": 200,
+    "bytes": 67517,
+    "contentType": "text/html; charset=windows-1255"
+  },
+  "verification": {
+    "sourceParagraphsChecked": 2,
+    "missingLongSourceParagraphs": 0,
+    "sourceTextBlockSha256": [
+      "328a27e64e4158947ed991298122cea33c003855746f62da69342eff1ad1e574",
+      "e2fd2a3b2b533ef56b1a3c1a122367db87ef0935c83b23ee1c9f0c6266ac2a02",
+      "61cfca7eb932385d1b112e3a07ea5d80b334b871cf0ba720daaab43921db9aa4",
+      "9b573c287e12782ddb2f737050d99f6d81e87fd35a844e4fd0fcae36e364903f",
+      "dee1769f93a42b8cc2dffede9daab06245868a8e231f475cb855a7153ca413a2",
+      "58c0b4f5abe3bca035b31dee0492c714e88bad8efde45b797cb12de2d7059bcb",
+      "95473faf69256ee89f81d1d3877e9fea6f8913a79e96a3b28ab410fa1f9ceaf6",
+      "c6d0353d114012dcfdda28fcedd5bcca39ee3d4156089cce460118a90dd2f362",
+      "b45c589f590767aef50814df30da24fda670093003a39771c10901ffb67244aa",
+      "24c4327ddaf0de31d3061a18c1693e53aa693ffe5a8bbf8f8a5e4e327a23be83",
+      "534b00654a485bb2acecf7689741c952c0834ee356f182582bd21bba0737a95e",
+      "03dbd769175aa4fdf04a7e3fb275924707054969bd77bc5be8df602b91be604c",
+      "800a28e4af15d45d99cbb14fb0c591b5a4af0b055eddf7dc9721f479ca67f68d",
+      "b6a9c555079e045a6315b886bbaa17c7072cd80212f714093e02fbd38e1b9fab",
+      "6ab275afacaf0d625000584b5c3bcc83efdedbb12ccf7b74730f793da899d5ef",
+      "17b4fb69c66c13690670cf629f2e3fad6913b228d3f48e71338c68ce4e08912a",
+      "7ea95fdfe9029b2a32a2017703a638ae66c4f937aec625fd350584838d4f9075"
+    ],
+    "sourceOriginalWordingPreserved": true,
+    "sourceEncodingReplacementCharacters": 0,
+    "sourceHeadAndTailRecorded": true,
+    "sourceWordsChecked": 641,
+    "missingSourceWords": 0,
+    "allSourceWordsPreservedInOrder": true
+  }
+}
