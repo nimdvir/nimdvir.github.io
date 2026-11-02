@@ -1,50 +1,109 @@
 {
   "articleId": "W052",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "J. No",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
-  "englishTitle": "J. No",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 22,
-  "translatedTextBlocks": 22,
-  "questionBlocks": 8,
+  "translatedTextBlocks": 21,
+  "questionBlocks": 7,
   "captions": 1,
   "images": 0,
   "completenessChecks": [
-    "First paragraph matches source first text block",
-    "Last paragraph matches source last text block",
-    "Every bold interviewer prompt present, in order, including statements without question marks",
-    "Every answer paragraph present with original paragraph boundaries and quotation marks",
-    "Section headings present in original positions",
-    "Captions and credits translated, photographer and agency names kept",
-    "Hyperlinks kept on the same words",
-    "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
+    "Bold opening quotation with its attribution, five narration paragraphs, seven prompts with their answers, the closing paragraph and the sidebar caption are all present in the Hebrew order.",
+    "The one block-count difference is deliberate: the Hebrew prints the sixth prompt broken across two bold paragraphs (a publisher line break mid-sentence); the English joins it into one bold prompt. Seven distinct prompts in both languages.",
+    "The publicist's 'Last question' and the narration that follows stay inside the fifth answer paragraph, as in the Hebrew.",
+    "Names, ages, dates and film credits checked against the Hebrew; the historical wording was not corrected (see sourceProblems).",
+    "No hyperlinks in the Hebrew body; none added. No em dashes."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
-    "Parentheticals kept as parentheticals with the same function",
-    "Mock-honorifics, epithets and diminutives carried at the same weight",
-    "Understatement not intensified; concessions after sharp lines kept",
-    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
-    "No jokes, transitions, explanations or conclusions added; no em dashes"
+    "Long-then-short rhythm kept: 'Fashionably late, of course.' 'Not so much as one blown kiss was recorded.' 'Oh well.' all stand as their own short sentences.",
+    "Mock-honorifics carried at the same weight: 'Her Grace', 'the lady', 'La Lopez' (for the Hebrew definite article on her name), 'the nation's sweetheart'.",
+    "Formal-next-to-street collision kept where the Hebrew has it: 'as befits a girl who goes through journalists like roasted pistachios'; 'the day is short and the work is plentiful, so come on, let's talk' (the Pirkei Avot phrase next to yalla).",
+    "Narrator stays the foil: trembling heart, battered kitten, glared at; nothing was added to make him look sharper.",
+    "The Don Corleone callback and the 'maybe that schizophrenia is the secret of her charm' judgment stay in the final paragraph, framed as impression, with the concession intact.",
+    "Serious material (the battered-woman plot, Katrina) rendered straight.",
+    "Quotations given spoken English ('lost her mind', 'didn't rattle me', 'nobody gets to call me at two in the morning anymore') without adding content or fixing logic."
   ],
+  "israeliTermsRendered": {
+    "שרית חדד / עיריית חדרה": "the pop star Sarit Hadad and 'the city council back home in Hadera'; the gloss is needed because the joke depends on Hadera being her hometown",
+    "תסרוקת אורה נמיר": "'a helmet of hair borrowed from the Israeli politician Ora Namir'; the reference kept, the shape of the hairdo supplied in three words",
+    "שנות הקסם": "'her wonder years' (the Hebrew title of The Wonder Years), keeping the TV allusion without a capitalized title that would read as a credit",
+    "המאמי הלאומית": "'the nation's sweetheart'",
+    "הלופז": "'La Lopez'",
+    "נו, שוין": "'Oh well.'",
+    "יו נואו / ספיקינג אוף": "plain 'you know' / 'Speaking of'"
+  },
   "decisions": [
-    "Headline pun 'ג'יי לא' (J.Lo / 'J. no') rendered 'J. No'.",
-    "Israeli references kept with minimal glosses: 'the singer Sarit Hadad and the Hadera municipality'; 'a hairdo borrowed from the politician Ora Namir'.",
-    "'הגרציה' rendered 'Her Grace'; 'הגברת' rendered 'the lady'; 'המאמי הלאומית' rendered 'the national sweetheart'.",
-    "'ספיקינג אוף' rendered as plain 'Speaking of'; 'יו נואו' as 'you know'; 'נו, שוין' as 'Oh well.'",
-    "Established titles: An Unfinished Life, Enough (Hebrew 'עד כאן'), Chocolat, The Cider House Rules.",
-    "The final press-conference question is split by the publisher across two bold paragraphs; both bold fragments are kept in order (8 bold blocks, 7 distinct prompts).",
-    "The bold opening quotation with its attribution is kept bold as in the source.",
-    "Source spelling 'ATEP' kept as printed."
+    "Headline: the Hebrew 'ג'יי לא' puns J.Lo against 'J. no'; 'J. No' does the same job in English and is kept.",
+    "Subtitle rebuilt as three 'Could we...' questions ending in 'and call it a day?', then 'Nimrod Dvir went to meet Her Grace, and the two fell out, badly' for 'הסתכסך קשות'.",
+    "'מידותיה הנאות' (virtues / measurements) rendered 'fine proportions', which keeps a faint double sense.",
+    "'אוכלת עיתונאים כמו פיסטוקים קלויים' rendered 'goes through journalists like roasted pistachios' (literal comparison kept, verb made idiomatic).",
+    "'חמולת הפמליה שלה' rendered 'the clan she calls an entourage'.",
+    "'עלתה לנו בפרנסה' rendered 'just cost us a day's pay' rather than the stiff 'cost us our livelihood'.",
+    "'דרוכה לפתע כסוהרת גרמנייה' rendered 'suddenly bristling like a German prison matron'.",
+    "'רוברט רדפורד בפוזת קאובוי' rendered 'Robert Redford, in cowboy mode'; 'נוסעת להתנחל אצל' rendered 'goes to park herself at the home of'.",
+    "Established titles: An Unfinished Life, Enough (for 'עד כאן'), Chocolat, The Cider House Rules. Established spellings: Lasse Hallström, Damian Lewis, Becca Gardner, Marc Anthony, Imelda Marcos, Ora Namir, Sarit Hadad.",
+    "The publisher's mid-sentence split of the sixth prompt was joined into one bold prompt; the Hebrew file keeps the split.",
+    "Sidebar caption kept under its provenance comment, as in the reference files; 'רויטרס' rendered 'Reuters'."
+  ],
+  "lostInTranslation": [
+    "The code-switch comedy of 'יו נואו' and 'ספיקינג אוף' (English in Hebrew letters) disappears when the words become English; not compensated.",
+    "The Hebrew double meaning of 'מידות' (virtues and measurements) is only partly carried by 'proportions'.",
+    "The definite article joke in 'הלופז' is approximated by 'La Lopez'."
+  ],
+  "defectsFixed": [
+    "'as great as the one between the singer Sarit Hadad and the Hadera municipality' (the gloss did not explain why Hadera; now 'the city council back home in Hadera').",
+    "'the pose of the girl of the people, the one who may have trouble dragging herself around under the weight of the diamonds' (calque; now 'the pose of the girl next door: the one who may have trouble hauling herself around under all those diamonds').",
+    "'provides a close-up meeting with that Lopez' (now 'offers a close encounter with that Lopez').",
+    "'will prattle on with bottomless seriousness' (now 'will hold forth with bottomless seriousness').",
+    "'did she agree to consent to a press conference, while allotting an impossible amount of time for questions and answers' (double verb, ambiguous 'impossible amount'; now 'did she agree to a press conference, with an impossible sliver of time set aside for questions').",
+    "'Lopez was also an hour and a half late for the hour set for the press conference' (now 'La Lopez then showed up an hour and a half late for the press conference').",
+    "'she carried on à la diva' (now 'she kept up the diva act').",
+    "'wrapped in her clan of an entourage and immediately skipped off into a private room' (now 'wrapped in the clan she calls an entourage and skipped straight into a private room').",
+    "'things were going to be lively: outside the hall dozens of activists ... had dug in, carrying signs attacking the actress personally' (reordered into English; 'by name').",
+    "'signs bearing the relevant logo' (now 'signs with the topical slogan').",
+    "'equipped with her husband Marc Anthony' (now 'husband Marc Anthony in tow').",
+    "'she doesn't pose against a backdrop of corpses' (now 'she does not pose in front of corpses').",
+    "'she raged, and slipped quickly inside, turning a round little tush on the demonstrators' (now 'she fumed, and ducked quickly inside, showing a round little tush to the demonstrators').",
+    "'a mutual venting of aggression between the paparazzi and the demonstrators, the former yelling ... the latter screaming' (now 'the paparazzi and the demonstrators took it out on each other, one side yelling ... the other screaming').",
+    "'After such a hot opening it was almost ironic to go inside and watch' (now 'After an opening that hot, there was something almost ironic about walking inside and watching').",
+    "'goes to settle in with her late husband's father' (now 'goes to park herself at the home of her late husband's father').",
+    "'the foursome come to live together on the isolated ranch' (now 'the four of them set up house together on the isolated ranch').",
+    "'manages to move as a mother' (now 'is genuinely moving as a mother').",
+    "'And back to reality' (now 'Back to reality').",
+    "'To the press conference held at the Essex House hotel on Central Park she arrives equipped with' (Hebrew word order; now 'She arrives at the press conference, at the Essex House hotel on Central Park, equipped with').",
+    "'a hairdo borrowed from the politician Ora Namir' (now 'a helmet of hair borrowed from the Israeli politician Ora Namir').",
+    "'time is short, the work is plentiful, so come on, let's talk' (kept the register collision, rebuilt as 'the day is short and the work is plentiful').",
+    "'she opens her explanations about what brought her to the script' (now 'she begins, explaining what drew her to the script').",
+    "'The one who went crazy was my mother: she grew up on Robert Redford, there was a period when she lived only for him' (now 'The one who lost her mind was my mother. She grew up on Robert Redford; there was a time she lived for him and nothing else').",
+    "'I'm very happy to be going through a process of maturing, because I feel it improves me' (now 'a process of growing up, because I feel it makes me better').",
+    "'Apart from the media, nobody has abused me' (now 'Nobody has ever abused me, apart from the media', keeping the laugh line last).",
+    "'what do you think about what's happening now in New Orleans' (now 'what do you make of what's going on in New Orleans right now').",
+    "'Now I'm calming down after a very stressful period' (now 'Right now I'm coming down from a very stressful period').",
+    "'these days you can no longer call me at 2:00 in the morning' (now 'nobody gets to call me at two in the morning anymore').",
+    "'Despite the ticking clock, not one of the journalists of the world addressed last night's events' (now 'The clock was ticking, and not one of the world's assembled journalists had touched on last night's events').",
+    "'suddenly on guard like a German prison warden' (now 'suddenly bristling like a German prison matron').",
+    "'signaling her herd of people to extract her from there, and immediately' (now 'signaling her herd of handlers to get her out of there, now').",
+    "'with nerves in her eyes' (calque of 'עצבים בעיניים'; now 'with fury in her eyes').",
+    "'from a smiling actress she turns in an instant into a kind of Don Corleone, that is, a tough businesswoman' (now 'in the space of a second the smiling actress becomes a kind of Don Corleone, which is to say a tough businesswoman').",
+    "'it's probably no problem if behind the scenes she keeps functioning as a kind of tough mafiosa' (now 'there's apparently no problem with her running things backstage like a tough little mafiosa').",
+    "Caption no longer prints on the page; kept in the file under its provenance comment."
   ],
   "sourceProblems": [
-    "Source spells the organization 'ATEP' and the film title once as 'חיים לא גומרים'; English uses the correct film title but keeps 'ATEP'.",
-    "Source phrase 'שלא עשתה עמדה חסד' is garbled in the Hebrew; rendered by sense ('did her no favors')."
+    "The Hebrew spells the organization 'ATEP' (evidently PETA); kept as printed, per the no-correction rule.",
+    "The Hebrew prints the film title once as 'חיים לא גומרים' (typo); the English uses the correct title throughout.",
+    "The Hebrew phrase 'שלא עשתה עמדה חסד' is garbled; rendered by sense as 'which did her no favors'.",
+    "The sixth prompt is broken across two bold paragraphs in the Hebrew (publisher line break); joined in the English."
   ],
   "unresolvedQuestions": [
-    "Confirm whether 'ATEP' should stay as printed or be flagged as PETA in a note."
+    "Whether 'ATEP' should stay as printed in the English or be corrected to PETA (with a note), since an English reader will recognize PETA and stumble on ATEP.",
+    "Whether the Sarit Hadad gloss ('the pop star ... the city council back home in Hadera') is the length Nim wants, or whether the line should run unglossed."
   ]
 }

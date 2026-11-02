@@ -2346,3 +2346,76 @@ a {
     transform: none;
   }
 }
+
+/* The voice page: paired Hebrew and English passages */
+.voice-trait-grid {
+  gap: 20px;
+}
+.voice-trait {
+  border-top: 2px solid var(--border);
+  padding-top: 12px;
+}
+.voice-trait h3 {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 0 6px;
+}
+.voice-trait p {
+  margin: 0;
+}
+.voice-pair-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+.voice-pair {
+  margin: 0;
+  padding: 26px 28px 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.voice-pair .eyebrow {
+  margin-bottom: 14px;
+}
+.voice-pair-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.voice-pair blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+.voice-he {
+  font-family: "Segoe UI", "Arial Hebrew", "Noto Sans Hebrew", Arial, sans-serif;
+  color: var(--muted);
+}
+.voice-en {
+  font-family: var(--display);
+  font-size: 1.18rem;
+  color: var(--text);
+}
+.voice-trait-note {
+  margin: 18px 0 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  font-size: 0.86rem;
+  color: var(--teal);
+}
+@media (max-width: 720px) {
+  .voice-pair-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .voice-pair {
+    padding: 20px 18px 18px;
+  }
+}

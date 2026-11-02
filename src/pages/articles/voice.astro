@@ -1,0 +1,201 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+// Paired passages from the archive: the published Hebrew and the English
+// translation that keeps its rhythm. Sources are the article IDs in
+// data-source/writing/voice-comparison/.
+const pairs = [
+  {
+    id: "W001",
+    piece: "Jamie Foxx Is in the House",
+    outlet: "Ynet, 2005",
+    trait: "A long list of showing off, then the turn, then a four-word verdict.",
+    he: "אבל בעוד כוכבים אחרים היו ראויים במצב הזה לכאפת ניעור-שוויץ מתבקשת, דווקא לג'יימי פוקס מתחשק לפרגן. בחור טוב, אתם יודעים.",
+    en: "But while other stars in this state would have had a swagger-shaking slap coming, with Jamie Foxx, of all people, you find yourself wanting to be generous. Good guy, you know.",
+  },
+  {
+    id: "W002",
+    piece: "And Now, Seriously",
+    outlet: "Ynet, 2006",
+    trait: "A proposition, immediately undercut. The opening of nearly every early interview.",
+    he: "פעם אמרו לנו שהפשע לא משתלם. מצד שני, פעם גם אמרו לנו שג'ים קארי הוא מטורף משהו משהו.",
+    en: "They used to tell us crime doesn't pay. Then again, they also used to tell us Jim Carrey was some kind of lunatic.",
+  },
+  {
+    id: "W004",
+    piece: "Gaga Show",
+    outlet: "Ynet, 2009",
+    trait: "Explicit judgment, framed as what the narrator hears, closed with a pun no one explains.",
+    he: "יש לה סגנון דיבור ניו יורקי/ אנדי וורהולי, בו כל משפט שלה נאמר באיטיות, מתוך תחושה כי הרגע ניפקה לעולם את המונה ליזה הוורבלית הבאה. ליאונרדו דה וינטג'.",
+    en: "She has a New York, Andy Warhol way of talking in which every sentence is delivered slowly, as if she has just handed the world its next verbal Mona Lisa. Leonardo da Vintage.",
+  },
+  {
+    id: "W004",
+    piece: "Gaga Show",
+    outlet: "Ynet, 2009",
+    trait: "The sharp line gets a comic comparison, and the subject gets the last word.",
+    he: "מספיק היה להביט בהופעתה בטקס פרסי הבריטס האחרון, שם שרה שיר מחווה לפט שופ בויז וזייפה כחתול דרוס.",
+    en: "One look at this year's Brit Awards, where she sang a tribute to the Pet Shop Boys and was as off-key as a run-over cat, was enough.",
+  },
+  {
+    id: "W006",
+    piece: "\"I'm Juicy, Not a Bitch\"",
+    outlet: "Ynet, 2009",
+    trait: "The narrator pictures the scene he cannot see. One detail, one joke, no follow-up.",
+    he: "כבר התחלתי לדמיין את רופול, הדראג קווין הכי ידועה בארצות הברית שפועלת כבר יותר מ-25 שנים, יושב עם פאייטים על שפופרת הטלפון וצעיף נוצות על החוגה.",
+    en: "I was already picturing RuPaul, the most famous drag queen in America and a working one for more than 25 years, sitting there with sequins on the receiver and a feather boa draped over the dial.",
+  },
+  {
+    id: "W006",
+    piece: "\"I'm Juicy, Not a Bitch\"",
+    outlet: "Ynet, 2009",
+    trait: "Prompts are short, and a quarter of them are not questions.",
+    he: "והציפורניים.",
+    en: "And the nails.",
+  },
+  {
+    id: "W186",
+    piece: "Ryan Gosling: \"The Motorcycle Bandit Is My Idol\"",
+    outlet: "Ynet, 2013",
+    trait: "An Israeli reference crosses by meaning, not by sound. The Hebrew nickname means nothing in English; the man it names does.",
+    he: "הכוכב שמגלם רוכב אופנוע מקצועי שפונה לפשע כדי לתמוך בבנו, התעניין לפני הכל בשלומו של האופנובנק הישראלי.",
+    en: "Ryan Gosling had barely sat down to talk about his new film, in which he plays a professional motorcycle rider who turns to crime to support his son, when he asked, before anything else, how Israel's motorcycle bandit was doing.",
+  },
+  {
+    id: "W003",
+    piece: "I'm Back",
+    outlet: "Israel Hayom, 2019",
+    trait: "When the subject is illness, the jokes stop. The sentence stays short and plain.",
+    he: "לא קל לראות קומיקאית דומעת, אבל דרייפוס, אחרי שהשלימה שישה טיפולי כימותרפיה וניתוח, כבר נשמעת ונראית מאוששת.",
+    en: "It isn't easy to watch a comedian tear up, but Louis-Dreyfus, having completed six rounds of chemotherapy and surgery, already sounds and looks recovered.",
+  },
+  {
+    id: "W089",
+    piece: "Haters: A Love Story",
+    outlet: "Israel Hayom, 2019",
+    trait: "By 2019 the wit lives in a parenthesis and in which quote gets printed.",
+    he: "אולי הווייב הקפדן הוא בעצם הדרך של או בת ה־47 (שנראית הרבה פחות, אם יורשה לי) להתענג על מעמד הסופרסטארית.",
+    en: "Perhaps the strict vibe is simply the way Oh, 47 (and looking a good deal younger, if I may), savors the superstar status the show has brought her.",
+  },
+  {
+    id: "W023",
+    piece: "Social Justice in the Big Apple",
+    outlet: "Ynet, 2011",
+    trait: "The ending hands the last line to the subject. No summary follows.",
+    he: "מה איתך? אתה אוהב את העבודה שלך? רוצה להיות השוער שלי?",
+    en: "What about you? Do you like your job? Want to be my doorman?",
+  },
+];
+
+const traits = [
+  {
+    name: "Concrete detail does the judging",
+    text: "A diamond watch, a feather boa on the dial, bare feet in a hotel corridor. The adjective is rare; the object is not.",
+  },
+  {
+    name: "Long setup, short verdict",
+    text: "A quarter of the narration sentences in the Hebrew archive are six words or fewer; a sixth run past twenty-five. The alternation is the rhythm, and it survives translation.",
+  },
+  {
+    name: "Opinion stated, delivery softened",
+    text: "\"There's a sense that,\" \"you could say.\" The hedge is on the delivery, never on the opinion.",
+  },
+  {
+    name: "The narrator is not the hero",
+    text: "He is late, glared at, scolded by Sandra Oh and laughed at by RuPaul's office. He reports it.",
+  },
+  {
+    name: "Sharp line, then concession",
+    text: "Lopez's entourage, Gaga's pauses, Efron's borrowed anecdotes. Each gets its line and then its due.",
+  },
+  {
+    name: "Serious when it matters",
+    text: "Cancer, a sister's death, a livestreamed suicide. The jokes stop entirely, in Hebrew and in English.",
+  },
+];
+---
+
+<Layout
+  title="The voice"
+  description="How Nim Dvir's Hebrew journalism was carried into English: ten paired passages and the habits they show."
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Articles", path: "/articles/" },
+    { name: "The voice", path: "/articles/voice/" },
+  ]}
+>
+  <header class="page-intro archive-intro">
+    <p class="eyebrow">Journalism archive · Hebrew to English</p>
+    <h1>The voice</h1>
+    <p class="lede">
+      The articles in this archive were written in Hebrew for Israeli readers
+      between 2005 and 2019. Translating them meant deciding what to protect.
+      The first English drafts kept every word and lost the writer; the
+      versions on this site were rebuilt from the Hebrew to keep the rhythm,
+      the asides and the placement of the joke. Below, ten passages in both
+      languages, and the habits they show.
+    </p>
+  </header>
+
+  <section class="section voice-traits" aria-labelledby="traits-heading">
+    <div class="section-head">
+      <h2 id="traits-heading">What stays constant</h2>
+    </div>
+    <div class="grid-3 voice-trait-grid">
+      {traits.map((t) => (
+        <div class="voice-trait">
+          <h3>{t.name}</h3>
+          <p class="small">{t.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section voice-pairs" aria-labelledby="pairs-heading">
+    <div class="section-head">
+      <h2 id="pairs-heading">Ten passages, two languages</h2>
+    </div>
+    <ol class="voice-pair-list">
+      {pairs.map((p) => (
+        <li class="voice-pair">
+          <p class="eyebrow">
+            {p.piece} · {p.outlet}
+          </p>
+          <div class="voice-pair-grid">
+            <blockquote lang="he" dir="rtl" class="voice-he">{p.he}</blockquote>
+            <blockquote lang="en" class="voice-en">{p.en}</blockquote>
+          </div>
+          <p class="voice-trait-note">{p.trait}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="section archive-notes">
+    <div class="section-head">
+      <h2>How this was done</h2>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3>The profile</h3>
+        <p class="small">
+          A writing-voice profile was built from 48 of the Hebrew articles,
+          read in full, with every claim tied to a passage and an article ID.
+          It describes tone, vocabulary, sentence rhythm, humor, structure and
+          interviewing habits, and what each needs when it crosses into
+          English. It is a working document and still under review.
+          <a href="https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/voice-profile.md" target="_blank" rel="noopener noreferrer">Read it on GitHub ↗</a>
+        </p>
+      </div>
+      <div>
+        <h3>Before and after</h3>
+        <p class="small">
+          Seven interviews are kept as three files each: the Hebrew, the
+          literal first draft, and the version published here. The folder's
+          notes sort the differences into categories.
+          <a href="https://github.com/nimdvir/nimdvir.github.io/tree/main/data-source/writing/voice-comparison" target="_blank" rel="noopener noreferrer">See the comparison set ↗</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
