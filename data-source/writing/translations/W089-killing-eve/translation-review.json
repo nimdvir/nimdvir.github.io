@@ -1,6 +1,6 @@
 {
   "articleId": "W089",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
   "authorship": {
     "author": "Nimrod Dvir",
@@ -25,12 +25,9 @@
     "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "Headline 'Haters: A Love Story'",
+    "Oh's scolding ('You're tricky') and the aside '(and looking a good deal younger, if I may)' kept",
+    "'thriller-comedy-action-lust' compound kept"
   ],
   "decisions": [
     "Title follows the verified citation gloss 'Haters: A love story'; the Hebrew pun (haters / they hate) cannot carry both senses.",
@@ -49,5 +46,12 @@
     "Confirm the English title; 'Hating a Love Story' is a possible alternative that keeps the verb."
   ],
   "translationPath": "data-source/writing/translations/W089-killing-eve/article.en.md",
-  "hebrewSource": "data-source/writing/originals/W089-killing-eve/article.he.md"
+  "hebrewSource": "data-source/writing/originals/W089-killing-eve/article.he.md",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (orchestrator), from the Hebrew, per voice-translation-brief.md",
+  "portfolioGroup": "international-interview",
+  "defectsFixed": [
+    "calques such as 'It is noticeable already in the look'",
+    "the sugar-blood joke flattened"
+  ]
 }

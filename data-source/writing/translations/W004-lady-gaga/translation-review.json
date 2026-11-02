@@ -1,6 +1,6 @@
 {
   "articleId": "W004",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
   "authorship": {
     "author": "Nimrod Dvir",
@@ -23,12 +23,8 @@
     "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
-    "Parentheticals kept as parentheticals with the same function",
-    "Mock-honorifics, epithets and diminutives carried at the same weight",
-    "Understatement not intensified; concessions after sharp lines kept",
-    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
-    "No jokes, transitions, explanations or conclusions added; no em dashes"
+    "Faith and vanity; 'It worked.' as the short verdict; 'Leonardo da Vintage' kept; 'C-minus singer' for 'mediocre-minus'",
+    "Steven's 'she's up there... the rest of us stayed down here' kept as the beat that closes the section"
   ],
   "decisions": [
     "Title 'Gaga Show' follows the Hebrew; the published page's title ('Lady Gaga Show: The Making of a Pop Phenomenon') adds a subtitle the Hebrew does not have, so it was not reused.",
@@ -50,5 +46,13 @@
   "existingEnglishPage": {
     "path": "src/content/interviews/lady-gaga.md",
     "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
-  }
+  },
+  "revisedOn": "2026-10-31",
+  "revisedBy": "Claude (orchestrator), from the Hebrew, per voice-translation-brief.md",
+  "portfolioGroup": "international-interview",
+  "defectsFixed": [
+    "'her 3 debut singles' and other Hebrew number style",
+    "caption literalism",
+    "clause order that followed the Hebrew"
+  ]
 }

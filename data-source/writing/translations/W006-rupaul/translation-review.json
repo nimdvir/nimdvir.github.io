@@ -1,6 +1,6 @@
 {
   "articleId": "W006",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
   "authorship": {
     "author": "Nimrod Dvir",
@@ -23,12 +23,9 @@
     "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
-    "Parentheticals kept as parentheticals with the same function",
-    "Mock-honorifics, epithets and diminutives carried at the same weight",
-    "Understatement not intensified; concessions after sharp lines kept",
-    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
-    "No jokes, transitions, explanations or conclusions added; no em dashes"
+    "Section heads 'Beach, Please' and 'Lashes to Ashes' replace untranslatable puns with English ones",
+    "'a machine gun of one-liners', 'the Queen, 48' kept as epithets",
+    "Prompts kept flirtatious and short: 'Lovely. Tell me, are you single?'"
   ],
   "decisions": [
     "Title reuses the published page's faithful headline, with the Hebrew quotation marks kept.",
@@ -48,5 +45,12 @@
   "existingEnglishPage": {
     "path": "src/content/interviews/rupaul.md",
     "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
-  }
+  },
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (orchestrator), from the Hebrew, per voice-translation-brief.md",
+  "portfolioGroup": "international-interview",
+  "defectsFixed": [
+    "literal 'On the Beach' heading",
+    "'Champions' corrected to the album title Champion"
+  ]
 }

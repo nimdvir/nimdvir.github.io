@@ -1,6 +1,6 @@
 {
   "articleId": "W002",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
   "authorship": {
     "author": "Nimrod Dvir",
@@ -23,12 +23,9 @@
     "Names, numbers, dates and ages checked against the Hebrew; historical wording not corrected"
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and fragment verdicts preserved as short sentences",
-    "Parentheticals kept as parentheticals with the same function",
-    "Mock-honorifics, epithets and diminutives carried at the same weight",
-    "Understatement not intensified; concessions after sharp lines kept",
-    "Present-tense narration kept; Hebrew dropped subjects supplied in English",
-    "No jokes, transitions, explanations or conclusions added; no em dashes"
+    "Opening 'They used to tell us crime doesn't pay. Then again...' keeps the proposition-and-undercut; 'Meet the 2005 model Jim Carrey' keeps the direct address",
+    "'A lot of water has gone over Niagara' keeps the twisted idiom",
+    "Prompts rebuilt as spoken English: 'Hold on, you count your own salary in millions too.'"
   ],
   "decisions": [
     "Title 'And Now, Seriously' follows the Hebrew; the published page's title appends ': Jim Carrey', which the Hebrew headline does not have.",
@@ -49,5 +46,12 @@
   "existingEnglishPage": {
     "path": "src/content/interviews/jim-carrey.md",
     "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
-  }
+  },
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (orchestrator), from the Hebrew, per voice-translation-brief.md",
+  "portfolioGroup": "international-interview",
+  "defectsFixed": [
+    "Hebrew word order in narration",
+    "literal renderings of quotes"
+  ]
 }

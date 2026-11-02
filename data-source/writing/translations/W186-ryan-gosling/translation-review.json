@@ -1,7 +1,7 @@
 {
   "articleId": "W186",
   "englishTitle": "Ryan Gosling: \"The Ofnobank Is My Idol\"",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
   "authorship": {
     "author": "Nimrod Dvir",
@@ -19,10 +19,9 @@
     "No body hyperlinks in the source; none added."
   ],
   "voiceChecks": [
-    "Opening 'The next surprising discovery came right at the start' kept as the dry setup; 'the Hollywood hunk' kept as the mock-epithet.",
-    "Caption 'Spot the differences' under the Leibovitz photo kept; 'Makes you want one' kept as the short caption beat.",
-    "Closing paragraph keeps the turn from 'insists on staying dressed' to the strippers comparison and ends on Gosling's own line about singing and dancing.",
-    "Narration stays in present tense; no jokes added."
+    "'Israel's motorcycle bandit' replaces the transliteration 'Ofnobank'; headline 'The Motorcycle Bandit Is My Idol'",
+    "'fetishize violence' instead of 'make a fetish of violence'",
+    "Section head 'Thinking Outside the Six-Pack' keeps the pun"
   ],
   "decisions": [
     "'האופנובנק' kept as the nickname 'Ofnobank' throughout, with the gloss 'Israel's \"Ofnobank\" motorcycle bank robber' in the subtitle (its first appearance for an English reader); in the body it stays unglossed as in the Hebrew. The APA gloss in the footer is the archive's own bracketed translation and was copied unchanged.",
@@ -39,5 +38,12 @@
   ],
   "unresolvedQuestions": [
     "Whether a website version should add a one-line gloss on Roni Leibovitz for non-Israeli readers beyond the subtitle gloss."
+  ],
+  "revisedOn": "2026-10-31",
+  "revisedBy": "Claude (orchestrator), from the Hebrew, per voice-translation-brief.md",
+  "portfolioGroup": "international-interview",
+  "defectsFixed": [
+    "'To be connected as closely as possible to the real America, the film's production did everything it could to put the actors in the atmosphere'",
+    "orphan photo credits now dropped by the page builder"
   ]
 }

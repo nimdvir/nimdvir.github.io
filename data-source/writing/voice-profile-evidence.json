@@ -1,6 +1,6 @@
 {
   "profile": "data-source/writing/voice-profile.md",
-  "version": "1.0",
+  "version": "1.1",
   "preparedOn": "2026-10-30",
   "status": "draft for Nim review",
   "inventory": "data-source/writing/articles.csv",
@@ -2645,5 +2645,12 @@
     "Headline and subtitle authorship is uncertain.",
     "2017 At and 2019 Israel Hayom periods are represented by two pieces each.",
     "The earlier AI-generated English draft of W046 was not used as evidence."
+  ],
+  "revisions": [
+    {
+      "date": "2026-11-01",
+      "summary": "Section 6.4 added after Nim rejected the October 30 literal drafts; lessons drawn from seven before-and-after pairs in data-source/writing/voice-comparison/ (W001, W002, W003, W004, W006, W023, W089) and the W186 pilot. Section 9 items 13 to 16 and the section 13 instruction block updated. W094 withdrawn from the corpus the same week.",
+      "evidenceFolder": "data-source/writing/voice-comparison/"
+    }
   ]
 }

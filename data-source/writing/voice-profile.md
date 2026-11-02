@@ -1,6 +1,6 @@
 # Nimrod (Nim) Dvir: writing-voice profile
 
-Version 1.0, prepared October 30, 2026, from the verified Hebrew archive in this repository. Status: **draft for Nim's review**. The evidence record for every claim below is `voice-profile-evidence.json` in this folder.
+Version 1.1, prepared October 30, 2026, from the verified Hebrew archive in this repository, and revised November 1, 2026 after the first English revisions (section 6.4). Status: **draft for Nim's review**. The evidence record for every claim below is `voice-profile-evidence.json` in this folder. Worked before-and-after examples for seven interviews are in `voice-comparison/`.
 
 This document has two jobs. It tells a translator what to protect when carrying one of Nim's Hebrew articles into English, and it tells a writer what Nim's prose actually does so that new English writing on his behalf sounds like him. It is not a formula. When a single article does something the profile does not predict, the article wins.
 
@@ -308,6 +308,38 @@ English that keeps the rhythm: "The plot, if the term applies here, follows an i
 
 What was protected: the parenthetical doubt about "plot", the two "naturally"s that set up the deadpan, the one-word verdict. What was not added: an adverb, a second joke, an explanation.
 
+### 6.4 What the first revisions taught (October 31 to November 1, 2026)
+
+The first full set of English drafts (October 30) passed every fidelity check in section 10 and Nim rejected them as "clunky and really not my style." Twenty-five pieces were then rewritten from the Hebrew, and seven of them (W001, W002, W003, W004, W006, W023, W089) are preserved as before-and-after pairs in `voice-comparison/`. The comparison exposed failure modes that the checklist did not catch, because they are failures of English, not of fidelity.
+
+**Fidelity is necessary and not sufficient.** A translation can keep every paragraph, prompt and joke in order and still not sound like Nim, because the sentences are Hebrew sentences wearing English words. The target is what a native English-speaking magazine journalist would have written from the same notes.
+
+**Calque syntax is the main offender.** The rejected drafts kept Hebrew clause order, Hebrew connectives ("and indeed", "as mentioned" at sentence openings, "that is" for כלומר), Hebrew present-participle chains, and Hebrew nominal phrases. Each sentence has to be rebuilt as an English sentence with the judgment or joke still in its final clause.
+
+| Hebrew | Rejected | Revised |
+| --- | --- | --- |
+| כדי להיות מחובר עד כמה שניתן לאמריקה המציאותית, הפקת הסרט עשו המירב במטרה להכניס את השחקנים לאווירה (W186) | To be connected as closely as possible to the real America, the film's production did everything it could to put the actors in the atmosphere. | To keep the film as close as possible to the real America, the production went out of its way to put the actors inside it. |
+| השנה האחרונה היתה רחוקה מחיוכים לג'וליה לואי דרייפוס (W003) | The past year has been far from smiles for Julia Louis-Dreyfus | The past year gave Julia Louis-Dreyfus little to smile about |
+| ברגע זה היה יכול להפוך לסרט סוחט דמעות (W002) | In an instant this could have turned into a tearjerker. | That could have been a tearjerker in a heartbeat. |
+
+**Quotations are speech.** The interviewees spoke English; the Hebrew is Nim's rendering of it. Translating the Hebrew back into written English produces lines no one says. Give the speaker the natural spoken form: "fetishize," not "make a fetish of"; "I'm scared of going to prison," not "I am afraid to go to prison." This does not license new content or improved logic; it licenses the register a person actually uses.
+
+**Slang maps to register, and the mapping is now partly recorded.** מבסוט מהחיים became "happy as a clam" (W001), not "pleased with life"; בינונית מינוס became "a C-minus singer" (W004), not "mediocre-minus"; לפרגן became "wanting to be generous" with the concession kept; "בחור טוב, אתם יודעים" became "Good guy, you know." without the article. Mock-epithets survive intact ("the Queen, 48", "a machine gun of one-liners", "the Hollywood heartthrob"), and so do Nim's verdict sentences ("It worked." "Shocking." "Ouch.").
+
+**Israeli terms are translated by meaning, never transliterated.** "Ofnobank" meant nothing to an English reader and made the headline unreadable; it is now "Israel's motorcycle bank robber" on first mention and "the motorcycle bandit" afterwards. The same rule covers outlets, channels, shows and nicknames: "Shishabat" became "Israel Hayom's weekend magazine"; a Hebrew film title that Nim glosses himself keeps his aside in a form that works in English ("in Israel it goes by 'A Billion Reasons for a Heist,' which is not quite the same thing", W023). People and places keep their established English spellings. Israeli references themselves (Zehava Ben, Pnina Rosenblum, Dana International) stay; only the meaning crosses, with a two-to-six-word gloss when the joke depends on it.
+
+**Headlines and section heads need an English solution, not a literal one.** Where the Hebrew is a pun that cannot cross, the revision finds an English pun that does the same job or writes a clean, specific head, and records the choice: און דה ביץ' (beach/bitch) became "Beach, Please"; ריסים לרסיסים (lashes/smithereens) became "Lashes to Ashes"; מנסה לצאת מהריבועים (abs/squares, with "think outside the box" underneath) became "Thinking Outside the Six-Pack". These are editorial calls Nim should overrule when they do not sound like him.
+
+**Narration verbs carry tone.** "he says, excited" is a dictionary rendering of מתרגש; "he says, thrilled" or "he grins" is what the scene needs. Hebrew's present-tense attributions (אומר, מחייך, נאנחת, נזכר) stay in the present but take the English verb that fits the beat (says, grins, sighs, recalls), and "declares" is used only where the Hebrew is making a point of the declaration.
+
+**Numbers and furniture follow English house style.** "her 3 debut singles" becomes "her first three singles"; the publisher's "N.D." editorial bracket stays as "(... N.D.)"; Israel Hayom's "• • •" section breaks are kept; the bold dateline byline is dropped from the body because the page prints the author, and the city, when it matters, is already in the first paragraph.
+
+**Publisher photo captions and credits do not print without the photo.** They stay in the translation file as provenance, under a comment line, and the page builder drops them. "(Photo: Gettyimages)" under an empty space was one of Nim's three named complaints.
+
+**What stayed constant.** Paragraph, prompt and answer counts matched the Hebrew in all seven revised pieces. Serious passages (the cancer and bereavement paragraphs in W003) are as straight after the revision as before. No joke was added, explained or moved; the revisions change how the English is built, not what it says.
+
+**Where the gap was small.** In the two 2019 Israel Hayom pieces (W003, W089) the literal draft was already competent English, and the revision is a polish. In the 2005 Ynet pieces (W001, W052) and in the promotional interviews with dense Israeli references (W186) the literal draft was unreadable as Nim. The effort belongs where the Hebrew is loosest and most local.
+
 ---
 
 ## 7. Writing new material on Nim's behalf
@@ -372,6 +404,10 @@ The corpus is journalism in Hebrew for Israeli readers between 2005 and 2019. It
 10. **Flattening the register mix.** Rendering everything in one neutral register loses the collision of formal and street Hebrew that is the most distinctive thing about the prose. In English, keep an occasional formal connective ("as befits", "one notes") next to a plain colloquial verdict.
 11. **Over-glossing.** Explaining every reference in a clause turns the prose into a footnote. Gloss only where the joke depends on it.
 12. **Treating headlines and subtitles as his.** They may be editorial. Build the voice from body text.
+13. **Calque syntax passing as fidelity.** Keeping Hebrew clause order and connectives because "every word is there." A sentence that is complete and in order can still be one nobody would write in English (section 6.4). Rebuild it; keep the last clause last.
+14. **Back-translating speech into prose.** Rendering an actor's spoken line as written English ("make a fetish of") because that is what the Hebrew words say. The Hebrew is Nim's transcription of English speech; give it back its spoken form without adding content.
+15. **Transliterating what should be translated.** "Ofnobank," "Shishabat," "Kokhav Nolad" left as sounds. The reader needs the meaning, in a few words, on first mention; the reference itself stays Israeli.
+16. **Literal headings.** "On the beach" for a beach/bitch pun. A heading is a headline; it needs an English headline's solution, and the choice gets recorded.
 
 ---
 
@@ -474,14 +510,21 @@ challenges are stated, not performed; evasion is printed and interpreted
 in narration. End on the subject's best line or a callback.
 
 Translation: keep every paragraph, prompt, answer, caption, credit in
-order; prompts bold in their own paragraph. Split long Hebrew sentences
-only when English needs it and keep the punchline last. Keep Israeli
-references, gloss in two or three words only when the joke depends on it,
-never substitute foreign equivalents. Render transliterated English as
-plain English without inventing a compensating joke. Do not intensify
-understatement, explain jokes, add transitions, or append conclusions.
-Quotes are translations of the published Hebrew, not reconstructed
-English. Use established English names and titles.
+order; prompts bold in their own paragraph. Rebuild every sentence as an
+English sentence (no Hebrew clause order or connectives) and keep the
+punchline last. Quotes are translations of the published Hebrew, not
+reconstructed English, but they are speech: use the form a native speaker
+says ("fetishize", not "make a fetish of"). Translate Israeli terms by
+meaning on first mention ("Israel's motorcycle bank robber", not
+"Ofnobank"); keep the Israeli reference itself, gloss in two to six words
+only when the joke depends on it, never substitute foreign equivalents.
+Headlines and section heads get an English headline's solution, pun for
+pun or clean and specific, with the choice recorded. Render transliterated
+English as plain English without inventing a compensating joke. Do not
+intensify understatement, explain jokes, add transitions, or append
+conclusions. Use established English names and titles. Publisher photo
+captions stay in the file as provenance and never print without the photo.
+Before-and-after examples: data-source/writing/voice-comparison/.
 
 New writing: style only; every fact, opinion, memory, reference comes from
 Nim. Match register to audience: no entertainment slang, mock-honorifics,

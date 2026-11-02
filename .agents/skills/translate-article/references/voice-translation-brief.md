@@ -25,6 +25,8 @@ Read both before you start. They set the standard:
 
 and compare each against its Hebrew in `data-source/writing/originals/`. Notice what moved (clauses, not meaning), what stayed short, where the joke sits, how an Israeli reference is handled, and how the frontmatter, body, provenance comments and footer are laid out.
 
+Then read `data-source/writing/voice-comparison/README.md`. It holds seven interviews as Hebrew / rejected draft / revised version side by side, with the changes sorted into categories. Section 6.4 of the voice profile summarizes the same lessons. If you are unsure whether a sentence of yours is a calque, find its nearest cousin there.
+
 ## 3. Method
 
 1. Read the whole Hebrew article once without translating. Decide what kind of piece it is and what register Nim is using (loose 2005 Ynet, service-journalism promo, nrg "Rating" explainer, Xnet column, measured Israel Hayom). Section 3H of the profile maps these.
