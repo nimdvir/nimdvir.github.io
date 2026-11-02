@@ -1,12 +1,15 @@
 {
   "articleId": "W163",
-  "englishTitle": "Connected",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Well Connected",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
+  "portfolioGroup": "israeli-interview",
   "sourceTextBlocks": 40,
   "translatedTextBlocks": 40,
   "questionBlocks": 10,
@@ -14,32 +17,67 @@
   "creditLines": 2,
   "images": 0,
   "completenessChecks": [
-    "First block (the balabusta opening, which the source prints without an opening quotation mark; reproduced the same way) and last block (the 'apparently I'm one of those' answer) match the source-record first and last text blocks.",
-    "36 body text blocks plus 4 section headings translated in order; 10 prompts bold and separate.",
-    "Multi-paragraph answers keep their paragraph boundaries (three-paragraph answer after the first prompt, two-paragraph answers elsewhere).",
-    "Two production/photo credit lines (video credit after paragraph 2; photo credits before the final caption) kept as plain lines in their original positions; 5 captions translated; no images embedded."
+    "26 narrative and answer paragraphs, 10 bold prompts and 4 section headings present in the Hebrew order; no paragraph split or merged.",
+    "Multi-paragraph answers keep their boundaries (three paragraphs after the first prompt, two after the market prompt, two after the company question, two around the Goldblum caption, two after 'Why does that matter?').",
+    "All 5 captions translated with a provenance comment on the line above; the two publisher credit lines (video crew after paragraph 2, photo credits before the cover caption) kept the same way so the page builder drops them.",
+    "First block (balabusta) and last block ('Apparently I'm one of those') match the source-record first and last text blocks."
   ],
   "voiceChecks": [
-    "The '(take a breath)' aside before the long list of occupations kept as a parenthetical.",
-    "Comic measures kept: 'a pace that would give an ordinary person a mild epileptic fit', 'as industrious as an ant, plowing the city on heels', 'swims hard in the Los Angeles industry'.",
-    "Narration's impression framing ('she seems to rather enjoy mixing business into her résumé') kept, no intensifiers.",
-    "Short prompts kept short ('Why?', 'How much money is in it?')."
+    "The '(take a breath)' aside stays parenthetical in front of the long list, and the list keeps its semicolon rhythm and ends on the decade-ago clause as in the Hebrew.",
+    "Comic measures translated literally, not replaced: 'a mild epileptic fit', 'as industrious as an ant, plowing the city in heels', 'swimming hard in the Los Angeles industry'.",
+    "Impression-framed judgment kept without intensifiers: 'she seems to rather enjoy mixing a little business into the résumé'.",
+    "Tishby's spoken register kept in the quotes: 'fabulous' / 'fabulous plus', 'pretty bummed', 'tons', 'so who am I', 'What about now? And now? And now?'.",
+    "Short prompts stay short ('Why?'); statement-like prompts stay blunt but friendly ('Doesn't the double life raise eyebrows?')."
   ],
+  "israeliTermsRendered": {
+    "בלבוסטע": "balabusta, kept because Tishby defines it; narrator's gloss rendered 'the Yiddish for the woman of the house, the big mama who runs the show'",
+    "בטיפול": "named once as 'the Israeli series BeTipul' in the credits paragraph; every later mention is In Treatment, the US show the sentence is actually about",
+    "מרחק נגיעה": "A Touch Away (the Israeli series' established English title), introduced as 'the Israeli dramas A Touch Away and Screens'",
+    "מסכים": "Screens (literal; no established English title found)",
+    "להקת השכנים של צ'יץ'": "the Neighbors, the pop star Tzvika Pick's backing group",
+    "להקת חיל החינוך": "the Education Corps band",
+    "רמת אביב ג'": "the soap Ramat Aviv Gimmel",
+    "ותיקת ביצה": "an industry veteran (the 'swamp' idiom for the local scene dropped in favor of meaning)",
+    "אופנת ml": "the fashion label ml, as printed",
+    "מנכ\"לית HBO": "the head of HBO",
+    "קטונתי": "so who am I",
+    "התבאסתי": "pretty bummed",
+    "מהמם / מהמם פלוס": "fabulous / fabulous plus"
+  },
   "decisions": [
-    "'בלבוסטע' kept as 'balabusta' because Tishby defines it in the text; the narrator's gloss translated as 'a sort of house mother slash big mama who runs things'.",
-    "'ותיקת ביצה' rendered as 'veteran of the swamp' to keep the Israeli idiom for the local scene rather than flattening to 'veteran of the scene'.",
-    "Israeli series titles: 'בטיפול' kept as BeTipul with In Treatment used where the Hebrew uses the English title; 'מרחק נגיעה' rendered as Touching Distance and 'מסכים' as Screens (literal glosses; no established English titles); 'רמת אביב ג'' as Ramat Aviv Gimmel; Tzvika Pick's 'להקת השכנים' as 'the Neighbors'; 'להקת חיל החינוך' as the Education Corps entertainment troupe.",
-    "'מהמם' / 'מהמם פלוס' in Tishby's answer rendered as 'gorgeous' / 'gorgeous plus' to keep her slang.",
-    "'קטונתי' rendered as 'who am I to argue'; 'התבאסתי' as 'was very bummed'.",
-    "Fashion label 'ml' and company name Noa's Arc kept as printed.",
-    "Film and series titles use their English originals (Ghosts of Girlfriends Past, Big Love, NCIS, The Deep End, Nip/Tuck, Charmed, CSI: NY, The Island, Six Feet Under)."
+    "Headline 'מחוברת' (connected, in the sense of well connected) rendered 'Well Connected'; 'Connected' alone read like a tech headline.",
+    "Subtitle: 'הישראלית הכי בכירה בהוליווד' rendered 'the highest-ranking Israeli in Hollywood'; 'מגישה מדריך' rendered 'offers a guide'.",
+    "Andrew G's surname uses the established spelling Günsberg (the Hebrew transliterates it גינזבורג); 'the Australian version of American Idol' rendered as the show's actual title, Australian Idol.",
+    "'מתווכת' in the hyphenated epithet rendered 'dealmaker' rather than 'broker'.",
+    "Section heads: 'עסוקה כל הזמן בחיפוש הדבר הבא' as 'Always Hunting for the Next Thing'; the three quoted heads translated to match the quotes they come from.",
+    "Opening quotation mark, missing in the Hebrew capture, supplied in the English because its absence would read as our typo.",
+    "Established English titles used throughout: Ghosts of Girlfriends Past, Big Love, NCIS, The Deep End, Nip/Tuck, Charmed, CSI: NY, The Island, Six Feet Under; David Kelley given as David E. Kelley.",
+    "Video credit line and photo credits line placed under provenance comments as italic lines so they are archived but not printed on the page."
+  ],
+  "lostInTranslation": [
+    "'ביצה' (the swamp, Israeli slang for the small local industry) has no English equivalent that is not a calque; 'industry veteran' keeps the meaning and loses the color, in the body and in the caption.",
+    "Transliterated English in the Hebrew ('ביג טיים', 'פריים טיים', 'ביזנס', 'אינסטנט') simply becomes English; the code-switch texture is gone.",
+    "'מילה מגדירה יפה' and the Hebrew word play between מחוברת (connected) and מרחק נגיעה (a touch away) do not carry."
+  ],
+  "defectsFixed": [
+    "'is involved in almost everything: she (take a breath) produces the American version of BeTipul' rebuilt so the list follows a full stop and names In Treatment, which an English reader knows.",
+    "'Tishby is a veteran of the swamp, both here and in Hollywood' and the matching caption replaced with 'an industry veteran'.",
+    "'in the producer's hat she wears', 'swims hard in the Los Angeles industry', 'as industrious as an ant, plowing the city on heels', 'sorts herself out with coffee and walking the dog' rebuilt as English sentences.",
+    "Quotes back-translated into written English ('not to relate to the word no', 'what makes it to the finished product is the quality stuff', 'I can't cooperate with the fantasy', 'It is in no way, shape, or form millions of dollars', 'The business conversation rolls along quite naturally') given their spoken form.",
+    "Hebrew connectives at sentence openings ('Really, only someone who lives there understands this', 'Many times things fall through in the middle', 'If last year between 140 and 180 pilots were produced') rebuilt.",
+    "Orphan Israeli terms glossed on first mention: BeTipul, A Touch Away, Screens, the Neighbors, Ramat Aviv Gimmel.",
+    "Bare 'Video: Orly Dayan...' and 'Photos: ...' lines that would have printed on the page without media now sit under provenance comments."
   ],
   "sourceProblems": [
-    "Source opening lacks an opening quotation mark and reads 'שניהם מהם ל־HBO' (should be 'שניים מהם'); the English says 'two of them for HBO' and the missing quotation mark is reproduced as in the source.",
+    "Source opening lacks an opening quotation mark; supplied in English (see decisions).",
+    "Source reads 'שניהם מהם ל־HBO' (should be 'שניים מהם'); the English says 'two of them for HBO'.",
     "Source promotes additional material in the print Pnai Plus issue; this package is the complete online edition only (source-record note).",
-    "The subtitle credits 'Touching Distance and Screens' as HBO projects while the answer says both are in development with no pilot shot; both kept as printed."
+    "The subtitle counts A Touch Away and Screens as HBO projects while the answer says both are in development with no pilot shot; both kept as printed.",
+    "The Hebrew says 'מנכ\"לית HBO' (a female CEO); rendered neutrally as 'the head of HBO' because the executive is not named."
   ],
   "unresolvedQuestions": [
-    "Should 'Touching Distance' and 'Screens' carry the Hebrew titles in brackets on the website page, given that neither adaptation has an established English title?"
+    "Is 'Well Connected' the headline Nim wants, or does he prefer the plain 'Connected'?",
+    "Should 'Screens' carry its Hebrew title (Masachim) on the website page, given that no English title exists for the adaptation?",
+    "Günsberg vs. the Hebrew's Ginzburg: confirm the spelling Nim wants for Andrew G."
   ]
 }

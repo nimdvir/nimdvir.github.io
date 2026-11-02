@@ -1,43 +1,87 @@
 {
   "articleId": "W125",
-  "englishTitle": "SEX FILES: An Interview with David Duchovny",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Sex Files: An Interview with David Duchovny",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 33,
   "translatedTextBlocks": 33,
   "questionBlocks": 8,
   "captions": 3,
   "images": 0,
   "completenessChecks": [
-    "Opening paragraph (Hank Moody introduction) and closing answer (Mulder sandbox line) match the source-record first and last blocks.",
-    "31 body text blocks plus 2 section headings translated in original order; the three-paragraph continuing answer after the first heading keeps its paragraph boundaries.",
-    "All 8 interviewer prompts are bold and separate; none ends without a question mark in this piece.",
-    "Three captions translated with credits (publicity, EPA) kept; no publisher images embedded, matching the Hebrew file."
+    "23 narrative and answer paragraphs, 8 bold prompts and 2 section headings present in the Hebrew order; no paragraph was split or merged.",
+    "The three-paragraph continuing answer after the first heading keeps its paragraph boundaries and the opening quotation mark on each continuation paragraph.",
+    "All 8 prompts are bold and separate; all are questions in this piece.",
+    "Three captions translated with credits (publicity, EPA) kept, each directly under its provenance comment; no publisher images embedded, matching the Hebrew file.",
+    "The stray bidirectional marks and odd spacing of the nrg capture ('להיכב נע', 'ומודי ,', 'עדיין ,', 'איפשהו .') were read through and not reproduced."
   ],
   "voiceChecks": [
-    "Narration kept its contrast structure (Mulder versus Moody) with the same sentence splits.",
-    "The 'on a third hand' escalation and the trailing 'is . . . somewhere' joke on the X-Files motto kept at their understated weight.",
-    "No jokes added; the duty-bound final prompt ('will probably follow you to the end of your days') kept as a bold statement-question.",
-    "Quoted speech translated at register (bullshit kept)."
+    "The explanatory lead for Israeli viewers (who Moody is, who Mulder was, HOT 3) kept as explanation; the Mulder/Moody contrast kept as one colon sentence with a semicolon hinge.",
+    "'if you must find something' kept as the hedging parenthetical clause; 'Loneliness, for one' kept as the short follow-on.",
+    "The 'on the one hand / on the other / on the third hand' escalation and the trailing '. . . somewhere' twist on 'the truth is out there' kept at their understated weight; no explanation added.",
+    "'(and Jewish, going by the name Amram)' kept as the aside it is.",
+    "'That's it.' kept as a two-word sentence closing the Duchovny dodge.",
+    "The final prompt keeps its mock-weary 'has to be asked'; the piece ends on Duchovny's sandbox line."
   ],
+  "israeliTermsRendered": {
+    "הוט 3": "Israel's HOT 3 on first mention (subtitle), then HOT 3",
+    "מעריב": "Maariv (the paper; this piece ran in nrg, Maariv's website)",
+    "סופר מצליח במיל'": "a successful novelist (ret.), keeping the reserve-duty joke in English military shorthand"
+  },
   "decisions": [
-    "Series and film titles use established English titles: Californication, The X-Files, Red Shoe Diaries.",
-    "'במכון לגמילה מסקס' rendered as sex-addiction clinic / facility; 'מכור למין' as addicted to sex.",
-    "'יצור כלאיים מוזר, קומדיה רגשנית' rendered as 'a strange hybrid, an emotional comedy'.",
-    "The Hebrew gloss 'וגם יהודי, הנושא בשם עמרם' rendered as '(and Jewish, with the first name Amram)'.",
-    "'האיגוד האמריקני למשוררים' translated descriptively as 'the American society of poets' rather than naming a specific organization the Hebrew does not name.",
-    "Hebrew 'ל\"מעריב\"' kept as Maariv; publisher name in frontmatter follows the Hebrew file (nrg Maariv)."
+    "Headline: the Hebrew prints 'SEX FILES' in Latin capitals; rendered in title case as 'Sex Files: An Interview with David Duchovny', the nrg 'Rating' column format.",
+    "Section heading 'רצון ויכולת לזעזע' rendered 'Willing and Able to Shock', echoing Duchovny's own phrase in the next paragraph.",
+    "Section heading 'סדרה באפלה' (a pun on the Hebrew X-Files title 'Files in the Dark') rendered 'The Ex-Files'; a literal 'A Series in the Dark' carries no pun in English.",
+    "'האיגוד האמריקני למשוררים' rendered as the Academy of American Poets, the organization whose college prize Duchovny won at Princeton; the earlier draft's vague 'American society of poets' named nothing.",
+    "'אהובתו המיתולוגית' rendered 'the great love of his life'.",
+    "'קומדיה רגשנית' rendered 'a sentimental comedy'; 'הקשקוש של החיים' rendered 'the bullshit of life'.",
+    "'מדובר בדמות מפסידנית למדי, לא?' rendered 'The character's quite a loser, isn't he?'",
+    "'לא כשיר לפעולה' rendered 'unfit for duty'.",
+    "Established English titles used: Californication, The X-Files, Red Shoe Diaries.",
+    "Quotations are translations of the published Hebrew in spoken register, not reconstructed English speech."
+  ],
+  "lostInTranslation": [
+    "'נע ונד' (Cain's 'fugitive and wanderer') is a biblical register the English 'wanders in and out' does not carry.",
+    "The Hebrew X-Files title 'תיקים באפלה' lets the second heading pun on 'files'; English readers meet the English title, so the heading pun was rebuilt rather than translated."
+  ],
+  "defectsFixed": [
+    "'As of today, most viewers know' replaced with 'These days most viewers know'; 'quick-tongued' replaced with 'smooth-talking'.",
+    "'The gap between Fox Mulder ... is a wide one: where one was buttoned up, disciplined, and preoccupied with fateful questions' rebuilt as 'The distance ... is considerable: one wore a tie, followed orders and worried about fateful questions'.",
+    "'The resemblance between the two, if one has to be found, is that both are men who ... refuse to bow to society's dictates' replaced with 'What they have in common, if you must find something, is that both are men who ... refuse to bow to what society expects'; 'long ... for female closeness' replaced with 'pine ... for a woman's closeness'.",
+    "'50 by now' replaced with '50 already'; 'a once-successful novelist' replaced with 'a successful novelist (ret.)' to restore the במיל' joke.",
+    "'He finished his studies at Princeton with a degree in English literature' replaced with 'He graduated from Princeton in English literature'; 'dabbled in poetry' replaced with 'tinkered with poetry'; 'his handsome looks led him into modeling work' replaced with 'his good looks led him to modeling'.",
+    "'He first became known for the lead role in the soft-erotic series' replaced with 'He first made a name for himself in the lead of the softcore series'; 'Then he moved on to Mulder in The X-Files, which brought him enormous worldwide fame' replaced with 'Then came Mulder on The X-Files, and with him enormous worldwide fame'.",
+    "'he drifts in and out of the world of urges' replaced with 'he wanders in and out of the world of appetites'; 'no small lover of sex' replaced with 'no small fan of sex'.",
+    "'how to balance the ability to shock the audience against being more restrained' replaced with 'how to balance the option of shocking the audience against holding back'; 'we have the ability and the will to shock' replaced with 'we're willing and able to shock'.",
+    "'slip wild scenes in with some charm' replaced with 'slip in wild stuff gracefully'.",
+    "'I told the production that it's one thing to write it' replaced with 'I told the producers that it's one thing to write something'; 'I think Tom understands me' replaced with 'I think Tom gets me'.",
+    "'There's no small amount of irony to be found in Duchovny's life' replaced with 'There's no shortage of irony in Duchovny's life'; 'On a third hand' replaced with 'On the third hand'.",
+    "'It's not on my agenda to make America sexually liberated' replaced with 'Making America sexually liberated is not on my agenda'; 'an emotional comedy' replaced with 'a sentimental comedy'; 'not to educate and change' replaced with 'not to educate and reform'.",
+    "'He's a fairly losing character, isn't he?' (calque) replaced with 'The character's quite a loser, isn't he?'; 'a character who says what he thinks' replaced with 'a character who speaks his mind'; 'afraid we'll get fired or dumped, or whatever it is' replaced with 'afraid of getting fired or dumped, or whatever'.",
+    "'I don't see myself in a place where I'd run into him. Our worlds simply wouldn't connect' replaced with 'I don't see myself anywhere I'd run into him. Our worlds just wouldn't meet'; 'He's exaggerated' replaced with 'He's over the top'.",
+    "'Raising children isn't simple' replaced with 'Raising kids isn't simple'; 'I think what's lovely is that he clearly cares' replaced with 'I think the lovely thing is that he clearly cares'.",
+    "'though few of them have become impressive box-office successes' replaced with 'though few of them have been much of a hit at the box office'.",
+    "'so for me it's really a 13-week job. I prepare for the first episode a week in advance' replaced with 'so for me it's basically a 13-week job: I prep for the first episode a week ahead'.",
+    "'make a big pile of money all at once' replaced with 'make a big pile of money in one go'; 'I'll always aim for more than I've done' replaced with 'I'll always aim higher than what I've done'; 'develop as a director' replaced with 'grow as a director'.",
+    "'all in the same tone' replaced with 'all hitting the same tone'; 'which also translates to the screen' replaced with 'which comes through on screen too'.",
+    "'And we have to ask the question that will probably follow you to the end of your days: are there any plans' replaced with 'And the question that will probably follow you to the end of your days has to be asked: any plans'; 'recreate the world we built' replaced with 'revisit the world we built'; 'unfit for action' replaced with 'unfit for duty'.",
+    "Captions moved directly under their provenance comments so the page builder drops them with the missing photos."
   ],
   "sourceProblems": [
-    "Hebrew source has spacing artifacts ('להיכב נע', 'ומודי ,') retained in the Hebrew; translated as intended words.",
-    "Source states Duchovny is 'כבר בן 50' in June 2010; he turned 50 in August 2010. Wording kept as printed.",
-    "Source says he separated from his wife two years earlier (subtitle) while the body says he is married to Téa Leoni; both statements kept as printed."
+    "Hebrew source has nrg capture artifacts ('להיכב נע' for להיכנע, 'ומודי ,', 'עדיין ,', 'איפשהו .'); translated as the intended words, Hebrew left unchanged.",
+    "Source says Duchovny is 'כבר בן 50' in June 2010; he turned 50 in August 2010. Kept as printed.",
+    "Subtitle says he separated from his wife two years earlier; the body says he is married to Téa Leoni and a caption says she took him back. All kept as printed.",
+    "Source advertises nothing beyond the online edition; nothing reconstructed."
   ],
   "unresolvedQuestions": [
-    "Subtitle says HOT 3; keep the Israeli channel name in the English, or add a gloss when the page is built?"
+    "Whether Nim prefers the Hebrew capitals 'SEX FILES' kept in the English headline.",
+    "Whether 'The Ex-Files' is the heading Nim wants for 'סדרה באפלה', or a clean 'Mulder, Pending'-style head."
   ]
 }

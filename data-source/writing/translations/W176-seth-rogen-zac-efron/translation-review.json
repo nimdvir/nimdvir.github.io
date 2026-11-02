@@ -1,48 +1,85 @@
 {
   "articleId": "W176",
   "englishTitle": "Seth Rogen: \"There's Something Scary About Zac Efron\"",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 24,
   "translatedTextBlocks": 24,
   "questionBlocks": 8,
   "captions": 5,
   "images": 0,
   "completenessChecks": [
-    "All 15 narrative and answer paragraphs and 8 bold prompts present in original order; no section headings in the source.",
-    "Three narrative paragraphs that open with bold text in the Hebrew ('But let's leave Zacky alone', 'For Efron', '\"It's a never-ending struggle\"') kept as narrative paragraphs with the same bold span, not converted into prompts.",
-    "In-text bold on names (Zac Efron, Rita Ora, Seth Rogen, Evan Goldberg, Rose Byrne, Dave Franco, Lisa McCarthy, Charlie Day) preserved where the Hebrew bolds them.",
-    "The long combined paragraph of Efron and Rogen quotes on the transition period kept as one paragraph with its original quote sequence.",
+    "16 narrative and answer paragraphs and 8 bold prompts present in the Hebrew order; no section headings in the source; no paragraph was split or merged.",
+    "The three narrative paragraphs that open with bold text in the Hebrew ('But let's leave Zacky alone', 'For Efron', '\"It's a never-ending struggle\"') kept as narrative paragraphs with the same bold span, not turned into prompts.",
+    "In-text bold on names (Zac Efron, Rita Ora, Seth Rogen, Evan Goldberg, Rose Byrne, Dave Franco, Lisa McCarthy, Charlie Day) kept where the Hebrew bolds them.",
+    "The long combined paragraph of Efron and Rogen quotes on the transition period kept as one paragraph with the original quote sequence.",
     "Both body hyperlinks (MTV awards, Hollywood Reporter interview) kept on the same words.",
-    "All 5 captions translated, including the final credit-only caption 'Publicity'."
+    "All 5 captions translated, each directly under its provenance comment, including the final credit-only caption 'Publicity'."
   ],
   "voiceChecks": [
-    "The opening parenthetical about the Portuguese journalist kept as a parenthesis; 'Interesting.' kept as a one-word deadpan beat before the bronzer observation.",
-    "The sexual-harassment quip kept at its original weight, followed by the concession 'But let's leave Zacky alone'.",
-    "The very long comparative sentence contrasting Efron and Rogen kept as a single sentence with its semicolon, as in the Hebrew, since the accumulation is the point.",
-    "'(brother of)' kept as the bare deflating aside after Dave Franco.",
-    "The addiction and relapse paragraph kept serious and unsoftened."
+    "Opening parenthetical about the Portuguese journalist kept as a parenthesis with the narrator as the near-dupe ('I nearly melted in total belief'); 'Interesting.' kept as a one-word deadpan beat before the bronzer observation.",
+    "The sexual-harassment quip kept at its original weight and followed by the concession 'But let's leave Zacky alone'.",
+    "The repeated mock-formal tag 'one of the better-known Hollywood traits' / 'one of the better-known traits of the professional stoner' kept as a deliberate parallel.",
+    "'Maybe especially then.' kept as its own short sentence after the Godzilla line.",
+    "'(brother of)' kept as the bare deflating aside after Dave Franco; '(the reason we're all here)' kept as the parenthetical it is.",
+    "The addiction and relapse paragraph stays straight: no jokes, no softening, same detail.",
+    "Ending is Efron's own line about the popcorn line; nothing appended."
   ],
+  "israeliTermsRendered": {
+    "יח\"צ": "Publicity (photo credit)",
+    "קיבוץ": "kibbutz (established English word, no gloss)",
+    "היפה והחנון": "Beauty and the Geek (the show the caption plays on; the Hebrew is that show's Israeli title)"
+  },
   "decisions": [
-    "Established English titles used: Neighbors (for שכנים), High School Musical, Knocked Up (for הדייט שתקע אותי), Pineapple Express, Superbad, This Is the End (for סוף), It's Always Sunny in Philadelphia.",
-    "'זאקי' rendered 'Zacky' to keep the diminutive.",
-    "'סטלן מקצועי' rendered 'professional stoner'.",
-    "'בדיחות הבולבולים' rendered 'dick jokes' at the same register.",
-    "'הציפוי על העוגה' rendered 'the icing on the cake'; 'סיימתי בגדול' rendered 'I finished in style'.",
-    "Caption 'ברור מאמי, גנים!' rendered 'Of course, sweetie, it's genetics!'.",
-    "'יח\"צ' credit rendered 'Publicity'.",
-    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+    "Headline kept as a straight translation: Seth Rogen: \"There's Something Scary About Zac Efron\".",
+    "Established English titles used: Neighbors (שכנים), High School Musical, Knocked Up (הדייט שתקע אותי), Pineapple Express, Superbad, This Is the End (סוף), It's Always Sunny in Philadelphia (פילדלפיה זורחת).",
+    "'זאקי' rendered 'Zacky', the natural English spelling of the diminutive.",
+    "'סטלן מקצועי' rendered 'professional stoner'; 'בדיחות הבולבולים' rendered 'dick jokes'; 'שלל קוביותיו' rendered 'an array of abs'; 'יהודי לחלוטין' rendered 'the full article'.",
+    "The 40-plus-word Hebrew sentence contrasting the two actors (both Jewish... brother of) was rebuilt as four English sentences inside the same paragraph; the deflating '(brother of)' stays last.",
+    "'הסטודנטים' in Rogen's quotes rendered 'the frat' / 'the frat guys', the word an English speaker uses for a fraternity's members; Hebrew has no equivalent and uses 'students'.",
+    "'סיימתי בגדול' rendered 'I'm done, big time'; 'הציפוי על העוגה' rendered 'the icing on the cake'; 'מנסה, לפחות' kept as the two-word tail 'Trying, at least.'",
+    "'מודיע רוגן' kept as 'Rogen announces', since the Hebrew makes a small point of the formality.",
+    "Caption 'ברור מאמי, גנים!' rendered 'Sure, honey, it's genetics!'; caption 'היפה והחנון' rendered 'Beauty and the Geek'.",
+    "Quotations are translations of the published Hebrew in spoken register, not reconstructed English speech."
+  ],
+  "lostInTranslation": [
+    "The transliterated English in the Hebrew ('ג'אגלינג', 'נונסטופ', 'טריינינג') becomes plain English; the code-switch color is gone and was not compensated.",
+    "'מן הידועות שבתכונות' is more archaic in Hebrew than 'one of the better-known traits' is in English; the parallel survives, the register collision is softer."
+  ],
+  "defectsFixed": [
+    "'trying to keep track of the amount of nonsense he releases into the air' (calque) replaced with 'trying to keep count of the nonsense he sends out into the room'.",
+    "'I would almost have melted in complete belief, had I not seen him' replaced with 'I nearly melted in total belief, except that I had watched him'.",
+    "'In general, Efron, 27, seems to have no problem with bending the truth. For instance, when he insists that...' (sentence fragment copied from the Hebrew) rebuilt as 'Efron, 27, generally seems to have no trouble bending the truth. Take his insistence that...'.",
+    "'The fact that what he accidentally exposed there was a well-trimmed body generously smeared with bronzer' replaced with 'The body he happened to expose up there, well trimmed and generously slathered in bronzer'.",
+    "'smiles with a blinding gleam of teeth' replaced with 'smiles with a blinding flash of teeth'; 'certainly doesn't flirt with anyone' replaced with 'flirts with absolutely nobody'.",
+    "'Efron's approach stands in sharp contrast to that of the brilliant actor and creator Seth Rogen, his partner in the film Neighbors, the reason we've gathered here, who seems to have long ago given up the energy involved in trying to get people to like him' rebuilt as 'It's a sharp contrast with the approach of Seth Rogen, the brilliant actor and filmmaker who is his co-star in Neighbors (the reason we're all here), and who seems to have given up long ago on the energy it takes to make people like you'.",
+    "The single 90-word sentence 'Both are Jewish ... (brother of)' with its semicolon chain split into four sentences.",
+    "'the story of a comic struggle between a young couple plus one' replaced with 'a comic war between a young couple plus one'.",
+    "Rogen's 'There's no doubt that living next to kids is a nightmare' replaced with the spoken 'Living next to kids is a nightmare, no question'; 'for them to look like a loving couple' replaced with 'for them to come across as a couple in love'.",
+    "'We were all riveted by him' replaced with 'He had all of us riveted'.",
+    "'Actors report seeing you between takes punching the wall in frustration' replaced with 'Cast members say they saw you punching a wall in frustration between takes'.",
+    "'I wouldn't exaggerate' (calque of לא הייתי מגזים) replaced with 'I wouldn't go that far'.",
+    "'That's how it looks too: Neighbors is saturated with scenes of parties' replaced with 'It looks that way, too. Neighbors is soaked in party scenes'; 'a pair of stays in rehab' replaced with 'two stints in rehab'; 'found themselves in a fistfight' replaced with 'ended up in a brawl'.",
+    "'I finished in style' (misreading of סיימתי בגדול) replaced with 'I'm done, big time'; 'and with that I'm done' replaced with 'and that's me done'.",
+    "'I live with my brother as roommates' replaced with 'I share a place with my brother'; 'I enjoy the little anonymity I have' replaced with 'I enjoy what little anonymity I have'.",
+    "'And the fans don't make noise on the street for all the other neighbors?' replaced with 'And the fans don't make a racket on the street for the rest of the neighbors?'",
+    "Captions moved directly under their provenance comments so the page builder drops them with the missing photos."
   ],
   "sourceProblems": [
-    "Source names Melissa McCarthy as 'ליסה מקרת'י'; rendered 'Lisa McCarthy' as printed, per the source record, not corrected.",
+    "Source names Melissa McCarthy as 'ליסה מקרת'י'; rendered 'Lisa McCarthy' as printed, not corrected.",
+    "Narration says Efron is in bed by 9 p.m. (Hollywood Reporter account); Efron's quote says ten. Both kept as printed.",
     "Source record: the online version is complete, but the publisher pointed to a fuller interview in the print Pnai Plus issue; print-only material is not included or reconstructed.",
     "Source has a stray mismatched quotation mark in \"'שכנים\"\" (the relapse paragraph); normalized in English without changing wording."
   ],
   "unresolvedQuestions": [
-    "Whether Nim wants the misspelled 'Lisa McCarthy' annotated for readers in a website version (the draft keeps the source spelling)."
+    "Whether Nim wants the misprinted 'Lisa McCarthy' corrected to Melissa McCarthy on the website, or left as printed with a note.",
+    "Whether 'Zacky' is the spelling Nim wants for זאקי."
   ]
 }
