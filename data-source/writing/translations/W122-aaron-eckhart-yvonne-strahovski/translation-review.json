@@ -1,38 +1,63 @@
 {
   "articleId": "W122",
-  "englishTitle": "\"Millions of People Feel Rejected, Like Frankenstein\"",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "\"Millions of People Feel as Rejected as Frankenstein\"",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 5,
-  "translatedTextBlocks": 5,
+  "translatedTextBlocks": 4,
   "questionBlocks": 0,
   "captions": 2,
   "images": 0,
   "completenessChecks": [
     "First block (Mary Shelley's monster) and last block (Eckhart on rejection) match the source-record first and last text blocks.",
-    "5 body text blocks translated in order, including the publisher's split of 'Bill / Nighy' across two paragraph blocks, which is reproduced rather than silently rejoined.",
-    "No interviewer prompts exist in this piece; both captions translated (no credits in the source); the Ynet film-page hyperlink kept on the same words."
+    "All source text translated in order. The publisher's split of 'Bill / Nighy' across two paragraph tags (a capture artifact that breaks a name mid-word) is rejoined into one paragraph in the English, so 5 source blocks become 4; nothing is omitted.",
+    "No interviewer prompts exist in this piece; both captions translated (no credits in the source); the Ynet film-page hyperlink kept on the film title.",
+    "No sentence added, no joke explained, no conclusion appended."
   ],
   "voiceChecks": [
-    "'Even good-looking.' kept as the piece's one short verdict sentence.",
-    "The narrator's single dry transition ('And with the shirt coming off there is naturally also someone who is supposed to be tempted') kept at its weight.",
-    "Synopsis register preserved; nothing added."
+    "'Good-looking, even.' kept as the piece's one short verdict, closing the escalation 'sharp, agile, muscular hero'.",
+    "The narrator's single dry pivot ('And once the shirt comes off, there naturally has to be someone to be tempted by it') kept at the same weight, no second joke.",
+    "Synopsis paragraphs kept plain; the two actors' quotes read as speech ('He also takes his shirt off.', 'there's a curiosity there')."
   ],
+  "israeliTermsRendered": {},
   "decisions": [
+    "Headline rendered '\"Millions of People Feel as Rejected as Frankenstein\"' (comparative English idiom) rather than the literal 'Feel Rejected, Like Frankenstein'.",
     "Established English titles used: I, Frankenstein, Dexter, Chuck, Killer Elite ('יחידת עילית').",
     "Character name 'טרה וויין' rendered as Terra Wade (the film's character name) rather than a transliteration of the Hebrew spelling.",
-    "'קרב המאסף' rendered as 'the last-ditch battle'.",
-    "'מודה אקהרט' rendered as 'Eckhart admits', following the Hebrew verb."
+    "'קרב המאסף' rendered 'the last stand'.",
+    "'מודה אקהרט' rendered 'Eckhart admits', following the Hebrew verb.",
+    "The 'Bill / Nighy' paragraph break was rejoined (see completenessChecks); Nim can reverse this if the archive should mirror the publisher's glitch.",
+    "'ynet' in 'בראיון ל-ynet' capitalized as 'Ynet' to match the site's source label.",
+    "Eckhart's long final sentence split at the colon list ('his creation, the father who rejected him, the society that cast him out') and the next clause made its own sentence."
+  ],
+  "lostInTranslation": [
+    "Nothing of substance; the piece has no puns or Israeli references."
+  ],
+  "defectsFixed": [
+    "'The monster conceived by the writer Mary Shelley in her classic novel Frankenstein, from the beginning of the 19th century, has been given another incarnation in the effects-laden action film ... made by the director Stuart Beattie' rebuilt as 'The monster Mary Shelley dreamed up in Frankenstein, her classic novel from the early nineteenth century, gets another incarnation in I, Frankenstein, director Stuart Beattie's effects-heavy action film'.",
+    "'presented to us in the past in horror films old and new' replaced with 'that horror films old and new have served us in the past'; 'Even good-looking.' with 'Good-looking, even.'",
+    "'was chosen to play him, and in the film he is dragged into a struggle between supreme beings' replaced with 'was picked to play him, and the film drags him into a war between higher beings'.",
+    "'Since this is an action film, he needs to be fast and agile and lethal ... and he also takes his shirt off' given spoken rhythm, with the shirt line as its own sentence.",
+    "'And with the shirt coming off there is naturally also someone who is supposed to be tempted' replaced with 'And once the shirt comes off, there naturally has to be someone to be tempted by it'.",
+    "'known to us from the series' replaced with 'familiar from the series'; 'It's definitely possible there's sexual tension' with 'There may well be some sexual tension'; 'Once she understands he's like a human being, there's that curiosity' with 'Once she realizes he's like a human being, there's a curiosity there'.",
+    "'the source of Frankenstein's rage in the film is the feeling of rejection he experienced in the past' replaced with 'Frankenstein's rage in the film comes from the rejection he suffered in the past'.",
+    "'a child who wasn't loved by his parents' replaced with 'a child whose parents didn't love him'; 'those feelings draw out rage. And so I think' with 'those feelings bring out rage. That's why I think'.",
+    "Quotation marks around the linked film title removed (established English title, no quotes needed).",
+    "Footer last line updated to the revision wording; captions now follow their provenance comments directly."
   ],
   "sourceProblems": [
-    "Publisher splits the name Bill Nighy across two paragraph tags (ביל / ניי); both source paragraph boundaries are reproduced in the English, so the name is split across a paragraph break (source-record note).",
-    "Hebrew character name 'טרה וויין' differs from the film's 'Terra Wade'; the English uses the film's name and this note records the difference."
+    "Publisher splits the name Bill Nighy across two paragraph tags (ביל / ניי) in the captured Hebrew; the English rejoins them (recorded above).",
+    "Hebrew character name 'טרה וויין' differs from the film's 'Terra Wade'; the English uses the film's name and this note records the difference.",
+    "Hebrew has 'רוויי האפקטים' (misspelling of רווי) and 'המפלץ' (for המפלצת); rendered by sense."
   ],
   "unresolvedQuestions": [
-    "Should the website page rejoin 'Bill Nighy' into one paragraph (a presentation fix of a publisher glitch), or keep the source's paragraph split as the draft does?"
+    "Whether the archive translation should mirror the publisher's 'Bill / Nighy' paragraph split instead of rejoining it; the revision rejoins it for readability."
   ]
 }

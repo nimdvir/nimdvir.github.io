@@ -19,12 +19,18 @@ Continues `2026-10-31-voice-translation-and-portfolio.plan.md`, which stopped wh
 - Page builder fixed so orphan photo captions and credits never print (`scripts/writing/build_article_pages.py`); it now also writes a `group` field from each `translation-review.json` `portfolioGroup`.
 - Redesign built and compiling: `src/components/InterviewWall.astro`, `src/pages/articles/index.astro` (sections: Celebrity interviews, Israeli interviews, Features and set visits, Reviews, Columns, Written about me), person hero in `src/pages/articles/[...slug].astro`, styles appended to `public/styles/site.css`, Fraunces display font in `Layout.astro`, `group` enum in `src/content/config.ts`, helpers in `src/utils/articles.ts`.
 - Seven portraits (W159, W172, W174, W182, W185, W186, W195) hosted and on their pages.
-- 21 of 47 translations rewritten in Nim's voice, complete files: W001, W004, W007, W010, W011, W023, W035, W056, W058, W092, W093, W107, W114, W116, W118, W162, W171, W172, W182, W185, W186. Review records exist for 10 of them; missing for W001, W004, W023, W092, W093, W107, W114, W172, W182, W185, W186.
-- Portrait research landed for batch 2 (W138 to W155) and batch 4 (W199 to W209): `C:\Users\nd115232\AppData\Local\Temp\1\claude\c--Users-nd115232-github-nimdvir-github-io\2552c76a-6816-4183-a14a-ae4bb7e9012d\scratchpad\image-sources-batch2.json` and `image-sources-batch4.json`. These scratchpad files can vanish; copy them into the repo first (step 5).
+- 25 of 54 translations rewritten in Nim's voice, complete files: W001, W002, W003, W004, W006, W007, W010, W011, W023, W035, W056, W058, W089, W092, W093, W107, W114, W116, W118, W162, W171, W172, W182, W185, W186. Review records exist for 16 of them; missing for W001, W023, W092, W093, W107, W114, W172, W182, W185.
+- Before-and-after set for Nim's seven favorites in `data-source/writing/voice-comparison/` (Hebrew, October 30 draft, voice version, README sorting the changes). Voice profile 1.1 carries the lessons in section 6.4.
+- `/articles/voice/` page built: ten paired passages, six traits, links to the profile and the comparison set.
+- Portrait research done for batches 1 to 4 and merged into `article-image-sources.json` (`data-source/writing/image-batches/` keeps the raw files): 30 found, 14 none. Photos downloaded to `images/articles/`. **Blocked:** `npm run cloudinary:upload` fails with 401 Invalid Signature; the `CLOUDINARY_URL` in `.env` must be checked against the Cloudinary console before the 30 new portraits can be hosted. Batch 5 (better-sourced photos for W001, W002, W003, W004, W006, W165) was still running on the night of November 1.
+- Wave 1 of the remaining revisions (W052, W080, W046, W165, W021, W122, W174, W176, W125, W126, W097, W098, W108, W163, W164, W062) was running on the night of November 1; check `translationStatus: revised-for-voice` in each `article.en.md` to see which landed.
 - `.gitignore` now ignores `.agents/plans/` and `.agents/reports/`.
 - Inventory `Page Path` for W001 to W006 corrected; `check_inventory.py` passes.
 
 ## Implementation Plan
+0. **Fix the Cloudinary credential** (Nim)
+   - Do: Compare `CLOUDINARY_URL` in `.env` with Settings, API Keys in the Cloudinary console; replace it if the key was rotated. Then `npm run cloudinary:upload` and `python scripts/writing/build_article_pages.py`. | Done when: the 30 downloaded portraits in `images/articles/` are hosted and appear on their pages.
+
 1. **Restart the preview and let Nim read the pilot**
    - Do: `npm run build`, then `npm run preview -- --port 4321`. Nim reads http://localhost:4321/articles/ and the Gaga, Gosling and Foxx pages and gives corrections. Fold any correction into the brief before step 2. | Files: `.agents/skills/translate-article/references/voice-translation-brief.md` if corrected | Done when: Nim has said what to change, or that the pilot stands.
 

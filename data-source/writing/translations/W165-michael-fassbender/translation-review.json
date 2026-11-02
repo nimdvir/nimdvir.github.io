@@ -1,12 +1,15 @@
 {
   "articleId": "W165",
   "englishTitle": "Michael Fassbender: 'I Hope Humanity Has Changed'",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 22,
   "translatedTextBlocks": 22,
   "questionBlocks": 7,
@@ -14,41 +17,65 @@
   "images": 0,
   "completenessChecks": [
     "All 15 narrative and answer paragraphs, 7 bold prompts and 0 section headings present in original order.",
-    "Answer split across two paragraphs (before and after the 'complicated character' caption, and the 'I work these days' tail recovered in the source record) kept as separate paragraphs.",
-    "All 7 captions translated, including the trailer caption and the empty sidebar credit line; photographer credits kept.",
+    "Answers the Hebrew splits across two paragraphs (around the 'complicated character' caption, and the two-paragraph Oscar answer) kept split at the same points; the continuation paragraphs open with a quotation mark per English convention.",
+    "All 7 captions translated, including the trailer caption and the credit-only sidebar line; photographer credits kept as printed.",
     "The single body hyperlink (Oscar nomination) kept on the same words.",
-    "No H1 added; subtitle placed at the start of the body."
+    "No sentence added, no joke explained, no conclusion appended."
   ],
   "voiceChecks": [
-    "Opening long sentence on the film's violence kept intact with the delayed clause about returning to everyday life.",
-    "Nim's dry transition 'When he isn't beating slaves in Louisiana' kept as the one comic beat in an otherwise straight piece.",
-    "Slavery passages and Fassbender's answers kept serious; no jokes added.",
-    "Caption two-part style preserved ('Quite the pair', 'An Oscar on the way?')."
+    "The opening long sentence on the film's violence keeps its delayed final clause about coming back to ordinary life.",
+    "'When he isn't beating slaves in Louisiana' kept as the one dry beat in an otherwise straight piece; the slavery passages and all of Fassbender's answers stay serious.",
+    "Prompts are short statements or plain questions ('You handle the whip like an expert.'), not formal interview questions.",
+    "Quotes are in spoken English ('drop your guard and keep it real', 'if Steve picks up the phone, I'm in', 'hang on, maybe we should be treating each other better?').",
+    "Two-part Ynet captions kept ('Quite the pair', 'An Oscar on the way?')."
   ],
+  "israeliTermsRendered": {},
   "decisions": [
-    "Title field reuses the published website page's English headline, 'Michael Fassbender: \\'I Hope Humanity Has Changed\\'', which is faithful to the Hebrew headline; the published page was consulted for name and title spellings only, not wording.",
+    "Headline kept as 'Michael Fassbender: \"I Hope Humanity Has Changed\"', a straight rendering of the Hebrew quote headline.",
     "Established English titles used: 12 Years a Slave, Hunger, Shame, X-Men: First Class, 300, Inglourious Basterds.",
-    "'שחקן הבית של מקווין' rendered 'McQueen's in-house actor'.",
-    "'אם כבר הורדת מגננות' rendered 'Speaking of dropping defenses' to keep the pivot off the previous quote.",
-    "'צמד חמד' caption rendered 'Quite the pair'.",
-    "'לשמור על העוגה ולאכול אותה' rendered with the standard English idiom 'having your cake and eating it too'.",
-    "'גלאי בולשיט' kept as 'bullshit detector' at the same register.",
-    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+    "'שחקן הבית של מקווין' rendered 'McQueen's go-to leading man' (not 'in-house actor').",
+    "'חשף את אבר מינו ב\"בושה\"' rendered 'going full frontal in Shame', the magazine idiom for the same fact; 'הוריד ממשקלו' rendered 'dropping the weight'.",
+    "'אם כבר הורדת מגננות' rendered 'Speaking of dropping your guard', picking up 'drop your guard' from the preceding quote as the Hebrew picks up 'מגננות'.",
+    "'צמד חמד' rendered 'Quite the pair'.",
+    "'לשמור על העוגה ולאכול אותה' rendered with the standard idiom 'having my cake and eating it too'.",
+    "'גלאי בולשיט' kept as 'bullshit detector'.",
+    "The whip answer's 'כמו ש... אני' rendered 'The same way Chiwetel practiced the violin, I practiced the whip', keeping the two-beat comparison.",
+    "Long Hebrew sentences split only where English needed it: the first paragraph (two sentences in both), the 'human element' answer (the sentence about the whippers' damaged souls stands alone), and Epps's 'He's the same. He's just reacting to his fears.'"
+  ],
+  "lostInTranslation": [
+    "Nothing of substance; the piece has no puns or Israeli references. 'תרפיה' and 'ביזנס' are transliterated English in the Hebrew and simply become English."
+  ],
+  "defectsFixed": [
+    "'If it's hard for the audience to watch, it was interesting to think about what Michael Fassbender went through' rebuilt as 'If it is hard to watch, it was worth wondering what it did to Michael Fassbender'.",
+    "'McQueen's in-house actor' replaced with 'go-to leading man'.",
+    "'exposing his genitals in Shame' replaced with 'going full frontal in Shame'; 'sweaty farmland' with 'sweltering farmland'.",
+    "'He creates a very safe place to fail and encourages the idea of trying and failing, and then trying again and failing better' split into spoken sentences.",
+    "'he forces you to drop your defenses' replaced with 'drop your guard'.",
+    "'whose spirits you could practically feel dancing around the plantations' freed from its relative clause into its own sentence.",
+    "'I practiced the lash a lot' replaced with 'I practiced the crack a lot'; 'Just as Chiwetel practiced playing the violin' with 'The same way Chiwetel practiced the violin'.",
+    "'wonderfully played by Sarah Paulson' replaced with the parenthetical 'Sarah Paulson, who is wonderful'; 'is, in the end, very pitiful' with 'ends up a very pitiful figure as well'.",
+    "'You see Solomon go from hauling to picking cotton to a sugar farm' clarified as 'from hauling freight to picking cotton to a sugar plantation'.",
+    "'After all, these days there are plenty of sweatshops' replaced with 'Look at all the sweatshops today'.",
+    "'tries to travel the world and take part in extreme sports, especially racing, which he loves most of all' rebuilt as 'travels whenever he can, and goes in for extreme sports, racing above all'.",
+    "'a kind of preparation or a decline from it' replaced with 'a kind of run-up or a decline'.",
+    "'I say yes immediately' replaced with 'I'm in'; 'I said of course right away' with 'I said of course, straight away'.",
+    "Trailer provenance comment corrected from 'Source image' to 'Source video'.",
+    "Footer last line updated to the revision wording; captions now follow their provenance comments directly."
   ],
   "sourceProblems": [
     "Source gives the year of Northup's kidnapping as 1841; retained as printed.",
     "Source spells Matthew Vaughn as מ'תיו ווהן; name rendered with the established English spelling.",
-    "The sidebar image caption contains only a credit, '(צילום: MCT)'; retained as an empty caption with credit.",
+    "The sidebar image caption contains only a credit, '(צילום: MCT)'; retained as a credit-only caption.",
     "Source record notes that W005 lists a different, unrelated URL and that an abridged English website text overlaps this interview; W005 remains unresolved and was not touched."
   ],
   "unresolvedQuestions": [
-    "Whether to keep the empty sidebar caption line in a future website version or drop it with the image.",
+    "Whether to keep the credit-only sidebar caption line in a future website version or drop it with the image (the page builder already drops captions).",
     "Published page (src/content/interviews/michael-fassbender.md) is an abridged version: it keeps only 2 of the 7 prompts and about 6 of the 15 answer and narrative paragraphs, and drops the whip, Epps's misery, Patsey, the personal-life, and the fourth-film exchanges, plus all captions.",
     "Published page adds four section headings ('A Shattering Experience', 'A Powerful Partnership', 'Has Humanity Changed?', 'Toward an Oscar?') that do not exist in the Hebrew, and rewrites the opening into two summary paragraphs.",
-    "Published page links to L-4478269 (an unrelated medical column per the source record); the verified Hebrew source is L-4478514. Nim should decide whether the page should be corrected or replaced by this full draft."
+    "Published page links to L-4478269 (an unrelated medical column per the source record); the verified Hebrew source is L-4478514. Nim should decide whether the page should be corrected or replaced by this full translation."
   ],
   "existingEnglishPage": {
     "path": "src/content/interviews/michael-fassbender.md",
-    "note": "Published website page exists; this draft is a faithful archival translation and does not replace it without Nim's decision"
+    "note": "Published website page exists; this translation is a faithful archival rendering and does not replace it without Nim's decision"
   }
 }

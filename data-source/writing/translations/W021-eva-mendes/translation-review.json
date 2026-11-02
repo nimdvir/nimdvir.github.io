@@ -1,47 +1,74 @@
 {
   "articleId": "W021",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Eva Mendes: \"I Don't Care How I Look in the Film\"",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר, ניו יורק",
     "thirdPartyCoverage": false
   },
-  "englishTitle": "Eva Mendes: \"In the Film I Don't Care How I Look\"",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 12,
   "translatedTextBlocks": 12,
   "questionBlocks": 3,
   "sectionHeadings": 1,
   "captions": 4,
-  "imagesEmbedded": 0,
+  "images": 0,
   "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
   "completenessChecks": [
-    "First and last paragraphs compared with source-record completeness fields.",
-    "Every interviewer prompt present, bold, in its own paragraph, in order.",
-    "Every answer paragraph present with original boundaries and quotation marks.",
-    "Section headings, captions and photo credits present in original positions.",
-    "Hyperlinks from the Hebrew body kept on the same words.",
-    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
-    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+    "All 8 narrative and answer paragraphs, 3 bold prompts and 1 section heading present in original order.",
+    "Every answer keeps its original paragraph boundaries and quotation marks; Mendes's refusal ('That's too personal a question. I don't want to answer it.') printed without comment, as in the Hebrew.",
+    "All 4 captions translated with credits kept as printed (the last caption's unparenthesized 'Photo: gettyimages' reproduced as printed).",
+    "No body hyperlinks in the source; none added.",
+    "No sentence added, no joke explained, no conclusion appended."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "The second paragraph ends on its two short verdicts ('Mendes, unlike the men, had to work at looking a little ragged. It wasn't so simple.').",
+    "The mock-formal 'מכהן כבן זוגה' kept as 'holds the post of her boyfriend' next to the plain 'shirt on or off'.",
+    "The narrator's aside that she turned up glamorous ('having shown up to the interview in her usual glamorous state') kept as the dry setup to her diner story.",
+    "Prompts are blunt and friendly ('Why do that to yourself?').",
+    "Quotes read as speech ('the logical move seemed to be the safe, stable guy', 'Just the opposite.', 'All I'll say is')."
   ],
+  "israeliTermsRendered": {},
   "decisions": [
-    "Hebrew film titles mapped to established English titles: Training Day, Ghost Rider, Hitch, Bad Lieutenant, Last Night, The Place Beyond the Pines.",
-    "'מגה-בייב' kept as 'mega-babe'.",
-    "Heading 'אנחנו חייתיים כמעט' rendered \"We're Almost Animal\"."
+    "Headline rendered 'Eva Mendes: \"I Don't Care How I Look in the Film\"', with English word order instead of the Hebrew-fronted 'In the Film I Don't Care'.",
+    "Established English titles used: Training Day, Ghost Rider, Hitch, Bad Lieutenant, Last Night, The Place Beyond the Pines.",
+    "'מגה-בייב' kept as 'mega-babe'; 'מראה סחבתי משהו' rendered 'a little ragged'; caption 'קצת זרוקה' rendered 'A little scruffy'.",
+    "'מפגש מזדמן' rendered 'a casual encounter'; 'די קשת יום' rendered 'fairly hard-up'.",
+    "Heading '\"אנחנו חייתיים כמעט\"' rendered '\"We're Almost Animals\"' and the matching line in the quote 'We're almost animals in that sense'.",
+    "'להיפך' at the end of the first answer rendered as its own short sentence, 'Just the opposite.'",
+    "The second paragraph's 'as noted' (כאמור) dropped: English does not need the back-reference and it read as a calque.",
+    "The dilemma paragraph was rebuilt as a colon list ('her son's biological father ... or another man ...') instead of two infinitive clauses."
+  ],
+  "lostInTranslation": [
+    "Nothing of substance. 'דיינר' and 'מגה-בייב' are transliterated English and become plain English."
+  ],
+  "defectsFixed": [
+    "'alongside the film appearances that earned her the status of a mega-babe, she also models and moonlights' rebuilt as two sentences.",
+    "'she takes care to look a lot worse than the usual glamorous character we grew used to in' replaced with 'she goes out of her way to look a good deal worse than the glamorous character we've come to expect from'.",
+    "'a married and fairly hard-up woman', 'the fruit of a casual encounter', 'a stunt motorcyclist who turns to a life of crime' tightened.",
+    "'who in real life serves as her partner' replaced with 'holds the post of her boyfriend' (keeps the mock-formality, reads as English).",
+    "'But unlike the men, Mendes, as noted, made an effort to adopt a somewhat shabby look' replaced with 'Mendes, unlike the men, had to work at looking a little ragged'.",
+    "'she says in an interview to which she turned up in her routine glamorous look' replaced with 'she says, having shown up to the interview in her usual glamorous state'.",
+    "'I cleared tables and served customers' replaced with 'I bused tables and waited on customers'.",
+    "'Why did you do that to yourself?' shortened to 'Why do that to yourself?'; 'How does it feel to play a couple on screen with your partner in real life?' to 'What's it like playing a couple on screen with your real-life partner?'",
+    "'I'm only willing to say that it's fun to arrive on the first day of filming and not feel like everything is foreign and unfamiliar' replaced with 'All I'll say is that it's fun to show up on the first day of shooting and not feel like everything is strange and unfamiliar'.",
+    "'these dilemmas in the script stirred thoughts in her' replaced with 'the dilemma in the script got her thinking'.",
+    "'the logical step seemed to me to choose the safe, stable man' and 'to go toward the biological father, of all people' replaced with spoken forms.",
+    "'Did it at least make you feel what it would be like' replaced with 'Did it at least give you a feel for what ... would be like'.",
+    "Translation note line no longer repeats the byline in parentheses; footer last line updated to the revision wording; captions now follow their provenance comments directly."
   ],
   "sourceProblems": [
     "Hebrew has 'היא מודע' (gender typo for מודה); translated as 'she admits'.",
+    "The last caption prints its credit without parentheses ('צילום: gettyimages'); reproduced as printed.",
     "Online edition only; no print version advertised."
   ],
-  "unresolvedQuestions": [],
+  "unresolvedQuestions": [
+    "Whether the tag set should include 'New York' (the interview was conducted there, per the byline) and whether 'Gender' belongs; left as found."
+  ],
   "translationPath": "data-source/writing/translations/W021-eva-mendes/article.en.md",
   "hebrewSource": "data-source/writing/originals/W021-eva-mendes/article.he.md"
 }
