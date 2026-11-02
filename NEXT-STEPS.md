@@ -1,0 +1,53 @@
+<!-- Visible copy of .agents/plans/2026-11-01-resume-voice-translations.plan.md, kept at the root so it is not forgotten. Delete when the work is done. -->
+
+# Resume the voice translations and finish the articles archive
+Date: 2026-11-01 | Workspace: nimdvir.github.io (branch website/articles-archive) | Status: draft
+
+Continues `2026-10-31-voice-translation-and-portfolio.plan.md`, which stopped when the account hit its 5-hour usage limit on the night of October 31. Everything below is uncommitted in the working tree on `website/articles-archive`. Nothing has been pushed or published.
+
+## תוכנית בעברית
+1. להפעיל מחדש את התצוגה המקומית ולבדוק את 21 התרגומים שכבר נכתבו מחדש (גאגא, גוסלינג, פוקס ועוד) ואת עמוד הכתבות החדש עם קיר הפנים.
+2. לכתוב מחדש את 26 התרגומים שנותרו בסגנון של נים, בגלים קטנים כדי שמגבלת השימוש לא תקטע כתיבה באמצע.
+3. לתרגם את 44 הכתבות החדשות (ראיונות ישראליים ובינלאומיים) באותה שיטה.
+4. להשלים את חיפוש התמונות (שלוש קבוצות שלא הסתיימו, כולל שש התמונות הישנות ללא מקור), להעלות ל-Cloudinary ולחבר לעמודים.
+5. להשלים את רשומות הביקורת, לעדכן את הרשימה, לבנות, לבדוק קישורים ולכתוב דוח. בלי מיזוג ובלי פרסום עד לאישור.
+
+## Done so far (do not redo)
+- W094 (Annapurna) removed from the site, `articles.csv` (`not my writing`), `voice-profile.md`, `voice-profile-evidence.json` and `article-image-sources.json`.
+- `origin/main` (ChatGPT's 44 Hebrew packages, W018 to W209) merged into the branch.
+- Agent brief written: `.agents/skills/translate-article/references/voice-translation-brief.md`. Every translation agent reads it first.
+- Page builder fixed so orphan photo captions and credits never print (`scripts/writing/build_article_pages.py`); it now also writes a `group` field from each `translation-review.json` `portfolioGroup`.
+- Redesign built and compiling: `src/components/InterviewWall.astro`, `src/pages/articles/index.astro` (sections: Celebrity interviews, Israeli interviews, Features and set visits, Reviews, Columns, Written about me), person hero in `src/pages/articles/[...slug].astro`, styles appended to `public/styles/site.css`, Fraunces display font in `Layout.astro`, `group` enum in `src/content/config.ts`, helpers in `src/utils/articles.ts`.
+- Seven portraits (W159, W172, W174, W182, W185, W186, W195) hosted and on their pages.
+- 21 of 47 translations rewritten in Nim's voice, complete files: W001, W004, W007, W010, W011, W023, W035, W056, W058, W092, W093, W107, W114, W116, W118, W162, W171, W172, W182, W185, W186. Review records exist for 10 of them; missing for W001, W004, W023, W092, W093, W107, W114, W172, W182, W185, W186.
+- Portrait research landed for batch 2 (W138 to W155) and batch 4 (W199 to W209): `C:\Users\nd115232\AppData\Local\Temp\1\claude\c--Users-nd115232-github-nimdvir-github-io\2552c76a-6816-4183-a14a-ae4bb7e9012d\scratchpad\image-sources-batch2.json` and `image-sources-batch4.json`. These scratchpad files can vanish; copy them into the repo first (step 5).
+- `.gitignore` now ignores `.agents/plans/` and `.agents/reports/`.
+- Inventory `Page Path` for W001 to W006 corrected; `check_inventory.py` passes.
+
+## Implementation Plan
+1. **Restart the preview and let Nim read the pilot**
+   - Do: `npm run build`, then `npm run preview -- --port 4321`. Nim reads http://localhost:4321/articles/ and the Gaga, Gosling and Foxx pages and gives corrections. Fold any correction into the brief before step 2. | Files: `.agents/skills/translate-article/references/voice-translation-brief.md` if corrected | Done when: Nim has said what to change, or that the pilot stands.
+
+2. **Rewrite the remaining 26 translations**
+   - Do: Launch agents in waves of at most 5, each with 2 or 3 packages, each told to write every file as soon as it is ready rather than at the end. Packages: W002, W052, W080, W046, W006, W003, W089, W165, W021, W122, W174, W176, W125, W126, W097, W098, W108, W163, W164, W062, W071, W079, W087, W158, W184, W159, W195, W106, W016, W083, W095, W197, W198. Each agent reads the brief, the profile sections it names, and W004 and W186 as references. Spot-check two files per wave before the next wave. | Files: `data-source/writing/translations/<pkg>/article.en.md` and `translation-review.json` | Done when: every `article.en.md` has `translationStatus: revised-for-voice`, a footer, no em dash, and a review record with `portfolioGroup`.
+
+3. **Translate the 44 new packages**
+   - Do: Same method, waves of 5 agents with 3 packages each: W018, W019, W029, W031, W059, W070, W117, W119, W128, W130, W136, W138, W139, W140, W142, W143, W146, W147, W149, W150, W154, W155, W156, W161, W168, W169, W177, W178, W179, W188, W189, W191, W192, W199, W200, W201, W202, W203, W204, W205, W206, W207, W208, W209. Most are Israeli interviews (`portfolioGroup: israeli-interview`); W199 to W202, W205 and W206 are international. | Files: new `data-source/writing/translations/W###-slug/` folders, slug identical to the originals folder | Done when: 44 folders exist with both files and pass the brief's section 6 checks.
+
+4. **Write the missing review records**
+   - Do: For the 11 revised pieces without one, write `translation-review.json` in the brief's shape (W004 and W186 by comparing my own pilot translations against the Hebrew). | Done when: every translation folder has a review record with `portfolioGroup`.
+
+5. **Finish the portraits**
+   - Do: Copy the two landed batch files into `data-source/writing/article-image-sources.json`. Rerun research for batch 1 (W018 to W136), batch 3 (W156 to W192) and batch 5 (W001, W002, W003, W004, W006, W165, whose current images have no recorded provenance), with the agents writing to the repo's scratch folder `data-source/writing/image-batches/` rather than the temp scratchpad. Merge, then `python scripts/writing/fetch_article_images.py`, `npm run cloudinary:upload`, `python scripts/writing/build_article_pages.py`. For W001 to W006 and W165, remove the explicit records in `data-source/writing/article-images.json` once a verified Commons portrait exists. | Done when: every interview page shows a credited portrait or a styled initials tile with `status: none` recorded.
+
+6. **Review wave**
+   - Do: Fresh agents, 5 packages each, compare English with Hebrew for fidelity and read the English alone for voice; they fix in place and report what they changed. | Done when: every package has been read by someone other than its translator.
+
+7. **Bilingual voice page**
+   - Do: Add a section to `voice-profile.md` on what identifies the Hebrew prose with Hebrew examples and the matching English renderings from the revised translations; build `src/pages/articles/voice.astro` with eight to ten paired passages; link it from the archive intro. Nim approves the text before it ships. | Done when: the page builds and Nim has approved the wording.
+
+8. **Inventory, build, verify, report**
+   - Do: Update `articles.csv` rows (Status `page created`, Translation Path, Page Path, Title (English)) with a script; `python scripts/writing/build_article_pages.py`; `npm run build`; `python scripts/verify_site.py`; `python scripts/writing/check_inventory.py`; `python scripts/writing/check_captures.py`. Write the completion report to `.agents/reports/` and update `reports/writing/`. Commit to the branch only when Nim asks; never push or publish without his word. | Done when: all checks pass and Nim has the report.
+
+## Summary of Steps
+Read the pilot, then finish the 26 revisions and 44 new translations in small agent waves, complete the portraits and review records, add the bilingual voice page, update the inventory, verify and report. Risk: the 5-hour usage limit; small waves and write-as-you-go limit the damage. Decisions for Nim: corrections after reading the pilot (step 1), the voice page wording (step 7), and when to commit, merge and publish.

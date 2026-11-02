@@ -12,6 +12,18 @@ tags: ["writing", "blog", "portfolio", "translation", "voice", "personal-website
 
 **Progress (2026-10-30):** The evidence-based profile and its evidence record now exist at `data-source/writing/voice-profile.md` and `data-source/writing/voice-profile-evidence.json` (49 solo pieces read in full, 20 analyzed closely, 29 used for validation). Workflow docs point to them. Awaiting Nim's review and his selection of article IDs for translation; no articles were selected automatically.
 
+**Progress (2026-11-01):** Nim rejected the October 30 English drafts as clunky and not his style, and withdrew W094 (Annapurna) as not his writing; the profile and evidence file were corrected (48 solo pieces, 19 analyzed closely). A binding translation brief now exists at `.agents/skills/translate-article/references/voice-translation-brief.md`, with Nim's own before-and-after examples; 21 of 47 translations were rewritten with it (W001, W004, W007, W010, W011, W023, W035, W056, W058, W092, W093, W107, W114, W116, W118, W162, W171, W172, W182, W185, W186) before the usage limit stopped the run. The rest of the archive work is planned in `NEXT-STEPS.md` at the repository root.
+
+**Where the voice analysis is:**
+- `data-source/writing/voice-profile.md`: the full profile. Section 2 is the one-paragraph summary, section 3 the detailed analysis with Hebrew examples by article ID, section 6 how to carry the voice into English, section 8 the do and don't list, section 9 how an AI misrepresents it, section 13 a copy-ready instruction block.
+- `data-source/writing/voice-profile-evidence.json`: every source, claim, example and measurement behind the profile.
+- `.agents/skills/translate-article/references/voice-translation-brief.md`: the working rules for translators, with the rejected-draft examples.
+
+**Still open from the checklist, in recommended order (estimates from the October 31 run, where one agent used 145k to 250k tokens):**
+1. Small items first, one 5-hour window, about 400k to 700k tokens: a reviewer rubric and a copy of the style reference under `templates/writing/`; a 500-word sample blog draft in Nim's voice, labeled as a draft; a test translation of two untranslated pieces from different genres (one Israeli interview, one column); the KB `notes/writing-style-guide.md` supplement; Nim's corrections to all of it.
+2. Then the full `NEXT-STEPS.md` plan, about 8M to 10M tokens: 26 remaining revisions and 44 new translations in waves of at most 5 agents, portraits, a review wave, the bilingual voice page. The 5-hour usage limit, not the token count, is the constraint: 20 parallel agents exhausted a window in about 25 minutes, so plan 3 to 4 windows across two or three evenings. Cutting the review wave to a 15-piece spot check saves about 3M.
+3. Nim's approval gates: the pilot pages (Gaga, Gosling, Foxx), the blog sample, the voice page wording, and any commit, merge or publish.
+
 **Original next action:** Select a representative, authorship-verified sample of Nim's Hebrew journalism from `data-source/writing/articles.csv`, analyze his voice and humor, and draft an evidence-based style profile for Nim to review *before* using it to guide further translation or writing.
 
 ## Context

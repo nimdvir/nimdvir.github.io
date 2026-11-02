@@ -1,48 +1,75 @@
 {
   "articleId": "W011",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Chiwetel Ejiofor: \"Everyone Is a Slave to the System\"",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
-    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
-    "thirdPartyCoverage": false
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
-  "englishTitle": "Chiwetel Ejiofor: \"Everyone Is a Slave to the System\"",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 15,
   "translatedTextBlocks": 15,
   "questionBlocks": 5,
-  "sectionHeadings": 0,
   "captions": 5,
-  "imagesEmbedded": 0,
-  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "images": 0,
   "completenessChecks": [
-    "First and last paragraphs compared with source-record completeness fields.",
-    "Every interviewer prompt present, bold, in its own paragraph, in order.",
-    "Every answer paragraph present with original boundaries and quotation marks.",
-    "Section headings, captions and photo credits present in original positions.",
-    "Hyperlinks from the Hebrew body kept on the same words.",
-    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
-    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+    "All 10 narrative and answer paragraphs and 5 bold prompts present in original order; no section headings in the source.",
+    "All 5 captions translated with their credits (trailer, McQueen, Cumberbatch, suit caption, sidebar); the trailer uses the video provenance comment.",
+    "The single body hyperlink (Golden Globes) kept on the same words.",
+    "No sentence added, no joke explained, no conclusion appended; the piece ends on Ejiofor's after-party line as in the Hebrew."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "Serious subject: the body stays straight throughout. The only light touches are Nim's, kept at their weight: the 'pocketful of statuettes' opening, the 'Not getting fitted for a suit' caption and the tuxedo prompt.",
+    "Opening conditional ('If there is any justice in show business') kept as the setup; the statuettes land at the end of the sentence.",
+    "Prompts kept short and blunt ('Did you know the story before?', 'Got the tuxedo ready for the Oscars yet?').",
+    "Parentheticals kept with their function: (Hunger, Shame), (hence the title), (the first for playing a drag queen in Kinky Boots), (Thursday).",
+    "Present-tense narration kept; quotations read as spoken English without polishing Ejiofor's logic."
   ],
+  "israeliTermsRendered": {
+    "עולה היום (ה') בבתי הקולנוע בישראל": "opens in Israeli theaters today (Thursday); the Hebrew day-letter expanded",
+    "בראיון ל-ynet": "tells Ynet"
+  },
   "decisions": [
-    "Serious subject: no comic devices introduced; the single light prompt about the tuxedo kept at its original weight.",
-    "Caption 'בלי לתפור חליפות' rendered 'Not getting suits tailored'.",
-    "Trailer placeholder caption kept at its source position.",
-    "Golden Globes link kept on the same words."
+    "Headline kept as the quote headline 'Everyone Is a Slave to the System', which is what the Hebrew prints and what a magazine would run.",
+    "'זר פסלונים בכיסו' (a bouquet of statuettes in his pocket, a mixed image in the Hebrew) rendered 'a pocketful of statuettes'; the pocket is kept, the bouquet dropped.",
+    "'מוגדר כאדם חופשי' rendered 'a free man on paper' rather than 'defined as a free man'.",
+    "'בלי הנחות לאף אחד' rendered 'nobody gets a pass' rather than the literal 'no discounts for anyone'.",
+    "'ירדו למחילה' (a strange Hebrew phrase, probably a rendering of 'went down a hole') translated as 'they went down a hole' after 'went mad'; the earlier 'went down into a burrow' was a literalism.",
+    "'40 מעלות' rendered 'above 40 degrees Celsius'; the unit is added so an American reader does not picture a cold day.",
+    "'מתפתה להצטרף לנסיעת עבודה' rendered 'is lured onto a work trip', which is what happened to Northup, rather than 'is tempted to join'.",
+    "Caption 'בלי לתפור חליפות' rendered 'Not getting fitted for a suit' so that it points at the tuxedo exchange below it.",
+    "Subtitle drops the closing 'he says in an interview' to 'he says' is also dropped: the quote stands at the end, as in the W186 reference subtitle.",
+    "Tags set to the brief's typical international-interview set: Interview, Film, Hollywood, New York (byline New York)."
+  ],
+  "lostInTranslation": [
+    "Nothing material. The piece has no slang, no transliterated English and no Israeli pop-culture reference; the Hebrew is plain throughout."
+  ],
+  "defectsFixed": [
+    "'with a bouquet of statuettes in his pocket' (mixed image carried over literally) replaced with 'a pocketful of statuettes'.",
+    "'has scorched screens in the United States in recent months' reordered to 'has spent the past few months scorching American screens'.",
+    "'There begins an ordeal of torture that lasts 12 years (as the film's title says)' replaced with 'So begins a 12-year ordeal (hence the title)'.",
+    "'how a person fails to escape from slavery back to his family for 12 years' recast as 'how a man could fail to escape slavery and get back to his family for 12 years'.",
+    "'even though he was defined as a free man' replaced with 'even though he was a free man on paper'.",
+    "'I became acquainted with it only after a conversation' replaced with 'I only came across it after a conversation'.",
+    "'to be rewarded for his efforts with quite a few prizes for the work here' recast as 'to see his efforts here repaid with a good many prizes'.",
+    "'he clarifies' replaced with 'he points out'; 'and you can see it' with 'and it shows'; 'I really went through a process' with 'I really went through something'.",
+    "'It took me time to get myself out of the place I had entered, of a slave, of a captive' recast as 'It took me a while to pull myself out of the place I'd gone into, the place of a slave, of a captive'.",
+    "'Didn't the hard subjects shown there make you angry?' replaced with 'Didn't the hard material make you angry?'.",
+    "'These are human stories, with no discounts for anyone' replaced with 'and nobody gets a pass'.",
+    "'to be mentally captive within society's wrong rules' replaced with 'to become a mental prisoner of society's bad rules'; 'went down into a burrow' replaced with 'went down a hole'.",
+    "'Have you already got the tuxedo ready for the Oscars?' replaced with 'Got the tuxedo ready for the Oscars yet?'.",
+    "'the thought of the reviews or the awards ceremonies didn't cross my mind for a moment' recast as 'the reviews and the award ceremonies never once crossed my mind'; 'sitting hunched between sugar canes' replaced with 'bent over between sugar cane or cotton bushes'.",
+    "Translation note line no longer carries the '(byline: Nimrod Dvir, New York)' insert; the byline is in the review file.",
+    "Trailer line now uses the video provenance comment rather than an image comment; caption comments sit directly above their captions with no blank line, as in the reference files."
   ],
   "sourceProblems": [
-    "Source gives the story's year as 1853 (the film is set from 1841); left as printed per the no-correction rule.",
-    "Source spells the actor's name in several Hebrew variants; English uses Chiwetel Ejiofor throughout."
+    "Source gives the story's year as 1853 (Northup was kidnapped in 1841); left as printed per the no-correction rule.",
+    "Source spells the actor's name three ways in Hebrew (צ'ואיטל, צ'ואיוטל, אג'יפור); English uses Chiwetel Ejiofor throughout.",
+    "Prompt 2 asks 'יכולתם' (could you, plural) after addressing him in the singular; rendered 'could you all'."
   ],
-  "unresolvedQuestions": [],
-  "translationPath": "data-source/writing/translations/W011-chiwetel-ejiofor/article.en.md",
-  "hebrewSource": "data-source/writing/originals/W011-chiwetel-ejiofor/article.he.md"
+  "unresolvedQuestions": [
+    "Whether to keep 'Celsius' after '40 degrees' on the website page or trust the reader."
+  ]
 }

@@ -2,6 +2,8 @@
 
 An Astro portfolio for research, teaching, applied UX and AI projects, and journalism. Hosted with GitHub Pages, with [nimdvir.com](https://nimdvir.com) as the canonical domain.
 
+**Unfinished work:** the articles archive (voice translations, new Israeli interviews, portraits) is mid-way on the `website/articles-archive` branch. The plan to finish it is in [NEXT-STEPS.md](NEXT-STEPS.md).
+
 ## Domain and discoverability
 
 The October 2 update sets domain metadata, adds four sourced publication pages and a publication template, and supplies an RSS feed. [Changes, verification, and publication checks](reports/2026-10-02-domain-discoverability.md).

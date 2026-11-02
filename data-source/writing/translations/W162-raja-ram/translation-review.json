@@ -1,35 +1,58 @@
 {
   "articleId": "W162",
   "englishTitle": "Maharaja: An Interview with Raja Ram",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
-  "sourceTextBlocks": 10,
-  "translatedTextBlocks": 10,
+  "portfolioGroup": "international-interview",
+  "sourceTextBlocks": 11,
+  "translatedTextBlocks": 11,
   "questionBlocks": 3,
   "captions": 1,
   "images": 0,
   "completenessChecks": [
-    "First block (Ronald Rothfield introduction) and last block (sandals, shorts, fan) match the source-record first and last text blocks.",
-    "10 body text blocks translated in order, including the two-paragraph continuing answers; 3 prompts bold and separate, including the statement prompt 'You know it's hot here.'",
-    "Single caption translated with its credit (publicity, Yaffa Efrati) kept; no images embedded."
+    "7 narration and answer paragraphs, 3 bold prompts and 1 caption present in the original order; no headings in the source.",
+    "The two answers the Hebrew splits across two paragraphs (second home / all over Israel; blessing / music is a drug) keep the same split, with the continuation paragraph opening on a quotation mark as in the reference files.",
+    "First block (Rothfield introduction) and last block (sandals, shorts, fan) match the source record.",
+    "No body hyperlinks in the source; none added. No stray nrg bidirectional marks or odd number spacing reproduced."
   ],
   "voiceChecks": [
-    "Short narration kept short; no added color.",
-    "The playful subtitle phrase 'על הגיל והתרגיל' rendered as 'about age and the trick of it' to keep the light rhyme-like pairing without inventing a new joke.",
-    "Closing exchange kept as a deadpan statement prompt and a flat answer, which is where the humor sits."
+    "nrg 'Rating' register: short explanatory lead, thin narration, no added color or jokes.",
+    "Lead paragraph keeps the one dry turn ('isn't exactly resting') and the 'we Israelis' placement ('lands here solo').",
+    "Closing exchange kept as a deadpan statement-prompt ('You know it's hot where we are.') and a flat practical answer, which is where the piece's only joke sits; nothing added after it.",
+    "Quotes read as spoken English ('I'm old, I've had the time', 'The minute the party's over I'm off to Chile') without reconstructing what he 'must have said'."
   ],
+  "israeliTermsRendered": {
+    "אלינו": "'here' (the reader knows from the subtitle that this is Israel); not 'to us'",
+    "מועדון ה'פורום' בבאר שבע": "the Forum club in Beersheba",
+    "יח''צ יפה אפרתי": "Publicity photo: Yaffa Efrati (a publicist credit, not a photographer)"
+  },
   "decisions": [
-    "Shpongle and Simon Posford named in their established English spellings; 'הפורום' rendered as 'the Forum club in Beersheba'.",
-    "'טירוף חושים' rendered as 'a frenzy of the senses'; 'אחלה עמדה' as 'a great position to be in'.",
-    "Festival name Blu4Dance kept as printed."
+    "Headline kept as 'Maharaja: An Interview with Raja Ram'; the Hebrew pun (Maharaja / Raja Ram) survives in English unchanged.",
+    "Subtitle rhyme 'על הגיל והתרגיל' rendered 'about age, and how he pulls it off'; the rhyme is gone, the sense (age and the trick of carrying it) is kept.",
+    "'עבודתי הראשונה' rendered 'my first gig' (DJ register); 'אחלה עמדה' rendered 'a great spot to be in'; 'טירוף חושים' rendered 'a riot of the senses'; 'החוגגים' rendered 'the people dancing'.",
+    "'פוטבול' kept as 'football' (Ram is British-based; no Americanization).",
+    "Shpongle and Simon Posford in their established English spellings; Blu4Dance kept as printed."
+  ],
+  "lostInTranslation": [
+    "The subtitle's rhyme (הגיל / התרגיל) has no English equivalent; sense kept, rhyme dropped."
+  ],
+  "defectsFixed": [
+    "'Next weekend he comes to us solo' (literal אלינו) replaced with 'Next weekend he lands here solo'.",
+    "'I'm old, I've had time to get there' replaced with 'I'm old, I've had the time'.",
+    "'I got my first job in Israel' replaced with 'My first gig in Israel was'.",
+    "'I'd be happy to make magic with the people' replaced with 'I'd love to make some magic with the people'; 'a frenzy of the senses' with 'a riot of the senses'.",
+    "'that there would be a gap between me and the people partying. But I have to say I don't feel a gap' tightened to '...the people dancing. But I have to say I don't feel one.'",
+    "'It's a great position to be in' replaced with 'It's a great spot to be in'; 'enormous fun' with 'a huge amount of fun'.",
+    "Closing prompt changed from 'You know it's hot here.' to 'You know it's hot where we are.' as specified."
   ],
   "sourceProblems": [
-    "Source says Ram is 'about to celebrate his 70th birthday' in June 2010; kept as printed without checking the date of birth.",
-    "Caption credit 'יח''צ יפה אפרתי' translated as 'publicity, Yaffa Efrati' (publicist credit, not photographer)."
+    "Source says Ram is about to turn 70 in June 2010; kept as printed, not checked against his date of birth.",
+    "Caption credit 'יח''צ יפה אפרתי' is a publicist credit, not a photographer; rendered 'Publicity photo: Yaffa Efrati'."
   ],
   "unresolvedQuestions": []
 }

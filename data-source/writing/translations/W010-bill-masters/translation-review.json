@@ -1,49 +1,65 @@
 {
   "articleId": "W010",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Master Class",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
-    "bylineAsPrinted": "נמרוד דביר",
-    "thirdPartyCoverage": false
+    "bylineAsPrinted": "נמרוד דביר"
   },
-  "englishTitle": "A Master's Joke",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 21,
   "translatedTextBlocks": 21,
   "questionBlocks": 5,
-  "sectionHeadings": 2,
   "captions": 4,
-  "imagesEmbedded": 0,
-  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "images": 0,
   "completenessChecks": [
-    "First and last paragraphs compared with source-record completeness fields.",
-    "Every interviewer prompt present, bold, in its own paragraph, in order.",
-    "Every answer paragraph present with original boundaries and quotation marks.",
-    "Section headings, captions and photo credits present in original positions.",
-    "Hyperlinks from the Hebrew body kept on the same words.",
-    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
-    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+    "14 narration and answer paragraphs, 5 bold prompts and 2 section headings, in the Hebrew order.",
+    "Answers the Hebrew runs across a caption (the NBC call / the June-to-July goal; the moving train / sweetening) kept split at the same points, with the quotation left open across the break as in the Hebrew.",
+    "The Chinese-restaurant YouTube link kept on the same words.",
+    "All 4 captions present with their photographer credits (Oded Karni, Eliran Avital), each under its provenance comment."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "Service-journalism register of a 2009 Ynet workshop piece kept: thin narration, no added jokes, Masters's own lines carry the humor.",
+    "'And then there's Bill Masters.' kept as the short sentence that closes the guest list and turns the piece to its subject.",
+    "Masters's closing twist ('And untalented ones too.') kept as the last line; nothing appended.",
+    "Present-tense narration; Hebrew dropped subjects supplied."
   ],
+  "israeliTermsRendered": {
+    "פולישוק": "'The Israeli sitcom Polishuk' in the caption (first and only mention)",
+    "סינמטק תל-אביב": "'the Tel Aviv Cinematheque'",
+    "אצלכם בישראל / אצלנו": "'in Israel' / 'in Israel this week'",
+    "בראיון ל-ynet": "'he tells Ynet'"
+  },
   "decisions": [
-    "Heading 'התיישנות הצחוק' rendered 'When Laughter Expires'; 'מפעלי סיטקום בע\"מ' rendered 'Sitcom Factories Inc.'.",
-    "Director 'ג'רי לוין' transliterated as Jerry Levine as the Hebrew gives it; not verified against credits.",
-    "'פולישוק' caption kept as Polishuk (Israeli sitcom) without gloss.",
-    "The Chinese-restaurant YouTube link kept on the same words."
+    "Headline 'בדיחה של מאסטר' (a pun on Masters's name) rendered 'Master Class': an English pun on the same name that also names what he came to Israel to give. The literal 'A Master's Joke' survives only in the APA gloss, copied verbatim from the Hebrew file.",
+    "Subtitle's 'איך קרה שבמדינת היהודים אין יותר סיטקומים' rendered 'how it is that the Jewish state doesn't have more sitcoms', following the body ('אצלכם בישראל אין הרבה סיטקומים') rather than the other possible reading, 'no longer has sitcoms'.",
+    "Heading 'התיישנות הצחוק' rendered 'The Shelf Life of a Laugh', picking up Masters's own 'חיי מדף' in the section; 'מפעלי סיטקום בע\"מ' kept as 'Sitcom Factories Inc.'.",
+    "'קדימה' at the end of the Jews-and-comedy answer rendered 'Get to it.' as a one-line nudge.",
+    "'יוצרים מקומיים' rendered 'local talent'; 'קומיקאי' rendered 'stand-up comic'.",
+    "Director 'ג'רי לוין' confirmed as Jerry Levine (actor-director; directed an episode of Chicago Hope), closing the October 30 open question."
+  ],
+  "lostInTranslation": [
+    "The Hebrew headline pun works in both directions (a master's joke / a Masters joke); 'Master Class' keeps the name pun but drops the 'joke'.",
+    "Masters's quoted English terms rendered in Hebrew letters ('שואוראנר', 'פוסט פרודקשן') simply become English; no compensation."
+  ],
+  "defectsFixed": [
+    "Opening sentence rebuilt: 'have drawn quite a few professionals with world-famous names from film and television, along with lectures and master classes for local creators' became 'have assembled a fair number of film and television professionals with international names, along with lectures and master classes for local talent'.",
+    "'Also here is Bill Masters.' became 'And then there's Bill Masters.'; 'Masters (59) actually began his career as a comedian' became 'Masters, 59, actually started out as a stand-up comic'.",
+    "'The next stage is already dividing the assignments among the writers' became 'The next stage is handing out the assignments to the writers'.",
+    "'the bureaucracy it dictates' became 'the bureaucracy it imposes'; 'The responses from the network can be... it all works as a continuous dialogue' became 'The network might come back with... It's all one continuous dialogue.'",
+    "'a representative from the network who is responsible for it' became 'a network executive assigned to it'; 'there has to be a grip on reality' became 'it has to be grounded in reality'.",
+    "'Over the years, and this is a known fact,' became 'Over the years, as everyone knows,'; 'American humor is based directly on Jewishness' became 'American humor is built squarely on Jewishness'; 'go on' became 'Get to it.'",
+    "'in a quiet period' became 'in a lull'; 'created a stale atmosphere and a lack of demand' became 'made the whole thing feel stale and killed the demand'; 'Reality, for example, American Idol for example' became 'Reality, say, American Idol for instance'.",
+    "'not you it' became 'not the other way around'; caption 'Polishuk' glossed as an Israeli sitcom."
   ],
   "sourceProblems": [
-    "Source gives Masters's age as 59 and the workshop dates as printed; left as is."
+    "Hebrew 'סדנאות תל-אביב - לוס אנג'לס' here and 'סדנאות לוס אנג'לס-תל אביב' in W171 name the same event in opposite order; each translation follows its own Hebrew.",
+    "Hebrew sentence 'המטרה היא, כשמתחילים לעבוד כאמור ביוני, היא ש...' repeats 'היא'; rendered once in English.",
+    "Masters's age (59) and the workshop days as printed; not verified."
   ],
   "unresolvedQuestions": [
-    "Check the spelling of the Chicago Hope director's name (Jerry Levine vs. another transliteration)."
-  ],
-  "translationPath": "data-source/writing/translations/W010-bill-masters/article.en.md",
-  "hebrewSource": "data-source/writing/originals/W010-bill-masters/article.he.md"
+    "Whether Nim prefers the literal headline 'A Master's Joke' over the pun 'Master Class'."
+  ]
 }

@@ -1,8 +1,8 @@
 ---
 articleId: "W118"
-title: "\"No One Stands a Chance With Me\": An Interview With Randy Harrison"
-subtitle: "After Justin Bieber's visit, another Justin is coming to Israel, stirring things up in a different community. Randy Harrison, star of Queer as Folk, arrives this week to lecture on patience, tolerance and accepting the other. In an interview with Rating he says: \"Mostly I speak out against violence and bullying.\" Menachem Ben is invited to the lecture too"
-summary: "After Justin Bieber's visit, another Justin is coming to Israel, stirring things up in a different community. Randy Harrison, star of Queer as Folk, arrives this week to lecture on patience, tolerance and accepting the other. In an interview with Rating he says: \"Mostly I speak out against violence and bullying.\" Menachem Ben is invited to the lecture too"
+title: "\"Nobody Stands a Chance Against Me\": An Interview with Randy Harrison"
+subtitle: "Hot on the heels of Justin Bieber, another Justin is landing in Israel, and getting a different community worked up. Randy Harrison, the star of Queer as Folk, arrives this week to talk about patience, tolerance and accepting people who are different. \"Mostly I speak out against violence and bullying,\" he tells Rating, Maariv's TV supplement. Menachem Ben, the anti-gay columnist, is invited too"
+summary: "Hot on the heels of Justin Bieber, another Justin is landing in Israel, and getting a different community worked up. Randy Harrison, the star of Queer as Folk, arrives this week to talk about patience, tolerance and accepting people who are different. \"Mostly I speak out against violence and bullying,\" he tells Rating, Maariv's TV supplement. Menachem Ben, the anti-gay columnist, is invited too"
 author: "Nimrod Dvir"
 interviewee: "Randy Harrison"
 subjects: ["Randy Harrison", "Queer as Folk"]
@@ -15,81 +15,80 @@ source: "nrg Maariv"
 sourceUrl: "https://www.makorrishon.co.il/nrg/online/47/ART2/240/297.html"
 tags: ["Interview", "Television", "LGBTQ+", "Israel", "New York"]
 draft: true
-translationStatus: "draft-for-review"
+translationStatus: "revised-for-voice"
 sourceExtraction: "../../originals/W118-randy-harrison/article.he.md"
 translatedOn: "2026-10-30"
+revisedOn: "2026-10-31"
 translationReviewedBy: null
 ---
 
-*After Justin Bieber's visit, another Justin is coming to Israel, stirring things up in a different community. Randy Harrison, star of Queer as Folk, arrives this week to lecture on patience, tolerance and accepting the other. In an interview with Rating he says: "Mostly I speak out against violence and bullying." Menachem Ben is invited to the lecture too*
+*Hot on the heels of Justin Bieber, another Justin is landing in Israel, and getting a different community worked up. Randy Harrison, the star of Queer as Folk, arrives this week to talk about patience, tolerance and accepting people who are different. "Mostly I speak out against violence and bullying," he tells Rating, Maariv's TV supplement. Menachem Ben, the anti-gay columnist, is invited too*
 
 *English translation of the Hebrew original by Nimrod Dvir, published in nrg Maariv on May 15, 2011. [Read the original in Hebrew](https://www.makorrishon.co.il/nrg/online/47/ART2/240/297.html).*
 
-Growing up is no picnic, especially when the whole world and its gay brother remember the days when you were a young, smooth spring chicken. That, roughly, is the life story so far of Randy Harrison, who played Justin, the young gay man on the hit American series Queer as Folk.
+Growing up is no picnic, especially when the whole world and its gay brother remember you as a smooth young spring chicken. That, more or less, is the life story so far of Randy Harrison, who played Justin, the gay kid on the hit American series Queer as Folk.
 
-From 2000 to 2005 Randy was identified with Justin, who began the groundbreaking series as a questioning gay high schooler and ended it as a proud gay man about to marry the hunky Brian Kinney. In reality Randy is already 34, which doesn't stop people from constantly commenting to him and asking how Justin is doing.
+From 2000 to 2005 Randy was synonymous with Justin, who started the groundbreaking series as a gay high schooler still working things out and finished it as a proud gay man about to marry the gorgeous Brian Kinney. In real life Randy is already 34, which doesn't stop people from pointing it out to him all the time and asking how Justin is doing.
 
-"The older I get, the healthier my attitude to the character of Justin becomes," he says in an exclusive telephone interview with Rating. "It no longer frustrates me that people call me Justin. I'm used to it. I know people are constantly surprised that I've grown up and look different, and a lot of them comment on it too. I think that's insensitive of them, but I know it's to be expected that they'll compare me to him. I'm emotionally prepared, so I don't get hurt anymore."
+"The older I get, the healthier my relationship with Justin gets," he says in an exclusive phone interview with Rating. "It doesn't frustrate me anymore when people call me Justin. I'm used to it. I know people are constantly surprised that I grew up and look different, and a lot of them say so to my face. I think that's insensitive of them, but I know the comparison is inevitable. I'm emotionally prepared, so it doesn't hurt anymore."
 
-Soon all of us will be able to get a personal look at the change Harrison has undergone. The actor is about to pull a Justin Bieber and come visit the Holy Land. He will be here for a week starting today (May 15) as a guest of Social TV.
+Soon we'll all get to judge the change in Harrison for ourselves. The actor is about to pull a Justin Bieber and visit the Holy Land: he'll be here for a week starting today (May 15) as a guest of the Israeli nonprofit channel Social TV.
 
-During his visit Harrison will take part in conferences promoting the gay community and will advocate for same-sex marriage and gay tourism to Israel. He will meet MK Nitzan Horowitz and Yonatan Gher, CEO of the Open House, take part in a panel with gay youth, and star at other events that will give Gal Uchovsky a bit of satisfaction. "I connected with Social TV through a friend of mine, Julia, who has known me for many years and also knows Israelis who work there," he says. "They invited me and I decided it suited me. I very much want to visit Israel."
+During the visit Harrison will take part in conferences promoting the gay community, speak up for same-sex marriage and for gay tourism to Israel, meet the Knesset member Nitzan Horowitz and Yonatan Gher, director of the Open House, Jerusalem's LGBT center, sit on a panel with gay teenagers, and star in a few other events that should warm the heart of Gal Uchovsky, the gay TV personality. "I got connected to Social TV through a friend of mine, Julia, who's known me for years and also knows Israelis who work there," he says. "They invited me and I decided it was a good fit. I really want to visit Israel."
 
 **When exactly did you become an ambassador for the gay community?**
 
-"That was a dilemma I had for years. When Queer as Folk was running I felt the community very much wanted me to be its ambassador, and I was less comfortable in that position. I felt I was more of an artist, an actor, than a politician or an activist. Only after I grew up and distanced myself from the show was I able to be active in a way I could feel comfortable with. Today I'm very much at peace with that activity. I'm connected to organizations in the U.S., I lecture at universities on equality and on the issue of marriage in the gay community. I think that mainly because of the character of Justin, I connect to the subject of young people. I get to talk a lot with teenagers about how and when to come out. There are a lot of places in the U.S. that are hard to live in, where it's hard for young people to come out. I help bring the subject to the surface, speak out against violence and bullying. Did you know that 40 percent of homeless youth in New York are gay?"
+"I went back and forth on that for years. When Queer as Folk was on, I felt the community really wanted me to be its ambassador, and I wasn't that comfortable in the role. I felt I was more of an artist, an actor, than a politician or an activist. Only after I grew up and got some distance from the show could I be an activist in a way I was comfortable with. Today I'm completely at peace with it. I work with organizations in the U.S., I lecture at universities about equality and about marriage in the gay community. I think it's mostly because of Justin that I connect with the young people's side of it. I end up talking a lot with teenagers about how and when to come out. There are a lot of places in the U.S. that are hard to live in, where it's hard for young people to come out. I help raise the issue, speak out against violence and bullying. Did you know that 40 percent of homeless youth in New York are gay?"
 
-**Yes, but how is that related to Israel?**
+**Yes, but what does that have to do with Israel?**
 
-"I'm not familiar with the situation in Israel. Mostly I want to explore your situation and also present the situation in the U.S. I'll offer what I can. I plan to screen episodes of Queer as Folk and speak out against homophobia."
+"I don't know the situation in Israel. Mostly I want to learn about your situation and also present the situation in the U.S. I'll offer what I can. I'm planning to screen episodes of Queer as Folk and speak out against homophobia."
 
-**Have you done this in other countries around the world?**
+**Have you done this in other countries?**
 
-"Not officially. It happens that on my travels around the world I'm often a guest on gay television shows and I talk about the subject a lot. Naturally, everywhere I go, people who were influenced by the show want to talk to me about subjects related to the community and to coming out. I'm really fine with that."
+"Not officially. On my travels I end up appearing on a lot of gay TV shows and talking about it a lot. Naturally, everywhere I go, people the show touched want to talk to me about the community and about coming out. I'm totally fine with that."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
 *Will speak out against homophobia. Randy Harrison (Getty Images)*
 
 ## Out Since 15
 
-Queer as Folk, as noted, brought about a genuine revolution in the representation of gays and lesbians on American television. If until then gays had made do with hints of sexuality, Queer as Folk bombarded the screen with explicit sex, hot kisses, wild parties and everything connected to the gay lifestyle. Justin, that is, Harrison, became an overnight star in gay circles and beyond. "It was crazy," he says of that period. "We won enormous popularity on a global scale. I have to admit that at the time I had a very hard time with it."
+Queer as Folk, as mentioned, was a real revolution in how gay men and lesbians were shown on American television. Where gay characters had made do with a hint of a sex life, Queer as Folk bombarded the screen with explicit sex, steamy kisses, wild parties and everything else that goes with the gay lifestyle. Justin, meaning Harrison, became an overnight star in gay circles and well beyond. "It was insane," he says of the period. "We were hugely popular on a global scale. I have to admit that at the time I had a very hard time with it."
 
 **Why?**
 
-"I had a hard time with the pressure. My view of the show was different too. I remember being frustrated by a lot of things. I thought some of the subjects were presented too simplistically, without sophistication. Only today, in hindsight, do I appreciate its effectiveness. At the time I was selfish. I thought more about what I wanted the show to be and less about what it was for people. I think Queer as Folk was a good show in that it started a discussion. It presented things that had been avoided until then. It was the beginning. People hadn't seen men making out until then.
+"The pressure was hard for me. And I saw the show differently. I remember being frustrated by a lot of things. I thought some of the subjects were handled too simplistically, without any sophistication. Only now, looking back, do I appreciate how effective it was. At the time I was selfish. I thought more about what I wanted the show to be and less about what it was for people. I think Queer as Folk was a good show in that it started a conversation. It put things on screen that had been dodged until then. It was the beginning. People had never seen men making out before.
 
-"On a personal level, so many young people come up to me to this day and tell me the show changed their lives. How can you not love being told something like that? It made me understand that we really changed people's lives. We made them see that there's a lifestyle they weren't aware of, that they can live however they want. I didn't understand that back then. I watched the show in the first two seasons and then I distanced myself from it and didn't watch anything. Recently I watched all of it and was pleasantly surprised. There are elements of humanity in it. I'm proud of it."
+"On a personal level, so many young people still come up to me and tell me the show changed their lives. How can you not love hearing something like that? It made me realize we really did change people's lives. We showed them there was a way of living they hadn't known about, that they could live however they wanted. I didn't get that back then. I watched the first two seasons and then I pulled away and didn't watch anything. Recently I watched the whole thing and was pleasantly surprised. There's real humanity in it. I'm proud of it."
 
-**You were one of the few actors in the series who were out of the closet from the start.**
+**You were one of the few actors on the show who were out from the start.**
 
-"Right. It wasn't hard, it was obvious to me. I've been out since I was 15 or 16. I never thought I'd be on television, I thought I'd act in the theater, and I always lived openly. The idea of living in the closet is inconceivable to me. It was never an option as far as I was concerned."
+"Right. It wasn't hard, it was obvious to me. I've been out since I was 15 or 16. I never thought I'd be on television, I thought I'd be in the theater, and I always lived openly. The idea of living in the closet is unthinkable to me. It was never an option as far as I was concerned."
 
-**What do you think of the representation of gays on television today?**
+**What do you think of how gay people are shown on television today?**
 
-"I think there's still room for improvement, but there's a welcome process underway. Ten years ago I was frustrated, and now I'm pleasantly surprised. Today you can see gays on hit shows like Glee and Desperate Housewives. I think we contributed a lot to that."
+"I think there's still room for improvement, but there's a welcome shift underway. Ten years ago I was frustrated, and now I'm pleasantly surprised. You can see gay characters today on hit shows like Glee and Desperate Housewives. I think we had a lot to do with that."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*I thought some of the subjects were handled too simplistically. Queer as Folk (Publicity photo)*
 
-*I thought some of the subjects were presented too simplistically. Queer as Folk (Publicity)*
+## He'd Rather Do Theater
 
-## Wants Theater
+Since the series went off the air in 2005, Harrison has mostly done theater. He lives in Brooklyn with his two cats (Ella and Aggie, for those keeping track), acts in off-Broadway plays and in a theater company he founded, and is involved in short films and assorted art projects. Nice, but not exactly a series that airs around the world.
 
-Since the series ended, in 2005, Harrison has focused mainly on theater. He lives in Brooklyn, New York, with his two cats (Ella and Aggie, for those who are curious) and works in off-Broadway plays and in a theater company he founded. He is also involved in short films and various art projects. Nice, but not exactly a series broadcast around the world.
+"Not going on to something big after Queer as Folk was a conscious decision," he insists. "I felt that kind of pressure wasn't natural for me. I didn't want that kind of attention. After the show I wanted to rest. Now I'm more open to it, but I wouldn't agree to do something that's exactly like Justin. It depends on the writing and on the character they offer me."
 
-"The decision not to go on to something big after Queer as Folk was conscious," he maintains. "I felt that kind of pressure wasn't natural for me. I wasn't interested in that kind of attention. After the show I wanted to rest. Now I'm more open to it, but I wouldn't agree to do something that's exactly like the character of Justin. It depends on the writing and the character they offer me."
+**Isn't it hard to move on to other roles when everyone knows you for one?**
 
-**Isn't it hard to move on to other roles after everyone knows you for one role?**
+"I feel the work I do now depends on the history of my career, but it still stands on its own. After all, Queer as Folk started 11 years ago, and it's been six years since it ended. The further I get from it, the more I see that I have a separate career, but I also appreciate that people want to talk to me about it. I used to get annoyed and think, 'Is that all they want from me?' But time has passed and I'm willing to talk about it and engage with it. It also depends where. Around the world, Queer as Folk really is the only thing I'm known for. In New York people respect me for the theater."
 
-"I feel the work I'm doing now depends on the history of my career, but it still stands on its own. After all, Queer as Folk started 11 years ago, and six years have passed since it ended. The further I get from it, the more I understand that I have a separate career, but I also appreciate the fact that people talk to me about it. I used to get angry, thinking to myself, 'Is that all they want from me?' But time has passed and I'm willing to talk and relate to it. It also depends where. Around the world, Queer as Folk really is the only thing I'm known for. In New York people appreciate me for the theater."
+**So how do you sum up Queer as Folk? Good or bad for the career?**
 
-**How do you sum up Queer as Folk? Good or bad for your career?**
+"In the end, for me the show didn't change anything. The good and the bad of it left me on neutral ground. When it ended, I didn't feel it was something I could build on. If anything, I felt I was starting over. That was frustrating, but also exciting. I knew what I wanted to be, and that was refreshing."
 
-"In the end, for me the show didn't change anything. Its positive and negative aspects left me on neutral ground. When the show ended, I didn't feel it was something I could build on. On the contrary, I felt I was starting from scratch. It was frustrating, but also exciting. I knew what I wanted to be, and that was refreshing."
+**You do know the gay community in Israel is very excited about your visit? It'll be like throwing a steak into a lion cage.**
 
-**Are you aware that the gay community in Israel is very excited about your arrival? It'll be like throwing a steak into a lions' cage.**
-
-Harrison laughs. "That's exciting, it makes me very happy. I'd rather people were excited than not. But I won't think about it at all. I'm not planning anything during the trip. You can write that no one stands a chance with me."
+Harrison laughs. "That's exciting, it makes me really happy. I'd rather people were excited than not. But I won't give it a second thought. I'm not planning anything on this trip. You can write that nobody stands a chance against me."
 
 ---
 
@@ -103,4 +102,4 @@ Dvir, N. (2011, May 15). Ein le-af echad sikui iti: Ra'ayon im Randy Harrison [N
 
 [Original article at the publisher](https://www.makorrishon.co.il/nrg/online/47/ART2/240/297.html) · [Verified Hebrew Markdown](../../originals/W118-randy-harrison/article.he.md) · [Clean Hebrew HTML backup](../../originals/W118-randy-harrison/article.he.html)
 
-*This English translation was prepared on October 30, 2026 and was not published by the original publisher. Source images were not downloaded or re-hosted; captions and credits are preserved as provenance.*
+*This English translation was prepared on October 30, 2026 and revised for voice on October 31, 2026. It was not published by the original publisher. Source images were not downloaded or re-hosted; their captions and credits are kept here as provenance and are not shown on the website page.*
