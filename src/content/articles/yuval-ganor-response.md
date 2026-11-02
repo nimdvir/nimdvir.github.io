@@ -4,6 +4,7 @@ title: There Is Room for Everyone
 subtitle: 'Is there any reason to avoid flaunting homosexuality on the television screen? Yuval Ganor argues there is not, and responds to Nimrod Dvir''s column: "Only when each of us is truly free to be who he is will we be able to say that homophobia has come to an end"'
 summary: 'Is there any reason to avoid flaunting homosexuality on the television screen? Yuval Ganor argues there is not, and responds to Nimrod Dvir''s column: "Only when each of us is truly free to be who he is will we be able to say that homophobia has come to an end"'
 kind: coverage
+group: about-me
 author: Yuval Ganor
 thirdPartyCoverage: true
 subjects:

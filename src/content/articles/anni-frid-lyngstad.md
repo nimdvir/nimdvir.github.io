@@ -4,6 +4,7 @@ title: Mamma Mia! The Story of ABBA's Frida Lyngstad
 subtitle: 'Frida Lyngstad, the brunette singer from ABBA who celebrates her 65th birthday this week, has a dark secret from the past: she was born to a Nazi father and a Norwegian mother as part of a program initiated by Heinrich Himmler. Only after the band won Eurovision did she discover that her father was alive, and since their meeting she has never recovered. The astonishing story of the father of that one from ABBA'
 summary: 'Frida Lyngstad, the brunette singer from ABBA who celebrates her 65th birthday this week, has a dark secret from the past: she was born to a Nazi father and a Norwegian mother as part of a program initiated by Heinrich Himmler. Only after the band won Eurovision did she discover that her father was alive, and since their meeting she has never recovered. The astonishing story of the father of that one from ABBA'
 kind: feature
+group: feature
 author: Nimrod Dvir
 subjects:
 - Anni-Frid Lyngstad
@@ -19,6 +20,14 @@ citation: Dvir, N. (2010, November 14). Mamma mia! Sipura shel Frida Lyngstad me
 tags:
 - Feature
 - Music
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386468/Database-book-BITM330/vscode-auto/articles/W159-anni-frid-lyngstad.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386468/Database-book-BITM330/vscode-auto/articles/W159-anni-frid-lyngstad.jpg
+imageAlt: Anni-Frid Lyngstad smiling at an event
+imageCaption: 'Anni-Frid Lyngstad at the opening of ABBA: The Museum, Stockholm, May 2013.'
+imageCredit: 'Photo: Frankie Fouganthin, CC BY-SA 4.0, via Wikimedia Commons'
+imageLicense: CC BY-SA 4.0
+imageLicenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+imageSource: https://commons.wikimedia.org/wiki/File:Anni-Frid_Lyngstad,_May_2013.jpg
 draft: false
 ---
 

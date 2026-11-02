@@ -4,6 +4,7 @@ title: J. No
 subtitle: Maybe it's enough already with reminding Jennifer Lopez that before all the diamonds, the money and the fame, she's just the little girl from the Bronx? Maybe it's enough pestering her with questions about her fondness for furs and her becoming the number one target of animal-rights groups? Maybe just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and be done with it? Nimrod Dvir went out to meet Her Grace and fell out with her badly
 summary: Maybe it's enough already with reminding Jennifer Lopez that before all the diamonds, the money and the fame, she's just the little girl from the Bronx? Maybe it's enough pestering her with questions about her fondness for furs and her becoming the number one target of animal-rights groups? Maybe just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and be done with it? Nimrod Dvir went out to meet Her Grace and fell out with her badly
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Jennifer Lopez
 subjects:

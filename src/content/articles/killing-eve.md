@@ -4,6 +4,7 @@ title: 'Haters: A Love Story'
 subtitle: What made television critics declare Killing Eve a perfect show? How did Jodie Comer become a fashion icon playing a psychopathic assassin? And will the success land Sandra Oh the role of James Bond? With the crime drama back for a second season, our correspondent met the stars and came home with a scolding from Sandra
 summary: What made television critics declare Killing Eve a perfect show? How did Jodie Comer become a fashion icon playing a psychopathic assassin? And will the success land Sandra Oh the role of James Bond? With the crime drama back for a second season, our correspondent met the stars and came home with a scolding from Sandra
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Sandra Oh; Jodie Comer
 subjects:

@@ -8,6 +8,8 @@ import {
   articleDate,
   articleByline,
   articleMonogram,
+  articlePortrait,
+  isPersonPiece,
 } from "../../utils/articles";
 import { readingMinutes } from "../../utils/editorial";
 
@@ -62,6 +64,10 @@ const articleSchema = {
 };
 const kind = articleKindLabel(d.kind);
 const minutes = readingMinutes(article.body);
+// Interviews open on the person: a large portrait beside the name.
+const celebrate = isPersonPiece(article) && !d.thirdPartyCoverage;
+const personName = d.interviewee || d.subjects[0] || "";
+const portrait = celebrate ? articlePortrait(d.image, 900) : undefined;
 ---
 
 <Layout
@@ -76,7 +82,45 @@ const minutes = readingMinutes(article.body);
     { name: d.title, path: `/articles/${article.slug}/` },
   ]}
 >
-  <article class="editorial-article journalism-article">
+  <article class={`editorial-article journalism-article${celebrate ? " person-article" : ""}`}>
+    {celebrate ? (
+      <header class="person-hero">
+        <a class="back-link" href="/articles/">← All articles</a>
+        <div class="person-hero-grid">
+          <figure class="person-portrait">
+            {portrait ? (
+              <img src={portrait} alt={d.imageAlt ?? personName} loading="eager" width="900" height="1200" />
+            ) : (
+              <span class="face-initials person-initials" aria-hidden="true">{articleMonogram(article)}</span>
+            )}
+            {d.image && (
+              <figcaption>
+                {d.imageCaption && <span>{d.imageCaption} </span>}
+                {d.imageSource ? (
+                  <a href={d.imageSource} target="_blank" rel="noopener noreferrer">{d.imageCredit}</a>
+                ) : (
+                  <span>{d.imageCredit}</span>
+                )}
+              </figcaption>
+            )}
+          </figure>
+          <div class="person-hero-text">
+            <p class="eyebrow">
+              {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
+            </p>
+            <p class="person-name">{personName}</p>
+            <h1>{d.title}</h1>
+            {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
+            <p class="post-meta article-byline">
+              By <strong>{byline}</strong>
+              <span> · {minutes} min read</span>
+              <span> · Translated from the Hebrew</span>
+            </p>
+            <TagChips tags={d.tags} />
+          </div>
+        </div>
+      </header>
+    ) : (
     <header class="editorial-article-header">
       <a class="back-link" href="/articles/">← All articles</a>
       <p class="eyebrow">
@@ -94,6 +138,7 @@ const minutes = readingMinutes(article.body);
       </p>
       <TagChips tags={d.tags} />
     </header>
+    )}
 
     {d.thirdPartyCoverage && (
       <aside class="article-notice" aria-label="About this piece">
@@ -113,7 +158,7 @@ const minutes = readingMinutes(article.body);
       </aside>
     )}
 
-    {d.image ? (
+    {celebrate ? null : d.image ? (
       <figure class="editorial-cover article-cover">
         <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
         <figcaption>

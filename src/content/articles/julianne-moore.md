@@ -4,6 +4,7 @@ title: Who’s Interested in Me?
 subtitle: Oh, honey, don't be so modest. Of course you're interesting. To us. Julianne Moore, Hollywood's hottest redhead, stars in a new film (Freedomland) and talks about life after 40 in an industry that worships youth. "Most of the attention these days goes to young people, the Jessica Simpsons of the world," she says. "At my age, I'm probably well outside the age range people talk about."
 summary: Oh, honey, don't be so modest. Of course you're interesting. To us. Julianne Moore, Hollywood's hottest redhead, stars in a new film (Freedomland) and talks about life after 40 in an industry that worships youth. "Most of the attention these days goes to young people, the Jessica Simpsons of the world," she says. "At my age, I'm probably well outside the age range people talk about."
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Julianne Moore
 subjects:

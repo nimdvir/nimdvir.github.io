@@ -4,6 +4,7 @@ title: '"Millions of People Feel Rejected, Like Frankenstein"'
 subtitle: 'In the action film I, Frankenstein, Aaron Eckhart plays the latest incarnation of the monster. In an interview with ynet he says: "In the past the creature was presented as lumbering, heavy, and slow, but this is a dynamic film, so he had to be fast and agile, and take his shirt off too"'
 summary: 'In the action film I, Frankenstein, Aaron Eckhart plays the latest incarnation of the monster. In an interview with ynet he says: "In the past the creature was presented as lumbering, heavy, and slow, but this is a dynamic film, so he had to be fast and agile, and take his shirt off too"'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Aaron Eckhart; Yvonne Strahovski
 subjects:

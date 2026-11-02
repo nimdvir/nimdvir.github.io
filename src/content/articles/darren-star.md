@@ -1,9 +1,10 @@
 ---
 articleId: W171
 title: Super Star
-subtitle: Darren Star, creator of Beverly Hills, 90210 and Sex and the City, is visiting Israel and trying to share a little of his knowledge with the next generation of creators. Along the way he told us about his opposition to the 90210 reboot, and gave the first details of his next series
-summary: Darren Star, creator of Beverly Hills, 90210 and Sex and the City, is visiting Israel and trying to share a little of his knowledge with the next generation of creators. Along the way he told us about his opposition to the 90210 reboot, and gave the first details of his next series
+subtitle: Darren Star, creator of Beverly Hills, 90210 and Sex and the City, is in Israel to pass on a little of what he knows to the next generation of creators. Along the way he told us why he opposed the 90210 reboot, and gave us the first details of his next series
+summary: Darren Star, creator of Beverly Hills, 90210 and Sex and the City, is in Israel to pass on a little of what he knows to the next generation of creators. Along the way he told us why he opposed the 90210 reboot, and gave us the first details of his next series
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Darren Star
 subjects:
@@ -34,44 +35,44 @@ imageSource: https://commons.wikimedia.org/wiki/File:Darren_Star_on_Sidewalks_En
 draft: false
 ---
 
-The stars of the Los Angeles-Tel Aviv workshops, being held these days in Tel Aviv, have brought a refreshing breeze of Hollywood spirit with them. The day before yesterday (Tuesday), an event was held at the Herzliya Pituach home of the American ambassador, James B. Cunningham, where a glass was raised in honor of the guests: Nina Tassler, president of CBS Entertainment; Darren Star, creator of Beverly Hills, 90210 and Sex and the City; the screenwriter Bill Masters (Seinfeld); his wife, the producer Gail Berman; the producer Jeremy Kleiner; and more.
+The stars of the Los Angeles-Tel Aviv Workshops, under way this week in Tel Aviv, have brought a refreshing gust of Hollywood with them. On Tuesday the American ambassador, James B. Cunningham, hosted a reception at his residence in Herzliya Pituach, where glasses were raised to the guests: Nina Tassler, president of CBS Entertainment; Darren Star, creator of Beverly Hills, 90210 and Sex and the City; the screenwriter Bill Masters (Seinfeld); his wife, the producer Gail Berman; the producer Jeremy Kleiner; and others.
 
-Tassler presented what CBS is betting on this coming fall, including a sitcom called "[Accidentally on Purpose](http://www.cbs.com/primetime/accidentally_on_purpose)," starring Jenna Elfman (Dharma & Greg), about a career woman who gets pregnant by a younger guy, and a drama called "[The Good Wife](http://www.cbs.com/primetime/the_good_wife)," starring Julianna Margulies (ER), about a woman who launches an independent career as a lawyer after her successful husband is thrown in jail. Not bad.
+Tassler ran through what CBS is betting on this fall, including a sitcom called [Accidentally on Purpose](http://www.cbs.com/primetime/accidentally_on_purpose), starring Jenna Elfman (Dharma & Greg) as a career woman who gets pregnant by a younger guy, and a drama called [The Good Wife](http://www.cbs.com/primetime/the_good_wife), starring Julianna Margulies (ER) as a woman who strikes out on her own as a lawyer after her high-flying husband is sent to prison. Not bad.
 
-Darren Star is the man, the legend, and the father of the classics Beverly Hills, 90210, Melrose Place, Sex and the City, and of course Models Inc. The acclaimed creator looks younger than his 48 years, with black hair and a gleaming smile. In the conversation we had with him between yet another lecture and yet another glittering event, he also turned out to be a thoroughly friendly guy, glad to talk with us a little about his work and mainly about our shared adoration of Beverly Hills, 90210.
+Darren Star is the man, the legend and the father of the classics Beverly Hills, 90210, Melrose Place, Sex and the City and, of course, Models Inc. The acclaimed creator looks younger than his 48 years, with black hair and a gleaming smile. In a conversation squeezed in between one more lecture and one more glittering event, he also turned out to be a thoroughly friendly guy, happy to talk a little about his work and mostly about our shared adoration of Beverly Hills, 90210.
 
-## Back to the Beverly days
+## Back to the Beverly Hills Days
 
-"I think Beverly Hills succeeded because it was simply very right for its time," says Star. "The stories were good, the cast was great, and the period also really suited a series like that. At the time there weren't many teen series, certainly not like there are today. So it was just us."
+"I think Beverly Hills worked because it was just so right for its moment," Star says. "The stories were good, the cast was great, and the era really suited a show like that. There weren't many teen series back then, certainly nothing like today. So it was just us."
 
-According to Star, he was aware of the success and the crazy devotion his series inspired. "Even when Beverly was airing in real time I knew it was very much loved in Israel."
+Star says he was well aware of the success, and of the frenzied devotion his shows inspired. "Even when Beverly Hills was on the air in real time, I knew it was hugely loved in Israel."
 
-**And today, do you watch the teen series on the air? 90210 and company?**
+**Do you watch today's teen shows? 90210 and company?**
 
-"Honestly, no, even though I am a partner in making some of them. But I was against [the 90210 reboot](https://www.ynet.co.il/articles/0,7340,L-3591548,00.html). I think it's a really bad series. It's certainly nothing like the original series, which had a special soul, it had heart."
+"Honestly, no, even though I'm involved in making some of them. But I was against [the 90210 reboot](https://www.ynet.co.il/articles/0,7340,L-3591548,00.html). I think it's a really bad show. It's certainly nothing like the original, which had a special soul. It had heart."
 
-**What do you watch on American television?**
+**So what do you watch on American television?**
 
-"Honestly, I don't watch that much television. I love Larry David's Curb Your Enthusiasm. And there's some reality show I happened to see recently, The Real Housewives of New York, it's total trash but I love it."
+"Honestly, I don't watch that much television. I love Larry David's Curb Your Enthusiasm. And there's a reality show I caught recently, The Real Housewives of New York. It's complete trash, but I love it."
 
-**You're considered a guy with the golden touch. What's the secret of all these successes?**
+**You're considered a man with the golden touch. What's the secret behind all those hits?**
 
-"True, I've had relatively many successes, but not everything succeeded, by any means. For example, I made a series I was sure would be a big hit, Kitchen Confidential, and it failed. I have no formula for what works and what doesn't.
+"It's true, I've had a fair number of hits, but not everything worked, far from it. I made a show I was sure would be a huge hit, Kitchen Confidential, and it flopped. I don't have a formula for what works and what doesn't.
 
-"It has to interest me, that's for sure. It has to be right for the time, something that hasn't been done yet, or a version that suits the spirit of the time. And I have to feel in my gut that it's going to be a hit. On the other hand, look what happened to Kitchen Confidential. My gut isn't always right."
+"It has to interest me, that's for sure. It has to be right for the time, something nobody has done yet, or a version that fits the mood of the moment. And I have to feel in my gut that it's going to be a hit. Then again, look what happened to Kitchen Confidential. My gut isn't always right."
 
-**And whenever you write a series, do you know how to sense whether it's going to be a hit?**
+**And when you're writing a show, can you always tell whether it's going to be a hit?**
 
-"Mostly I know. I always hope it'll become a hit. With Sex and the City, for example, I knew it would be a hit, but I didn't think it would be such a hit."
+"Usually I know. I always hope it'll be a hit. With Sex and the City, for example, I knew it would be a hit, I just didn't think it would be that big a hit."
 
 **So what's the next hit?**
 
-"I don't know if it'll be a hit, but I've been working for a while now on a show for HBO. I can't even say yet what it's about. It'll probably be in New York, and the center will probably be around married couples, but right now nothing is settled."
+"I don't know if it'll be a hit, but I've been working for a while now on a show for HBO. I can't even say yet what it's about. It'll probably be set in New York, and it'll probably revolve around married couples, but right now nothing is settled."
 
-**Have you had a chance to watch Israeli television?**
+**Have you had a chance to see any Israeli television?**
 
-"Not yet, but I hope I will. In the United States I saw In Treatment, the American version of BeTipul. It's a very moving series."
+"Not yet, but I hope to. In the States I saw In Treatment, the American version of the Israeli series BeTipul. It's a very moving show."
 
 **Have you been to Israel before?**
 
-"Yes, last fall I came for a private visit and toured all the sites. It was amazing. I was at all the holy sites and was very moved. As for this visit, I don't entirely know yet what's planned for me beyond the workshops. I'm sure the organizers will manage to fill my time."
+"Yes, last fall I came on a private visit and toured all the sites. It was amazing. I went to all the holy places and was very moved. As for this trip, I don't entirely know yet what's planned for me beyond the workshops. I'm sure the organizers will find ways to fill my time."

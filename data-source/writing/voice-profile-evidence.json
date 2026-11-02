@@ -5,12 +5,12 @@
   "status": "draft for Nim review",
   "inventory": "data-source/writing/articles.csv",
   "corpusSummary": {
-    "uniqueVerifiedBodies": 50,
-    "soloByNim": 49,
+    "uniqueVerifiedBodies": 49,
+    "soloByNim": 48,
     "coauthored": 1,
-    "closeAnalysis": 20,
+    "closeAnalysis": 19,
     "validation": 29,
-    "excludedThirdPartyOrMisattributed": 6,
+    "excludedThirdPartyOrMisattributed": 7,
     "duplicatePackages": 2
   },
   "separationRule": "Only Nim's narration, scene-setting, commentary, questions, and interviewer statements support voice claims. Quoted answers were used solely to describe how Nim selects, frames, introduces, interrupts, and responds to them. Headlines, subtitles, captions, and publisher tags are treated as weak evidence or house convention.",
@@ -668,35 +668,6 @@
         "parens_per100w": 1.2,
         "quote_sents": 0,
         "quote_mean": null
-      }
-    },
-    {
-      "id": "W094",
-      "title": "אין כמו רגע הקסם בפיסגה",
-      "publication": "Israel Hayom",
-      "date": "2014-10-15",
-      "genre": "opinion column",
-      "byline": "Nimrod Dvir",
-      "hebrewPath": "data-source/writing/originals/W094-annapurna-memoir/article.he.md",
-      "role": "core close analysis",
-      "inclusionReason": "Plain advisory register; no humor",
-      "limitations": "Short; written after a fatal storm",
-      "analyzedPassageTypes": [
-        "narration",
-        "interviewer prompts",
-        "quoted answers (framing only)",
-        "captions and subtitle (furniture)"
-      ],
-      "narrationMeasures": {
-        "narr_words": 157,
-        "narr_sents": 10,
-        "narr_mean": 15.7,
-        "narr_median": 12.5,
-        "narr_short_le6": 0.0,
-        "narr_long_ge25": 0.2,
-        "parens_per100w": 0.0,
-        "quote_sents": 8,
-        "quote_mean": 14.1
       }
     },
     {
@@ -1484,6 +1455,10 @@
     {
       "id": "W005, W101-W105, W110-W112",
       "reason": "Source-only records without a verified Hebrew body"
+    },
+    {
+      "id": "W094",
+      "reason": "Removed 2026-10-31: Nim states this Israel Hayom opinion piece is not his writing despite the printed byline. All evidence from it withdrawn."
     }
   ],
   "claims": [
@@ -1516,8 +1491,7 @@
         }
       ],
       "counterexamples": [
-        "W159 and W195 use a thin narrator with little direct address",
-        "W094 is plain advisory prose"
+        "W159 and W195 use a thin narrator with little direct address"
       ]
     },
     {
@@ -1596,11 +1570,6 @@
           "shows": "Sober opening; no jokes in the body"
         },
         {
-          "article": "W094",
-          "hebrew": "אסור להניח ש\"יהיה בסדר\" על סמך טיולים בארץ או שירות קרבי",
-          "shows": "Advisory prose"
-        },
-        {
           "article": "W003",
           "hebrew": "לא קל לראות קומיקאית דומעת",
           "shows": "Restraint on cancer"
@@ -1649,8 +1618,7 @@
         }
       ],
       "counterexamples": [
-        "W003 and W089 (Israel Hayom 2019) contain very little slang",
-        "W094 contains none"
+        "W003 and W089 (Israel Hayom 2019) contain very little slang"
       ]
     },
     {
@@ -1885,7 +1853,7 @@
         }
       ],
       "counterexamples": [
-        "W071, W094, W021, W162, W186 contain no parentheses"
+        "W071, W021, W162, W186 contain no parentheses"
       ]
     },
     {
@@ -2652,7 +2620,7 @@
           3.7
         ],
         "highest": "W079 (3.7), W185 (3.1), W176 (2.5), W011 (2.5)",
-        "zero": "W071, W094, W021, W162, W186",
+        "zero": "W071, W021, W162, W186",
         "validationPiecesWithAsides": "26 of 29"
       }
     },

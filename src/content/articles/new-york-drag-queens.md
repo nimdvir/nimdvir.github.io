@@ -4,6 +4,7 @@ title: 'Cockfight: Behind the Scenes of "The Drag Queens of New York"'
 subtitle: Bringing together the ten most successful and capricious drag queens in the United States is no small matter. Not to mention getting them to behave nicely, like big girls, while they are being filmed for a new reality series. Our correspondent gawked at them behind the scenes of "The Drag Queens" and came back with colorful conclusions
 summary: Bringing together the ten most successful and capricious drag queens in the United States is no small matter. Not to mention getting them to behave nicely, like big girls, while they are being filmed for a new reality series. Our correspondent gawked at them behind the scenes of "The Drag Queens" and came back with colorful conclusions
 kind: feature
+group: feature
 author: Nimrod Dvir
 subjects:
 - The Drag Queens of New York

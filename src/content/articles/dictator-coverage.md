@@ -4,6 +4,7 @@ title: '"The Dictator" Pressed a Gun to an Israeli Reporter''s Groin'
 subtitle: Israeli reporter Nimrod Dvir thought he was just coming to cover a press conference with Sacha Baron Cohen, but found himself face to face with the Dictator, with a gold-plated gun aimed at an alarming area. "He asked me to prove to him that I'm Jewish," he tells ynet
 summary: Israeli reporter Nimrod Dvir thought he was just coming to cover a press conference with Sacha Baron Cohen, but found himself face to face with the Dictator, with a gold-plated gun aimed at an alarming area. "He asked me to prove to him that I'm Jewish," he tells ynet
 kind: coverage
+group: about-me
 author: Amir Bogen
 thirdPartyCoverage: true
 subjects:

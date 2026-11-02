@@ -1,39 +1,60 @@
 {
   "articleId": "W171",
   "englishTitle": "Super Star",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 21,
   "translatedTextBlocks": 21,
   "questionBlocks": 7,
   "captions": 4,
   "images": 0,
   "completenessChecks": [
-    "First block (workshop opening at the ambassador's residence) and last block (the 'organizers will fill my time' answer) match the source-record first and last text blocks.",
-    "20 body text blocks plus 1 section heading translated in order; 7 prompts bold and separate; the two-paragraph answer about Kitchen Confidential keeps its boundary.",
-    "All three source hyperlinks (CBS show pages and the Ynet 90210 reboot story) kept on the same words.",
-    "Four captions translated with AP and Reuters credits kept; the two sidebar captions remain at the end as in the Hebrew file."
+    "13 narration and answer paragraphs, 7 bold prompts and 1 section heading, in the Hebrew order; the two-paragraph Kitchen Confidential answer keeps its break.",
+    "All three source hyperlinks (two CBS show pages, the Ynet 90210 reboot story) kept on the same words.",
+    "All 4 captions present with the AP and Reuters credits, each under its provenance comment; the two end-of-article sidebar captions stay at the end as in the Hebrew.",
+    "Names and ages checked against the Hebrew (Cunningham, Tassler, Berman, Kleiner, Elfman, Margulies; Star 48)."
   ],
   "voiceChecks": [
-    "'Not bad.' kept as a two-word verdict sentence.",
-    "'The man, the legend, and the father of the classics' kept as the mock-grand epithet; 'between yet another lecture and yet another glittering event' keeps the dry repetition.",
-    "'our shared adoration' kept so the narrator's fan admission stays in.",
-    "No jokes added; the piece's service register preserved."
+    "'Not bad.' kept as the two-word verdict after the long CBS-slate sentence.",
+    "Mock-grand epithet kept at full weight: 'the man, the legend and the father of the classics'; the dry repetition 'between one more lecture and one more glittering event' kept.",
+    "The narrator's fan confession ('our shared adoration') kept; no skepticism added to a friendly piece.",
+    "Short prompts kept short ('So what's the next hit?'); the piece ends on Star's own line about the organizers filling his time, with nothing appended."
   ],
+  "israeliTermsRendered": {
+    "בטיפול": "'the Israeli series BeTipul' (Star's own sentence already names In Treatment as its American version)",
+    "הרצליה פיתוח": "'Herzliya Pituach' kept as a place name",
+    "שלשום (ג')": "'On Tuesday'"
+  },
   "decisions": [
-    "Series titles use established English titles (Beverly Hills, 90210; Melrose Place; Sex and the City; Models Inc.; Curb Your Enthusiasm; The Real Housewives of New York City rendered as the source names it, 'The Real Housewives of New York'; Kitchen Confidential; Dharma & Greg; ER).",
-    "'הפקה מחודשת' rendered as 'reboot' in the subtitle and the linked prompt.",
-    "'הערצה המוטורפת' rendered as 'crazy devotion'.",
-    "'שלשום (ג')' rendered as 'The day before yesterday (Tuesday)'.",
-    "'בטיפול' kept as BeTipul with In Treatment as the American title, following Star's own wording."
+    "Headline 'סופר סטאר' kept as 'Super Star', two words, so the pun on Star's name stays visible.",
+    "'שלשום (ג')' rendered simply 'On Tuesday'; 'the day before yesterday' is accurate but not how an English magazine would write it, and the weekday carries the information.",
+    "Caption 'בתקופה של בוורלי היינו היחידים בתחום על המסך' rendered 'In the Beverly Hills days we were the only ones of our kind on screen'.",
+    "'הערצה המוטורפת' rendered 'frenzied devotion'; 'מגע זהב' rendered 'the golden touch'.",
+    "Established English titles throughout: Beverly Hills, 90210; Melrose Place; Sex and the City; Models Inc.; Curb Your Enthusiasm; The Real Housewives of New York (as Star names it); Kitchen Confidential; Dharma & Greg; ER; In Treatment.",
+    "Photo credits normalized to the '(Photo: AP)' form used in the reference files; the Hebrew prints them without parentheses."
+  ],
+  "lostInTranslation": [
+    "Nothing of substance; the piece has little wordplay beyond the headline, which transfers."
+  ],
+  "defectsFixed": [
+    "Opening rebuilt: 'a refreshing breeze of Hollywood spirit' became 'a refreshing gust of Hollywood'; the passive 'an event was held at the Herzliya Pituach home of the American ambassador... where a glass was raised' became 'the American ambassador... hosted a reception at his residence in Herzliya Pituach, where glasses were raised'.",
+    "'Tassler presented what CBS is betting on' became 'Tassler ran through what CBS is betting on'; 'about a woman who launches an independent career as a lawyer after her successful husband is thrown in jail' became 'as a woman who strikes out on her own as a lawyer after her high-flying husband is sent to prison'.",
+    "'glad to talk with us a little about his work' became 'happy to talk a little about his work'; 'According to Star, he was aware of... the crazy devotion his series inspired' became 'Star says he was well aware of the success, and of the frenzied devotion his shows inspired'.",
+    "'it was simply very right for its time' became 'it was just so right for its moment'; 'the period also really suited a series like that' became 'the era really suited a show like that'.",
+    "'I've had relatively many successes, but not everything succeeded, by any means' became 'I've had a fair number of hits, but not everything worked, far from it'; 'a version that suits the spirit of the time' became 'a version that fits the mood of the moment'.",
+    "'do you know how to sense whether' became 'can you always tell whether'; 'the center will probably be around married couples' became 'it'll probably revolve around married couples'.",
+    "'I was at all the holy sites' became 'I went to all the holy places'; 'will manage to fill my time' became 'will find ways to fill my time'."
   ],
   "sourceProblems": [
-    "Source calls Gail Berman Bill Masters's wife ('אשתו המפיקה גייל ברמן'); kept as printed without verification.",
-    "Source says Star is 48 in July 2009 (born July 1961); kept as printed."
+    "Hebrew calls Gail Berman Bill Masters's wife ('אשתו המפיקה גייל ברמן'); this matches the public record (Berman is married to the writer Bill Masters) and is kept.",
+    "Hebrew gives Star's age as 48 in July 2009 (born July 1961); kept as printed.",
+    "Hebrew lists CBS titles in Latin letters with curly quotes; English uses the titles unquoted."
   ],
   "unresolvedQuestions": []
 }

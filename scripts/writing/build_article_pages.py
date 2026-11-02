@@ -43,6 +43,21 @@ KIND_BY_TYPE = {
     "report": "feature",
     "other": "feature",
 }
+GROUPS = {
+    "international-interview",
+    "israeli-interview",
+    "feature",
+    "review",
+    "column",
+    "about-me",
+}
+GROUP_BY_KIND = {
+    "interview": "international-interview",
+    "column": "column",
+    "feature": "feature",
+    "review": "review",
+    "coverage": "about-me",
+}
 LEGACY_SLUGS = {
     "jamie-foxx",
     "jim-carrey",
@@ -69,7 +84,15 @@ def page_body(body: str) -> str:
     seen_text = False
     for para in paragraphs:
         stripped = para.strip()
-        is_comment = stripped.startswith("<!--") and stripped.endswith("-->")
+        # A provenance comment and its caption often share one paragraph.
+        had_comment = "<!--" in stripped
+        stripped = re.sub(r"<!--.*?-->", "", stripped, flags=re.S).strip()
+        if had_comment and not stripped:
+            skip_next_caption = True
+            continue
+        if had_comment:
+            skip_next_caption = True
+        is_comment = False
         is_image = stripped.startswith("![")
         is_italic_line = (
             stripped.startswith("*")
@@ -198,10 +221,21 @@ def main() -> int:
         }
         if subtitle:
             data["subtitle"] = subtitle
+        review_path = folder / "translation-review.json"
+        review = (
+            json.loads(review_path.read_text(encoding="utf-8"))
+            if review_path.exists()
+            else {}
+        )
+        group = review.get("portfolioGroup") or GROUP_BY_KIND[kind]
+        if group not in GROUPS:
+            problems.append(f"{wid}: portfolioGroup {group!r} not recognised")
+            group = GROUP_BY_KIND[kind]
         data.update(
             {
                 "summary": summary,
                 "kind": kind,
+                "group": group,
                 "author": author,
             }
         )

@@ -4,6 +4,7 @@ title: Gila Gamliel Fears the Day "The Handmaid's Tale" Becomes Reality in Israe
 subtitle: Gila Gamliel, the Minister for Social Equality, no longer demonstrates outside the prime minister's residence, is disappointed with the opposition led by Avi Gabbay, wants you to deal with her actions instead of the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview
 summary: Gila Gamliel, the Minister for Social Equality, no longer demonstrates outside the prime minister's residence, is disappointed with the opposition led by Avi Gabbay, wants you to deal with her actions instead of the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Gila Gamliel
 subjects:

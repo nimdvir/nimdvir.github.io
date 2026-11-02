@@ -4,6 +4,7 @@ title: Nature Is Stronger Than Everything
 subtitle: The distance humanity has traveled, from walking barefoot in a forest clearing to flying to the moon, and from ignorance to the glut of information offered on the internet, has not changed the basic picture in which humankind appears inferior and defeated before the forces of nature
 summary: The distance humanity has traveled, from walking barefoot in a forest clearing to flying to the moon, and from ignorance to the glut of information offered on the internet, has not changed the basic picture in which humankind appears inferior and defeated before the forces of nature
 kind: coverage
+group: about-me
 author: Dan Margalit
 authors:
 - Dan Margalit

@@ -4,6 +4,7 @@ title: 'Seth Rogen: "There''s Something Scary About Zac Efron"'
 subtitle: Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then came Seth Rogen, and with him the offer to star in the hysterical Neighbors, and although the shoot was by no means free of anxiety and incidents, today he keeps a healthy lifestyle and looks ahead with optimism. And why not? He's Zac Efron
 summary: Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then came Seth Rogen, and with him the offer to star in the hysterical Neighbors, and although the shoot was by no means free of anxiety and incidents, today he keeps a healthy lifestyle and looks ahead with optimism. And why not? He's Zac Efron
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Seth Rogen; Zac Efron
 subjects:

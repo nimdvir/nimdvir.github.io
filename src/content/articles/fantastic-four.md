@@ -4,6 +4,7 @@ title: A Super Family
 subtitle: 'A scientist, a rock man, a human torch and an invisible woman join forces to save the world. It may sound like the start of a joke, but don''t be confused: this is the summer comic-book movie, Fantastic Four. Nimrod Dvir met the foursome and looked into how they keep their figures, why they all suffer from inferiority complexes and why one of them needed psychiatric treatment'
 summary: 'A scientist, a rock man, a human torch and an invisible woman join forces to save the world. It may sound like the start of a joke, but don''t be confused: this is the summer comic-book movie, Fantastic Four. Nimrod Dvir met the foursome and looked into how they keep their figures, why they all suffer from inferiority complexes and why one of them needed psychiatric treatment'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Ioan Gruffudd; Chris Evans; Jessica Alba; Michael Chiklis
 subjects:

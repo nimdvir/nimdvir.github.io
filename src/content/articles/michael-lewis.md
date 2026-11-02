@@ -4,6 +4,7 @@ title: 'Michael Lewis: "I would have been among the first out anyway"'
 subtitle: Michael Lewis got tired of being called a draft dodger, so he packed up his abs and left Israel. He got out of Survivor VIP even faster (blame the heart problems), in the hope of making it in New York. If he doesn't survive there either, he can always say yes to the job offers he keeps getting from the porn scene
 summary: Michael Lewis got tired of being called a draft dodger, so he packed up his abs and left Israel. He got out of Survivor VIP even faster (blame the heart problems), in the hope of making it in New York. If he doesn't survive there either, he can always say yes to the job offers he keeps getting from the porn scene
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Michael Lewis
 subjects:

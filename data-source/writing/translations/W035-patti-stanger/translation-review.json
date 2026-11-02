@@ -1,50 +1,67 @@
 {
   "articleId": "W035",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Money Can Buy You Love",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
-    "bylineAsPrinted": "נמרוד דביר",
-    "thirdPartyCoverage": false
+    "bylineAsPrinted": "נמרוד דביר"
   },
-  "englishTitle": "Money Can Buy Love After All",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 18,
   "translatedTextBlocks": 17,
   "questionBlocks": 4,
-  "sectionHeadings": 2,
   "captions": 3,
-  "imagesEmbedded": 0,
-  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "images": 0,
   "completenessChecks": [
-    "First and last paragraphs compared with source-record completeness fields.",
-    "Every interviewer prompt present, bold, in its own paragraph, in order.",
-    "Every answer paragraph present with original boundaries and quotation marks.",
-    "Section headings, captions and photo credits present in original positions.",
-    "Hyperlinks from the Hebrew body kept on the same words.",
-    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
-    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+    "11 narration and answer paragraphs, 4 bold prompts and 2 section headings, in the Hebrew order. The source's 18th block is a publisher paragraph broken mid-sentence ('אני' / 'חושבת'); it is joined into one paragraph, which is the only count difference.",
+    "The three-paragraph 'what do you do' answer keeps its breaks, including the caption between the first and second paragraphs.",
+    "All 3 captions present under their provenance comments, with the 'Photos: PR' credit kept on the first.",
+    "Figures checked against the Hebrew: $25,000 and $50,000, over 23, age 47."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "Opening proposition kept as the thesis of the piece, then 'Patti Stanger is one of them.' as the short second beat; 'an idea so idiotic it's genius' kept as the paradox.",
+    "The parenthetical price explanation keeps its deflating one-word verdict: '(why? because men are the rarer... in the cruel dating market. Tough)'.",
+    "'What can I say. A girl after my own heart.' kept as two short sentences closing the introduction, the rapport beat the voice profile cites for this piece.",
+    "The '(undisguised)' aside stays parenthetical; Stanger's answers keep her bluntness without polishing; the piece ends on her own line about making peace with herself."
   ],
+  "israeliTermsRendered": {
+    "yes": "'shown in Israel on yes' (the satellite provider, kept as a name)",
+    "בלבוסטה": "'balabusta, a Jewish housewife who runs the show' (kept per the profile, glossed in six words on first mention)",
+    "שוק הפו\"פ": "'the dating market' (פו\"פ, face-to-face first dates, has no English handle; the caption follows suit)",
+    "אחוזון העליון": "'the top one percent'"
+  },
   "decisions": [
-    "Title: 'כסף כן יכול לקנות אהבה' rendered 'Money Can Buy Love After All' to carry the emphatic כן; citation gloss remains 'Money can buy love'.",
-    "'שוק הפו\"פ' (פנים אל פנים, first in-person dates) rendered 'first-date market'; caption likewise.",
-    "Show title rendered with the established English name The Millionaire Matchmaker.",
-    "'בלבוסטה' kept as 'balabusta' (profile guidance); 'בחורה כלבבי' rendered 'a girl after my own heart'.",
-    "One-word verdict 'קשה.' kept as 'Tough.'",
-    "Publisher paragraph split mid-sentence ('אני' / 'חושבת') joined into one paragraph; hence 17 translated blocks against 18 source blocks."
+    "Headline 'כסף כן יכול לקנות אהבה' rendered 'Money Can Buy You Love', inverting the Beatles line so the emphatic 'כן' lands as a rebuttal of a cliché, which is what the Hebrew does. The October 30 'Money Can Buy Love After All' was accurate but flat.",
+    "Subtitle's 'מיליונרים ומיליונריות' rendered 'millionaires of both sexes'; in the body 'the millionaires, male and female' and 'the millionaire, man or woman', avoiding 'millionairesses'.",
+    "Heading 'מאישה לוקחים יותר' rendered 'Women Pay More'; 'יודעת לתת בראש' rendered 'She Knows How to Let Them Have It', and the body uses the same phrase so the heading and sentence match as in the Hebrew.",
+    "'עסקנית' rendered 'wheeling-dealing'; 'לרקום דילים' rendered 'cook up deals'; 'משתכשכת' rendered 'splashing around'.",
+    "'Millionaires Club' given the agency's established English name, the Millionaire's Club; 'Great Expectations' and JDate kept as names.",
+    "'בטוחה מדי בעצמי' rendered 'too full of myself' rather than 'too sure of myself', matching the register of her complaint about viewers."
+  ],
+  "lostInTranslation": [
+    "פו\"פ is itself an Israeli dating-slang abbreviation that gives the Hebrew subtitle and caption a wink; 'dating market' is plain by comparison.",
+    "The transliterated 'דייטינג', 'סטארט-אפ' and 'דילים' become ordinary English words; no compensation."
+  ],
+  "defectsFixed": [
+    "'One of them is Patti Stanger, who built a career rolling in millions from an idea' became 'Patti Stanger is one of them. She has built a career that turns over millions on an idea'.",
+    "'splashing around in the top percentile in Los Angeles' became 'splashing around in the top one percent of Los Angeles'; 'who hire her services' became 'who hire her'.",
+    "'which is why we've gathered' became 'which is the reason we're talking'; 'hides, in fact, a wheeler-dealer balabusta from New Jersey' became 'is, in fact, a wheeling-dealing New Jersey balabusta, a Jewish housewife who runs the show', adding the first-mention gloss the brief requires.",
+    "'tries to work out deals between questions' became 'tries to cook up deals between questions'; 'What can I say, a girl after my own heart.' split into two sentences.",
+    "'I took it in a professional direction' became 'I took it professional'; 'a big matchmaking company' became 'a big dating company'.",
+    "'That's the stage of adjusting to reality' became 'That's the reality-check stage'; 'accompany the dating stage, from choosing the meeting place to preparing for it in terms of dress and manners' became 'walk them through the dating stage, from picking the venue to getting ready for it, clothes, manners'; 'I accompany the process from start to finish' became 'I'm with them the whole way'.",
+    "'Why is your connection with millionaires so good, actually?' became 'Why do you click so well with millionaires?'; 'without being embarrassed' became 'no embarrassment'.",
+    "'And indeed, watching the show reveals that Patti' became 'And sure enough, watching the show, you see that Patti'; 'knows how to give it to them' became 'knows how to let them have it'.",
+    "'chances are you'll stay alone' became 'odds are you'll end up alone'; 'to understand what can be achieved and what can't' became 'to figure out what they can get and what they can't'.",
+    "'I've learned things and I apply them' became 'I've learned things and I put them to use'; 'I made peace with myself and with what I do many, many years ago' became 'I made peace with who I am and what I do a very long time ago'."
   ],
   "sourceProblems": [
-    "Source promotes a longer print interview in Pnai Plus that was not recovered; this is the online edition only.",
-    "Source record confirms the bold caption 'שוק הפו\"פ בידיה' is a caption, not a prompt."
+    "The published piece advertises a longer print interview that was not recovered; this is the online edition only.",
+    "Publisher paragraph broken mid-sentence at 'אני' / 'חושבת' (joined here).",
+    "Hebrew spells the agency 'Millionaires Club' without the apostrophe; the agency's own name is the Millionaire's Club."
   ],
-  "unresolvedQuestions": [],
-  "translationPath": "data-source/writing/translations/W035-patti-stanger/article.en.md",
-  "hebrewSource": "data-source/writing/originals/W035-patti-stanger/article.he.md"
+  "unresolvedQuestions": [
+    "Whether Nim wants 'balabusta' kept with its six-word gloss, or replaced with a plain English phrase."
+  ]
 }

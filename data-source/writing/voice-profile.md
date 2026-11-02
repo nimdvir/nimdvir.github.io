@@ -12,9 +12,9 @@ Everything here is grounded in Nim's own narration, questions, and commentary. I
 
 ### 1.1 Corpus
 
-The inventory in `articles.csv` registers 57 IDs with a verified Hebrew body. Seven are third-party or misattributed (W016, W083, W095, W100, W197, W198) or duplicate packages (W090 = W003, W096 = W089). That leaves 50 unique pieces: 49 solo-bylined by Nim and one coauthored review (W106).
+The inventory in `articles.csv` registers 57 IDs with a verified Hebrew body. Eight are third-party or misattributed (W016, W083, W094, W095, W100, W197, W198) or duplicate packages (W090 = W003, W096 = W089). That leaves 49 unique pieces: 48 solo-bylined by Nim and one coauthored review (W106). W094, an Israel Hayom opinion piece printed under Nim's byline, was withdrawn from the corpus on October 31, 2026 after Nim stated it is not his writing; every observation that rested on it has been removed.
 
-All 49 solo pieces were read in full. Twenty were chosen for close, line-level analysis because together they cover every genre, four publications, and the 2005 to 2019 span; the remaining 29 served as the validation set used in section 11 to test each claim. The coauthored W106 was read but used only where its observations echo a pattern already established elsewhere.
+All 48 solo pieces were read in full. Nineteen were chosen for close, line-level analysis because together they cover every genre, four publications, and the 2005 to 2019 span; the remaining 29 served as the validation set used in section 11 to test each claim. The coauthored W106 was read but used only where its observations echo a pattern already established elsewhere.
 
 Source quality: these are complete online editions. Seven pieces (W035, W108, W116, W126, W163, W164, W176) advertise longer print versions that were not recovered, so they are shorter than what readers saw in print. Subtitles, headlines, and captions may be editor-written and were treated as weak evidence unless the same device appears inside the body text.
 
@@ -33,7 +33,6 @@ Source quality: these are complete online editions. Seven pieces (W035, W108, W1
 | W087 | בשידור מת | Ynet, 2008-11-26 | Opinion | `originals/W087-online-bystanders/article.he.md` | Serious subject; shows where humor is withdrawn | None |
 | W092 | נמרוד דביר מדווח מהתפוח הגדול | Xnet, 2011-12-13 | Personal column | `originals/W092-buddhism-new-york/article.he.md` | Comic narrative with self as foil; escalation and release | None |
 | W093 | למה נמרוד דביר מרגיש היי טבעי? | Xnet, 2012-02-12 | Personal column | `originals/W093-silent-meditation-retreat/article.he.md` | Reflective register; sincerity without sentiment | None |
-| W094 | אין כמו רגע הקסם בפיסגה | Israel Hayom, 2014-10-15 | Opinion | `originals/W094-annapurna-memoir/article.he.md` | Plain public-service register; no humor at all | Short; written after a fatal storm, context constrains tone |
 | W114 | לרוץ איתו | nrg, 2010-08-26 | Book review | `originals/W114-haruki-murakami-running/article.he.md` | Only solo review; evaluative language | Only one solo review exists |
 | W158 | ביקור על הסט של הומלנד | Xnet, 2012-10-04 | Set-visit feature | `originals/W158-homeland-set-visit/article.he.md` | Long reportage; concrete detail; first-person placement | None |
 | W184 | קרב תרנגולות | nrg, 2010-06-28 | Behind-the-scenes feature | `originals/W184-new-york-drag-queens/article.he.md` | Reporting plus confrontation about staged reality TV | None |
@@ -59,7 +58,7 @@ Three cautions that apply throughout:
 
 Two simple measurements were run over Nim's narration only (frontmatter, archival footer, captions, bold prompts, and any paragraph that opens with a quotation mark removed; quoted spans inside mixed paragraphs stripped). Sentences were split on terminal punctuation; words are whitespace tokens. Hebrew words carry prefixes that English spells separately, so these numbers describe Hebrew rhythm and must not be converted into English word targets.
 
-| Measure (narration only, 49 solo pieces, about 17,800 Hebrew words) | Result |
+| Measure (narration only, 49 solo pieces as counted on October 30, about 17,800 Hebrew words; W094 was among them and contributed about 350 words, which does not move any figure below by more than a rounding step) | Result |
 | --- | --- |
 | Mean words per sentence, averaged across articles | 14.9 (article means range 7.7 to 32.5) |
 | Share of sentences with 6 words or fewer | 24% |
@@ -98,7 +97,7 @@ Each claim names its evidence by article ID. Confidence is marked **high** (recu
 
 **Judgments are stated plainly, without hedging, but framed as what the narrator sees or senses.** "אובייקטיבית ניתן לראות שלבושמי... יש פרצוף בת יענה" (W172); "זה נשמע קצת מוזר, אבל יש סיכוי ש..." (W186); "עולה חשד קל שגם להוריה יש יד בדבר" (W195); "יש תחושה שלואיס... תמיד היה בשטח" (W164). The hedge words (עושה רושם, יש תחושה, סביר להניח, יש סיכוי) soften the delivery, not the opinion. Confidence: high.
 
-**Register rises and humor withdraws when the subject calls for it.** The livestreamed suicide column (W087) opens "בשבוע שעבר קרה אסון" and stays sober throughout; the Annapurna opinion piece (W094), written days after a deadly storm, is plain advisory prose with no jokes; the Lyngstad profile (W159) narrates the Lebensborn history without a single wisecrack in the body, and Louis-Dreyfus's cancer is handled with "לא קל לראות קומיקאית דומעת" (W003), nothing lighter. The 12 Years a Slave interviews (W011, W165) are respectful and direct. Confidence: high.
+**Register rises and humor withdraws when the subject calls for it.** The livestreamed suicide column (W087) opens "בשבוע שעבר קרה אסון" and stays sober throughout; the Lyngstad profile (W159) narrates the Lebensborn history without a single wisecrack in the body, and Louis-Dreyfus's cancer is handled with "לא קל לראות קומיקאית דומעת" (W003), nothing lighter. The 12 Years a Slave interviews (W011, W165) are respectful and direct. Confidence: high.
 
 **Tone varies by publication and period.** The 2005 to 2006 Ynet pieces (W001, W002, W052, W080, W062, W079) are the loosest and most slang-dense. The 2019 Israel Hayom pieces (W003, W089) are measured; the wit survives in small parentheticals ("שנראית הרבה פחות, אם יורשה לי", W089) and in which quotes are chosen. The 2017 At interviews (W097, W098) are long, confident, and polite to a sitting minister. Confidence: high. See section 4.
 
@@ -120,7 +119,7 @@ Each claim names its evidence by article ID. Confidence is marked **high** (recu
 
 **Long accumulation, then a short verdict.** This is the most reliable rhythmic signature. "...וכמובן, כל סט צילום שכזה נגמר בסקס סוער. שוקינג." (W058). A paragraph on Emma Stone's humiliating audition ends "אאוץ'." (W195). "למה? כי גברים הם מצרך יותר נדיר ומבוקש בשוק הדייטינג האכזרי. קשה." (W035). "...ואלה שצורחים 'אתם עוזרים לצלם את השטן'. נו, שוין." (W052). "סוג של שיחוק." (W184). "לא רע." (W171). "אז מה." (W079). "ובכל זאת, זה לא באמת זה." (W062). The measurements bear this out: a quarter of narration sentences are six words or fewer while a sixth run past 25. Confidence: high.
 
-**Parenthetical asides are frequent and do real work.** About one per hundred words of narration. They explain for an Israeli reader ("(טלפון נייד שמחבר אתכם באופן יעיל וחונק לתיבת המייל שלכם. יופי לכם שאתם לא יודעים)", W062, on the BlackBerry in 2005), confess ("(ראיתי תמונות)", W164; "(אנחנו פולנים, מתרגלים לזה)", W062), insist on accuracy ("(בחיי שזה השם...)", "(שוב, לא ממציא)", W092), deflate ("(ולא, לדמות הראשית לא קוראים ישראל)", W058; "(אח של)", W176), or deliver the joke ("(ומי שלא, תמיד אפשר ללכת להתחבא אצל הבנות...)", W079). Density is highest in the editorial column W079 (3.7 per 100 words) and lowest in the sober pieces (W071, W094: none). Confidence: high.
+**Parenthetical asides are frequent and do real work.** About one per hundred words of narration. They explain for an Israeli reader ("(טלפון נייד שמחבר אתכם באופן יעיל וחונק לתיבת המייל שלכם. יופי לכם שאתם לא יודעים)", W062, on the BlackBerry in 2005), confess ("(ראיתי תמונות)", W164; "(אנחנו פולנים, מתרגלים לזה)", W062), insist on accuracy ("(בחיי שזה השם...)", "(שוב, לא ממציא)", W092), deflate ("(ולא, לדמות הראשית לא קוראים ישראל)", W058; "(אח של)", W176), or deliver the joke ("(ומי שלא, תמיד אפשר ללכת להתחבא אצל הבנות...)", W079). Density is highest in the editorial column W079 (3.7 per 100 words) and lowest in the sober opinion piece W071 (none). Confidence: high.
 
 **Rhetorical questions pivot a paragraph.** "ולמה זה פרס?" (W080), "ולמה שלא יהיה?" (W001), "מה אפשר להפסיד?" (W092), "אז למה להוציא את עצמך בכוח מהכלל?" (W071), "מה הם עשו במשך 14 שעות כפול 3?" (W158), "האם מישהו זקוק להוכחות נוספות?" (W195). Confidence: high.
 
@@ -142,7 +141,7 @@ Each claim names its evidence by article ID. Confidence is marked **high** (recu
 
 **Setup and punchline placement.** The setup is a list or an escalating sentence; the punchline is the final short clause or a one-word sentence. In W092 the escalation runs "התחיל לצחקק. ואז לצחוק. ולצחוק. ואז גם אני התחלתי לצחוק." and the release is the fart ("ללואיס ברח נאד"), itemized as three consequences. In W107 four boutique prices are listed, then "ב-9 דולר בלבד". Confidence: high.
 
-**Where humor disappears.** W087, W094, W159 (body), W011, W165, W122, the cancer passages of W003, the Lebensborn passages of W159, and the #MeToo passage of W098. Headlines and subtitles may still joke in those pieces (W159's subtitle plays on "אבא של זאת מאבבא"), but Nim's body text does not. Confidence: high.
+**Where humor disappears.** W087, W159 (body), W011, W165, W122, the cancer passages of W003, the Lebensborn passages of W159, and the #MeToo passage of W098. Headlines and subtitles may still joke in those pieces (W159's subtitle plays on "אבא של זאת מאבבא"), but Nim's body text does not. Confidence: high.
 
 **Headline wordplay** (ג'יי לא, מגילת אסתר, בדיחה של מאסטר, סופר סטאר, מהראג'ה, TO B, SEX FILES, תקופת הסטון, לבן בחלום שחור) recurs across four publications, which makes it likely to be at least partly his, but headlines are often editorial. Confidence: low as a personal trait.
 
@@ -195,7 +194,7 @@ Confidence: high.
 
 **First person singular in interviews and columns; first person plural for "we Israelis" or "we readers."** "גם אלינו היא תגיע" (W004), "אצלנו" (W010), "מגיעים שוב למסקנה" (W062). The narrator is physically inside the scene (sneaking into a meeting room, W158; sitting on a drag queen's couch, W184; hosting Lewis at 11 p.m., W164) but as observer, not protagonist. Confidence: high.
 
-**Personal disclosure is small and functional.** Polish family and take-away holiday meals (W062), the dog Dima from Tel Aviv (W107), NYU with Gaga (W004), the move back to Israel and a sunburn (W079), the laughing fit and the silent retreat (W092, W093), mountain trekking (W094). Each fact serves the point being made; none becomes the subject of the piece except in the personal columns, and even there the self is treated with mockery. Confidence: high.
+**Personal disclosure is small and functional.** Polish family and take-away holiday meals (W062), the dog Dima from Tel Aviv (W107), NYU with Gaga (W004), the move back to Israel and a sunburn (W079), the laughing fit and the silent retreat (W092, W093). Each fact serves the point being made; none becomes the subject of the piece except in the personal columns, and even there the self is treated with mockery. Confidence: high.
 
 **Judgment is explicit but offered as impression, and interpretation is handed back to the reader at the end.** "ואולי בעצם הסכיזופרניה הזאת היא סוד קסמה" (W052); "ואולי הווייב הקפדן הוא בעצם הדרך של או... להתענג על מעמד הסופרסטארית" (W089). He rarely ends with a thesis; he ends with a line and lets it sit. Confidence: high.
 
@@ -216,7 +215,6 @@ What varies:
 | Features (W158, W184, W056, W159, W195) | Reportage register; "I was there" detail; W159 and W195 drop first person and jokes for a researched chronology. |
 | At 2017 (W097, W098) | Long-form, confident, first-person design critique; politeness to a minister; prompts become longer and more argumentative. |
 | Israel Hayom 2019 (W003, W089) | Measured; humor only in parentheticals and in quote selection; more scene reporting; section breaks with "• • •". |
-| Israel Hayom opinion 2014 (W094) | Plain advisory prose. Proof that the voice can be entirely straight. |
 
 Possible house influences to keep separate from the voice: Ynet's telegraphic caption style ("ברטון. עושים לו כבוד"), "בראיון ל-ynet" self-citation, nrg's "רייטינג" framing, Israel Hayom's dot-separated subtitle clauses, At's fashion credits. Treat all of these as furniture.
 
@@ -253,7 +251,7 @@ Possible house influences to keep separate from the voice: Ynet's telegraphic ca
 
 **Personal column.** One arc, one small event, the narrator as foil. Allow one escalation sequence. End with a modest observation drawn from the event, one or two sentences, never a lesson about life in general. Israeli references are welcome here when the audience is Israeli; otherwise gloss lightly or choose an observed detail instead.
 
-**Opinion.** Two or three plain declarative sentences carry the position. Examples are concrete and named. Humor is permitted in the examples, not in the thesis. When the subject involves death or harm, no humor at all (W087, W094).
+**Opinion.** Two or three plain declarative sentences carry the position. Examples are concrete and named. Humor is permitted in the examples, not in the thesis. When the subject involves death or harm, no humor at all (W087).
 
 **Feature and set visit.** "I was there" markers (what he saw in a drawer, how many hours, who shouted at him). Quoted voices do the arguing; the narrator frames. A numbered tally is fine when the point is a count.
 
@@ -421,7 +419,7 @@ Each major claim was tested against the 29 validation pieces not used to form it
 - **Skepticism followed by concession:** confirmed in W004 (criticism of live singing, then her answer printed in full), W195, W164; the Buscemi piece (W172) sustains the joke longer than any other. Holds with that qualification.
 - **Self as foil:** confirmed in W107, W164, W176. Holds.
 - **Endings on the subject's line or a callback:** confirmed in W006, W023, W118, W162, W171, W185, W186. The researched profiles W159 and W195 end on a quote too, but a quoted one from print sources. Holds.
-- **Cherry-picking check:** the close set deliberately includes the least funny pieces (W087, W094, W159, W003) and the thinnest promos were kept in validation. The profile's claims about humor are therefore bounded by pieces where there is none.
+- **Cherry-picking check:** the close set deliberately includes the least funny pieces (W087, W159, W003) and the thinnest promos were kept in validation. The profile's claims about humor are therefore bounded by pieces where there is none.
 - **Prose versus quotation check:** every Hebrew example in section 3 was re-read to confirm it is Nim's narration or prompt, not an answer. Two tempting lines were excluded for that reason: "קצת הומור, דארלינג" (Hedda Lettuce, W184) and "אני עסיסית, לא כלבה" (RuPaul, W006).
 - **Publisher convention check:** caption style, "בראיון ל-ynet", "רייטינג" self-reference, the "נ.ד" bracket, and the third-person subtitle were classified as furniture and are not cited as traits.
 - **Period check:** the densest slang and references are 2005 to 2006 Ynet; the profile marks this as period-dependent rather than core.

@@ -1,9 +1,10 @@
 ---
 articleId: W058
 title: Proud to Be Here
-subtitle: 'Gay porn idol Michael Lucas shot his new film, "Inside Israel," against the backdrop of our country''s enchanting landscapes. Nimrod Dvir met him and the film''s stars on set and even discovered the real reason for the Zionist location: what, you haven''t heard that gays make excellent tourists?'
-summary: 'Gay porn idol Michael Lucas shot his new film, "Inside Israel," against the backdrop of our country''s enchanting landscapes. Nimrod Dvir met him and the film''s stars on set and even discovered the real reason for the Zionist location: what, you haven''t heard that gays make excellent tourists?'
+subtitle: 'Gay porn idol Michael Lucas shot his new film, Inside Israel, against the enchanting scenery of our homeland. Nimrod Dvir met him and the film''s stars on set and even found out the real reason for the Zionist location: what, you hadn''t heard that gays make great tourists?'
+summary: 'Gay porn idol Michael Lucas shot his new film, Inside Israel, against the enchanting scenery of our homeland. Nimrod Dvir met him and the film''s stars on set and even found out the real reason for the Zionist location: what, you hadn''t heard that gays make great tourists?'
 kind: feature
+group: feature
 author: Nimrod Dvir
 subjects:
 - Michael Lucas
@@ -33,26 +34,26 @@ imageSource: https://commons.wikimedia.org/wiki/File:Israel_Ga'ash_Beach_(811264
 draft: false
 ---
 
-One of the great clichés holds that the porn business is not as simple as it looks. After tagging along for a day of shooting on an international production of this kind in Israel, it can be summed up like this: life in gay porn really isn't simple, but it's also nothing to go whining to Mom about.
+One of the great clichés holds that the porn business is not as easy as it looks. After a day tagging along with one such international production in Israel, the verdict goes something like this: life in gay porn really isn't easy, but it's also nothing to go grumbling to your mother about.
 
-The production in question is the film "Inside Israel" (or "Betokh Yisrael," in plain translation. And no, the lead character is not named Israel), produced and directed by the New York porn star Michael Lucas. Lucas, 37, a warm-hearted Jew who not long ago even received Israeli citizenship, has managed to turn himself into an international porn empire. He actually started out as a lawyer in Russia, but soon moved to Germany, from there to France and then to New York.
+The production in question is Inside Israel (and no, the lead character is not called Israel), produced and directed by the New York porn star Michael Lucas. Lucas, 37, an ardent Jew who not long ago even took Israeli citizenship, has managed to turn himself into an international porn empire. He started out, of all things, as a lawyer in Russia, but soon moved to Germany, then France, then New York.
 
-He took his first steps in the field as an actor in blue movies (straight ones, originally), but soon enough figured out which side the money was buttered on and moved to producing and directing. What followed was only natural: Lucas developed quickly within the business, put down roots in the industry and founded "Lucas Entertainment," considered one of the world's leading production companies for gay porn: Lucas and the company he owns supply the world with dozens of films a year, most of them of relatively high quality for the genre.
+His first steps in the business were as an actor in blue movies (straight ones, to begin with), but he soon worked out which side his bread was buttered on and moved into producing and directing. The rest followed naturally: Lucas rose fast, put down roots in the industry and founded Lucas Entertainment, now considered one of the world's leading producers of gay porn. Lucas and his company supply the world with dozens of films a year, most of them of high quality, relatively speaking, for the genre.
 
-Lucas came to Israel on the heels of the success of his previous film, "Men of Israel," which he shot here with Israeli actors. The film, released in the United States last year, became a runaway success and gave Lucas an appetite. This time he is back with a slightly different production, one that focuses more on the country and less on the men's citizenship. The plot, if the term applies here, follows an international fashion photographer who decides to shoot in Israel. He brings models from all over the world, all of them gorgeous, naturally, and the gang shoots against Israeli scenery. And naturally, every one of those photo shoots ends in torrid sex. Shocking.
+Lucas came to Israel on the strength of his previous film, Men of Israel, which he shot here with Israeli actors. It came out in the United States last year, became a runaway hit, and gave Lucas an appetite. This time he is back with a slightly different production, one that is more about the country and less about the men's citizenship. The plot, if the term applies here, follows an international fashion photographer who decides to shoot in Israel. He brings models from all over the world, all of them gorgeous, naturally, and the gang shoots against Israeli scenery. And naturally, every one of those shoots ends in torrid sex. Shocking.
 
-Intent on showing Israel at its best, Lucas and his crew plowed the length and breadth of the country, with shoots ranging from the Golan Heights, the Jordan River and Ga'ash Beach (where we were) to Rosh Hanikra. Filming lasted 11 days, a long time by porn standards, which points to the project's ambition. The film, due out at the end of November, will apparently be divided into three parts and accompanied by a special book of photographs (by the Israeli photographer Ronen Akerman) chronicling the erotic journey through Israel.
+Meaning to show Israel at its best, Lucas and his crew crisscrossed the country, shooting everywhere from the Golan Heights and the Jordan River to Ga'ash Beach (which is where we were) and Rosh Hanikra. Filming ran 11 days, a long time for a porn film, which says something about the project's ambition. The film, due at the end of November, will apparently be released in three parts, along with a special book of photographs (by the Israeli photographer Ronen Akerman) documenting the erotic journey through Israel.
 
-## All for the tourists. The gay ones
+## All for the Tourists. The Gay Ones
 
-As noted, producing the film looks fun from the outside, but it's not simple work at all: to reach the remote sites the crew worked from sunrise to sunset, hauled heavy equipment across Israel, shot the same scenes over and over, not to mention the porn stars' special tricks for boosting performance, which we will spare you (suffice it to say that an injection is involved, exactly where you're imagining).
+As noted, making the film looks like fun from the outside, but the work is anything but easy: to reach the remote locations the crew worked sunrise to sunset, hauled heavy gear across Israel, shot the same scenes over and over, and that is before we get to the porn stars' special performance-enhancing tricks, which we will spare you (let's just say an injection is involved, exactly where you're imagining).
 
-"I'm making this film to encourage tourism to Israel," Lucas told Ynet. "I love Israel very much, I come here a lot, and every time I'm amazed that my friends from New York don't understand what a beautiful country this is. I hope that through this film I can encourage gay tourism, which is considered high-quality and very profitable tourism."
+"I'm making this film to encourage tourism to Israel," Lucas told Ynet. "I love Israel, I come here a lot, and every time I'm amazed that my friends in New York have no idea what a beautiful country this is. I hope this film helps me encourage gay tourism, which is considered high-end and very profitable."
 
-"It's a lot of fun to take part in a porn film," says Jonathan Agassi, one of the Israeli actors in the film. "True, it's hard work, but very rewarding. If you know how to do it properly, and that includes technical details like taking camera angles and lighting into account, it's one of the most satisfying jobs there is."
+"Being in a porn film is a lot of fun," says Jonathan Agassi, one of the Israeli actors in the film. "Sure, it's hard work, but very rewarding. If you know how to do it right, and that includes technical details like keeping the camera angles and the lighting in mind, it's one of the most satisfying jobs there is."
 
-On the production's uncompromising quality, Lucas said that "I insist on a high standard in all my shoots, and especially in this film. True, you can consume cheap porn off the internet, but there's also a big audience thirsty for quality products of the kind I provide. It's like there are people who'll buy Gucci and people who'll buy at Wal-Mart. Same thing. I make sure to choose the best actors, the most beautiful locations, a working environment that's pleasant and professional. It shows."
+On the production's uncompromising quality, Lucas said: "I insist on a high standard in everything I shoot, and especially in this film. Sure, you can get cheap porn off the internet, but there's also a big audience thirsty for quality products of the kind I make. It's like some people buy Gucci and some people shop at Walmart. Same thing. I make a point of picking the best actors and the most beautiful locations, and of keeping the working environment pleasant and professional. You can see it."
 
-**And is there profit in it?**
+**And is there money in it?**
 
-"If there were no profit I wouldn't have been doing this for so many years. But with this particular film, I don't know whether the cost will cover itself. As I said, my motivation really came from love of Israel. I hope that shows in the final product."
+"If there weren't, I wouldn't have been doing this for so many years. But with this particular film, I don't know if it will cover its costs. Like I said, my motivation really came from a love of Israel. I hope that shows in the finished product."

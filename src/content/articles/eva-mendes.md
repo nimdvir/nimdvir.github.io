@@ -4,6 +4,7 @@ title: 'Eva Mendes: "In the Film I Don''t Care How I Look"'
 subtitle: For the shoot of The Place Beyond the Pines, actress Eva Mendes worked as a waitress in a diner, and so in the film she appears in a look far less glamorous than her own. Did the role raise thoughts of motherhood? "I don't know any more about it than I do about robbing banks," she says in an interview
 summary: For the shoot of The Place Beyond the Pines, actress Eva Mendes worked as a waitress in a diner, and so in the film she appears in a look far less glamorous than her own. Did the role raise thoughts of motherhood? "I don't know any more about it than I do about robbing banks," she says in an interview
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Eva Mendes
 subjects:

@@ -4,6 +4,7 @@ title: 'Queens of the Desert: A Review of "Sex and the City 2"'
 subtitle: Clothes, jokes, gay men, female empowerment and not much plot. "Sex and the City 2," which opened this week, is a celebration of clothes, women, gay men, trashiness and a few insights into life. Carrie, Miranda, Charlotte and Samantha, we missed you. A review
 summary: Clothes, jokes, gay men, female empowerment and not much plot. "Sex and the City 2," which opened this week, is a celebration of clothes, women, gay men, trashiness and a few insights into life. Carrie, Miranda, Charlotte and Samantha, we missed you. A review
 kind: review
+group: review
 author: Dana Darvinsky and Nimrod Dvir
 authors:
 - Dana Darvinsky

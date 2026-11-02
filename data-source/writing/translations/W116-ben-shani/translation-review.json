@@ -1,40 +1,79 @@
 {
   "articleId": "W116",
   "englishTitle": "\"Ilana Is a Phenomenon\"",
-  "status": "draft awaiting Nim review",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
+  "portfolioGroup": "feature",
   "sourceTextBlocks": 15,
   "translatedTextBlocks": 15,
   "questionBlocks": 4,
   "captions": 2,
   "images": 0,
   "completenessChecks": [
-    "All 10 narrative and answer paragraphs, 4 bold prompts and 1 section heading present in original order.",
-    "The first answer, which the Hebrew splits into two paragraphs ('At first I had to change my thinking'), kept split at the same point.",
-    "The interviewer statement 'With most journalists you expect to see pressure...' kept as a bold prompt, as in the archived Hebrew (the source record notes it was unbolded on the publisher page).",
-    "Both captions translated with credits (Alon Porat; Yaron Loizon).",
-    "The 'N.D.' bracket identifying Keshet kept inside the quote."
+    "All 10 narrative and answer paragraphs, 4 bold prompts and 1 section heading present in original order; no splits or merges.",
+    "The first answer, which the Hebrew splits into two paragraphs ('At first I had to change the way I think'), kept split at the same point with the quotation reopened.",
+    "The interviewer statement 'With most journalists you'd expect nerves and pressure...' kept as a bold prompt, as in the archived Hebrew (the source record notes it was unbolded on the publisher page).",
+    "Both captions translated under their provenance comments, credits kept (Alon Porat; Yaron Loizon).",
+    "The 'N.D.' bracket identifying Keshet kept inside the quote, now carrying the gloss an English reader needs.",
+    "No em dashes; no placeholders; no nrg bidi marks or odd number spacing (the capture was checked and contains none)."
   ],
   "voiceChecks": [
-    "Opening 'is in for a surprise' kept as the short setup before the quote; the triple 'No pager, no hysterical phone calls, no buzz' kept as a fragment sentence.",
-    "Narration is brief framing throughout, as in the source; no jokes added.",
-    "Shani's quoted praise kept at full length without trimming repetition ('Ilana Dayan is Uvda. There's no Uvda without Ilana.')."
+    "Opening kept as the short setup before the quote ('is in for a surprise'); the triple 'No pager, no frantic phone calls, no hum of the chase' kept as a fragment sentence.",
+    "nrg 'Rating' explainer register: thin narration, context for the viewer, no jokes added. The one dry image, 'hurried aboard the Uvda ship', is the Hebrew's own.",
+    "Shani's praise kept at full length with its repetitions ('Ilana Dayan is Uvda. There's no Uvda without Ilana.') and its closing verdict 'She is very much a journalist.'",
+    "Ending kept on the subject's last line, no narration added after it."
   ],
+  "israeliTermsRendered": {
+    "עובדה": "Uvda, glossed in the subtitle as 'the investigative show' and in the body as 'Channel 2's investigative newsmagazine'; later just Uvda",
+    "רייטינג": "Rating, nrg's TV magazine (subtitle)",
+    "ערוץ 8": "Channel 8, the documentary channel",
+    "קשת": "Keshet (the Channel 2 franchise that airs Uvda; N.D.)",
+    "יומן": "Yoman, Channel 1's Friday-night newsmagazine; later Channel 1's Yoman",
+    "האח הגדול / מאסטר שף": "Big Brother / MasterChef (franchise names)",
+    "ערוץ 10": "Channel 10",
+    "ילדי רמדיה": "Remedia's Children (on Israel's 2003 baby-formula scandal)",
+    "טאלנט": "a talent (the on-air-personality sense; Shani's answer explains it)"
+  },
   "decisions": [
-    "Israeli program and outlet names kept as proper nouns: Uvda, Yoman, Keshet, Channel 1, Channel 8, Channel 10, Rating (the nrg TV supplement); Big Brother and MasterChef use the international franchise names.",
-    "Documentary titles rendered 'Remedia's Children' (ילדי רמדיה) and 'Ralph' (רלף).",
-    "'טאלנט' rendered 'a talent' (the industry sense of an on-air personality) and kept in the prompt and answer.",
-    "'איש של מגזין' rendered 'a magazine man'; 'העבודה היא יותר רוחבית' rendered 'the work is more horizontal'.",
-    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+    "Headline kept as the quotation '\"Ilana Is a Phenomenon\"', matching the Hebrew quote-headline.",
+    "Glosses added on first mention only: Channel 8, Uvda, Keshet, Yoman, Remedia's Children. The Keshet gloss lives inside the existing N.D. bracket rather than in a new one.",
+    "Section heading 'אילנה ואני' rendered 'Ilana and Me'.",
+    "'איש של מגזין, עובד לעומק על סיפור' rendered 'a magazine guy, digging deep into one story'.",
+    "'העבודה היא יותר רוחבית' rendered 'the work is spread out' (the sense is year-round, not 'horizontal').",
+    "'היא הכתובת' rendered 'she's the one I go to'.",
+    "'הפסגה' rendered 'the summit'.",
+    "'אישי ומזוהה' rendered 'personal and tied to a name'.",
+    "Photographer names: Alon Porat; Yaron Loizon (as in the first draft; spelling unverified)."
+  ],
+  "lostInTranslation": [
+    "'פנומן' and 'טאלנט' are borrowed English words in the Hebrew; in English they are simply English, so the borrowed-jargon flavor is gone. Shani's answer still carries the point about the word 'talent'."
+  ],
+  "defectsFixed": [
+    "'glued to Channel 8 for most of the day' now glosses the channel; 'I think I'm a consumer of television' replaced with 'I think of myself as a consumer of television'; 'Turning out a flawlessly edited hour-and-a-half broadcast twice a week out of dozens of hours of raw footage' replaced with 'Turning dozens of hours of raw footage into an immaculately edited ninety-minute broadcast twice a week'.",
+    "Orphan terms Uvda, Keshet, Yoman, Rating, Channel 8 given first-mention glosses.",
+    "'returns for season number 17' replaced with 'returns for its 17th season'; 'he attests' replaced with 'he says'; 'I never sat on the pager. I was always a magazine man, working on a story in depth' replaced with 'I was never on the pager. I was always a magazine guy, digging deep into one story'.",
+    "'With us the work is more horizontal' replaced with 'With us the work is spread out'; 'stories that are less tied to a broadcast date' replaced with 'stories that aren't chained to an air date'; 'the ability to work on those lengths of time' replaced with 'the chance to work on that kind of timescale'.",
+    "'Instead of \"what will be the main story this week,\" to think about what will be the main story the week after' replaced with 'Instead of \"what's the big story this week,\" it's what's the big story the week after'; 'the stories other people don't have the patience to reach' replaced with 'the stories nobody else has the patience for'.",
+    "'where he worked during his university studies (film and political science at Tel Aviv University)' replaced with 'working there while he studied film and political science at Tel Aviv University'; 'a series of documentaries that caused a stir' replaced with 'a string of documentaries that made noise'; 'jump aboard the Uvda ship' replaced with 'hurried aboard the Uvda ship'.",
+    "'she's the address' replaced with 'she's the one I go to'; 'she let me watch her interviewing, with great pleasure' replaced with 'she was happy to let me watch her interview'; 'at the level of being involved in the research' replaced with 'down to the research'; 'does the job in the best possible way' replaced with 'does the job as well as it can be done'.",
+    "'is the father of three children: Uri, 10, Yonatan, 8, and Shiri, two' replaced with 'lives in Herzliya with three kids: Uri, 10, Yonatan, 8, and Shiri, 2'; 'right after we went off the air' replaced with 'the minute we went off the air'.",
+    "'I have no idea' replaced with 'No idea'; 'has crept into journalism' replaced with 'has seeped into journalism'; 'people come to watch it' replaced with 'people tune in'; 'personal and branded' replaced with 'personal and tied to a name'.",
+    "Blank lines between provenance comments and captions removed; footer updated to the revision wording."
   ],
   "sourceProblems": [
-    "Source record: online version complete, but the publisher advertised the full feature in the print Rating issue; print-only material is not included or reconstructed.",
+    "Source record: the online version is complete, but the publisher advertised the full feature in the print Rating issue; print-only material is not included or reconstructed.",
     "Source record notes an inline advertisement was removed during capture and the split text rejoined; the English follows the rejoined paragraph.",
-    "The second caption gives a credit without 'Photo:' ('ירון לויזון'); rendered as printed."
+    "The second caption gives a credit without 'Photo:' ('ירון לויזון'); rendered as printed.",
+    "Hebrew 'הוא גר בהרצליה ואב לשלושה ילדים' compressed to 'lives in Herzliya with three kids' (the children's home is not stated in the Hebrew; the compression assumes it)."
   ],
-  "unresolvedQuestions": []
+  "unresolvedQuestions": [
+    "Whether the documentary 'רלף' (Ralph) should carry a gloss; its subject was not verified here.",
+    "Spelling of the photographer 'ירון לויזון' (Loizon / Luizon / Levison) is unverified.",
+    "Whether 'lives in Herzliya with three kids' is acceptable or should revert to the literal 'lives in Herzliya and is the father of three'."
+  ]
 }

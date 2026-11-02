@@ -4,6 +4,7 @@ title: Karim Rashid's Utopia
 subtitle: Trump is the symbol of evil for him, but he'd be happy to redesign the White House for him. With the opening of the Poli House hotel he designed in Tel Aviv, we met Karim Rashid for an interview about a rosy future for design
 summary: Trump is the symbol of evil for him, but he'd be happy to redesign the White House for him. With the opening of the Poli House hotel he designed in Tel Aviv, we met Karim Rashid for an interview about a rosy future for design
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Karim Rashid
 subjects:

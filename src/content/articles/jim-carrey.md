@@ -3,6 +3,7 @@ articleId: W002
 title: And Now, Seriously
 summary: Jim Carrey, at New York's Waldorf Astoria with Téa Leoni, talks about Fun with Dick and Jane as social satire, corporate America, clarity, meditation and why he never leaves the house.
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Jim Carrey
 subjects:

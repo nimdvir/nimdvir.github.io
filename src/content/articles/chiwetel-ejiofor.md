@@ -1,14 +1,16 @@
 ---
 articleId: W011
 title: 'Chiwetel Ejiofor: "Everyone Is a Slave to the System"'
-subtitle: In the film 12 Years a Slave, Chiwetel Ejiofor plays a free Black man who is kidnapped and enslaved by plantation owners. The British actor says that in the scorching heat of Louisiana he found it hard to look ahead to the Oscar he may win. "I was thinking about how to survive the day, not about the after-party," he says in an interview
-summary: In the film 12 Years a Slave, Chiwetel Ejiofor plays a free Black man who is kidnapped and enslaved by plantation owners. The British actor says that in the scorching heat of Louisiana he found it hard to look ahead to the Oscar he may win. "I was thinking about how to survive the day, not about the after-party," he says in an interview
+subtitle: In 12 Years a Slave, Chiwetel Ejiofor plays a free Black man kidnapped and enslaved by plantation owners. In the Louisiana heat, the British actor says, it was hard to look ahead to the Oscar he may well win. "I was thinking about how to survive the day, not about the after-party"
+summary: In 12 Years a Slave, Chiwetel Ejiofor plays a free Black man kidnapped and enslaved by plantation owners. In the Louisiana heat, the British actor says, it was hard to look ahead to the Oscar he may well win. "I was thinking about how to survive the day, not about the after-party"
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Chiwetel Ejiofor
 subjects:
 - Chiwetel Ejiofor
 - 12 Years a Slave
+- Steve McQueen
 date: '2014-01-16'
 originalTitle: 'צ''ואיטל אג''יופור: "כולם עבדים של המערכת"'
 originalLanguage: he
@@ -20,6 +22,7 @@ tags:
 - Interview
 - Film
 - Hollywood
+- New York
 image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793384122/Database-book-BITM330/vscode-auto/articles/W011-chiwetel-ejiofor.jpg
 thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384122/Database-book-BITM330/vscode-auto/articles/W011-chiwetel-ejiofor.jpg
 imageAlt: Chiwetel Ejiofor in a dark suit at the 2013 Toronto International Film Festival
@@ -31,32 +34,32 @@ imageSource: https://commons.wikimedia.org/wiki/File:ChiwetelEjioforSept2013TIFF
 draft: false
 ---
 
-If there is justice in the showbiz industry, the actor Chiwetel Ejiofor will finish the coming awards season with a bouquet of statuettes in his pocket. Ejiofor, an English actor of Nigerian descent, has scorched screens in the United States in recent months in 12 Years a Slave, directed by Steve McQueen (Hunger, Shame) and produced by Brad Pitt, who also appears in a supporting role. The film, which won the award for best drama at the [Golden Globes ceremony](https://www.ynet.co.il/articles/0,7340,L-4476094,00.html) this week, opens today (Thursday) in cinemas in Israel.
+If there is any justice in show business, Chiwetel Ejiofor will end this awards season with a pocketful of statuettes. Ejiofor, an English actor of Nigerian descent, has spent the past few months scorching American screens in 12 Years a Slave, directed by Steve McQueen (Hunger, Shame) and produced by Brad Pitt, who also turns up in a supporting role. The film, which won best drama at [the Golden Globes](https://www.ynet.co.il/articles/0,7340,L-4476094,00.html) this week, opens in Israeli theaters today (Thursday).
 
-Ejiofor, 36, plays the lead role of Solomon Northup, an African American living a free life with his family in upstate New York in the year 1853. Northup, who makes his living from carpentry and playing the violin, is tempted to join a work trip to Washington, where he is kidnapped and sold into slavery. There begins an ordeal of torture that lasts 12 years (as the film's title says), during which Northup finds himself doing hard labor on the plantations of Louisiana, trying to survive the terror of his "owners" and at the same time to get back home.
+Ejiofor, 36, plays the lead, Solomon Northup, an African American living as a free man with his family in upstate New York in 1853. Northup, who makes his living from carpentry and the violin, is lured onto a work trip to Washington, where he is kidnapped and sold into slavery. So begins a 12-year ordeal (hence the title), in which Northup finds himself doing hard labor on the plantations of Louisiana, trying to survive the terror of his "owners" and, at the same time, to get back home.
 
-"The fact that it's a true story is what makes the film so powerful," Ejiofor says in an interview with Ynet. "When I read the book, at first I found it hard to understand how a person fails to escape from slavery back to his family for 12 years. It requires understanding the environment, the circumstances. When it finally sinks in that even though he was defined as a free man he could not return to his family, it's simply shocking."
+"The fact that it's a true story is what makes the film so powerful," Ejiofor tells Ynet. "When I read the book, at first I had trouble understanding how a man could fail to escape slavery and get back to his family for 12 years. You need to understand the environment, the circumstances. When it finally sinks in that even though he was a free man on paper he couldn't go back to his family, it's just shocking."
 
 **Did you know the story before?**
 
-"I admit I didn't. I became acquainted with it only after a conversation with Steve McQueen. For me all the information was fresh and real. The effort to maintain historical accuracy only intensified the experience. The production worked with academic advisers and historians to make sure we kept the representation of things as they were. We filmed in Louisiana, very close to the actual plantations where Solomon worked. Throughout the film I sweat terribly, and the sweat is real: we really did spend days in the scorching heat of the cotton fields. I even learned to play the violin like Solomon. You can't fake it if you don't know how. I had a teacher, and I practiced with her for long hours so that my playing movements would look real."
+"I admit I didn't. I only came across it after a conversation with Steve McQueen. For me all of it was fresh and real. The effort to stay historically accurate only made the experience stronger. The production worked with academic advisers and historians to make sure we showed things as they were. We shot in Louisiana, very close to the actual plantations where Solomon worked. I sweat terribly through the whole film, and the sweat is real: we really did spend days in the blazing heat of the cotton fields. I even learned to play the violin like Solomon. You can't fake it if you don't know how. I had a teacher, and I practiced with her for hours on end so that my playing would look real."
 
-Ejiofor, who has been nominated for many awards in the past, including three Golden Globe nominations (the first for the role of a drag queen in the film Kinky Boots), is expected, as noted, to be rewarded for his efforts with quite a few prizes for the work here.
+Ejiofor, who has been nominated for plenty of awards before, including three Golden Globe nominations (the first for playing a drag queen in Kinky Boots), is expected, as we said, to see his efforts here repaid with a good many prizes.
 
-"It's a team effort," he clarifies. "You could say Steve McQueen managed to get the best out of everyone. Everyone around him wants to give a hundred percent and you can see it. I really went through a process, and the circumstances around it only contributed. The tremendous heat in the cotton fields makes your head spin, clouds your mind. It took me time to get myself out of the place I had entered, of a slave, of a captive."
+"It's a team effort," he points out. "You could say Steve McQueen got the best out of everyone. Everyone around him wants to give a hundred percent, and it shows. I really went through something, and the conditions only added to it. The enormous heat in the cotton fields makes your head spin, it clouds your thinking. It took me a while to pull myself out of the place I'd gone into, the place of a slave, of a captive."
 
-**Opposite you, actors like Michael Fassbender, Paul Dano, Sarah Paulson and Paul Giamatti play cruel white characters who abuse your character and the other slaves. If you got that deep into the role, were you able to carry on as normal after filming?**
+**Opposite you, Michael Fassbender, Paul Dano, Sarah Paulson and Paul Giamatti play cruel white characters who torment yours and the other slaves. If you went that deep into the role, could you all just carry on as normal after a day's shooting?**
 
-"Actually, yes. It may be strange, but after shooting days we went out together to New Orleans. We drank, we laughed, we let loose. It happened on the very days we filmed scenes in which I'm beaten with a whip. And then we finished filming and all went out for a drink. We needed to unwind."
+"Honestly, yes. It may sound strange, but after shooting we'd go out together in New Orleans. We drank, we laughed, we let off steam. That was on the very days we were filming the scenes where I'm whipped. We'd wrap, and all of us would go out for a drink. We needed to let go."
 
-**Didn't the hard subjects shown there make you angry? Uncomfortable?**
+**Didn't the hard material make you angry? Uncomfortable?**
 
-"This history mainly stirred sadness in me. The book and the film talk a lot about the nature of the relationships between the people. Everyone suffers, or suffered, there, the whites and the Blacks alike. Everyone is trapped in the system and wants to succeed in it under the existing conditions. Behind each one is a human being. These are human stories, with no discounts for anyone. I think that's what we tried to do."
+"Mostly this history made me sad. The book and the film say a lot about the nature of the relationships between these people. Everyone there suffers, or suffered, white and Black alike. Everyone is trapped in the system and trying to get ahead within it on the terms that exist. Behind every one of them is a human being. These are human stories, and nobody gets a pass. I think that's what we were trying to do."
 
-**Racial tension is still in the headlines in the United States, including racially motivated crimes and acts of hatred between whites and Blacks. How do you think this film will affect the tension, if at all?**
+**Racial tension is still in the headlines in the United States, including racially motivated crimes and hate between whites and Blacks. How do you think this film will affect that, if at all?**
 
-"I think the film will show people how easy it is to be mentally captive within society's wrong rules. People in that period went mad, went down into a burrow. The film shows, to my mind, that everyone was a slave to some system. What was done there was wrong and inhuman. I hope people will see the film and understand how easy it is to be dragged into such terrible crimes and how much one has to stay on guard and make sure it doesn't repeat itself."
+"I think the film will show people how easy it is to become a mental prisoner of society's bad rules. People in that period went mad, they went down a hole. The film shows, to my mind, that everyone was a slave to some system. What was done there was wrong and inhuman. I hope people will see the film and understand how easy it is to get dragged into terrible crimes like these, and how much you have to stay on guard to make sure it never happens again."
 
-**Have you already got the tuxedo ready for the Oscars?**
+**Got the tuxedo ready for the Oscars yet?**
 
-"Everywhere I go people talk to me about the awards and the nominations following the film. I'm glad it turned out that way, but during filming the thought of the reviews or the awards ceremonies didn't cross my mind for a moment. When you're sitting hunched between sugar canes or cotton bushes in heat of over 40 degrees, and people are shouting at you all around, and there's a feeling that they want to kill you, the main thought is more about how to survive the day. The glittering after-party in Los Angeles looks from there like another planet."
+"Everywhere I go, people want to talk about the awards and the nominations. I'm glad it worked out this way, but during the shoot the reviews and the award ceremonies never once crossed my mind. When you're bent over between sugar cane or cotton bushes in heat above 40 degrees Celsius, with people screaming at you and a feeling that they want you dead, the main thing on your mind is how to survive the day. From there, the glittering after-party in Los Angeles looks like another planet."

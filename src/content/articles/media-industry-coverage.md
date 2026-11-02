@@ -4,6 +4,7 @@ title: The Bottom Line
 subtitle: 'Rani Rahav and Ronit Arbel at a summit meeting, Boaz Ben Zion and Maya Buskila split up, and wedding season reaches Keshet: "The Bottom Line," an industry gossip column'
 summary: 'Rani Rahav and Ronit Arbel at a summit meeting, Boaz Ben Zion and Maya Buskila split up, and wedding season reaches Keshet: "The Bottom Line," an industry gossip column'
 kind: coverage
+group: about-me
 author: nrg Maariv staff
 thirdPartyCoverage: true
 subjects:

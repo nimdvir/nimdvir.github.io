@@ -4,6 +4,7 @@ title: I'm Back
 subtitle: 'Two years have passed since Julia Louis-Dreyfus was diagnosed with breast cancer • She shared the recovery process with her followers, and at the same time shot a final season of the comedy "Veep" • In an interview with "Shishabat" she talks about the connection between comedy and politics and admits: " To be a middle-aged woman trying to stay relevant and influential.'
 summary: 'Two years have passed since Julia Louis-Dreyfus was diagnosed with breast cancer • She shared the recovery process with her followers, and at the same time shot a final season of the comedy "Veep" • In an interview with "Shishabat" she talks about the connection between comedy and politics and admits: " To be a middle-aged woman trying to stay relevant and influential.'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Julia Louis-Dreyfus
 subjects:

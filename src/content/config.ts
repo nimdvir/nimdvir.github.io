@@ -93,6 +93,15 @@ export const articleKinds = [
   "review",
   "coverage",
 ] as const;
+// Portfolio sections on /articles/, set per piece from its translation review.
+export const articleGroups = [
+  "international-interview",
+  "israeli-interview",
+  "feature",
+  "review",
+  "column",
+  "about-me",
+] as const;
 // Translated journalism from data-source/writing/translations, built by
 // scripts/writing/build_article_pages.py. Images carry their own license.
 const articles = defineCollection({
@@ -104,6 +113,7 @@ const articles = defineCollection({
       subtitle: z.string().optional(),
       summary: z.string(),
       kind: z.enum(articleKinds),
+      group: z.enum(articleGroups).optional(),
       author: z.string(),
       authors: z.array(z.string()).default([]),
       thirdPartyCoverage: z.boolean().default(false),

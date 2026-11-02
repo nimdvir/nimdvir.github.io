@@ -4,6 +4,7 @@ title: Dead on Air
 subtitle: A young man who killed himself on a live stream, and thousands of users who remained indifferent, left Nimrod Dvir wondering what has come over this generation
 summary: A young man who killed himself on a live stream, and thousands of users who remained indifferent, left Nimrod Dvir wondering what has come over this generation
 kind: column
+group: column
 author: Nimrod Dvir
 subjects:
 - Abraham Biggs

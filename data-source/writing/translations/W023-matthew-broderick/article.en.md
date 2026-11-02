@@ -1,8 +1,8 @@
 ---
 articleId: "W023"
 title: "Social Justice in the Big Apple: An Interview with Matthew Broderick"
-subtitle: "With only a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is content with his lot. In an interview with Ynet he talks about the fun of working alongside Ben Stiller and Eddie Murphy, and offers our correspondent a side income as the doorman of his modest home in the heart of New York"
-summary: "With only a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is content with his lot. In an interview with Ynet he talks about the fun of working alongside Ben Stiller and Eddie Murphy, and offers our correspondent a side income as the doorman of his modest home in the heart of New York"
+subtitle: "With nothing more than a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is happy with his lot. He talks to Ynet about the fun of working with Ben Stiller and Eddie Murphy, and offers our correspondent a side job as doorman at his modest home in the heart of New York"
+summary: "With nothing more than a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is happy with his lot. He talks to Ynet about the fun of working with Ben Stiller and Eddie Murphy, and offers our correspondent a side job as doorman at his modest home in the heart of New York"
 author: "Nimrod Dvir"
 interviewee: "Matthew Broderick"
 subjects: ["Matthew Broderick", "Tower Heist"]
@@ -13,93 +13,89 @@ language: "en"
 originalLanguage: "he"
 source: "Ynet"
 sourceUrl: "https://www.ynet.co.il/article/4141079"
-tags: ["Interview", "Film", "New York", "Hollywood"]
+tags: ["Interview", "Film", "Hollywood", "New York"]
 draft: true
-translationStatus: "draft-for-review"
+translationStatus: "revised-for-voice"
 sourceExtraction: "../../originals/W023-matthew-broderick/article.he.md"
 translatedOn: "2026-10-30"
+revisedOn: "2026-10-31"
 translationReviewedBy: null
 ---
 
-*With only a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is content with his lot. In an interview with Ynet he talks about the fun of working alongside Ben Stiller and Eddie Murphy, and offers our correspondent a side income as the doorman of his modest home in the heart of New York*
+*With nothing more than a supporting role in Tower Heist and Sarah Jessica Parker at his side, Matthew Broderick is happy with his lot. He talks to Ynet about the fun of working with Ben Stiller and Eddie Murphy, and offers our correspondent a side job as doorman at his modest home in the heart of New York*
 
-*English translation of the Hebrew original by Nimrod Dvir (byline: Nimrod Dvir, New York), published in Ynet on November 2, 2011. [Read the original in Hebrew](https://www.ynet.co.il/article/4141079).*
+*English translation of the Hebrew original by Nimrod Dvir, published in Ynet on November 2, 2011. [Read the original in Hebrew](https://www.ynet.co.il/article/4141079).*
 
-Many moviegoers find it hard to accept Matthew Broderick's current phase. Although a lot of water has flowed through the rivers of the big city since he starred in the hit Ferris Bueller's Day Off and other teen productions, it's a little strange to accept the fact that Broderick has long since stopped being that mischievous boy with the handsome forelock.
+A lot of moviegoers have trouble with Matthew Broderick's current phase. Plenty of water has flowed down the rivers of the big city since he starred in Ferris Bueller's Day Off and the rest of his teen pictures, and still it's a little strange to accept that Broderick stopped being that mischievous kid with the perfect hair a long time ago.
 
-The 49-year-old actor does work nonstop on stage and in film, and in recent years has appeared in, among other things, The Producers, the plays How to Succeed in Business Without Really Trying and The Odd Couple, the film Easy A and more, but it seems the veteran actor prefers to keep his career simmering on a low flame.
+The 49-year-old works nonstop on stage and screen, true; in recent years he has turned up in The Producers, in the plays How to Succeed in Business Without Really Trying and The Odd Couple, in the film Easy A and elsewhere. But the veteran actor seems happier keeping his career on a low simmer.
 
-Rather than become a cinematic superstar, Broderick handed center stage to his wife, the super-successful actress Sarah Jessica Parker (Sex and the City), with whom, and with their three children, he lives in the Village in New York. These days he is appearing in the action film Tower Heist (released in Israel under the Hebrew title "A Billion Reasons for a Robbery," though the English is closer to "the robbery of the tower").
+Instead of becoming a movie superstar, Broderick handed the spotlight to his wife, the enormously successful Sarah Jessica Parker (Sex and the City), with whom he lives, along with their three children, in Greenwich Village. These days he can be seen in the action film Tower Heist (in Israel it goes by "A Billion Reasons for a Heist," which is not quite the same thing).
 
 ## Not Trying to Impress Anyone
 
-Here too, Broderick doesn't take the focus for himself and cedes center stage to the big stars Ben Stiller and Eddie Murphy, who play the leaders of a group of service staff at a New York luxury tower who decide to rob the corrupt investment man from the penthouse (Alan Alda) after he steals all their savings in a financial fraud.
+Here too Broderick keeps out of the spotlight and leaves center stage to the big names, Ben Stiller and Eddie Murphy, who play the ringleaders of a crew of service staff at a New York luxury tower who decide to rob the crooked financier in the penthouse (Alan Alda) after he makes off with their life savings in a financial scam.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*Matthew Broderick in Tower Heist. Fine with supporting roles*
 
-*Matthew Broderick in Tower Heist. Gets along fine with supporting roles*
+Broderick plays Chase Fitzhugh, a bit of a loser who is evicted from the tower after losing his job in the financial crisis and joins the robbers because his finances are in a sorry state.
 
-Broderick plays Chase Fitzhugh, a fairly loser-ish guy evicted from the tower after losing his job in the economic crisis, who decides to join the robbers because of his dismal financial situation.
+Like his character, Broderick doesn't seem in any rush to be the hero. At the press conference for the film's release, held at Columbus Circle, where the film was also shot (and though nobody says so, the building in it is modeled on the Trump tower that stands on the circle), Broderick hands the stage to the big stars, Stiller and Murphy.
 
-Like his character, Broderick doesn't seem in any hurry to be the hero. At the press conference for the film's release, held at Columbus Circle, where the film was also shot (and although nobody says so, the building in it is based on the Trump tower on the circle), Broderick cedes the stage to the big stars, Stiller and Murphy.
-
-He also doesn't try especially hard to be the hero type, and arrives embarrassed and smiling, dressed relatively simply, with a round (and fairly large) belly and hair styled in the manner of "I woke up, ran a hand through it, and here I am." Not exactly what you'd expect from a teen star and the husband of one of the most stylish women in the world.
+He doesn't try very hard to look like a hero either. He arrives sheepish and smiling, dressed fairly plainly, with a round (and fairly large) belly and hair in the "woke up, ran a hand through it, here I am" style. Not exactly what you'd expect from a former teen idol and the husband of one of the most stylish women in the world.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*Matthew Broderick and Sarah Jessica Parker. Not how he looks on an ordinary day (Photo: gettyimages)*
 
-*Matthew Broderick and Sarah Jessica Parker. This is not how he looks day to day (Photo: gettyimages)*
+"I'm not trying to impress anyone," he admits. "This is Ben and Eddie's show, completely. And I don't mind playing a 'loser.' I don't have some hero image I'm trying to keep up. Besides, my character isn't only a loser. You can see that as the story goes on he gets his mojo back. By the end he really shows some backbone, I think. Don't you?"
 
-"I'm not trying to impress anyone," he admits. "This is entirely Ben and Eddie's show. I also don't mind playing a 'loser' character. I don't have a hero image I'm trying to maintain or anything like that. Besides, my character isn't only 'loser-ish'. You can see in the film that as the plot progresses he gets his mojo back. In the end he really shows some backbone, in my eyes, don't you think?"
+**Yes, and he's still not the star. You seem to have a habit of picking the smaller parts in your film projects.**
 
-**Yes, and still he's not the star. You seem to have a tendency to choose more marginal characters in your film projects.**
-
-"I'm happy with my choices, I pick things that suit me. The reason I joined this film is the wonderful team, Ben Stiller, Eddie Murphy, director Brett Ratner, and also because I really liked the plot. Besides, in my view there are advantages to playing a supporting character. This character carries no great responsibility, it's nothing significant to the film," he laughs. "You just need a few good lines and that's enough. I like it when the jokes are shared among all the characters, not just the leads."
+"I'm happy with my choices. I pick things that suit me. I took this film because of the terrific team, Ben Stiller, Eddie Murphy, the director Brett Ratner, and because I genuinely liked the story. Besides, there are advantages to a supporting part. The character doesn't carry much responsibility. He isn't crucial to the film," he laughs. "All you need is a few good lines and you're set. I like it when the jokes are spread among all the characters, not just the leads."
 
 ## The Best Films Are Shot in New York
 
-The film is based largely on the economic crisis from which the United States is still recovering, on the gap between rich and poor and on Bernie Madoff's giant fraud, which robbed masses of people of all their savings. Despite the plot's obvious resemblance to real life, Broderick somewhat shrugs off the comparison to Madoff.
+The film leans heavily on the financial crisis the United States is still climbing out of, on the gap between rich and poor, and on Bernie Madoff's giant fraud, which robbed huge numbers of people of everything they had saved. For all the plot's obvious resemblance to real life, Broderick is a little reluctant to take the Madoff comparison.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*Broderick in Tower Heist. Not sure it's a satire on the rich*
 
-*Broderick in Tower Heist. Not sure it's a satire against the rich*
+"I can see why people make the comparison, but honestly I don't know enough about it. I was never much of an investor, so I can't tell you what's similar and what isn't. I don't think the film is trying to tell the story of some huge fraud or to be a parable about Bernie Madoff. I don't think you can call it a film against the rich, or against the establishment in general.
 
-"I can understand why people make the comparison, but the truth is I don't know enough about it. I never really used to invest my money, so I don't know what's similar and what isn't. I think the film isn't trying to tell a story about a great fraud or to be a parable about Bernie Madoff. I don't think you can say it's a film against the rich or against the establishment in general.
+"People tell me it's a film with a message. I'm not so sure. If you really go looking, maybe it's a satire on excessive wealth, on the gap between the people who live on the top floors and the people who serve them. To me it's a specific story about one very specific thief and the bunch of people trying to get back at him and get their money back.
 
-"People tell me it's a film with a message, I'm not sure. If you really look for one then maybe it's a satire against excessive wealth, against the gap between those who live on the upper floors and those who serve them. To me it's a specific story about one very specific thief and the group of people trying to take revenge on him and get their money back.
+"I understand that it sounds familiar to people, because it's all over the news. I hope people stay poor long enough for the film to stay relevant," he laughs. "It's true that today's villains come out of the financial world. They're scary, but scary in a suit."
 
-"I understand it rings familiar to people because it's in the news a lot. I hope people stay poor long enough for the film to stay relevant," he laughs. "It's true that today's villains come from the economy. They're scary, but scary in a suit."
+**You're a New Yorker by birth and you still live here. What was it like shooting so close to home?**
 
-**You're a New Yorker by birth and still live in the city. What was it like to shoot close to home?**
-
-"Amazing. It was one of my considerations in agreeing to do the role. I still had to travel, but the actor Alan Alda could walk to the shoot, that's a real treat. What's amazing is that all the exterior scenes of the tower were shot right on the street, here at Columbus Circle. There are no extras, all the people walking by are real people who wandered into the shoot.
+"Amazing. It was one of the reasons I agreed to take the part. I still had to drive in, but Alan Alda could walk to the set, which is a real luxury. The amazing thing is that all the exterior scenes at the tower were shot right out on the street, here at Columbus Circle. No extras. Everyone walking by is a real person who happened to wander into the shoot.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*The poor who got hit rob the rich*
 
-*The poor who were hurt rob the rich*
+"We even rebuilt part of the Thanksgiving parade that appears in the film. People couldn't work out why a Snoopy balloon was suddenly coming at them down the middle of the street. Someone even called 911 after we flipped a car for a shot. It just looked real."
 
-"We even rebuilt part of the Thanksgiving parade that appears in the film. People didn't understand why a Snoopy balloon was suddenly coming at them in the middle of the street. Someone even called the emergency line after we flipped a car for the shoot. It just looked real."
+**Which do you prefer, shooting here or in Los Angeles?**
 
-**What do you prefer, shooting here or in Los Angeles?**
-
-"Of course I love shooting in New York. I grew up here. The best films in the world, in my view, were shot in New York. I don't know if it's the city, or because some of the greatest filmmakers worked here. In any case, I love a lot of films set in New York."
+"Of course I love shooting in New York. I grew up here. The best films in the world, as far as I'm concerned, were shot in New York. I don't know if it's the city, or that some of the greatest filmmakers worked here. Either way, I love a lot of films set in New York."
 
 **Like Sex and the City?**
 
 "That too, sure."
 
-**Like in the film, you're also a family man living in New York, but not in a luxury tower with a guard at the entrance, in a private house accessible to anyone off the street who wants in. Isn't that a little beneath your station?**
+**Like in the film, you're a family man living in New York, but not in a luxury tower with a guard at the door. You're in a private house that anyone can walk up to from the street. Isn't that a little beneath you?**
 
 Broderick laughs. "I really don't have a doorman. I live pretty simply.
 
-"I never really thought about it, but I think I'd be happy to have a doorman, with a uniform and gloves, who would open the door for people and stop other people from knocking on my door. It doesn't happen a lot, but it has happened a few times. What about you? Do you like your job? Want to be my doorman?"
+"I never really thought about it, but I think I'd like having a doorman, with the uniform and the gloves, to open the door for people and keep other people from knocking on it. It doesn't happen much, but it has happened a few times. What about you? Do you like your job? Want to be my doorman?"
 
-**If it's for the whole family, your wife included, there's a chance.**
+**If the job covers the whole family, your wife included, there's a chance.**
 
-"Great, talk to me after the interview. Maybe we'll manage to reach some agreement."
+"Great. Talk to me after the interview. Maybe we can work something out."
 
-<!-- Source image not embedded; this image appeared in the original sidebar. See source-record.json for provenance and licensing. -->
-
-*Matthew Broderick. The boy grew up and grew a round belly (Photo: gettyimages)*
+<!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*Matthew Broderick. The kid grew up and grew a round belly (Photo: gettyimages)*
 
 ---
 
@@ -113,4 +109,4 @@ Dvir, N. (2011, November 2). Tzedek chevrati ba-tapuach ha-gadol: Re'ayon im Mat
 
 [Original article at the publisher](https://www.ynet.co.il/article/4141079) · [Verified Hebrew Markdown](../../originals/W023-matthew-broderick/article.he.md) · [Clean Hebrew HTML backup](../../originals/W023-matthew-broderick/article.he.html)
 
-*This English translation was prepared on October 30, 2026 and was not published by the original publisher. Source images were not downloaded or re-hosted; captions and credits are preserved as provenance.*
+*This English translation was prepared on October 30, 2026 and revised for voice on October 31, 2026. It was not published by the original publisher. Source images were not downloaded or re-hosted; their captions and credits are kept here as provenance and are not shown on the website page.*

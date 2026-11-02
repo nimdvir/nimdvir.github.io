@@ -4,6 +4,7 @@ title: Pini Askal Moves to "Pnai Plus"
 subtitle: The editor of Walla! Celebs and Nimrod Dvir, culture editor at "Pnai Plus," have been appointed deputies to Nirit Weiss. Designer Amir Hasson, who is leaving, will be replaced by Nadav Eliyahu
 summary: The editor of Walla! Celebs and Nimrod Dvir, culture editor at "Pnai Plus," have been appointed deputies to Nirit Weiss. Designer Amir Hasson, who is leaving, will be replaced by Nadav Eliyahu
 kind: coverage
+group: about-me
 author: nrg Maariv staff
 thirdPartyCoverage: true
 subjects:

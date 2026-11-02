@@ -23,6 +23,57 @@ export function articleKindLabel(kind: string) {
   return kindLabels[kind] ?? kind;
 }
 
+// Portfolio sections on /articles/, in display order.
+export const articleGroupOrder = [
+  "international-interview",
+  "israeli-interview",
+  "feature",
+  "review",
+  "column",
+  "about-me",
+] as const;
+export type ArticleGroup = (typeof articleGroupOrder)[number];
+
+const groupLabels: Record<ArticleGroup, string> = {
+  "international-interview": "Celebrity interviews",
+  "israeli-interview": "Israeli interviews",
+  feature: "Features and set visits",
+  review: "Reviews",
+  column: "Columns",
+  "about-me": "Written about me",
+};
+
+export function articleGroupLabel(group: ArticleGroup) {
+  return groupLabels[group];
+}
+
+const groupByKind: Record<string, ArticleGroup> = {
+  interview: "international-interview",
+  column: "column",
+  feature: "feature",
+  review: "review",
+  coverage: "about-me",
+};
+
+export function articleGroup(article: Article): ArticleGroup {
+  return article.data.group ?? groupByKind[article.data.kind] ?? "feature";
+}
+
+export function isPersonPiece(article: Article) {
+  const g = articleGroup(article);
+  return g === "international-interview" || g === "israeli-interview";
+}
+
+// A face-centred portrait crop of the article's Cloudinary image.
+export function articlePortrait(url: string | undefined, width = 600) {
+  if (!url || !url.includes("/image/upload/")) return url;
+  const height = Math.round((width * 4) / 3);
+  return url.replace(
+    /\/image\/upload\/(?:[^/]+\/)?(v\d+\/)/,
+    `/image/upload/f_auto,q_auto,w_${width},h_${height},c_fill,g_face,z_0.8/$1`,
+  );
+}
+
 export function articleKindPlural(kind: string) {
   return kindPlurals[kind] ?? kind;
 }

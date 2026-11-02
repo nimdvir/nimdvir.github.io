@@ -4,6 +4,7 @@ title: There's No Place Like Home
 subtitle: The holiday atmosphere, which in America comes down mostly to phone calls from his grandmother back home, is making Nimrod Dvir homesick
 summary: The holiday atmosphere, which in America comes down mostly to phone calls from his grandmother back home, is making Nimrod Dvir homesick
 kind: column
+group: column
 author: Nimrod Dvir
 subjects:
 - Homesickness

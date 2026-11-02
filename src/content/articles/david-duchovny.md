@@ -4,6 +4,7 @@ title: 'SEX FILES: An Interview with David Duchovny'
 subtitle: 'In the hit series Californication (whose third season starts this week on HOT 3), David Duchovny plays a failed writer addicted to sex. In his private life, Duchovny separated from his wife two years ago after a wave of rumors about his affairs, and checked himself into a sex-addiction clinic. An autobiographical series? "We really do look alike," he says in an interview with Maariv, "but he has better makeup, that''s all." Also: what''s in store for fans of The X-Files?'
 summary: 'In the hit series Californication (whose third season starts this week on HOT 3), David Duchovny plays a failed writer addicted to sex. In his private life, Duchovny separated from his wife two years ago after a wave of rumors about his affairs, and checked himself into a sex-addiction clinic. An autobiographical series? "We really do look alike," he says in an interview with Maariv, "but he has better makeup, that''s all." Also: what''s in store for fans of The X-Files?'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: David Duchovny
 subjects:

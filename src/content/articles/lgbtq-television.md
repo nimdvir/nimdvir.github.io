@@ -4,6 +4,7 @@ title: A Little Self-Pride
 subtitle: We have no problem with the gays taking over our prime time, but waving the "gay" label around on television can easily turn into a cheap gimmick. Nimrod Dvir thinks it's time to stop making a thing of it
 summary: We have no problem with the gays taking over our prime time, but waving the "gay" label around on television can easily turn into a cheap gimmick. Nimrod Dvir thinks it's time to stop making a thing of it
 kind: column
+group: column
 author: Nimrod Dvir
 subjects:
 - LGBTQ visibility on Israeli television

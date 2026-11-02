@@ -4,6 +4,7 @@ title: 'TO B: An Interview with Melanie B'
 subtitle: 'Life didn''t smile on Mel B after the Spice Girls broke up: her albums flopped, she was nicknamed "the desperate one," and her relationship with Eddie Murphy (huh?), with whom she has a daughter, ended with a crash and a bang. Now she''s back in a new reality series on The Good Life channel (The Real Life of Mel B), and in an interview with Rating she reveals: "The media doesn''t know this, but my daughter and Eddie have started seeing each other behind closed doors"'
 summary: 'Life didn''t smile on Mel B after the Spice Girls broke up: her albums flopped, she was nicknamed "the desperate one," and her relationship with Eddie Murphy (huh?), with whom she has a daughter, ended with a crash and a bang. Now she''s back in a new reality series on The Good Life channel (The Real Life of Mel B), and in an interview with Rating she reveals: "The media doesn''t know this, but my daughter and Eddie have started seeing each other behind closed doors"'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Melanie Brown (Mel B)
 subjects:

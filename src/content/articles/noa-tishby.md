@@ -4,6 +4,7 @@ title: Connected
 subtitle: Noa Tishby has landed a part in an ABC drama, is pushing ahead the American versions of Touching Distance and Screens, chats with Bill Clinton, and still finds time to pop home to model. The most senior Israeli in Hollywood presents a guide to business and pleasure in the city of illusions
 summary: Noa Tishby has landed a part in an ABC drama, is pushing ahead the American versions of Touching Distance and Screens, chats with Bill Clinton, and still finds time to pop home to model. The most senior Israeli in Hollywood presents a guide to business and pleasure in the city of illusions
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Noa Tishby
 subjects:

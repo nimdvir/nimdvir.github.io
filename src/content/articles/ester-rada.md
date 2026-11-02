@@ -4,6 +4,7 @@ title: The Scroll of Esther
 subtitle: 'From shouting "Blessed Is the Man" at the grave of the murderer Baruch Goldstein, through a stormy adolescence in a rough Netanya neighborhood and the backstage trauma of The Troupe, to a lead role in the teen drama Deus: Ester Rada is a children''s-channel star unlike any you''ve known'
 summary: 'From shouting "Blessed Is the Man" at the grave of the murderer Baruch Goldstein, through a stormy adolescence in a rough Netanya neighborhood and the backstage trauma of The Troupe, to a lead role in the teen drama Deus: Ester Rada is a children''s-channel star unlike any you''ve known'
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Ester Rada
 subjects:

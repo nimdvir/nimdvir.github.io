@@ -4,6 +4,7 @@ title: Coming Back Is the Best Part
 subtitle: Nimrod Dvir lands back into Zionism with positive energy. So what if he doesn't have a penny in his pocket
 summary: Nimrod Dvir lands back into Zionism with positive energy. So what if he doesn't have a penny in his pocket
 kind: column
+group: column
 author: Nimrod Dvir
 subjects:
 - Returning from New York to Israel

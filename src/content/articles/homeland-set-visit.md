@@ -4,6 +4,7 @@ title: 'For the Second Season: A Visit to the Homeland Set'
 subtitle: On the set of the excellent "Homeland 2" we found Hollywood stars like Claire Danes living together in dorms, psychiatric pills, horror stories from the shoot in Israel and 150 people who work three days on a single scene and claim it's the bravest series in America
 summary: On the set of the excellent "Homeland 2" we found Hollywood stars like Claire Danes living together in dorms, psychiatric pills, horror stories from the shoot in Israel and 150 people who work three days on a single scene and claim it's the bravest series in America
 kind: feature
+group: feature
 author: Nimrod Dvir
 subjects:
 - Homeland season 2 set visit

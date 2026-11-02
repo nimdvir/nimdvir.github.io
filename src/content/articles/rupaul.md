@@ -3,6 +3,7 @@ articleId: W006
 title: '"I''m Juicy, Not a Bitch"'
 summary: RuPaul, reached by phone at a New York office mid-party, talks about Drag Race arriving in Israel, drag as art, false eyelashes, Tyra Banks and his ten days in Tel Aviv.
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: RuPaul
 subjects:

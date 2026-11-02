@@ -4,6 +4,7 @@ title: 'Spike Lee: "The Oscars Mess Up Sometimes"'
 subtitle: Director Spike Lee no longer pays much attention to the preferences of the American film academy, nor to journalists' declarations about the revival of African American cinema. "After every success there are nine years of drought," he argues in an interview ahead of Oldboy, his adaptation of the 2003 Korean thriller. "I feel like we made a new film"
 summary: Director Spike Lee no longer pays much attention to the preferences of the American film academy, nor to journalists' declarations about the revival of African American cinema. "After every success there are nine years of drought," he argues in an interview ahead of Oldboy, his adaptation of the 2003 Korean thriller. "I feel like we made a new film"
 kind: interview
+group: international-interview
 author: Nimrod Dvir
 interviewee: Spike Lee; Elizabeth Olsen
 subjects:
@@ -22,6 +23,14 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1793386471/Database-book-BITM330/vscode-auto/articles/W174-spike-lee.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386471/Database-book-BITM330/vscode-auto/articles/W174-spike-lee.jpg
+imageAlt: Spike Lee speaking to reporters, wearing glasses and a cap
+imageCaption: Spike Lee speaking with the press in Brasília, 2012.
+imageCredit: 'Photo: José Cruz/ABr, CC BY 3.0 BR, via Wikimedia Commons'
+imageLicense: CC BY 3.0 BR
+imageLicenseUrl: https://creativecommons.org/licenses/by/3.0/br/
+imageSource: https://commons.wikimedia.org/wiki/File:Spike_Lee_(2012).jpg
 draft: false
 ---
 
