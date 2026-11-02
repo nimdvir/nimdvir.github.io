@@ -1,8 +1,8 @@
 ---
 articleId: "W098"
 title: "Gila Gamliel Fears the Day \"The Handmaid's Tale\" Becomes Reality in Israel"
-subtitle: "Gila Gamliel, the Minister for Social Equality, no longer demonstrates outside the prime minister's residence, is disappointed with the opposition led by Avi Gabbay, wants you to deal with her actions instead of the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview"
-summary: "Gila Gamliel, the Minister for Social Equality, no longer demonstrates outside the prime minister's residence, is disappointed with the opposition led by Avi Gabbay, wants you to deal with her actions instead of the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview"
+subtitle: "Gila Gamliel, Israel's minister for social equality, no longer protests outside the prime minister's residence, is disappointed in the opposition under Avi Gabbay, would rather you talked about what she does than about the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview"
+summary: "Gila Gamliel, Israel's minister for social equality, no longer protests outside the prime minister's residence, is disappointed in the opposition under Avi Gabbay, would rather you talked about what she does than about the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview"
 author: "Nimrod Dvir"
 interviewee: "Gila Gamliel"
 subjects: ["Gila Gamliel"]
@@ -15,143 +15,137 @@ source: "At"
 sourceUrl: "https://www.atmag.co.il/%D7%92%D7%99%D7%9C%D7%94-%D7%92%D7%9E%D7%9C%D7%99%D7%90%D7%9C-%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F/"
 tags: ["Interview", "Politics", "Gender", "Israel"]
 draft: true
-translationStatus: "draft-for-review"
+translationStatus: "revised-for-voice"
 sourceExtraction: "../../originals/W098-gila-gamliel/article.he.md"
 translatedOn: "2026-10-30"
+revisedOn: "2026-11-01"
 translationReviewedBy: null
 ---
 
-*Gila Gamliel, the Minister for Social Equality, no longer demonstrates outside the prime minister's residence, is disappointed with the opposition led by Avi Gabbay, wants you to deal with her actions instead of the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview*
+*Gila Gamliel, Israel's minister for social equality, no longer protests outside the prime minister's residence, is disappointed in the opposition under Avi Gabbay, would rather you talked about what she does than about the dresses she wears, and hopes Israel's women will be strong, unlike Israeli democracy. An interview*
 
 *English translation of the Hebrew original by Nimrod Dvir, published in At on November 7, 2017. [Read the original in Hebrew](https://www.atmag.co.il/%D7%92%D7%99%D7%9C%D7%94-%D7%92%D7%9E%D7%9C%D7%99%D7%90%D7%9C-%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F/).*
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
 *Gila Gamliel | Dress: Marc Cain | Photo: Ilya Melnikov (Ilya Melnikov)*
 
-A lot has changed for Gila Gamliel in the 14 years since she was first elected to the Knesset. In her first years of activity she became known as combative and provocative. For her current post as Minister for Social Equality, and for this interview, by contrast, she shows up with a far more conciliatory approach. "My first term was catastrophic in my eyes," she admits. "It was inflammatory, populist. I'm glad I left the Knesset for a while to get some perspective. After I left I understood that this was not the way. I trained with a personal coach, and when I returned to the Knesset I decided to focus more on doing and on mission." Mission, as far as Gamliel is concerned, is for example her call, together with Eva Medzhibozh, director general of the Authority for the Advancement of the Status of Women, to fire Alex Gilady from the Keshet franchise, after his name was linked in recent days to suspicions of sexual harassment and assault. Today (Wednesday), under public pressure and calls of this kind, Gilady suspended himself until further notice.
+A lot has changed in Gila Gamliel in the 14 years since she was first elected to the Knesset, Israel's parliament. In her early years she made her name as a brawler and a provocateur. She arrives at her current post, minister for social equality, and at this interview, in a far more conciliatory frame of mind. "My first term was a catastrophe, in my view," she admits. "It was belligerent, populist. I'm glad I was out of the Knesset for a while and got some perspective. Once I was out I understood that this was not the way. I worked with a personal coach, and when I came back I decided to focus more on getting things done and on the mission." The mission, as Gamliel sees it, includes her call, together with Eva Medzhibozh, director general of the Authority for the Advancement of the Status of Women, for Alex Gilady to be fired from Keshet, one of the two companies that run Israel's Channel 2, after his name was linked in recent days to suspected sexual harassment and assault. Today (Wednesday), under public pressure and calls of this kind, Gilady suspended himself until further notice.
 
-"There are people whose whole thing is the headline. I was there too; it's very easy, you have a microphone, you come out with a bombastic statement and you get all the headlines. So today I don't open the news broadcasts, but my work is meaningful, and that's what I get up for in the morning."
+"Some people are all about the headline. I've been there too. It's very easy: you have a microphone, you come out with a bombastic statement and you get all the headlines. So today I don't lead the evening news, but my work matters, and that's what I get up for in the morning."
 
-**Oren Hazan and David Bitan, for example, are they wrong in the way they conduct themselves?**
+**Oren Hazan and David Bitan, for example, two of the Likud's most combative Knesset members. Are they getting it wrong?**
 
-"I've learned that you can reach bigger achievements through gentle means."
+"I've learned you can achieve more by gentler means."
 
-It's clear that she is careful to use diplomatic language, but there are still areas in which Gamliel summons a fighting spirit. One of the issues burning in her is women's rights, a subject that has been discussed quite a bit around the #MeToo campaign.
+She is plainly careful to keep her language diplomatic, but there are still areas where Gamliel summons the fighting spirit. One issue that burns in her is women's rights, a subject that has had a thorough airing around the #MeToo campaign.
 
-"It happened to me too, when I was a soldier," she says. "I fell asleep on the bus on the way home, and when I woke up I felt that the man sitting next to me had put his hand under my behind. In the first moment it didn't register; the reaction was freezing, shock. Finally, when I recovered and went to the driver, the man had already managed to get off. Strangely, even though 25 years have passed since then, I remember his face exactly. When I close my eyes I can see the man in detail."
+"It happened to me too, when I was a soldier," she says. "I fell asleep on the bus on the way home, and when I woke up I felt that the man sitting next to me had slid his hand under my backside. In the first moment it didn't register. The reaction was to freeze, shock. By the time I pulled myself together and went to the driver, the man had already gotten off. It's strange, 25 years have passed and I remember his face exactly. When I close my eyes I can see the man in detail."
 
-**What do you think of the #MeToo campaign?**
+**What do you make of the #MeToo campaign?**
 
-"I think it's a [very important campaign](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%9c%d7%90-%d7%aa%d7%98%d7%a8%d7%99%d7%93). It's critical to burn into the public consciousness that women must not stay silent any longer, that sexual harassment must be reported, that it can happen to anyone and that we need to support one another. Since then I haven't encountered sexual harassment directed at me, but I'm aware of the amount of harassment that women, in every role and in every place, absorb. I work a great deal to advance this issue. Recently I approached the Education Ministry asking that emphasis be placed on children's understanding of their right to their own bodies, and I'm working to shatter [the victims' silence](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%a7%d7%9e%d7%a4%d7%99%d7%99%d7%9f-%d7%a8%d7%a9%d7%aa-%d7%92%d7%9d-%d7%90%d7%a0%d7%99), especially in sectors where the silence is greater, such as the Haredi and Arab populations. The message that needs to be instilled is that those who should be ashamed are the attackers, heaven forbid not the victims."
+"I think it's a [very important campaign](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%9c%d7%90-%d7%aa%d7%98%d7%a8%d7%99%d7%93). It's critical to burn into the public consciousness that women must not stay silent any longer, that sexual harassment has to be reported, that it can happen to any woman and that we have to support one another. I haven't been harassed since, but I know how much harassment women absorb, in every role and in every place. I do a great deal of work on this. Recently I asked the Education Ministry to put an emphasis on children understanding their right to their own bodies, and I'm working to break [the silence of the victims](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%a7%d7%9e%d7%a4%d7%99%d7%99%d7%9f-%d7%a8%d7%a9%d7%aa-%d7%92%d7%9d-%d7%90%d7%a0%d7%99), especially in communities where the silence is deeper, such as the ultra-Orthodox and Arab populations. The message that has to sink in is that the ones who should be ashamed are the attackers, never the victims."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
-*"We need to support one another" | Jeans: Zara, top: Essentiel at Numero 13, shoes: Pollini at Mary Shoes | Photo: Ilya Melnikov*
+*"We have to support one another" | Jeans: Zara, top: Essentiel at Numero 13, shoes: Pollini at Mary Shoes | Photo: Ilya Melnikov*
 
 ## Pensioners 2.0
 
-The office of the Minister for Social Equality in Ramat Gan, which also houses the "Digital Israel" project under the ministry, is designed in a super high-tech atmosphere: concrete walls, exposed piping and glass partitions scribbled with digital buzzwords like "distance learning" and "excellence." A little surreal, considering that the ministry's previous name, before Gamliel changed it, was the Ministry for Pensioners' Affairs.
+The minister's office in Ramat Gan, just outside Tel Aviv, which also houses the ministry's Digital Israel project, is done up in full start-up mode: concrete walls, exposed pipes and glass partitions scrawled with digital buzzwords like "distance learning" and "excellence." A little surreal, considering that before Gamliel renamed it, the ministry was called the Ministry for Pensioner Affairs.
 
-**How is this high-tech vibe connected to senior citizens? Doesn't it somewhat undermine the focus on their needs?**
+**What does the high-tech vibe have to do with senior citizens? Doesn't it take some of the focus off their needs?**
 
-"On the contrary. The Digital Israel project gives senior citizens a wealth of possibilities that weren't open to them in the past: digital literacy, for example, a calculator for claiming benefits, or intergenerational ventures. Digitization creates equality, because geographic distance is no longer a cause of social gaps. I think senior citizens are very satisfied with the ministry's activity."
+"The opposite. Digital Israel gives seniors a lot of options they never had before: digital literacy, for example, a calculator for claiming their benefits, intergenerational programs. Digitization creates equality, because geographic distance is no longer an excuse for social gaps. I think seniors are very happy with the ministry's work."
 
-**The relatively new title, "Ministry for Social Equality," is a bit amorphous. What does it actually mean?**
+**The relatively new title, "Ministry for Social Equality," is a little shapeless. What does it actually mean?**
 
-"Social equality means equal opportunity for everyone. People aren't equal, but their rights should be identical. It doesn't matter what background or gender they come from. In the past this was the Ministry for Senior Citizens, and it dealt mainly with the matter of leisure and the issue of loneliness. As such, it had a small budget of 49 million shekels. On the basis of that ministry I established the Ministry for Social Equality, which handles all the issues related to senior citizens alongside handling the populations of young people, women and minorities."
+"Social equality means equal opportunity for everyone. People aren't equal, but their rights should be identical, whatever background or gender they come from. This used to be the Ministry for Senior Citizens, and it dealt mostly with leisure and loneliness. As such, it had a small budget, 49 million shekels. On that foundation I built the Ministry for Social Equality, which handles everything to do with seniors alongside young people, women and minorities."
 
-One of the significant projects Gamliel initiated is directing 15 billion shekels to developing projects among Israel's minority populations: Druze, Circassians, Muslims, Christians and Bedouin. "We are a democratic state, and in my view that needs to be realized for everyone. The situation of the Arabs in Israel is dramatic in its unrealized potential. I managed to advance a plan for the advancement of the Bedouin in the north, under which we will establish the first pre-military academy for the Bedouin community."
+One of the more significant projects Gamliel has initiated directs 15 billion shekels to development among Israel's minorities: Druze, Circassians, Muslims, Christians and Bedouin. "We're a democratic state, and to my mind that has to be made real for everyone. The situation of Israel's Arabs is dramatic in how much potential goes unrealized. I managed to push through a plan for the Bedouin in the north, and under it we'll open the first pre-army academy for the Bedouin community."
 
-She is proud of her achievements but less pleased with how they are covered: "My activity doesn't get media expression because it's less tabloid and interesting, but some unfortunate statement or a striking dress does get headlines. There's something shallow in the discourse."
+She is proud of her record and rather less pleased with how it gets covered: "My work doesn't get media attention because it's less tabloid, less juicy, but some unfortunate remark or a conspicuous dress does get headlines. There's something shallow in the conversation."
 
-**Are you talking about [Miri Regev](https://www.atmag.co.il/%D7%90%D7%A0%D7%A9%D7%99%D7%9D/%D7%97%D7%91%D7%A8%D7%94-%D7%95%D7%A4%D7%95%D7%9C%D7%99%D7%98%D7%99%D7%A7%D7%94/%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%A2%D7%9C-%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%97%D7%95%D7%A9%D7%9A)?**
+**Are you talking about [Miri Regev](https://www.atmag.co.il/%D7%90%D7%A0%D7%A9%D7%99%D7%9D/%D7%97%D7%91%D7%A8%D7%94-%D7%95%D7%A4%D7%95%D7%9C%D7%99%D7%98%D7%99%D7%A7%D7%94/%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%A2%D7%9C-%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%97%D7%95%D7%A9%D7%9A), the culture minister?**
 
-"I'd rather not get into it personally, with your permission. A lot of people talk and talk, and the media gives them the stage all the time. The discourse is inflammatory. It's inflammatory in the Knesset, it's inflammatory in the media. Everything is fights. People focus on the noise instead of examining action. A media person once told me that to get headlines I need to fight with someone, to argue. I don't want to; I came to do things, I have no time for all that nonsense."
+"I'd rather not get personal, if you don't mind. A lot of people talk and talk, and the media hands them the stage every time. The discourse is overheated. It's overheated in the Knesset, it's overheated in the media. Everything is a fight. People focus on the noise instead of looking at the work. A journalist once told me that to get headlines I'd have to pick a fight with someone, argue. I don't want to. I came to get things done. I have no time for that nonsense."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*"An unfortunate remark or a conspicuous dress gets headlines. There's something shallow in the conversation. It's very overheated. In the Knesset, in the media. Everything is a fight. People focus on the noise instead of the work" | Top: Audra Belarus for Numero 13, skirt: Zara, shoes: Aldo | Photo: Ilya Melnikov*
 
-*"An unfortunate statement or a striking dress gets headlines. There's something shallow in the discourse. It's very inflammatory. In the Knesset, in the media. Everything is fights. People focus on the noise instead of on action" | Top: Audra Belarus for Numero 13, skirt: Zara, shoes: Aldo | Photo: Ilya Melnikov*
+In these sensitive days Gamliel is careful not to trash a colleague, as she did more than once in the past. As the first woman to chair Israel's National Union of Students, she knows the value of women backing one another. "There are very few women in national and municipal politics, and it's very important that women take part. Not enough women try, and many of those who do quit after one term. You have to persevere, and you have to be generous, support women, help as much as you can. There's a real struggle to keep pace."
 
-In these sensitive days, Gamliel is careful not to trash her colleague, as she did more than once in the past. As the first woman to serve as chair of the National Union of Israeli Students, she understands very well the importance of mutual support among women. "There are very few women in the public and municipal system, and it's very important that women take part. Not enough women try, and many of those who try quit after one term. You have to persevere and you have to be generous, to support women, to help as much as possible; there's real distress in keeping pace."
+**How did you take the news that Zehava Galon, the leader of the left-wing Meretz party, is leaving the Knesset?**
 
-**How did you react to Zehava Galon's announcement that she is leaving the Knesset?**
-
-"In my eyes it's a great loss. Despite the differences of opinion, she is an excellent parliamentarian, and I'm sorry to see her leave."
+"To me it's a great loss. Whatever our differences, she's an excellent parliamentarian, and I'm sorry to see her go."
 
 ## Parenting for Everyone
 
-The aspiration for equality and for advancing the weaker members of society is a subject close to Gamliel's heart from a young age. She grew up in a small shack in the Shkhunat HaIvrim neighborhood of Gedera, the youngest of six siblings. Her parents, Yosef and Aliza, immigrated from Libya and Yemen. She set herself the goal of going far, completed bachelor's and master's degrees in law and bachelor's and master's degrees in philosophy, and served as chair of the National Union of Israeli Students until she decided to run for the Knesset on the Likud list.
+Equality, and a leg up for the weak, has been close to Gamliel's heart since childhood. She grew up in a small shack in the Gedera neighborhood known as the Blind Quarter, the youngest of six. Her parents, Yosef and Aliza, immigrated from Libya and Yemen. She set out to go far: bachelor's and master's degrees in law, bachelor's and master's degrees in philosophy, and the chair of the National Union of Students, until she decided to run for the Knesset on the list of the Likud, Benjamin Netanyahu's party.
 
-Today, Gamliel (43) lives in the Mishtela neighborhood on the outskirts of Tel Aviv ("I can't live in the city center, I'm a little claustrophobic") with her family: her partner Hovav Dimri, an independent lawyer a decade younger than her, and their two daughters, Tahel (8) and Yael (6).
+Today Gamliel, 43, lives in the Mishtela neighborhood on the edge of Tel Aviv ("I can't live downtown, I'm a little claustrophobic") with her family: her partner, Hovav Dimri, a lawyer in private practice a decade her junior, and their daughters, Tahel, 8, and Yael, 6.
 
-**It sounds like both you and your husband are very busy. How do you divide things between you at home?**
+**It sounds like you and your husband are both very busy. How do you split things at home?**
 
-"Hovav and I are in completely equal parenting; we split it: two days me, two days him and two days of Grandma's help. In my eyes it's a method that helps everyone develop. We enjoy the girls and they enjoy getting different approaches to life. Even though we're different, I don't try to change his way of raising them and he doesn't try to change mine."
+"Hovav and I are completely equal parents. We split it: two days me, two days him, two days Grandma helps. I think it's a system that helps everyone grow. We enjoy the girls, and they enjoy getting different approaches to life. We're different, but I don't try to change how he raises them and he doesn't try to change me."
 
 **How does your parenting differ?**
 
-"For example, in everything related to order and schedules: with Hovav everything is organized, there are fixed hours and the activities are regulated. With me it isn't like that; the schedule changes and is dynamic. Hovav has more motivation than I do to do things outdoors, going to the pool for instance; I'm stricter about education. Hovav is less interested in homework; as far as he's concerned, that's something you do at school. I'm strict about it, but I don't come to him with complaints. On my days the girls do their homework with me, and on his days I'll check in the morning what the story is," she laughs. "Everyone has their virtues. The trick, in my eyes, is not to impose a way of life, not on your partner and not in general."
+"Order and schedules, for one. With Hovav everything is organized, there are fixed hours, the activities are set. With me it's not like that; the schedule shifts and changes. Hovav is more motivated than I am to do things outdoors, go to the pool, say. I'm stricter about schoolwork. Hovav is less interested in homework; as far as he's concerned, that's something you do at school. I'm strict about it, but I don't come at him with complaints. On my days the girls do their homework with me, and on his days I'll check in the morning and see what the story is," she laughs. "Everyone has their strengths. The trick, I think, is not to impose a way of life, not on your partner and not on anyone."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
-*"In my eyes the ideal is equal parenting" | Striped dress: Missoni at Factory 54, black jacket: Sonia Rykiel at Tactic | Photo: Ilya Melnikov*
+*"To me the ideal is equal parenting" | Striped dress: Missoni for Factory 54, black jacket: Sonia Rykiel for Tactic | Photo: Ilya Melnikov*
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
 *Gamliel with her daughters*
 
-**MK Merav Michaeli recently made headlines with a controversial statement against the family unit.**
+**Merav Michaeli, a Knesset member for the opposition Labor Party, made headlines recently with a controversial statement against the family unit.**
 
-"I completely disagree with her. The family unit should get minimum intervention and maximum options. In my eyes the ideal is equal parenting. When both parents are involved, they empower the children. We should aspire to an equal framework in which both parents can go out to work and also be partners at home to the same degree. But it is absolutely forbidden to dictate to others how it's right to be parents."
+"I completely disagree with her. The family should get minimum interference and maximum options. To me the ideal is equal parenting. When both parents are involved, the children are stronger for it. We should aim for an equal framework in which both parents can go out to work and both are equal partners at home. But you certainly can't dictate to other people the right way to be parents."
 
-**You've said in the past that the education portfolio is close to your heart. Do you see it as a step toward social equality?**
+**You've said the education portfolio is close to your heart. Do you see it as a step toward social equality?**
 
-"Unequivocally. I'm on a mission, and I believe the way to achieve equality is only through education. Everything begins and ends with how we perceive the other. My daughter saw a program on the Children's Channel, "The Boys and the Girls," and there was a transgender woman there; she came to ask me about her, and that's wonderful. At a young age it's easier and more right to encourage open and honest discussion, and that's what I want to do at the Education Ministry."
+"Unequivocally. I'm on a mission, and I believe the only road to equality runs through education. Everything begins and ends with how we see people who are different. My daughter saw a show on the Children's Channel, 'The Boys and the Girls,' and there was a transgender woman on it. She came to ask me about her, and that's wonderful. At a young age it's easier, and right, to encourage an open and honest conversation. That's what I want to do at the Education Ministry."
 
-**What needs to happen, from your point of view, for you to get the education portfolio?**
+**What has to happen for you to get the education portfolio?**
 
-"I want it very much and I'll do everything to get there. That means ensuring that the portfolio stays with the Likud, and at the same time being placed high in the party in order to receive it. So I'm working on both of those fronts: everything connected to coalition negotiations, and everything connected to hard work in the primaries."
+"I want it very much and I'll do everything to get there. That means making sure the portfolio goes to the Likud, and at the same time placing high enough in the party to be given it. So I'm working on both fronts: the coalition negotiations, and the hard work of the primaries."
 
-**How do you think you would deal with religionization in the schools?**
+**How would you deal with religionization, the creep of religious content into secular schools?**
 
-"There's an aversion to religious coercion, but in my view children should be given the right to use their own judgment. Personally I studied at a secular school, and there I didn't get a chance to be exposed to Judaism, and I missed out on the beauty of the seventy faces of the Torah. Today the system is so far from what it should be. Bennett will come and put up a picture of someone praying; Sarid will come and put up Darwish. It doesn't work. We need to see the human mosaic and let children choose their path within the system."
+"People recoil from religious coercion, but I think children should be given the right to make up their own minds. I went to a secular school myself, and I never got the chance to be exposed to Judaism. I missed out on the beauty of the 'seventy faces of the Torah,' the idea that it can be read seventy ways. Today the system is so far from what it should be. Naftali Bennett, the religious-right education minister, comes along and puts up a picture of someone praying; Yossi Sarid, the left-wing minister who once held the job, comes along and puts up the Palestinian poet Mahmoud Darwish. It doesn't work. We need to see the human mosaic and let children choose their own path inside the system."
 
 ## A Dystopian Reality
 
-There's a sense of instability in the system Gamliel operates in. One of the causes of the upheaval, the minister believes, is people's indifference toward the system, and what expresses that danger precisely, in her eyes, is none other than the Emmy-winning television series The Handmaid's Tale. "I think it's a very powerful series that conveys an enormous message," she explains. "The message is that you must not abandon the political arena. If you conduct yourself with indifference toward the system, you can wake up one day and discover a harsh reality."
+There is a sense of instability in the system Gamliel works in. One cause of the turbulence, the minister believes, is people's indifference to that system, and what captures the danger most precisely, in her eyes, is none other than the Emmy-winning television series The Handmaid's Tale. "I think it's a very powerful series with an enormous message," she explains. "The message is that you must not abandon the political arena. If you're indifferent to the system, you can wake up one day and find yourself in a harsh reality."
 
-**Do you feel you've woken up and discovered a dystopian reality?**
+**Do you feel you've woken up to a dystopian reality?**
 
-"I look at the situation today, and people are indifferent. For example, the story of the "appointees under their authority," which many don't even know about: Kahlon, Lapid and Lieberman all have appointment powers in their parties. That is, Lapid has the direct ability to place people in key positions, Knesset members who answer to the chairman instead of answering to the public that elected them. That's something that personally worries me a great deal. If Lapid gets more seats, there could be a situation where two or three people run the country. That's not such a hypothetical situation, and it should worry everyone. We have to keep our eyes open all the time, so that we don't wake up to a reality like in The Handmaid's Tale."
+"I look at the situation today, and people are indifferent. Take the business of the 'appointees,' the hand-picked Knesset lists that many people don't even know about: Moshe Kahlon, Yair Lapid and Avigdor Lieberman all have the power of appointment in their parties. Lapid, in other words, can directly place people in key positions, Knesset members who answer to the party chairman instead of to the public that elected them. That worries me personally, a great deal. If Lapid wins more seats, you could have two or three people running the country. That isn't such a hypothetical situation, and it should worry everyone. We have to keep our eyes open all the time, so we don't wake up to a reality like The Handmaid's Tale."
 
-**In his speech opening the Knesset's winter session, President Rivlin sounded more pessimistic than ever. "After us, the deluge," he said. As far as he's concerned, we're already in the dystopian reality.**
+**At the opening of the Knesset's winter session, President Reuven Rivlin sounded more pessimistic than ever. "After us, the deluge," he said. As far as he's concerned, we're in the dystopia already.**
 
-"The president of the state has the right to say whatever is on his mind. Without a doubt, one of the cornerstones of democracy is the principle of separation of powers; it's important to remember that not everything is justiciable and not everything is political."
+"The president has every right to say what's on his mind. One of the cornerstones of democracy is certainly the separation of powers. It's important to remember that not everything belongs in court and not everything is political."
 
-**Still, the instability comes from your party and from the investigations against Netanyahu.**
+**Still, the instability is coming from your own party, and from the investigations into Netanyahu.**
 
-"Netanyahu isn't going anywhere. So there's nothing to talk about at all."
+"Netanyahu isn't going anywhere. So there's nothing to talk about."
 
-**And what about Sara Netanyahu?**
+**And Sara Netanyahu?**
 
-"I prefer not to deal with spouses, but I do think content should be poured into her activity, that the role should be given meaning. That exists for the president's wife, and all over the world the role has content and meaning, but for some reason not for the prime minister's wife here."
+"I don't love getting into spouses, but I do think her role should be given some substance, some meaning. The president's wife has that, and everywhere in the world the role has substance and meaning, but for some reason not the prime minister's wife here."
 
-**Does Avi Gabbay's election as chairman of the Labor Party constitute a threat to the government, in your view?**
+**Is Avi Gabbay's election as leader of the opposition Labor Party a threat to the government, as you see it?**
 
-"No. It's problematic and sad in my eyes that there is no opposition in Israel. They elect Avi Gabbay, who can't serve as leader of the opposition because he isn't a Knesset member. This whole story is pathetic. If a broad national government isn't formed, which is the ideal as far as I'm concerned, then at least the coalition should be challenged; otherwise there's a serious problem from a democratic standpoint."
+"No. What's problematic, and sad, is that there is no opposition in Israel. They elect Avi Gabbay, who can't serve as opposition leader because he isn't a member of the Knesset. The whole story is pathetic. If you're not going to form a broad national unity government, which to me is the ideal, then at least challenge the coalition. Otherwise there's a serious democratic problem."
 
-**Today you are essentially what you once demonstrated against, a kind of elite.**
+**You're now what you used to protest against: a kind of elite.**
 
-"I demonstrated outside the prime minister's residence when I was young. But I grew up. It seems to me less considerate and less effective. There are better ways to change: to vote, to join a party and push the right people."
+"I protested outside the prime minister's residence when I was young. But I grew up. It strikes me now as less considerate and less effective. There are better ways to change things: vote, join a party and push the right people forward."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
 *"Netanyahu isn't going anywhere" | Photo: Jack Guez/AFP*
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
-
-*"Avi Gabbay can't serve as leader of the opposition because he isn't a Knesset member" | Photo: GettyImages*
+*"Avi Gabbay can't serve as opposition leader because he isn't a member of the Knesset" | Photo: GettyImages*
 
 Photography **Ilya Melnikov** Styling **Tami Montag** Makeup **Maayan Lichtblau** Hair **Maor Ganon**
 
@@ -167,4 +161,4 @@ Dvir, N. (2017, November 7). Gila Gamliel mefachedet mehayom bo "Sipura shel shi
 
 [Original article at the publisher](https://www.atmag.co.il/%D7%92%D7%99%D7%9C%D7%94-%D7%92%D7%9E%D7%9C%D7%99%D7%90%D7%9C-%D7%A8%D7%99%D7%90%D7%99%D7%95%D7%9F/) · [Verified Hebrew Markdown](../../originals/W098-gila-gamliel/article.he.md) · [Clean Hebrew HTML backup](../../originals/W098-gila-gamliel/article.he.html)
 
-*This English translation was prepared on October 30, 2026 and was not published by the original publisher. Source images were not downloaded or re-hosted; captions and credits are preserved as provenance.*
+*This English translation was prepared on October 30, 2026 and revised for voice on November 1, 2026. It was not published by the original publisher. Source images were not downloaded or re-hosted; their captions and credits are kept here as provenance and are not shown on the website page.*

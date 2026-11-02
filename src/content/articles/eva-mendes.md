@@ -1,8 +1,8 @@
 ---
 articleId: W021
-title: 'Eva Mendes: "In the Film I Don''t Care How I Look"'
-subtitle: For the shoot of The Place Beyond the Pines, actress Eva Mendes worked as a waitress in a diner, and so in the film she appears in a look far less glamorous than her own. Did the role raise thoughts of motherhood? "I don't know any more about it than I do about robbing banks," she says in an interview
-summary: For the shoot of The Place Beyond the Pines, actress Eva Mendes worked as a waitress in a diner, and so in the film she appears in a look far less glamorous than her own. Did the role raise thoughts of motherhood? "I don't know any more about it than I do about robbing banks," she says in an interview
+title: 'Eva Mendes: "I Don''t Care How I Look in the Film"'
+subtitle: To prepare for The Place Beyond the Pines, Eva Mendes waited tables at a diner, and in the film she looks a lot less glamorous than usual. Did the role get her thinking about motherhood? "I don't know any more about that than I do about robbing banks," she says in an interview
+summary: To prepare for The Place Beyond the Pines, Eva Mendes waited tables at a diner, and in the film she looks a lot less glamorous than usual. Did the role get her thinking about motherhood? "I don't know any more about that than I do about robbing banks," she says in an interview
 kind: interview
 group: international-interview
 author: Nimrod Dvir
@@ -33,26 +33,26 @@ imageSource: https://commons.wikimedia.org/wiki/File:Eva_Mendes_TIFF_3,_2012.jpg
 draft: false
 ---
 
-Eva Mendes is considered one of the most beautiful women in Hollywood, and alongside the film appearances that earned her the status of a mega-babe, she also models and moonlights in Revlon campaigns. Yet in The Place Beyond the Pines, from director Derek Cianfrance, she takes care to look a lot worse than the usual glamorous character we grew used to in Training Day, Ghost Rider, Hitch, Bad Lieutenant and Last Night.
+Eva Mendes is considered one of the most beautiful women in Hollywood. Alongside the film roles that earned her mega-babe status, she models and moonlights in Revlon campaigns. In Derek Cianfrance's The Place Beyond the Pines, though, she goes out of her way to look a good deal worse than the glamorous character we've come to expect from Training Day, Ghost Rider, Hitch, Bad Lieutenant and Last Night.
 
-In The Place Beyond the Pines, Mendes, 39, plays a married and fairly hard-up woman from a town in New York State, raising her baby son, the fruit of a casual encounter with Ryan Gosling, a stunt motorcyclist who turns to a life of crime. Bradley Cooper, who plays a police officer in the film, and Gosling, who in real life serves as her partner, keep their good looks in the film, with or without a shirt. But unlike the men, Mendes, as noted, made an effort to adopt a somewhat shabby look. It wasn't that simple.
+In The Place Beyond the Pines, Mendes, 39, plays a married, fairly hard-up woman from a town in New York State, raising a baby son who is the product of a casual encounter with Ryan Gosling, a stunt rider who turns to crime. Bradley Cooper, who plays a cop, and Gosling, who in real life holds the post of her boyfriend, keep their good looks in the film, shirt on or off. Mendes, unlike the men, had to work at looking a little ragged. It wasn't so simple.
 
-"It was the only way for me," she says in an interview to which she turned up in her routine glamorous look. "To get into the character I worked for a while in a real diner, from morning till evening. I was covered in grease and coffee stains, I cleared tables and served customers like every other waitress there."
+"It was the only way for me," she says, having shown up to the interview in her usual glamorous state. "To get into the character I worked at a real diner for a while, morning to night. I was covered in grease and coffee stains, I bused tables and waited on customers like every other waitress there."
 
-**Why did you do that to yourself?**
+**Why do that to yourself?**
 
-"I really wanted the role, and I wanted to come to it as real as possible. It was a character that allowed me to change. I wanted to work with the director, with Ryan, with Bradley, in short, to be part of this film. I had an intimacy with the crew, a personal connection, and I knew it was a dream role for me. I really didn't care how I looked, on the contrary."
+"I really wanted the part, and I wanted to come to it as real as I could. It's a character that let me change. I wanted to work with the director, with Ryan, with Bradley, in short, to be part of this film. I had an intimacy with the crew, a personal connection, and I knew it was a dream role for me. I really didn't care how I looked. Just the opposite."
 
-**How does it feel to play a couple on screen with your partner in real life?**
+**What's it like playing a couple on screen with your real-life partner?**
 
-"That's too personal a question. I don't want to answer it. I'm only willing to say that it's fun to arrive on the first day of filming and not feel like everything is foreign and unfamiliar. Here I felt at home right away."
+"That's too personal a question. I don't want to answer it. All I'll say is that it's fun to show up on the first day of shooting and not feel like everything is strange and unfamiliar. Here I felt at home right away."
 
-## "We're Almost Animal"
+## "We're Almost Animals"
 
-In the film, Mendes's character faces a dilemma: to choose the biological father of her son, who is not exactly a stable type, or to go with another man, who is not the child's real father but can provide security and stability. Although Mendes has no children yet, she admits that these dilemmas in the script stirred thoughts in her.
+In the film, Mendes's character faces a dilemma: her son's biological father, who is not exactly the stable type, or another man, who isn't the boy's real father but can offer security and stability. Mendes has no children yet, but she admits the dilemma in the script got her thinking.
 
-"It's strange. I'm not a mother in real life, but when I read the script the logical step seemed to me to choose the safe, stable man," she admits, "but then I started talking to mothers and discovered that in many women there's a basic drive and a very strong primal instinct to go toward the biological father, of all people. A lot of women told me that a woman's nature is to do everything so that the biological father stays in the picture. We're almost animal in that sense. I learned a lot from that. You can see in the film that my character is really tormented by the choice."
+"It's strange. I'm not a mother in real life, but when I read the script, the logical move seemed to be the safe, stable guy," she admits. "But then I started talking to mothers, and I found that a lot of women have a basic drive, a very strong primal instinct, to go toward the biological father after all. A lot of women told me it's a woman's nature to do whatever it takes to keep the biological father in the picture. We're almost animals in that sense. I learned a lot from that. You can see in the film that my character is really tortured by the choice."
 
-**Did it at least make you feel what it would be like to raise a child with Ryan Gosling?**
+**Did it at least give you a feel for what raising a child with Ryan Gosling would be like?**
 
-"No. It's all in the imagination. I don't know any more now about what it would be like to start a family than I know about how to rob a bank. It's all acting, and I don't take what happens on set into my personal life."
+"No. It's all imagination. I don't know any more now about what starting a family would be like than I know about how to rob a bank. It's all acting, and I don't carry what happens on set into my personal life."

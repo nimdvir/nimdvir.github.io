@@ -1,43 +1,86 @@
 {
   "articleId": "W164",
-  "englishTitle": "Michael Lewis: \"I would have been among the first out anyway\"",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Michael Lewis: \"I'd Have Been One of the First Out Anyway\"",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
+  "portfolioGroup": "israeli-interview",
   "sourceTextBlocks": 28,
   "translatedTextBlocks": 28,
   "questionBlocks": 6,
   "captions": 2,
   "images": 0,
   "completenessChecks": [
-    "First block (Demi Moore opening) and last block ('But at least we tried.') match the source-record first and last text blocks.",
-    "28 body text blocks (22 narrative/answer paragraphs plus 6 prompts, no headings) translated in order; the four-paragraph answer after the first prompt and the two-paragraph answer before it keep their boundaries.",
-    "Both captions, including the publisher's internal 'For Pnai Plus magazine use' wording and the Anna Aronov caption, translated as printed; hero caption placed before the body as in the Hebrew file.",
-    "Both source image placeholders kept as HTML comments plus italic captions; nothing embedded."
+    "22 narrative and answer paragraphs plus 6 bold prompts, no headings, in the Hebrew order; no paragraph split or merged.",
+    "The two-paragraph answer before the first prompt and the four-paragraph answer after it keep their boundaries.",
+    "Both publisher captions (the hero caption with the 'For Pnai Plus magazine use' wording, and the Anna Aronov caption) translated as printed, each under a provenance comment; the '[image in the original; awaiting license]' bracket from the capture is not reproduced because the comment line carries that information.",
+    "First block (Demi Moore) and last block ('But at least we tried.') match the source-record first and last text blocks."
   ],
   "voiceChecks": [
-    "Opening comic frame (Demi Moore and the young lover, scented candles, 'the art of seduction') kept at full strength with its concession ('And the surprise... he's also fairly intelligent and charming').",
-    "'אתר מורשת ישראלי' rendered as 'an Israeli heritage site' for the abs; '(I've seen pictures)' aside kept.",
-    "Crude quoted speech kept at register: 'I don't give a fuck', 'not give a shit about anyone', 'son of a bitch' graffiti, 'get cancer and burn'.",
-    "Statement prompts kept as statements ('There's a chance Survivor will make it worse.', 'Funny that yours restarted and Buki Naeh's didn't.')."
+    "Opening comic frame kept at full strength and in order: Demi Moore and the young lover, cold feet, the scented candles, 'the art of seduction', then the concession ('he's also intelligent and really quite charming') as the paragraph's last clause.",
+    "Comic measures literal: 'a set of abs that long ago became an Israeli heritage site', 'a suitcase full of anger', '(I've seen pictures)'.",
+    "Narrator stays the slightly hapless participant (dragging his subject home at 11 p.m., a few drinks in); no hero narration added.",
+    "The army-exemption challenge is stated plainly and bluntly in the prompt ('They have a point. On one hand you're unfit for the army...'), and the statement prompts stay statements ('Survivor might make it worse.').",
+    "Crude speech kept at register: 'I don't give a fuck', 'not giving a shit about anyone', 'I'm not a piece of shit, I'm not an asshole', the graffiti quoted straight.",
+    "One-line beat paragraph kept ('\"I overdid it,\" Michael says.'); the subject's last line ends the piece."
   ],
+  "israeliTermsRendered": {
+    "הישרדות VIP": "Survivor VIP, glossed on first body mention as 'the Israeli celebrity edition of Survivor'",
+    "משתמט": "draft dodger",
+    "פוקס": "the fashion chain Fox",
+    "האלופה / דני הוליווד / נשות הטייסים": "the Israeli series The Champion, Danny Hollywood and The Pilots' Wives (literal titles; no established English titles)",
+    "פסטיגל": "the Festigal, Israel's annual kids' holiday spectacular",
+    "רוקדים עם כוכבים": "the Israeli Dancing with the Stars",
+    "ווייפאאוט": "Wipeout",
+    "ערוץ 10": "Channel 10",
+    "בוקי נאה": "veteran broadcaster Buki Naeh (three-word gloss so the age joke in the prompt lands)",
+    "פנאי פלוס": "Pnai Plus (publisher caption wording kept as the credit)",
+    "קוביות": "six-pack / abs",
+    "בגולה": "in exile",
+    "ציוני": "Zionist",
+    "אנטיב": "Antib (bar name, transliterated)"
+  },
   "decisions": [
-    "'מאהבון צעיר' rendered as 'young boy toy'; 'חתיך היסטרי' as 'a hysterical hunk' to keep the Hebrew intensifier rather than normalizing to 'ridiculously good-looking'.",
-    "'הישרדות VIP' rendered as Survivor VIP; 'רוקדים עם כוכבים' as Dancing with the Stars; 'ווייפאאוט' as Wipeout; Israeli titles 'האלופה' (HaAlufa), 'דני הוליווד' (Danny Hollywood), 'נשות הטייסים' (The Pilots' Wives) and 'פסטיגל' (the Festigal) kept as Israeli references without substitution.",
-    "'איי דונט גיב א פאק' (transliterated English) rendered as plain 'I don't give a fuck'; 'לא לשים זין על אף אחד' as 'not give a shit about anyone'; 'לא לשים על אף אחד אחר' as 'don't give a damn about anyone else'.",
-    "'אסור לעצור באדום' rendered literally as 'You can't stop at a red light'.",
-    "'עם ישראל בשבילי זה...' rendered as 'The people of Israel, for me, are...' to keep the phrase.",
-    "Bar name 'אנטיב' transliterated as Antib; agency names kept as printed."
+    "Headline: 'בכל מקרה הייתי עף בין הראשונים' rendered 'I'd Have Been One of the First Out Anyway', the way a Survivor contestant says it in English; the archive's APA gloss ('among the first eliminated') left as it was.",
+    "Subtitle: 'ארז את הקוביות' rendered 'packed up his six-pack'; the two Hebrew dashes around 'blame the heart condition' became parentheses.",
+    "'מאהבון צעיר' rendered 'a young lover' (the diminutive has no English form; 'boy toy' from the first draft read as a different joke).",
+    "'חתיך היסטרי' rendered 'ridiculously good-looking' rather than the calque 'hysterical hunk'.",
+    "'יש פה משהו' at the head of the prompt rendered 'They have a point.'",
+    "'איי דונט גיב א פאק' (transliterated English) rendered as plain 'I don't give a fuck'; 'לא לשים זין' as 'not giving a shit'; 'לא אשים על אף אחד' as 'don't give a damn'; 'חרא' / 'מניאק' as 'piece of shit' / 'asshole'.",
+    "'עושה ריסטארט' rendered 'reboots' in both the answer and the prompt.",
+    "'אסור לעצור באדום' kept literal: 'You can't stop at the red light'.",
+    "'עם ישראל בשבילי זה...' rendered 'For me, the people of Israel are the reactions I get...' to keep his phrase.",
+    "'ברח אפילו יותר מהר' in the subtitle rendered 'got out even faster'.",
+    "Agency names given their proper capitalization (Innovative Artists, Request Models)."
+  ],
+  "lostInTranslation": [
+    "The code-switch comedy of 'איי דונט גיב א פאק' and 'און אנד אוף' spelled out in Hebrew letters disappears once the words are simply English.",
+    "The diminutive in 'מאהבון' (little lover) has no English equivalent; 'a young lover' carries the Demi Moore joke without it.",
+    "'חי את חיי ה-VIP' loses the echo with the show title only slightly; 'the VIP life hasn't quite started' keeps most of it."
+  ],
+  "defectsFixed": [
+    "'Preparing to meet Michael Lewis made me feel like Demi Moore trying to seduce a young boy toy' rebuilt as 'Setting up a meeting with Michael Lewis made me feel like Demi Moore trying to seduce a young lover'.",
+    "'After a session of hesitation on his side' replaced with 'After a round of cold feet on his side'.",
+    "'the man is a hysterical hunk' replaced with 'the man is ridiculously good-looking'.",
+    "'There's a sense that Lewis, only 24, has always been around' rebuilt as 'Lewis is only 24, but it feels like he has always been around'.",
+    "'leaning on his handsome looks and on the abs' rebuilt as 'on the strength of his looks and a set of abs'.",
+    "'They opened the pile-on on me', 'I won't account for what others think', 'In the frenzy of my life', 'something not good was happening', 'the body does a restart', 'Lewis is fairly tired' and 'the way the creators were compensated' style calques rebuilt as spoken English.",
+    "Orphan Israeli references glossed on first mention: Survivor VIP, Fox, the Festigal, the three Israeli series, Buki Naeh.",
+    "Square-bracket capture placeholders removed from the two captions; the provenance comment carries that information."
   ],
   "sourceProblems": [
-    "Publisher closing promotion said the full interview was in the print Pnai Plus issue; source-record records the online version as complete and 'longerPrintVersionAvailable: false'. Nothing reconstructed.",
-    "Second image caption labels Anna Aronov although the article is about Michael Lewis; kept as the source-supplied caption (source-record note).",
-    "Lewis's age appears as 24 and his girlfriend's as 24; kept as printed."
+    "Source reads 'חשף את העבודה' (should be 'העובדה'); rendered as the evident sense 'gave away that'.",
+    "Publisher closing promotion said the full interview was in the print Pnai Plus issue; source-record records the online version as complete ('longerPrintVersionAvailable: false'). Nothing reconstructed.",
+    "Second image caption names Anna Aronov although the article is about Michael Lewis; kept as the source-supplied caption.",
+    "Lewis's age and his girlfriend's both appear as 24; kept as printed."
   ],
   "unresolvedQuestions": [
-    "Buki Naeh is named without explanation in a prompt (a fellow Survivor VIP contestant); add a short gloss on the website page or leave as in the original?"
+    "Buki Naeh is glossed in the prompt as 'veteran broadcaster'; does Nim prefer the name bare, as in the Hebrew?",
+    "The Israeli series titles The Champion, Danny Hollywood and The Pilots' Wives are literal renderings; confirm or supply distributor titles if any exist."
   ]
 }

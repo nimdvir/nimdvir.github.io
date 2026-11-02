@@ -1,10 +1,10 @@
 ---
 articleId: W163
-title: Connected
-subtitle: Noa Tishby has landed a part in an ABC drama, is pushing ahead the American versions of Touching Distance and Screens, chats with Bill Clinton, and still finds time to pop home to model. The most senior Israeli in Hollywood presents a guide to business and pleasure in the city of illusions
-summary: Noa Tishby has landed a part in an ABC drama, is pushing ahead the American versions of Touching Distance and Screens, chats with Bill Clinton, and still finds time to pop home to model. The most senior Israeli in Hollywood presents a guide to business and pleasure in the city of illusions
+title: Well Connected
+subtitle: Noa Tishby has landed a part in an ABC drama, is pushing American versions of the Israeli series A Touch Away and Screens, chats with Bill Clinton and still finds time to pop home for a modeling job. The highest-ranking Israeli in Hollywood offers a guide to business and pleasure in the city of illusions
+summary: Noa Tishby has landed a part in an ABC drama, is pushing American versions of the Israeli series A Touch Away and Screens, chats with Bill Clinton and still finds time to pop home for a modeling job. The highest-ranking Israeli in Hollywood offers a guide to business and pleasure in the city of illusions
 kind: interview
-group: international-interview
+group: israeli-interview
 author: Nimrod Dvir
 interviewee: Noa Tishby
 subjects:
@@ -35,86 +35,82 @@ imageSource: https://commons.wikimedia.org/wiki/File:Noa_Tishbi_D867-150_(croppe
 draft: false
 ---
 
-I'm such a balabusta," laughs Noa Tishby as our conversation drifts from the studio lots of Hollywood to winning recipes for shakshuka. "But you know what, I'm a balabusta in stilettos." Despite the old-fashioned connotation, balabusta, a sort of house mother slash big mama who runs things, is a word that defines Tishby nicely.
+"I'm such a balabusta," Noa Tishby laughs, as our conversation drifts from the Hollywood studio lots to foolproof shakshuka recipes. "But you know what, I'm a balabusta in stilettos." Old-fashioned as it sounds, balabusta, the Yiddish for the woman of the house, the big mama who runs the show, is a word that fits Tishby nicely.
 
-At 34, the actress-model-producer-broker is involved in almost everything: she (take a breath) produces the American version of BeTipul (which has just finished its second season); is working on the production of four more projects, two of them for HBO (American adaptations of Touching Distance and Screens); acts in prime-time series (parts in Big Love, NCIS, and the pilot of the legal series The Deep End on ABC, all of which we'll get to later) and in films (Ghosts of Girlfriends Past, starring Matthew McConaughey); manages to keep up a marriage to Andrew Ginsburg, also known as Andrew G, host of the Australian version of American Idol; and in general swims hard in the Los Angeles industry, where she moved about a decade ago.
+At 34, the actress-model-producer-dealmaker has a hand in nearly everything. She (take a breath) produces In Treatment, the American version of the Israeli series BeTipul, which has just wrapped its second season; is developing four more projects, two of them for HBO (American adaptations of the Israeli dramas A Touch Away and Screens); acts in prime-time series (parts in Big Love, NCIS and the pilot of the ABC legal drama The Deep End, all of which we'll get to) and in films (Ghosts of Girlfriends Past, starring Matthew McConaughey); keeps a marriage going with Andrew Günsberg, better known as Andrew G, host of Australian Idol; and in general is swimming hard in the Los Angeles industry, where she moved about a decade ago.
 
-Video: Orly Dayan, editing: Nadav Ben Simon
+Last week she also popped up in Israel, this time to shoot the winter catalogue for the fashion label ml. As usual, she crammed the visit with countless meetings, interviews, shoots and talks, at a pace that would give an ordinary person a mild epileptic fit. In the time we spent together Tishby turned out to be a dynamo, an energetic businesswoman with a gift for instant intimacy.
 
-Last week she also dropped in to Israel, this time to shoot the winter catalogue for the fashion label ml. As is her habit, she packed the visit with countless meetings, interviews, shoots, and lectures, at a pace that would give an ordinary person a mild epileptic fit. Over the time we spent together, Tishby turned out to be a dynamo, an energetic businesswoman who knows how to create instant intimacy.
+"Honestly, I only came to shoot for ml, but while I'm here I'm doing interviews and taking meetings," she says of her ten-day visit. "I came with my husband, Andrew. It's funny, while I'm running around he's sleeping. You know how you get to a vacation and just crash? That's what happened to him here. It's sweet. He's asleep right now and it's already noon."
 
-"Honestly, I only came to shoot for ml, but on the way I'm doing interviews and holding meetings," she says of her ten-day visit. "I came with my husband, Andrew. It's funny, while I run around he sleeps. You know how you arrive on vacation and crash? Well, that's what happened to him here. He's cute like that, he's asleep right now and it's already noon."
+Tishby is an industry veteran, here and in Hollywood. She started as a teenager in the Neighbors, the pop star Tzvika Pick's backing group. After army service in the Education Corps band she landed a major part in the soap Ramat Aviv Gimmel, then tried to launch a music career in the duo Nona with her boyfriend at the time, Gal Asher.
 
-Tishby is a veteran of the swamp, both here and in Hollywood. She started as a teenager in Tzvika Pick's band of backup singers, the Neighbors. After army service in the Education Corps entertainment troupe she rolled into a significant part in Ramat Aviv Gimmel, and after that tried to launch a music career with the duo Nona, alongside her partner at the time, Gal Asher.
+## Always Hunting for the Next Thing
 
-## Always busy looking for the next thing
+About a decade ago she moved to Hollywood, and after a few rough years the work started to pay off, in small parts in series like Nip/Tuck, Charmed and CSI: NY, in the film The Island and elsewhere. For the past four years she has been hunting for the next thing full time, in her producer's hat. Since brokering In Treatment and coming aboard as one of its producers, Tishby has gone into the production business big time; her latest projects, as noted, are the Americanization of Screens and A Touch Away.
 
-About a decade ago she moved to Hollywood, and after a few not-so-easy years began to see results in the form of small parts in series like Nip/Tuck, Charmed, CSI: NY, the film The Island, and more. For the past four years she has been constantly busy looking for the next thing, in the producer's hat she wears. Since she brokered and took part as a producer in In Treatment, the American version of BeTipul, Tishby has entered the production business big time, with her latest projects, as mentioned, being the Americanization of Screens and Touching Distance.
+**You started out in Hollywood as an actress, and you still act. Doesn't the double life raise eyebrows?**
 
-**You started out in Hollywood as an actress, and you still work in the field. Doesn't this double occupation make people raise an eyebrow?**
+"Maybe at first, because I'd walk into auditions and the producers would be surprised, since they knew me from the other side of the table. In my own projects I'm the one doing the casting. But now it's great. It's kind of funny, but since I started producing and stopped treating acting as the main event, I've been picking up parts on the side.
 
-"At first maybe yes, because I'd walk into auditions and the producers were surprised, because they knew me from the other side. In my own projects, after all, I sit on the casting side. But today it's great. It's pretty funny, but since I started producing and stopped treating acting as the main thing, I've been winning parts along the way.
+"I guess once the pressure's off, auditions get a lot easier. But I really do love doing both. If it's getting up at four in the morning for a shoot day, fabulous. If it's getting up for a day packed with development meetings, fabulous plus. I enjoy it so much. Let's say patience pays. It took me a long time, a lot of small, right steps, to get where I am, which to my mind is a good place.
 
-"Apparently once you take the pressure off, auditions get much easier. But I really do love doing both. If it's getting up for a shooting day at four in the morning, gorgeous. If it's getting up for a day full of development meetings, gorgeous plus. I really enjoy it. Let's say patience pays off. It took me a long time, lots of small, correct steps, to get to where I am, which I think is a good place.
+"When I got to Los Angeles ten years ago there was nobody. There was Alon Aranya, a screenwriter and a good friend, there was Mili Avital, and that was it. In terms of talent and people on the ground, nothing. Now it's the most fun. A lot of Israelis have worked their way into the industry, acting or otherwise, and there's someone to talk to. Since In Treatment took off it's a lot easier to get people interested in Israeli series."
 
-"When I arrived in Los Angeles ten years ago, there was nobody. There was Alon Aranya, a screenwriter and good friend, Mili Avital, and that was it. In terms of talent and people on the ground, nothing. Today it's the most fun. There are a lot of Israelis who've slotted into the industry, whether in acting roles or in other roles, and there's someone to talk to. Since the success of BeTipul it's much easier to get people interested in Israeli series."
+**What's the American market really like for Israeli shows?**
 
-**What's the real state of the American market when it comes to Israeli product?**
+"Like anything that's in fashion, after In Treatment the American networks wanted to buy anything that came out of Israel. Almost every project drew interest, and tons of series got optioned. But as always, what makes it to the finish line is the quality stuff.
 
-"Like anything that's fashionable, after BeTipul the American networks wanted to buy anything that came from Israel. Almost every project aroused interest, there were tons of series that got optioned. But as always, what makes it to the finished product is the quality stuff.
+"Yes, there was a kind of wave, but it's calmed down now. It's less the hype of 'anything from Israel is amazing' and more taking each thing on its merits. Before In Treatment there was no option at all. I feel that with In Treatment I managed to open the door. How did it happen? I'm always telling people to ignore the word 'no,' because 'no' mostly means 'not right now.' You want something? So you say, 'What about now? And now? And now? And now?' and eventually they say yes. Today the door is open, but for the good stuff."
 
-"Yes, there was a sort of wave, but now it's calmed down. It's less the hype of 'whatever comes from Israel is amazing' and more a look at each thing on its merits. Before BeTipul there was no option at all. I feel that with BeTipul I managed to open the door. How did it happen? I'm always telling people not to relate to the word 'no,' because 'no' mostly means 'not right now.' You want something? Then you say 'and what about now? And now? And now? And now?' and in the end they say 'yes.' Today the door is open, but to the good things."
+**Are a lot of Israelis trying to sell series in Hollywood?**
 
-**Are there many attempts by Israelis to sell series in Hollywood?**
+"Tons. Everyone wants their series seen by as many people as possible, and there's the money too, since in the United States they're willing to pay a nice sum for good content. Though it's not millions, the way everyone thinks."
 
-"Tons. Everyone wants their series to be seen by as many people as possible, and there's the financial component too, since in the United States they're willing to pay a nice sum for good content. Though it's not millions, like everyone thinks."
+## "Right Now I Have Four Projects Sold"
 
-## "Right now I have four projects sold"
+All well and good, but what does Tishby actually do? Follow her through a typical day, which usually begins in her fairly modest apartment in Echo Park, in central Los Angeles ("It's a small apartment, not at all big the way they are in this city. But you can see the Hollywood sign from the window"), and you'll find a worker as industrious as an ant, plowing the city in heels. She's up between six and seven ("I'm the ultimate morning person"), sorts out the coffee and the dog, and goes straight into a round of meetings.
 
-So far so good, but what does Tishby actually do in practice? If you follow her through her day, which she usually opens in her fairly modest apartment in the Echo Park neighborhood in central Los Angeles ("It's a small apartment, really not big by the city's standards. But you can see the Hollywood sign from the window"), you'll find a hard worker, as industrious as an ant, plowing the city on heels. She gets up between six and seven in the morning ("I'm the most morning person there is"), sorts herself out with coffee and walking the dog, and immediately starts a round of meetings.
+"I have a company, Noa's Arc, that develops projects for television," she says. "Right now I have four projects sold. I'm willing to talk about A Touch Away and Screens because it's already been reported here that they're happening. Both are still in development, meaning HBO bought the rights but not even a pilot has been shot. We're still writing. I believe in waiting for things to ripen before you talk, but the head of HBO talked about the projects in the press, so who am I.
 
-"I have a company, Noa's Arc, that produces projects for television," she says. "Right now I have four projects sold. I'm willing to talk about Touching Distance and Screens because it's already been written here that it's happening. Both are still in development and creation, meaning HBO bought the rights, but not even a pilot has been shot yet. We're still writing. I believe you should wait for things to ripen before you talk, but the CEO of HBO spoke about the projects in the press, so who am I to argue.
-
-"There's still a great deal of work. The sale is only the first stage. Now I have to make sure it gets made, and made well. The other two projects I can't talk about at all. I just don't like talking about something until it's completely closed."
+"There's still a huge amount of work. The sale is only the first step. Now I have to make sure it gets made, and made well. The other two projects I can't go into at all. I just don't like talking about something until it's completely locked."
 
 **Why?**
 
-"Because the American system works differently. Many times things fall through in the middle. The whole process of selling a series takes a very long time. Between the stage where a network likes the series and wants to buy it and the moment it's on air, there's a lot of work. Really, only someone who lives there understands this. In Israel people understand it less, because everything here is much faster. In Israel a network buys a series and that's it. In America it doesn't work like that. First they buy an option, then they start developing, then they make a pilot. It's a very long process."
+"Because the American system works differently. Things fall apart midway all the time. The whole process of selling a series takes forever. Between the point where a network likes a show and wants to buy it and the day it goes on air there's a lot of work. Really, only people who live there get it. In Israel people get it less, because everything here is much faster. In Israel a channel buys a series and that's that. In America it doesn't work like that. First they buy an option, then they start developing, then they shoot a pilot. It's a very long process."
 
-**How does the process actually happen?**
+**So how does it actually work?**
 
-"Every case is different. Usually, as with Screens and Touching Distance, it starts with finding a series that would work well in the American market. Once there is one, I start working on presenting the project. Usually I look for the right screenwriter, and together we present the project to the network's representatives, let them watch the Israeli version, and explain how the adaptation would work. I've been lucky, and today I have an open-door policy at most of the networks.
+"Case by case. Usually, as with Screens and A Touch Away, it starts with finding a series that would work in the American market. Once I have one, I start working on the pitch. Usually I look for the right writer, and together we pitch the project to the network people, show them the Israeli version and explain how the adaptation would work. I've been lucky, and these days I have an open door at most of the networks.
 
-"The meetings are mostly held at the level of the network's CEO, the head of drama, the content people, and the screenwriter. In the case of Touching Distance, I came to the meeting at HBO with Kate Robin, who was a writer on Six Feet Under. We decided it would be a series about immigrants, because all of America is made up of immigrants, after all. So we presented it as a story about Orthodox Jewish immigrants in the Williamsburg neighborhood of Brooklyn. They loved it and we decided to run with it."
+"The meetings are mostly at the level of the network president, the head of drama, the content people and the writer. For A Touch Away I came to the HBO meeting with Kate Robin, who wrote on Six Feet Under. We decided it would be a series about immigrants, because all of America is immigrants, after all. So we pitched it as a story about Orthodox Jewish immigrants in Williamsburg, Brooklyn. They loved it and we decided to run with it."
 
-## "A dream is wonderful, but you have to be realistic"
+## "A Dream Is Wonderful, but You Have to Be Realistic"
 
-**At this stage, do you already have the check in your pocket?**
+**At this point, is the check already in your pocket?**
 
-"No. As long as it hasn't gone on air I haven't received anything. The screenwriter and the creators get nice sums, at a level unknown in Israel, but not very, very big. It's usually several tens of thousands of dollars. Only once the script is approved and they start shooting a pilot do I see something. Then the pilot has to be approved, and if it's approved we go into work on the series."
+"No. Until it's on the air I haven't gotten anything. The writer and the creators get nice sums, on a level nobody in Israel is used to, but not huge. Usually it's a few tens of thousands of dollars. Only once the script is approved and they start shooting a pilot do I see anything. Then the pilot has to be approved, and if it is, we go to work on the series."
 
-**How much money is in it?**
+**How much money is there in it?**
 
-"I can't tell you. The contracts are very specific, every network has different contracts. I know that in the case of BeTipul I was very bummed about how it turned out. I wasn't involved in the details, but I know that the way the creators were compensated wasn't positive. It's not customary for the parties involved to know how much each one gets, but as I said before, there are no crazy prices, that's pretty clear."
+"I can't tell you. The contracts are very specific, and every network's are different. I know that with In Treatment I was pretty bummed about how it came out. I wasn't involved in the details, but I know the way the creators were compensated wasn't good. It's not done for the people involved to know what everyone else is getting, but like I said, there are no crazy prices. That much is clear."
 
-**Why does it matter?**
+**Why does that matter?**
 
-"It matters because this is actually the American dream. Most of the Israeli industry walks around with the dream of selling a series to the Americans and buying an island in the Caribbean.
+"It matters because this is basically the American dream. Most of the Israeli industry walks around dreaming of selling a series to the Americans and buying an island in the Caribbean.
 
-"So I say: a dream is wonderful, but you have to be realistic, and it's important to do it right, not to be greedy. The big money comes, as long as you keep doing and producing. It may be that in the first season you won't get a lot of money, but in the fifth season you will. I can't cooperate with the fantasy. The big money arrives the moment you make a name for yourself. David Kelley, Alan Ball, Darren Star, they make money. Beginning creators don't earn a lot. Some of the Israeli creators are surprised by the sums. It is in no way, shape, or form millions of dollars."
+"So I say: a dream is wonderful, but you have to be realistic, and it's important to do it right and not be greedy. The big money comes, as long as you keep making things. Maybe in the first season you won't get much, but in the fifth you will. I can't play along with the fantasy. The big money comes once you've made a name for yourself. David E. Kelley, Alan Ball, Darren Star, they make money. Creators starting out don't make a lot. Some of the Israeli creators are surprised by the numbers. We are in no way talking about millions of dollars."
 
-**What's happening now with the recession? Is it affecting the market?**
+**What about the recession? Is it hitting the market?**
 
-"The recession is definitely affecting it. People in the industry are careful, looking at what they get for their money. Pilot season just ended, and far fewer people were employed than usual. If last year between 140 and 180 pilots were produced, this year it was between 45 and 65. Usually most of my friends work during this period. This year I was the only one, with the pilot I did for ABC."
+"The recession is definitely hitting it. People in the industry are careful, they look at what they're getting for their money. Pilot season just ended, and it employed far fewer people than usual. Last year between 140 and 180 pilots were made; this year it was between 45 and 65. Usually most of my friends are working this time of year. This year I was the only one, with the pilot I did for ABC."
 
-## An authority on American showbiz
+## An Authority on American Showbiz
 
-The business conversation rolls along quite naturally with Tishby. That's no accident: over the past four years she has managed to turn herself into something of an authority on American show business, and she seems to rather enjoy mixing business into her résumé.
+Business talk comes naturally to Tishby. That's no accident: over the past four years she has turned herself into something of an authority on American showbiz, and she seems to rather enjoy mixing a little business into the résumé.
 
-"I've always been like this," she says. "I always understood contracts, always loved the business side of the entertainment industry. Since I was 16 I've been involved in marketing too, in public relations, in everything connected to it. It was clear to the people around me that I'd get to this side of the business. It was just a matter of time, of age. It was a natural move, to add this layer as well."
+"I've always been like this," she says. "I always understood contracts, I always loved the business side of entertainment. Since I was 16 I've been involved in the marketing, the PR, everything around it. The people around me knew I'd end up on this side of things. It was only a matter of time, of age. Adding this layer was a natural move."
 
-**But how did you manage to slot into the industry? To get to the point where CEOs agree to meet you?**
+**But how did you work your way into the industry? To the point where CEOs will take a meeting with you?**
 
-"As big as Los Angeles is, the industry is very small. Everyone talks all the time. The moment you have a good name, it spreads like wildfire. I suppose my name, which comes from the things I do and from my attitude, was good enough to spread. At a certain point CEOs and vice presidents started calling me. They want to work with good people. Everyone is looking for good content, and they look for it from people they trust. Apparently I'm one of those."
-
-Photos: Yaniv Edry, Noa Tishby, publicity, Imagebank, GettyImages
+"As big as Los Angeles is, the industry is tiny. Everyone talks all the time. Once you have a good name it spreads like wildfire. I suppose my name, which comes from the things I do and the way I do them, was good enough to spread. At some point CEOs and vice presidents started calling me. They want to work with good people. Everyone is looking for good content, and they look for it from people they trust. Apparently I'm one of those."
