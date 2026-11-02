@@ -305,7 +305,7 @@ def main() -> int:
         text = f"---\n{front}---\n\n{page_body(body)}"
         if "—" in text:
             problems.append(f"{wid}: em dash in page text")
-        (OUT / f"{slug}.md").write_text(text, encoding="utf-8")
+        (OUT / f"{slug}.md").write_text(text, encoding="utf-8", newline="\n")
         written.append(slug)
 
     stale = sorted(p.stem for p in OUT.glob("*.md") if p.stem not in written)
