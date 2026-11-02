@@ -1,0 +1,59 @@
+---
+import type { Article } from "../utils/articles";
+import { articleMonogram, articlePortrait } from "../utils/articles";
+
+interface Props {
+  id: string;
+  eyebrow: string;
+  heading: string;
+  lede?: string;
+  articles: Article[];
+  tone?: "dark" | "light";
+}
+const { id, eyebrow, heading, lede, articles, tone = "dark" } = Astro.props;
+
+const nameOf = (a: Article) =>
+  a.data.interviewee || a.data.subjects[0] || a.data.title;
+---
+
+<section class={`face-wall face-wall-${tone}`} id={id} aria-labelledby={`${id}-heading`}>
+  <div class="face-wall-head">
+    <p class="eyebrow">{eyebrow}</p>
+    <h2 id={`${id}-heading`}>{heading}</h2>
+    {lede && <p class="face-wall-lede">{lede}</p>}
+  </div>
+  <ul class="face-grid" role="list">
+    {articles.map((a) => {
+      const d = a.data;
+      const portrait = articlePortrait(d.image, 600);
+      return (
+        <li class="face-tile" data-kind={d.kind}>
+          <a href={`/articles/${a.slug}/`} class="face-link">
+            <span class="face-visual">
+              {portrait ? (
+                <img
+                  src={portrait}
+                  alt=""
+                  loading="lazy"
+                  width="600"
+                  height="800"
+                />
+              ) : (
+                <span class="face-initials" aria-hidden="true">
+                  {articleMonogram(a)}
+                </span>
+              )}
+            </span>
+            <span class="face-caption">
+              <span class="face-name">{nameOf(a)}</span>
+              <span class="face-meta">
+                {d.source} · {d.date.slice(0, 4)}
+              </span>
+              <span class="face-headline">{d.title}</span>
+            </span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+</section>

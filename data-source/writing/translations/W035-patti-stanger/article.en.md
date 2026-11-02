@@ -1,8 +1,8 @@
 ---
 articleId: "W035"
-title: "Money Can Buy Love After All"
-subtitle: "Patti Stanger hit on a genius start-up when she opened an agency specializing in matchmaking for millionaires and millionairesses and took over the most lucrative first-date market in the United States. On top of that, she became a huge star with her show The Millionaire Matchmaker"
-summary: "Patti Stanger hit on a genius start-up when she opened an agency specializing in matchmaking for millionaires and millionairesses and took over the most lucrative first-date market in the United States. On top of that, she became a huge star with her show The Millionaire Matchmaker"
+title: "Money Can Buy You Love"
+subtitle: "Patti Stanger hit on a genius start-up when she opened a matchmaking agency for millionaires of both sexes and took over the most lucrative dating market in the United States. She has also become a huge star with her show, The Millionaire Matchmaker"
+summary: "Patti Stanger hit on a genius start-up when she opened a matchmaking agency for millionaires of both sexes and took over the most lucrative dating market in the United States. She has also become a huge star with her show, The Millionaire Matchmaker"
 author: "Nimrod Dvir"
 interviewee: "Patti Stanger"
 subjects: ["Patti Stanger", "The Millionaire Matchmaker"]
@@ -15,60 +15,58 @@ source: "Ynet"
 sourceUrl: "https://www.ynet.co.il/articles/0,7340,L-3739132,00.html"
 tags: ["Interview", "Reality Television", "Television", "United States"]
 draft: true
-translationStatus: "draft-for-review"
+translationStatus: "revised-for-voice"
 sourceExtraction: "../../originals/W035-patti-stanger/article.he.md"
 translatedOn: "2026-10-30"
+revisedOn: "2026-10-31"
 translationReviewedBy: null
 ---
 
-*Patti Stanger hit on a genius start-up when she opened an agency specializing in matchmaking for millionaires and millionairesses and took over the most lucrative first-date market in the United States. On top of that, she became a huge star with her show The Millionaire Matchmaker*
+*Patti Stanger hit on a genius start-up when she opened a matchmaking agency for millionaires of both sexes and took over the most lucrative dating market in the United States. She has also become a huge star with her show, The Millionaire Matchmaker*
 
 *English translation of the Hebrew original by Nimrod Dvir, published in Ynet on July 1, 2009. [Read the original in Hebrew](https://www.ynet.co.il/articles/0,7340,L-3739132,00.html).*
 
-One of the things I admire most in the world is people who can take something completely silly and turn it into an empire. One of them is Patti Stanger, who built a career rolling in millions from an idea so idiotic it's genius: she's a matchmaker for millionaires. And so Stanger spends her days splashing around in the top percentile in Los Angeles, finding good-looking girls or chiseled guys for the millionaires and millionairesses who hire her services.
+One of the things I admire most in this world is people who can take something completely silly and turn it into an empire. Patti Stanger is one of them. She has built a career that turns over millions on an idea so idiotic it's genius: she's a matchmaker for millionaires. And so Stanger spends her days splashing around in the top one percent of Los Angeles, finding pretty girls or chiseled guys for the millionaires, male and female, who hire her.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*Stanger. Dates worth millions (Photos: PR)*
 
-*Stanger. Dates worth millions (Photos: public relations)*
+Besides her thriving agency, the Millionaire's Club, Stanger is about to launch a website with JDate, is working on books, and stars in a reality show of her own, The Millionaire Matchmaker (shown in Israel on yes), which is the reason we're talking. A quick phone call with Stanger makes it clear that behind the upscale front is, in fact, a wheeling-dealing New Jersey balabusta, a Jewish housewife who runs the show. She talks in a thick Jersey accent, plugs her business in every other sentence, and even tries to cook up deals between questions (like offering me a free membership if I bring her Jewish millionaires). What can I say. A girl after my own heart.
 
-Besides her successful agency, the Millionaire's Club, Stanger is also about to launch a website in partnership with JDate, is working on books and stars in a reality show of her own, The Millionaire Matchmaker (shown here on yes), which is why we've gathered. A quick phone call with Stanger makes clear that behind the upscale front hides, in fact, a wheeler-dealer balabusta from New Jersey. She speaks in a heavy New Jersey accent, pushes her business in every other sentence and even tries to work out deals between questions (like offering me free membership if I bring her Jewish millionaires). What can I say, a girl after my own heart.
+**So how did you end up matchmaking millionaires?**
 
-**So how did you get into matchmaking millionaires in the first place?**
+"I spent years doing 'regular' matchmaking. I got it from home: my mother and my grandmother were both matchmakers. But they did it as volunteers, at their neighborhood synagogue in New Jersey. I took it professional, and for many years I worked at Great Expectations, which is a big dating company in the United States. I matched 'regular' people, but over time I realized millionaires were my specialty, and I opened my own agency that deals only with them."
 
-"I worked for many years in 'regular' matchmaking. I got it from home, both my mother and my grandmother were matchmakers. But they did it as volunteers, at their neighborhood synagogue in New Jersey. I took it in a professional direction, and for many years I worked at Great Expectations, which is a big matchmaking company in the United States. I matched 'regular' people, but over time I realized millionaires were my specialty, and I opened my own agency that deals only with them."
+## Women Pay More
 
-## A Woman Pays More
+And the business paid off. Patti's agency, the Millionaire's Club, based in Los Angeles, California, charges $25,000 for a man and $50,000 for a woman (why? because men are the rarer, more sought-after commodity in the cruel dating market. Tough). Stanger won't disclose numbers, but it's a highly profitable operation. She got so famous in America that last year the Bravo network came calling with an offer of her own reality show, in which she'd do her matchmaking in prime time. She said yes, and the rest is history.
 
-And the business paid off: Patti's agency, the Millionaire's Club, located in Los Angeles, California, charges $25,000 for a man and $50,000 for a woman (why? because men are a rarer and more sought-after commodity in the cruel dating market. Tough). Stanger isn't willing to disclose figures, but it's a highly profitable business. She became so famous in America that last year the Bravo network approached her and offered her a reality show of her own, in which she would matchmake in prime time. She said yes, and the rest is history.
+**So what is it you actually do?**
 
-**So what do you actually do?**
-
-"It's a job that never ends, as you see on the show. I meet potential millionaires, I meet people who want to be matched with millionaires, I think about who suits whom. I teach the people who come to me how to behave, what to say and what to do on dates. I give my clients what they want. It's a hard business, because there's no one size that fits everyone. All my clients are different, and I have to adapt myself."
+"It's a job that never ends, like you see on the show. I meet prospective millionaires, I meet people who want to be matched with millionaires, I think about who fits whom. I teach the people who come to me how to behave, what to say and what to do on a date. I give my clients what they want. It's a hard business, because there's no one size fits all. Every one of my clients is different, and I have to adapt."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
+*The dating market, in her hands*
 
-*The first-date market is in her hands*
+"Broadly, in the first stage I meet the millionaire, man or woman, and get to know them and what they're looking for. That's the reality-check stage. Usually they want a fantasy, and my job is to bring them down to earth and explain that they need to be reasonable."
 
-"Basically, in the first stage I meet the millionaire or millionairess, get to know them and what they're looking for. That's the stage of adjusting to reality. Usually they want a fantasy, and my job is to bring them down to earth and explain that they need to be reasonable."
+"Then I meet potential matches, interview them to see if they're suitable, and then I walk them through the dating stage, from picking the venue to getting ready for it, clothes, manners, tips and so on. Afterward I follow up to see how it went. I'm with them the whole way, backed by a professional team of psychologists, stylists and interior designers. It is not a simple job at all."
 
-"Then I meet potential matches, interview them to see if they're suitable, and then accompany the dating stage, from choosing the meeting place to preparing for it in terms of dress and manners, tips and so on. Afterwards I follow up to see how it went. I accompany the process from start to finish, backed by a professional team of psychologists, stylists and interior designers. It's not a simple job at all."
+**Why do you click so well with millionaires? Did you grow up rich?**
 
-**Why is your connection with millionaires so good, actually? Did you come from a rich home?**
+"Not at all. A very ordinary home. I just know how to handle them. I understand that these are people with very high expectations who want a fantasy. I also know how to tell them the truth to their face, no embarrassment. They love it."
 
-"Not at all, from a very ordinary home. I just know how to behave with them. I understand that these are people with very high expectations who want a fantasy. I also know how to tell them the truth to their face, without being embarrassed. They love it."
+## She Knows How to Let Them Have It
 
-## Knows How to Give It to Them
+And sure enough, watching the show, you see that Patti, for all her (undisguised) fondness for people with money, also knows how to let them have it when she needs to. More than once she screams at a client to stop being a chauvinist pig and look for women over 23, or at a woman that it's time to give up the pool boy and go for a guy with a little more depth.
 
-And indeed, watching the show reveals that Patti, for all her (undisguised) fondness for people of means, also knows how to give it to them when needed. More than once she screams at a client to stop being a chauvinist pig and look for girls over the age of 23, or at a woman that it's time to give up the pool boy and go for a guy with a little more depth.
+"I'm not afraid to say what I think," she says. "That's my job, bringing them back to reality. I think it's one of the most important parts of matchmaking: your expectations have to be grounded and in line with reality. If you sit around all day waiting for some unattainable ideal, odds are you'll end up alone. I force people to take stock, to figure out what they can get and what they can't, and to be happy with what's there."
 
-"I'm not afraid to say what I think," she says. "That's my job, to bring them down to reality. I think it's one of the most important components of matchmaking: your expectations have to be grounded and matched to reality. If you sit all day waiting for some unattainable ideal, chances are you'll stay alone. I force people to take stock, to understand what can be achieved and what can't, and to be happy with what there is."
+**Where does the confidence come from? I'm a devoted viewer, and I've never once seen you lose your cool.**
 
-**Where does your confidence come from? I'm a devoted viewer, and I've never seen you lose your cool.**
+"Look, I'm 47. I've been around the block a few times. I've learned things and I put them to use. I know there are viewers who say I'm vulgar or too full of myself, and they're welcome to change the channel. I made peace with who I am and what I do a very long time ago."
 
-"Look, I'm 47, I've been around the block a few times. I've learned things and I apply them. I know there are viewers who say I'm vulgar or too sure of myself, and they're welcome to change the channel. I made peace with myself and with what I do many, many years ago."
-
-<!-- Source image not embedded; this image appeared in the original sidebar. See source-record.json for provenance and licensing. -->
-
+<!-- Source sidebar image not embedded; see source-record.json for provenance and licensing. -->
 *Stanger. A start-up worth millions*
 
 ---
@@ -83,4 +81,4 @@ Dvir, N. (2009, July 1). Kesef ken yakhol liknot ahava [Money can buy love]. Yne
 
 [Original article at the publisher](https://www.ynet.co.il/articles/0,7340,L-3739132,00.html) · [Verified Hebrew Markdown](../../originals/W035-patti-stanger/article.he.md) · [Clean Hebrew HTML backup](../../originals/W035-patti-stanger/article.he.html)
 
-*This English translation was prepared on October 30, 2026 and was not published by the original publisher. Source images were not downloaded or re-hosted; captions and credits are preserved as provenance.*
+*This English translation was prepared on October 30, 2026 and revised for voice on October 31, 2026. It was not published by the original publisher. Source images were not downloaded or re-hosted; their captions and credits are kept here as provenance and are not shown on the website page.*

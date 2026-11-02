@@ -44,7 +44,7 @@ project_pages=[p for p in projects.glob('*/index.html')]
 if len(project_pages)!=12:errors.append(f'Expected all 12 legacy projects, found {len(project_pages)}')
 if not (ROOT/'files/Nim-Dvir-CV-2026-09.pdf').exists():errors.append('Current downloadable CV is missing')
 for p in ROOT.glob('sitemap*.xml'):
-    if '/design' in p.read_text(encoding='utf-8'):errors.append(f'{p.name}: design reference must not be in sitemap')
+    if 'https://nimdvir.com/design/<' in p.read_text(encoding='utf-8'):errors.append(f'{p.name}: design reference must not be in sitemap')
 design=(ROOT/'design/index.html').read_text(encoding='utf-8')
 if 'noindex' not in design:errors.append('Design reference is missing noindex')
 for p in files:

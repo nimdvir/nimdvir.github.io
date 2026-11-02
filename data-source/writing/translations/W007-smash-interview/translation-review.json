@@ -1,49 +1,60 @@
 {
   "articleId": "W007",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Smash Stars: If the Show Gets Canceled, We'll Stay on Broadway",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
-    "bylineAsPrinted": "נמרוד דביר, ניו יורק",
-    "thirdPartyCoverage": false
+    "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
-  "englishTitle": "Smash Stars: If the Show Is Canceled, We'll Stay on Broadway",
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 19,
   "translatedTextBlocks": 19,
   "questionBlocks": 4,
-  "sectionHeadings": 0,
   "captions": 4,
-  "imagesEmbedded": 0,
-  "countingMethod": "Substantive text blocks = narrative/answer paragraphs + bold interviewer prompts + section headings; H1, subtitle, byline, date, captions, placeholders and the archival footer excluded.",
+  "images": 0,
   "completenessChecks": [
-    "First and last paragraphs compared with source-record completeness fields.",
-    "Every interviewer prompt present, bold, in its own paragraph, in order.",
-    "Every answer paragraph present with original boundaries and quotation marks.",
-    "Section headings, captions and photo credits present in original positions.",
-    "Hyperlinks from the Hebrew body kept on the same words.",
-    "Names, numbers, dates and titles checked against the Hebrew; nothing silently corrected.",
-    "Block-sequence alignment script run: paragraph/prompt/heading sequence matches the Hebrew (H1 omitted by design)."
+    "15 narration and answer paragraphs plus 4 bold prompts, in the Hebrew order; no section headings in the source.",
+    "Speaker labels **Hilty:** / **McPhee:** kept at the head of the shared answers, as printed.",
+    "All 4 captions present, each under its provenance comment; the Hilty caption now sits where the Hebrew places it (after the Jennifer Hudson paragraph), not before the self-deprecation paragraph as in the October 30 draft.",
+    "No body hyperlinks in the source; none added. Names, numbers (12-year-olds, 95 percent, 30 takes) and titles checked against the Hebrew."
   ],
   "voiceChecks": [
-    "Long-then-short rhythm kept; one-word and short verdict sentences preserved as short sentences.",
-    "Parentheticals kept as parentheticals with their function (gloss, deflation, confession).",
-    "Mock-honorifics, epithets and deadpan understatement rendered at the same weight; no intensifiers added.",
-    "No jokes added, explained or removed; no transitions or conclusions appended.",
-    "Present-tense narration kept; Hebrew verb-first and subject-dropped sentences recast as natural English without reordering content.",
-    "Interviewee quotations translated from the published Hebrew only; no reconstruction of original English speech."
+    "Reader address kept ('If you missed', 'If you still have no idea', 'Broadway, you know').",
+    "Long-then-short rhythm: 'As befits a prime-time show... the money practically drips from the walls' lands on the two-word 'Broadway, you know.'; the Karen Cartwright sentence keeps its punchline (angels dropping from the sky) as the final clause.",
+    "Register collision kept: formal 'As befits' and 'heaven help us' beside 'wiped out' and 'backstabbing bitch'.",
+    "The narrator's compliment and McPhee's thank-you kept as the small rapport beat; 'they purr' for הן מתענגות keeps the gentle mockery of the Spielberg gushing without adding a joke.",
+    "Ending hands the last word to McPhee ('The stage can wait.'); no conclusion added."
   ],
+  "israeliTermsRendered": {
+    "HOT3": "kept as the channel name with 'shown in Israel on HOT3'",
+    "רחמנא ליצלן": "'heaven help us'",
+    "בראיון ל-ynet": "'tells Ynet'"
+  },
   "decisions": [
-    "'רחמנא ליצלן' rendered 'heaven help us'.",
-    "'כבוד כבוד, אבל' rendered \"Honor's honor, but\" to keep the concede-then-challenge shape.",
-    "Speaker labels **Hilty:** / **McPhee:** kept at the head of answer paragraphs as in the Hebrew.",
-    "'הסדרה בנות' identified as HBO's Girls; established English titles used for Rent, Spring Awakening, Hit List.",
-    "Caption 'קרב חתולות' rendered 'Catfight'."
+    "Headline 'כוכבות סמאש: אם הסדרה תרד - נישאר בברודוויי' rendered 'Smash Stars: If the Show Gets Canceled, We'll Stay on Broadway' (colon replaces the Hebrew dash).",
+    "'שועלת ברודווי משופשפת' rendered 'a wily Broadway veteran' rather than 'Broadway fox', which in English reads as a compliment on looks.",
+    "'הקירבה היא הגורם לאקשן' rendered 'All that closeness is where the action comes from' in the subtitle and in Hilty's answer, keeping 'action' as the shared word.",
+    "'כבוד כבוד, אבל' rendered \"Honor's nice, but\" to keep the concede-then-challenge shape in natural English.",
+    "'די נו' rendered 'Come on.' as its own short sentence opening the first prompt.",
+    "'ג׳ימי התפרן' rendered 'penniless Jimmy'; 'הסדרה בנות' identified as HBO's Girls; 'רנט', 'אביב מתעורר', 'היט ליסט' given their English titles Rent, Spring Awakening, Hit List.",
+    "Translation note line follows the W186 reference and omits the New York dateline; the byline is recorded here."
+  ],
+  "lostInTranslation": [
+    "The Hebrew's transliterated showbiz English ('פריים טיים', 'סקס אפיל', 'קאסט') simply becomes English; the code-switch texture is gone and was not compensated for."
+  ],
+  "defectsFixed": [
+    "Literal openings replaced: 'Responsible for the best show in town are...' became 'The best show in town is in the hands of...'; 'the enormous investment drips from the walls' became 'the money practically drips from the walls'.",
+    "'the result of filming, rehearsing, recording and so on and so forth' became 'the product of shoot-rehearse-record and around again', keeping the Hebrew's hyphenated chain.",
+    "'play down her worth' became 'sell herself short'; 'a destructive business' became 'a brutal business'; 'another Idol refugee' became 'another Idol castoff'; 'they gush' became 'they purr'.",
+    "'make the plot younger' became 'lower the plot's average age'; 'the kicking Rent' became 'the feisty Rent'; 'the broke Jimmy who lives there' became 'penniless Jimmy, who lives there'.",
+    "'The show's future is currently shrouded in fog' became 'The show's future is up in the air right now'.",
+    "Misplaced Hilty caption moved to its Hebrew position; translation note line simplified to match the reference files."
   ],
   "sourceProblems": [
-    "Hebrew body misspells Hilty once as 'הייטי'; translated as Hilty without comment in the text.",
-    "Source record notes a publisher paragraph accidentally split mid-sentence was joined at capture; no further splits found."
+    "Hebrew body misspells Hilty once as 'הייטי'; translated as Hilty.",
+    "Hebrew does not close the quotation marks consistently across the two-speaker answers; English uses standard quotation marks throughout."
   ],
-  "unresolvedQuestions": [],
-  "translationPath": "data-source/writing/translations/W007-smash-interview/article.en.md",
-  "hebrewSource": "data-source/writing/originals/W007-smash-interview/article.he.md"
+  "unresolvedQuestions": []
 }

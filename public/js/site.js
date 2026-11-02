@@ -148,8 +148,9 @@
           if (!card.hidden) count++;
         });
         const status = document.querySelector("#filter-status");
+        const noun = status?.dataset.noun || "project";
         if (status)
-          status.textContent = `${count} ${count === 1 ? "project" : "projects"} shown`;
+          status.textContent = `${count} ${count === 1 ? noun : noun + "s"} shown`;
       }),
     );
   }

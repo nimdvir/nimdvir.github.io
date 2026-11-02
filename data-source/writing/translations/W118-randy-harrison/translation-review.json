@@ -1,46 +1,75 @@
 {
   "articleId": "W118",
-  "englishTitle": "\"No One Stands a Chance With Me\": An Interview With Randy Harrison",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "\"Nobody Stands a Chance Against Me\": An Interview with Randy Harrison",
+  "status": "revised for voice 2026-10-31, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-10-31",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר"
   },
-  "sourceTextBlocks": 29,
-  "translatedTextBlocks": 29,
+  "portfolioGroup": "international-interview",
+  "sourceTextBlocks": 31,
+  "translatedTextBlocks": 31,
   "questionBlocks": 9,
   "captions": 2,
   "images": 0,
   "completenessChecks": [
-    "All 19 narrative and answer paragraphs, 9 bold prompts and 2 section headings present in original order.",
+    "18 narrative and answer paragraphs, 9 bold prompts, 2 section headings and 2 captions present in the original order (31 blocks in all).",
     "The 'Why?' answer, split across two paragraphs in the Hebrew, kept split at the same point.",
-    "Both captions translated with credits (Getty Images; Publicity).",
-    "No body hyperlinks in the source; none added.",
-    "The narrated laugh before the final answer ('Harrison laughs.') kept in the answer paragraph as in the source."
+    "The narrated 'Harrison laughs.' kept at the head of the final answer paragraph, as printed.",
+    "No sentences added, no joke explained, no closing paragraph appended; no body hyperlinks in the source and none added.",
+    "Stray nrg encoding artifacts (the literal question marks in ח?כ and מנכ?ל, the doubled apostrophes in the captions) read through and not reproduced."
   ],
   "voiceChecks": [
-    "Opening 'Growing up is no picnic' and 'the whole world and its gay brother' kept as the comic setup; 'spring chicken' chosen for 'פרגית' to keep the mocking tone.",
-    "'The actor is about to pull a Justin Bieber' and 'give Gal Uchovsky a bit of satisfaction' kept as Nim's dry asides.",
-    "'Nice, but not exactly a series broadcast around the world.' kept as the short deflating sentence.",
-    "The 'steak into a lions' cage' provocation kept in the final prompt; the piece ends on Harrison's line."
+    "Opening setup and verdict kept in shape: 'Growing up is no picnic' then the 'whole world and its gay brother' aside, ending on the Queer as Folk identification.",
+    "Nim's dry asides survive without inflation: 'pull a Justin Bieber', '(Ella and Aggie, for those keeping track)', 'Nice, but not exactly a series that airs around the world.'",
+    "The steak-into-a-lion-cage provocation stays in the final prompt; the piece ends on Harrison's own line, as the Hebrew does.",
+    "Narration in present tense; answers rendered as a native speaker would say them ('say so to my face', 'got some distance from the show', 'starting over') without adding content.",
+    "No em dashes; colons and commas used instead."
   ],
+  "israeliTermsRendered": {
+    "רייטינג": "Rating, Maariv's TV supplement (glossed in the subtitle; plain 'Rating' afterwards)",
+    "הטלוויזיה החברתית": "the Israeli nonprofit channel Social TV; later 'Social TV'",
+    "ח\"כ ניצן הורוביץ": "the Knesset member Nitzan Horowitz",
+    "הבית הפתוח": "the Open House, Jerusalem's LGBT center",
+    "גל אוחובסקי": "Gal Uchovsky, the gay TV personality",
+    "מנחם בן": "Menachem Ben, the anti-gay columnist (subtitle; the joke depends on knowing his column)",
+    "ארץ הקודש": "the Holy Land"
+  },
   "decisions": [
-    "'הכי גאים שיש' rendered with the established English title Queer as Folk throughout.",
-    "'פרגית צעירה וחלקה' rendered 'a young, smooth spring chicken'.",
-    "'לעשות כמעשה הג'סטין ביבר' rendered 'pull a Justin Bieber'.",
-    "'הטלוויזיה החברתית' rendered 'Social TV'; 'הבית הפתוח' as 'the Open House'; 'ח\"כ' as 'MK'.",
-    "'שיגרמו לגל אוחובסקי קצת נחת' rendered 'that will give Gal Uchovsky a bit of satisfaction'; the Israeli names (Uchovsky, Menachem Ben, Nitzan Horowitz, Yonatan Gher) kept without glosses, matching the original's assumed reader.",
-    "'מתמזמזים' rendered 'making out'.",
-    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+    "Headline: 'Nobody Stands a Chance Against Me' replaces the draft's 'No One Stands a Chance With Me'; the Hebrew 'אין לאף אחד סיכוי איתי' is a boast about being unbeatable, and 'against me' is how English says it. The same wording closes the piece.",
+    "'פרגית צעירה וחלקה' rendered 'a smooth young spring chicken': the poultry image is kept literally with 'smooth' carrying the hairless-twink sense; no English slang substituted.",
+    "'כל העולם ואחיו הגיי' rendered 'the whole world and its gay brother', a one-word twist on the English idiom matching the Hebrew twist.",
+    "Section heading 'רוצה תיאטרון' rendered 'He'd Rather Do Theater' (a literal 'Wants Theater' is not an English heading).",
+    "'שיגרמו לגל אוחובסקי קצת נחת' rendered 'that should warm the heart of Gal Uchovsky'.",
+    "'מתמזמזים' rendered 'making out'; 'הפציצה את המרקע' rendered 'bombarded the screen' without intensifying.",
+    "Established title Queer as Folk throughout; Glee and Desperate Housewives as in the Hebrew.",
+    "Long Hebrew sentence listing the visit's events rebuilt as one English sentence with parallel verbs (take part, speak up, meet, sit, star) so the Uchovsky joke stays in the final clause."
+  ],
+  "lostInTranslation": [
+    "The subtitle's Menachem Ben joke needs a four-word gloss in English; in Hebrew it lands on the name alone.",
+    "'ארץ הקודש' as a mock-solemn label for Israel reads slightly less tongue-in-cheek in English, where 'the Holy Land' is also a tourism phrase."
+  ],
+  "defectsFixed": [
+    "'the whole world and its gay brother remember the days when you were a young, smooth spring chicken' tightened to 'remember you as a smooth young spring chicken'.",
+    "'Randy was identified with Justin' replaced by 'Randy was synonymous with Justin'; 'constantly commenting to him' replaced by 'pointing it out to him all the time'.",
+    "'The older I get, the healthier my attitude to the character of Justin becomes' replaced by 'the healthier my relationship with Justin gets'.",
+    "'Soon all of us will be able to get a personal look at the change Harrison has undergone' replaced by 'Soon we'll all get to judge the change in Harrison for ourselves'.",
+    "'MK' and 'CEO of the Open House' replaced by glosses an English reader can use; 'Social TV' given its first-mention gloss.",
+    "'give Gal Uchovsky a bit of satisfaction' replaced by 'warm the heart of Gal Uchovsky'.",
+    "Hebrew-order answer sentences ('It happens that on my travels around the world I'm often a guest on...') rebuilt as English sentences throughout.",
+    "'throwing a steak into a lions' cage' corrected to 'a lion cage'.",
+    "Captions moved directly under their provenance comments, matching the reference files."
   ],
   "sourceProblems": [
-    "Source gives Harrison's age as 34 (he was born in 1977); retained as printed per the source record.",
-    "Source encodes 'ח?כ' and 'מנכ?ל' with a literal question mark in place of the gershayim; rendered as MK and CEO without comment in the body.",
+    "Source gives Harrison's age as 34 in May 2011 (he was born in November 1977, so 33); kept as printed.",
+    "Source encodes ח\"כ and מנכ\"ל with a literal question mark in place of the gershayim.",
     "Source record notes an inline advertisement was removed during capture and the split text rejoined; the English follows the rejoined paragraph.",
-    "The photo credit 'גטי אימג'ס' is given without 'Photo:'; rendered as printed."
+    "Photo credit 'גטי אימג'ס' printed without 'Photo:'; rendered as printed."
   ],
   "unresolvedQuestions": [
+    "Whether the four-word gloss on Menachem Ben in the subtitle is acceptable, or whether Nim prefers the name alone as in the Hebrew.",
     "Whether the printed age 34 should be annotated for readers in a website version."
   ]
 }
