@@ -1,40 +1,76 @@
 {
   "articleId": "W174",
-  "englishTitle": "Spike Lee: \"The Oscars Mess Up Sometimes\"",
-  "status": "draft awaiting Nim review",
+  "englishTitle": "Spike Lee: \"The Oscars Screw Up Sometimes\"",
+  "status": "revised for voice 2026-11-01, awaiting Nim review",
   "translatedOn": "2026-10-30",
+  "revisedOn": "2026-11-01",
+  "revisedBy": "Claude (translation agent), from the Hebrew, per voice-translation-brief.md",
   "authorship": {
     "author": "Nimrod Dvir",
     "bylineAsPrinted": "נמרוד דביר, ניו יורק"
   },
+  "portfolioGroup": "international-interview",
   "sourceTextBlocks": 18,
   "translatedTextBlocks": 18,
   "questionBlocks": 6,
-  "captions": 7,
+  "captions": 6,
   "images": 0,
   "completenessChecks": [
-    "All 11 narrative and answer paragraphs and 6 bold prompts present in original order; no section headings in the source.",
-    "Olsen's and Lee's answers inside shared paragraphs kept together as in the Hebrew (the sex-scene answer and the closing moral answer).",
-    "All 7 captions translated (trailer caption plus 6 photo captions) with credits kept, including the final caption's unparenthesized 'Photo: MCT'.",
+    "All 12 narrative and answer paragraphs and 6 bold prompts present in original order; no section headings in the source.",
+    "Olsen's and Lee's answers that share a paragraph in the Hebrew (the sex-scene answer and the closing moral answer) kept together.",
+    "All 6 captions translated (trailer caption plus 5 photo captions) with credits kept, including the final caption's unparenthesized 'Photo: MCT' as printed.",
     "The one body hyperlink (Oldboy) kept on the film title.",
-    "The 'N.D.' clarification bracket about the Academy kept inside the quote."
+    "The 'N.D.' editorial bracket about the Academy kept inside the quote.",
+    "No sentence added, no joke explained, no conclusion appended."
   ],
   "voiceChecks": [
-    "Opening sentence keeps 'biting, kicking' and the 'joints' reference to Lee's own film branding; 'almost like a favorite uncle' kept as the paragraph's closing beat.",
-    "Lee's rhetorical run ('Driving Miss Daisy?! Really, come on.') kept at the same heat without smoothing.",
-    "No jokes added; narration is light framing, as in the source."
+    "Opening paragraph keeps the 'joints' reference and ends on its comic beat ('almost like a favorite uncle's').",
+    "Lee's rant keeps its heat and its rhythm in spoken English ('Driving Miss Daisy?! Seriously? ... The Academy screws up sometimes.').",
+    "Prompts are statements where the Hebrew has statements ('They say films like 12 Years a Slave have a shot at the Oscar this year.').",
+    "Narration stays light framing; the ending hands the last word to Lee, as in the Hebrew."
   ],
+  "israeliTermsRendered": {
+    "\"שבעה צעדים\"": "Oldboy (the established English title; the Israeli release title 'Seven Steps' is not glossed because Nim does not gloss it)"
+  },
   "decisions": [
+    "Headline 'באוסקר מפשלים לפעמים' rendered 'The Oscars Screw Up Sometimes', and the matching answer line 'The Academy screws up sometimes' ('מפשלים' is spoken register; 'mess up' read softer than the Hebrew).",
     "Established English titles used: Oldboy (for שבעה צעדים), Do the Right Thing, Malcolm X, No Country for Old Men (for ארץ קשוחה), Martha Marcy May Marlene, 12 Years a Slave, The Butler (for המשרת), Driving Miss Daisy.",
-    "Headline 'באוסקר מפשלים לפעמים' rendered 'The Oscars Mess Up Sometimes' and the matching answer line 'The Academy messes up sometimes'.",
-    "'סרטי ג'וינט' rendered 'joints' in quotation marks, Lee's own term for his films.",
+    "'קולנוען נשכן ובועט' rendered 'the kicking, biting filmmaker' (image kept, not replaced with 'combative').",
+    "'סרטי \"ג'וינט\"' rendered 'joints' in quotation marks, Lee's own term for his films.",
+    "'התרכך' rendered 'has mellowed'; 'מתקתק עניינים' rendered 'keeps things moving'.",
     "'חגיגה או מדבר' rendered 'a feast or a desert' to keep Lee's image rather than the English 'feast or famine'.",
+    "'מעניין שדווקא...' prompt rendered 'Interesting that just now ... your film for once isn't about the subject.'",
+    "The final prompt's plural 'הייתם' rendered 'you'd both', since it is addressed to Lee and Olsen together.",
     "Caption credit 'גטי אימג' בנק' rendered 'Getty Image Bank' as printed rather than normalized to Gettyimages.",
-    "Quotations are translations of the published Hebrew, not reconstructed English speech."
+    "Lee's first answer split at 'I don't call it a remake. I call it a reinterpretation.' for spoken rhythm; no other sentence boundaries moved."
+  ],
+  "lostInTranslation": [
+    "'ג'וינט' and 'רימייק' are transliterated English in the Hebrew and become plain English; no code-switch joke was riding on them.",
+    "The Israeli title 'שבעה צעדים' (Seven Steps) disappears behind the established English title Oldboy."
+  ],
+  "defectsFixed": [
+    "'has long since stopped being the biting, kicking filmmaker who supplied the world with angry \"joints\"' rebuilt as 'stopped being the kicking, biting filmmaker who fed the world angry \"joints\" a long time ago'.",
+    "'identified with films that carry a political and social message' tightened to 'identified with political and social message films'; 'has softened' replaced with 'has mellowed'.",
+    "'reporting the warm, pleasant atmosphere he creates on set, almost like a favorite uncle' replaced with 'they report a warm, easygoing mood on his sets, almost like a favorite uncle's'.",
+    "'Lee knows how to bring the groove associated with him, for instance in the new action film he has signed his name to' replaced with 'Lee can bring the groove he is known for, as in his new action film'.",
+    "'an alcohol-loving advertising executive' replaced with 'a hard-drinking advertising executive'; 'he sets out on a mission to understand why he was imprisoned ... why he was suddenly set free' with 'he sets off to find out why he was locked up ... why he was suddenly let go'.",
+    "'It's based on a Japanese manga story' trimmed to 'It's based on a Japanese manga'; 'to me the source is really the Japanese manga' replaced with 'as far as I'm concerned the source is the Japanese manga'.",
+    "'who surely don't agree with that argument' replaced with 'who surely don't buy that'; 'Whoever thinks ... isn't going to the movies anyway' with 'Anyone who thinks ... doesn't go to the movies anyway'; 'I don't change hats' with 'I don't switch hats'.",
+    "'Oldboy was without doubt a challenge for Lee. Beyond the fact that this is a film that had supposedly already been made, there were also logistical problems to deal with, arising from a convoluted plot stretched across a long span of time' rebuilt.",
+    "'the director says of the main difficulty in the work' trimmed; 'We talked about it all the time' replaced with 'We talked about it constantly'.",
+    "'Despite the gloomy atmosphere, Olsen reports' replaced with 'For all the gloom, Olsen reports'; 'Spike creates a happy set' with 'Spike makes a happy set'; 'gets things done' with 'keeps things moving'; 'laugh all the time' with 'laugh the whole time'.",
+    "'Did that go lightly too?' replaced with 'Did that go just as easily?'; 'I feel like Spike doesn't much like sex scenes' with 'I get the feeling Spike doesn't much like sex scenes'; 'He made every effort for me to feel comfortable' with 'He did everything he could to make me comfortable'.",
+    "'Everyone comes out with the headlines' replaced with 'Everybody runs the headline'; 'Is that possible?' with 'Would that be possible?'",
+    "'have a chance of taking the Oscar' replaced with 'have a shot at the Oscar'; 'Really, come on.' with 'Seriously?'; 'Do the Right Thing is taught in universities' with 'They teach Do the Right Thing in universities'; 'I stopped getting excited a long time ago' with 'I stopped getting worked up about it a long time ago'; 'messes up' with 'screws up'.",
+    "'Is there any moral you'd like audiences to leave Oldboy with?' replaced with 'Is there a moral you'd both like audiences to walk out of Oldboy with?'; 'leave with a feeling of' with 'walk out thinking'.",
+    "Trailer provenance comment corrected from 'Source image' to 'Source video'; captions now follow their provenance comments directly; footer last line updated to the revision wording."
   ],
   "sourceProblems": [
     "Source uses the masculine 'אומר' for Elizabeth Olsen in the final paragraph; English 'says' is gender-neutral, so no correction was needed, but the quirk is noted per the source record.",
-    "Source record notes an empty media element inside an answer was removed during capture without splitting the answer; the English follows the captured paragraphing."
+    "Source record notes an empty media element inside an answer was removed during capture without splitting the answer; the English follows the captured paragraphing.",
+    "The final caption prints its credit without parentheses ('צילום: MCT'); reproduced as printed."
   ],
-  "unresolvedQuestions": []
+  "unresolvedQuestions": [
+    "Whether Nim prefers 'mess up' to 'screw up' in the headline and Lee's line; 'screw up' was chosen as the closer register for 'מפשלים'."
+  ]
 }
