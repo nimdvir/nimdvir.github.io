@@ -106,7 +106,7 @@ section + section{border-top:1px solid var(--line)}
 .site-head.is-scrolled .wrap{padding-block:8px}
 .site-head.is-scrolled .minerva{height:46px}
 .site-head.is-scrolled .wordmark{height:0;opacity:0}
-@media (max-width:980px){.site-head nav a:not(.apply){display:none}}
+
 @media (max-width:560px){
   .logo .minerva{height:56px}.logo .wordmark{height:28px}.logo .school{font-size:.85rem}
   .logo .school span{display:none}
@@ -475,19 +475,6 @@ footer.fine{font-size:var(--step--1)}
 .secnav a.active{color:#fff}
 .site-head nav a.apply{padding:12px 22px}
 .site-head.is-scrolled .logo .school{display:none}
-/* narrower screens: section links move to their own scrollable row */
-@media (max-width:1180px){
-  .site-head nav a:not(.apply){display:inline-block}
-  .secnav{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;padding:6px 0 10px;margin-top:6px;border-top:1px solid rgba(255,255,255,.14);gap:22px}
-  .secnav::-webkit-scrollbar{display:none}
-  .secnav a{flex:none}
-  .secnav a.apply{margin-left:auto}
-}
-@media (max-width:560px){
-  .secnav{gap:18px;font-size:.95rem}
-  .secnav a{font-size:.98rem!important}
-  .site-head nav a.apply{padding:8px 14px}
-}
 
 
 /* keep logo and section links on one row on wide screens */
@@ -496,7 +483,78 @@ footer.fine{font-size:var(--step--1)}
   .secnav a{font-size:clamp(.98rem,.8rem + .25vw,1.12rem)!important}
   .site-head .wrap{flex-wrap:nowrap}
 }
-@media (min-width:1181px) and (max-width:1700px){.logo .school span{display:none}}
+@media (max-width:1700px){.logo .school span{display:none}}
+
+
+/* ---------- v11 ---------- */
+/* hero facts on their own full-width row */
+.hero-row{position:relative;z-index:1;margin-top:clamp(28px,3vw,48px);display:grid;gap:16px;pointer-events:none}
+.hero-row a{pointer-events:auto}
+.hero .facts{margin-top:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+.hero .fact{padding:clamp(18px,1.8vw,30px) clamp(18px,2vw,34px)}
+.hero .fact span{display:block}
+.majors-note{margin-top:0;max-width:none}
+@media (max-width:700px){.hero .facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* employers as separate pills */
+.employers ul{gap:12px}
+.employers li{background:var(--surface);border:1.5px solid var(--purple);color:var(--purple);border-radius:999px;padding:8px 18px;font-size:clamp(1rem,.9rem + .35vw,1.25rem);transition:background .2s,color .2s}
+.employers li:hover{background:var(--purple);color:#fff}
+
+/* course cards turn purple on hover, like the steps */
+.course{transition:background .2s,border-color .2s,transform .2s}
+.course:hover,.course:focus-within{background:var(--purple);border-color:var(--purple);transform:translateY(-2px)}
+.course:hover h3,.course:focus-within h3{color:#fff}
+.course:hover .body > p,.course:focus-within .body > p{color:#eadff3}
+.course:hover .num,.course:focus-within .num{background:var(--gold);color:var(--gold-ink)}
+.course:hover .when,.course:focus-within .when{background:rgba(255,255,255,.14);color:#fff}
+.course:hover .desc summary,.course:focus-within .desc summary{color:var(--gold)}
+.course:hover .desc .dbody,.course:focus-within .desc .dbody{background:rgba(255,255,255,.1);color:#eadff3}
+.course:hover .desc .dbody .pre b,.course:focus-within .desc .dbody .pre b{color:#fff}
+.course:hover .tick,.course:focus-within .tick{color:#eadff3}
+
+/* timeline: no "you're here" badge; selected or hovered year gets a purple header */
+.year{transition:box-shadow .2s,border-color .2s,transform .2s}
+.year.here{box-shadow:var(--shadow)}
+.year:hover{border-color:var(--purple);box-shadow:0 0 0 2px var(--purple),var(--shadow);transform:translateY(-2px)}
+.year:hover header{background:var(--purple)}
+.year:hover header b{color:#fff}
+
+/* eligibility values in circles */
+.req{grid-template-columns:auto minmax(0,1fr);align-items:center;gap:clamp(18px,2vw,32px)}
+.req .big{width:clamp(76px,6.5vw,104px);height:clamp(76px,6.5vw,104px);border-radius:50%;display:grid;place-items:center;border:3px solid currentColor;font-size:clamp(1.5rem,1.1rem + 1.2vw,2.3rem);line-height:1;flex:none}
+.req.hl-purple .big{border-color:var(--gold)}
+.req.hl-gold .big{background:#fff}
+
+/* responsive header: section links in a menu on smaller screens */
+.site-head .wrap{column-gap:clamp(16px,2vw,32px)}
+.head-apply{background:var(--gold);color:var(--gold-ink);padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;white-space:nowrap;font-size:clamp(1rem,.9rem + .25vw,1.15rem)}
+.menu-toggle{display:none;align-items:center;gap:10px;background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5);border-radius:999px;padding:9px 16px;font:600 1rem var(--f-body);cursor:pointer}
+.menu-toggle .bars,.menu-toggle .bars::before,.menu-toggle .bars::after{display:block;width:18px;height:2px;background:#fff;border-radius:2px;position:relative;transition:transform .2s,background .2s}
+.menu-toggle .bars::before,.menu-toggle .bars::after{content:"";position:absolute;left:0}
+.menu-toggle .bars::before{top:-6px}.menu-toggle .bars::after{top:6px}
+.menu-toggle[aria-expanded="true"] .bars{background:transparent}
+.menu-toggle[aria-expanded="true"] .bars::before{transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] .bars::after{transform:translateY(-6px) rotate(-45deg)}
+@media (max-width:1180px){
+  .site-head .wrap{flex-wrap:wrap}
+  .menu-toggle{display:inline-flex}
+  .site-head .secnav{display:none;order:4;flex-basis:100%;flex-direction:column;align-items:stretch;gap:0;padding:8px 0 14px;border-top:1px solid rgba(255,255,255,.16);margin-top:10px;text-align:left}
+  .site-head .secnav.open{display:flex}
+  .secnav a{display:block!important;padding:14px 4px;font-size:1.1rem!important;border-bottom:1px solid rgba(255,255,255,.1)}
+  .secnav a:last-child{border-bottom:0}
+  .secnav a::after{display:none}
+  .secnav a.active{color:var(--gold)}
+}
+.secnav .menu-apply{display:none!important}
+@media (max-width:700px){
+  .head-apply{display:none}
+  .site-head .secnav .menu-apply{display:block!important;color:var(--gold);font-weight:700}
+  .logo .minerva{height:50px}.logo .wordmark{height:24px}.logo .school{font-size:.8rem}
+  .menu-toggle{padding:9px 12px}
+  .menu-toggle .mt-label{display:none}
+  .site-head .wrap{column-gap:10px}
+}
 
 /* lightbox + toast */
 dialog#zoom{border:0;padding:0;background:transparent;max-width:min(940px,94vw);width:100%;overflow:visible}
@@ -519,14 +577,16 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
         <span class="school">Massry School of Business <span>· Business Analytics Certificate</span></span>
       </span>
     </a>
-    <nav class="secnav" aria-label="Page sections">
+    <nav class="secnav" id="secnav" aria-label="Page sections">
       <a href="#why">Why it's worth it</a>
       <a href="#courses">What to take</a>
       <a href="#planner">When to take it</a>
       <a href="#eligibility">Who can apply</a>
       <a href="#faq">Questions</a>
-      <a class="apply" href="#apply">How to apply</a>
+      <a class="menu-apply" href="#apply">How to apply</a>
     </nav>
+    <a class="apply head-apply" href="#apply">How to apply</a>
+    <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="secnav"><span class="bars" aria-hidden="true"></span><span class="mt-label">Menu</span></button>
   </div>
 </header>
 
@@ -542,13 +602,6 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
           <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         <a class="btn btn-line" href="#planner">Plan my semesters</a>
       </div>
-      <div class="facts" role="list">
-        <div class="fact" role="listitem"><b>5</b><span>required courses</span></div>
-        <div class="fact" role="listitem"><b>15</b><span>credits in total</span></div>
-        <div class="fact" role="listitem"><b>3.25</b><span>GPA to apply</span></div>
-        <div class="fact" role="listitem"><b>Any</b><span>major can apply</span></div>
-      </div>
-      <p class="majors-note"><span class="mn-icon" aria-hidden="true">!</span><span><b>Not a business major?</b> You can still apply, but several required BITM courses restrict registration to declared business majors. Check with your advisor before you plan. <a href="#faq-majors" id="majorsLink">How it works</a></span></p>
       <div class="hero-foot">
         <span>Move your cursor over the dots. They connect, which is more or less the point of analytics.</span>
         <button type="button" class="pause" id="pauseHero" aria-pressed="false">Pause animation</button>
@@ -562,6 +615,15 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       </div>
       <p class="cert-note">Tap to enlarge.</p>
     </div>
+  </div>
+  <div class="wrap hero-row">
+      <div class="facts" role="list">
+      <div class="fact" role="listitem"><b>5</b><span>required courses</span></div>
+      <div class="fact" role="listitem"><b>15</b><span>credits in total</span></div>
+      <div class="fact" role="listitem"><b>3.25</b><span>GPA to apply</span></div>
+      <div class="fact" role="listitem"><b>Any</b><span>major can apply</span></div>
+    </div>
+    <p class="majors-note"><span class="mn-icon" aria-hidden="true">!</span><span><b>Not a business major?</b> You can still apply, but several required BITM courses restrict registration to declared business majors. Check with your advisor before you plan. <a href="#faq-majors" id="majorsLink">How it works</a></span></p>
   </div>
 </div>
 
@@ -703,7 +765,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
     <div class="wrap col">
       <div class="sec-head">
         <div class="eyebrow">Timeline</div>
-        <h2>When everything happens</h2>
+        <h2>How to plan your academic career</h2>
         <p class="lede">Timing is the part that trips people up. BITM 322 belongs in junior spring and BITM 416 in senior spring, so a late start can push the certificate past graduation. Pick your year to see what's next.</p>
       </div>
       <div class="yearpick" role="group" aria-label="Your current year">
@@ -719,17 +781,17 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       </div>
       <div class="stack">
         <div class="year" data-y="1">
-          <header><b>Year 1</b><span class="you">You're here</span></header>
+          <header><b>Year 1</b></header>
           <div class="term"><span class="tl">Fall</span><div class="item plan">Meet your advisor and mention the certificate early.</div></div>
           <div class="term"><span class="tl">Spring</span><div class="item plan">Plan BITM 215 for sophomore year. It isn't open to first-year students.</div></div>
         </div>
         <div class="year" data-y="2">
-          <header><b>Year 2</b><span class="you">You're here</span></header>
+          <header><b>Year 2</b></header>
           <div class="term"><span class="tl">Fall or spring</span><div class="item course-i"><span class="k">Course</span><b>BITM 215</b>Excel and spreadsheet analysis</div></div>
           <div class="term"><span class="tl">All year</span><div class="item plan">Keep your GPA at 3.25 or above. You'll need it to apply next year.</div></div>
         </div>
         <div class="year" data-y="3">
-          <header><b>Year 3</b><span class="you">You're here</span></header>
+          <header><b>Year 3</b></header>
           <div class="term"><span class="tl">Fall</span>
             <div class="item apply"><span class="k">Apply</span>Junior standing and a 3.25 GPA? Submit the application.</div>
             <div class="item course-i"><span class="k">Course</span><b>BITM 330</b>Databases and SQL (needs junior standing)</div>
@@ -737,7 +799,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
           <div class="term"><span class="tl">Spring</span><div class="item course-i"><span class="k">Course</span><b>BITM 322</b>Statistics and hypothesis testing</div></div>
         </div>
         <div class="year" data-y="4">
-          <header><b>Year 4</b><span class="you">You're here</span></header>
+          <header><b>Year 4</b></header>
           <div class="term"><span class="tl">Fall</span>
             <div class="item due"><span class="k">Deadline</span>Application due by the start of senior year</div>
             <div class="item course-i"><span class="k">Course</span><b>BITM 415</b>Predictive analytics (needs 322 and 330)</div>
@@ -829,8 +891,8 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
   <section id="faq">
     <div class="wrap col">
       <div class="sec-head">
-        <div class="eyebrow">Common questions</div>
-        <h2>Before you email us</h2>
+        <div class="eyebrow">FAQ</div>
+        <h2>Some frequently asked questions before you email us</h2>
       </div>
       <div class="faq">
         <details id="faq-majors"><summary>Do I have to be a business major?</summary><p>No. The certificate is open to qualified UAlbany students in any major. Several BITM courses list a declared School of Business major as a prerequisite, so if you're in another major, ask your advisor or email us about registration before you build your plan.</p></details>
@@ -1031,14 +1093,28 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
   document.getElementById("majorsLink").addEventListener("click",()=>{const d=document.getElementById("faq-majors");if(d)d.open=true;});
 
   /* ---- section nav: highlight the section in view ---- */
-  const navLinks=[...document.querySelectorAll('.secnav a:not(.apply)')];
+  const navLinks=[...document.querySelectorAll('.secnav a:not(.menu-apply)')];
   const secs=navLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
   const markActive=()=>{const y=window.scrollY+window.innerHeight*0.35;let cur=null;
     secs.forEach(sec=>{if(sec.offsetTop<=y)cur=sec;});
     navLinks.forEach(a=>a.classList.toggle('active',!!cur&&a.getAttribute('href')==='#'+cur.id));
-    const act=document.querySelector('.secnav a.active');
-    if(act&&act!==markActive.last&&innerWidth<=1180){markActive.last=act;const nav=act.parentElement;const l=act.offsetLeft-nav.clientWidth/2+act.clientWidth/2;nav.scrollTo({left:l,behavior:'smooth'});}};
+};
   window.addEventListener('scroll',markActive,{passive:true});markActive();
+
+  /* ---- responsive menu ---- */
+  const menuBtn=document.getElementById("menuToggle"),secnav=document.getElementById("secnav");
+  const setMenu=open=>{secnav.classList.toggle("open",open);menuBtn.setAttribute("aria-expanded",String(open));};
+  menuBtn.addEventListener("click",()=>setMenu(!secnav.classList.contains("open")));
+  secnav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>setMenu(false)));
+  addEventListener("resize",()=>{if(innerWidth>1180)setMenu(false);});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")setMenu(false);});
+
+  /* ---- timeline: hovering a year previews its next step ---- */
+  const showStep=y=>{document.getElementById("nsTitle").textContent=steps[y][0];document.getElementById("nsBody").textContent=steps[y][1];};
+  document.querySelectorAll(".year").forEach(el=>{
+    el.addEventListener("mouseenter",()=>showStep(el.dataset.y));
+    el.addEventListener("mouseleave",()=>{const cur=document.querySelector('.yearpick button[aria-pressed="true"]');showStep(cur?cur.dataset.year:"2");});
+  });
 
   /* ---- lightbox ---- */
   const dlg=document.getElementById("zoom");
