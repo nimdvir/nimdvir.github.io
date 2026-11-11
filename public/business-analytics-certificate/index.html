@@ -383,6 +383,26 @@ section + section{border-top:0}
 .step:hover h3,.step:focus-within h3{color:#fff}
 .step:hover p,.step:focus-within p{color:#eadff3}
 
+
+/* ---------- v7: purple hero so the dots and gold stand out ---------- */
+.hero{background:radial-gradient(ellipse at 82% 28%,#5b2f7a 0%,#3a1659 45%,#2a0f43 100%);color:#fff;border-bottom:6px solid var(--gold)}
+.hero h1{color:#fff}
+.hero h1 em{color:var(--gold);background:none;padding:0}
+.hero p.sub{color:#e6d9f1}
+.hero .eyebrow{background:var(--gold);color:var(--gold-ink)}
+.hero .btn-line{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.hero .btn-line:hover{border-color:#fff}
+.hero .facts{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.22)}
+.hero .fact{background:rgba(42,15,67,.78)}
+.hero .fact b{color:var(--gold)}
+.hero .fact span{color:#dccbea}
+.hero-foot{color:#d6c6e6}
+.hero .pause{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.hero .pause:hover{border-color:#fff}
+.hero .cert-note{color:#d6c6e6}
+.hero .cert{box-shadow:0 2px 4px rgba(0,0,0,.3),0 22px 36px -10px rgba(0,0,0,.5),0 60px 110px -24px rgba(0,0,0,.8),0 0 0 1px rgba(255,255,255,.3),0 0 90px 10px rgba(238,178,17,.16)}
+.hero .cert:hover,.hero .cert:focus-visible{box-shadow:0 2px 4px rgba(0,0,0,.3),0 30px 46px -12px rgba(0,0,0,.55),0 80px 140px -26px rgba(0,0,0,.85),0 0 0 1px rgba(255,255,255,.4),0 0 120px 16px rgba(238,178,17,.26)}
+
 /* lightbox + toast */
 dialog#zoom{border:0;padding:0;background:transparent;max-width:min(940px,94vw);width:100%;overflow:visible}
 dialog#zoom::backdrop{background:rgba(25,10,40,.8)}
@@ -796,15 +816,15 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       fullScreen:{enable:false},detectRetina:true,fpsLimit:60,background:{color:"transparent"},
       particles:{
         number:{value:small?45:90,density:{enable:true}},
-        color:{value:[cssVar("--dot")||"#46166b","#eeb211"]},
-        opacity:{value:{min:.5,max:.9}},
+        color:{value:["#ffffff","#eeb211"]},
+        opacity:{value:{min:.45,max:.9}},
         size:{value:{min:2,max:3.6}},
-        links:{enable:true,distance:150,color:cssVar("--dot-link")||"#7a4fa3",opacity:.45,width:1.2},
+        links:{enable:true,distance:150,color:"#d9c6ec",opacity:.35,width:1.1},
         move:{enable:!reduce,speed:1.1,direction:"none",random:true,straight:false,outModes:{default:"out"}}
       },
       interactivity:{detectsOn:"window",
         events:{onHover:{enable:!small,mode:"grab"},onClick:{enable:true,mode:"push"},resize:{enable:true}},
-        modes:{grab:{distance:170,links:{opacity:.9,color:"#d99e00"}},push:{quantity:4}}}
+        modes:{grab:{distance:170,links:{opacity:.95,color:"#eeb211"}},push:{quantity:4}}}
     }});
   }
   startParticles().catch(()=>{});
