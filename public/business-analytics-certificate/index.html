@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Business Analytics Certificate | UAlbany</title>
+<meta name="description" content="UAlbany's Undergraduate Certificate in Business Analytics: five courses in Excel, statistics, SQL and predictive analytics, open to qualified students in any major.">
+<link rel="canonical" href="https://nimdvir.com/business-analytics-certificate/">
+<link rel="icon" type="image/png" href="/favicon.png?v=20261001">
+<meta name="theme-color" content="#46166b">
+<meta name="author" content="Nim Dvir">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nimdvir.com/business-analytics-certificate/">
+<meta property="og:title" content="Business Analytics Certificate | UAlbany">
+<meta property="og:description" content="UAlbany's Undergraduate Certificate in Business Analytics: five courses in Excel, statistics, SQL and predictive analytics, open to qualified students in any major.">
+<meta property="og:image" content="https://nimdvir.com/business-analytics-certificate/og-image.jpg">
+<meta property="og:site_name" content="Nim Dvir">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://nimdvir.com/business-analytics-certificate/">
+<meta name="twitter:title" content="Business Analytics Certificate | UAlbany">
+<meta name="twitter:description" content="UAlbany's Undergraduate Certificate in Business Analytics: five courses in Excel, statistics, SQL and predictive analytics, open to qualified students in any major.">
+<meta name="twitter:image" content="https://nimdvir.com/business-analytics-certificate/og-image.jpg">
+<link rel="alternate" type="application/rss+xml" title="Nim Dvir: blog and news" href="https://nimdvir.com/rss.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://nimdvir.com/#website","name":"Nim Dvir","url":"https://nimdvir.com/","description":"Research, teaching, projects, and writing by Nim Dvir, a lecturer at the University at Albany."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","@id":"https://nimdvir.com/#person","alternateName":"Nimrod Dvir","name":"Nim Dvir","givenName":"Nimrod","familyName":"Dvir","honorificSuffix":"PhD","url":"https://nimdvir.com/","image":"https://nimdvir.com/images/nim-dvir-cce.jpg","jobTitle":"Lecturer","worksFor":{"@type":"Organization","name":"University at Albany, SUNY","url":"https://www.albany.edu"},"alumniOf":{"@type":"Organization","name":"University at Albany, SUNY"},"knowsAbout":["UX Research","AI","HCI","Information Engagement","NLP","Computational Linguistics"],"sameAs":["https://www.albany.edu/business/faculty/nim-dvir","https://www.linkedin.com/in/nimdvir/","https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en","https://orcid.org/0000-0001-5462-3180","https://www.researchgate.net/profile/Nim-Dvir"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://nimdvir.com/business-analytics-certificate/","url":"https://nimdvir.com/business-analytics-certificate/","name":"Business Analytics Certificate | UAlbany","description":"UAlbany's Undergraduate Certificate in Business Analytics: five courses in Excel, statistics, SQL and predictive analytics, open to qualified students in any major.","author":{"@id":"https://nimdvir.com/#person"},"isPartOf":{"@id":"https://nimdvir.com/#website"}}</script>
+<style>
+html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: albany.edu-style purple header (wordmark collapses on scroll), a light lavender hero with
+   interactive connected dots, then one simple column: every item gets its own row. */
+:root{
+  --purple:#46166b; --gold:#eeb211; --gold-deep:#b98500;
+  --bg:#fbfafc; --surface:#ffffff; --ink:#1c1424; --muted:#554a61; --line:#e4dcec; --tint:#f2ecf7;
+  --accent:#46166b; --accent-ink:#ffffff;
+  --head-bg:#46166b; --head-muted:#e3d6ee;
+  --hero-bg:#f3edf9; --hero-bg2:#ffffff; --hero-ink:#1c1424; --hero-muted:#554a61; --hero-em:#46166b;
+  --dot:#46166b; --dot-link:#7a4fa3; --gold-ink:#2a1a00;
+  --ok:#1f7a4d; --ok-bg:#e3f4ea; --warn:#8a5a00; --warn-bg:#fdf1d6; --no:#a3263a; --no-bg:#fbe5e9;
+  --code-bg:#f6f1fa; --code-fg:#2a1f36; --code-key:#7a2fb0; --code-str:#1f7a4d; --code-dim:#7d7189;
+  --paper:#fffdf7;
+  --shadow:0 1px 2px rgba(40,10,60,.06),0 14px 36px -14px rgba(40,10,60,.22);
+
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-body:"Instrument Sans","Helvetica Neue",Arial,system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  --step--1:1rem; --step-0:1.1875rem; --step-1:1.4rem; --step-2:1.9rem;
+  --step-3:clamp(2.2rem,4.2vw,3rem); --step-4:clamp(2.7rem,6.2vw,4.6rem);
+  --r:16px; --col:880px;
+}
+:root{color-scheme:light}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:var(--step-0);line-height:1.7;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--head-bg)}
+a{color:var(--accent);text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--f-display);line-height:1.12;text-wrap:balance;margin:0}
+h2{font-size:var(--step-3);font-weight:800;letter-spacing:-.015em}
+h3{font-size:var(--step-1);font-weight:700}
+p{margin:0}
+.skip{position:absolute;left:-9999px;top:0;z-index:60;background:var(--gold);color:var(--gold-ink);padding:10px 16px;border-radius:0 0 10px 0;font-weight:700}
+.skip:focus{left:0}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.col{max-width:var(--col)}
+.eyebrow{font-size:.85rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.lede{color:var(--muted);max-width:60ch;font-size:var(--step-1);line-height:1.55}
+section{padding-block:clamp(72px,10vw,120px)}
+section + section{border-top:1px solid var(--line)}
+.sec-head{display:grid;gap:16px;margin-bottom:44px;max-width:780px}
+.note{margin-top:24px;font-size:var(--step--1);color:var(--muted);max-width:75ch}
+.stack{display:grid;gap:18px}
+
+/* ---------- site header (collapses on scroll, like albany.edu) ---------- */
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--head-bg);color:#fff;transition:box-shadow .3s}
+.site-head .wrap{display:flex;align-items:center;gap:24px;padding-block:14px;transition:padding .3s ease-in-out}
+.logo{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;min-width:0;margin-right:auto}
+.logo .minerva{height:72px;width:auto;flex:none;transition:height .3s ease-in-out}
+.logo .words{display:grid;gap:6px;min-width:0}
+.logo .wordmark{display:block;height:40px;width:auto;max-width:100%;overflow:hidden;transition:height .3s ease-in-out,opacity .2s}
+.logo .school{font-family:var(--f-display);font-weight:600;font-size:1rem;letter-spacing:.02em;color:var(--gold);white-space:nowrap}
+.logo .school span{color:var(--head-muted);font-weight:500}
+.site-head nav{display:flex;align-items:center;gap:22px}
+.site-head nav a{color:var(--head-muted);text-decoration:none;font-weight:500;font-size:1rem;white-space:nowrap}
+.site-head nav a:hover{color:#fff}
+.site-head nav a.apply{background:var(--gold);color:var(--gold-ink);padding:10px 18px;border-radius:999px;font-weight:700}
+.site-head.is-scrolled{box-shadow:0 10px 30px -14px rgba(30,5,50,.55)}
+.site-head.is-scrolled .wrap{padding-block:8px}
+.site-head.is-scrolled .minerva{height:46px}
+.site-head.is-scrolled .wordmark{height:0;opacity:0}
+@media (max-width:980px){.site-head nav a:not(.apply){display:none}}
+@media (max-width:560px){
+  .logo .minerva{height:56px}.logo .wordmark{height:28px}.logo .school{font-size:.85rem}
+  .logo .school span{display:none}
+  .site-head.is-scrolled .minerva{height:40px}
+  .site-head nav a.apply{padding:8px 14px;font-size:.92rem}
+}
+
+/* ---------- hero (light) ---------- */
+.hero{background:radial-gradient(110% 90% at 85% 0%,color-mix(in srgb,var(--gold) 14%,var(--hero-bg)) 0%,var(--hero-bg) 45%,var(--hero-bg2) 100%);color:var(--hero-ink);padding-block:clamp(56px,8vw,104px) clamp(64px,8vw,112px);position:relative;overflow:hidden;isolation:isolate;border-bottom:1px solid var(--line)}
+#hero-particles{position:absolute;inset:0;z-index:0}
+#hero-particles canvas{display:block}
+.hero .wrap{position:relative;z-index:1;pointer-events:none}
+.hero .wrap a,.hero .wrap button{pointer-events:auto}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(40px,6vw,80px);align-items:center}
+.hero h1{font-size:var(--step-4);font-weight:800;letter-spacing:-.025em;margin-top:18px}
+.hero h1 em{font-style:normal;color:var(--hero-em);background:linear-gradient(transparent 70%,color-mix(in srgb,var(--gold) 55%,transparent) 70%);padding:0 .05em}
+.hero p.sub{margin-top:24px;color:var(--hero-muted);font-size:var(--step-1);line-height:1.55;max-width:46ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 1.05rem/1 var(--f-body);padding:17px 26px;border-radius:999px;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:transform .15s ease,background .15s ease,border-color .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:var(--gold-ink)}
+.btn-line{background:var(--surface);color:var(--accent);border-color:var(--accent)}
+.btn-purple{background:var(--accent);color:var(--accent-ink)}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;margin-top:44px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.fact{background:color-mix(in srgb,var(--surface) 88%,transparent);padding:18px 20px}
+.fact b{display:block;font-family:var(--f-display);font-size:2.1rem;font-weight:800;color:var(--accent);line-height:1.05;font-variant-numeric:tabular-nums}
+.fact span{font-size:.95rem;color:var(--muted)}
+.hero-foot{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin-top:18px;font-size:.95rem;color:var(--hero-muted)}
+.pause{font:600 .88rem var(--f-body);background:var(--surface);color:var(--accent);border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer}
+.pause:hover{border-color:var(--accent)}
+@media (max-width:600px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* certificate object, lifted off the page */
+.cert-stage{display:flex;justify-content:center;padding:24px}
+.cert{margin:0;background:var(--paper);padding:16px;border-radius:4px;border:0;display:block;width:100%;max-width:480px;cursor:zoom-in;
+  transform:rotate(2deg);transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s;
+  box-shadow:0 2px 4px rgba(30,5,50,.18),0 20px 34px -10px rgba(30,5,50,.38),0 56px 100px -24px rgba(46,16,77,.6),0 0 0 1px rgba(46,16,77,.08)}
+.cert:hover,.cert:focus-visible{transform:rotate(0deg) translateY(-6px) scale(1.02);box-shadow:0 2px 4px rgba(30,5,50,.2),0 28px 44px -12px rgba(30,5,50,.42),0 76px 130px -26px rgba(46,16,77,.7),0 0 0 1px rgba(46,16,77,.1)}
+.cert .frame{display:block;border:1.5px solid #b89b4a;padding:7px;position:relative}
+.cert .frame::before{content:"";position:absolute;inset:3px;border:.5px solid #d6c286;pointer-events:none}
+.cert img{display:block;width:100%;height:auto;max-width:100%;background:#fff}
+.cert-note{margin-top:6px;font-size:.92rem;color:var(--hero-muted);text-align:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr)}.cert{max-width:400px}}
+
+/* ---------- connect-the-dots chart ---------- */
+.chart-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px 26px 20px;box-shadow:var(--shadow);margin-bottom:44px}
+.chart-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+.chart-steps{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:12px;font-size:.95rem;color:var(--muted)}
+.chart-steps b{color:var(--ink)}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .grid line{stroke:var(--line);stroke-width:1}
+.chart .link{stroke:var(--dot-link);stroke-width:1.2;opacity:.45;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .5s ease}
+.chart .dot{fill:var(--dot);opacity:.18;transition:opacity .5s ease}
+.chart .trend{fill:none;stroke:var(--gold);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .5s ease}
+.chart .area{fill:url(#areaGrad);opacity:0;transition:opacity .5s}
+.chart .tdot{fill:var(--gold);stroke:var(--surface);stroke-width:2.5;opacity:0;transition:opacity .4s}
+.chart .ring{fill:none;stroke:var(--gold);stroke-width:2;opacity:0;transform-box:fill-box;transform-origin:center}
+.chart .tag{opacity:0;transition:opacity .5s}
+.chart .tag rect{fill:var(--gold)}
+.chart .tag text{fill:#2a1a00;font:700 13px var(--f-body);letter-spacing:.12em}
+.chart.s1 .dot{opacity:.9;transition-duration:.6s}
+.chart.s2 .link{stroke-dashoffset:0;transition-duration:1.4s}
+.chart.s3 .trend{stroke-dashoffset:0;transition-duration:2.2s}
+.chart.s3 .area{opacity:1;transition-duration:1.6s;transition-delay:.8s}
+.chart.s3 .tdot{opacity:1}
+.chart.s4 .tag{opacity:1}
+.chart.s4 .ring{opacity:1;animation:pulse 1.8s ease-out infinite}
+.chart.paused .ring{animation-play-state:paused}
+@keyframes pulse{0%{transform:scale(.6);opacity:1}100%{transform:scale(2.2);opacity:0}}
+
+/* ---------- benefits (one per row) ---------- */
+.benefit{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:30px 32px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px;align-items:start}
+.benefit .ic{width:54px;height:54px;border-radius:14px;background:var(--tint);display:grid;place-items:center;color:var(--accent)}
+.benefit .ic svg{width:28px;height:28px}
+.benefit div.t{display:grid;gap:8px;min-width:0}
+.benefit p{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.chip{font-family:var(--f-mono);font-size:.88rem;padding:5px 12px;border-radius:999px;background:var(--tint);color:var(--ink);white-space:nowrap}
+.employers{margin-top:18px;padding:30px 32px;border-radius:var(--r);background:var(--tint);display:grid;gap:14px}
+.employers ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 30px;font-family:var(--f-display);font-weight:700;font-size:1.25rem}
+@media (max-width:480px){.benefit{grid-template-columns:minmax(0,1fr);padding:24px}}
+
+/* ---------- courses ---------- */
+.course-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:28px;margin-bottom:36px}
+.meter{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:10px 24px 10px 10px}
+.ring-m{--p:0;width:58px;height:58px;border-radius:50%;background:conic-gradient(var(--gold) calc(var(--p)*1%),var(--line) 0);display:grid;place-items:center}
+.ring-m::after{content:attr(data-n);width:46px;height:46px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font:700 1rem var(--f-display);color:var(--ink);font-variant-numeric:tabular-nums}
+.meter small{display:block;color:var(--muted);font-size:.9rem;line-height:1.3}
+.meter b{font-family:var(--f-display);font-size:1.15rem}
+.courses{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.course{display:grid;grid-template-columns:7.2em minmax(0,1fr) auto;gap:26px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px 30px;transition:border-color .2s,background .2s}
+.course.done{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 9%,var(--surface))}
+.course .num{font-family:var(--f-mono);font-weight:600;font-size:1.1rem;color:var(--accent);padding-top:3px}
+.course h3{font-size:1.3rem}
+.course .body > p{color:var(--muted);margin-top:6px}
+.course .when{font-size:.9rem;font-weight:600;color:var(--accent);margin-top:12px;display:inline-block;padding:4px 12px;border-radius:999px;background:var(--tint)}
+.desc{margin-top:14px}
+.desc summary{cursor:pointer;font-weight:600;font-size:1rem;color:var(--accent);list-style:none;display:inline-flex;align-items:center;gap:8px}
+.desc summary::-webkit-details-marker{display:none}
+.desc summary::before{content:"";width:8px;height:8px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(-45deg);transition:transform .2s}
+.desc[open] summary::before{transform:rotate(45deg)}
+.desc .dbody{margin-top:12px;padding:16px 18px;border-radius:12px;background:var(--tint);display:grid;gap:10px;color:var(--muted);font-size:1.05rem}
+.desc .dbody .pre{font-size:.98rem}
+.desc .dbody .pre b{color:var(--ink)}
+.tick{display:flex;align-items:center;gap:10px;font-size:.95rem;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap;padding-top:2px}
+.tick input{appearance:none;width:30px;height:30px;border-radius:9px;border:2px solid var(--line);background:var(--surface);display:grid;place-items:center;cursor:pointer;margin:0;transition:background .15s,border-color .15s}
+.tick input::after{content:"";width:8px;height:15px;border:solid var(--gold-ink);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px);opacity:0}
+.tick input:checked{background:var(--gold);border-color:var(--gold)}
+.tick input:checked::after{opacity:1}
+@media (max-width:680px){
+  .course{grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;padding:22px}
+  .course .body{grid-column:1/-1;order:3}
+  .tick span{display:none}
+}
+
+/* ---------- planner (one year per row) ---------- */
+.yearpick{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.yearpick button{font:600 1.02rem var(--f-body);padding:12px 20px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.yearpick button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.nextstep{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px 30px;margin-bottom:28px;box-shadow:var(--shadow)}
+.nextstep .badge{font:700 .8rem var(--f-body);letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:var(--gold-ink);padding:7px 12px;border-radius:8px;white-space:nowrap}
+.nextstep h3{font-size:1.35rem;margin-bottom:8px}
+.nextstep p{color:var(--muted)}
+@media (max-width:560px){.nextstep{grid-template-columns:minmax(0,1fr);padding:22px}}
+.year{border-radius:var(--r);border:1px solid var(--line);background:var(--surface);overflow:hidden;transition:box-shadow .25s,border-color .25s,opacity .25s}
+.year.here{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent),var(--shadow)}
+.year.past{opacity:.55}
+.year header{padding:16px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
+.year header b{font-family:var(--f-display);font-size:1.25rem}
+.year .you{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent);padding:4px 9px;border-radius:6px;visibility:hidden}
+.year.here .you{visibility:visible}
+.term{padding:16px 22px;display:grid;gap:10px}
+.term + .term{border-top:1px dashed var(--line)}
+.term .tl{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.item{line-height:1.45;padding:12px 14px;border-radius:10px;background:var(--tint);display:grid;gap:3px}
+.item .k{font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.item.course-i .k{color:var(--accent)}
+.item.course-i b{font-family:var(--f-mono);font-size:1rem}
+.item.apply{background:var(--ok-bg)} .item.apply .k{color:var(--ok)}
+.item.due{background:var(--warn-bg);border:1.5px solid var(--warn)} .item.due .k{color:var(--warn)}
+.item.award{background:color-mix(in srgb,var(--gold) 22%,var(--surface))}
+.item.plan{background:transparent;border:1px dashed var(--line);color:var(--muted)}
+
+/* ---------- eligibility (one per row) ---------- */
+.req{display:grid;grid-template-columns:4.2em minmax(0,1fr);gap:20px;align-items:start;padding:22px 26px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.req .big{font-family:var(--f-display);font-weight:800;font-size:2.1rem;color:var(--accent);line-height:1}
+.req p{color:var(--muted)}
+.req b{color:var(--ink)}
+.checker{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px;box-shadow:var(--shadow);display:grid;gap:22px}
+.checker .hint{color:var(--muted);margin-top:6px}
+.fields{display:grid;gap:16px}
+.field{display:grid;gap:8px}
+.field label{font-size:.85rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select{font:600 1.05rem var(--f-mono);background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;width:100%}
+.field input:focus,.field select:focus{border-color:var(--accent);outline:none}
+.sql{font-family:var(--f-mono);font-size:.98rem;line-height:1.7;background:var(--code-bg);border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow-x:auto;white-space:pre;color:var(--code-fg)}
+.sql .kw{color:var(--code-key);font-weight:600} .sql .s{color:var(--code-str)} .sql .c{color:var(--code-dim)}
+.result{border-radius:12px;padding:18px 20px;display:grid;gap:8px}
+.result .status{font:700 .8rem var(--f-body);letter-spacing:.1em;text-transform:uppercase}
+.result.ok{background:var(--ok-bg)} .result.ok .status{color:var(--ok)}
+.result.wait{background:var(--warn-bg)} .result.wait .status{color:var(--warn)}
+.result.no{background:var(--no-bg)} .result.no .status{color:var(--no)}
+.disclaim{font-size:.92rem;color:var(--muted)}
+@media (max-width:460px){.checker{padding:24px}.req{padding:20px}}
+
+/* ---------- apply (one step per row) ---------- */
+.steps{list-style:none;margin:0 0 44px;padding:0;display:grid;gap:16px;counter-reset:s}
+.step{counter-increment:s;padding:24px 28px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;grid-template-columns:2.2em minmax(0,1fr);gap:6px 18px;align-items:baseline}
+.step::before{content:counter(s);font:800 2rem var(--f-display);color:var(--accent);line-height:1;grid-row:span 2}
+.step h3{font-size:1.25rem}
+.step p{color:var(--muted)}
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:var(--shadow)}
+.form-card h3{margin-bottom:6px}
+.form-card > p{color:var(--muted);margin-bottom:20px}
+#jotform-slot{min-height:120px}
+#jotform-slot iframe{width:100%!important;border:0;border-radius:12px}
+.form-fallback{display:grid;gap:14px;justify-items:start;padding:28px;border:1.5px dashed var(--line);border-radius:14px;background:var(--tint)}
+.form-fallback p{color:var(--muted)}
+.qr-card{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px 28px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px;align-items:center}
+.qr-card a.qr{display:block;background:#fff;padding:10px;border-radius:14px;border:1px solid var(--line)}
+.qr-card img{display:block;width:160px;max-width:100%;height:auto}
+.qr-card .t{display:grid;gap:8px;min-width:0}
+.qr-card p{color:var(--muted)}
+.qr-card .link{font-family:var(--f-mono);font-size:.95rem;overflow-wrap:anywhere}
+@media (max-width:520px){.qr-card{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}}
+
+/* ---------- certificate section ---------- */
+.award{display:grid;gap:36px;justify-items:start}
+.award .cert{transform:rotate(-1.5deg);max-width:560px}
+.award .cert-stage{justify-content:flex-start;padding:24px 8px}
+.award ul{margin:0;padding:0;list-style:none;display:grid;gap:18px}
+.award li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:14px;color:var(--muted)}
+.award li svg{width:24px;height:24px;color:var(--accent);margin-top:4px}
+.award li b{color:var(--ink)}
+
+/* ---------- FAQ ---------- */
+.faq{display:grid;gap:14px}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:0 26px}
+.faq summary{cursor:pointer;list-style:none;padding:22px 0;font-weight:600;font-size:1.15rem;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:500 1.7rem var(--f-display);color:var(--accent);transition:transform .2s;flex:none}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding-bottom:22px;color:var(--muted);max-width:68ch}
+
+/* ---------- contact (light) ---------- */
+.contact{background:var(--tint)}
+.ccard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:30px 32px;display:grid;gap:10px}
+.ccard .role{font-size:.82rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep)}
+.ccard h3{font-size:1.5rem}
+.ccard p{color:var(--muted)}
+.mailrow{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:8px}
+.mail{font-family:var(--f-mono);font-size:1.05rem;color:var(--accent);background:var(--tint);padding:10px 14px;border-radius:9px;user-select:all;overflow-wrap:anywhere;text-decoration:none}
+.mail:hover{text-decoration:underline}
+.copy{font:700 .95rem var(--f-body);background:var(--gold);color:var(--gold-ink);border:0;border-radius:999px;padding:10px 18px;cursor:pointer}
+footer.fine{padding-block:36px 48px;background:var(--surface);color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
+footer.fine .wrap{display:grid;gap:16px}
+footer.fine .flogo{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:600}
+footer.fine .flogo img{height:44px;width:auto}
+@media (max-width:560px){.ccard{padding:24px}}
+
+
+/* ---------- school-color highlight cards ---------- */
+.hl-purple{background:var(--purple)!important;border-color:var(--purple)!important;color:#fff}
+.hl-purple h3,.hl-purple b{color:#fff}
+.hl-purple p,.hl-purple .t p{color:#eadff3}
+.hl-purple .ic{background:rgba(255,255,255,.14);color:var(--gold)}
+.hl-purple .chip{background:rgba(255,255,255,.14);color:#fff}
+.hl-purple .big,.hl-purple::before,.hl-purple .role,.hl-purple .eyebrow{color:var(--gold)!important}
+.hl-purple .mail{background:rgba(255,255,255,.14);color:#fff}
+.hl-gold{background:#fff6dc!important;border:1.5px solid var(--gold)!important}
+.hl-gold .ic{background:var(--gold);color:var(--gold-ink)}
+.hl-gold .chip{background:#fff;border:1px solid #f1d58a}
+.hl-gold .big,.hl-gold::before{color:var(--gold-deep)!important}
+.hl-gold .mail{background:#fff}
+
+
+/* ---------- v5: more color, still light ---------- */
+h2{color:var(--purple)}
+.hero{background:linear-gradient(160deg,#e6d8f3 0%,#f1e9f8 45%,#fbf4e2 100%);border-bottom:6px solid var(--gold)}
+.hero h1{color:var(--purple)}
+.hero h1 em{color:var(--purple);background:linear-gradient(transparent 62%,var(--gold) 62%)}
+.facts{background:rgba(255,255,255,.25);border-color:var(--purple)}
+.fact{background:var(--purple)}
+.fact b{color:var(--gold)}
+.fact span{color:#eadff3}
+#why,#planner,#apply,#faq{background:#f4eef9}
+#courses,#eligibility,#certificate{background:#ffffff}
+section + section{border-top:0}
+.eyebrow{display:inline-block;justify-self:start;background:#fff2c6;color:#6b4a00;padding:5px 12px;border-radius:999px;letter-spacing:.12em}
+.chart-top .eyebrow,.employers .eyebrow{background:#fff2c6}
+.course .num{display:inline-block;justify-self:start;background:var(--purple);color:#fff;padding:5px 10px;border-radius:8px;font-size:1rem}
+.course .when{background:#fff2c6;color:#6b4a00}
+.year header{background:#ece2f5}
+.year.here header{background:var(--purple);color:#fff}
+.year.here header b{color:#fff}
+.year.here .you{background:var(--gold);color:var(--gold-ink)}
+.employers{background:#fff6dc;border:1.5px solid var(--gold)}
+.employers ul{color:var(--purple)}
+.faq summary::after{content:"+";width:34px;height:34px;border-radius:50%;background:var(--gold);color:var(--gold-ink);display:grid;place-items:center;font-size:1.4rem;line-height:1}
+.contact{background:var(--purple)}
+.contact h2{color:#fff}
+.contact .lede{color:#eadff3}
+.contact .eyebrow{background:var(--gold);color:var(--gold-ink)}
+.contact .ccard{border:0}
+
+
+/* ---------- v6 ---------- */
+.year.past{opacity:1}
+.year .term,.item,.item.plan{color:var(--ink)}
+.term .tl{color:var(--ink)}
+.step{transition:background .2s,border-color .2s,transform .2s;cursor:default}
+.step:hover,.step:focus-within{background:var(--purple);border-color:var(--purple);transform:translateY(-2px)}
+.step:hover::before,.step:focus-within::before{color:var(--gold)}
+.step:hover h3,.step:focus-within h3{color:#fff}
+.step:hover p,.step:focus-within p{color:#eadff3}
+
+/* lightbox + toast */
+dialog#zoom{border:0;padding:0;background:transparent;max-width:min(940px,94vw);width:100%;overflow:visible}
+dialog#zoom::backdrop{background:rgba(25,10,40,.8)}
+dialog#zoom img{width:100%;height:auto;display:block;background:#fff;border-radius:4px;box-shadow:0 40px 100px rgba(0,0,0,.6)}
+dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-body);background:var(--gold);color:var(--gold-ink);border:0;border-radius:999px;padding:10px 16px;cursor:pointer}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:999px;font-size:1rem;font-weight:600;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head" id="siteHead">
+  <div class="wrap">
+    <a class="logo" href="https://www.albany.edu/business" target="_blank" rel="noopener noreferrer" aria-label="Massry School of Business, University at Albany">
+      <img class="minerva" src="/business-analytics-certificate/ualbany-minerva.png" alt="" width="100" height="111">
+      <span class="words">
+        <img class="wordmark" src="/business-analytics-certificate/ualbany-wordmark.png" alt="University at Albany" width="640" height="95">
+        <span class="school">Massry School of Business <span>· Business Analytics Certificate</span></span>
+      </span>
+    </a>
+    <nav aria-label="Page sections">
+      <a href="#courses">Courses</a>
+      <a href="#planner">Timeline</a>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#contact">Questions</a>
+      <a class="apply" href="#apply">Apply</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div id="hero-particles" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Undergraduate certificate</div>
+      <h1>Undergraduate Certificate in <em>Business Analytics</em></h1>
+      <p class="sub">Five courses in spreadsheets, statistics, databases and predictive analytics, recognized on your transcript. Open to qualified UAlbany students in any major.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="#apply">Apply now
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-line" href="#planner">Plan my semesters</a>
+      </div>
+      <div class="facts" role="list">
+        <div class="fact" role="listitem"><b>5</b><span>required courses</span></div>
+        <div class="fact" role="listitem"><b>15</b><span>credits in total</span></div>
+        <div class="fact" role="listitem"><b>3.25</b><span>GPA to apply</span></div>
+        <div class="fact" role="listitem"><b>Any</b><span>major can apply</span></div>
+      </div>
+      <div class="hero-foot">
+        <span>Move your cursor over the dots. They connect, which is more or less the point of analytics.</span>
+        <button type="button" class="pause" id="pauseHero" aria-pressed="false">Pause animation</button>
+      </div>
+    </div>
+    <div>
+      <div class="cert-stage">
+        <button class="cert" type="button" data-zoom aria-label="Enlarge the sample certificate">
+          <span class="frame"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics from the State University of New York, University at Albany, awarded to Jane Doe, B.S., with four signatures." width="1000" height="965"></span>
+        </button>
+      </div>
+      <p class="cert-note">Sample certificate. Tap to enlarge.</p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+  <!-- WHY -->
+  <section id="why">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">Why it's worth it</div>
+        <h2>Proof that you can work with data, in writing.</h2>
+        <p class="lede">Lots of résumés say "data-driven." This one comes with a university certificate and a transcript notation behind it.</p>
+      </div>
+
+      <figure class="chart-card" style="margin-inline:0">
+        <div class="chart-top">
+          <span class="eyebrow">Connect the dots</span>
+          <button type="button" class="pause" id="pauseChart" aria-pressed="false">Pause animation</button>
+        </div>
+        <div class="chart s1 s2 s3 s4" id="chart">
+          <svg viewBox="0 0 800 330" role="img" aria-label="Scattered data points connect into a network, then a rising gold trend line emerges through them, ending at a highlighted point labeled Find an insight.">
+            <defs><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eeb211" stop-opacity=".32"/><stop offset="1" stop-color="#eeb211" stop-opacity="0"/></linearGradient></defs>
+            <g class="grid" id="gGrid"></g>
+            <g id="gLinks"></g>
+            <path class="area" id="area"></path>
+            <g id="gDots"></g>
+            <path class="trend" id="trend" pathLength="1"></path>
+            <g id="gTdots"></g>
+            <circle class="ring" id="ring" r="12"></circle>
+            <g class="tag" id="tag"><rect x="0" y="0" width="160" height="32" rx="6"></rect><text x="80" y="21" text-anchor="middle">FIND AN INSIGHT</text></g>
+          </svg>
+        </div>
+        <figcaption class="chart-steps"><span><b>Data</b> → understanding → decisions.</span><span>That's the arc of the five courses.</span></figcaption>
+      </figure>
+
+      <div class="stack">
+        <article class="benefit hl-purple">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></div>
+          <div class="t"><h3>On your transcript</h3>
+          <p>The Registrar adds the award to your official transcript, so employers and graduate programs see it when they check your record.</p></div>
+        </article>
+        <article class="benefit">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13 7 21l5-3 5 3-1.5-8"/></svg></div>
+          <div class="t"><h3>In your hands</h3>
+          <p>A printed certificate from the University at Albany arrives with your diploma.</p></div>
+        </article>
+        <article class="benefit hl-gold">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18M6 16v-4M11 16V8M16 16v-6M21 16V5"/></svg></div>
+          <div class="t"><h3>Skills employers ask for</h3>
+          <p>A working toolkit, built across five courses:</p>
+          <div class="skills"><span class="chip">Excel</span><span class="chip">Statistics</span><span class="chip">Regression</span><span class="chip">SQL</span><span class="chip">Databases</span><span class="chip">Predictive analytics</span></div></div>
+        </article>
+        <article class="benefit">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9.5" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg></div>
+          <div class="t"><h3>Open to every major</h3>
+          <p>Add analytics to whatever you already study. Business students may already have some of these courses in their plan, and ISBA concentrators take all five.</p></div>
+        </article>
+        <article class="benefit">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5z"/><path d="M7 10.5V16c3 2 7 2 10 0v-5.5"/></svg></div>
+          <div class="t"><h3>It recognizes strong work</h3>
+          <p>It takes a 3.25 GPA to get in and a B or better in every required course to keep it, so the designation means something.</p></div>
+        </article>
+      </div>
+      <div class="employers">
+        <div class="eyebrow">Where ISBA graduates have gone</div>
+        <ul>
+          <li>Albany Medical Center</li><li>Deloitte</li><li>Ernst &amp; Young</li><li>General Electric</li><li>KPMG</li><li>Price Chopper</li><li>PwC</li><li>SABIC</li><li>State of New York</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <div class="wrap col">
+      <div class="course-head">
+        <div class="sec-head" style="margin-bottom:0">
+          <div class="eyebrow">The courses</div>
+          <h2>Five required courses, 15 credits.</h2>
+          <p class="lede">In the order most students take them. Tick off the ones you've finished with a B or better.</p>
+        </div>
+        <div class="meter" aria-live="polite">
+          <div class="ring-m" id="ringM" data-n="0/5"></div>
+          <div><b id="meterText">Not started</b><small>Saved on this device only</small></div>
+        </div>
+      </div>
+      <ol class="courses">
+        <li class="course" data-code="215">
+          <div class="num">BITM 215</div>
+          <div class="body"><h3>Information Technologies for Business</h3><p>Spreadsheet analysis in Excel.</p><span class="when">Sophomore year</span>
+            <details class="desc"><summary>Course description</summary><div class="dbody">
+              <p>The role of information systems and data analytics in solving business problems. You'll build business applications in Microsoft Excel at a comprehensive, advanced level, as a base for information systems and analytics work in business, accounting and other areas. Topics may include IT fundamentals, trends in data analytics, customer relationship management, supply chain management, e-business and information security.</p>
+              <p class="pre"><b>Good to know:</b> not open to first-year students. Offered fall and spring.</p>
+            </div></details></div>
+          <label class="tick"><input type="checkbox" id="c215" aria-label="I completed BITM 215"><span>Done</span></label>
+        </li>
+        <li class="course" data-code="330">
+          <div class="num">BITM 330</div>
+          <div class="body"><h3>Improving Business Performance with Information Technologies</h3><p>Data management, databases and SQL.</p><span class="when">Junior year, fall works best</span>
+            <details class="desc"><summary>Course description</summary><div class="dbody">
+              <p>Database design and development, including theory, modeling, normalization, management and administration. You'll build business applications with relational database tools and learn SQL to power them. The course is hands-on, with extensive computer work in class, in homework and in projects.</p>
+              <p class="pre"><b>Prerequisites:</b> BITM 215 and AMAT 108 or AECO 320 (or equivalent), and junior or senior standing. Offered fall, spring and some summers.</p>
+            </div></details></div>
+          <label class="tick"><input type="checkbox" id="c330" aria-label="I completed BITM 330"><span>Done</span></label>
+        </li>
+        <li class="course" data-code="322">
+          <div class="num">BITM 322</div>
+          <div class="body"><h3>Quantitative Analysis for Business Decisions</h3><p>Statistics, hypothesis testing and regression.</p><span class="when">Spring of junior year</span>
+            <details class="desc"><summary>Course description</summary><div class="dbody">
+              <p>How to make business decisions under uncertainty. Covers the basics of business statistics: data collection and presentation, measures of centrality and dispersion, probability and probability distributions, parameter estimation and hypothesis testing.</p>
+              <p class="pre"><b>Prerequisites:</b> declared School of Business major; BITM 215, AMAT 106, 111 or 112, and AMAT 108.</p>
+            </div></details></div>
+          <label class="tick"><input type="checkbox" id="c322" aria-label="I completed BITM 322"><span>Done</span></label>
+        </li>
+        <li class="course" data-code="415">
+          <div class="num">BITM 415</div>
+          <div class="body"><h3>Data Analytics in Business</h3><p>Data management and predictive analytics.</p><span class="when">Fall of senior year</span>
+            <details class="desc"><summary>Course description</summary><div class="dbody">
+              <p>Builds skills in data modeling and predictive analytics: the practices and tools for analyzing data and building models that help businesses decide better. You'll use data mining, data visualization and data analysis to turn large data sets into information for tactical and strategic decisions, with hands-on work in exploration, classification and prediction.</p>
+              <p class="pre"><b>Prerequisites:</b> declared School of Business major; BITM 322 and 330.</p>
+            </div></details></div>
+          <label class="tick"><input type="checkbox" id="c415" aria-label="I completed BITM 415"><span>Done</span></label>
+        </li>
+        <li class="course" data-code="416">
+          <div class="num">BITM 416</div>
+          <div class="body"><h3>Topics in Business Analytics</h3><p>Additional analytical techniques, building on BITM 415.</p><span class="when">Spring of senior year, after BITM 415</span>
+            <details class="desc"><summary>Course description</summary><div class="dbody">
+              <p>Selected topics in business analytics, such as social network analysis, business intelligence and managing analytics projects, with software for analyzing data from marketing, sales, human resources and other areas. You'll finish able to analyze large data sets with modern tools and help plan and organize predictive analytics projects.</p>
+              <p class="pre"><b>Prerequisites:</b> declared School of Business major; BITM 415. Offered spring only.</p>
+            </div></details></div>
+          <label class="tick"><input type="checkbox" id="c416" aria-label="I completed BITM 416"><span>Done</span></label>
+        </li>
+      </ol>
+      <p class="note">Descriptions are adapted from the <a href="https://www.albany.edu/undergraduate-bulletin/information-technology-management-courses.php" target="_blank" rel="noopener noreferrer">BITM course descriptions in the University at Albany Undergraduate Bulletin</a>, which has the full text for every course. Official certificate requirements are on the <a href="https://www.albany.edu/undergraduate-bulletin/program-business-administration.php" target="_blank" rel="noopener noreferrer">Bulletin's business program page</a>.</p>
+    </div>
+  </section>
+
+  <!-- PLANNER / TIMELINE -->
+  <section id="planner">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">Timeline</div>
+        <h2>When everything happens</h2>
+        <p class="lede">Timing is the part that trips people up. BITM 322 belongs in junior spring and BITM 416 in senior spring, so a late start can push the certificate past graduation. Pick your year to see what's next.</p>
+      </div>
+      <div class="yearpick" role="group" aria-label="Your current year">
+        <button type="button" data-year="1" aria-pressed="false">First-year</button>
+        <button type="button" data-year="2" aria-pressed="true">Sophomore</button>
+        <button type="button" data-year="3" aria-pressed="false">Junior</button>
+        <button type="button" data-year="4" aria-pressed="false">Senior</button>
+        <button type="button" data-year="t" aria-pressed="false">Transfer with an associate's degree</button>
+      </div>
+      <div class="nextstep hl-gold" aria-live="polite">
+        <span class="badge">Your next step</span>
+        <div><h3 id="nsTitle"></h3><p id="nsBody"></p></div>
+      </div>
+      <div class="stack">
+        <div class="year" data-y="1">
+          <header><b>Year 1</b><span class="you">You're here</span></header>
+          <div class="term"><span class="tl">Fall</span><div class="item plan">Meet your advisor and mention the certificate early.</div></div>
+          <div class="term"><span class="tl">Spring</span><div class="item plan">Plan BITM 215 for sophomore year. It isn't open to first-year students.</div></div>
+        </div>
+        <div class="year" data-y="2">
+          <header><b>Year 2</b><span class="you">You're here</span></header>
+          <div class="term"><span class="tl">Fall or spring</span><div class="item course-i"><span class="k">Course</span><b>BITM 215</b>Excel and spreadsheet analysis</div></div>
+          <div class="term"><span class="tl">All year</span><div class="item plan">Keep your GPA at 3.25 or above. You'll need it to apply next year.</div></div>
+        </div>
+        <div class="year" data-y="3">
+          <header><b>Year 3</b><span class="you">You're here</span></header>
+          <div class="term"><span class="tl">Fall</span>
+            <div class="item apply"><span class="k">Apply</span>Junior standing and a 3.25 GPA? Submit the application.</div>
+            <div class="item course-i"><span class="k">Course</span><b>BITM 330</b>Databases and SQL (needs junior standing)</div>
+          </div>
+          <div class="term"><span class="tl">Spring</span><div class="item course-i"><span class="k">Course</span><b>BITM 322</b>Statistics and hypothesis testing</div></div>
+        </div>
+        <div class="year" data-y="4">
+          <header><b>Year 4</b><span class="you">You're here</span></header>
+          <div class="term"><span class="tl">Fall</span>
+            <div class="item due"><span class="k">Deadline</span>Application due by the start of senior year</div>
+            <div class="item course-i"><span class="k">Course</span><b>BITM 415</b>Predictive analytics (needs 322 and 330)</div>
+          </div>
+          <div class="term"><span class="tl">Spring</span>
+            <div class="item course-i"><span class="k">Course</span><b>BITM 416</b>Spring only. Register during fall registration.</div>
+            <div class="item award"><span class="k">Award</span>Registrar review at graduation. Certificate arrives with your diploma.</div>
+          </div>
+        </div>
+      </div>
+      <p class="note">Why this order: BITM 330 needs junior standing, BITM 415 needs both 322 and 330, and BITM 416 is offered in spring only. Confirm your sequence with your advisor before each registration period.</p>
+    </div>
+  </section>
+
+  <!-- ELIGIBILITY -->
+  <section id="eligibility">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">Eligibility</div>
+        <h2>Who can apply</h2>
+      </div>
+      <div class="stack">
+        <div class="req hl-purple"><div class="big">3.25</div><p><b>Minimum GPA to be admitted.</b> Your overall GPA at the time you apply.</p></div>
+        <div class="req"><div class="big">Jr.</div><p><b>Junior standing,</b> or equivalent achievement in an associate's degree. First- and second-year students can plan ahead now.</p></div>
+        <div class="req"><div class="big">B</div><p><b>B or better in each required course</b> to keep your eligibility, all the way through BITM 416.</p></div>
+        <div class="req hl-gold"><div class="big">Sr.</div><p><b>Apply no later than the start of senior year.</b> Earlier is better: it leaves room for BITM 322, 415 and 416.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLY -->
+  <section id="apply">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">How to apply</div>
+        <h2>Four steps to get the certificate</h2>
+      </div>
+      <ol class="steps">
+        <li class="step"><h3>Talk with your advisor</h3><p>Check how the five courses fit your degree. Business majors: Massry Undergraduate Student Services. Other majors: your department advisor or the ISBA department chair.</p></li>
+        <li class="step"><h3>Fill out the application</h3><p>Use the form below, or scan the QR code. Enter your UAlbany email so our reply reaches you.</p></li>
+        <li class="step"><h3>Hear back by email</h3><p>The department reviews your record and confirms your status in writing, with instructions for the courses you still need.</p></li>
+        <li class="step"><h3>Finish strong</h3><p>Keep a B or better in each course and register for BITM 416 in senior spring. At graduation, the Registrar verifies everything and posts the award.</p></li>
+      </ol>
+
+      <div class="form-card">
+        <h3>Certificate application</h3>
+        <p>Takes a few minutes. Have your UAlbany email and student ID handy.</p>
+        <div id="jotform-slot">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/211263187401144"></script>
+        </div>
+        <div class="form-fallback" id="form-fallback" hidden>
+          <p>The form didn't load here. Open it in a new tab instead:</p>
+          <a class="btn btn-purple" href="https://form.jotform.com/nimdvir/isba" target="_blank" rel="nofollow noopener noreferrer">Open the application form</a>
+        </div>
+      </div>
+      <aside class="qr-card">
+        <a class="qr" href="https://form.jotform.com/nimdvir/isba" target="_blank" rel="nofollow noopener noreferrer"><img src="/business-analytics-certificate/application-qr.png" width="160" alt="QR code for the certificate application form"></a>
+        <div class="t">
+          <div class="eyebrow">On your phone?</div>
+          <p>Scan the code to open the application.</p>
+          <a class="link" href="https://form.jotform.com/nimdvir/isba" target="_blank" rel="nofollow noopener noreferrer">form.jotform.com/nimdvir/isba</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- THE CERTIFICATE -->
+  <section id="certificate">
+    <div class="wrap col award">
+      <div class="sec-head" style="margin-bottom:0">
+        <div class="eyebrow">What you receive</div>
+        <h2>The certificate itself</h2>
+      </div>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><span><b>A printed certificate</b> from the State University of New York, University at Albany, mailed with your diploma.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><span><b>A transcript notation,</b> which is also the official proof of the award.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><span><b>A line for your résumé and LinkedIn:</b> Undergraduate Certificate in Business Analytics, University at Albany.</span></li>
+      </ul>
+      <div class="cert-stage">
+        <button class="cert" type="button" data-zoom aria-label="Enlarge the sample certificate">
+          <span class="frame"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics awarded to Jane Doe, B.S." width="1000" height="965" loading="lazy"></span>
+        </button>
+      </div>
+      <p class="note" style="margin-top:0">Sample shown with a placeholder name.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">Common questions</div>
+        <h2>Before you email us</h2>
+      </div>
+      <div class="faq">
+        <details><summary>Do I have to be a business major?</summary><p>No. The certificate is open to qualified UAlbany students in any major. Several BITM courses list a declared School of Business major as a prerequisite, so if you're in another major, ask your advisor or email us about registration before you build your plan.</p></details>
+        <details><summary>Will I need five extra courses?</summary><p>Not necessarily. Business students may already have some of these courses in their degree plan, and ISBA concentrators take all five. Your advisor can tell you which ones would be extra for you.</p></details>
+        <details><summary>Is this the same as the ISBA concentration?</summary><p>No. The certificate is a separate recognition with its own application and grade requirements. ISBA concentrators take all five courses anyway, but they still need to apply to receive the certificate.</p></details>
+        <details><summary>I'm a first-year or sophomore. Is it too early?</summary><p>It's the right time to plan. Formal admission generally needs junior standing, but planning now is how you keep junior spring open for BITM 322 and senior spring for BITM 416.</p></details>
+        <details><summary>I'm already a senior. Can I still do it?</summary><p>Applications are due by the start of senior year, and BITM 322 and 416 are both spring courses. If you've already applied and you're in BITM 415 this fall, register for BITM 416 for spring. If you haven't applied, email us now and we'll look at your situation.</p></details>
+        <details><summary>If I take all five courses, do I get the certificate automatically?</summary><p>No. You need to apply. The certificate goes to admitted students who complete the courses with a B or better in each and meet the GPA requirement.</p></details>
+        <details><summary>What if I get a grade below a B?</summary><p>A B or better in each required course is needed to keep your eligibility. If it happens, email us before you change your plans so we can talk it through.</p></details>
+        <details><summary>I took one of these courses at another school.</summary><p>Email us with the course name and school. Transfer courses are reviewed individually.</p></details>
+        <details><summary>My certificate didn't arrive with my diploma.</summary><p>Contact the Registrar's office. The transcript notation is the official proof of the award, and the Registrar has reprinted certificates before.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap col">
+      <div class="sec-head">
+        <div class="eyebrow">Questions</div>
+        <h2>Ask us anything.</h2>
+        <p class="lede">Write to the certificate inbox, or directly to the faculty member in charge of the program.</p>
+      </div>
+      <div class="stack">
+        <div class="ccard">
+          <span class="role">Certificate inbox</span>
+          <h3>Business Analytics Certificate</h3>
+          <p>Applications, eligibility and general questions.</p>
+          <div class="mailrow">
+            <a class="mail" href="mailto:BusinessAnalytics@albany.edu">BusinessAnalytics@albany.edu</a>
+            <button type="button" class="copy" data-copy="BusinessAnalytics@albany.edu">Copy</button>
+          </div>
+        </div>
+        <div class="ccard hl-gold">
+          <span class="role">Professor in charge</span>
+          <h3>Prof. Nim Dvir</h3>
+          <p>Information Systems and Business Analytics, Massry School of Business.</p>
+          <div class="mailrow">
+            <a class="mail" href="mailto:ndvir@albany.edu">ndvir@albany.edu</a>
+            <button type="button" class="copy" data-copy="ndvir@albany.edu">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="fine">
+  <div class="wrap col">
+    <div class="flogo"><img src="/business-analytics-certificate/ualbany-minerva.png" alt="" width="100" height="111"><span>Massry School of Business, University at Albany</span></div>
+    <span>Official requirements: <a href="https://www.albany.edu/undergraduate-bulletin/program-business-administration.php" target="_blank" rel="noopener noreferrer">University at Albany Undergraduate Bulletin</a>. If this page and the Bulletin ever disagree, the Bulletin wins. Confirm your course plan with your advisor.</span>
+  </div>
+</footer>
+
+<dialog id="zoom" aria-label="Sample certificate">
+  <button type="button" id="zoomClose">Close</button>
+  <img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics, full size." width="1000" height="965">
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/slim@4.4.0/tsparticles.slim.bundle.min.js"></script>
+<script>
+(function(){
+  const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cssVar=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+  /* ---- header collapses on scroll, like albany.edu ---- */
+  const head=document.getElementById("siteHead");
+  const onScroll=()=>head.classList.toggle("is-scrolled",window.scrollY>40);
+  window.addEventListener("scroll",onScroll,{passive:true}); onScroll();
+
+  /* ---- hero connected dots (tsParticles slim: links + hover grab + click push) ---- */
+  let heroContainer=null;
+  async function startParticles(){
+    if(typeof window.tsParticles==="undefined"||typeof window.loadSlim!=="function")return;
+    await loadSlim(tsParticles);
+    const small=innerWidth<640;
+    heroContainer=await tsParticles.load({id:"hero-particles",options:{
+      fullScreen:{enable:false},detectRetina:true,fpsLimit:60,background:{color:"transparent"},
+      particles:{
+        number:{value:small?45:90,density:{enable:true}},
+        color:{value:[cssVar("--dot")||"#46166b","#eeb211"]},
+        opacity:{value:{min:.5,max:.9}},
+        size:{value:{min:2,max:3.6}},
+        links:{enable:true,distance:150,color:cssVar("--dot-link")||"#7a4fa3",opacity:.45,width:1.2},
+        move:{enable:!reduce,speed:1.1,direction:"none",random:true,straight:false,outModes:{default:"out"}}
+      },
+      interactivity:{detectsOn:"window",
+        events:{onHover:{enable:!small,mode:"grab"},onClick:{enable:true,mode:"push"},resize:{enable:true}},
+        modes:{grab:{distance:170,links:{opacity:.9,color:"#d99e00"}},push:{quantity:4}}}
+    }});
+  }
+  startParticles().catch(()=>{});
+  const pauseHero=document.getElementById("pauseHero");
+  if(reduce)pauseHero.hidden=true;
+  pauseHero.addEventListener("click",()=>{
+    const on=pauseHero.getAttribute("aria-pressed")!=="true";
+    pauseHero.setAttribute("aria-pressed",String(on));
+    pauseHero.textContent=on?"Play animation":"Pause animation";
+    if(heroContainer){on?heroContainer.pause():heroContainer.play();}
+  });
+
+  /* ---- connect-the-dots chart ---- */
+  const NS="http://www.w3.org/2000/svg";
+  const mk=(tag,attrs,parent)=>{const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);parent.appendChild(e);return e;};
+  const W=800,H=330,P=30;
+  const gGrid=document.getElementById("gGrid");
+  for(let x=P;x<=W-P;x+=74)mk("line",{x1:x,y1:P,x2:x,y2:H-P},gGrid);
+  for(let y=P;y<=H-P;y+=54)mk("line",{x1:P,y1:y,x2:W-P,y2:y},gGrid);
+  let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+  const pts=[];for(let i=0;i<26;i++)pts.push([P+20+rnd()*(W-2*P-40),P+16+rnd()*(H-2*P-32)]);
+  const trend=[[60,262],[170,240],[280,248],[390,196],[500,206],[610,148],[700,118],[756,84]];
+  const all=pts.concat(trend);
+  const gLinks=document.getElementById("gLinks");
+  for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+    const d=Math.hypot(pts[i][0]-pts[j][0],pts[i][1]-pts[j][1]);
+    if(d<118)mk("line",{class:"link",x1:pts[i][0],y1:pts[i][1],x2:pts[j][0],y2:pts[j][1],pathLength:1},gLinks);
+  }
+  const gDots=document.getElementById("gDots");
+  all.forEach((p,i)=>{const c=mk("circle",{class:"dot",cx:p[0],cy:p[1],r:4},gDots);c.style.transitionDelay=(i*25)+"ms";});
+  const dPath="M"+trend.map(p=>p.join(" ")).join(" L");
+  document.getElementById("trend").setAttribute("d",dPath);
+  document.getElementById("area").setAttribute("d",dPath+" L"+trend[trend.length-1][0]+" "+(H-P)+" L"+trend[0][0]+" "+(H-P)+" Z");
+  const gT=document.getElementById("gTdots");
+  trend.forEach(p=>mk("circle",{class:"tdot",cx:p[0],cy:p[1],r:6},gT));
+  const end=trend[trend.length-1];
+  const ring=document.getElementById("ring");ring.setAttribute("cx",end[0]);ring.setAttribute("cy",end[1]);
+  document.getElementById("tag").setAttribute("transform","translate("+(end[0]-176)+","+(end[1]-58)+")");
+
+  const chart=document.getElementById("chart"),pauseChart=document.getElementById("pauseChart");
+  let timers=[],chartPaused=false;
+  const at=(ms,fn)=>timers.push(setTimeout(fn,ms));
+  function cycle(){
+    if(chartPaused)return;
+    chart.classList.remove("s1","s2","s3","s4");
+    at(900,()=>chart.classList.add("s1"));
+    at(2000,()=>chart.classList.add("s2"));
+    at(3600,()=>chart.classList.add("s3"));
+    at(6000,()=>chart.classList.add("s4"));
+    at(11000,cycle);
+  }
+  if(reduce){pauseChart.hidden=true;}
+  else{
+    const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&!timers.length&&!chartPaused){at(1500,cycle);}});},{threshold:.4});
+    io.observe(chart);
+  }
+  pauseChart.addEventListener("click",()=>{
+    chartPaused=!chartPaused;
+    pauseChart.setAttribute("aria-pressed",String(chartPaused));
+    pauseChart.textContent=chartPaused?"Play animation":"Pause animation";
+    chart.classList.toggle("paused",chartPaused);
+    if(chartPaused){timers.forEach(clearTimeout);timers=[];chart.classList.add("s1","s2","s3","s4");}
+    else{cycle();}
+  });
+
+  /* ---- application form: show a fallback if the embed didn't load ---- */
+  setTimeout(()=>{
+    const slot=document.getElementById("jotform-slot");
+    if(!slot.querySelector("iframe")){slot.hidden=true;document.getElementById("form-fallback").hidden=false;}
+  },3500);
+
+  /* ---- course tracker ---- */
+  const codes=["215","330","322","415","416"];
+  const ringM=document.getElementById("ringM"),meterText=document.getElementById("meterText");
+  function saved(){try{return JSON.parse(store.get("ba-done")||"[]")}catch(e){return []}}
+  function renderMeter(){
+    const done=codes.filter(c=>document.getElementById("c"+c).checked);
+    codes.forEach(c=>document.querySelector('.course[data-code="'+c+'"]').classList.toggle("done",done.includes(c)));
+    ringM.style.setProperty("--p",done.length/5*100);
+    ringM.dataset.n=done.length+"/5";
+    meterText.textContent=done.length===0?"Not started":done.length===5?"All five done":(5-done.length)+" to go";
+    store.set("ba-done",JSON.stringify(done));
+  }
+  saved().forEach(c=>{const el=document.getElementById("c"+c);if(el)el.checked=true;});
+  codes.forEach(c=>document.getElementById("c"+c).addEventListener("change",renderMeter));
+
+  /* ---- planner ---- */
+  const steps={
+    "1":["Start planning now","You can't apply yet, but you can set things up. Meet your advisor, mention the certificate, and plan BITM 215 for sophomore year."],
+    "2":["Take BITM 215","Get BITM 215 done this year, and make sure your plan leaves room for BITM 330 and BITM 322 in junior year. Keep your GPA at 3.25 or above."],
+    "3":["Apply this year, and take BITM 330 and 322","Once you have junior standing and a 3.25 GPA, fill out the application form on this page. Don't wait: the deadline is the start of senior year."],
+    "4":["Register for BITM 416 for spring","If you're in BITM 415 this fall, sign up for BITM 416 during registration. Haven't applied yet? The deadline is the start of senior year, so email us today and we'll look at your situation."],
+    "t":["Your associate's degree may count","Equivalent achievement in an associate's degree can stand in for junior standing. Email us with your transfer courses and we'll help you map out BITM 330, 322, 415 and 416."]
+  };
+  const yearBtns=[...document.querySelectorAll(".yearpick button")];
+  function setYear(y){
+    yearBtns.forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.year===y)));
+    const n=y==="t"?3:+y;
+    document.querySelectorAll(".year").forEach(el=>{const v=+el.dataset.y;el.classList.toggle("here",v===n);el.classList.toggle("past",v<n);});
+    document.getElementById("nsTitle").textContent=steps[y][0];
+    document.getElementById("nsBody").textContent=steps[y][1];
+    store.set("ba-year",y);
+  }
+  yearBtns.forEach(b=>b.addEventListener("click",()=>setYear(b.dataset.year)));
+
+  /* ---- lightbox ---- */
+  const dlg=document.getElementById("zoom");
+  document.querySelectorAll("[data-zoom]").forEach(b=>b.addEventListener("click",()=>{if(dlg.showModal)dlg.showModal();}));
+  document.getElementById("zoomClose").addEventListener("click",()=>dlg.close());
+  dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close();});
+
+  /* ---- copy ---- */
+  const toast=document.getElementById("toast");
+  function showToast(t){toast.textContent=t;toast.classList.add("show");clearTimeout(showToast.t);showToast.t=setTimeout(()=>toast.classList.remove("show"),1800);}
+  document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
+    const v=b.dataset.copy;
+    const sel=()=>{const a=b.parentElement.querySelector(".mail");const r=document.createRange();r.selectNodeContents(a);const s=getSelection();s.removeAllRanges();s.addRange(r);showToast("Selected. Press Ctrl+C or Cmd+C to copy.");};
+    try{navigator.clipboard.writeText(v).then(()=>showToast("Copied "+v),sel);}catch(e){sel();}
+  }));
+
+  /* ---- init ---- */
+  const y0=store.get("ba-year");setYear(steps[y0]?y0:"2");
+  renderMeter();
+})();
+</script>
+</body>
+</html>

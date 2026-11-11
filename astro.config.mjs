@@ -10,6 +10,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => !page.includes("/design"),
+      // Static page in public/, so the sitemap needs it listed explicitly.
+      customPages: ["https://nimdvir.com/business-analytics-certificate/"],
     }),
   ],
   devToolbar: {
