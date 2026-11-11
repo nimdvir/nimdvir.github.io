@@ -403,6 +403,15 @@ section + section{border-top:0}
 .hero .cert{box-shadow:0 2px 4px rgba(0,0,0,.3),0 22px 36px -10px rgba(0,0,0,.5),0 60px 110px -24px rgba(0,0,0,.8),0 0 0 1px rgba(255,255,255,.3),0 0 90px 10px rgba(238,178,17,.16)}
 .hero .cert:hover,.hero .cert:focus-visible{box-shadow:0 2px 4px rgba(0,0,0,.3),0 30px 46px -12px rgba(0,0,0,.55),0 80px 140px -26px rgba(0,0,0,.85),0 0 0 1px rgba(255,255,255,.4),0 0 120px 16px rgba(238,178,17,.26)}
 
+
+/* ---------- v8: sample stamp + majors note ---------- */
+.cert-art{display:block;position:relative;line-height:0}
+.sample-stamp{position:absolute;left:8%;right:8%;top:72.9%;height:4.6%;display:flex;align-items:center;justify-content:center;background:#fff;color:#696169;font:600 clamp(7px,1vw,13px)/1 var(--f-body);letter-spacing:.2em;text-transform:uppercase;pointer-events:none}
+.majors-note{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin-top:16px;padding:14px 16px;border-radius:12px;background:rgba(238,178,17,.14);border:1px solid rgba(238,178,17,.55);color:#f3eaf9;font-size:1rem;line-height:1.5;max-width:40em}
+.majors-note b{color:#fff}
+.majors-note a{color:var(--gold);font-weight:600}
+.mn-icon{width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--gold-ink);display:grid;place-items:center;font:800 .9rem var(--f-display);margin-top:1px}
+
 /* lightbox + toast */
 dialog#zoom{border:0;padding:0;background:transparent;max-width:min(940px,94vw);width:100%;overflow:visible}
 dialog#zoom::backdrop{background:rgba(25,10,40,.8)}
@@ -452,6 +461,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
         <div class="fact" role="listitem"><b>3.25</b><span>GPA to apply</span></div>
         <div class="fact" role="listitem"><b>Any</b><span>major can apply</span></div>
       </div>
+      <p class="majors-note"><span class="mn-icon" aria-hidden="true">!</span><span><b>Not a business major?</b> You can still apply, but several required BITM courses restrict registration to declared business majors. Check with your advisor before you plan. <a href="#faq-majors" id="majorsLink">How it works</a></span></p>
       <div class="hero-foot">
         <span>Move your cursor over the dots. They connect, which is more or less the point of analytics.</span>
         <button type="button" class="pause" id="pauseHero" aria-pressed="false">Pause animation</button>
@@ -460,10 +470,10 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
     <div>
       <div class="cert-stage">
         <button class="cert" type="button" data-zoom aria-label="Enlarge the sample certificate">
-          <span class="frame"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics from the State University of New York, University at Albany, awarded to Jane Doe, B.S., with four signatures." width="1000" height="965"></span>
+          <span class="frame"><span class="cert-art"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics from the State University of New York, University at Albany, awarded to Jane Doe, B.S., with four signatures." width="1000" height="965"><span class="sample-stamp" aria-hidden="true">Sample certificate</span></span></span>
         </button>
       </div>
-      <p class="cert-note">Sample certificate. Tap to enlarge.</p>
+      <p class="cert-note">Tap to enlarge.</p>
     </div>
   </div>
 </div>
@@ -721,7 +731,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       </ul>
       <div class="cert-stage">
         <button class="cert" type="button" data-zoom aria-label="Enlarge the sample certificate">
-          <span class="frame"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics awarded to Jane Doe, B.S." width="1000" height="965" loading="lazy"></span>
+          <span class="frame"><span class="cert-art"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics awarded to Jane Doe, B.S." width="1000" height="965" loading="lazy"><span class="sample-stamp" aria-hidden="true">Sample certificate</span></span></span>
         </button>
       </div>
       <p class="note" style="margin-top:0">Sample shown with a placeholder name.</p>
@@ -736,7 +746,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
         <h2>Before you email us</h2>
       </div>
       <div class="faq">
-        <details><summary>Do I have to be a business major?</summary><p>No. The certificate is open to qualified UAlbany students in any major. Several BITM courses list a declared School of Business major as a prerequisite, so if you're in another major, ask your advisor or email us about registration before you build your plan.</p></details>
+        <details id="faq-majors"><summary>Do I have to be a business major?</summary><p>No. The certificate is open to qualified UAlbany students in any major. Several BITM courses list a declared School of Business major as a prerequisite, so if you're in another major, ask your advisor or email us about registration before you build your plan.</p></details>
         <details><summary>Will I need five extra courses?</summary><p>Not necessarily. Business students may already have some of these courses in their degree plan, and ISBA concentrators take all five. Your advisor can tell you which ones would be extra for you.</p></details>
         <details><summary>Is this the same as the ISBA concentration?</summary><p>No. The certificate is a separate recognition with its own application and grade requirements. ISBA concentrators take all five courses anyway, but they still need to apply to receive the certificate.</p></details>
         <details><summary>I'm a first-year or sophomore. Is it too early?</summary><p>It's the right time to plan. Formal admission generally needs junior standing, but planning now is how you keep junior spring open for BITM 322 and senior spring for BITM 416.</p></details>
@@ -790,7 +800,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
 
 <dialog id="zoom" aria-label="Sample certificate">
   <button type="button" id="zoomClose">Close</button>
-  <img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics, full size." width="1000" height="965">
+  <span class="cert-art"><img src="/business-analytics-certificate/certificate-sample.webp" alt="Sample Certificate in Business Analytics, full size." width="1000" height="965"><span class="sample-stamp" aria-hidden="true">Sample certificate</span></span>
 </dialog>
 <div class="toast" id="toast" role="status"></div>
 
@@ -929,6 +939,9 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
     store.set("ba-year",y);
   }
   yearBtns.forEach(b=>b.addEventListener("click",()=>setYear(b.dataset.year)));
+
+  /* ---- majors note opens its FAQ answer ---- */
+  document.getElementById("majorsLink").addEventListener("click",()=>{const d=document.getElementById("faq-majors");if(d)d.open=true;});
 
   /* ---- lightbox ---- */
   const dlg=document.getElementById("zoom");
