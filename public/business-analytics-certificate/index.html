@@ -604,7 +604,6 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       </div>
       <div class="hero-foot">
         <span>Move your cursor over the dots. They connect, which is more or less the point of analytics.</span>
-        <button type="button" class="pause" id="pauseHero" aria-pressed="false">Pause animation</button>
       </div>
     </div>
     <div>
@@ -640,7 +639,6 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
       <figure class="chart-card" style="margin-inline:0">
         <div class="chart-top">
           <span class="eyebrow">Connect the dots</span>
-          <button type="button" class="pause" id="pauseChart" aria-pressed="false">Pause animation</button>
         </div>
         <div class="chart s1 s2 s3 s4" id="chart">
           <svg viewBox="0 0 800 330" role="img" aria-label="Scattered data points connect into a network, then a rising gold trend line emerges through them, ending at a highlighted point labeled Find an insight.">
@@ -987,14 +985,6 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
     }});
   }
   startParticles().catch(()=>{});
-  const pauseHero=document.getElementById("pauseHero");
-  if(reduce)pauseHero.hidden=true;
-  pauseHero.addEventListener("click",()=>{
-    const on=pauseHero.getAttribute("aria-pressed")!=="true";
-    pauseHero.setAttribute("aria-pressed",String(on));
-    pauseHero.textContent=on?"Play animation":"Pause animation";
-    if(heroContainer){on?heroContainer.pause():heroContainer.play();}
-  });
 
   /* ---- connect-the-dots chart ---- */
   const NS="http://www.w3.org/2000/svg";
@@ -1023,7 +1013,7 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
   const ring=document.getElementById("ring");ring.setAttribute("cx",end[0]);ring.setAttribute("cy",end[1]);
   document.getElementById("tag").setAttribute("transform","translate("+(end[0]-176)+","+(end[1]-58)+")");
 
-  const chart=document.getElementById("chart"),pauseChart=document.getElementById("pauseChart");
+  const chart=document.getElementById("chart");
   let timers=[],chartPaused=false;
   const at=(ms,fn)=>timers.push(setTimeout(fn,ms));
   function cycle(){
@@ -1035,19 +1025,10 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
     at(6000,()=>chart.classList.add("s4"));
     at(11000,cycle);
   }
-  if(reduce){pauseChart.hidden=true;}
-  else{
+  if(!reduce){
     const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&!timers.length&&!chartPaused){at(1500,cycle);}});},{threshold:.4});
     io.observe(chart);
   }
-  pauseChart.addEventListener("click",()=>{
-    chartPaused=!chartPaused;
-    pauseChart.setAttribute("aria-pressed",String(chartPaused));
-    pauseChart.textContent=chartPaused?"Play animation":"Pause animation";
-    chart.classList.toggle("paused",chartPaused);
-    if(chartPaused){timers.forEach(clearTimeout);timers=[];chart.classList.add("s1","s2","s3","s4");}
-    else{cycle();}
-  });
 
   /* ---- application form: show a fallback if the embed didn't load ---- */
   setTimeout(()=>{
