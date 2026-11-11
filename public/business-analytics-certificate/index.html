@@ -66,7 +66,7 @@ html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}
 :root{color-scheme:light}
 
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
+html{scroll-behavior:smooth;scroll-padding-top:130px}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:var(--step-0);line-height:1.7;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--head-bg)}
@@ -412,6 +412,92 @@ section + section{border-top:0}
 .majors-note a{color:var(--gold);font-weight:600}
 .mn-icon{width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--gold-ink);display:grid;place-items:center;font:800 .9rem var(--f-display);margin-top:1px}
 
+
+/* ---------- v9: bigger type, wider layout ---------- */
+:root{
+  --step--1:clamp(1rem,.92rem + .3vw,1.15rem);
+  --step-0:clamp(1.125rem,.95rem + .55vw,1.4rem);
+  --step-1:clamp(1.3rem,1.05rem + .8vw,1.75rem);
+  --step-2:clamp(1.7rem,1.3rem + 1.2vw,2.4rem);
+  --step-3:clamp(2.3rem,1.6rem + 2.6vw,3.9rem);
+  --step-4:clamp(2.9rem,1.8rem + 4.6vw,6.2rem);
+  --col:1280px;
+}
+.wrap{max-width:1440px;padding-left:max(24px,env(safe-area-inset-left,0px),4vw);padding-right:max(24px,env(safe-area-inset-right,0px),4vw)}
+.col{max-width:var(--col)}
+.sec-head{max-width:1000px;gap:20px;margin-bottom:56px}
+.lede{max-width:none;font-size:var(--step-1)}
+.note{max-width:none;font-size:var(--step--1)}
+.eyebrow{font-size:clamp(.85rem,.75rem + .3vw,1.05rem)}
+section{padding-block:clamp(80px,9vw,150px)}
+.hero p.sub{max-width:34em;font-size:var(--step-1)}
+.hero-grid{gap:clamp(40px,6vw,120px)}
+.cert{max-width:600px}
+.award .cert{max-width:720px}
+.fact b{font-size:clamp(2rem,1.4rem + 1.8vw,3rem)}
+.fact span{font-size:var(--step--1)}
+.majors-note{font-size:var(--step--1);max-width:none}
+.btn{font-size:clamp(1.05rem,.95rem + .35vw,1.3rem);padding:clamp(16px,1.2vw,22px) clamp(24px,2vw,34px)}
+.site-head nav a{font-size:clamp(1rem,.9rem + .3vw,1.2rem)}
+.site-head .wrap{gap:32px}
+h3{font-size:var(--step-1)}
+.benefit,.req,.step,.ccard,.course,.nextstep{padding:clamp(24px,2.4vw,40px) clamp(24px,2.8vw,48px)}
+.benefit .ic{width:64px;height:64px}.benefit .ic svg{width:32px;height:32px}
+.course{grid-template-columns:8.5em minmax(0,1fr) auto}
+.course h3{font-size:var(--step-1)}
+.course .num{font-size:clamp(1rem,.9rem + .3vw,1.2rem)}
+.course .when,.chip{font-size:clamp(.9rem,.82rem + .25vw,1.05rem)}
+.desc summary{font-size:var(--step--1)}
+.desc .dbody{font-size:var(--step-0)}
+.item{font-size:var(--step-0)}
+.item .k,.term .tl{font-size:clamp(.78rem,.72rem + .2vw,.92rem)}
+.item.course-i b{font-size:var(--step-0)}
+.year header b{font-size:var(--step-1)}
+.req .big{font-size:clamp(2rem,1.5rem + 1.6vw,3rem)}
+.step::before{font-size:clamp(2rem,1.5rem + 1.6vw,3rem)}
+.faq summary{font-size:var(--step-1)}
+.faq details p{max-width:none}
+.employers ul{font-size:var(--step-1)}
+.yearpick button{font-size:var(--step--1);padding:14px 24px}
+.chart-steps,.legend{font-size:var(--step--1)}
+.mail{font-size:var(--step--1)}
+.qr-card img{width:200px}
+footer.fine{font-size:var(--step--1)}
+@media (max-width:680px){.course{grid-template-columns:minmax(0,1fr) auto}}
+
+
+/* ---------- v10: section nav (replaces the school label when scrolled) ---------- */
+.site-head .wrap{flex-wrap:wrap;row-gap:0}
+.secnav{display:flex;align-items:center;gap:clamp(14px,1.6vw,28px);flex-wrap:nowrap}
+.secnav a{position:relative;padding-block:6px}
+.secnav a:not(.apply)::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:3px;border-radius:2px;background:var(--gold);transform:scaleX(0);transition:transform .2s}
+.secnav a:not(.apply):hover::after,.secnav a.active::after{transform:scaleX(1)}
+.secnav a.active{color:#fff}
+.site-head nav a.apply{padding:12px 22px}
+.site-head.is-scrolled .logo .school{display:none}
+/* narrower screens: section links move to their own scrollable row */
+@media (max-width:1180px){
+  .site-head nav a:not(.apply){display:inline-block}
+  .secnav{order:3;flex-basis:100%;overflow-x:auto;scrollbar-width:none;padding:6px 0 10px;margin-top:6px;border-top:1px solid rgba(255,255,255,.14);gap:22px}
+  .secnav::-webkit-scrollbar{display:none}
+  .secnav a{flex:none}
+  .secnav a.apply{margin-left:auto}
+}
+@media (max-width:560px){
+  .secnav{gap:18px;font-size:.95rem}
+  .secnav a{font-size:.98rem!important}
+  .site-head nav a.apply{padding:8px 14px}
+}
+
+
+/* keep logo and section links on one row on wide screens */
+@media (min-width:1181px){
+  .secnav{gap:clamp(12px,1.1vw,24px)}
+  .secnav a{font-size:clamp(.98rem,.8rem + .25vw,1.12rem)!important}
+  .site-head .wrap{flex-wrap:nowrap}
+}
+@media (min-width:1181px) and (max-width:1700px){.logo .school span{display:none}}
+
 /* lightbox + toast */
 dialog#zoom{border:0;padding:0;background:transparent;max-width:min(940px,94vw);width:100%;overflow:visible}
 dialog#zoom::backdrop{background:rgba(25,10,40,.8)}
@@ -433,12 +519,13 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
         <span class="school">Massry School of Business <span>· Business Analytics Certificate</span></span>
       </span>
     </a>
-    <nav aria-label="Page sections">
-      <a href="#courses">Courses</a>
-      <a href="#planner">Timeline</a>
-      <a href="#eligibility">Eligibility</a>
-      <a href="#contact">Questions</a>
-      <a class="apply" href="#apply">Apply</a>
+    <nav class="secnav" aria-label="Page sections">
+      <a href="#why">Why it's worth it</a>
+      <a href="#courses">What to take</a>
+      <a href="#planner">When to take it</a>
+      <a href="#eligibility">Who can apply</a>
+      <a href="#faq">Questions</a>
+      <a class="apply" href="#apply">How to apply</a>
     </nav>
   </div>
 </header>
@@ -942,6 +1029,16 @@ dialog#zoom button{position:absolute;top:12px;right:12px;font:700 1rem var(--f-b
 
   /* ---- majors note opens its FAQ answer ---- */
   document.getElementById("majorsLink").addEventListener("click",()=>{const d=document.getElementById("faq-majors");if(d)d.open=true;});
+
+  /* ---- section nav: highlight the section in view ---- */
+  const navLinks=[...document.querySelectorAll('.secnav a:not(.apply)')];
+  const secs=navLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const markActive=()=>{const y=window.scrollY+window.innerHeight*0.35;let cur=null;
+    secs.forEach(sec=>{if(sec.offsetTop<=y)cur=sec;});
+    navLinks.forEach(a=>a.classList.toggle('active',!!cur&&a.getAttribute('href')==='#'+cur.id));
+    const act=document.querySelector('.secnav a.active');
+    if(act&&act!==markActive.last&&innerWidth<=1180){markActive.last=act;const nav=act.parentElement;const l=act.offsetLeft-nav.clientWidth/2+act.clientWidth/2;nav.scrollTo({left:l,behavior:'smooth'});}};
+  window.addEventListener('scroll',markActive,{passive:true});markActive();
 
   /* ---- lightbox ---- */
   const dlg=document.getElementById("zoom");
