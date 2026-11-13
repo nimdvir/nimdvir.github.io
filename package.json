@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.16.6"
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.2"
   },
   "devDependencies": {
     "cloudinary": "^2.8.0",
