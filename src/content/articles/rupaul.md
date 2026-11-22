@@ -21,10 +21,10 @@ tags:
 - Television
 - LGBTQ+
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1771137278/2_gd_kunxwp.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771137278/2_gd_kunxwp.jpg
-imageAlt: RuPaul
-imageCredit: Photo as published on the earlier version of this page
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368163/articles/heroes/W006-rupaul.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368163/articles/heroes/W006-rupaul.jpg
+imageAlt: RuPaul in a white wig and an iridescent jacket
+imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/rupaul/
 draft: false
 ---

@@ -22,10 +22,10 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1763929039/jim-carrey_jqfnzq.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1763929039/jim-carrey_jqfnzq.jpg
-imageAlt: Jim Carrey
-imageCredit: Photo as published on the earlier version of this page
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368160/articles/heroes/W002-jim-carrey.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368160/articles/heroes/W002-jim-carrey.jpg
+imageAlt: Jim Carrey smiling, in a dark jacket against a white wall
+imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/jim-carrey/
 draft: false
 ---

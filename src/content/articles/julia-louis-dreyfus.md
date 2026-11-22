@@ -24,10 +24,11 @@ tags:
 - Hollywood
 - New York
 - Politics
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1771105087/Julia_Louis-Dreyfus_May_2017_higav7.jpg
-imageAlt: Julia Louis-Dreyfus in May 2017
-imageCredit: Photo as published on the earlier version of this page
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368161/articles/heroes/W003-julia-louis-dreyfus.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368161/articles/heroes/W003-julia-louis-dreyfus.jpg
+imageAlt: Julia Louis-Dreyfus smiling against a gold wall
+imageCaption: Julia Louis-Dreyfus. "I've never been to Israel, but I'd be very happy to come visit."
+imageCredit: 'Photo: AFP'
 legacyPath: /interviews/julia-louis-dreyfus/
 draft: false
 ---

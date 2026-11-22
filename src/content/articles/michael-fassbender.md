@@ -23,10 +23,10 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/Fesbender_rphlra.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/Fesbender_rphlra.jpg
-imageAlt: Michael Fassbender
-imageCredit: Photo as published on the earlier version of this page
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368165/articles/heroes/W165-michael-fassbender.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368165/articles/heroes/W165-michael-fassbender.jpg
+imageAlt: Black-and-white portrait of Michael Fassbender
+imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/michael-fassbender/
 draft: false
 ---

@@ -24,14 +24,10 @@ tags:
 - Hollywood
 - New York
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386476/Database-book-BITM330/vscode-auto/articles/W186-ryan-gosling.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386476/Database-book-BITM330/vscode-auto/articles/W186-ryan-gosling.jpg
-imageAlt: Ryan Gosling in a suit at the Cannes Film Festival
-imageCaption: Ryan Gosling at the Cannes Film Festival, May 2011.
-imageCredit: 'Photo: Raffi Asdourian, CC BY 2.0, via Wikimedia Commons'
-imageLicense: CC BY 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Ryan_Gosling_-_Cannes_Film_Festival_-_01_(cropped).jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368166/articles/heroes/W186-ryan-gosling.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368166/articles/heroes/W186-ryan-gosling.jpg
+imageAlt: Ryan Gosling in a plaid shirt, sitting on a leather sofa
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 
