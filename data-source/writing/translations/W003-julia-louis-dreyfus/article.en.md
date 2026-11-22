@@ -197,4 +197,8 @@ Dvir, N. (2019, March 28). Chazarti [I’m back]. Israel Hayom. https://www.isra
 
 [Original article at the publisher](https://www.israelhayom.co.il/article/645081) · [Verified Hebrew Markdown](../../originals/W003-julia-louis-dreyfus/article.he.md) · [Clean Hebrew HTML backup](../../originals/W003-julia-louis-dreyfus/article.he.html)
 
+**Print edition.** The interview ran as the cover story of Shishabat, Israel Hayom's weekend magazine, on March 29, 2019. Cover image from Nim's own copy of the print PDF, stored on Cloudinary.
+
+<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1795329257/shishabat-cover-julia-louis-dreyfus-2019-03-29.jpg" alt="Shishabat magazine cover from March 29, 2019, with Julia Louis-Dreyfus and the Hebrew headline 'I'm Back'" style="width:100%;max-width:520px;height:auto;display:block;margin:1.5rem auto 0.5rem;border-radius:8px;" />
+
 *This English translation was prepared on October 30, 2026 and was not published by the original publisher. Source images were not downloaded or re-hosted; captions and credits are preserved as provenance.*

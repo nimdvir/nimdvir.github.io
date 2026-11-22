@@ -110,4 +110,8 @@ Dreyfus insists she is less of a workaholic than Selina — but not by much. She
 
 ---
 
+<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1795329257/shishabat-cover-julia-louis-dreyfus-2019-03-29.jpg" alt="Shishabat magazine cover from March 29, 2019, with Julia Louis-Dreyfus and the Hebrew headline 'I'm Back'" style="width:100%;max-width:520px;height:auto;display:block;margin:1.5rem auto 0.5rem;border-radius:8px;" />
+
+*The interview on the cover of Shishabat, Israel Hayom's weekend magazine, March 29, 2019.*
+
 **Source:** [Original article on Israel Hayom (Hebrew)](https://www.israelhayom.co.il/article/645081)
