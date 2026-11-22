@@ -20,5 +20,20 @@
   },
   "notes": [
     "Stable inventory ID retained; do not produce duplicate article files."
-  ]
+  ],
+  "printCover": {
+    "publication": "Shishabat (Israel Hayom weekend magazine)",
+    "printDate": "2019-03-29",
+    "sourceFile": "Google Drive: שער ג'וליה לואי דרייפוס.pdf (Nim's copy of the print cover PDF)",
+    "conversion": "PDF page rendered to JPEG at 200 dpi, white margins trimmed, 2034x2724",
+    "cloudinaryPublicId": "shishabat-cover-julia-louis-dreyfus-2019-03-29",
+    "url": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795329257/shishabat-cover-julia-louis-dreyfus-2019-03-29.jpg",
+    "addedOn": "2026-11-22",
+    "embeddedIn": [
+      "src/content/interviews/julia-louis-dreyfus.md",
+      "data-source/writing/translations/W003-julia-louis-dreyfus/article.en.md",
+      "data-source/writing/originals/W003-julia-louis-dreyfus/article.he.md",
+      "data-source/writing/originals/W003-julia-louis-dreyfus/article.he.html"
+    ]
+  }
 }

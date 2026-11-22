@@ -189,4 +189,8 @@ Dvir, N. (2019, March 28). Chazarti [I’m back]. Israel Hayom. https://www.isra
 
 [לכתבה המקורית באתר המו״ל](https://www.israelhayom.co.il/article/645081) · [לגיבוי HTML הנקי](article.he.html)
 
+**המהדורה המודפסת.** הראיון הופיע כסיפור השער של "שישבת", מגזין סוף השבוע של "ישראל היום", ב־29 במרץ 2019. תמונת השער נלקחה מקובץ ה־PDF של העמוד המודפס ונשמרה ב־Cloudinary.
+
+<img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1200/v1795329257/shishabat-cover-julia-louis-dreyfus-2019-03-29.jpg" alt="שער מגזין שישבת מ־29 במרץ 2019, עם ג'וליה לואי דרייפוס והכותרת חזרתי" style="width:100%;max-width:520px;height:auto;display:block;margin:1.5rem auto 0.5rem;border-radius:8px;" />
+
 *תמונות המקור לא הורדו ולא הוטמעו. הכיתובים, הקרדיטים ומיקומי התמונות נשמרו; תמונות לשימוש חוזר ממתינות לרישיון מתועד.*
