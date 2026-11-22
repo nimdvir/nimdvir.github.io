@@ -1,6 +1,6 @@
 ---
 articleId: "W052"
-title: "J. No"
+title: "J No"
 subtitle: "Could everyone please stop reminding Jennifer Lopez that before the diamonds, the money and the fame she was just a little girl from the Bronx? Could we quit pestering her about her weakness for fur and her new status as the number one target of the animal-rights crowd? Could we just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and call it a day? Nimrod Dvir went to meet Her Grace, and the two fell out, badly"
 summary: "Could everyone please stop reminding Jennifer Lopez that before the diamonds, the money and the fame she was just a little girl from the Bronx? Could we quit pestering her about her weakness for fur and her new status as the number one target of the animal-rights crowd? Could we just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and call it a day? Nimrod Dvir went to meet Her Grace, and the two fell out, badly"
 author: "Nimrod Dvir"

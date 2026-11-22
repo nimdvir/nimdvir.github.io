@@ -1,6 +1,6 @@
 ---
 articleId: W052
-title: J. No
+title: J No
 subtitle: Could everyone please stop reminding Jennifer Lopez that before the diamonds, the money and the fame she was just a little girl from the Bronx? Could we quit pestering her about her weakness for fur and her new status as the number one target of the animal-rights crowd? Could we just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and call it a day? Nimrod Dvir went to meet Her Grace, and the two fell out, badly
 summary: Could everyone please stop reminding Jennifer Lopez that before the diamonds, the money and the fame she was just a little girl from the Bronx? Could we quit pestering her about her weakness for fur and her new status as the number one target of the animal-rights crowd? Could we just ask her a few questions about working with Robert Redford in their new film, An Unfinished Life, and call it a day? Nimrod Dvir went to meet Her Grace, and the two fell out, badly
 kind: interview
@@ -22,6 +22,10 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg
+imageAlt: Jennifer Lopez in a black leather coat, her hair blowing
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 

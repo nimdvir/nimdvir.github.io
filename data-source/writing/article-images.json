@@ -150,12 +150,28 @@
       },
       "end": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_1_s53dtm.jpg",
-          "width": 3232,
-          "height": 2215,
+          "caption": "The interview as it ran in print in Israel Hayom. Click a page to enlarge.",
           "credit": "Israel Hayom",
-          "alt": "The opening spread of the Killing Eve interview in Israel Hayom",
-          "caption": "The interview as it opened in print in Israel Hayom."
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_1_s53dtm.jpg",
+              "width": 3232,
+              "height": 2215,
+              "alt": "Killing Eve interview in print, page 1"
+            },
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_2_pesacr.jpg",
+              "width": 3189,
+              "height": 2186,
+              "alt": "Killing Eve interview in print, page 2"
+            },
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_3_dnzqvx.jpg",
+              "width": 3189,
+              "height": 2186,
+              "alt": "Killing Eve interview in print, page 3"
+            }
+          ]
         }
       ]
     }
@@ -342,6 +358,36 @@
           "credit": "Photo as published in the original article",
           "alt": "Two Smash cast members in a scene",
           "caption": "A scene from Smash."
+        },
+        {
+          "caption": "The interview as it ran in print, with Anjelica Huston. Click a page to enlarge.",
+          "credit": "Print edition",
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357618/image001-2_vsaz1r.png",
+              "width": 266,
+              "height": 400,
+              "alt": "Print page: Anjelica Huston opener"
+            },
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357619/image002_ssswqz.png",
+              "width": 311,
+              "height": 471,
+              "alt": "Print page: Anjelica Huston"
+            },
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357623/image003_yrwxrv.png",
+              "width": 259,
+              "height": 440,
+              "alt": "Print page"
+            },
+            {
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357626/image004_smxrct.png",
+              "width": 327,
+              "height": 453,
+              "alt": "Print page"
+            }
+          ]
         }
       ]
     }
@@ -383,5 +429,15 @@
         }
       ]
     }
+  },
+  "W052": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg",
+    "alt": "Jennifer Lopez in a black leather coat, her hair blowing",
+    "caption": "",
+    "credit": "Photographer not identified (from the author's archive)",
+    "width": 1320,
+    "height": 880,
+    "origin": "Nim's blog post on the interview (nimdvir.blogspot.com, 2014), placed 2026-11-22"
   }
 }

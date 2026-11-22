@@ -110,6 +110,27 @@ def photo_figure(photo: dict, caption_line: str | None) -> str:
     )
 
 
+def gallery_figure(gallery: dict) -> str:
+    """A row of print pages (or several photos) under one caption."""
+    imgs = []
+    for im in gallery["images"]:
+        src = im["image"]
+        if "/image/upload/" in src and not re.search(r"/image/upload/[^/]*[a-z]_[^/]*/", src):
+            src = src.replace("/image/upload/", "/image/upload/f_auto,q_auto,w_900,c_limit/", 1)
+        size = f' width="{im["width"]}" height="{im["height"]}"' if im.get("width") else ""
+        imgs.append(
+            f'<a href="{html.escape(im["image"], quote=True)}" target="_blank" rel="noopener noreferrer">'
+            f'<img src="{src}" alt="{html.escape(im.get("alt", ""), quote=True)}" loading="lazy"{size} /></a>'
+        )
+    cap = html.escape(gallery.get("caption", ""))
+    if gallery.get("credit"):
+        cap += f' <span class="photo-credit">{html.escape(gallery["credit"])}</span>'
+    return (
+        f'<figure class="article-photo print-pages"><div class="print-row">{"".join(imgs)}</div>'
+        f"<figcaption>{cap}</figcaption></figure>"
+    )
+
+
 def page_body(body: str, photos: dict | None = None) -> str:
     """Keep the article, drop the furniture the template renders itself.
 
@@ -187,7 +208,7 @@ def page_body(body: str, photos: dict | None = None) -> str:
     ends = photos.get("end")
     for end in ([ends] if isinstance(ends, dict) else ends or []):
         # A print page, cover or the author's own photo shown after the article.
-        out.append(photo_figure(end, None))
+        out.append(gallery_figure(end) if "images" in end else photo_figure(end, None))
     return "\n\n".join(out).strip() + "\n"
 
 

@@ -2471,3 +2471,19 @@ a {
   color: var(--muted);
   vertical-align: middle;
 }
+.article-body .print-pages .print-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.article-body .print-pages .print-row a {
+  flex: 1 1 200px;
+  max-width: 320px;
+}
+.article-body .print-pages img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid var(--line, #d7dde5);
+}
