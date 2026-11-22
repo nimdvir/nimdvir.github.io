@@ -39,7 +39,7 @@ And the business paid off. Patti's agency, the Millionaire's Club, based in Los 
 
 **So what is it you actually do?**
 
-"It's a job that never ends, like you see on the show. I meet prospective millionaires, I meet people who want to be matched with millionaires, I think about who fits whom. I teach the people who come to me how to behave, what to say and what to do on a date. I give my clients what they want. It's a hard business, because there's no one size fits all. Every one of my clients is different, and I have to adapt."
+"It's a job that never ends, like you see on the show. I meet with millionaires who might become clients, I meet people who want to be matched with millionaires, I think about who fits whom. I teach the people who come to me how to behave, what to say and what to do on a date. I give my clients what they want. It's a hard business, because there's no one size fits all. Every one of my clients is different, and I have to adapt."
 
 "Broadly, in the first stage I meet the millionaire, man or woman, and get to know them and what they're looking for. That's the reality-check stage. Usually they want a fantasy, and my job is to bring them down to earth and explain that they need to be reasonable."
 

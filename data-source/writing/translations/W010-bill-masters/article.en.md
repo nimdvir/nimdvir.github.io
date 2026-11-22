@@ -33,7 +33,7 @@ Among the guests in Israel this week are Sex and the City creator Darren Star, N
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
 *Masters. One of the fathers of Seinfeld. Collaboration and runaway success*
 
-Masters, 59, actually started out as a stand-up comic. Over the years he moved into writing, and by the nineties he was a full-time sitcom writer, with credits on Seinfeld, Grace Under Fire, Murphy Brown and more. Next week (Monday) he leads a writing workshop.
+Masters, 59, actually started out as a comedian. Over the years he moved into writing, and by the nineties he was a full-time sitcom writer, with credits on Seinfeld, Grace Under Fire, Murphy Brown and more. Next week (Monday) he leads a writing workshop.
 
 "Most shows hire a writing staff of six to 12 writers," he tells Ynet. "We start work in June, ahead of the fall season, when the head writer, who is usually also the show's creator, gathers all the writers for a meeting where everyone sits and talks about the show. Everyone throws out ideas, and from there you move on to working on each episode separately. The next stage is handing out the assignments to the writers."
 
@@ -44,7 +44,7 @@ Masters, 59, actually started out as a stand-up comic. Over the years he moved i
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
 *Seinfeld. The work goes on through the season, and the writers "sweeten" the episodes*
 
-"The goal, when you start in June like I said, is to have as many episodes as possible ready by the end of July. Once production is under way, from August to February, time is very tight. There are 22 to 25 episodes to make, and each one takes a week to shoot plus a few more weeks of post-production."
+"The goal, when you start in June like I said, is to have as many episodes as possible ready by the end of July. Once production is under way, from August to February, time is very tight. There are 22 to 25 episodes to make, and each one takes a week to produce, plus a few more weeks of post-production."
 
 ## Sitcom Factories Inc.
 

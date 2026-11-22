@@ -26,7 +26,7 @@ translationReviewedBy: null
 
 *English translation of the Hebrew original by Nimrod Dvir, published in Ynet on May 13, 2013. [Read the original in Hebrew](https://www.ynet.co.il/articles/0,7340,L-4378999,00.html).*
 
-Eva Mendes is considered one of the most beautiful women in Hollywood. Alongside the film roles that earned her mega-babe status, she models and moonlights in Revlon campaigns. In Derek Cianfrance's The Place Beyond the Pines, though, she goes out of her way to look a good deal worse than the glamorous character we've come to expect from Training Day, Ghost Rider, Hitch, Bad Lieutenant and Last Night.
+Eva Mendes is considered one of the most beautiful women in Hollywood. Alongside the film roles that earned her mega-babe status, she models and moonlights in Revlon campaigns. In Derek Cianfrance's The Place Beyond the Pines, though, she goes out of her way to look a good deal worse than the glamorous character we've come to expect from Training Day, Ghost Rider, Hitch, Bad Lieutenant: Port of Call New Orleans and Last Night.
 
 In The Place Beyond the Pines, Mendes, 39, plays a married, fairly hard-up woman from a town in New York State, raising a baby son who is the product of a casual encounter with Ryan Gosling, a stunt rider who turns to crime. Bradley Cooper, who plays a cop, and Gosling, who in real life holds the post of her boyfriend, keep their good looks in the film, shirt on or off. Mendes, unlike the men, had to work at looking a little ragged. It wasn't so simple.
 

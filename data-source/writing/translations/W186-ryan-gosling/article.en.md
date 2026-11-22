@@ -38,7 +38,7 @@ And he has done his reading. Gosling turned out to know the Roni Leibovitz story
 
 It sounds a little strange, but there's a chance that an Israeli bank robber is what landed Gosling the part. The film was directed by Derek Cianfrance, who made Blue Valentine, with Gosling opposite Michelle Williams. "One night I was having dinner with Derek and he asked me what I'd most like to do in life," the Hollywood heartthrob recalls. "I told him that if I could really do whatever I wanted, I'd rob a bank, but I'm scared of going to prison.
 
-"And then he said, 'Hey, I'm writing a script about exactly that.' So I told him about the method I'd come up with, and together we worked it into the script, how the robberies would go. All of those ideas were mine, inspired by the Israeli, whom I'd read about before I ever started imagining a heist."
+"And then he said, 'Hey, I'm writing a script about exactly that.' So I told him about the method I'd come up with, and then we developed the script together and figured out how the robberies would play out. All of those ideas were mine, inspired by the Israeli, whom I'd read about before I ever started imagining a heist."
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
 *Ryan Gosling. Wants to rob and can't (Photo: Gettyimages)*

@@ -1,6 +1,6 @@
 ---
 articleId: W118
-title: '"Nobody Stands a Chance Against Me": An Interview with Randy Harrison'
+title: '"Nobody Has a Chance with Me": An Interview with Randy Harrison'
 subtitle: Hot on the heels of Justin Bieber, another Justin is landing in Israel, and getting a different community worked up. Randy Harrison, the star of Queer as Folk, arrives this week to talk about patience, tolerance and accepting people who are different. "Mostly I speak out against violence and bullying," he tells Rating, Maariv's TV supplement. Menachem Ben, the anti-gay columnist, is invited too
 summary: Hot on the heels of Justin Bieber, another Justin is landing in Israel, and getting a different community worked up. Randy Harrison, the star of Queer as Folk, arrives this week to talk about patience, tolerance and accepting people who are different. "Mostly I speak out against violence and bullying," he tells Rating, Maariv's TV supplement. Menachem Ben, the anti-gay columnist, is invited too
 kind: interview
@@ -86,4 +86,4 @@ Since the series went off the air in 2005, Harrison has mostly done theater. He 
 
 **You do know the gay community in Israel is very excited about your visit? It'll be like throwing a steak into a lion cage.**
 
-Harrison laughs. "That's exciting, it makes me really happy. I'd rather people were excited than not. But I won't give it a second thought. I'm not planning anything on this trip. You can write that nobody stands a chance against me."
+Harrison laughs. "That's exciting, it makes me really happy. I'd rather people were excited than not. But I won't give it a second thought. I'm not planning anything on this trip. You can write that nobody has a chance with me."
