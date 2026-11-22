@@ -19,8 +19,8 @@ tags:
 - Interview
 - Music
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368162/articles/heroes/W004-lady-gaga.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368162/articles/heroes/W004-lady-gaga.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368162/PersonalSite/Interviews/W004-lady-gaga/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368162/PersonalSite/Interviews/W004-lady-gaga/lead-photo.jpg
 imageAlt: Lady Gaga in a stars-and-stripes headband and top, dancing in a diner
 imageCaption: Lady Gaga in the Telephone music video, 2010.
 imageCredit: Photographer not identified (from the author's archive)
@@ -88,7 +88,7 @@ Gaga considers herself an artist down to the last fiber. Even the sentences she 
 
 Speaking of good people: a great deal has been written about how Lady Gaga is, in fact, badly out of tune, and how the secret of her success lies in super-slick production. Meaning the producers are the ones who put the sting in songs like "Poker Face," while live, Gaga turns out to be a C-minus singer. One look at this year's Brit Awards, where she sang a tribute to the Pet Shop Boys and was as off-key as a run-over cat, was enough. When I ask her about it, she says: "I was very emotional at that moment. It was a great honor for me to perform with the Pet Shop Boys."
 
-<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377129/articles/originals/007_W004.jpg" alt="&quot;I always knew I was going to be a star&quot;" loading="lazy" width="408" height="307" /><figcaption>&quot;I always knew I was going to be a star&quot; <span class="photo-credit">Photo: Getty Images Imagebank</span></figcaption></figure>
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377129/PersonalSite/Interviews/W004-lady-gaga/original-photo-3.jpg" alt="&quot;I always knew I was going to be a star&quot;" loading="lazy" width="408" height="307" /><figcaption>&quot;I always knew I was going to be a star&quot; <span class="photo-credit">Photo: Getty Images Imagebank</span></figcaption></figure>
 
 **Are you aware of the criticism that "Gaga" is more production than talent?**
 

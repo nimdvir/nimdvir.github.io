@@ -22,8 +22,8 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795379164/PersonalSite/Interviews/W052-jennifer-lopez/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/W052-jennifer-lopez/lead-photo.jpg
 imageAlt: Jennifer Lopez in a black leather coat, her hair blowing
 imageCredit: Photographer not identified (from the author's archive)
 draft: false

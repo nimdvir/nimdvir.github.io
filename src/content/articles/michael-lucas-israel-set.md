@@ -23,8 +23,8 @@ tags:
 - Film
 - LGBTQ+
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760820184/Michael_Lucas_shlb68.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760820184/Michael_Lucas_shlb68.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760820184/PersonalSite/Interviews/W058-michael-lucas-israel-set/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760820184/PersonalSite/Interviews/W058-michael-lucas-israel-set/lead-photo.jpg
 imageAlt: Michael Lucas
 imageCredit: Photographer not identified (from the author's archive)
 draft: false
@@ -36,6 +36,8 @@ The production in question is Inside Israel (and no, the lead character is not c
 
 His first steps in the business were as an actor in blue movies (straight ones, to begin with), but he soon worked out which side his bread was buttered on and moved into producing and directing. The rest followed naturally: Lucas rose fast, put down roots in the industry and founded Lucas Entertainment, now considered one of the world's leading producers of gay porn. Lucas and his company supply the world with dozens of films a year, most of them of high quality, relatively speaking, for the genre.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1760819750/PersonalSite/Interviews/W058-michael-lucas-israel-set/original-photo-2-by-nim-dvir.jpg" alt="On set. In the lead role: the landscapes of the homeland" loading="lazy" width="408" height="258" /><figcaption>On set. In the lead role: the landscapes of the homeland <span class="photo-credit">Photo: Nimrod Dvir</span></figcaption></figure>
+
 Lucas came to Israel on the strength of his previous film, Men of Israel, which he shot here with Israeli actors. It came out in the United States last year, became a runaway hit, and gave Lucas an appetite. This time he is back with a slightly different production, one that is more about the country and less about the men's citizenship. The plot, if the term applies here, follows an international fashion photographer who decides to shoot in Israel. He brings models from all over the world, all of them gorgeous, naturally, and the gang shoots against Israeli scenery. And naturally, every one of those shoots ends in torrid sex. Shocking.
 
 Meaning to show Israel at its best, Lucas and his crew crisscrossed the country, shooting everywhere from the Golan Heights and the Jordan River to Ga'ash Beach (which is where we were) and Rosh Hanikra. Filming ran 11 days, a long time for a porn film, which says something about the project's ambition. The film, due at the end of November, will apparently be released in three parts, along with a special book of photographs (by the Israeli photographer Ronen Akerman) documenting the erotic journey through Israel.
@@ -43,6 +45,8 @@ Meaning to show Israel at its best, Lucas and his crew crisscrossed the country,
 ## All for the Tourists. The Gay Ones
 
 As noted, making the film looks like fun from the outside, but the work is anything but easy: to reach the remote locations the crew worked sunrise to sunset, hauled heavy gear across Israel, shot the same scenes over and over, and that is before we get to the porn stars' special performance-enhancing tricks, which we will spare you (let's just say an injection is involved, exactly where you're imagining).
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1760819751/PersonalSite/Interviews/W058-michael-lucas-israel-set/original-photo-3-by-nim-dvir.jpg" alt="Hard work, but satisfying" loading="lazy" width="408" height="306" /><figcaption>Hard work, but satisfying <span class="photo-credit">Photo: Nimrod Dvir</span></figcaption></figure>
 
 "I'm making this film to encourage tourism to Israel," Lucas told Ynet. "I love Israel, I come here a lot, and every time I'm amazed that my friends in New York have no idea what a beautiful country this is. I hope this film helps me encourage gay tourism, which is considered high-end and very profitable."
 

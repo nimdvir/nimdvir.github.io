@@ -24,8 +24,8 @@ tags:
 - Hollywood
 - New York
 - Politics
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795377128/articles/originals/004_W003.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377128/articles/originals/004_W003.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795377128/PersonalSite/Interviews/W003-julia-louis-dreyfus/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377128/PersonalSite/Interviews/W003-julia-louis-dreyfus/lead-original-photo.jpg
 imageAlt: Julia Louis-Dreyfus smiling against a gold wall
 imageCaption: Julia Louis-Dreyfus. "I've never been to Israel, but I'd be very happy to come visit."
 imageCredit: 'Photo: Angela Weiss / AFP'
@@ -177,4 +177,4 @@ Louis-Dreyfus insists she's less of a workaholic than Selina, though not by much
 
 "I don't think so. I learned a lot about politics from this show. Mostly I understood that politicians are just people. That's all. On the one hand that's comforting, and on the other it's terrifying, considering they have to run the show. It's like visiting a sausage factory. You don't really want to see how they're made."
 
-<figure class="article-photo article-photo-portrait"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1771104966/Julia-cover_clmoms.jpg" alt="Shishabat magazine cover from March 29, 2019, with Julia Louis-Dreyfus and the Hebrew headline &#x27;I&#x27;m Back&#x27;" loading="lazy" width="4410" height="5842" /><figcaption>The interview on the cover of Shishabat, Israel Hayom&#x27;s weekend magazine, March 29, 2019. <span class="photo-credit">Israel Hayom</span></figcaption></figure>
+<figure class="article-photo article-photo-portrait"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1771104966/PersonalSite/Interviews/W003-julia-louis-dreyfus/print-cover-shishabat-2019-03-29.jpg" alt="Shishabat magazine cover from March 29, 2019, with Julia Louis-Dreyfus and the Hebrew headline &#x27;I&#x27;m Back&#x27;" loading="lazy" width="4410" height="5842" /><figcaption>The interview on the cover of Shishabat, Israel Hayom&#x27;s weekend magazine, March 29, 2019. <span class="photo-credit">Israel Hayom</span></figcaption></figure>

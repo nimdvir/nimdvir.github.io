@@ -23,8 +23,8 @@ tags:
 - Television
 - Hollywood
 - Comedy
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357485/PersonalSite/Interviews/W125-david-duchovny/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357485/PersonalSite/Interviews/W125-david-duchovny/lead-photo.jpg
 imageAlt: David Duchovny against a red wall
 imageCredit: Photographer not identified (from the author's archive)
 draft: false

@@ -24,8 +24,8 @@ tags:
 - Gender
 - Aging
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760819301/Julianne_Moore_wjwcq9.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760819301/Julianne_Moore_wjwcq9.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760819301/PersonalSite/Interviews/W046-julianne-moore/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760819301/PersonalSite/Interviews/W046-julianne-moore/lead-photo.jpg
 imageAlt: Julianne Moore smiling
 imageCredit: Photographer not identified (from the author's archive)
 draft: false

@@ -1,8 +1,8 @@
 {
   "_about": "Public image for each website article page, keyed by article ID. Built pages read this file. Each record names the hosted image, its photographer, license, and source page. Publisher photographs from the original articles are never used.",
   "W001": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929038/Jamie_Foxx2_phxzah.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929038/Jamie_Foxx2_phxzah.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929038/PersonalSite/Interviews/W001-jamie-foxx/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929038/PersonalSite/Interviews/W001-jamie-foxx/lead-photo.jpg",
     "alt": "Jamie Foxx in a grey hat and plaid jacket",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -11,14 +11,14 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
     "photos": {
       "0": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377125/articles/originals/000_W001.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377125/PersonalSite/Interviews/W001-jamie-foxx/original-photo-1.jpg",
         "width": 700,
         "height": 465,
         "credit": "Photo: Columbia Pictures publicity still",
         "checklistRow": "000"
       },
       "1": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377126/articles/originals/001_W001.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377126/PersonalSite/Interviews/W001-jamie-foxx/original-photo-2.jpg",
         "width": 700,
         "height": 465,
         "credit": "Photo: Columbia Pictures publicity still",
@@ -27,8 +27,8 @@
     }
   },
   "W002": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929039/jim-carrey_jqfnzq.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929039/jim-carrey_jqfnzq.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929039/PersonalSite/Interviews/W002-jim-carrey/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929039/PersonalSite/Interviews/W002-jim-carrey/lead-photo.jpg",
     "alt": "Jim Carrey smiling",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -37,7 +37,7 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
     "photos": {
       "0": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377127/articles/originals/002_W002.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377127/PersonalSite/Interviews/W002-jim-carrey/original-photo-1.jpg",
         "width": 960,
         "height": 640,
         "credit": "Photo: Columbia Pictures publicity still",
@@ -46,8 +46,8 @@
     }
   },
   "W003": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377128/articles/originals/004_W003.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377128/articles/originals/004_W003.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377128/PersonalSite/Interviews/W003-julia-louis-dreyfus/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377128/PersonalSite/Interviews/W003-julia-louis-dreyfus/lead-original-photo.jpg",
     "alt": "Julia Louis-Dreyfus smiling against a gold wall",
     "caption": "Julia Louis-Dreyfus. \"I've never been to Israel, but I'd be very happy to come visit.\"",
     "credit": "Photo: Angela Weiss / AFP",
@@ -56,7 +56,7 @@
     "photos": {
       "end": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104966/Julia-cover_clmoms.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104966/PersonalSite/Interviews/W003-julia-louis-dreyfus/print-cover-shishabat-2019-03-29.jpg",
           "width": 4410,
           "height": 5842,
           "credit": "Israel Hayom",
@@ -67,8 +67,8 @@
     }
   },
   "W004": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368162/articles/heroes/W004-lady-gaga.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368162/articles/heroes/W004-lady-gaga.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368162/PersonalSite/Interviews/W004-lady-gaga/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368162/PersonalSite/Interviews/W004-lady-gaga/lead-photo.jpg",
     "alt": "Lady Gaga in a stars-and-stripes headband and top, dancing in a diner",
     "caption": "Lady Gaga in the Telephone music video, 2010.",
     "credit": "Photographer not identified (from the author's archive)",
@@ -76,7 +76,7 @@
     "note": "Hero image from Nim's Google Drive archive (2026-11-22). Not the photo that ran with the article; photographer not recorded. Nim confirmed permission to use it.",
     "photos": {
       "2": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377129/articles/originals/007_W004.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377129/PersonalSite/Interviews/W004-lady-gaga/original-photo-3.jpg",
         "width": 408,
         "height": 307,
         "credit": "Photo: Getty Images Imagebank",
@@ -85,8 +85,8 @@
     }
   },
   "W006": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368163/articles/heroes/W006-rupaul.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368163/articles/heroes/W006-rupaul.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368163/PersonalSite/Interviews/W006-rupaul/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368163/PersonalSite/Interviews/W006-rupaul/lead-photo.jpg",
     "alt": "RuPaul in a white wig and an iridescent jacket",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -94,21 +94,21 @@
     "note": "Hero image from Nim's Google Drive archive (2026-11-22). Not the photo that ran with the article; photographer not recorded. Nim confirmed permission to use it.",
     "photos": {
       "1": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377130/articles/originals/010_W006.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377130/PersonalSite/Interviews/W006-rupaul/original-photo-2.jpg",
         "width": 408,
         "height": 258,
         "credit": "Photo as published on Ynet",
         "checklistRow": "010"
       },
       "2": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377130/articles/originals/011_W006.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377130/PersonalSite/Interviews/W006-rupaul/original-photo-3.jpg",
         "width": 408,
         "height": 258,
         "credit": "Courtesy of Logo",
         "checklistRow": "011"
       },
       "3": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377131/articles/originals/012_W006.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377131/PersonalSite/Interviews/W006-rupaul/original-photo-4.jpg",
         "width": 408,
         "height": 258,
         "credit": "Photo as published on Ynet",
@@ -117,17 +117,28 @@
     }
   },
   "W165": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368165/articles/heroes/W165-michael-fassbender.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368165/articles/heroes/W165-michael-fassbender.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368165/PersonalSite/Interviews/W165-michael-fassbender/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368165/PersonalSite/Interviews/W165-michael-fassbender/lead-photo.jpg",
     "alt": "Black-and-white portrait of Michael Fassbender",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
     "origin": "Google Drive archive, uploaded 2026-11-22",
-    "note": "Hero image from Nim's Google Drive archive (2026-11-22). Not the photo that ran with the article; photographer not recorded. Nim confirmed permission to use it."
+    "note": "Hero image from Nim's Google Drive archive (2026-11-22). Not the photo that ran with the article; photographer not recorded. Nim confirmed permission to use it.",
+    "photos": {
+      "byCaption": [
+        {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760314693/PersonalSite/Interviews/W165-michael-fassbender/original-photo-5.jpg",
+          "width": 490,
+          "height": 490,
+          "credit": "Photo: MCT, as published on Ynet",
+          "match": "Life in the fast lane"
+        }
+      ]
+    }
   },
   "W089": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377135/articles/originals/317_W089.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377135/articles/originals/317_W089.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377135/PersonalSite/Interviews/W089-killing-eve/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377135/PersonalSite/Interviews/W089-killing-eve/lead-original-photo.jpg",
     "alt": "Jodie Comer and Sandra Oh",
     "caption": "Jodie Comer and Sandra Oh. “In season two, we explore this impossible romance between them in more depth.”",
     "credit": "Photo: Steve Schofield / BBC / BBC America / Sid Gentle Films",
@@ -135,14 +146,14 @@
     "note": "The lead photo of the original Israel Hayom article, checklist row 317.",
     "photos": {
       "0": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377136/articles/originals/318_W089.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377136/PersonalSite/Interviews/W089-killing-eve/original-photo-2.jpg",
         "width": 4500,
         "height": 3000,
         "credit": "Photo: Aimee Spinks / BBC America",
         "checklistRow": "318"
       },
       "1": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377137/articles/originals/319_W089.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377137/PersonalSite/Interviews/W089-killing-eve/original-photo-3.jpg",
         "width": 2400,
         "height": 1600,
         "credit": "Photo: Aimee Spinks / BBC America",
@@ -154,19 +165,19 @@
           "credit": "Israel Hayom",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_1_s53dtm.jpg",
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/PersonalSite/Interviews/W089-killing-eve/print-page-1.jpg",
               "width": 3232,
               "height": 2215,
               "alt": "Killing Eve interview in print, page 1"
             },
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_2_pesacr.jpg",
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/PersonalSite/Interviews/W089-killing-eve/print-page-2.jpg",
               "width": 3189,
               "height": 2186,
               "alt": "Killing Eve interview in print, page 2"
             },
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/killing-eve_Page_3_dnzqvx.jpg",
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1771104965/PersonalSite/Interviews/W089-killing-eve/print-page-3.jpg",
               "width": 3189,
               "height": 2186,
               "alt": "Killing Eve interview in print, page 3"
@@ -177,8 +188,8 @@
     }
   },
   "W186": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368166/articles/heroes/W186-ryan-gosling.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368166/articles/heroes/W186-ryan-gosling.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795368166/PersonalSite/Interviews/W186-ryan-gosling/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368166/PersonalSite/Interviews/W186-ryan-gosling/lead-photo.jpg",
     "alt": "Ryan Gosling in a plaid shirt, sitting on a leather sofa",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -187,14 +198,14 @@
     "photos": {
       "byCaption": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357481/46111730100054408330no_yir7fi.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357481/PersonalSite/Interviews/W186-ryan-gosling/original-photo-3.jpg",
           "width": 408,
           "height": 330,
           "credit": "Photo: Gettyimages, as published on Ynet",
           "match": "Wants to rob and can't"
         },
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357480/461099901000100408271no_jgdirq.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357480/PersonalSite/Interviews/W186-ryan-gosling/original-photo-6.jpg",
           "width": 408,
           "height": 271,
           "credit": "Photo as published on Ynet",
@@ -206,28 +217,28 @@
   "W023": {
     "photos": {
       "0": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377132/articles/originals/044_W023.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377132/PersonalSite/Interviews/W023-matthew-broderick/original-photo-1.jpg",
         "width": 408,
         "height": 171,
         "credit": "Photo: Universal Pictures production still",
         "checklistRow": "044"
       },
       "2": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377133/articles/originals/046_W023.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg",
         "width": 600,
         "height": 399,
         "credit": "Photo: Universal Pictures publicity still",
         "checklistRow": "046"
       },
       "3": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377134/articles/originals/047_W023.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377134/PersonalSite/Interviews/W023-matthew-broderick/original-photo-4.jpg",
         "width": 2048,
         "height": 1362,
         "credit": "Photo: David Lee / Universal Pictures",
         "checklistRow": "047"
       },
       "1": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357474/75255551_wa-2_ypizsn.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357474/PersonalSite/Interviews/W023-matthew-broderick/original-photo-2.jpg",
         "width": 320,
         "height": 217,
         "credit": "Photo: Getty Images, as published on Ynet"
@@ -235,8 +246,8 @@
     }
   },
   "W021": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760470039/Eva_Mendes_sp3zjb.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760470039/Eva_Mendes_sp3zjb.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760470039/PersonalSite/Interviews/W021-eva-mendes/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760470039/PersonalSite/Interviews/W021-eva-mendes/lead-photo.jpg",
     "alt": "Eva Mendes in a black dress",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -245,8 +256,8 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
   },
   "W046": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760819301/Julianne_Moore_wjwcq9.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760819301/Julianne_Moore_wjwcq9.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760819301/PersonalSite/Interviews/W046-julianne-moore/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760819301/PersonalSite/Interviews/W046-julianne-moore/lead-photo.jpg",
     "alt": "Julianne Moore smiling",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -255,18 +266,36 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
   },
   "W058": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760820184/Michael_Lucas_shlb68.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760820184/Michael_Lucas_shlb68.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760820184/PersonalSite/Interviews/W058-michael-lucas-israel-set/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760820184/PersonalSite/Interviews/W058-michael-lucas-israel-set/lead-photo.jpg",
     "alt": "Michael Lucas",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
     "width": 446,
     "height": 600,
-    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
+    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
+    "photos": {
+      "byCaption": [
+        {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760819750/PersonalSite/Interviews/W058-michael-lucas-israel-set/original-photo-2-by-nim-dvir.jpg",
+          "width": 408,
+          "height": 258,
+          "credit": "Photo: Nimrod Dvir",
+          "match": "On set. In the lead role"
+        },
+        {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760819751/PersonalSite/Interviews/W058-michael-lucas-israel-set/original-photo-3-by-nim-dvir.jpg",
+          "width": 408,
+          "height": 306,
+          "credit": "Photo: Nimrod Dvir",
+          "match": "Hard work, but satisfying"
+        }
+      ]
+    }
   },
   "W118": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357351/238_rkrga9.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357351/238_rkrga9.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357351/PersonalSite/Interviews/W118-randy-harrison/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357351/PersonalSite/Interviews/W118-randy-harrison/lead-photo.jpg",
     "alt": "Randy Harrison",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -275,8 +304,8 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
   },
   "W125": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357485/PersonalSite/Interviews/W125-david-duchovny/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357485/PersonalSite/Interviews/W125-david-duchovny/lead-photo.jpg",
     "alt": "David Duchovny against a red wall",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -285,8 +314,8 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
   },
   "W158": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357341/2_7_-_Copy_cc0bky.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357341/2_7_-_Copy_cc0bky.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357341/PersonalSite/Interviews/W158-homeland-set-visit/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357341/PersonalSite/Interviews/W158-homeland-set-visit/lead-photo.jpg",
     "alt": "Damian Lewis and Claire Danes in Homeland",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -296,7 +325,7 @@
     "photos": {
       "end": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357458/375967_10101365414470259_117052347_n_o30w1l.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357458/PersonalSite/Interviews/W158-homeland-set-visit/photo-by-nim-dvir-1-cia-seal.jpg",
           "width": 717,
           "height": 960,
           "credit": "Photo from the author's archive",
@@ -304,7 +333,7 @@
           "caption": "On the Homeland set."
         },
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357453/207910_10101365414036129_954338885_n_dzdczm.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357453/PersonalSite/Interviews/W158-homeland-set-visit/photo-by-nim-dvir-2-production-office.jpg",
           "width": 717,
           "height": 960,
           "credit": "Photo from the author's archive",
@@ -312,7 +341,7 @@
           "caption": "The Homeland production office."
         },
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357345/6_36_-_Copy_rn6wob.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357345/PersonalSite/Interviews/W158-homeland-set-visit/photo-patinkin-danes.jpg",
           "width": 360,
           "height": 253,
           "credit": "Photo as published in the original article",
@@ -323,8 +352,8 @@
     }
   },
   "W164": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357451/202060_crvpja.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357451/202060_crvpja.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357451/PersonalSite/Interviews/W164-michael-lewis/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357451/PersonalSite/Interviews/W164-michael-lewis/lead-photo.jpg",
     "alt": "Michael Lewis",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -333,8 +362,8 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
   },
   "W007": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760469469/smash-newsblog_ejb2f0.webp",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760469469/smash-newsblog_ejb2f0.webp",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760469469/PersonalSite/Interviews/W007-smash-interview/lead-photo.webp",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760469469/PersonalSite/Interviews/W007-smash-interview/lead-photo.webp",
     "alt": "The cast of Smash",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",
@@ -344,7 +373,7 @@
     "photos": {
       "end": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357456/307459_10101715821167429_1116376664_n_c0necb.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357456/PersonalSite/Interviews/W007-smash-interview/photo-by-nim-dvir-1-set.jpg",
           "width": 960,
           "height": 960,
           "credit": "Photo from the author's archive",
@@ -352,7 +381,7 @@
           "caption": "On the Smash set, 44 Eagle Street."
         },
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357349/0205f_smash_jd_40p-2_-_Copy_bsm6hf.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357349/PersonalSite/Interviews/W007-smash-interview/photo-scene.jpg",
           "width": 320,
           "height": 213,
           "credit": "Photo as published in the original article",
@@ -360,32 +389,32 @@
           "caption": "A scene from Smash."
         },
         {
-          "caption": "The interview as it ran in print, with Anjelica Huston. Click a page to enlarge.",
-          "credit": "Print edition",
+          "caption": "Related: \"Houston, Do You Copy?\", Nim Dvir's feature on Anjelica Huston in La'Isha, May 20, 2013. Click a page to enlarge.",
+          "credit": "La'Isha",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357618/image001-2_vsaz1r.png",
-              "width": 266,
-              "height": 400,
-              "alt": "Print page: Anjelica Huston opener"
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795380296/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-1-hq.jpg",
+              "width": 1329,
+              "height": 2425,
+              "alt": "La'Isha feature on Anjelica Huston, page 1"
             },
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357619/image002_ssswqz.png",
-              "width": 311,
-              "height": 471,
-              "alt": "Print page: Anjelica Huston"
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795380297/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-2-hq.jpg",
+              "width": 1285,
+              "height": 2397,
+              "alt": "La'Isha feature on Anjelica Huston, page 2"
             },
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357623/image003_yrwxrv.png",
-              "width": 259,
-              "height": 440,
-              "alt": "Print page"
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795380298/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-3-hq.jpg",
+              "width": 1132,
+              "height": 2279,
+              "alt": "La'Isha feature on Anjelica Huston, page 3"
             },
             {
-              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357626/image004_smxrct.png",
-              "width": 327,
-              "height": 453,
-              "alt": "Print page"
+              "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795380299/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-4-hq.jpg",
+              "width": 1357,
+              "height": 2298,
+              "alt": "La'Isha feature on Anjelica Huston, page 4"
             }
           ]
         }
@@ -393,8 +422,8 @@
     }
   },
   "W172": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357338/1_1000_-_Copy_ltprf4.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357338/1_1000_-_Copy_ltprf4.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357338/PersonalSite/Interviews/W172-steve-buscemi/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357338/PersonalSite/Interviews/W172-steve-buscemi/lead-original-photo.jpg",
     "alt": "Steve Buscemi in Boardwalk Empire",
     "caption": "",
     "credit": "Photo: HBO, as published in Pnai Plus",
@@ -403,7 +432,7 @@
     "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
     "photos": {
       "1": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357340/4_36_-_Copy_dmkedx.jpg",
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357340/PersonalSite/Interviews/W172-steve-buscemi/original-photo-2.jpg",
         "width": 360,
         "height": 240,
         "credit": "Photo: HBO, as published in Pnai Plus"
@@ -414,14 +443,14 @@
     "photos": {
       "byCaption": [
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357476/391072901000100408287no_bshldt.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg",
           "width": 408,
           "height": 287,
           "credit": "Photo: MCT, as published on Ynet",
           "match": "Inspecting the goods?"
         },
         {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357478/391073001000100408272no_tpcfch.jpg",
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357478/PersonalSite/Interviews/W083-dictator-coverage/original-photo-2.jpg",
           "width": 408,
           "height": 272,
           "credit": "Photo: MCT, as published on Ynet",
@@ -431,8 +460,8 @@
     }
   },
   "W052": {
-    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg",
-    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/articles/heroes/W052-jennifer-lopez.jpg",
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795379164/PersonalSite/Interviews/W052-jennifer-lopez/lead-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795379164/PersonalSite/Interviews/W052-jennifer-lopez/lead-photo.jpg",
     "alt": "Jennifer Lopez in a black leather coat, her hair blowing",
     "caption": "",
     "credit": "Photographer not identified (from the author's archive)",

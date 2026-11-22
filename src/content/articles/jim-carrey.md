@@ -22,8 +22,8 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1763929039/jim-carrey_jqfnzq.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929039/jim-carrey_jqfnzq.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1763929039/PersonalSite/Interviews/W002-jim-carrey/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929039/PersonalSite/Interviews/W002-jim-carrey/lead-photo.jpg
 imageAlt: Jim Carrey smiling
 imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/jim-carrey/
@@ -32,7 +32,7 @@ draft: false
 
 They used to tell us crime doesn't pay. Then again, they also used to tell us Jim Carrey was some kind of lunatic. As of this week both ideas are up for revision: meet Fun with Dick and Jane, a fine piece of social satire dressed up as a holiday movie.
 
-<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377127/articles/originals/002_W002.jpg" alt="Jim Carrey, Téa Leoni" loading="lazy" width="960" height="640" /><figcaption>Jim Carrey, Téa Leoni <span class="photo-credit">Photo: Columbia Pictures publicity still</span></figcaption></figure>
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377127/PersonalSite/Interviews/W002-jim-carrey/original-photo-1.jpg" alt="Jim Carrey, Téa Leoni" loading="lazy" width="960" height="640" /><figcaption>Jim Carrey, Téa Leoni <span class="photo-credit">Photo: Columbia Pictures publicity still</span></figcaption></figure>
 
 From a distance Dick and Jane looks like one more family comedy, the kind where Jim Carrey mostly pulls faces. The story: Dick (Carrey) and Jane (Téa Leoni) are a suburban couple who suffer a sudden financial crash. Desperate, the two take to robbing stores and set off on a Robin Hood crusade to win back their self-respect. Sounds light. Up close, it turns out to be nothing less than an advertisement for anarchy: the film gleefully shouts the benefits of a life of crime while slipping in poison darts at Botox, migrant workers, George Bush and other musty corners of today's America.
 

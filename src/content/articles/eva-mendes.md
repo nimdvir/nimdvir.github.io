@@ -22,8 +22,8 @@ tags:
 - Film
 - Hollywood
 - Gender
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760470039/Eva_Mendes_sp3zjb.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760470039/Eva_Mendes_sp3zjb.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760470039/PersonalSite/Interviews/W021-eva-mendes/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760470039/PersonalSite/Interviews/W021-eva-mendes/lead-photo.jpg
 imageAlt: Eva Mendes in a black dress
 imageCredit: Photographer not identified (from the author's archive)
 draft: false

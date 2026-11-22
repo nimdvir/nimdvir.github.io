@@ -1,0 +1,31 @@
+{
+  "title": "לזרום בעירום",
+  "subtitle": "אם כבר יוגה, למה לא לשדרג את הטרנד ולפשוט תחתונים? נציגנו נשכב על המזרן ובחן את קורקבניהם של השמנה והסלתה של ניו יורק",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר, ניו יורק",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/articles/0,7340,L-3128974,00.html",
+  "publishedDate": "2005-08-17",
+  "publishedTime": "16:30",
+  "language": "he",
+  "extractedOn": "2026-11-22",
+  "status": "captured",
+  "imageStorage": "source-linked",
+  "publisherParagraphCount": 6,
+  "archivedBlockCount": 7,
+  "captureMethod": "Publisher article body HTML, HTML cleaned and matched against the paragraph blocks.",
+  "imageReferences": [
+    {
+      "src": "https://images1.ynet.co.il/PicServer2/01082004/614524/835_71_a.jpg",
+      "caption": "סטאר ומתלמד. חיבוק פלוס מעיכת בולבול",
+      "placement": "original sidebar",
+      "credit": "",
+      "local": false
+    }
+  ],
+  "citationAPA7": "Dvir, N. (2005, August 17). Lizrom be-erom [Flowing naked]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3128974,00.html",
+  "articleId": "W210",
+  "notes": [
+    "Captured by ChatGPT from the publisher or Nim's Drive; added to the repository 2026-11-22 from hebrew-article-originals.zip. Not translated."
+  ]
+}

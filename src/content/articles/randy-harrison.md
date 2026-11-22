@@ -23,8 +23,8 @@ tags:
 - LGBTQ+
 - Israel
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357351/238_rkrga9.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357351/238_rkrga9.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357351/PersonalSite/Interviews/W118-randy-harrison/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357351/PersonalSite/Interviews/W118-randy-harrison/lead-photo.jpg
 imageAlt: Randy Harrison
 imageCredit: Photographer not identified (from the author's archive)
 draft: false

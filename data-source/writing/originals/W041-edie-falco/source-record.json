@@ -1,0 +1,49 @@
+{
+  "articleId": "W041",
+  "title": "שוק הכרמלה",
+  "subtitle": "אידי פאלקו, לשעבר כרמלה מ\"הסופרנוס\", מוכיחה שהיא יודעת את העבודה בסדרה אישית חדשה, \"האחות ג'קי\". עקרות בית - אאוט, אחיות שעושות סמים - אין. אבל למרות הכל, נמרוד דביר לא התמכר ולא שמח לאידי",
+  "author": "נמרוד דביר",
+  "byline": "נמרוד דביר",
+  "publisher": "Ynet",
+  "sourceUrl": "https://www.ynet.co.il/article/3734482",
+  "publishedDate": "2009-06-21",
+  "publishedTime": "12:34",
+  "language": "he",
+  "extractedOn": "2026-11-22",
+  "status": "captured",
+  "imageStorage": "source-linked",
+  "publisherParagraphCount": 14,
+  "archivedBlockCount": 19,
+  "captureMethod": "Publisher article body HTML, HTML cleaned and matched against the paragraph blocks.",
+  "imageReferences": [
+    {
+      "src": "https://images1.ynet.co.il/PicServer2/20022007/1070022/3.gif",
+      "caption": "",
+      "placement": "inline",
+      "local": false
+    },
+    {
+      "src": "https://images1.ynet.co.il/PicServer2/02022009/2032618/NurseJackie_800x600_1_d.jpg",
+      "caption": "פאלקו בתפקיד \"האחות ג'קי\". מסוממת ומצילת חיים",
+      "placement": "inline",
+      "local": false
+    },
+    {
+      "src": "https://images1.ynet.co.il/PicServer2/02022009/2032546/1948181_gd.jpg",
+      "caption": "פאלקו. לא הדודה עם השיער הנפוח (צילום: Gettyimages imagebank)",
+      "placement": "inline",
+      "local": false
+    },
+    {
+      "src": "https://images1.ynet.co.il/PicServer2/03072003/295507/s_a.jpg",
+      "caption": "עם גנדולפיני, שותפה ל\"סופרנוס\". זרקה מעליה את הדמות ההיא",
+      "placement": "original sidebar",
+      "credit": "צילום: איי פי",
+      "local": false
+    }
+  ],
+  "citationAPA7": "Dvir, N. (2009, June 21). Shuk ha-Karmela [Carmela’s market]. Ynet. https://www.ynet.co.il/article/3734482",
+  "notes": [
+    "Captured by ChatGPT from the publisher or Nim's Drive; added to the repository 2026-11-22 from hebrew-article-originals.zip. Not translated."
+  ]
+}

@@ -23,8 +23,8 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368165/articles/heroes/W165-michael-fassbender.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368165/articles/heroes/W165-michael-fassbender.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368165/PersonalSite/Interviews/W165-michael-fassbender/lead-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368165/PersonalSite/Interviews/W165-michael-fassbender/lead-photo.jpg
 imageAlt: Black-and-white portrait of Michael Fassbender
 imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/michael-fassbender/
@@ -58,6 +58,8 @@ Speaking of dropping your guard: after dropping the weight for Hunger and going 
 **Do you think slavery, and the way people treat each other in this film, could come back today?**
 
 "I hope humanity has changed since then. History has shown that human beings can do powerful things for each other, and the opposite too. Look at all the sweatshops today where children make the clothes everyone in the West wears. That's a kind of slavery, I suppose. But I hope we learn to work together for good."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1760314693/PersonalSite/Interviews/W165-michael-fassbender/original-photo-5.jpg" alt="Michael Fassbender. Life in the fast lane" loading="lazy" width="490" height="490" /><figcaption>Michael Fassbender. Life in the fast lane <span class="photo-credit">Photo: MCT, as published on Ynet</span></figcaption></figure>
 
 When he isn't beating slaves in Louisiana, Fassbender divides his time between London and Los Angeles, travels whenever he can, and goes in for extreme sports, racing above all. "I love riding motorcycles, I'm learning to surf, I love traveling, new cultures, new people," he says. "Usually the minute I wrap a shoot I'm gone, already on my way to some adventure. I've always been athletic and physical, very active. I love karting and racing, I love watching motorsport. Karting is as close as I'll ever get to Formula 1, though my dream is to write, direct and star in a film about car racing."
 
