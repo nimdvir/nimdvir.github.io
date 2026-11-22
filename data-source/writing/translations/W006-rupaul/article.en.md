@@ -42,7 +42,7 @@ I was already picturing RuPaul, the most famous drag queen in America and a work
 
 ## Beach, Please
 
-RuPaul, a machine gun of one-liners, can afford to trash journalists. Since RuPaul Andre Charles burst into view in the early nineties, the Queen, 48, has done it all: arena shows, hosting series and specials, film roles, ad campaigns, albums (including the hit "[Supermodel](http://www.youtube.com/watch?v=aY0ILbj31Ww)") and a best-selling memoir.
+RuPaul, a machine gun of one-liners, can afford to trash journalists. Since RuPaul Andre Charles burst into view in the early nineties, the Queen, 48, has done it all: big shows, hosting series and specials, film roles, ad campaigns, albums (including the hit "[Supermodel](http://www.youtube.com/watch?v=aY0ILbj31Ww)") and a successful memoir.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
 *One of the show's contestants. Respect for the profession*
@@ -57,7 +57,7 @@ Now, as mentioned, he is launching [Viva la Diva](http://www.rupaul.com/) here (
 
 "I'm proud that we managed to make a show that presents drag as an amazing art form. The show says that our body is a temporary thing. You are not a man, or a woman, or black or white. You are not your religion, or your car, or your hair. You're born naked, and the rest is drag. That's why this art has survived through the generations. Drag reminds people that there are no rules, that we decide everything, that you can bend reality and have fun. That's why cultures resist it: people don't want to wake up from their dream."
 
-**Throughout the show you refer to the contestants as women. Why?**
+**Throughout the show you use feminine terms for the contestants. Why?**
 
 "Come on, it's the 21st century. It's so meaningless. I call the contestants 'girls' because I respect them. Besides, you have to laugh. Life is for enjoying."
 

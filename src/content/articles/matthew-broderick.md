@@ -22,14 +22,6 @@ tags:
 - Film
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384126/Database-book-BITM330/vscode-auto/articles/W023-matthew-broderick.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384126/Database-book-BITM330/vscode-auto/articles/W023-matthew-broderick.jpg
-imageAlt: Head and shoulders portrait of Matthew Broderick at the Tribeca Film Festival
-imageCaption: Matthew Broderick at the Tribeca Film Festival, 2009.
-imageCredit: 'Photo: David Shankbone, CC BY 2.0, via Wikimedia Commons'
-imageLicense: CC BY 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Matthew_Broderick_in_2009.jpg
 draft: false
 ---
 
@@ -43,11 +35,15 @@ Instead of becoming a movie superstar, Broderick handed the spotlight to his wif
 
 Here too Broderick keeps out of the spotlight and leaves center stage to the big names, Ben Stiller and Eddie Murphy, who play the ringleaders of a crew of service staff at a New York luxury tower who decide to rob the crooked financier in the penthouse (Alan Alda) after he makes off with their life savings in a financial scam.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377132/articles/originals/044_W023.jpg" alt="Matthew Broderick in Tower Heist. Fine with supporting roles" loading="lazy" width="408" height="171" /><figcaption>Matthew Broderick in Tower Heist. Fine with supporting roles <span class="photo-credit">Photo: Universal Pictures production still</span></figcaption></figure>
+
 Broderick plays Chase Fitzhugh, a bit of a loser who is evicted from the tower after losing his job in the financial crisis and joins the robbers because his finances are in a sorry state.
 
 Like his character, Broderick doesn't seem in any rush to be the hero. At the press conference for the film's release, held at Columbus Circle, where the film was also shot (and though nobody says so, the building in it is modeled on the Trump tower that stands on the circle), Broderick hands the stage to the big stars, Stiller and Murphy.
 
 He doesn't try very hard to look like a hero either. He arrives sheepish and smiling, dressed fairly plainly, with a round (and fairly large) belly and hair in the "woke up, ran a hand through it, here I am" style. Not exactly what you'd expect from a former teen idol and the husband of one of the most stylish women in the world.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357474/75255551_wa-2_ypizsn.jpg" alt="Matthew Broderick and Sarah Jessica Parker. Not how he looks on an ordinary day" loading="lazy" width="320" height="217" /><figcaption>Matthew Broderick and Sarah Jessica Parker. Not how he looks on an ordinary day <span class="photo-credit">Photo: Getty Images, as published on Ynet</span></figcaption></figure>
 
 "I'm not trying to impress anyone," he admits. "This is Ben and Eddie's show, completely. And I don't mind playing a 'loser.' I don't have some hero image I'm trying to keep up. Besides, my character isn't only a loser. You can see that as the story goes on he gets his mojo back. By the end he really shows some backbone, I think. Don't you?"
 
@@ -59,6 +55,8 @@ He doesn't try very hard to look like a hero either. He arrives sheepish and smi
 
 The film leans heavily on the financial crisis the United States is still climbing out of, on the gap between rich and poor, and on Bernie Madoff's giant fraud, which robbed huge numbers of people of everything they had saved. For all the plot's obvious resemblance to real life, Broderick is a little reluctant to take the Madoff comparison.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377133/articles/originals/046_W023.jpg" alt="Broderick in Tower Heist. Not sure it&#x27;s a satire on the rich" loading="lazy" width="600" height="399" /><figcaption>Broderick in Tower Heist. Not sure it&#x27;s a satire on the rich <span class="photo-credit">Photo: Universal Pictures publicity still</span></figcaption></figure>
+
 "I can see why people make the comparison, but honestly I don't know enough about it. I was never much of an investor, so I can't tell you what's similar and what isn't. I don't think the film is trying to tell the story of some huge fraud or to be a parable about Bernie Madoff. I don't think you can call it a film against the rich, or against the establishment in general.
 
 "People tell me it's a film with a message. I'm not so sure. If you really go looking, maybe it's a satire on excessive wealth, on the gap between the people who live on the top floors and the people who serve them. To me it's a specific story about one very specific thief and the bunch of people trying to get back at him and get their money back.
@@ -67,7 +65,9 @@ The film leans heavily on the financial crisis the United States is still climbi
 
 **You're a New Yorker by birth and you still live here. What was it like shooting so close to home?**
 
-"Amazing. It was one of the reasons I agreed to take the part. I still had to drive in, but Alan Alda could walk to the set, which is a real luxury. The amazing thing is that all the exterior scenes at the tower were shot right out on the street, here at Columbus Circle. No extras. Everyone walking by is a real person who happened to wander into the shoot.
+"Amazing. It was one of the reasons I agreed to take the part. I still had to commute, but Alan Alda could walk to the set, which is a real luxury. The amazing thing is that all the exterior scenes at the tower were shot right out on the street, here at Columbus Circle. No extras. Everyone walking by is a real person who happened to wander into the shoot.
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377134/articles/originals/047_W023.jpg" alt="The poor who got hit rob the rich" loading="lazy" width="2048" height="1362" /><figcaption>The poor who got hit rob the rich <span class="photo-credit">Photo: David Lee / Universal Pictures</span></figcaption></figure>
 
 "We even rebuilt part of the Thanksgiving parade that appears in the film. People couldn't work out why a Snoopy balloon was suddenly coming at them down the middle of the street. Someone even called 911 after we flipped a car for a shot. It just looked real."
 

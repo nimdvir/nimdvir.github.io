@@ -53,7 +53,7 @@ The shoot may have been a party, but now that it's time to sell the film, a few 
 
 Josh Lucas tries to hide the disappointment and doesn't quite pull it off. "What can you do, my name doesn't pull a crowd the way Foxx's does," he says, deflated. "I'm just glad to be in films people actually get to see." To which there's only one thing to say: don't let them fool you.
 
-Back to Foxx. Nobody expects Stealth to be anything more than another action movie, but Foxx, of all people, is trying to inject a drop of philosophy into the thing: "What we tried to show is that at some point pilots turn into players in a very sophisticated video game. They forget they're dropping bombs and just think about the flying, so it becomes something purely mathematical. You could say the military today is becoming more and more of a video game. In my opinion, in 10 years there won't be any pilots. Everything will be run by machines."
+Back to Foxx. Nobody expects Stealth to be anything more than another action movie, but Foxx, of all people, is trying to inject a drop of philosophy into the thing: "What we tried to show is that, in a way, pilots become like players in a very sophisticated video game. They forget they're dropping bombs and just think about the flying, so it becomes something purely mathematical. You could say the military today is becoming more and more of a video game. In my opinion, in 10 years there won't be any pilots. Everything will be run by machines."
 
 **How well do you understand now what it really takes to fly a plane?**
 

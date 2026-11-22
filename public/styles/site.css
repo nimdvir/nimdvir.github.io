@@ -2419,3 +2419,55 @@ a {
     padding: 20px 18px 18px;
   }
 }
+
+/* Publisher photos reproduced inside translated articles */
+.article-body .article-photo {
+  margin: 2rem 0;
+}
+.article-body .article-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 12px;
+  background: var(--soft);
+}
+.article-body .article-photo-small img {
+  width: auto;
+  max-width: 100%;
+  margin-inline: auto;
+}
+.article-body .article-photo figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--muted, #666);
+}
+.article-body .article-photo .photo-credit {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  opacity: 0.8;
+}
+.article-body .article-photo-portrait img {
+  width: min(100%, 520px);
+  margin-inline: auto;
+}
+
+/* Topic browsing */
+.archive-topics {
+  margin-top: 28px;
+}
+.archive-topics .eyebrow,
+.related-topics .eyebrow {
+  margin-bottom: 10px;
+}
+.related-topics {
+  margin: 0 0 8px;
+}
+.tag-section-count {
+  font-size: 0.6em;
+  font-weight: 500;
+  color: var(--muted);
+  vertical-align: middle;
+}

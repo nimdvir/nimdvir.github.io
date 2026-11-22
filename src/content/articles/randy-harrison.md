@@ -23,14 +23,10 @@ tags:
 - LGBTQ+
 - Israel
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384162/Database-book-BITM330/vscode-auto/articles/W118-randy-harrison.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384162/Database-book-BITM330/vscode-auto/articles/W118-randy-harrison.jpg
-imageAlt: Randy Harrison standing outdoors in New York after a theatre performance
-imageCaption: Randy Harrison in New York after appearing in Edward II, December 2007.
-imageCredit: 'Photo: BrianheartsJustin, CC BY-SA 3.0, via Wikimedia Commons'
-imageLicense: CC BY-SA 3.0
-imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Randy_harrison_at_edward_II_in_nyc.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357351/238_rkrga9.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357351/238_rkrga9.jpg
+imageAlt: Randy Harrison
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 

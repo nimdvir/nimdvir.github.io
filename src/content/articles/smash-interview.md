@@ -24,14 +24,10 @@ tags:
 - Broadway
 - Theatre
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384119/Database-book-BITM330/vscode-auto/articles/W007-smash-interview.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384119/Database-book-BITM330/vscode-auto/articles/W007-smash-interview.jpg
-imageAlt: Katharine McPhee speaking at a panel for the series Scorpion at San Diego Comic-Con
-imageCaption: Katharine McPhee at San Diego Comic-Con, 2014.
-imageCredit: 'Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
-imageLicense: CC BY-SA 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Katharine_McPhee_(14770076655).jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1760469469/smash-newsblog_ejb2f0.webp
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1760469469/smash-newsblog_ejb2f0.webp
+imageAlt: The cast of Smash
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 
@@ -72,3 +68,7 @@ The show's future is up in the air right now, especially given the not exactly f
 **Hilty:** "I've just finished recording a new album that's coming out soon, and you'll see me on Broadway stages too."
 
 **McPhee:** "I'd love to do a play someday, but not a musical. I've done so many musical numbers on this show. We perform every song in an episode about 30 times, so once it's over I'd rather do something else. Right now I want to focus on television. They say you should save your youth for the camera, so that's what I'm doing. The stage can wait."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357456/307459_10101715821167429_1116376664_n_c0necb.jpg" alt="The Smash set at 44 Eagle Street, with scripts and costumes" loading="lazy" width="960" height="960" /><figcaption>On the Smash set, 44 Eagle Street. <span class="photo-credit">Photo from the author&#x27;s archive</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357349/0205f_smash_jd_40p-2_-_Copy_bsm6hf.jpg" alt="Two Smash cast members in a scene" loading="lazy" width="320" height="213" /><figcaption>A scene from Smash. <span class="photo-credit">Photo as published in the original article</span></figcaption></figure>

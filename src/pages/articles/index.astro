@@ -8,6 +8,7 @@ import {
   articleGroupOrder,
   articleGroupLabel,
 } from "../../utils/articles";
+import { canonicalTags } from "../../utils/tags";
 
 const articles = await getArticles();
 const byGroup = new Map(articleGroupOrder.map((g) => [g, [] as typeof articles]));
@@ -21,6 +22,19 @@ const sources = [...new Set(own.map((a) => a.data.source))];
 const years = own.map((a) => Number(a.data.date.slice(0, 4)));
 const first = Math.min(...years);
 const last = Math.max(...years);
+
+// Most-used topics across the archive, for the "Browse by topic" row.
+const topicCounts = new Map<string, { slug: string; label: string; count: number }>();
+for (const a of articles)
+  for (const t of canonicalTags(a.data.tags)) {
+    const cur = topicCounts.get(t.slug) ?? { slug: t.slug, label: t.label, count: 0 };
+    cur.count += 1;
+    topicCounts.set(t.slug, cur);
+  }
+const topics = [...topicCounts.values()]
+  .filter((t) => t.count > 1)
+  .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
+  .slice(0, 16);
 
 const sections = [
   {
@@ -82,6 +96,22 @@ const sections = [
       )}
       <a href="/articles/voice/" class="archive-nav-voice">The voice: Hebrew to English</a>
     </nav>
+    {topics.length > 0 && (
+      <div class="archive-topics">
+        <p class="eyebrow">Browse by topic</p>
+        <ul class="tag-cloud" aria-label="Article topics">
+          {topics.map((t) => (
+            <li>
+              <a href={`/tags/${t.slug}/`}>
+                {t.label}
+                <span class="tag-count">{t.count}</span>
+              </a>
+            </li>
+          ))}
+          <li><a href="/tags/">All topics →</a></li>
+        </ul>
+      </div>
+    )}
   </header>
 
   {international.length > 0 && (
@@ -145,9 +175,11 @@ const sections = [
       <div>
         <h3>Images and sources</h3>
         <p class="small">
-          Portraits are licensed Wikimedia Commons photographs, credited on each
-          page. The publishers' original photographs are not reproduced. Each
-          page links to the original article and to the archived Hebrew text.
+          Lead photos come from my own archive (one is from Wikimedia Commons)
+          and are credited on each page. Where the photographs that ran with an article
+          could be recovered, they appear inside it with their original captions
+          and credits. Each page links to the original article and to the
+          archived Hebrew text.
         </p>
       </div>
     </div>

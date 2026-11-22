@@ -27,14 +27,10 @@ tags:
 - Television
 - Israel
 - United States
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384170/Database-book-BITM330/vscode-auto/articles/W158-homeland-set-visit.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384170/Database-book-BITM330/vscode-auto/articles/W158-homeland-set-visit.jpg
-imageAlt: Claire Danes on the red carpet at the Golden Globe Awards
-imageCaption: Claire Danes at the 69th Golden Globe Awards, January 2012, the night Homeland won Best Drama Series.
-imageCredit: 'Photo: jdeeringdavis, CC BY 2.0, via Wikimedia Commons'
-imageLicense: CC BY 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Claire_Danes_%40_69th_Annual_Golden_Globes_Awards.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357341/2_7_-_Copy_cc0bky.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357341/2_7_-_Copy_cc0bky.jpg
+imageAlt: Damian Lewis and Claire Danes in Homeland
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 
@@ -133,3 +129,9 @@ Meanwhile, "Homeland" has at least one devoted fan: President Barack Obama. The 
 **Are you planning to exploit the connection?**
 
 Lewis: "Of course. I explained my economic plan to Obama. You could say I solved all his problems for him."
+
+<figure class="article-photo article-photo-portrait"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357458/375967_10101365414470259_117052347_n_o30w1l.jpg" alt="A CIA seal on the Homeland set" loading="lazy" width="717" height="960" /><figcaption>On the Homeland set. <span class="photo-credit">Photo from the author&#x27;s archive</span></figcaption></figure>
+
+<figure class="article-photo article-photo-portrait"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357453/207910_10101365414036129_954338885_n_dzdczm.jpg" alt="A sign for the Homeland production office" loading="lazy" width="717" height="960" /><figcaption>The Homeland production office. <span class="photo-credit">Photo from the author&#x27;s archive</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357345/6_36_-_Copy_rn6wob.jpg" alt="Mandy Patinkin and Claire Danes filming Homeland" loading="lazy" width="360" height="253" /><figcaption>Mandy Patinkin and Claire Danes in Homeland. <span class="photo-credit">Photo as published in the original article</span></figcaption></figure>

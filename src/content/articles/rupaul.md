@@ -37,11 +37,15 @@ I was already picturing RuPaul, the most famous drag queen in America and a work
 
 "Nothing, we're just relaxing, resting and looking fab-u-lous," he says in his pampered drawl. "Actually, we're laughing at the journalist who just interviewed me. I've been doing interviews for 300 years and I can tell you, some journalists shouldn't be in the job. He asked whether I identify with the goals of some gay charity I'm performing for next week. Hell, what am I supposed to tell him? That I have no idea what the organization does? That they hire me, I show up, I perform, I leave, goodbye?
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377130/articles/originals/010_W006.jpg" alt="RuPaul, host of Viva la Diva. Done faking it" loading="lazy" width="408" height="258" /><figcaption>RuPaul, host of Viva la Diva. Done faking it <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 "Years ago I'd fake it, mumble something about how terribly important it is for gays to help gays. Now I just say 'fuck that.' I'd rather be real."
 
 ## Beach, Please
 
-RuPaul, a machine gun of one-liners, can afford to trash journalists. Since RuPaul Andre Charles burst into view in the early nineties, the Queen, 48, has done it all: arena shows, hosting series and specials, film roles, ad campaigns, albums (including the hit "[Supermodel](http://www.youtube.com/watch?v=aY0ILbj31Ww)") and a best-selling memoir.
+RuPaul, a machine gun of one-liners, can afford to trash journalists. Since RuPaul Andre Charles burst into view in the early nineties, the Queen, 48, has done it all: big shows, hosting series and specials, film roles, ad campaigns, albums (including the hit "[Supermodel](http://www.youtube.com/watch?v=aY0ILbj31Ww)") and a successful memoir.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377130/articles/originals/011_W006.jpg" alt="One of the show&#x27;s contestants. Respect for the profession" loading="lazy" width="408" height="258" /><figcaption>One of the show&#x27;s contestants. Respect for the profession <span class="photo-credit">Courtesy of Logo</span></figcaption></figure>
 
 Now, as mentioned, he is launching [Viva la Diva](http://www.rupaul.com/) here ([RuPaul's Drag Race](http://www.youtube.com/watch?v=kAe1WO9mEks), in the original), in which he presides over a pack of drag performers who want to be America's next drag superstar. "For years people wanted me to do this show and I said no," he says. "Nobody would promise me there'd be no nastiness. I would never laugh at contestants on a show. I respect the art of drag too much. This time the producers are friends of mine, and I knew the idea was safe with them."
 
@@ -53,7 +57,7 @@ Now, as mentioned, he is launching [Viva la Diva](http://www.rupaul.com/) here (
 
 "I'm proud that we managed to make a show that presents drag as an amazing art form. The show says that our body is a temporary thing. You are not a man, or a woman, or black or white. You are not your religion, or your car, or your hair. You're born naked, and the rest is drag. That's why this art has survived through the generations. Drag reminds people that there are no rules, that we decide everything, that you can bend reality and have fun. That's why cultures resist it: people don't want to wake up from their dream."
 
-**Throughout the show you refer to the contestants as women. Why?**
+**Throughout the show you use feminine terms for the contestants. Why?**
 
 "Come on, it's the 21st century. It's so meaningless. I call the contestants 'girls' because I respect them. Besides, you have to laugh. Life is for enjoying."
 
@@ -64,6 +68,8 @@ Now, as mentioned, he is launching [Viva la Diva](http://www.rupaul.com/) here (
 **And the nails.**
 
 "We had little spats, but no crazy bitch fights. Watching someone create something out of nothing, that's the drama. The real challenge is watching these creative entertainers make something together. In that sense we're closer to Project Runway, because the drama is in the making, not in fighting over who took whose mascara."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377131/articles/originals/012_W006.jpg" alt="RuPaul. Not always a woman" loading="lazy" width="408" height="258" /><figcaption>RuPaul. Not always a woman <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 For all that he treats the contestants as women, RuPaul himself appears in some episodes as a man. "I have to, otherwise it undermines my authority as the expert. You need to see where I start from and how far I can take it. I want the winner to be like me, in the sense of representing this art. To make music and television, films, books, all of it. In short, the next drag superstar has to be a spokesperson for everyone who thinks differently."
 

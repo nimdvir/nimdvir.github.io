@@ -23,14 +23,10 @@ tags:
 - Reality Television
 - New York
 - Israel
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384951/Database-book-BITM330/vscode-auto/articles/W164-michael-lewis.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384951/Database-book-BITM330/vscode-auto/articles/W164-michael-lewis.jpg
-imageAlt: Israeli model Michael Lewis posing for a portrait
-imageCaption: Michael Lewis, 2011.
-imageCredit: 'Photo: Israel Atar (ישראל עטר), CC BY-SA 3.0, via Wikimedia Commons'
-imageLicense: CC BY-SA 3.0
-imageLicenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Michael_Lewis.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357451/202060_crvpja.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357451/202060_crvpja.jpg
+imageAlt: Michael Lewis
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 

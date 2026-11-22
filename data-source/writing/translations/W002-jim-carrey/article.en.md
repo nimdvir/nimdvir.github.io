@@ -53,7 +53,7 @@ Meet the 2005 model Jim Carrey: with power, with vision, and above all well past
 
 **Do you remember times when you were poor yourself?**
 
-"Of course! I once worked as a janitor and a security guard at a steel plant. I was 16 and my father had just lost his job. I went to school by day, worked at night, and mostly I was angry all the time. Angry at what the universe had done to me and my father. Ever since, I clean my own toilets. I understand what janitors go through."
+"Of course! I once worked as a janitor and a security guard at a steel plant. I was 16, and my father was out of work at the time. I went to school by day, worked at night, and mostly I was angry all the time. Angry at what the universe had done to me and my father. Ever since, I clean my own toilets. I understand what janitors go through."
 
 A lot of water has gone over Niagara since the janitor days. Carrey, who burst onto the scene as a gifted comic in films like Ace Ventura and The Mask, started building himself up as a serious actor at the same time. In The Truman Show he moved audiences as a man who falls victim to the reality-TV world; in Man on the Moon he stepped into the shoes of the legendary comedian Andy Kaufman; and in the gorgeous Eternal Sunshine of the Spotless Mind he picked apart the connection between love and memory. Now, as mentioned, he's going for the middle: on one side he's delivering a fall-down-laughing comedy, and on the other, poverty isn't exactly a Grimm fairy tale.
 

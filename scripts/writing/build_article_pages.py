@@ -17,6 +17,7 @@ captions of publisher photographs that are not reproduced on the site.
 from __future__ import annotations
 
 import argparse
+import html
 import csv
 import json
 import re
@@ -58,6 +59,9 @@ GROUP_BY_KIND = {
     "review": "review",
     "coverage": "about-me",
 }
+# Wikimedia Commons portraits Nim approved for use (2026-11-22).
+COMMONS_APPROVED = {"W176"}
+
 LEGACY_SLUGS = {
     "jamie-foxx",
     "jim-carrey",
@@ -75,21 +79,84 @@ def split_frontmatter(text: str) -> tuple[dict, str]:
     return yaml.safe_load(match.group(1)) or {}, text[match.end():]
 
 
-def page_body(body: str) -> str:
-    """Keep the article, drop the furniture the template renders itself."""
+def photo_caption(line: str) -> str:
+    """Caption text from an archival caption line, without the trailing credit."""
+    text = line.strip().strip("*").strip()
+    text = re.sub(r"\s*\((?:Photo|photo|Gettyimages|gettyimages|Courtesy)[^)]*\)\s*$", "", text)
+    return text
+
+
+def photo_figure(photo: dict, caption_line: str | None) -> str:
+    """HTML figure for a publisher photo that is reproduced on the site."""
+    caption = photo.get("caption") or (photo_caption(caption_line) if caption_line else "")
+    credit = photo.get("credit", "")
+    src = photo["image"]
+    if "/image/upload/" in src and not re.search(r"/image/upload/[^/]*[a-z]_[^/]*/", src):
+        src = src.replace("/image/upload/", "/image/upload/f_auto,q_auto,w_1400,c_limit/", 1)
+    alt = html.escape(photo.get("alt") or caption, quote=True)
+    size = ""
+    if photo.get("width") and photo.get("height"):
+        size = f' width="{photo["width"]}" height="{photo["height"]}"'
+    cap = html.escape(caption)
+    if credit:
+        cap += f' <span class="photo-credit">{html.escape(credit)}</span>'
+    w, h = photo.get("width") or 0, photo.get("height") or 0
+    wide = " article-photo-small" if w and w < 640 else ""
+    if w and h and h > w * 1.2 and not wide:
+        wide = " article-photo-portrait"
+    return (
+        f'<figure class="article-photo{wide}"><img src="{src}" alt="{alt}" loading="lazy"{size} />'
+        f"<figcaption>{cap}</figcaption></figure>"
+    )
+
+
+def page_body(body: str, photos: dict | None = None) -> str:
+    """Keep the article, drop the furniture the template renders itself.
+
+    `photos` maps the position of a provenance comment (0 = first source image
+    in the translation file) to a hosted copy of that publisher photograph.
+    Those captions become figures; every other caption is dropped as before.
+    """
+    photos = photos or {}
     body = body.split("\n---\n\n## Source, backup and citation")[0]
     paragraphs = [p for p in re.split(r"\n\s*\n", body.strip())]
     out: list[str] = []
     skip_next_caption = False
     seen_text = False
+    comment_index = -1
+    pending_photo: dict | None = None
+    awaiting_caption = False
     for para in paragraphs:
         stripped = para.strip()
         # A provenance comment and its caption often share one paragraph.
         had_comment = "<!--" in stripped
         stripped = re.sub(r"<!--.*?-->", "", stripped, flags=re.S).strip()
+        if had_comment:
+            comment_index += 1
+            pending_photo = photos.get(str(comment_index))
+            awaiting_caption = True
         if had_comment and not stripped:
+            # The caption follows in the next paragraph: it becomes a figure if a
+            # photo is waiting for it, and is dropped otherwise.
             skip_next_caption = True
             continue
+        if (
+            pending_photo is None
+            and awaiting_caption
+            and stripped.startswith("*")
+            and not stripped.startswith("**")
+        ):
+            for entry in photos.get("byCaption", []):
+                if entry["match"] in stripped:
+                    pending_photo = entry
+                    break
+        awaiting_caption = False
+        if pending_photo is not None:
+            line = stripped if stripped.startswith("*") and not stripped.startswith("**") else None
+            out.append(photo_figure(pending_photo, line))
+            pending_photo = None
+            if line is not None:
+                continue
         if had_comment:
             skip_next_caption = True
         is_comment = False
@@ -117,6 +184,10 @@ def page_body(body: str) -> str:
             continue
         seen_text = True
         out.append(stripped)
+    ends = photos.get("end")
+    for end in ([ends] if isinstance(ends, dict) else ends or []):
+        # A print page, cover or the author's own photo shown after the article.
+        out.append(photo_figure(end, None))
     return "\n\n".join(out).strip() + "\n"
 
 
@@ -160,6 +231,10 @@ def main() -> int:
             explicit = dict(explicit)
             explicit["image"] = transformed(explicit["image"], HERO)
             return explicit
+        if wid not in COMMONS_APPROVED:
+            # Nim rejected the Commons portraits on 2026-11-22; these pages
+            # get the typographic header instead.
+            return {}
         src = sources.get(wid) or {}
         if src.get("status") != "found":
             return {}
@@ -302,7 +377,7 @@ def main() -> int:
         front = yaml.safe_dump(
             data, allow_unicode=True, sort_keys=False, default_flow_style=False, width=1000
         )
-        text = f"---\n{front}---\n\n{page_body(body)}"
+        text = f"---\n{front}---\n\n{page_body(body, (images.get(wid) or {}).get('photos'))}"
         if "—" in text:
             problems.append(f"{wid}: em dash in page text")
         (OUT / f"{slug}.md").write_text(text, encoding="utf-8", newline="\n")

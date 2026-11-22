@@ -69,7 +69,7 @@ The film leans heavily on the financial crisis the United States is still climbi
 
 **You're a New Yorker by birth and you still live here. What was it like shooting so close to home?**
 
-"Amazing. It was one of the reasons I agreed to take the part. I still had to drive in, but Alan Alda could walk to the set, which is a real luxury. The amazing thing is that all the exterior scenes at the tower were shot right out on the street, here at Columbus Circle. No extras. Everyone walking by is a real person who happened to wander into the shoot.
+"Amazing. It was one of the reasons I agreed to take the part. I still had to commute, but Alan Alda could walk to the set, which is a real luxury. The amazing thing is that all the exterior scenes at the tower were shot right out on the street, here at Columbus Circle. No extras. Everyone walking by is a real person who happened to wander into the shoot.
 
 <!-- Source image not embedded; see source-record.json for provenance and licensing. -->
 *The poor who got hit rob the rich*

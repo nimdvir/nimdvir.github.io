@@ -23,14 +23,10 @@ tags:
 - Television
 - Hollywood
 - Comedy
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384166/Database-book-BITM330/vscode-auto/articles/W125-david-duchovny.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384166/Database-book-BITM330/vscode-auto/articles/W125-david-duchovny.jpg
-imageAlt: David Duchovny smiling at a press event
-imageCaption: David Duchovny, July 2010.
-imageCredit: 'Photo: Greg Hernandez, CC BY 2.0, via Wikimedia Commons'
-imageLicense: CC BY 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:David_Duchovny_2010.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357485/ax124-0fa7-9jpg-804c10858ae36fb7_mpdpkk.jpg
+imageAlt: David Duchovny against a red wall
+imageCredit: Photographer not identified (from the author's archive)
 draft: false
 ---
 

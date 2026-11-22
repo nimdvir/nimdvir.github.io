@@ -1,6 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { tagArchives } from "../../utils/tags";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { tagArchives, canonicalTags } from "../../utils/tags";
+import { getArticles } from "../../utils/articles";
 
 export async function getStaticPaths() {
   return (await tagArchives()).map((tag) => ({
@@ -16,6 +18,22 @@ const groups = collections.map((name) => ({
   entries: tag.entries.filter((e) => e.collection === name),
 }));
 const count = tag.entries.length;
+// Articles get picture cards; the other sections keep the dated list.
+const allArticles = await getArticles();
+const articleUrls = new Set(tag.entries.filter((e) => e.collection === "Articles").map((e) => e.url));
+const tagArticles = allArticles
+  .filter((a) => articleUrls.has(`/articles/${a.slug}/`))
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+// Topics that most often appear alongside this one.
+const related = new Map<string, { slug: string; label: string; n: number }>();
+for (const e of tag.entries)
+  for (const t of canonicalTags(e.tags)) {
+    if (t.slug === tag.slug) continue;
+    const cur = related.get(t.slug) ?? { slug: t.slug, label: t.label, n: 0 };
+    cur.n += 1;
+    related.set(t.slug, cur);
+  }
+const relatedTopics = [...related.values()].sort((a, b) => b.n - a.n || a.label.localeCompare(b.label)).slice(0, 10);
 const description = tag.description
   ? `${tag.description} ${count} ${count === 1 ? "page" : "pages"} on this site are tagged ${tag.label}.`
   : `${count} ${count === 1 ? "page" : "pages"} on this site tagged ${tag.label}.`;
@@ -41,7 +59,28 @@ const description = tag.description
     </p>
   </header>
 
+  {relatedTopics.length > 0 && (
+    <nav class="related-topics" aria-label="Related topics">
+      <p class="eyebrow">Often appears with</p>
+      <ul class="tag-cloud">
+        {relatedTopics.map((t) => (
+          <li><a href={`/tags/${t.slug}/`}>{t.label}<span class="tag-count">{t.n}</span></a></li>
+        ))}
+      </ul>
+    </nav>
+  )}
+
   {groups.map((group) => (
+    group.name === "Articles" && tagArticles.length > 0 ? (
+    <section class="section tag-archive">
+      <div class="section-head">
+        <h2>Articles <span class="tag-section-count">{tagArticles.length}</span></h2>
+      </div>
+      <div class="project-grid article-grid grid-3">
+        {tagArticles.map((article) => <ArticleCard article={article} headingLevel="h3" />)}
+      </div>
+    </section>
+    ) : (
     <section class="section tag-archive">
       <div class="section-head">
         <h2>{group.name}</h2>
@@ -61,5 +100,6 @@ const description = tag.description
         ))}
       </ul>
     </section>
+    )
   ))}
 </Layout>

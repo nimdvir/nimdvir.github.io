@@ -39,6 +39,8 @@ It sounds a little strange, but there's a chance that an Israeli bank robber is 
 
 "And then he said, 'Hey, I'm writing a script about exactly that.' So I told him about the method I'd come up with, and together we worked it into the script, how the robberies would go. All of those ideas were mine, inspired by the Israeli, whom I'd read about before I ever started imagining a heist."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357481/46111730100054408330no_yir7fi.jpg" alt="Ryan Gosling. Wants to rob and can&#x27;t" loading="lazy" width="408" height="330" /><figcaption>Ryan Gosling. Wants to rob and can&#x27;t <span class="photo-credit">Photo: Gettyimages, as published on Ynet</span></figcaption></figure>
+
 **So, like your idol, you can ride a motorcycle?**
 
 "Yes, but not at the level of the chases and stunts in the film. In some scenes it really is me, and for that I spent a few months training with Rick Miller, the stunt rider from The Dark Knight films. The idea at first was that I'd do every scene myself, but I figured out pretty quickly that if you want to play in the NBA you need to have been shooting hoops since you were six. I wasn't going to turn into a motorcycle bandit in a few months."
@@ -66,6 +68,8 @@ Another touch of reality: Gosling's partner and the mother of his son is played 
 "Absolutely an advantage. There's intimacy and history there, and not only with Eva. I'd worked with Derek before, and I've known him for years. That matters to me in life. It's how I work. My manager, my lawyer, my publicist, my accountant, they've all been with me forever."
 
 When Gosling says forever, he isn't exaggerating. He was born in Canada and moved to Hollywood with his family as a boy, to put the cute face to work as a child actor. He survived the move into grown-up roles and starred in films like The Notebook, Half Nelson and The Believer. Along the way he started turning up on lists of Hollywood's sexiest men, and today he is considered one of the hottest properties in the business.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357480/461099901000100408271no_jgdirq.jpg" alt="Ryan Gosling, Eva Mendes and the baby in the film. Makes you want one" loading="lazy" width="408" height="271" /><figcaption>Ryan Gosling, Eva Mendes and the baby in the film. Makes you want one <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 **You survived the jump from child actor to the adult world.**
 

@@ -18,3 +18,8 @@
 3. **Jim Carrey, ¶15.** Carrey says his father was out of work when he was 16. The English adds that his father had just lost his job.
 
 Paragraph numbers follow the Hebrew Markdown blocks in reading order, counting subtitles, section breaks and captions. The standalone publishing lines precede the numbered body, except for the combined byline and date in W089, which is block 2. W001’s inline image splits its surrounding text into blocks 6 and 8. Source-record notes were consulted after the translation findings were first written. Problems inherited from the Hebrew appear under “Source problems” and are excluded from the counts.
+
+
+## Applied
+
+On November 22, 2026 all eight MUST FIX passages were corrected in the translation files, plus the זייפנית line in W004 ("badly out of tune" instead of "no small fraud"). For W004 ¶7 Nim confirmed that he and Gaga were both students at NYU; the English now says that, without the shared classroom. The CHECK items are still open.

@@ -22,14 +22,10 @@ tags:
 - Television
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793386470/Database-book-BITM330/vscode-auto/articles/W172-steve-buscemi.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793386470/Database-book-BITM330/vscode-auto/articles/W172-steve-buscemi.jpg
-imageAlt: Steve Buscemi on stage at Lebowski Fest
-imageCaption: Steve Buscemi at Lebowski Fest, August 2011.
-imageCredit: 'Photo: Joe Polletta, CC BY-SA 2.0, via Wikimedia Commons'
-imageLicense: CC BY-SA 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Steve_Buscemi_at_Lebowski_Fest_2011.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357338/1_1000_-_Copy_ltprf4.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357338/1_1000_-_Copy_ltprf4.jpg
+imageAlt: Steve Buscemi in Boardwalk Empire
+imageCredit: 'Photo: HBO, as published in Pnai Plus'
 draft: false
 ---
 
@@ -62,6 +58,8 @@ Then again, the condescension is a little irritating. After all, he is not Madon
 **You've got a reputation of your own for meeting your end on screen. Any chance Nucky dies at some point too?**
 
 "We haven't shot the season finale yet, so I don't know. At least I've already lasted longer than I did on The Sopranos, where I survived one season. Originally I was supposed to be there for two, but in the end they killed me off fast. That was hard, because I really wanted to stay. I fully expect there's a chance they'll kill me here too, and I'm completely fine with it. I'm not afraid to die. I'm used to it by now."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357340/4_36_-_Copy_dmkedx.jpg" alt="For Pnai Plus use. Steve Buscemi, Boardwalk Empire, Michael Pitt" loading="lazy" width="360" height="240" /><figcaption>For Pnai Plus use. Steve Buscemi, Boardwalk Empire, Michael Pitt <span class="photo-credit">Photo: HBO, as published in Pnai Plus</span></figcaption></figure>
 
 The Boardwalk Empire role, as noted, has helped fill Buscemi's shelf with awards and accolades. So far he has collected a Golden Globe, two Screen Actors Guild awards and two Emmy nominations. While every mention of the show in the press opens with awe at Buscemi's abilities, he tries to keep a low profile.
 

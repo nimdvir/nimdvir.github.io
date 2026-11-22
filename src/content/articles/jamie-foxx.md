@@ -19,10 +19,10 @@ tags:
 - Interview
 - Film
 - Hollywood
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1763929038/Jamie_Foxx_okjmwu.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_face/v1763929038/Jamie_Foxx_okjmwu.jpg
-imageAlt: Jamie Foxx
-imageCredit: Photo as published on the earlier version of this page
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1763929038/Jamie_Foxx2_phxzah.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929038/Jamie_Foxx2_phxzah.jpg
+imageAlt: Jamie Foxx in a grey hat and plaid jacket
+imageCredit: Photographer not identified (from the author's archive)
 legacyPath: /interviews/jamie-foxx/
 draft: false
 ---
@@ -41,6 +41,8 @@ Jamie Foxx is on top of the world. And why wouldn't he be? Since picking up the 
 
 The reason Foxx is airing himself out in public and leaking classified secrets from the bedroom is the round of interviews for his new film, Stealth, which opens in Israel this week, less than two weeks after its American premiere, where it was crowned one of the conspicuous flops of the summer. Audiences, it seems, have had their fill of action. As befits a summer movie, this is a well-oiled production stuffed with explosions and stunts. Foxx plays an elite fighter pilot, one of a trio of stars that also includes the slab of muscle Josh Lucas (Sweet Home Alabama) and the saccharine bombshell Jessica Biel (7th Heaven). The film opens as the trio takes delivery of a stealth jet with souped-up artificial intelligence, which they put to work on secret missions for the US Air Force. When lightning hits the jet's systems it develops a will of its own, and the pilots are dragged into chases around the world trying to head off some lethal embarrassments. Foxx reports that he enjoyed playing a guy with an edge to him: "I play the pilot Henry Purcell, a guy who's a little cocky, a little superior, a little bit of a smart-ass. I based him on real life: I got to meet a few pilots before the shoot, and every one of them had that swagger in his eyes."
 
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377125/articles/originals/000_W001.jpg" alt="Jamie Foxx, Stealth" loading="lazy" width="700" height="465" /><figcaption>Jamie Foxx, Stealth <span class="photo-credit">Photo: Columbia Pictures publicity still</span></figcaption></figure>
+
 **In Israel, too, pilots come with a whiff of stardom. How do you explain it?**
 
 "I think there's something about them that demands attention, because they're taunting death almost daily, and that puts them in a kind of godlike state. I think the cockiness gets even stronger on an aircraft carrier like the one in the film, because there are 9,000 people on board whose whole job is to support a relatively small group of pilots. In a way the pilots are like celebrities. Everybody's looking at them."
@@ -53,7 +55,7 @@ The shoot may have been a party, but now that it's time to sell the film, a few 
 
 Josh Lucas tries to hide the disappointment and doesn't quite pull it off. "What can you do, my name doesn't pull a crowd the way Foxx's does," he says, deflated. "I'm just glad to be in films people actually get to see." To which there's only one thing to say: don't let them fool you.
 
-Back to Foxx. Nobody expects Stealth to be anything more than another action movie, but Foxx, of all people, is trying to inject a drop of philosophy into the thing: "What we tried to show is that at some point pilots turn into players in a very sophisticated video game. They forget they're dropping bombs and just think about the flying, so it becomes something purely mathematical. You could say the military today is becoming more and more of a video game. In my opinion, in 10 years there won't be any pilots. Everything will be run by machines."
+Back to Foxx. Nobody expects Stealth to be anything more than another action movie, but Foxx, of all people, is trying to inject a drop of philosophy into the thing: "What we tried to show is that, in a way, pilots become like players in a very sophisticated video game. They forget they're dropping bombs and just think about the flying, so it becomes something purely mathematical. You could say the military today is becoming more and more of a video game. In my opinion, in 10 years there won't be any pilots. Everything will be run by machines."
 
 **How well do you understand now what it really takes to fly a plane?**
 
@@ -70,3 +72,5 @@ Foxx knows about the new status. "I have power now," he smiles, "but I think of 
 **Since we've spent half the interview on a statue, maybe you can close by telling us which room you keep it in?**
 
 "Honestly, it's at my agent's. You see, my house is like a neighborhood, friends and family coming and going all the time. When the Oscar was at my place they kept clowning around with it, tossing it back and forth, touching it, because it's kind of a thing. Now my manager is holding it so nothing happens to it. I keep a fake Oscar at home for the guests."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377126/articles/originals/001_W001.jpg" alt="Foxx. Now that I&#x27;ve got plenty of money I don&#x27;t have to do a thing" loading="lazy" width="700" height="465" /><figcaption>Foxx. Now that I&#x27;ve got plenty of money I don&#x27;t have to do a thing <span class="photo-credit">Photo: Columbia Pictures publicity still</span></figcaption></figure>

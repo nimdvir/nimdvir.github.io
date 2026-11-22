@@ -24,11 +24,11 @@ tags:
 - Hollywood
 - Fashion
 - LGBTQ+
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795368164/articles/heroes/W089-killing-eve.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795368164/articles/heroes/W089-killing-eve.jpg
-imageAlt: Jodie Comer and Sandra Oh in red gowns in promotional art for Killing Eve
-imageCaption: Jodie Comer and Sandra Oh in promotional art for Killing Eve.
-imageCredit: Photographer not identified (from the author's archive)
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795377135/articles/originals/317_W089.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377135/articles/originals/317_W089.jpg
+imageAlt: Jodie Comer and Sandra Oh
+imageCaption: Jodie Comer and Sandra Oh. “In season two, we explore this impossible romance between them in more depth.”
+imageCredit: 'Photo: Steve Schofield / BBC / BBC America / Sid Gentle Films'
 draft: false
 ---
 
@@ -71,6 +71,8 @@ Oh: "For some viewers it's a spy thriller, others see it as a parable of modern 
 Scolding journalists and grading the quality of their questions are hobbies of Oh's, and they help her cultivate an intellectual, bordering on intimidating, air. She likes to open her answers with "That's a really good question" or "I don't like that question at all," she reprimands journalists who interrupt one another, and she isn't afraid to say that "I've noticed the men here aren't letting their female colleagues speak, and maybe that means there are too many men in the room."
 
 Perhaps the strict vibe is simply the way Oh, 47 (and looking a good deal younger, if I may), savors the superstar status the show has brought her over the past year. She was born in Canada to Korean immigrants who were not especially pleased that their daughter was drawn to acting. What particularly annoyed them was her decision to give up a university scholarship in journalism for drama school in Montreal.
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377136/articles/originals/318_W089.jpg" alt="Sandra Oh in the second season of Killing Eve. &quot;You could say that sexuality and exploring its limits are motifs of ours on the show&quot;" loading="lazy" width="4500" height="3000" /><figcaption>Sandra Oh in the second season of Killing Eve. &quot;You could say that sexuality and exploring its limits are motifs of ours on the show&quot; <span class="photo-credit">Photo: Aimee Spinks / BBC America</span></figcaption></figure>
 
 Her gamble paid off in a big way. For the past 30 years she has worked almost without pause in the American entertainment industry, with guest roles in countless series and films, from The Princess Diaries to Sideways and Dancing at the Blue Iguana.
 
@@ -120,6 +122,8 @@ She laughs. "I was told to make sure Villanelle was two things: a strange woman,
 
 "I don't think she's especially sexual, or at least not in the way we've been used to seeing from women like her on screen. She's just herself. We never discussed on the show what she is or what her orientation is. She lives her life, and that's fine. It makes me very happy that the audience sees something sexual in her, that they accept her."
 
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377137/articles/originals/319_W089.jpg" alt="Jodie Comer as Villanelle. &quot;I could completely identify with the label psychopath&quot;" loading="lazy" width="2400" height="1600" /><figcaption>Jodie Comer as Villanelle. &quot;I could completely identify with the label psychopath&quot; <span class="photo-credit">Photo: Aimee Spinks / BBC America</span></figcaption></figure>
+
 Sandra Oh backs her up. "When a person feels comfortable in their own skin, it attracts others. Jodie's sexuality doesn't come from magazines or from a bunch of men telling her what she has to do to be sexy. Her sex appeal comes from her ease. I think a lot of women can identify with her sexual fluidity.
 
 "In that sense, you can tell this is a show created by women, starring women, about a relationship between women. Villanelle's sexuality was never discussed. We just moved on."
@@ -167,3 +171,5 @@ Comer: "I think that event changed the way the characters see reality. Villanell
 "A lot of scenes really are shot separately," Comer says. "We know the other one is working on something, but only when it reaches the screen do we see the final result. It's interesting to discover it along with the viewers. I finally understand what she was doing the whole time.
 
 "This season they do meet. Later on there will be a lot of interaction. Two different worlds will finally connect."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1771104965/killing-eve_Page_1_s53dtm.jpg" alt="The opening spread of the Killing Eve interview in Israel Hayom" loading="lazy" width="3232" height="2215" /><figcaption>The interview as it opened in print in Israel Hayom. <span class="photo-credit">Israel Hayom</span></figcaption></figure>

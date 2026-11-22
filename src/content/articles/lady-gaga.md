@@ -40,7 +40,7 @@ Right now she's in Tokyo, driving the Japanese wild with hairdos and a parade of
 
 ## Five Years Back, at NYU
 
-In honor of her Israel visit we were granted a phone call with the Lady, direct from Tokyo. I arrive at the interview a little starstruck. Apart from the fact that I adore her ("Poker Face" is, as far as I'm concerned, the song of the year), we also have a line in common on the résumé: I knew Gaga, or Stefani, back when we shared a classroom, five years ago at New York University.
+In honor of her Israel visit we were granted a phone call with the Lady, direct from Tokyo. I arrive at the interview a little starstruck. Apart from the fact that I adore her ("Poker Face" is, as far as I'm concerned, the song of the year), we also have a line in common on the résumé: I knew Gaga, or Stefani, back when we were both students at New York University, five years ago.
 
 She studied music and I studied other things, but I knew who she was because of Gaga, who was already in business back then. In those days she was a kind of party promoter and downtown personality, running nights at the clubs that mattered and performing around lower Manhattan. Those were the years she invented the alter ego called Gaga, colorful, glittering, sexually blurry, and strutted it around the city. Then she took off. Today the very clubs she used to promote are playing her songs.
 
@@ -60,7 +60,7 @@ The idea of Lady Gaga was already cooking. At 19 she signed with Def Jam Records
 
 Around then she teamed up with a local drag queen named Lady Starlight, and the two became close friends. Starlight helped Gaga sharpen her style and brought her into the gay community. Their joint show became the talk of the town, and Gaga, personality blazing, began to make a name for herself. At 20 she dropped out and signed with Interscope Records, initially as a songwriter.
 
-After becoming the protégée of the singer Akon, she went to work on her debut album, The Fame, released in 2008. It was a runaway success and spun off a string of chart-topping hits: "Poker Face," "Paparazzi," "Just Dance" and more. Gaga was nominated for a Grammy, joined the Pussycat Dolls on tour, and bit by bit became a worldwide phenomenon.
+After becoming the protégée of the singer Akon, she went to work on her debut album, The Fame, released in 2008. It was a runaway success and spun off a string of hits that climbed high on the charts: "Poker Face," "Paparazzi," "Just Dance" and more. Gaga was nominated for a Grammy, joined the Pussycat Dolls on tour, and bit by bit became a worldwide phenomenon.
 
 "Call me Gaga," she asks before we continue. "Even back then, when we were in school together, people called me Gaga. It's been like that for years. All my friends call me Gaga. Even my family started calling me that, though more as a joke."
 
@@ -86,7 +86,9 @@ Gaga considers herself an artist down to the last fiber. Even the sentences she 
 
 ## "It Was a Great Honor to Perform with the Pet Shop Boys"
 
-Speaking of good people: a great deal has been written about how Lady Gaga is, in fact, no small fraud, and how the secret of her success lies in super-slick production. Meaning the producers are the ones who put the sting in songs like "Poker Face," while live, Gaga turns out to be a C-minus singer. One look at this year's Brit Awards, where she sang a tribute to the Pet Shop Boys and was as off-key as a run-over cat, was enough. When I ask her about it, she says: "I was very emotional at that moment. It was a great honor for me to perform with the Pet Shop Boys."
+Speaking of good people: a great deal has been written about how Lady Gaga is, in fact, badly out of tune, and how the secret of her success lies in super-slick production. Meaning the producers are the ones who put the sting in songs like "Poker Face," while live, Gaga turns out to be a C-minus singer. One look at this year's Brit Awards, where she sang a tribute to the Pet Shop Boys and was as off-key as a run-over cat, was enough. When I ask her about it, she says: "I was very emotional at that moment. It was a great honor for me to perform with the Pet Shop Boys."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377129/articles/originals/007_W004.jpg" alt="&quot;I always knew I was going to be a star&quot;" loading="lazy" width="408" height="307" /><figcaption>&quot;I always knew I was going to be a star&quot; <span class="photo-credit">Photo: Getty Images Imagebank</span></figcaption></figure>
 
 **Are you aware of the criticism that "Gaga" is more production than talent?**
 
