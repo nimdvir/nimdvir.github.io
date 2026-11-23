@@ -41,9 +41,13 @@ Fassbender, 36, German-born and raised in Ireland, is known to audiences as the 
 
 "He's very demanding, but he's also very reassuring, and he really lets actors follow their instincts. He makes it a very safe place to fail. He encourages the idea of trying and failing, then trying again and failing better. Actors usually have tricks we lean on, things that worked before, so we do them again. Steve has a big bullshit detector. He forces you to drop your guard and keep it real."
 
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-1.jpg" alt="Steve McQueen and Michael Fassbender. Quite the pair" loading="lazy" width="640" height="360" /><figcaption>Steve McQueen and Michael Fassbender. Quite the pair <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
+
 Speaking of dropping your guard: after dropping the weight for Hunger and going full frontal in Shame, came 12 Years a Slave. Fassbender seems to take it a step further here, as a violent villain, violent toward women above all, who abuses his workers on the sweltering farmland of Louisiana. The role, incidentally, has earned him an [Oscar nomination for Best Supporting Actor](https://www.ynet.co.il/articles/0,7340,L-4477534,00.html).
 
 "It's an intense role, but I made a point of keeping my distance from it," he says. "It would have been pretty perverse of me to use this character as some kind of therapy. It's an important story, so I went into it with a lot of respect and a lot of responsibility. I wanted to take on the responsibility of becoming Master Epps because I think he's so central to Solomon's journey. More than anything I wanted to honor Solomon and all the slaves. You could practically feel their spirits dancing around the plantations."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-2.jpg" alt="Michael Fassbender as Edwin Epps in 12 Years a Slave" loading="lazy" width="640" height="360" /><figcaption>Michael Fassbender as Edwin Epps in 12 Years a Slave <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 **You handle the whip like an expert.**
 
@@ -52,6 +56,8 @@ Speaking of dropping your guard: after dropping the weight for Hunger and going 
 **For all he does, there's something miserable about Epps too.**
 
 "I wanted to give him a human element, so we could recognize some spark of ourselves in him and then go home and say, hang on, maybe we should be treating each other better? Solomon's story is horrifying, of course, but the people holding the whips were damaged too, by what it did to their souls. My wife in the film (Sarah Paulson, who is wonderful) ends up a very pitiful figure as well. Their marriage is falling apart, they have no children, and her husband is cheating on her. She's human, and she's reacting to her insecurity and her fears.
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-3.jpg" alt="Michael Fassbender in 12 Years a Slave. A complicated character" loading="lazy" width="640" height="360" /><figcaption>Michael Fassbender in 12 Years a Slave. A complicated character <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 "Epps is the same. He's just reacting to his fears. He's in love with Patsey, one of his slaves, and he has no idea what to do with that, so he sets out to destroy her. It was a complicated world. Slavery isn't only the relationship between master and slave. It's also the story of the country's economy. You see Solomon go from hauling freight to picking cotton to a sugar plantation. The film shows you how much that society's economy depended on slavery."
 
@@ -66,6 +72,8 @@ When he isn't beating slaves in Louisiana, Fassbender divides his time between L
 **What about a personal life? Marriage, say, or a family?**
 
 "I feel like that would be having my cake and eating it too. I have a wonderful job, the one I always wanted. I suppose I've had to sacrifice things along the way. I don't know what's around the corner. I might meet someone and fall in love, but most of my attention goes to the work. I spent a lot of years waiting to work, and now I finally get to do it. I think creative people have a period when they do their best work, and the years before and after are a kind of run-up or a decline. I'm in my period now, and I want to focus on it."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-6.jpg" alt="Michael Fassbender, Steve McQueen and Chiwetel Ejiofor. An Oscar on the way?" loading="lazy" width="640" height="360" /><figcaption>Michael Fassbender, Steve McQueen and Chiwetel Ejiofor. An Oscar on the way? <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
 
 **You're also up for an Oscar for this role. More proof you're in a good period.**
 

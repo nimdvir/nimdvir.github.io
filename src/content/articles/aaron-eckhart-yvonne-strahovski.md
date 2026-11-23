@@ -22,6 +22,11 @@ tags:
 - Interview
 - Film
 - Hollywood
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408709/PersonalSite/Interviews/W122-aaron-eckhart-yvonne-strahovski/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W122-aaron-eckhart-yvonne-strahovski/lead-original-photo.jpg
+imageAlt: Aaron Eckhart and Yvonne Strahovski in a scene from I, Frankenstein
+imageCaption: Aaron Eckhart and Yvonne Strahovski in I, Frankenstein. Sexual tension?
+imageCredit: Photo as published on Ynet
 draft: false
 ---
 

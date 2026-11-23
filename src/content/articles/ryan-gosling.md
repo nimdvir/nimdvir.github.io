@@ -33,7 +33,11 @@ draft: false
 
 The surprise came right at the top. Ryan Gosling had barely sat down to talk about his new film, The Place Beyond the Pines, in which he plays a professional motorcycle rider who turns to crime to support his son, when he asked, before anything else, how Israel's motorcycle bandit was doing. "He was good, wasn't he?" he says with a grin. "He's my idol. I've read a lot about him."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-1.jpg" alt="Ryan Gosling counts the money in The Place Beyond the Pines. A role model on two wheels" loading="lazy" width="408" height="271" /><figcaption>Ryan Gosling counts the money in The Place Beyond the Pines. A role model on two wheels <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 And he has done his reading. Gosling turned out to know the Roni Leibovitz story in impressive detail, and sang his praises to the whole room. "I love the guy because we think alike," he says. "Before I'd ever heard of him, I had worked out an excellent theory of bank robbery: you pull up on a motorcycle, you rob the place with your helmet on so nobody can identify you, then you ride off and hide inside a truck, so the cops keep looking for a man on a motorcycle. I carried that idea around for years."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-2.jpg" alt="Roni Leibovitz. Spot the differences" loading="lazy" width="408" height="376" /><figcaption>Roni Leibovitz. Spot the differences <span class="photo-credit">Photo: Meir Partush</span></figcaption></figure>
 
 It sounds a little strange, but there's a chance that an Israeli bank robber is what landed Gosling the part. The film was directed by Derek Cianfrance, who made Blue Valentine, with Gosling opposite Michelle Williams. "One night I was having dinner with Derek and he asked me what I'd most like to do in life," the Hollywood heartthrob recalls. "I told him that if I could really do whatever I wanted, I'd rob a bank, but I'm scared of going to prison.
 
@@ -55,11 +59,15 @@ The Place Beyond the Pines runs a little deeper than your average action movie. 
 
 "I feel like a lot of films fetishize violence. They make it cool. We didn't want to do that. Yes, it's a story about violence, but it's not a celebration of violence. It's a film about America, or the way I see it, about American tribes: our society is a set of traditions, and you're basically born into choices that other people made before you."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-4.jpg" alt="Ryan Gosling. A film about America" loading="lazy" width="408" height="258" /><figcaption>Ryan Gosling. A film about America <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
+
 To keep the film as close as possible to the real America, the production went out of its way to put the actors inside it. "We shot the whole thing in Schenectady, New York, which is where the story is actually set," Gosling says. "We wanted it real. They introduced us to local cops, and even to a man who had robbed a bank in that very town and done time for it. It was fascinating. He talked about what drove him to it, how it felt while he was doing it, the rush, and why he kept going back. Even in the robbery scene itself, everyone there except me, the tellers, the customers, even the guards, were mostly real people who had been through a robbery like that."
 
 **You put people back inside their own trauma. How did that go?**
 
 "Honestly, at first it was a disaster, and not because of trauma. On the first take I burst into the bank to pull the robbery and I see one of the women behind the counter, instead of getting into character and panicking, just filming me on her phone. Other times people started laughing at me halfway through. They kept blowing it. By take 15 I was so angry and so worn out that I came into that bank screaming for real, gun drawn, and genuinely scared them. And then it happened. Suddenly the robbery looked real."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-5.jpg" alt="Ryan Gosling and Eva Mendes. As real as it gets" loading="lazy" width="408" height="271" /><figcaption>Ryan Gosling and Eva Mendes. As real as it gets <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 Another touch of reality: Gosling's partner and the mother of his son is played by Eva Mendes, who is also his partner off screen. In fact, he is the one who brought her onto the film. "In general there's a difference between a movie and real life. It's like robbing the bank. I didn't actually do it. The baby they gave Eva and me in the film was really cute. I loved him. If they'd handed him to me, I might have raised him. When there's a baby around, your instincts kick in. You definitely feel something."
 
@@ -80,6 +88,8 @@ When Gosling says forever, he isn't exaggerating. He was born in Canada and move
 He may want to grow up and be taken seriously as an actor, but right now Gosling is Hollywood's hot kid, mostly on account of his abs, which he does his best to disown. "They're not real. It's Photoshop. Kidding. A little Photoshop and a lot of gym," he jokes, and announces that he has no intention of taking his shirt off in his next films, to the disappointment of a great many female fans and of the journalists at People magazine and elsewhere who vote him onto the sexiest-men-alive list every year.
 
 "I've been in a lot of films where I kept my shirt on, but everyone latched onto a handful of scenes and it snowballed. Suddenly I felt I was boxing myself in, so I'm not doing it again. No more undressing on film. I work very hard at staying varied and I'm very wary of being typecast. I can see a problem starting, so I'm deliberately taking different roles, roles that rest on the character, and I'm keeping my shirt on."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-7.jpg" alt="Ryan Gosling takes his shirt off with Emma Stone in Crazy, Stupid, Love" loading="lazy" width="408" height="272" /><figcaption>Ryan Gosling takes his shirt off with Emma Stone in Crazy, Stupid, Love <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 Gosling much prefers the other compliment Hollywood keeps paying him, the regular comparisons to giants like Brad Pitt and George Clooney. Clooney even worked with him on The Ides of March, as co-star and as director.
 

@@ -1,11 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import NewsList from "../components/NewsList.astro";
 import PostList from "../components/PostList.astro";
 import ProfileIcon from "../components/ProfileIcon.astro";
-import { getPosts, getNews } from "../utils/editorial";
+import { getPosts } from "../utils/editorial";
 import { cvUrl, socialLinks } from "../data/profile";
-const [posts, news] = await Promise.all([getPosts(), getNews()]);
+const posts = await getPosts();
 ---
 
 <Layout
@@ -67,17 +66,6 @@ const [posts, news] = await Promise.all([getPosts(), getNews()]);
     </section>
   </div>
   <div class="home-updates">
-    <section aria-labelledby="home-news-heading">
-      <div class="section-head">
-        <h2 id="home-news-heading">News</h2>
-        <a href="/news/">All news</a>
-      </div>
-      {news.length ? (
-        <NewsList entries={news.slice(0, 3)} />
-      ) : (
-        <p class="small">No news yet.</p>
-      )}
-    </section>
     {posts.length > 0 && (
       <section aria-labelledby="latest-posts-heading">
         <div class="section-head">

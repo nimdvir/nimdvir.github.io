@@ -1,5 +1,5 @@
 {
-  "_about": "Public image for each website article page, keyed by article ID. Built pages read this file. Each record names the hosted image, its photographer, license, and source page. Publisher photographs from the original articles are never used.",
+  "_about": "Public image for each website article page, keyed by article ID. Built pages read this file. Each record names the hosted image, its photographer, license, and source page. Photographs that ran with the original articles are used with the credit they were published with.",
   "W001": {
     "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1763929038/PersonalSite/Interviews/W001-jamie-foxx/lead-photo.jpg",
     "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1763929038/PersonalSite/Interviews/W001-jamie-foxx/lead-photo.jpg",
@@ -133,7 +133,39 @@
           "credit": "Photo: MCT, as published on Ynet",
           "match": "Life in the fast lane"
         }
-      ]
+      ],
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-1.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Steve McQueen and Michael Fassbender. Quite the pair",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "204"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-2.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Michael Fassbender as Edwin Epps in 12 Years a Slave",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "205"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-3.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Michael Fassbender in 12 Years a Slave. A complicated character",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "206"
+      },
+      "5": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W165-michael-fassbender/original-photo-6.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Michael Fassbender, Steve McQueen and Chiwetel Ejiofor. An Oscar on the way?",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "208"
+      }
     }
   },
   "W089": {
@@ -211,10 +243,59 @@
           "credit": "Photo as published on Ynet",
           "match": "and the baby in the film"
         }
-      ]
+      ],
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-1.jpg",
+        "width": 408,
+        "height": 271,
+        "caption": "Ryan Gosling counts the money in The Place Beyond the Pines. A role model on two wheels",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "257"
+      },
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-2.jpg",
+        "width": 408,
+        "height": 376,
+        "caption": "Roni Leibovitz. Spot the differences",
+        "credit": "Photo: Meir Partush",
+        "checklistRow": "258"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-4.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "Ryan Gosling. A film about America",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "260"
+      },
+      "5": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-5.jpg",
+        "width": 408,
+        "height": 271,
+        "caption": "Ryan Gosling and Eva Mendes. As real as it gets",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "261"
+      },
+      "7": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408714/PersonalSite/Interviews/W186-ryan-gosling/original-photo-7.jpg",
+        "width": 408,
+        "height": 272,
+        "caption": "Ryan Gosling takes his shirt off with Emma Stone in Crazy, Stupid, Love",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "263"
+      }
     }
   },
   "W023": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg",
+    "alt": "Matthew Broderick in Tower Heist",
+    "caption": "Broderick in Tower Heist. Not sure it's a satire on the rich",
+    "credit": "Photo: Universal Pictures publicity still",
+    "width": 600,
+    "height": 399,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 046.",
     "photos": {
       "0": {
         "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377132/PersonalSite/Interviews/W023-matthew-broderick/original-photo-1.jpg",
@@ -222,13 +303,6 @@
         "height": 171,
         "credit": "Photo: Universal Pictures production still",
         "checklistRow": "044"
-      },
-      "2": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg",
-        "width": 600,
-        "height": 399,
-        "credit": "Photo: Universal Pictures publicity still",
-        "checklistRow": "046"
       },
       "3": {
         "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795377134/PersonalSite/Interviews/W023-matthew-broderick/original-photo-4.jpg",
@@ -253,7 +327,33 @@
     "credit": "Photographer not identified (from the author's archive)",
     "width": 1000,
     "height": 1500,
-    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
+    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408711/PersonalSite/Interviews/W021-eva-mendes/original-photo-1.jpg",
+        "width": 408,
+        "height": 271,
+        "caption": "Eva Mendes and Ryan Gosling in The Place Beyond the Pines. A little scruffy",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "040"
+      },
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W021-eva-mendes/original-photo-2.jpg",
+        "width": 408,
+        "height": 568,
+        "caption": "Eva Mendes. Looking worse is hard work too",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "041"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408713/PersonalSite/Interviews/W021-eva-mendes/original-photo-3.jpg",
+        "width": 408,
+        "height": 271,
+        "caption": "Ryan Gosling and Eva Mendes. Just like life",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "042"
+      }
+    }
   },
   "W046": {
     "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1760819301/PersonalSite/Interviews/W046-julianne-moore/lead-photo.jpg",
@@ -440,15 +540,17 @@
     }
   },
   "W083": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg",
+    "alt": "Sacha Baron Cohen, in character as the Dictator, and Nimrod Dvir at the press conference",
+    "caption": "Inspecting the goods? Nimrod Dvir and Sacha Baron Cohen in New York",
+    "credit": "Photo: MCT, as published on Ynet",
+    "width": 408,
+    "height": 287,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 088.",
     "photos": {
       "byCaption": [
-        {
-          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg",
-          "width": 408,
-          "height": 287,
-          "credit": "Photo: MCT, as published on Ynet",
-          "match": "Inspecting the goods?"
-        },
         {
           "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357478/PersonalSite/Interviews/W083-dictator-coverage/original-photo-2.jpg",
           "width": 408,
@@ -468,5 +570,496 @@
     "width": 1320,
     "height": 880,
     "origin": "Nim's blog post on the interview (nimdvir.blogspot.com, 2014), placed 2026-11-22"
+  },
+  "W010": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W010-bill-masters/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408701/PersonalSite/Interviews/W010-bill-masters/lead-original-photo.jpg",
+    "alt": "Black-and-white portrait of Bill Masters, smiling",
+    "caption": "Masters. One of the fathers of Seinfeld. Collaboration and runaway success",
+    "credit": "Photo as published on Ynet",
+    "width": 408,
+    "height": 258,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 018.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W010-bill-masters/original-photo-2.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "Seinfeld. The work goes on through the season, and the writers \"sweeten\" the episodes",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "019"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W010-bill-masters/original-photo-3.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "The Israeli sitcom Polishuk. \"It's strange that you don't have many sitcoms\"",
+        "credit": "Photo: Oded Karni",
+        "checklistRow": "020"
+      }
+    }
+  },
+  "W011": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/lead-original-photo.jpg",
+    "alt": "Steve McQueen and Chiwetel Ejiofor at a 12 Years a Slave screening, Ejiofor waving",
+    "caption": "Chiwetel Ejiofor and the director Steve McQueen",
+    "credit": "Photo: MCT",
+    "width": 490,
+    "height": 489,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 022.",
+    "photos": {
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/original-photo-2.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Chiwetel Ejiofor and Benedict Cumberbatch in 12 Years a Slave",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "023"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/original-photo-3.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Chiwetel Ejiofor. Not getting fitted for a suit",
+        "credit": "Photo: MCT",
+        "checklistRow": "024"
+      }
+    }
+  },
+  "W016": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/lead-original-photo.jpg",
+    "alt": "A packed street at the 2009 Pride Parade",
+    "caption": "Pride Parade 2009. A bit of everything",
+    "credit": "Photo: George Ginsberg",
+    "width": 408,
+    "height": 273,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 026.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/original-photo-2.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "Leon and Bublil on \"Big Brother.\" \"Talked for a minute and a half about his orientation\"",
+        "credit": "Photo: Channel 2",
+        "checklistRow": "027"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/original-photo-3.jpg",
+        "width": 408,
+        "height": 416,
+        "caption": "Fay Guttman and his boyfriend Yanai. Bring him home to your parents",
+        "credit": "Photo: Anat Mosberg",
+        "checklistRow": "028"
+      }
+    }
+  },
+  "W035": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W035-patti-stanger/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W035-patti-stanger/lead-original-photo.jpg",
+    "alt": "Patti Stanger in a red dress on a red carpet",
+    "caption": "Stanger. Dates worth millions",
+    "credit": "Photo: PR",
+    "width": 408,
+    "height": 650,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 058.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W035-patti-stanger/original-photo-2.jpg",
+        "width": 408,
+        "height": 287,
+        "caption": "The dating market, in her hands",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "059"
+      }
+    }
+  },
+  "W056": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408702/PersonalSite/Interviews/W056-tim-burton-moma/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W056-tim-burton-moma/lead-original-photo.jpg",
+    "alt": "Tim Burton standing beside two of his paintings",
+    "caption": "Burton beside his work. Not just a talented director",
+    "credit": "Photo: AFP",
+    "width": 408,
+    "height": 258,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 063.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-1.jpg",
+        "width": 408,
+        "height": 552,
+        "caption": "Welcome to the twisted world of Tim Burton",
+        "credit": "Photo: AFP",
+        "checklistRow": "062"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-3.jpg",
+        "width": 408,
+        "height": 271,
+        "caption": "Memorabilia from two decades of hits",
+        "credit": "Photo: AFP",
+        "checklistRow": "064"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-4.jpg",
+        "width": 408,
+        "height": 545,
+        "caption": "Come to think of it, maybe not much has changed over the years",
+        "credit": "Photo: AFP",
+        "checklistRow": "065"
+      },
+      "5": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-5.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "The gothic look stays with him",
+        "credit": "Photo: AFP",
+        "checklistRow": "066"
+      }
+    }
+  },
+  "W071": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/lead-original-photo.jpg",
+    "alt": "Two men at a party, one with his arm around the other",
+    "caption": "Fay-Guttman and the boyfriend. A kiss in prime time? What's the big deal?",
+    "credit": "Photo: Eliran Avital",
+    "width": 408,
+    "height": 272,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 081.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/original-photo-2.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "Asaf and Gal. The main thing is that there are gays on The Block",
+        "credit": "Photo: Eldad Rafaeli",
+        "checklistRow": "082"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W071-lgbtq-television/original-photo-3.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "Arik and Ofir. Some people don't make a thing of it",
+        "credit": "Photo: Anat Mosberg",
+        "checklistRow": "083"
+      }
+    }
+  },
+  "W097": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W097-karim-rashid/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408705/PersonalSite/Interviews/W097-karim-rashid/lead-original-photo.jpg",
+    "alt": "Karim Rashid in white, standing in a brightly colored interior",
+    "caption": "Karim Rashid",
+    "credit": "Photo: Michel Gavnit",
+    "width": 500,
+    "height": 679,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 102.",
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-1.jpg",
+        "width": 2000,
+        "height": 1125,
+        "caption": "Rashid's studio in Manhattan",
+        "credit": "Photo: Stanislas Liban",
+        "checklistRow": "093"
+      },
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-2.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "The Poli House hotel in Tel Aviv",
+        "credit": "Photo: Yael Engelhart",
+        "checklistRow": "094"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-3.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "The Poli House hotel in Tel Aviv",
+        "credit": "Photo: Assaf Pinchuk",
+        "checklistRow": "095"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-4.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "Rashid's studio in Manhattan",
+        "credit": "Photo: Stanislas Liban",
+        "checklistRow": "096"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-5.jpg",
+        "width": 500,
+        "height": 679,
+        "caption": "Rashid's studio in Manhattan",
+        "credit": "Photo: Stanislas Liban",
+        "checklistRow": "097"
+      },
+      "5": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-6.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "Perfume bottles Rashid designed for Kenzo",
+        "credit": "Photo: PR",
+        "checklistRow": "098"
+      },
+      "6": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-7.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "Aitali KX-Gradient armchair",
+        "credit": "Photo: PR",
+        "checklistRow": "099"
+      },
+      "7": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-8.jpg",
+        "width": 500,
+        "height": 679,
+        "caption": "A perfume bottle Rashid designed for Estée Lauder",
+        "credit": "Photo: PR",
+        "checklistRow": "100"
+      },
+      "8": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-9.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "Offect Orgy sofa",
+        "credit": "Photo: PR",
+        "checklistRow": "101"
+      }
+    }
+  },
+  "W098": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408706/PersonalSite/Interviews/W098-gila-gamliel/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408706/PersonalSite/Interviews/W098-gila-gamliel/lead-original-photo.jpg",
+    "alt": "Gila Gamliel in a navy dress against a pink backdrop",
+    "caption": "Gila Gamliel | Dress: Marc Cain",
+    "credit": "Photo: Ilya Melnikov",
+    "width": 2000,
+    "height": 1125,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 103.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-2.jpg",
+        "width": 500,
+        "height": 367,
+        "caption": "\"We have to support one another\" | Jeans: Zara, top: Essentiel at Numero 13, shoes: Pollini at Mary Shoes",
+        "credit": "Photo: Ilya Melnikov",
+        "checklistRow": "104"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-3.jpg",
+        "width": 500,
+        "height": 679,
+        "caption": "\"An unfortunate remark or a conspicuous dress gets headlines. There's something shallow in the conversation. It's very overheated. In the Knesset, in the media. Everything is a fight. People focus on the noise instead of the work\" | Top: Audra Belarus for Numero 13, skirt: Zara, shoes: Aldo",
+        "credit": "Photo: Ilya Melnikov",
+        "checklistRow": "105"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-4.jpg",
+        "width": 500,
+        "height": 679,
+        "caption": "\"To me the ideal is equal parenting\" | Striped dress: Missoni for Factory 54, black jacket: Sonia Rykiel for Tactic",
+        "credit": "Photo: Ilya Melnikov",
+        "checklistRow": "106"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-5.jpg",
+        "width": 500,
+        "height": 332,
+        "caption": "Gamliel with her daughters",
+        "credit": "Photo as published in At",
+        "checklistRow": "107"
+      },
+      "5": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-6.jpg",
+        "width": 500,
+        "height": 333,
+        "caption": "\"Netanyahu isn't going anywhere\"",
+        "credit": "Photo: Jack Guez/AFP",
+        "checklistRow": "108"
+      },
+      "6": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-7.jpg",
+        "width": 500,
+        "height": 333,
+        "caption": "\"Avi Gabbay can't serve as opposition leader because he isn't a member of the Knesset\"",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "109"
+      }
+    }
+  },
+  "W108": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W108-ester-rada/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W108-ester-rada/lead-original-photo.jpg",
+    "alt": "Ester Rada in a pastel dress, palms pressed together",
+    "caption": "Doesn't want her skin to be the issue. Rada",
+    "credit": "Photo: Guy Gilad",
+    "width": 408,
+    "height": 323,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 115.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W108-ester-rada/original-photo-2.jpg",
+        "width": 408,
+        "height": 272,
+        "caption": "A computer genius from a poor home. Rada in Deus",
+        "credit": "Photo: Roee Berkovich",
+        "checklistRow": "116"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W108-ester-rada/original-photo-3.jpg",
+        "width": 408,
+        "height": 252,
+        "caption": "\"My first step: The Troupe. Some welcome\"",
+        "credit": "Photo: Ariel Bashor",
+        "checklistRow": "117"
+      }
+    }
+  },
+  "W122": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W122-aaron-eckhart-yvonne-strahovski/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W122-aaron-eckhart-yvonne-strahovski/lead-original-photo.jpg",
+    "alt": "Aaron Eckhart and Yvonne Strahovski in a scene from I, Frankenstein",
+    "caption": "Aaron Eckhart and Yvonne Strahovski in I, Frankenstein. Sexual tension?",
+    "credit": "Photo as published on Ynet",
+    "width": 640,
+    "height": 360,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 135."
+  },
+  "W163": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W163-noa-tishby/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W163-noa-tishby/lead-original-photo.jpg",
+    "alt": "Noa Tishby lying on a brown sofa with a small dog",
+    "caption": "Tishby. An industry veteran, here and in Hollywood",
+    "credit": "Photo: Yaniv Edry",
+    "width": 408,
+    "height": 272,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 197.",
+    "photos": {
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W163-noa-tishby/original-photo-2.jpg",
+        "width": 408,
+        "height": 273,
+        "caption": "\"I feel that with In Treatment I managed to open the door\"",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "198"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W163-noa-tishby/original-photo-3.jpg",
+        "width": 408,
+        "height": 608,
+        "caption": "At the premiere of The Island with Jeff Goldblum. A networking wizard",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "199"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W163-noa-tishby/original-photo-4.jpg",
+        "width": 408,
+        "height": 563,
+        "caption": "At her wedding, with Günsberg",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "200"
+      }
+    }
+  },
+  "W171": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W171-darren-star/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408710/PersonalSite/Interviews/W171-darren-star/lead-original-photo.jpg",
+    "alt": "Black-and-white portrait of Darren Star",
+    "caption": "Star. \"In the Beverly Hills days we were the only ones of our kind on screen\"",
+    "credit": "Photo as published on Ynet",
+    "width": 408,
+    "height": 258,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 220.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W171-darren-star/original-photo-2.jpg",
+        "width": 408,
+        "height": 258,
+        "caption": "The original 90210 cast. \"We knew we were a hit\"",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "221"
+      }
+    }
+  },
+  "W174": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W174-spike-lee/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408710/PersonalSite/Interviews/W174-spike-lee/lead-original-photo.jpg",
+    "alt": "Spike Lee in a white cap and glasses",
+    "caption": "\"Who cares about Miss Daisy today?\" Spike Lee",
+    "credit": "Photo: MCT",
+    "width": 640,
+    "height": 360,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 229.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408710/PersonalSite/Interviews/W174-spike-lee/original-photo-1.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Elizabeth Olsen and Josh Brolin in Oldboy",
+        "credit": "Photo as published on Ynet",
+        "checklistRow": "226"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408711/PersonalSite/Interviews/W174-spike-lee/original-photo-2.jpg",
+        "width": 640,
+        "height": 360,
+        "caption": "Lee in sensory overload as a New York Knicks fan at Madison Square Garden",
+        "credit": "Photo: Getty Images",
+        "checklistRow": "227"
+      }
+    }
+  },
+  "W176": {
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg",
+        "width": 650,
+        "height": 649,
+        "caption": "Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding",
+        "credit": "Publicity photo",
+        "checklistRow": "231"
+      },
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408711/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-2.jpg",
+        "width": 650,
+        "height": 627,
+        "caption": "Sure, honey, it's genetics! Efron gets some personal attention from Rita Ora",
+        "credit": "Photo: AFP",
+        "checklistRow": "232"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408711/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-3.jpg",
+        "width": 650,
+        "height": 1017,
+        "caption": "Evolving from party animals into grown-ups. Rogen and Efron",
+        "credit": "Publicity photo",
+        "checklistRow": "233"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-4.jpg",
+        "width": 650,
+        "height": 433,
+        "caption": "One more and that's it. Efron in Neighbors",
+        "credit": "Publicity photo",
+        "checklistRow": "234"
+      }
+    }
   }
 }

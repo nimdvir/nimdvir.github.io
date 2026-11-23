@@ -45,28 +45,6 @@ const blog = defineCollection({
     })
     .superRefine(editorialChecks),
 });
-const news = defineCollection({
-  type: "content",
-  schema: z
-    .object({
-      title: z.string(),
-      date: z.string(),
-      summary: z.string(),
-      draft: z.boolean().default(true),
-      inline: z.boolean().default(true),
-      link: z
-        .string()
-        .refine(
-          (value) =>
-            (value.startsWith("/") && !value.startsWith("//")) ||
-            /^https?:\/\//.test(value),
-          "Use a root-relative path or an HTTP(S) URL.",
-        )
-        .optional(),
-    })
-    .superRefine(editorialChecks),
-});
-
 const research = defineCollection({
   type: "content",
   schema: z.object({
@@ -293,7 +271,6 @@ const courses = defineCollection({
 
 export const collections = {
   blog,
-  news,
   research,
   articles,
   projects,

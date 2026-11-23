@@ -22,6 +22,11 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg
+imageAlt: Matthew Broderick in Tower Heist
+imageCaption: Broderick in Tower Heist. Not sure it's a satire on the rich
+imageCredit: 'Photo: Universal Pictures publicity still'
 draft: false
 ---
 
@@ -54,8 +59,6 @@ He doesn't try very hard to look like a hero either. He arrives sheepish and smi
 ## The Best Films Are Shot in New York
 
 The film leans heavily on the financial crisis the United States is still climbing out of, on the gap between rich and poor, and on Bernie Madoff's giant fraud, which robbed huge numbers of people of everything they had saved. For all the plot's obvious resemblance to real life, Broderick is a little reluctant to take the Madoff comparison.
-
-<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795377133/PersonalSite/Interviews/W023-matthew-broderick/original-photo-3.jpg" alt="Broderick in Tower Heist. Not sure it&#x27;s a satire on the rich" loading="lazy" width="600" height="399" /><figcaption>Broderick in Tower Heist. Not sure it&#x27;s a satire on the rich <span class="photo-credit">Photo: Universal Pictures publicity still</span></figcaption></figure>
 
 "I can see why people make the comparison, but honestly I don't know enough about it. I was never much of an investor, so I can't tell you what's similar and what isn't. I don't think the film is trying to tell the story of some huge fraud or to be a parable about Bernie Madoff. I don't think you can call it a film against the rich, or against the establishment in general.
 

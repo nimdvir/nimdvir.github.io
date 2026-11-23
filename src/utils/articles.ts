@@ -64,13 +64,15 @@ export function isPersonPiece(article: Article) {
   return g === "international-interview" || g === "israeli-interview";
 }
 
-// A face-centred portrait crop of the article's Cloudinary image.
+// A face-centred portrait crop of the article's Cloudinary image. A face
+// marked on the asset (custom coordinates) wins over automatic detection,
+// for group shots where the subject isn't the largest face.
 export function articlePortrait(url: string | undefined, width = 600) {
   if (!url || !url.includes("/image/upload/")) return url;
   const height = Math.round((width * 4) / 3);
   return url.replace(
     /\/image\/upload\/(?:[^/]+\/)?(v\d+\/)/,
-    `/image/upload/f_auto,q_auto,w_${width},h_${height},c_fill,g_face,z_0.8/$1`,
+    `/image/upload/f_auto,q_auto,w_${width},h_${height},c_fill,g_custom:face,z_0.8/$1`,
   );
 }
 

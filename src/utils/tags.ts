@@ -1,7 +1,7 @@
 import { getCollection } from "astro:content";
 import registry from "../data/tags.json";
 import { verifiedResearch } from "../data/profile";
-import { getPosts, getNews } from "./editorial";
+import { getPosts } from "./editorial";
 import { getArticles, articleKindLabel } from "./articles";
 
 export interface TagInfo {
@@ -98,20 +98,6 @@ export async function collectTagged(): Promise<TaggedEntry[]> {
       date: post.data.date,
       sortKey: post.data.date,
       tags: post.data.tags,
-    });
-  }
-  for (const item of await getNews()) {
-    const tags = (item.data as { tags?: string[] }).tags ?? [];
-    if (!tags.length) continue;
-    entries.push({
-      title: item.data.title,
-      url: item.data.inline ? `/news/#news-${item.slug}` : `/news/${item.slug}/`,
-      summary: item.data.summary,
-      collection: "News",
-      kind: "News",
-      date: item.data.date,
-      sortKey: item.data.date,
-      tags,
     });
   }
   for (const r of await getCollection("research")) {

@@ -24,6 +24,11 @@ tags:
 - Television
 - Hollywood
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408710/PersonalSite/Interviews/W171-darren-star/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408710/PersonalSite/Interviews/W171-darren-star/lead-original-photo.jpg
+imageAlt: Black-and-white portrait of Darren Star
+imageCaption: Star. "In the Beverly Hills days we were the only ones of our kind on screen"
+imageCredit: Photo as published on Ynet
 draft: false
 ---
 
@@ -36,6 +41,8 @@ Darren Star is the man, the legend and the father of the classics Beverly Hills,
 ## Back to the Beverly Hills Days
 
 "I think Beverly Hills worked because it was just so right for its moment," Star says. "The stories were good, the cast was great, and the era really suited a show like that. There weren't many teen series back then, certainly nothing like today. So it was just us."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408710/PersonalSite/Interviews/W171-darren-star/original-photo-2.jpg" alt="The original 90210 cast. &quot;We knew we were a hit&quot;" loading="lazy" width="408" height="258" /><figcaption>The original 90210 cast. &quot;We knew we were a hit&quot; <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 Star says he was well aware of the success, and of the frenzied devotion his shows inspired. "Even when Beverly Hills was on the air in real time, I knew it was hugely loved in Israel."
 

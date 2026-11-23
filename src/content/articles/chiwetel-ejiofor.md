@@ -23,6 +23,11 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/lead-original-photo.jpg
+imageAlt: Steve McQueen and Chiwetel Ejiofor at a 12 Years a Slave screening, Ejiofor waving
+imageCaption: Chiwetel Ejiofor and the director Steve McQueen
+imageCredit: 'Photo: MCT'
 draft: false
 ---
 
@@ -44,6 +49,8 @@ Ejiofor, who has been nominated for plenty of awards before, including three Gol
 
 "Honestly, yes. It may sound strange, but after shooting we'd go out together in New Orleans. We drank, we laughed, we let off steam. That was on the very days we were filming the scenes where I'm whipped. We'd wrap, and all of us would go out for a drink. We needed to let go."
 
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/original-photo-2.jpg" alt="Chiwetel Ejiofor and Benedict Cumberbatch in 12 Years a Slave" loading="lazy" width="640" height="360" /><figcaption>Chiwetel Ejiofor and Benedict Cumberbatch in 12 Years a Slave <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 **Didn't the hard material make you angry? Uncomfortable?**
 
 "Mostly this history made me sad. The book and the film say a lot about the nature of the relationships between these people. Everyone there suffers, or suffered, white and Black alike. Everyone is trapped in the system and trying to get ahead within it on the terms that exist. Behind every one of them is a human being. These are human stories, and nobody gets a pass. I think that's what we were trying to do."
@@ -51,6 +58,8 @@ Ejiofor, who has been nominated for plenty of awards before, including three Gol
 **Racial tension is still in the headlines in the United States, including racially motivated crimes and hate between whites and Blacks. How do you think this film will affect that, if at all?**
 
 "I think the film will show people how easy it is to become a mental prisoner of society's bad rules. People in that period went mad, they went down a hole. The film shows, to my mind, that everyone was a slave to some system. What was done there was wrong and inhuman. I hope people will see the film and understand how easy it is to get dragged into terrible crimes like these, and how much you have to stay on guard to make sure it never happens again."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408701/PersonalSite/Interviews/W011-chiwetel-ejiofor/original-photo-3.jpg" alt="Chiwetel Ejiofor. Not getting fitted for a suit" loading="lazy" width="640" height="360" /><figcaption>Chiwetel Ejiofor. Not getting fitted for a suit <span class="photo-credit">Photo: MCT</span></figcaption></figure>
 
 **Got the tuxedo ready for the Oscars yet?**
 

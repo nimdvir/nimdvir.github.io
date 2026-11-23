@@ -23,6 +23,11 @@ tags:
 - LGBTQ+
 - Israel
 - Journalism
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/lead-original-photo.jpg
+imageAlt: A packed street at the 2009 Pride Parade
+imageCaption: Pride Parade 2009. A bit of everything
+imageCredit: 'Photo: George Ginsberg'
 draft: false
 ---
 
@@ -36,11 +41,15 @@ I admit that on first reading I nodded in agreement. I too loved the way Erik ma
 
 I tried to check whether there really is a difference between Ofir the "solid" one and Amir the one who "makes a thing of it." After all, the reunion between Ofir and his ex-partner was smeared across half an episode of "Survivor," and Assi Azar came out of the closet with a fanfare in "Seven Days." So what was Leon's sin, Leon whom I don't recall talking for more than a minute and a half about his sexual orientation, that he and not Azar earned the title "curiosity"?
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/original-photo-2.jpg" alt="Leon and Bublil on &quot;Big Brother.&quot; &quot;Talked for a minute and a half about his orientation&quot;" loading="lazy" width="408" height="258" /><figcaption>Leon and Bublil on &quot;Big Brother.&quot; &quot;Talked for a minute and a half about his orientation&quot; <span class="photo-credit">Photo: Channel 2</span></figcaption></figure>
+
 And I actually remember that Asaf and Gal from "The Block" were presented on the program as "gallery owners," not as "gays." So what, after all, is the difference between them and Dr. Erik Alper?
 
 ## Give Us a Doctor, or a Lawyer
 
 The answer is simple. Assi, Ofir and Erik are "straight" gays. They look like straight men, they talk like straight men, and if you bring them to the next family event, no aunt will guess. But if you bring Leon or Gal to that same event, you will most likely become the talk of the week in the family.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408702/PersonalSite/Interviews/W016-yuval-ganor-response/original-photo-3.jpg" alt="Fay Guttman and his boyfriend Yanai. Bring him home to your parents" loading="lazy" width="408" height="416" /><figcaption>Fay Guttman and his boyfriend Yanai. Bring him home to your parents <span class="photo-credit">Photo: Anat Mosberg</span></figcaption></figure>
 
 What bothered the column's author is not the publicized "flaunting" of sexual orientation, but the sheer flamboyance of those who carry it. Or in other words: not seeing "suburban queens" on screen, that is, feminine and flamboyant gay men. Give him a lawyer, a doctor, or at least a solid media man, "mature and level-headed," and please leave all the rest at home, maybe even in the closet.
 

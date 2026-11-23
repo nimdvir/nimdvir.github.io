@@ -24,6 +24,11 @@ tags:
 - Hollywood
 - Israel
 - Media
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408709/PersonalSite/Interviews/W163-noa-tishby/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W163-noa-tishby/lead-original-photo.jpg
+imageAlt: Noa Tishby lying on a brown sofa with a small dog
+imageCaption: Tishby. An industry veteran, here and in Hollywood
+imageCredit: 'Photo: Yaniv Edry'
 draft: false
 ---
 
@@ -55,6 +60,8 @@ About a decade ago she moved to Hollywood, and after a few rough years the work 
 
 "Yes, there was a kind of wave, but it's calmed down now. It's less the hype of 'anything from Israel is amazing' and more taking each thing on its merits. Before In Treatment there was no option at all. I feel that with In Treatment I managed to open the door. How did it happen? I'm always telling people to ignore the word 'no,' because 'no' mostly means 'not right now.' You want something? So you say, 'What about now? And now? And now? And now?' and eventually they say yes. Today the door is open, but for the good stuff."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408709/PersonalSite/Interviews/W163-noa-tishby/original-photo-2.jpg" alt="&quot;I feel that with In Treatment I managed to open the door&quot;" loading="lazy" width="408" height="273" /><figcaption>&quot;I feel that with In Treatment I managed to open the door&quot; <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 **Are a lot of Israelis trying to sell series in Hollywood?**
 
 "Tons. Everyone wants their series seen by as many people as possible, and there's the money too, since in the United States they're willing to pay a nice sum for good content. Though it's not millions, the way everyone thinks."
@@ -75,6 +82,8 @@ All well and good, but what does Tishby actually do? Follow her through a typica
 
 "Case by case. Usually, as with Screens and A Touch Away, it starts with finding a series that would work in the American market. Once I have one, I start working on the pitch. Usually I look for the right writer, and together we pitch the project to the network people, show them the Israeli version and explain how the adaptation would work. I've been lucky, and these days I have an open door at most of the networks.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408710/PersonalSite/Interviews/W163-noa-tishby/original-photo-3.jpg" alt="At the premiere of The Island with Jeff Goldblum. A networking wizard" loading="lazy" width="408" height="608" /><figcaption>At the premiere of The Island with Jeff Goldblum. A networking wizard <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 "The meetings are mostly at the level of the network president, the head of drama, the content people and the writer. For A Touch Away I came to the HBO meeting with Kate Robin, who wrote on Six Feet Under. We decided it would be a series about immigrants, because all of America is immigrants, after all. So we pitched it as a story about Orthodox Jewish immigrants in Williamsburg, Brooklyn. They loved it and we decided to run with it."
 
 ## "A Dream Is Wonderful, but You Have to Be Realistic"
@@ -92,6 +101,8 @@ All well and good, but what does Tishby actually do? Follow her through a typica
 "It matters because this is basically the American dream. Most of the Israeli industry walks around dreaming of selling a series to the Americans and buying an island in the Caribbean.
 
 "So I say: a dream is wonderful, but you have to be realistic, and it's important to do it right and not be greedy. The big money comes, as long as you keep making things. Maybe in the first season you won't get much, but in the fifth you will. I can't play along with the fantasy. The big money comes once you've made a name for yourself. David E. Kelley, Alan Ball, Darren Star, they make money. Creators starting out don't make a lot. Some of the Israeli creators are surprised by the numbers. We are in no way talking about millions of dollars."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408710/PersonalSite/Interviews/W163-noa-tishby/original-photo-4.jpg" alt="At her wedding, with Günsberg" loading="lazy" width="408" height="563" /><figcaption>At her wedding, with Günsberg <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 **What about the recession? Is it hitting the market?**
 

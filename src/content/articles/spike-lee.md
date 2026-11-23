@@ -23,6 +23,11 @@ tags:
 - Film
 - Hollywood
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408710/PersonalSite/Interviews/W174-spike-lee/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408710/PersonalSite/Interviews/W174-spike-lee/lead-original-photo.jpg
+imageAlt: Spike Lee in a white cap and glasses
+imageCaption: '"Who cares about Miss Daisy today?" Spike Lee'
+imageCredit: 'Photo: MCT'
 draft: false
 ---
 
@@ -38,11 +43,15 @@ Elizabeth Olsen, the film's female lead (and the younger sister of the famous tw
 
 "My film isn't for them," Lee says. "Anyone who thinks Oldboy shouldn't have been made again doesn't go to the movies anyway. I loved the story and I thought it would be amazing to work with Josh Brolin. I did it because I wanted the challenge. I'd never done anything like it. Then again, I don't see a big difference between making this film and my other films, even, say, a documentary. It's telling a story. I don't switch hats. I stay the same person. That's what makes it easy for me to jump between projects."
 
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408710/PersonalSite/Interviews/W174-spike-lee/original-photo-1.jpg" alt="Elizabeth Olsen and Josh Brolin in Oldboy" loading="lazy" width="640" height="360" /><figcaption>Elizabeth Olsen and Josh Brolin in Oldboy <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 Oldboy was certainly a challenge for Lee. Beyond the fact that the film had, supposedly, already been made, there were logistical problems to solve in a twisting plot that stretches across a long span of time. "How do you shoot twenty years of captivity and still keep it interesting?" the director says of the main difficulty. "What happens when you get out? We talked about it constantly. I had a lot of meetings, a lot of discussions about it."
 
 **How do you think you'd feel?**
 
 "I'm sure I'd be in sensory overload. What's an iPhone? What's Shazam? I put those questions in because I want the reality to be real, not cardboard, not a cartoon. I also deliberately don't say where the film is set. We shot in New Orleans, but the film never tells you which city it is. It could be any city."
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408711/PersonalSite/Interviews/W174-spike-lee/original-photo-2.jpg" alt="Lee in sensory overload as a New York Knicks fan at Madison Square Garden" loading="lazy" width="640" height="360" /><figcaption>Lee in sensory overload as a New York Knicks fan at Madison Square Garden <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
 
 For all the gloom, Olsen reports that behind the scenes it was actually nice. "Spike makes a happy set," she says. "He knows what he wants and he keeps things moving. We'd wrap early and laugh the whole time."
 

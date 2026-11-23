@@ -23,8 +23,15 @@ tags:
 - Israel
 - New York
 - Politics
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408705/PersonalSite/Interviews/W097-karim-rashid/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408705/PersonalSite/Interviews/W097-karim-rashid/lead-original-photo.jpg
+imageAlt: Karim Rashid in white, standing in a brightly colored interior
+imageCaption: Karim Rashid
+imageCredit: 'Photo: Michel Gavnit'
 draft: false
 ---
+
+<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-1.jpg" alt="Rashid&#x27;s studio in Manhattan" loading="lazy" width="2000" height="1125" /><figcaption>Rashid&#x27;s studio in Manhattan <span class="photo-credit">Photo: Stanislas Liban</span></figcaption></figure>
 
 On paper, Karim Rashid is a leading industrial designer, somewhere up there with Philippe Starck and Marcel Wanders (Time magazine once crowned him the most influential designer in America). In practice, much like Irit Rahamim, the Israeli event producer, or the Facebook page of Miri Regev, Israel's culture minister, Rashid thinks of himself as something else entirely: a designer of atmosphere. As such, he knows perfectly well that God is not in the details but in the general vibe, in an experience greater than the sum of its furniture. We meet at his Manhattan studio to talk about his newest project, [the Poli House boutique hotel](https://www.atmag.co.il/%d7%a2%d7%99%d7%a6%d7%95%d7%91-%d7%95%d7%90%d7%93%d7%a8%d7%99%d7%9b%d7%9c%d7%95%d7%aa/%d7%a2%d7%99%d7%a6%d7%95%d7%91/%d7%9e%d7%a2%d7%a6%d7%91%d7%99%d7%9d/%d7%a7%d7%90%d7%a8%d7%99%d7%9d-%d7%a8%d7%90%d7%a9%d7%99%d7%93-%d7%9e%d7%a2%d7%a6%d7%91-%d7%90%d7%aa-%d7%9e%d7%9c%d7%95%d7%9f-the-poly-house-%d7%91%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91), which opened recently in the center of Tel Aviv. "My ultimate dream, really, is to design a planet," he laughs. "What I'd love most is to start a new world and design everything in it. Realistically, the last few years I've been interested in designing buildings, because that's the closest thing. But it's unpredictable work. When you plan a space you never know what the end result will be. You can know what color the walls will be or how the rooms will be laid out, but there's an emotional, atmospheric component you can never predict. My goal is to create a particular energy, and I'm always nervous about whether it'll show up."
 
@@ -36,6 +43,10 @@ On paper, Karim Rashid is a leading industrial designer, somewhere up there with
 
 "I got an email out of the blue, and the timing was very good. I was planning to come to Israel for a lecture anyway, so I met the developers. I loved the building, a Bauhaus from 1937. I saw right away that it had energy."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-2.jpg" alt="The Poli House hotel in Tel Aviv" loading="lazy" width="500" height="367" /><figcaption>The Poli House hotel in Tel Aviv <span class="photo-credit">Photo: Yael Engelhart</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-3.jpg" alt="The Poli House hotel in Tel Aviv" loading="lazy" width="500" height="367" /><figcaption>The Poli House hotel in Tel Aviv <span class="photo-credit">Photo: Assaf Pinchuk</span></figcaption></figure>
+
 **Did you like the city? And Israeli design?**
 
 "Yes, I know the city fairly well, I've walked around it a lot. I was very impressed by the Sarona complex, for instance. I thought they did a good job there. What I liked about Tel Aviv is the combination of a small place with the atmosphere of an urban capital. I love that mix of intimacy and globalness, and I tried to capture it in the hotel too."
@@ -44,6 +55,10 @@ On paper, Karim Rashid is a leading industrial designer, somewhere up there with
 
 The experience of meeting Rashid is one he appears to have produced with care. The interview takes place in his big studio in Hell's Kitchen, Manhattan, attached to the impressive private house where he lives with his wife and three-and-a-half-year-old daughter. Two things stand out immediately. One, the man is evidently rich (a private house plus a huge studio in the heart of Manhattan runs to some tens of millions of dollars). Two, this is a kingdom, and the kingdom is Rashid-land. Everything here was designed by Rashid, and I mean everything, from the pink sofas at the entrance (his favorite color and his trademark) through the futuristic bathrooms to the water bottles and the tape dispensers on the desks. All of it in pink and white, poppy, glossy and at times very nearly trashy. In the open space on the ground floor young designers sit at workstations wrapped in neon light, laboring over the various projects Rashid has going around the world. Around them stand glass cabinets holding a selection of his best-known work, which gives the place the feel of a small museum: space-age bottles for Pepsi, a wastebasket that sold in the millions, cosmetics and perfumes for Kenzo and Estée Lauder, even manhole covers and sneakers. His own desk is one floor up, overlooking all of it. He shows up an hour late for the interview, even though he lives next door, and still, when he finally arrives it's clear this is a seasoned star who knows how to win a room without trying, on charm and a killer look. He's dressed all in white, from the shoes of his own design to the lacquered fingernails, covered in elegant tattoos and keeping a figure that makes him look at least a decade younger than his 56 years. He also turns out to be a riveting talker who fires off existential insights at a dizzying clip. His plain clothes, for example, become a social statement that ties back to the Poli House: "I call the period we're in the casual age," he says. "Look at how you and I are dressed. People today are throwing off the heavy formality. The suit and tie don't mean anything anymore. It's a kind of uniform, and there's no place for it these days."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408705/PersonalSite/Interviews/W097-karim-rashid/original-photo-4.jpg" alt="Rashid&#x27;s studio in Manhattan" loading="lazy" width="500" height="367" /><figcaption>Rashid&#x27;s studio in Manhattan <span class="photo-credit">Photo: Stanislas Liban</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-5.jpg" alt="Rashid&#x27;s studio in Manhattan" loading="lazy" width="500" height="679" /><figcaption>Rashid&#x27;s studio in Manhattan <span class="photo-credit">Photo: Stanislas Liban</span></figcaption></figure>
+
 **Is this you coming out against fashion?**
 
 "My problem with style in general is that it isn't honest. We used to wear clothes to play a game. Now people are sick of pretending. Casualism means the CEO and the staff both show up in a Uniqlo T-shirt and feel fine. That's the reality I'm aiming for, the world I hope to help build. Thanks to casualism we can be honest with ourselves and with each other, accept one another as who we are and not the part we're playing. I think the whole world is moving that way. The world is going through a period of 'new honesty.' It's an age of transparency, and I see it in every medium around me. Architecture, for instance: everyone builds in glass now. We used to put up concrete walls and partitions everywhere; now we try to have as little as possible between us and the world. I tried to apply that design honesty at the Poli House too. It's part of the digital information age we live in. The hotel, and my work in general, communicate connectivity. It's something I'm obsessive about in my work."
@@ -51,6 +66,8 @@ The experience of meeting Rashid is one he appears to have produced with care. T
 **So that's your design agenda, basically?**
 
 "It's something that's been developing in me for the past 20 years. Ever since I got my first computer, an Apple, in the late eighties, I felt the digital age was going to gather force and change us in every area of life. It took time, but I think we're at that point now, which is really the beginning of a new era. I like to say we're Bioneers today, a cross between Pioneers and Binary. Until now we built the analog world, and now we're moving into the digital one."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-6.jpg" alt="Perfume bottles Rashid designed for Kenzo" loading="lazy" width="500" height="367" /><figcaption>Perfume bottles Rashid designed for Kenzo <span class="photo-credit">Photo: PR</span></figcaption></figure>
 
 **Only now?**
 
@@ -78,6 +95,10 @@ The experience of meeting Rashid is one he appears to have produced with care. T
 
 "Most people make that mistake about me, purely because my design is colorful. That's the only reason. It's a hot topic now, but I was always like this. I was a kid when the wave of environmental awareness started. I grew up in Canada, one of the leading countries in the world for ecological thinking. When I went to university there, it was all we talked about."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-7.jpg" alt="Aitali KX-Gradient armchair" loading="lazy" width="500" height="367" /><figcaption>Aitali KX-Gradient armchair <span class="photo-credit">Photo: PR</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-8.jpg" alt="A perfume bottle Rashid designed for Estée Lauder" loading="lazy" width="500" height="679" /><figcaption>A perfume bottle Rashid designed for Estée Lauder <span class="photo-credit">Photo: PR</span></figcaption></figure>
+
 He has plenty to get off his chest here too: "What's happening in the design world today on the environment is another example of dishonesty, as far as I'm concerned," he says. "In so many restaurants now everything is wood, the tables, the chairs, and people think, 'Ooh, nature.' What they don't know is that the way that wood is processed is hugely wasteful of energy, or that the materials in that furniture are far more toxic than plastic. It's a lie. Every time I open a magazine showing 'eco furniture' made of wood I get angry. People don't know that a lot of that furniture contains horribly toxic materials, carcinogenic even. The chairs I design, on the other hand, are cheap, practical, environmentally friendly, modular and comfortable, all at once. And the moment you're sick of them you can grind them down and make something new. Another thing that annoys me is the industrial style, which is also very fashionable right now. In the past few months I turned down three big restaurant projects because they wanted the hanging filament bulbs, the metal stools. What's good about that? It's terrible for the environment. Why not use LED lighting instead, which lasts 40 years? It's a fake style. It cheats the consumer. We should be living simple, fast, comfortable lives, instead of cutting down trees and burning energy to make furniture."
 
 **Why do you think people miss that point, information revolution and all?**
@@ -87,6 +108,8 @@ He has plenty to get off his chest here too: "What's happening in the design wor
 **What future are you planning for your own career?**
 
 "I'm always trying to do things I haven't touched before. I've done hundreds of chairs and tables already. I want new things, things people need. I want to design products for people with disabilities and special needs, for older people and the elderly. I feel it's a market nobody pays enough attention to, even though there's huge potential in it. The baby boomers are all past 60 now. The share of older people, which I'm starting to count myself among, is at an all-time high. And since we grew up with cool, innovative products, we want them when we get old too. My mother is 84, and there's almost nothing on the market for her that's cool and well designed."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408706/PersonalSite/Interviews/W097-karim-rashid/original-photo-9.jpg" alt="Offect Orgy sofa" loading="lazy" width="500" height="367" /><figcaption>Offect Orgy sofa <span class="photo-credit">Photo: PR</span></figcaption></figure>
 
 ## "A Girls' Color"
 

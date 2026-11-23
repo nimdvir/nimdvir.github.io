@@ -33,11 +33,15 @@ Eva Mendes is considered one of the most beautiful women in Hollywood. Alongside
 
 In The Place Beyond the Pines, Mendes, 39, plays a married, fairly hard-up woman from a town in New York State, raising a baby son who is the product of a casual encounter with Ryan Gosling, a stunt rider who turns to crime. Bradley Cooper, who plays a cop, and Gosling, who in real life holds the post of her boyfriend, keep their good looks in the film, shirt on or off. Mendes, unlike the men, had to work at looking a little ragged. It wasn't so simple.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408711/PersonalSite/Interviews/W021-eva-mendes/original-photo-1.jpg" alt="Eva Mendes and Ryan Gosling in The Place Beyond the Pines. A little scruffy" loading="lazy" width="408" height="271" /><figcaption>Eva Mendes and Ryan Gosling in The Place Beyond the Pines. A little scruffy <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 "It was the only way for me," she says, having shown up to the interview in her usual glamorous state. "To get into the character I worked at a real diner for a while, morning to night. I was covered in grease and coffee stains, I bused tables and waited on customers like every other waitress there."
 
 **Why do that to yourself?**
 
 "I really wanted the part, and I wanted to come to it as real as I could. It's a character that let me change. I wanted to work with the director, with Ryan, with Bradley, in short, to be part of this film. I had an intimacy with the crew, a personal connection, and I knew it was a dream role for me. I really didn't care how I looked. Just the opposite."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W021-eva-mendes/original-photo-2.jpg" alt="Eva Mendes. Looking worse is hard work too" loading="lazy" width="408" height="568" /><figcaption>Eva Mendes. Looking worse is hard work too <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
 
 **What's it like playing a couple on screen with your real-life partner?**
 
@@ -46,6 +50,8 @@ In The Place Beyond the Pines, Mendes, 39, plays a married, fairly hard-up woman
 ## "We're Almost Animals"
 
 In the film, Mendes's character faces a dilemma: her son's biological father, who is not exactly the stable type, or another man, who isn't the boy's real father but can offer security and stability. Mendes has no children yet, but she admits the dilemma in the script got her thinking.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408713/PersonalSite/Interviews/W021-eva-mendes/original-photo-3.jpg" alt="Ryan Gosling and Eva Mendes. Just like life" loading="lazy" width="408" height="271" /><figcaption>Ryan Gosling and Eva Mendes. Just like life <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 "It's strange. I'm not a mother in real life, but when I read the script, the logical move seemed to be the safe, stable guy," she admits. "But then I started talking to mothers, and I found that a lot of women have a basic drive, a very strong primal instinct, to go toward the biological father after all. A lot of women told me it's a woman's nature to do whatever it takes to keep the biological father in the picture. We're almost animals in that sense. I learned a lot from that. You can see in the film that my character is really tortured by the choice."
 

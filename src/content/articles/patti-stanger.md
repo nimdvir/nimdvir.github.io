@@ -22,6 +22,11 @@ tags:
 - Reality Television
 - Television
 - United States
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408702/PersonalSite/Interviews/W035-patti-stanger/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W035-patti-stanger/lead-original-photo.jpg
+imageAlt: Patti Stanger in a red dress on a red carpet
+imageCaption: Stanger. Dates worth millions
+imageCredit: 'Photo: PR'
 draft: false
 ---
 
@@ -40,6 +45,8 @@ And the business paid off. Patti's agency, the Millionaire's Club, based in Los 
 **So what is it you actually do?**
 
 "It's a job that never ends, like you see on the show. I meet with millionaires who might become clients, I meet people who want to be matched with millionaires, I think about who fits whom. I teach the people who come to me how to behave, what to say and what to do on a date. I give my clients what they want. It's a hard business, because there's no one size fits all. Every one of my clients is different, and I have to adapt."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408702/PersonalSite/Interviews/W035-patti-stanger/original-photo-2.jpg" alt="The dating market, in her hands" loading="lazy" width="408" height="287" /><figcaption>The dating market, in her hands <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
 
 "Broadly, in the first stage I meet the millionaire, man or woman, and get to know them and what they're looking for. That's the reality-check stage. Usually they want a fantasy, and my job is to bring them down to earth and explain that they need to be reasonable."
 

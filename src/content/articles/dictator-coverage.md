@@ -24,12 +24,15 @@ tags:
 - Comedy
 - New York
 - Journalism
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg
+imageAlt: Sacha Baron Cohen, in character as the Dictator, and Nimrod Dvir at the press conference
+imageCaption: Inspecting the goods? Nimrod Dvir and Sacha Baron Cohen in New York
+imageCredit: 'Photo: MCT, as published on Ynet'
 draft: false
 ---
 
 General Aladeen, also known as Sacha Baron Cohen, is continuing his aggressive campaign to promote his film "The Dictator," and this time he went below the belt: at a press conference in New York marking the film's release, Baron Cohen confronted (in jest, of course) the Israeli journalist Nimrod Dvir, who had come to cover the event for the program "Good Evening with Guy Pines." Their exchange led to Dvir being required by the Dictator to prove his Jewishness, and the latter responded by aiming his gun toward the journalist's groin area. Another performance, an especially amusing one, marking the film's release in cinemas in the United States.
-
-<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1770357476/PersonalSite/Interviews/W083-dictator-coverage/original-photo-1-nim-dvir-sacha-baron-cohen.jpg" alt="Inspecting the goods? Nimrod Dvir and Sacha Baron Cohen in New York" loading="lazy" width="408" height="287" /><figcaption>Inspecting the goods? Nimrod Dvir and Sacha Baron Cohen in New York <span class="photo-credit">Photo: MCT, as published on Ynet</span></figcaption></figure>
 
 Throughout the day (Monday) Baron Cohen, in the character of the Dictator, moved between various media outlets and scattered all sorts of strange threats, [like the ones he directed at NBC host Matt Lauer](http://www.youtube.com/watch?v=gip2PuH3mXI). The incident with Dvir took place during the large press conference he convened, in which, alongside real journalists, extras he had planted also took part and asked pre-arranged questions. Toward the end of the press conference, Baron Cohen asked whether anyone else wanted to ask something, and then Dvir summoned his courage and addressed him.
 

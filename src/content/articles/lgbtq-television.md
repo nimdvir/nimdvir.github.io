@@ -22,6 +22,11 @@ tags:
 - LGBTQ+
 - Reality Television
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/lead-original-photo.jpg
+imageAlt: Two men at a party, one with his arm around the other
+imageCaption: Fay-Guttman and the boyfriend. A kiss in prime time? What's the big deal?
+imageCredit: 'Photo: Eliran Avital'
 draft: false
 ---
 
@@ -37,6 +42,8 @@ In short, as with clothing stores and El Al planes, the community has managed to
 
 Presence on the screen is our calling card, the way people see the community. It seems that this year too, after we've been through quite a few gays in prime time, the label "gay" is still a gimmick, something you bring on to show the uncles from Rishon LeZion the different and the deviant.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408703/PersonalSite/Interviews/W071-lgbtq-television/original-photo-2.jpg" alt="Asaf and Gal. The main thing is that there are gays on The Block" loading="lazy" width="408" height="258" /><figcaption>Asaf and Gal. The main thing is that there are gays on The Block <span class="photo-credit">Photo: Eldad Rafaeli</span></figcaption></figure>
+
 Take The Block, a supposedly enlightened reality show, in which the rather lovely couple Asaf and Gal are presented in the role of "gays," and heaven forbid not by their professions. Note too the community's own tendency to sin by self-flaunting and thereby cause its own segregation: Leon, cute as he is, rode the homosexual card like a cowgirl in withdrawal, and turned "gay" into a gimmick stuck to his name. Amir Fay Guttman, too, after leaving the house, gave interviews about the kiss with his boyfriend and made the matter into an event on the scale of a papal visit.
 
 Now, if we're into acceptance, why force yourself out of the mainstream? Being gay is exactly like being a member of any other minority group. You can wear it on your lapel, or you can simply be yourself.
@@ -44,6 +51,8 @@ Now, if we're into acceptance, why force yourself out of the mainstream? Being g
 ## Yes to Pride, No to Flaunting
 
 As far as I'm concerned, it's precisely the ones who don't try hard who are making the real change on television. Arik and Ofir, who are first of all a doctor and a lawyer, brought the matter of sexual orientation into Survivor with a pleasant lightness.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408705/PersonalSite/Interviews/W071-lgbtq-television/original-photo-3.jpg" alt="Arik and Ofir. Some people don&#x27;t make a thing of it" loading="lazy" width="408" height="258" /><figcaption>Arik and Ofir. Some people don&#x27;t make a thing of it <span class="photo-credit">Photo: Anat Mosberg</span></figcaption></figure>
 
 Assi Azar, who no longer talks about his boyfriend all the time, has become a household name, and Gal Uchovsky's cool approach on A Star Is Born gives representation to more mature and measured voices. All of the above have proved that you can be gay and still an equal among equals.
 

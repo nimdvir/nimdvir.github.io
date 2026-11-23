@@ -14,7 +14,25 @@ const articles = await getArticles();
 const byGroup = new Map(articleGroupOrder.map((g) => [g, [] as typeof articles]));
 for (const a of articles) byGroup.get(articleGroup(a))!.push(a);
 
-const international = byGroup.get("international-interview")!;
+// The six interviews from the live site lead the wall, then the other
+// interviews with a photo, then the rest (each newest first).
+const featured = [
+  "lady-gaga",
+  "jamie-foxx",
+  "julia-louis-dreyfus",
+  "jim-carrey",
+  "rupaul",
+  "michael-fassbender",
+];
+const wallRank = (a: (typeof articles)[number]) => {
+  const f = featured.indexOf(a.slug);
+  return f >= 0 ? f : a.data.image ? featured.length : featured.length + 1;
+};
+const international = byGroup
+  .get("international-interview")!
+  .map((a, i) => ({ a, i }))
+  .sort((x, y) => wallRank(x.a) - wallRank(y.a) || x.i - y.i)
+  .map(({ a }) => a);
 const israeli = byGroup.get("israeli-interview")!;
 const own = articles.filter((a) => !a.data.thirdPartyCoverage);
 const interviews = international.length + israeli.length;
@@ -87,6 +105,7 @@ const sections = [
     </dl>
     <nav class="archive-nav" aria-label="Sections">
       {international.length > 0 && <a href="#celebrity-interviews">Celebrity interviews</a>}
+      <a href="#television">Television</a>
       {israeli.length > 0 && <a href="#israeli-interviews">Israeli interviews</a>}
       {sections.map(
         (s) =>
@@ -124,6 +143,56 @@ const sections = [
       tone="dark"
     />
   )}
+
+  <section class="section archive-section" id="television" aria-labelledby="television-heading">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">2 clips</p>
+        <h2 id="television-heading">Television</h2>
+      </div>
+    </div>
+    <div class="grid-2">
+      <article>
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/0cPdG0gx3fM"
+            title="Nim Dvir on Donald Trump, Profile, Israeli television, 2016"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h3>On Donald Trump, for the Israeli TV show Profile</h3>
+        <p class="small">
+          A guest on the Profile panel, I talked about Donald Trump's public
+          behavior and where it comes from. The clip runs four and a half
+          minutes, edited, with English subtitles.
+        </p>
+        <p class="small">
+          September 26, 2016 ·{" "}
+          <a href="https://youtu.be/0cPdG0gx3fM" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+        </p>
+      </article>
+      <article>
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/-ZLoYBUchmI"
+            title="Nim Dvir at The Dictator press conference with Sacha Baron Cohen, 2012"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h3>The Dictator press conference</h3>
+        <p class="small">
+          With Sacha Baron Cohen, in character, in New York.{" "}
+          <a href="/articles/dictator-coverage/">How the Israeli press covered it</a>.
+        </p>
+        <p class="small">
+          May 8, 2012 ·{" "}
+          <a href="https://youtu.be/-ZLoYBUchmI" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+        </p>
+      </article>
+    </div>
+  </section>
 
   {israeli.length > 0 && (
     <InterviewWall

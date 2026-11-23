@@ -53,7 +53,6 @@ Use the Node version compatible with the existing Astro dependencies. The GitHub
 | `src/content/publications/` | Publication, proceeding, dissertation, and preprint records |
 | `src/content/interviews/` | Existing interviews and source attribution |
 | `src/content/blog/` | Blog posts; only explicit `draft: false` entries dated today or earlier are built |
-| `src/content/news/` | Short announcements and full news pages, with the same draft/date rule |
 | `templates/` | Reusable publication, blog, short-news, and full-news Markdown templates and authoring guide |
 | `src/data/profile.ts` | Shared CV URL and social/professional links |
 | `src/data/cv-public.md` | Public CV, based on September 16, 2026 source; excludes personal phone and referee contacts |

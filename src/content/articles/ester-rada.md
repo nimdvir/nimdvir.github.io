@@ -23,6 +23,11 @@ tags:
 - Television
 - Music
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408709/PersonalSite/Interviews/W108-ester-rada/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408709/PersonalSite/Interviews/W108-ester-rada/lead-original-photo.jpg
+imageAlt: Ester Rada in a pastel dress, palms pressed together
+imageCaption: Doesn't want her skin to be the issue. Rada
+imageCredit: 'Photo: Guy Gilad'
 draft: false
 ---
 
@@ -64,6 +69,8 @@ Rada was born in Kiryat Arba to parents who immigrated from Ethiopia. Her mother
 
 "We were raised to hate Arabs. Every other day we heard about a firebomb and some child who was killed. You understand that you're in a daily war and you get used to thinking of them as the enemy. It was living in a bubble, you don't see any alternatives. Only from a distance do I understand how cut off we were."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408709/PersonalSite/Interviews/W108-ester-rada/original-photo-2.jpg" alt="A computer genius from a poor home. Rada in Deus" loading="lazy" width="408" height="272" /><figcaption>A computer genius from a poor home. Rada in Deus <span class="photo-credit">Photo: Roee Berkovich</span></figcaption></figure>
+
 **From the bubble of Kiryat Arba you moved to another bubble, the bubble of a rough neighborhood in Netanya.**
 
 "When I was 10 we moved to Netanya, to the Azorim neighborhood, and that was a bubble too. I didn't know any other life. Suddenly there are camps: Ethiopians hang out with Ethiopians, Russians with Russians, Moroccans with Moroccans. Only there did I have the revelation that I'm Ethiopian, because they started cursing me," she laughs.
@@ -83,6 +90,8 @@ Off the record, Rada tells, or rather hints at, hard experiences she went throug
 "Honestly, yes. Once I got into a fight with a girl. Drop it, I told you, I wasn't the classic story of the good girl from the ghetto. Yes, I mixed in. But I wasn't stuck, I wasn't at the most extreme level. I always knew I wanted to succeed in life, to work in music and art. Having something to aim for keeps you from being stuck. Most people in the ghetto don't see a way out. The fact that there's nothing to aim for is very frustrating and holds you back. I was looking ahead, so it was easier for me.
 
 "Honestly, I only got a slap in the face when they threw me out of school. At the start of high school they threw me out because I simply didn't show up. I was always hanging around the street. At that moment I understood, okay, we have to calm down. So I started showing up to class, more or less. At least a lot more than I'd shown up until then. In high school I calmed down. I met people there from the moshavim, or people who weren't from the ghetto. That influenced me. By the army I was a good girl in every respect."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408709/PersonalSite/Interviews/W108-ester-rada/original-photo-3.jpg" alt="&quot;My first step: The Troupe. Some welcome&quot;" loading="lazy" width="408" height="252" /><figcaption>&quot;My first step: The Troupe. Some welcome&quot; <span class="photo-credit">Photo: Ariel Bashor</span></figcaption></figure>
 
 Rada always knew she loved to sing, and the moment she was accepted into an army entertainment troupe was a turning point in her not-so-simple life. After she learned to perform, and also calmed down ("I became disciplined"), she went to auditions for the musical The Troupe and, to her great surprise, was accepted, alongside figures like Adir Miller, Shiri Maimon, Muki, Keren Peles, Amir Fay Guttman and others.
 

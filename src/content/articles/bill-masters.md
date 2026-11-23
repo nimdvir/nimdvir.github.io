@@ -23,6 +23,11 @@ tags:
 - Television
 - Comedy
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408701/PersonalSite/Interviews/W010-bill-masters/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408701/PersonalSite/Interviews/W010-bill-masters/lead-original-photo.jpg
+imageAlt: Black-and-white portrait of Bill Masters, smiling
+imageCaption: Masters. One of the fathers of Seinfeld. Collaboration and runaway success
+imageCredit: Photo as published on Ynet
 draft: false
 ---
 
@@ -38,11 +43,15 @@ Masters, 59, actually started out as a comedian. Over the years he moved into wr
 
 "Exactly. But the creator is also the one who deals with the network and the bureaucracy it imposes. On Seinfeld, for example, the creator (the "showrunner") is the one who called NBC to tell them, 'We have a story where all the characters are waiting for a table at a [Chinese restaurant](http://www.youtube.com/watch?v=VNFWX1ffMkc).' The network might come back with, 'Make sure Kramer has enough to do.' It's all one continuous dialogue.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408701/PersonalSite/Interviews/W010-bill-masters/original-photo-2.jpg" alt="Seinfeld. The work goes on through the season, and the writers &quot;sweeten&quot; the episodes" loading="lazy" width="408" height="258" /><figcaption>Seinfeld. The work goes on through the season, and the writers &quot;sweeten&quot; the episodes <span class="photo-credit">Photo as published on Ynet</span></figcaption></figure>
+
 "The goal, when you start in June like I said, is to have as many episodes as possible ready by the end of July. Once production is under way, from August to February, time is very tight. There are 22 to 25 episodes to make, and each one takes a week to produce, plus a few more weeks of post-production."
 
 ## Sitcom Factories Inc.
 
 The writing, Masters says, goes on even during the shoot. "During filming the writers' job splits in two," he says. "Fixing up the episode that's being shot that week, and carrying on writing new episodes. It's like a moving train. You can't stop it.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408701/PersonalSite/Interviews/W010-bill-masters/original-photo-3.jpg" alt="The Israeli sitcom Polishuk. &quot;It&#x27;s strange that you don&#x27;t have many sitcoms&quot;" loading="lazy" width="408" height="258" /><figcaption>The Israeli sitcom Polishuk. &quot;It&#x27;s strange that you don&#x27;t have many sitcoms&quot; <span class="photo-credit">Photo: Oded Karni</span></figcaption></figure>
 
 "On top of that, the showrunner also works on the episodes that have already been shot. That's called 'sweetening' the episode. Mostly it comes down to getting the edit right, the sound, things like that. By the end of the week the episode is done, and the week after you start on a new one."
 

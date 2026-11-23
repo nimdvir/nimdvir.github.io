@@ -21,6 +21,11 @@ tags:
 - Politics
 - Gender
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408706/PersonalSite/Interviews/W098-gila-gamliel/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408706/PersonalSite/Interviews/W098-gila-gamliel/lead-original-photo.jpg
+imageAlt: Gila Gamliel in a navy dress against a pink backdrop
+imageCaption: 'Gila Gamliel | Dress: Marc Cain'
+imageCredit: 'Photo: Ilya Melnikov'
 draft: false
 ---
 
@@ -39,6 +44,8 @@ She is plainly careful to keep her language diplomatic, but there are still area
 **What do you make of the #MeToo campaign?**
 
 "I think it's a [very important campaign](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%9c%d7%90-%d7%aa%d7%98%d7%a8%d7%99%d7%93). It's critical to burn into the public consciousness that women must not stay silent any longer, that sexual harassment has to be reported, that it can happen to any woman and that we have to support one another. I haven't been harassed since, but I know how much harassment women absorb, in every role and in every place. I do a great deal of work on this. Recently I asked the Education Ministry to put an emphasis on children understanding their right to their own bodies, and I'm working to break [the silence of the victims](https://www.atmag.co.il/%d7%90%d7%a0%d7%a9%d7%99%d7%9d/%d7%97%d7%91%d7%a8%d7%94-%d7%95%d7%a4%d7%95%d7%9c%d7%99%d7%98%d7%99%d7%a7%d7%94/%d7%a7%d7%9e%d7%a4%d7%99%d7%99%d7%9f-%d7%a8%d7%a9%d7%aa-%d7%92%d7%9d-%d7%90%d7%a0%d7%99), especially in communities where the silence is deeper, such as the ultra-Orthodox and Arab populations. The message that has to sink in is that the ones who should be ashamed are the attackers, never the victims."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-2.jpg" alt="&quot;We have to support one another&quot; | Jeans: Zara, top: Essentiel at Numero 13, shoes: Pollini at Mary Shoes" loading="lazy" width="500" height="367" /><figcaption>&quot;We have to support one another&quot; | Jeans: Zara, top: Essentiel at Numero 13, shoes: Pollini at Mary Shoes <span class="photo-credit">Photo: Ilya Melnikov</span></figcaption></figure>
 
 ## Pensioners 2.0
 
@@ -60,6 +67,8 @@ She is proud of her record and rather less pleased with how it gets covered: "My
 
 "I'd rather not get personal, if you don't mind. A lot of people talk and talk, and the media hands them the stage every time. The discourse is overheated. It's overheated in the Knesset, it's overheated in the media. Everything is a fight. People focus on the noise instead of looking at the work. A journalist once told me that to get headlines I'd have to pick a fight with someone, argue. I don't want to. I came to get things done. I have no time for that nonsense."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-3.jpg" alt="&quot;An unfortunate remark or a conspicuous dress gets headlines. There&#x27;s something shallow in the conversation. It&#x27;s very overheated. In the Knesset, in the media. Everything is a fight. People focus on the noise instead of the work&quot; | Top: Audra Belarus for Numero 13, skirt: Zara, shoes: Aldo" loading="lazy" width="500" height="679" /><figcaption>&quot;An unfortunate remark or a conspicuous dress gets headlines. There&#x27;s something shallow in the conversation. It&#x27;s very overheated. In the Knesset, in the media. Everything is a fight. People focus on the noise instead of the work&quot; | Top: Audra Belarus for Numero 13, skirt: Zara, shoes: Aldo <span class="photo-credit">Photo: Ilya Melnikov</span></figcaption></figure>
+
 In these sensitive days Gamliel is careful not to trash a colleague, as she did more than once in the past. As the first woman to chair Israel's National Union of Students, she knows the value of women backing one another. "There are very few women in national and municipal politics, and it's very important that women take part. Not enough women try, and many of those who do quit after one term. You have to persevere, and you have to be generous, support women, help as much as you can. There's a real struggle to keep pace."
 
 **How did you take the news that Zehava Galon, the leader of the left-wing Meretz party, is leaving the Knesset?**
@@ -79,6 +88,10 @@ Today Gamliel, 43, lives in the Mishtela neighborhood on the edge of Tel Aviv ("
 **How does your parenting differ?**
 
 "Order and schedules, for one. With Hovav everything is organized, there are fixed hours, the activities are set. With me it's not like that; the schedule shifts and changes. Hovav is more motivated than I am to do things outdoors, go to the pool, say. I'm stricter about schoolwork. Hovav is less interested in homework; as far as he's concerned, that's something you do at school. I'm strict about it, but I don't come at him with complaints. On my days the girls do their homework with me, and on his days I'll check in the morning and see what the story is," she laughs. "Everyone has their strengths. The trick, I think, is not to impose a way of life, not on your partner and not on anyone."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-4.jpg" alt="&quot;To me the ideal is equal parenting&quot; | Striped dress: Missoni for Factory 54, black jacket: Sonia Rykiel for Tactic" loading="lazy" width="500" height="679" /><figcaption>&quot;To me the ideal is equal parenting&quot; | Striped dress: Missoni for Factory 54, black jacket: Sonia Rykiel for Tactic <span class="photo-credit">Photo: Ilya Melnikov</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-5.jpg" alt="Gamliel with her daughters" loading="lazy" width="500" height="332" /><figcaption>Gamliel with her daughters <span class="photo-credit">Photo as published in At</span></figcaption></figure>
 
 **Merav Michaeli, a Knesset member for the opposition Labor Party, made headlines recently with a controversial statement against the family unit.**
 
@@ -123,5 +136,9 @@ There is a sense of instability in the system Gamliel works in. One cause of the
 **You're now what you used to protest against: a kind of elite.**
 
 "I protested outside the prime minister's residence when I was young. But I grew up. It strikes me now as less considerate and less effective. There are better ways to change things: vote, join a party and push the right people forward."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-6.jpg" alt="&quot;Netanyahu isn&#x27;t going anywhere&quot;" loading="lazy" width="500" height="333" /><figcaption>&quot;Netanyahu isn&#x27;t going anywhere&quot; <span class="photo-credit">Photo: Jack Guez/AFP</span></figcaption></figure>
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408708/PersonalSite/Interviews/W098-gila-gamliel/original-photo-7.jpg" alt="&quot;Avi Gabbay can&#x27;t serve as opposition leader because he isn&#x27;t a member of the Knesset&quot;" loading="lazy" width="500" height="333" /><figcaption>&quot;Avi Gabbay can&#x27;t serve as opposition leader because he isn&#x27;t a member of the Knesset&quot; <span class="photo-credit">Photo: Getty Images</span></figcaption></figure>
 
 Photography **Ilya Melnikov** Styling **Tami Montag** Makeup **Maayan Lichtblau** Hair **Maor Ganon**

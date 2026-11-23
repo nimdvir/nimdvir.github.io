@@ -22,9 +22,6 @@ const newestFirst = (
 export async function getPosts() {
   return (await getCollection("blog", isPublished)).sort(newestFirst);
 }
-export async function getNews() {
-  return (await getCollection("news", isPublished)).sort(newestFirst);
-}
 export function formatDate(date: string) {
   return new Intl.DateTimeFormat("en-US", {
     month: "short",

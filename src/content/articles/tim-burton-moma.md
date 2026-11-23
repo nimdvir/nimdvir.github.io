@@ -21,6 +21,11 @@ tags:
 - Film
 - Art
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408702/PersonalSite/Interviews/W056-tim-burton-moma/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408702/PersonalSite/Interviews/W056-tim-burton-moma/lead-original-photo.jpg
+imageAlt: Tim Burton standing beside two of his paintings
+imageCaption: Burton beside his work. Not just a talented director
+imageCredit: 'Photo: AFP'
 draft: false
 ---
 
@@ -30,6 +35,8 @@ Yesterday (Sunday) the Museum of Modern Art in New York (MoMA, for short) opened
 
 Burton, 51, is an ideal candidate for this kind of exhibition. On one hand, he is the director behind some of the biggest hits of the past two decades (Beetlejuice, Edward Scissorhands, Batman, The Nightmare Before Christmas, Charlie and the Chocolate Factory and more). On the other, he is a singular artist with a visual style that is unmistakably his.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-1.jpg" alt="Welcome to the twisted world of Tim Burton" loading="lazy" width="408" height="552" /><figcaption>Welcome to the twisted world of Tim Burton <span class="photo-credit">Photo: AFP</span></figcaption></figure>
+
 From his childhood in California through art school and on into his films, Burton has been drawn to the gothic, gloomy side of life, while his work and his style are full of childish, naive touches. He likes mixing death with fantasy and nightmare with magic, and he wraps all of it in a package that is painterly and dark but also sugary and babyish. It's no accident that MoMA calls him a "pop surrealist."
 
 ## Growing Up, Still a Kid
@@ -38,9 +45,15 @@ The Burton exhibition lays out the unbroken line of his art. Over the years MoMA
 
 The exhibition opens with a giant wall of Burton's complete filmography, shelved projects included. From there you step into a space designed in the spirit of his characters (with a heavy emphasis on The Nightmare Before Christmas, which, as it happens, he didn't direct). Mainstream fans will be thrilled: there is rare memorabilia from films like Edward Scissorhands and Charlie and the Chocolate Factory, with costumes, props and sketches from Burton's own hand.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-3.jpg" alt="Memorabilia from two decades of hits" loading="lazy" width="408" height="271" /><figcaption>Memorabilia from two decades of hits <span class="photo-credit">Photo: AFP</span></figcaption></figure>
+
 Beyond the memorabilia, though, the emphasis is on his own work over the years. The show includes drawings Burton made as a small boy, puppets he built (at art school and later, in preparation for his films), storyboards he drew, books he wrote and illustrated, and no fewer than several dozen projects that never got made.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-4.jpg" alt="Come to think of it, maybe not much has changed over the years" loading="lazy" width="408" height="545" /><figcaption>Come to think of it, maybe not much has changed over the years <span class="photo-credit">Photo: AFP</span></figcaption></figure>
+
 The Burton on view here is not just a director but a painter, photographer, illustrator and storyteller. Wander the rooms and the consistency of his style becomes obvious: the pull toward rounded lines, big eyes, shadowy and fragile characters, who may remind him of the rejected kid he once was. The show also traces Burton growing up, and how he learned to put that peculiar style to work making box-office hits.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408703/PersonalSite/Interviews/W056-tim-burton-moma/original-photo-5.jpg" alt="The gothic look stays with him" loading="lazy" width="408" height="258" /><figcaption>The gothic look stays with him <span class="photo-credit">Photo: AFP</span></figcaption></figure>
 
 And here an interesting question comes up: it is precisely while wandering past riches like these that you start to think not much has changed along the way. From Burton's drawings at 14 to hits like The Nightmare Before Christmas there has been development and refinement, certainly, but the core is intact. The gothic-childlike look, the round lines and the attempt to fuse horror with soul have survived 40 years of work very nicely.
 

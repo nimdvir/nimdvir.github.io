@@ -8,6 +8,8 @@ export default defineConfig({
   base: "/",
   redirects: {
     "/about/": "/cv/",
+    "/media/": "/articles/",
+    "/news/": "/blog/",
     "/interviews/jamie-foxx/": "/articles/jamie-foxx/",
     "/interviews/jim-carrey/": "/articles/jim-carrey/",
     "/interviews/julia-louis-dreyfus/": "/articles/julia-louis-dreyfus/",
