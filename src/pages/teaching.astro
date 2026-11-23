@@ -1,6 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import SectionMenu from "../components/SectionMenu.astro";
 import { cvUrl } from "../data/profile";
+const menu = [
+  { id: "courses", label: "Courses" },
+  { id: "business-analytics-certificate", label: "Certificate" },
+  { id: "courseware", label: "Courseware" },
+  { id: "student-projects", label: "Student projects" },
+  { id: "online-teaching", label: "Online teaching" },
+  { id: "ai-in-coursework", label: "AI in coursework" },
+  { id: "workshops", label: "Workshops" },
+];
 const graduate = [
   [
     "BITM 522",
@@ -93,7 +103,8 @@ const undergraduate = [
       projects.
     </p>
   </header>
-  <section class="section" style="border-top:0;padding-top:0">
+  <SectionMenu items={menu} label="Teaching sections" />
+  <section class="section" id="courses" style="border-top:0">
     <h2>Courses</h2>
     <p>
       My current teaching includes BITM 330 and Digital Citizenship. The lists
@@ -162,7 +173,7 @@ const undergraduate = [
       </a>
     </div>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="student-projects">
     <h2>Assignments and student projects</h2>
     <div class="prose">
       <p>
@@ -185,7 +196,7 @@ const undergraduate = [
       </a>
     </div>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="online-teaching">
     <h2>Online teaching</h2>
     <div class="prose">
       <p>
@@ -195,7 +206,7 @@ const undergraduate = [
       </p>
     </div>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="ai-in-coursework">
     <h2>AI in coursework</h2>
     <div class="prose">
       <p>
@@ -210,7 +221,7 @@ const undergraduate = [
       </p>
     </div>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="workshops">
     <h2>Workshops</h2>
     <div class="prose">
       <h3>AI Agents in VS Code for Academic Work</h3>

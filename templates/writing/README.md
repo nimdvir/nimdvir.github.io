@@ -35,7 +35,7 @@ Read the original, not just a search excerpt. Preserve its title, subtitle, byli
 
 Do not rewrite the Hebrew or silently fix apparent errors. Preserve quoted speech, humor and historical wording; put ambiguities and apparent errors in `source-record.json`. If the source has no subtitle, heading or pull quote, do not invent one.
 
-Keep every interviewer prompt bold and in its own paragraph, including statements without question marks. Preserve the answers' paragraph boundaries and quotation marks. A rhetorical question in a narrative paragraph is not automatically an interviewer prompt.
+Keep every interviewer prompt bold and in its own paragraph, including statements without question marks. Article pages build their side navigation from `##` subheadings and style whole-bold paragraphs as questions, so keep each original intertitle as a `##` subheading and never bold a whole paragraph that isn't a prompt (see "Article formatting" in `AGENTS.md`). Preserve the answers' paragraph boundaries and quotation marks. A rhetorical question in a narrative paragraph is not automatically an interviewer prompt.
 
 Check text outside normal paragraph tags as well as text inside them. Compare the first and final paragraphs, count substantive text blocks and interviewer prompts, and check each image/caption against the source. Record sidebar images as sidebar images rather than guessing an original inline position. Record missing credit as null; do not invent a photographer or claim image reuse has been cleared.
 

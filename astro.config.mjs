@@ -2,23 +2,30 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
-// Mark paragraphs that are nothing but bold text (interview questions) so the
-// CSS can style them without catching a sentence that bolds one name.
+// Interview questions are paragraphs that are entirely bold. Give them the
+// `qa-prompt` class (so the CSS can style them without catching a sentence
+// that bolds one name) and an anchor, and list them for the article side
+// navigation as remarkPluginFrontmatter.questions.
 function markQaPrompts() {
-  /** @param {any} node */
-  const visit = (node) => {
-    if (node.type === "element" && node.tagName === "p") {
+  /** @param {any} node @returns {string} */
+  const text = (node) => node.value ?? (node.children || []).map(text).join("");
+  return (/** @type {any} */ tree, /** @type {any} */ file) => {
+    const questions = [];
+    for (const node of tree.children) {
+      if (node.type !== "paragraph") continue;
       const kids = node.children.filter(
         (/** @type {any} */ c) => !(c.type === "text" && !c.value.trim()),
       );
-      if (kids.length === 1 && kids[0].type === "element" && kids[0].tagName === "strong") {
-        const cls = node.properties.className || [];
-        node.properties.className = [...cls, "qa-prompt"];
-      }
+      if (kids.length !== 1 || kids[0].type !== "strong") continue;
+      const id = `q-${questions.length + 1}`;
+      node.data = {
+        ...node.data,
+        hProperties: { ...node.data?.hProperties, id, className: ["qa-prompt"] },
+      };
+      questions.push({ id, text: text(kids[0]).trim() });
     }
-    (node.children || []).forEach(visit);
+    if (file.data.astro?.frontmatter) file.data.astro.frontmatter.questions = questions;
   };
-  return (/** @type {any} */ tree) => visit(tree);
 }
 
 // https://astro.build/config
@@ -44,7 +51,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    rehypePlugins: [markQaPrompts],
+    remarkPlugins: [markQaPrompts],
   },
   devToolbar: {
     enabled: false,

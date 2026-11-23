@@ -1,0 +1,48 @@
+---
+// A section menu that sticks under the site header and marks the section
+// being read. Each item's id must match an element on the page.
+interface Props {
+  items: { id: string; label: string }[];
+  label: string;
+}
+const { items, label } = Astro.props;
+---
+
+<nav class="section-menu" aria-label={label}>
+  <ul>
+    {items.map((item) => (
+      <li><a href={`#${item.id}`}>{item.label}</a></li>
+    ))}
+  </ul>
+</nav>
+
+<script>
+  for (const menu of document.querySelectorAll<HTMLElement>(".section-menu")) {
+    const links = [...menu.querySelectorAll<HTMLAnchorElement>("a")];
+    const byId = new Map(links.map((a) => [a.hash.slice(1), a]));
+    const list = menu.querySelector("ul");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const link = byId.get(entry.target.id);
+          if (!link) continue;
+          links.forEach((a) => a.removeAttribute("aria-current"));
+          link.setAttribute("aria-current", "true");
+          // Scroll only the menu sideways, never the page.
+          if (
+            list &&
+            (link.offsetLeft < list.scrollLeft ||
+              link.offsetLeft + link.offsetWidth > list.scrollLeft + list.clientWidth)
+          )
+            list.scrollTo({ left: link.offsetLeft - 16, behavior: "smooth" });
+        }
+      },
+      { rootMargin: "-30% 0px -60% 0px" },
+    );
+    byId.forEach((_, id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+  }
+</script>

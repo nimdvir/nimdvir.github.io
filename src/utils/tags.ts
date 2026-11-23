@@ -141,6 +141,22 @@ export async function collectTagged(): Promise<TaggedEntry[]> {
   return entries.sort((a, b) => b.sortKey.localeCompare(a.sortKey));
 }
 
+// Topics used by entries in the given collections, most used first.
+export async function topicsIn(collections: string[]) {
+  const counts = new Map<string, { slug: string; label: string; count: number }>();
+  for (const entry of await collectTagged()) {
+    if (!collections.includes(entry.collection)) continue;
+    for (const t of canonicalTags(entry.tags)) {
+      const cur = counts.get(t.slug) ?? { slug: t.slug, label: t.label, count: 0 };
+      cur.count += 1;
+      counts.set(t.slug, cur);
+    }
+  }
+  return [...counts.values()].sort(
+    (a, b) => b.count - a.count || a.label.localeCompare(b.label),
+  );
+}
+
 export interface TagArchive extends TagInfo {
   entries: TaggedEntry[];
 }

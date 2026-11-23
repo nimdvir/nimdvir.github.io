@@ -9,6 +9,7 @@ import {
   articleByline,
   articleMonogram,
   isPersonPiece,
+  relatedArticles,
 } from "../../utils/articles";
 import { readingMinutes } from "../../utils/editorial";
 
@@ -20,7 +21,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await article.render();
+const { Content, headings, remarkPluginFrontmatter } = await article.render();
 const d = article.data;
 const url = new URL(`/articles/${article.slug}/`, Astro.site).href;
 const personId = new URL("#person", Astro.site).href;
@@ -66,6 +67,26 @@ const minutes = readingMinutes(article.body);
 // Interviews put the person's name in large type under the picture.
 const celebrate = isPersonPiece(article) && !d.thirdPartyCoverage;
 const personName = d.interviewee || d.subjects[0] || "";
+
+// Side navigation: the article's own subheadings as teasers. With fewer than
+// two, up to five of its interview questions, spread through the piece,
+// stand in. Nothing is invented.
+type Stop = { id: string; text: string };
+const subheads: Stop[] = headings
+  .filter((h) => h.depth === 2)
+  .map((h) => ({ id: h.slug, text: h.text }));
+const questions = (remarkPluginFrontmatter.questions ?? []) as Stop[];
+const spread = (list: Stop[], k: number) =>
+  list.length <= k
+    ? list
+    : Array.from({ length: k }, (_, i) => list[Math.round((i * (list.length - 1)) / (k - 1))]);
+const outline =
+  subheads.length >= 2 || questions.length < 3 ? subheads : spread(questions, 5);
+const all = await getArticles();
+const upNext =
+  relatedArticles(article, all, 1)[0] ??
+  all[(all.findIndex((a) => a.slug === article.slug) + 1) % all.length];
+const upNextName = upNext.data.interviewee || upNext.data.subjects[0] || "";
 ---
 
 <Layout
@@ -113,75 +134,278 @@ const personName = d.interviewee || d.subjects[0] || "";
       </div>
     )}
 
-    <header class="article-head">
-      {celebrate && personName && <p class="person-name">{personName}</p>}
-      <h1>{d.title}</h1>
-      {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
-      <p class="post-meta article-byline">
-        {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
-        <span> · By <strong>{byline}</strong></span>
-        {!celebrate && d.interviewee && d.kind === "interview" && (
-          <span> · Interview with {d.interviewee}</span>
-        )}
-        <span> · {minutes} min read</span>
-        <span> · Translated from the Hebrew</span>
-      </p>
-      <TagChips tags={d.tags} />
-    </header>
-
-    {d.thirdPartyCoverage && (
-      <aside class="article-notice" aria-label="About this piece">
-        <p>
-          <strong>Coverage, not my writing.</strong> This piece was written by
-          {" "}{byline} and is included because it is about me. It appears here
-          in translation with its original byline.
+    <div class="article-layout">
+      <div class="article-main">
+      <header class="article-head">
+        {celebrate && personName && <p class="person-name">{personName}</p>}
+        <h1>{d.title}</h1>
+        {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
+        <p class="post-meta article-byline">
+          {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
+          <span> · By <strong>{byline}</strong></span>
+          {!celebrate && d.interviewee && d.kind === "interview" && (
+            <span> · Interview with {d.interviewee}</span>
+          )}
+          <span> · {minutes} min read</span>
+          <span> · Translated from the Hebrew</span>
         </p>
-      </aside>
-    )}
-    {d.coauthored && (
-      <aside class="article-notice" aria-label="About this piece">
-        <p>
-          <strong>Written with {d.authors.filter((a) => a !== "Nimrod Dvir").join(" and ")}.</strong>
-          {" "}The original does not indicate who wrote which section.
-        </p>
-      </aside>
-    )}
+        <TagChips tags={d.tags} />
+      </header>
 
-    <div class="prose article-body">
-      <Content />
-    </div>
+      {d.thirdPartyCoverage && (
+        <aside class="article-notice" aria-label="About this piece">
+          <p>
+            <strong>Coverage, not my writing.</strong> This piece was written by
+            {" "}{byline} and is included because it is about me. It appears here
+            in translation with its original byline.
+          </p>
+        </aside>
+      )}
+      {d.coauthored && (
+        <aside class="article-notice" aria-label="About this piece">
+          <p>
+            <strong>Written with {d.authors.filter((a) => a !== "Nimrod Dvir").join(" and ")}.</strong>
+            {" "}The original does not indicate who wrote which section.
+          </p>
+        </aside>
+      )}
 
-    <footer class="article-source">
-      <div class="source-box">
-        <h2>Original publication</h2>
-        <p>
-          <span lang="he" dir="rtl" class="original-title">{d.originalTitle}</span>
-          <br />
-          {d.source}, {articleDate(d.date)}, in Hebrew.
-        </p>
-        <p class="button-row">
-          <a class="button" href={d.sourceUrl} target="_blank" rel="noopener noreferrer">
-            Read the original ↗
-          </a>
-          {d.hebrewSource && (
-            <a class="button" href={d.hebrewSource} target="_blank" rel="noopener noreferrer">
-              Archived Hebrew text ↗
+      <div class="prose article-body">
+        <Content />
+      </div>
+
+      <footer class="article-source">
+        <div class="source-box">
+          <h2>Original publication</h2>
+          <p>
+            <span lang="he" dir="rtl" class="original-title">{d.originalTitle}</span>
+            <br />
+            {d.source}, {articleDate(d.date)}, in Hebrew.
+          </p>
+          <p class="button-row">
+            <a class="button" href={d.sourceUrl} target="_blank" rel="noopener noreferrer">
+              Read the original ↗
+            </a>
+            {d.hebrewSource && (
+              <a class="button" href={d.hebrewSource} target="_blank" rel="noopener noreferrer">
+                Archived Hebrew text ↗
+              </a>
+            )}
+          </p>
+          {d.citation && (
+            <div class="citation-block">
+              <h3>Cite the original</h3>
+              <p class="citation-text">{d.citation}</p>
+              <p class="small">
+                English translation published on this site. Quote the translation
+                with its URL and the date you read it.
+              </p>
+            </div>
+          )}
+        </div>
+      </footer>
+      </div>
+
+      <aside class="article-rail" aria-label="In this article">
+        <div class="rail-inner">
+          <p class="rail-eyebrow">In this article</p>
+          <p class="rail-time"><span data-left>{minutes} min</span> left</p>
+          <div class="rail-progress" aria-hidden="true"><span data-bar></span></div>
+          {outline.length > 0 && (
+            <ol class="rail-list">
+              {outline.map((o) => (
+                <li class="rail-item"><a href={`#${o.id}`}>{o.text}</a></li>
+              ))}
+            </ol>
+          )}
+          {upNext && (
+            <a class="rail-next" href={`/articles/${upNext.slug}/`}>
+              <span class="rail-eyebrow">Up next</span>
+              {upNext.data.thumb && <img src={upNext.data.thumb} alt="" width="640" height="400" loading="lazy" />}
+              {upNextName && <span class="rail-next-name">{upNextName}</span>}
+              <span class="rail-next-title">{upNext.data.title} →</span>
             </a>
           )}
-        </p>
-        {d.citation && (
-          <div class="citation-block">
-            <h3>Cite the original</h3>
-            <p class="citation-text">{d.citation}</p>
-            <p class="small">
-              English translation published on this site. Quote the translation
-              with its URL and the date you read it.
-            </p>
-          </div>
-        )}
-      </div>
-    </footer>
+        </div>
+      </aside>
+    </div>
 
     <RelatedArticles current={article} />
   </article>
+  {outline.length > 0 ? (
+    <div class="chapter-pill" data-pill>
+      <button class="pill-button" type="button" aria-expanded="false" aria-controls="pill-panel" aria-label="In this article">
+        <span class="pill-dot" aria-hidden="true">
+          <svg viewBox="0 0 36 36">
+            <circle class="pill-track" cx="18" cy="18" r="15" />
+            <circle class="pill-ring" cx="18" cy="18" r="15" pathLength="100" data-ring />
+          </svg>
+          <span class="pill-mark" data-pill-mark>≡</span>
+        </span>
+        <span class="pill-label" data-pill-label>{d.title}</span>
+      </button>
+      <div class="pill-panel" id="pill-panel" hidden>
+        <ol class="rail-list">
+          {outline.map((o) => (
+            <li class="rail-item"><a href={`#${o.id}`}>{o.text}</a></li>
+          ))}
+        </ol>
+        {upNext && (
+          <a class="rail-next" href={`/articles/${upNext.slug}/`}>
+            <span class="rail-eyebrow">Up next</span>
+            {upNext.data.thumb && <img src={upNext.data.thumb} alt="" width="640" height="400" loading="lazy" />}
+            {upNextName && <span class="rail-next-name">{upNextName}</span>}
+            <span class="rail-next-title">{upNext.data.title} →</span>
+          </a>
+        )}
+      </div>
+    </div>
+  ) : (
+    upNext && (
+      <div class="chapter-pill" data-pill data-pill-late>
+        <a class="pill-button" href={`/articles/${upNext.slug}/`}>
+          <span class="pill-dot" aria-hidden="true">
+            <svg viewBox="0 0 36 36">
+              <circle class="pill-track" cx="18" cy="18" r="15" />
+              <circle class="pill-ring" cx="18" cy="18" r="15" pathLength="100" data-ring />
+            </svg>
+            <span class="pill-mark" data-pill-mark>→</span>
+          </span>
+          <span class="pill-label">Up next: {upNextName || upNext.data.title}</span>
+        </a>
+      </div>
+    )
+  )}
 </Layout>
+
+<script>
+  // Reading progress and which subheading the reader has reached, for the
+  // side rail (wide screens) and the chapter pill (narrow screens). The pill
+  // rests as a small circle and opens briefly at each new subheading.
+  const body = document.querySelector<HTMLElement>(".article-body");
+  if (body) {
+    const minutes = Number(
+      document.querySelector("[data-left]")?.textContent?.match(/\d+/)?.[0] ?? 0,
+    );
+    const lefts = document.querySelectorAll<HTMLElement>("[data-left]");
+    const bars = document.querySelectorAll<HTMLElement>("[data-bar]");
+    const pill = document.querySelector<HTMLElement>("[data-pill]");
+    const ring = pill?.querySelector<SVGCircleElement>("[data-ring]");
+    const mark = pill?.querySelector<HTMLElement>("[data-pill-mark]");
+    const label = pill?.querySelector<HTMLElement>(".pill-label");
+    const late = pill?.hasAttribute("data-pill-late") ?? false;
+    const title = label?.textContent ?? "";
+    const button = pill?.querySelector<HTMLElement>(".pill-button");
+    const panel = pill?.querySelector<HTMLElement>(".pill-panel");
+    const lists = [...document.querySelectorAll<HTMLElement>(".rail-list")];
+    const first = lists[0] ? [...lists[0].querySelectorAll("a")] : [];
+    const targets = first.map((a) =>
+      document.getElementById(decodeURIComponent(a.hash.slice(1))),
+    );
+
+    let miniTimer = 0;
+    const fitLabel = () => {
+      if (label) label.style.setProperty("--label-w", `${label.scrollWidth + 2}px`);
+    };
+    const minimize = (delay: number) => {
+      window.clearTimeout(miniTimer);
+      miniTimer = window.setTimeout(() => {
+        if (!panel || panel.hidden) pill?.classList.add("is-mini");
+      }, delay);
+    };
+    const showBriefly = () => {
+      fitLabel();
+      pill?.classList.remove("is-mini");
+      minimize(2600);
+    };
+    const setOpen = (open: boolean) => {
+      if (!button || !panel) return;
+      panel.hidden = !open;
+      button.setAttribute("aria-expanded", String(open));
+      if (open) {
+        window.clearTimeout(miniTimer);
+        fitLabel();
+        pill?.classList.remove("is-mini");
+      } else minimize(1200);
+    };
+
+    let visible = false;
+    let current = -2;
+    let queued = false;
+    const update = () => {
+      queued = false;
+      const view = window.innerHeight;
+      const top = body.getBoundingClientRect().top + window.scrollY;
+      const done = Math.min(
+        1,
+        Math.max(0, (window.scrollY + view * 0.35 - top) / body.offsetHeight),
+      );
+      bars.forEach((b) => (b.style.transform = `scaleX(${done})`));
+      lefts.forEach(
+        (el) => (el.textContent = `${Math.max(0, Math.ceil(minutes * (1 - done)))} min`),
+      );
+      if (ring) ring.style.strokeDashoffset = `${100 - done * 100}`;
+      // Without subheadings the pill only offers what's next, so it waits
+      // until the reader is halfway through.
+      const show = late ? done > 0.5 : window.scrollY > top - view * 0.6;
+      if (show !== visible) {
+        visible = show;
+        pill?.classList.toggle("is-visible", show);
+        if (show) showBriefly();
+        else setOpen(false);
+      }
+      let reached = -1;
+      targets.forEach((el, i) => {
+        if (el && el.getBoundingClientRect().top < view * 0.35) reached = i;
+      });
+      if (reached === current) return;
+      const firstRun = current === -2;
+      current = reached;
+      if (label && !late) {
+        label.textContent = reached >= 0 ? first[reached].textContent : title;
+        fitLabel();
+      }
+      if (mark && !late) mark.textContent = reached >= 0 ? `${reached + 1}/${first.length}` : "≡";
+      for (const list of lists)
+        list.querySelectorAll("li").forEach((li, i) => {
+          li.dataset.state = i < reached ? "read" : i === reached ? "current" : "";
+          li.querySelector("a")?.toggleAttribute("aria-current", i === reached);
+        });
+      if (!firstRun && visible && reached >= 0) showBriefly();
+    };
+    const queue = () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    };
+    window.addEventListener("scroll", queue, { passive: true });
+    window.addEventListener("resize", queue);
+    update();
+
+    // A tap on the circle opens the full list. On the "Up next" pill, the
+    // first tap shows where it goes and the second one follows the link.
+    button?.addEventListener("click", (e) => {
+      if (late) {
+        if (pill?.classList.contains("is-mini")) {
+          e.preventDefault();
+          showBriefly();
+        }
+        return;
+      }
+      setOpen(!!panel?.hidden);
+    });
+    panel?.addEventListener("click", (e) => {
+      if ((e.target as HTMLElement).closest("a")) setOpen(false);
+    });
+    document.addEventListener("click", (e) => {
+      if (pill && !pill.contains(e.target as Node) && panel && !panel.hidden) setOpen(false);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && panel && !panel.hidden) {
+        setOpen(false);
+        button?.focus();
+      }
+    });
+  }
+</script>

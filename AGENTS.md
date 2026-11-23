@@ -33,3 +33,10 @@
 - Use `.agents/skills/capture-article/SKILL.md` for Hebrew-first extraction and archive inventory updates, then `translate-article` for Claude translation after Nim selects articles. Hebrew capture does not authorize translation.
 - Nim's writing-voice profile is `data-source/writing/voice/voice-profile.md`, with its evidence record in `voice-profile-evidence.json`. Read it before translating or drafting on Nim's behalf; the individual article leads where they differ. The profile is a draft until Nim reviews it.
 - Python dependencies for the scripts in `scripts/writing/` are in `requirements.txt`.
+
+## Article formatting
+
+- Every article page gets a side navigation automatically (`src/pages/articles/[...slug].astro`). It lists only the article's `##` subheadings, as teasers ("Five Years Back, at NYU"), marks what the reader has passed, and shows minutes left and an "Up next" article. On narrow screens it rests as a small circle under the header (a progress ring with the section number, "2/4"). It opens for a moment to name each new subheading as the reader reaches it, then shrinks back; tapping the circle opens the full list. No timer on small screens.
+- Format every translation so this works: each intertitle from the Hebrew is a `##` subheading. Don't invent subheadings the original doesn't have. When an article has fewer than two, up to five of its own interview questions, spread through the piece, stand in; a piece with neither still gets "Up next".
+- Each interviewer prompt is its own paragraph, entirely in bold (styled as a question by `markQaPrompts` in `astro.config.mjs`). Bold inside a sentence, such as a name, stays inline; never bold a whole paragraph that isn't a prompt.
+- Article pages open with the big picture, then the person's name (interviews), title, subtitle and one meta line, with a small "Archived Hebrew" link at the top.

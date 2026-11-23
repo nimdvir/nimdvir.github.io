@@ -2,8 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import InterviewWall from "../components/InterviewWall.astro";
+import TopicTicker from "../components/TopicTicker.astro";
+import SectionMenu from "../components/SectionMenu.astro";
 import { getArticles, articleGroup } from "../utils/articles";
-import { canonicalTags } from "../utils/tags";
+import { topicsIn } from "../utils/tags";
 
 type Article = Awaited<ReturnType<typeof getArticles>>[number];
 const articles = await getArticles();
@@ -76,16 +78,7 @@ const first = Math.min(...years);
 const last = Math.max(...years);
 
 // Topics used by more than one article, most used first.
-const topicCounts = new Map<string, { slug: string; label: string; count: number }>();
-for (const a of articles)
-  for (const t of canonicalTags(a.data.tags)) {
-    const cur = topicCounts.get(t.slug) ?? { slug: t.slug, label: t.label, count: 0 };
-    cur.count += 1;
-    topicCounts.set(t.slug, cur);
-  }
-const topics = [...topicCounts.values()]
-  .filter((t) => t.count > 1)
-  .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+const topics = (await topicsIn(["Articles"])).filter((t) => t.count > 1);
 ---
 
 <Layout
@@ -96,8 +89,8 @@ const topics = [...topicCounts.values()]
     { name: "Media", path: "/media/" },
   ]}
 >
-  <header class="page-intro archive-intro media-intro" id="journalism">
-    <div class="media-intro-text">
+  <header class="page-intro archive-intro intro-with-topics" id="journalism">
+    <div class="intro-text">
       <p class="eyebrow">Journalism · {first} to {last}</p>
       <h1>Journalism and interviews</h1>
       <p class="lede">
@@ -107,33 +100,10 @@ const topics = [...topicCounts.values()]
         from the published Hebrew, with the original linked on every page.
       </p>
     </div>
-    {topics.length > 0 && (
-      <details class="topic-panel">
-        <summary>Browse by topic</summary>
-        <div class="topic-ticker">
-          <ul class="topic-track" aria-label="Article topics">
-            {topics.map((t) => (
-              <li><a href={`/tags/${t.slug}/`}>{t.label}</a></li>
-            ))}
-          </ul>
-          <ul class="topic-track topic-track-clone" aria-hidden="true" inert>
-            {topics.map((t) => (
-              <li><a href={`/tags/${t.slug}/`} tabindex="-1">{t.label}</a></li>
-            ))}
-          </ul>
-        </div>
-        <a class="topic-all" href="/tags/">All topics →</a>
-      </details>
-    )}
+    <TopicTicker topics={topics} />
   </header>
 
-  <nav class="media-subnav" aria-label="Media sections">
-    <ul>
-      {subnav.map((s) => (
-        <li><a href={`#${s.id}`}>{s.label}</a></li>
-      ))}
-    </ul>
-  </nav>
+  <SectionMenu items={subnav} label="Media sections" />
 
   {international.length > 0 && (
     <InterviewWall
@@ -247,44 +217,3 @@ const topics = [...topicCounts.values()]
     </div>
   </section>
 </Layout>
-
-<script>
-  // Wide screens show the topic list beside the intro; small screens fold it.
-  const panel = document.querySelector<HTMLDetailsElement>(".topic-panel");
-  const wide = window.matchMedia("(min-width: 1101px)");
-  const fold = () => {
-    if (panel) panel.open = wide.matches;
-  };
-  fold();
-  wide.addEventListener("change", fold);
-
-  // Keep the section menu just under the site header, and mark the section
-  // being read.
-  const header = document.querySelector<HTMLElement>(".site-header");
-  const setHeader = () =>
-    document.documentElement.style.setProperty("--header-h", `${header?.offsetHeight ?? 77}px`);
-  setHeader();
-  window.addEventListener("resize", setHeader);
-
-  const links = [...document.querySelectorAll<HTMLAnchorElement>(".media-subnav a")];
-  const byId = new Map(links.map((a) => [a.hash.slice(1), a]));
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const e of entries) {
-        if (!e.isIntersecting) continue;
-        const link = byId.get(e.target.id);
-        if (!link) continue;
-        links.forEach((a) => a.removeAttribute("aria-current"));
-        link.setAttribute("aria-current", "true");
-        const list = link.closest("ul");
-        if (list && (link.offsetLeft < list.scrollLeft || link.offsetLeft + link.offsetWidth > list.scrollLeft + list.clientWidth))
-          list.scrollTo({ left: link.offsetLeft - 16, behavior: "smooth" });
-      }
-    },
-    { rootMargin: "-30% 0px -60% 0px" },
-  );
-  byId.forEach((_, id) => {
-    const el = document.getElementById(id);
-    if (el) observer.observe(el);
-  });
-</script>

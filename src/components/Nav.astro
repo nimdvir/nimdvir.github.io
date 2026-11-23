@@ -75,3 +75,15 @@ const inSection = (link: (typeof links)[number]) =>
     </nav>
   </div>
 </header>
+
+<script>
+  // Sticky menus and side rails sit just under this header.
+  const header = document.querySelector<HTMLElement>(".site-header");
+  const setHeaderHeight = () =>
+    document.documentElement.style.setProperty(
+      "--header-h",
+      `${header?.offsetHeight ?? 77}px`,
+    );
+  setHeaderHeight();
+  window.addEventListener("resize", setHeaderHeight);
+</script>

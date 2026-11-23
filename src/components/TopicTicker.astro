@@ -1,0 +1,43 @@
+---
+// Topics beside a page intro. Wide screens: a column that drifts upward and
+// stops on hover or keyboard focus. Phones: folded behind a button. Skipped
+// when there are fewer than six topics: a short list just repeats itself.
+interface Props {
+  topics: { slug: string; label: string }[];
+  label?: string;
+}
+const { topics, label = "Browse by topic" } = Astro.props;
+// Hidden copies keep the loop seamless when the list is short.
+const copies = Math.max(1, Math.ceil(14 / Math.max(topics.length, 1)));
+---
+
+{topics.length >= 6 && (
+  <details class="topic-panel">
+    <summary>{label}</summary>
+    <div class="topic-ticker">
+      <ul class="topic-track" aria-label="Topics">
+        {topics.map((t) => (
+          <li><a href={`/tags/${t.slug}/`}>{t.label}</a></li>
+        ))}
+      </ul>
+      {Array.from({ length: copies }, () => (
+        <ul class="topic-track topic-track-clone" aria-hidden="true" inert>
+          {topics.map((t) => (
+            <li><a href={`/tags/${t.slug}/`} tabindex="-1">{t.label}</a></li>
+          ))}
+        </ul>
+      ))}
+    </div>
+    <a class="topic-all" href="/tags/">All topics →</a>
+  </details>
+)}
+
+<script>
+  const wide = window.matchMedia("(min-width: 1101px)");
+  const fold = () =>
+    document
+      .querySelectorAll<HTMLDetailsElement>(".topic-panel")
+      .forEach((panel) => (panel.open = wide.matches));
+  fold();
+  wide.addEventListener("change", fold);
+</script>

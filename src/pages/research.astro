@@ -1,5 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import TopicTicker from "../components/TopicTicker.astro";
+import SectionMenu from "../components/SectionMenu.astro";
+import { topicsIn } from "../utils/tags";
 import { getCollection } from "astro:content";
 import { getPublications } from "../utils/publications";
 import { verifiedResearch, cvUrl } from "../data/profile";
@@ -13,6 +16,14 @@ const publications = allPublications.filter(
 const workingPapers = allPublications.filter(
   (entry) => entry.data.workingPaper,
 );
+const topics = await topicsIn(["Research", "Publications"]);
+const menu = [
+  { id: "current-research", label: "Current research" },
+  { id: "research-projects", label: "Projects" },
+  { id: "publications", label: "Publications" },
+  { id: "working-papers", label: "Working papers" },
+  { id: "talks", label: "Talks" },
+];
 const manuscripts = [
   [
     "Trust, credibility, or complexity? The effect of transparency in online marketing",
@@ -36,15 +47,19 @@ const manuscripts = [
   title="Research | Language and Information Engagement"
   description="Research by Nim Dvir on language, information engagement, digital learning, and decision-making."
 >
-  <header class="page-intro">
-    <h1>Research</h1>
-    <p class="lede">
-      My research examines how wording and the amount of information people
-      receive affect their understanding, engagement, and decisions. I use
-      experiments, user research, and computational analysis of language.
-    </p>
+  <header class="page-intro intro-with-topics">
+    <div class="intro-text">
+      <h1>Research</h1>
+      <p class="lede">
+        My research examines how wording and the amount of information people
+        receive affect their understanding, engagement, and decisions. I use
+        experiments, user research, and computational analysis of language.
+      </p>
+    </div>
+    <TopicTicker topics={topics} />
   </header>
-  <section class="feature-panel" aria-labelledby="funded-title">
+  <SectionMenu items={menu} label="Research sections" />
+  <section class="feature-panel" id="current-research" aria-labelledby="funded-title">
     <div>
       <p class="small">Current research · 2026</p>
       <h2 id="funded-title">Language in mental health treatment courts</h2>
@@ -65,7 +80,7 @@ const manuscripts = [
       </p>
     </div>
   </section>
-  <section class="section" style="border-top:0">
+  <section class="section" id="research-projects" style="border-top:0">
     <div class="section-head">
       <div>
         <h2>Research projects</h2>
@@ -84,7 +99,7 @@ const manuscripts = [
       ))}
     </div>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="publications">
     <div>
       <h2>Publications and dissertation</h2>
       <p class="small">
@@ -125,7 +140,7 @@ const manuscripts = [
       ))}
     </ul>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="working-papers">
     <div>
       <h2>Working papers</h2>
       <p class="small">
@@ -156,7 +171,7 @@ const manuscripts = [
       ))}
     </ul>
   </section>
-  <section class="split-section">
+  <section class="split-section" id="talks">
     <h2>Selected talks</h2>
     <div>
       <ul class="reading-list">
