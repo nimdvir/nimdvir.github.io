@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
+import ReadingNav from "../../components/ReadingNav.astro";
 import { getPosts, formatDate, readingMinutes } from "../../utils/editorial";
 export async function getStaticPaths() {
   return (await getPosts()).map((post) => ({
@@ -9,7 +10,14 @@ export async function getStaticPaths() {
   }));
 }
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, headings, remarkPluginFrontmatter } = await post.render();
+const minutes = readingMinutes(post.body);
+// Up next: the next older post, wrapping around to the newest.
+const posts = await getPosts();
+const next =
+  posts.length > 1
+    ? posts[(posts.findIndex((p) => p.slug === post.slug) + 1) % posts.length]
+    : undefined;
 const articleUrl = new URL(`/blog/${post.slug}/`, Astro.site).href;
 const articleSchema = {
   "@context": "https://schema.org",
@@ -44,7 +52,9 @@ const articleSchema = {
   ]}
   image={post.data.image}
 >
-  <article class="editorial-article">
+  <article class="editorial-article has-reading-nav">
+    <div class="article-layout">
+    <div class="article-main">
     <header class="editorial-article-header">
       <a class="back-link" href="/blog/">
         ← All posts
@@ -57,7 +67,7 @@ const articleSchema = {
       <p class="post-meta">
         By Nim Dvir ·{" "}
         <time datetime={post.data.date}>{formatDate(post.data.date)}</time> ·{" "}
-        {readingMinutes(post.body)} min read
+        {minutes} min read
       </p>
       {post.data.tags.length > 0 && (
         <ul class="editorial-tags" aria-label="Topics">
@@ -75,8 +85,22 @@ const articleSchema = {
         )}
       </figure>
     )}
-    <div class="prose">
+    <div class="prose" data-reading-body>
       <Content />
+    </div>
+    </div>
+    <ReadingNav
+      headings={headings}
+      questions={(remarkPluginFrontmatter.questions ?? []) as { id: string; text: string }[]}
+      minutes={minutes}
+      title={post.data.title}
+      label="In this post"
+      upNext={next && {
+        href: `/blog/${next.slug}/`,
+        title: next.data.title,
+        thumb: next.data.image,
+      }}
+    />
     </div>
     <RelatedPosts currentSlug={post.slug} />
   </article>

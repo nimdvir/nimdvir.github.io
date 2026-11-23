@@ -2314,6 +2314,10 @@ a {
   display: none;
 }
 @media (min-width: 1200px) {
+  /* Blog posts widen to make room for the rail. */
+  .editorial-article.has-reading-nav {
+    max-width: var(--measure);
+  }
   .article-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 250px;
