@@ -1,6 +1,6 @@
 ---
 articleId: "W176"
-title: "Seth Rogen: \"There's Something Scary About Zac Efron\""
+title: "Beauty and the Geek"
 subtitle: "Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then Seth Rogen came along with an offer to star in the hysterically funny Neighbors, and though the shoot had its share of anxiety and incidents, these days he keeps to a healthy routine and looks ahead with optimism. And why not? He's Zac Efron"
 summary: "Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then Seth Rogen came along with an offer to star in the hysterically funny Neighbors, and though the shoot had its share of anxiety and incidents, these days he keeps to a healthy routine and looks ahead with optimism. And why not? He's Zac Efron"
 author: "Nimrod Dvir"

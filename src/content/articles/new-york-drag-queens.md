@@ -26,6 +26,11 @@ tags:
 - Television
 - LGBTQ+
 - New York
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/lead-original-photo.jpg
+imageAlt: A dozen drag queens in wigs and sequins posing on a white sofa
+imageCaption: The Drag Queens of New York
+imageCredit: 'Photo: PR'
 draft: false
 ---
 
@@ -47,6 +52,8 @@ In any case this is a highly prestigious bunch in New York terms. Lady Bunny we'
 
 "First of all, the project aroused interest in the community. There isn't a person we told about the idea of a reality show about drag queens who didn't think it was going to be a hit. Besides, the people responsible for the project are very well known in the American gay community. Lady Bunny, Jack Mackenroth, Larry Kennar and yours truly have been working for years in the entertainment industry and in the gay community. When we said we were the ones behind this project, people knew they could trust us."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-2.jpg" alt="We&#x27;re all friends. Lady Bunny" loading="lazy" width="465" height="310" /><figcaption>We&#x27;re all friends. Lady Bunny <span class="photo-credit">Publicity photo</span></figcaption></figure>
+
 ## Their Majesties
 
 Noon, midweek, the Aspen restaurant in Manhattan's Chelsea neighborhood. Today they are shooting a scene here with all the queens, in which they hold a sort of talent night at the restaurant. Each one takes the stage in turn and does a short number for the guests' enjoyment. Along the way, as befits reality TV, they also fight with one another, shove one another off the stage and all that fun. I was invited here as a guest and spent most of the day sipping martinis and gawking at the stage. Look for my looks of astonishment when the episode airs.
@@ -66,6 +73,8 @@ After ten minutes of filming it is already possible to point to two problems wit
 **You yourself took part in a reality show, "Project Runway," as a contestant. Was the situation similar there too?**
 
 "Of course. I got to see how that show works from the inside, because I'm also a fashion designer. 'Project Runway' isn't scripted, exactly like our show isn't scripted, but on 'Project' too they stopped filming, re-recorded scenes and created situations to stir up interest. You'd have to be naive to think that doesn't happen. What matters is that the core is real."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-3.jpg" alt="Note the makeup. Acid Betty" loading="lazy" width="465" height="348" /><figcaption>Note the makeup. Acid Betty <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 While Kennar directs the cameras (in this particular scene they used three), Hedda Lettuce sits off to the side, her expression glum. Here too she has come in her standard outfit: a green dress, a greenish wig and a sour attitude to life. "The girls hate me," she says. "Look at them, not one of them wants to be my friend."
 
@@ -94,6 +103,8 @@ Compared with Hedda Lettuce's diva attitude, Lady Bunny, THE drag queen of New Y
 **I noticed that earlier you fought with Bianca Del Rio.**
 
 "Don't believe everything you see, sugar. We're very good friends. That's just our way, the queens of New York. We're constantly tearing each other down. It's part of the charm. Underneath it all there's a ton of love. We don't really hate. It's part of the game."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795454712/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-4.jpg" alt="Here&#x27;s to disco! The Drag Queens of New York" loading="lazy" width="465" height="310" /><figcaption>Here&#x27;s to disco! The Drag Queens of New York <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 ## We went looking for love
 

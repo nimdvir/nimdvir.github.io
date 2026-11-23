@@ -8,7 +8,6 @@ import {
   articleDate,
   articleByline,
   articleMonogram,
-  articlePortrait,
   isPersonPiece,
 } from "../../utils/articles";
 import { readingMinutes } from "../../utils/editorial";
@@ -64,10 +63,9 @@ const articleSchema = {
 };
 const kind = articleKindLabel(d.kind);
 const minutes = readingMinutes(article.body);
-// Interviews open on the person: a large portrait beside the name.
+// Interviews put the person's name in large type under the picture.
 const celebrate = isPersonPiece(article) && !d.thirdPartyCoverage;
 const personName = d.interviewee || d.subjects[0] || "";
-const portrait = celebrate ? articlePortrait(d.image, 900) : undefined;
 ---
 
 <Layout
@@ -78,59 +76,51 @@ const portrait = celebrate ? articlePortrait(d.image, 900) : undefined;
   structuredData={[articleSchema]}
   breadcrumbs={[
     { name: "Home", path: "/" },
-    { name: "Articles", path: "/articles/" },
+    { name: "Media", path: "/media/" },
     { name: d.title, path: `/articles/${article.slug}/` },
   ]}
 >
   <article class={`editorial-article journalism-article${celebrate ? " person-article" : ""}`}>
-    {celebrate ? (
-      <header class="person-hero">
-        <a class="back-link" href="/articles/">← All articles</a>
-        <div class="person-hero-grid">
-          <figure class="person-portrait">
-            {portrait ? (
-              <img src={portrait} alt={d.imageAlt ?? personName} loading="eager" width="900" height="1200" />
-            ) : (
-              <span class="face-initials person-initials" aria-hidden="true">{articleMonogram(article)}</span>
-            )}
-            {d.image && (
-              <figcaption>
-                {d.imageCaption && <span>{d.imageCaption} </span>}
-                {d.imageSource ? (
-                  <a href={d.imageSource} target="_blank" rel="noopener noreferrer">{d.imageCredit}</a>
-                ) : (
-                  <span>{d.imageCredit}</span>
-                )}
-              </figcaption>
-            )}
-          </figure>
-          <div class="person-hero-text">
-            <p class="eyebrow">
-              {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
-            </p>
-            <p class="person-name">{personName}</p>
-            <h1>{d.title}</h1>
-            {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
-            <p class="post-meta article-byline">
-              By <strong>{byline}</strong>
-              <span> · {minutes} min read</span>
-              <span> · Translated from the Hebrew</span>
-            </p>
-            <TagChips tags={d.tags} />
-          </div>
+    <div class="article-topbar">
+      <a class="back-link" href="/media/">← Media</a>
+      {d.hebrewSource && (
+        <a class="hebrew-link" href={d.hebrewSource} target="_blank" rel="noopener noreferrer">
+          Archived Hebrew ↗
+        </a>
+      )}
+    </div>
+
+    {d.image ? (
+      <figure class="editorial-cover article-cover article-hero">
+        <div class="cover-frame" style={`--cover: url("${d.image}")`}>
+          <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
         </div>
-      </header>
+        <figcaption>
+          {d.imageCaption && <span>{d.imageCaption}</span>}
+          {d.imageSource ? (
+            <a class="photo-credit" href={d.imageSource} target="_blank" rel="noopener noreferrer">
+              {d.imageCredit}
+            </a>
+          ) : (
+            <span class="photo-credit">{d.imageCredit}</span>
+          )}
+        </figcaption>
+      </figure>
     ) : (
-    <header class="editorial-article-header">
-      <a class="back-link" href="/articles/">← All articles</a>
-      <p class="eyebrow">
-        {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
-      </p>
+      <div class="typo-cover typo-cover-hero" data-kind={d.kind} aria-hidden="true">
+        <span class="typo-cover-mark">{articleMonogram(article)}</span>
+        <span class="typo-cover-source">{d.source} · {d.date.slice(0, 4)}</span>
+      </div>
+    )}
+
+    <header class="article-head">
+      {celebrate && personName && <p class="person-name">{personName}</p>}
       <h1>{d.title}</h1>
       {d.subtitle && <p class="lede article-subtitle">{d.subtitle}</p>}
       <p class="post-meta article-byline">
-        By <strong>{byline}</strong>
-        {d.interviewee && d.kind === "interview" && (
+        {kind} · {d.source} · <time datetime={d.date}>{articleDate(d.date)}</time>
+        <span> · By <strong>{byline}</strong></span>
+        {!celebrate && d.interviewee && d.kind === "interview" && (
           <span> · Interview with {d.interviewee}</span>
         )}
         <span> · {minutes} min read</span>
@@ -138,7 +128,6 @@ const portrait = celebrate ? articlePortrait(d.image, 900) : undefined;
       </p>
       <TagChips tags={d.tags} />
     </header>
-    )}
 
     {d.thirdPartyCoverage && (
       <aside class="article-notice" aria-label="About this piece">
@@ -156,29 +145,6 @@ const portrait = celebrate ? articlePortrait(d.image, 900) : undefined;
           {" "}The original does not indicate who wrote which section.
         </p>
       </aside>
-    )}
-
-    {celebrate ? null : d.image ? (
-      <figure class="editorial-cover article-cover">
-        <div class="cover-frame" style={`--cover: url("${d.image}")`}>
-          <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
-        </div>
-        <figcaption>
-          {d.imageCaption && <span>{d.imageCaption} </span>}
-          {d.imageSource ? (
-            <a href={d.imageSource} target="_blank" rel="noopener noreferrer">
-              {d.imageCredit}
-            </a>
-          ) : (
-            <span>{d.imageCredit}</span>
-          )}
-        </figcaption>
-      </figure>
-    ) : (
-      <div class="typo-cover typo-cover-hero" data-kind={d.kind} aria-hidden="true">
-        <span class="typo-cover-mark">{articleMonogram(article)}</span>
-        <span class="typo-cover-source">{d.source} · {d.date.slice(0, 4)}</span>
-      </div>
     )}
 
     <div class="prose article-body">

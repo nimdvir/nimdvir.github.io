@@ -1,6 +1,6 @@
 # Translating Nim Dvir into English: the working brief
 
-Read this whole file before touching a package. It supplements `data-source/writing/voice-profile.md` (read sections 2, 3C, 3D, 3F, 6, 8 and 9 of that file too) and overrides the earlier draft translations, which Nim rejected on October 31, 2026 as "clunky and really not my style."
+Read this whole file before touching a package. It supplements `data-source/writing/voice/voice-profile.md` (read sections 2, 3C, 3D, 3F, 6, 8 and 9 of that file too) and overrides the earlier draft translations, which Nim rejected on October 31, 2026 as "clunky and really not my style."
 
 ## 1. What went wrong in the first drafts
 
@@ -25,7 +25,7 @@ Read both before you start. They set the standard:
 
 and compare each against its Hebrew in `data-source/writing/originals/`. Notice what moved (clauses, not meaning), what stayed short, where the joke sits, how an Israeli reference is handled, and how the frontmatter, body, provenance comments and footer are laid out.
 
-Then read `data-source/writing/voice-comparison/README.md`. It holds seven interviews as Hebrew / rejected draft / revised version side by side, with the changes sorted into categories. Section 6.4 of the voice profile summarizes the same lessons. If you are unsure whether a sentence of yours is a calque, find its nearest cousin there.
+Then read `data-source/writing/voice/voice-comparison/README.md`. It holds seven interviews as Hebrew / rejected draft / revised version side by side, with the changes sorted into categories. Section 6.4 of the voice profile summarizes the same lessons. If you are unsure whether a sentence of yours is a calque, find its nearest cousin there.
 
 ## 3. Method
 

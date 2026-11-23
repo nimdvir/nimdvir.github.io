@@ -487,7 +487,7 @@ Why it works: the accumulation is the setup; the verdict is the short last sente
 
 ```
 VOICE: Nimrod (Nim) Dvir. Full profile with evidence:
-data-source/writing/voice-profile.md and voice-profile-evidence.json.
+data-source/writing/voice/voice-profile.md and voice-profile-evidence.json.
 
 Core: conversational, well-read insider; amused by machinery, generous to
 people; concrete detail carries judgment; explicit opinion framed as
@@ -524,7 +524,7 @@ English as plain English without inventing a compensating joke. Do not
 intensify understatement, explain jokes, add transitions, or append
 conclusions. Use established English names and titles. Publisher photo
 captions stay in the file as provenance and never print without the photo.
-Before-and-after examples: data-source/writing/voice-comparison/.
+Before-and-after examples: data-source/writing/voice/voice-comparison/.
 
 New writing: style only; every fact, opinion, memory, reference comes from
 Nim. Match register to audience: no entertainment slang, mock-honorifics,

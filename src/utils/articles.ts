@@ -40,7 +40,7 @@ const groupLabels: Record<ArticleGroup, string> = {
   feature: "Features and set visits",
   review: "Reviews",
   column: "Columns",
-  "about-me": "Written about me",
+  "about-me": "In the press",
 };
 
 export function articleGroupLabel(group: ArticleGroup) {

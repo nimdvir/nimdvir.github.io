@@ -61,7 +61,7 @@ The original `reports/writing/inventory-audit.md` documents the initial import. 
 
 ## Writing-voice profile
 
-`voice-profile.md` in this folder describes Nim's writing voice from the verified Hebrew corpus: tone, vocabulary, sentence rhythm, humor, structure, interviewing habits, and how to carry each into English or into new writing. `voice-profile-evidence.json` records every source, claim, Hebrew example, and measurement behind it. Read the profile before translating or drafting on Nim's behalf, and let the individual article override it where they differ. The profile is an analysis record, not a second inventory; article selection still happens only in `articles.csv`. Its status is draft until Nim reviews it.
+`voice/voice-profile.md` describes Nim's writing voice from the verified Hebrew corpus: tone, vocabulary, sentence rhythm, humor, structure, interviewing habits, and how to carry each into English or into new writing. `voice-profile-evidence.json` records every source, claim, Hebrew example, and measurement behind it. Read the profile before translating or drafting on Nim's behalf, and let the individual article override it where they differ. The profile is an analysis record, not a second inventory; article selection still happens only in `articles.csv`. Its status is draft until Nim reviews it.
 
 ## Article packages and templates
 

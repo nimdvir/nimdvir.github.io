@@ -6,10 +6,17 @@ const links = [
   { href: "/research/", label: "Research" },
   { href: "/projects/", label: "Projects" },
   { href: "/teaching/", label: "Teaching" },
-  { href: "/articles/", label: "Articles" },
+  { href: "/media/", label: "Media", also: "/articles/" },
   { href: "/blog/", label: "Blog" },
 ];
 const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+// Article pages live under /articles/ but belong to the Media section.
+const inSection = (link: (typeof links)[number]) =>
+  link.href === "/"
+    ? path === "/"
+    : path === link.href.replace(/\/$/, "") ||
+      path.startsWith(link.href) ||
+      ("also" in link && !!link.also && path.startsWith(link.also));
 ---
 
 <header class="site-header">
@@ -37,16 +44,7 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
       {links.map((link) => (
         <a
           href={link.href}
-          aria-current={
-            (
-              link.href === "/"
-                ? path === "/"
-                : path === link.href.replace(/\/$/, "") ||
-                  path.startsWith(link.href)
-            )
-              ? "page"
-              : undefined
-          }
+          aria-current={inSection(link) ? "page" : undefined}
         >
           {link.href === "/" && (
             <svg

@@ -1,0 +1,290 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import InterviewWall from "../components/InterviewWall.astro";
+import { getArticles, articleGroup } from "../utils/articles";
+import { canonicalTags } from "../utils/tags";
+
+type Article = Awaited<ReturnType<typeof getArticles>>[number];
+const articles = await getArticles();
+const inGroup = (g: string) => articles.filter((a) => articleGroup(a) === g);
+
+// The six interviews from the live site lead the wall, then the other
+// interviews with a photo, then the rest (each newest first).
+const featured = [
+  "lady-gaga",
+  "jamie-foxx",
+  "julia-louis-dreyfus",
+  "jim-carrey",
+  "rupaul",
+  "michael-fassbender",
+];
+const wallRank = (a: Article) => {
+  const f = featured.indexOf(a.slug);
+  return f >= 0 ? f : a.data.image ? featured.length : featured.length + 1;
+};
+const withPhotosFirst = (list: Article[]) =>
+  list
+    .map((a, i) => ({ a, i }))
+    .sort((x, y) => wallRank(x.a) - wallRank(y.a) || x.i - y.i)
+    .map(({ a }) => a);
+const newestFirst = (a: Article, b: Article) => b.data.date.localeCompare(a.data.date);
+
+const international = withPhotosFirst(inGroup("international-interview"));
+const israeli = withPhotosFirst(inGroup("israeli-interview"));
+const isSetVisit = (a: Article) => a.data.tags.some((t) => t.toLowerCase() === "set visit");
+const features = inGroup("feature");
+
+const sections = [
+  {
+    id: "set-visits",
+    label: "Set visits",
+    lede: "Behind the scenes on television and film shoots.",
+    items: features.filter(isSetVisit),
+  },
+  {
+    id: "features-reviews",
+    label: "Features and reviews",
+    lede: "Profiles and reporting from New York, and film, television and books, judged in print.",
+    items: [...features.filter((a) => !isSetVisit(a)), ...inGroup("review")].sort(newestFirst),
+  },
+  {
+    id: "columns",
+    label: "Columns",
+    lede: "First-person columns and opinion, mostly from New York.",
+    items: inGroup("column"),
+  },
+  {
+    id: "in-the-press",
+    label: "In the press",
+    lede: "Pieces by other journalists in which I am the subject. Included for the record, with their original bylines.",
+    items: inGroup("about-me"),
+  },
+].filter((s) => s.items.length > 0);
+
+const subnav = [
+  ...(international.length ? [{ id: "international-interviews", label: "International interviews" }] : []),
+  ...(israeli.length ? [{ id: "israeli-interviews", label: "Israeli interviews" }] : []),
+  ...sections.map((s) => ({ id: s.id, label: s.label })),
+  { id: "television", label: "Television" },
+];
+
+const own = articles.filter((a) => !a.data.thirdPartyCoverage);
+const sources = [...new Set(own.map((a) => a.data.source))];
+const years = own.map((a) => Number(a.data.date.slice(0, 4)));
+const first = Math.min(...years);
+const last = Math.max(...years);
+
+// Topics used by more than one article, most used first.
+const topicCounts = new Map<string, { slug: string; label: string; count: number }>();
+for (const a of articles)
+  for (const t of canonicalTags(a.data.tags)) {
+    const cur = topicCounts.get(t.slug) ?? { slug: t.slug, label: t.label, count: 0 };
+    cur.count += 1;
+    topicCounts.set(t.slug, cur);
+  }
+const topics = [...topicCounts.values()]
+  .filter((t) => t.count > 1)
+  .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+---
+
+<Layout
+  title="Media"
+  description={`Journalism, interviews and television appearances from Nim Dvir's years as a journalist and editor in Israel and New York, ${first} to ${last}, translated from the published Hebrew.`}
+  breadcrumbs={[
+    { name: "Home", path: "/" },
+    { name: "Media", path: "/media/" },
+  ]}
+>
+  <header class="page-intro archive-intro media-intro" id="journalism">
+    <div class="media-intro-text">
+      <p class="eyebrow">Journalism · {first} to {last}</p>
+      <h1>Journalism and interviews</h1>
+      <p class="lede">
+        I worked as a journalist and editor in Israel and New York before
+        moving into academia. This page collects interviews, articles, and
+        television appearances from that period. Everything is translated
+        from the published Hebrew, with the original linked on every page.
+      </p>
+    </div>
+    {topics.length > 0 && (
+      <details class="topic-panel">
+        <summary>Browse by topic</summary>
+        <div class="topic-ticker">
+          <ul class="topic-track" aria-label="Article topics">
+            {topics.map((t) => (
+              <li><a href={`/tags/${t.slug}/`}>{t.label}</a></li>
+            ))}
+          </ul>
+          <ul class="topic-track topic-track-clone" aria-hidden="true" inert>
+            {topics.map((t) => (
+              <li><a href={`/tags/${t.slug}/`} tabindex="-1">{t.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <a class="topic-all" href="/tags/">All topics →</a>
+      </details>
+    )}
+  </header>
+
+  <nav class="media-subnav" aria-label="Media sections">
+    <ul>
+      {subnav.map((s) => (
+        <li><a href={`#${s.id}`}>{s.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+
+  {international.length > 0 && (
+    <InterviewWall
+      id="international-interviews"
+      eyebrow="Celebrity interviews"
+      heading="International"
+      lede="Hotel suites, junket tables and transatlantic phone lines. Click a face to read the interview."
+      articles={international}
+      tone="dark"
+    />
+  )}
+
+  {israeli.length > 0 && (
+    <InterviewWall
+      id="israeli-interviews"
+      eyebrow="Celebrity interviews"
+      heading="Israeli"
+      lede="Singers, actors, politicians and television people, in Tel Aviv and in New York."
+      articles={israeli}
+      tone="light"
+    />
+  )}
+
+  {sections.map((s) => (
+    <section class="section archive-section" id={s.id} aria-labelledby={`${s.id}-heading`}>
+      <div class="section-head">
+        <div>
+          <h2 id={`${s.id}-heading`}>{s.label}</h2>
+          <p class="small archive-section-lede">{s.lede}</p>
+        </div>
+      </div>
+      <div class="project-grid article-grid grid-3">
+        {s.items.map((article) => (
+          <ArticleCard article={article} headingLevel="h3" />
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section class="section archive-section" id="television" aria-labelledby="television-heading">
+    <div class="section-head">
+      <div>
+        <h2 id="television-heading">Television</h2>
+      </div>
+    </div>
+    <div class="grid-2">
+      <article>
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/0cPdG0gx3fM"
+            title="Nim Dvir on Donald Trump, Profile, Israeli television, 2016"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h3>On Donald Trump, for the Israeli TV show Profile</h3>
+        <p class="small">
+          A guest on the Profile panel, I talked about Donald Trump's public
+          behavior and where it comes from. The clip runs four and a half
+          minutes, edited, with English subtitles.
+        </p>
+        <p class="small">
+          September 26, 2016 ·{" "}
+          <a href="https://youtu.be/0cPdG0gx3fM" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+        </p>
+      </article>
+      <article>
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/-ZLoYBUchmI"
+            title="Nim Dvir at The Dictator press conference with Sacha Baron Cohen, 2012"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h3>The Dictator press conference</h3>
+        <p class="small">
+          With Sacha Baron Cohen, in character, in New York.{" "}
+          <a href="/articles/dictator-coverage/">How the Israeli press covered it</a>.
+        </p>
+        <p class="small">
+          May 8, 2012 ·{" "}
+          <a href="https://youtu.be/-ZLoYBUchmI" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section archive-notes">
+    <div class="section-head">
+      <h2>About this archive</h2>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3>Translations</h3>
+        <p class="small">
+          Every article was translated from the verified Hebrew text, keeping
+          each paragraph, question and answer in its original order and in my
+          own voice. Quotes are translations of what was published in Hebrew,
+          not recovered English transcripts. Publications represented: {sources.join(", ")}.
+        </p>
+      </div>
+      <div>
+        <h3>Images and sources</h3>
+        <p class="small">
+          Photos are the ones that ran with the original articles, credited as
+          published, or come from my own archive. Each page links to the
+          original article and to the archived Hebrew text.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Wide screens show the topic list beside the intro; small screens fold it.
+  const panel = document.querySelector<HTMLDetailsElement>(".topic-panel");
+  const wide = window.matchMedia("(min-width: 1101px)");
+  const fold = () => {
+    if (panel) panel.open = wide.matches;
+  };
+  fold();
+  wide.addEventListener("change", fold);
+
+  // Keep the section menu just under the site header, and mark the section
+  // being read.
+  const header = document.querySelector<HTMLElement>(".site-header");
+  const setHeader = () =>
+    document.documentElement.style.setProperty("--header-h", `${header?.offsetHeight ?? 77}px`);
+  setHeader();
+  window.addEventListener("resize", setHeader);
+
+  const links = [...document.querySelectorAll<HTMLAnchorElement>(".media-subnav a")];
+  const byId = new Map(links.map((a) => [a.hash.slice(1), a]));
+  const observer = new IntersectionObserver(
+    (entries) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue;
+        const link = byId.get(e.target.id);
+        if (!link) continue;
+        links.forEach((a) => a.removeAttribute("aria-current"));
+        link.setAttribute("aria-current", "true");
+        const list = link.closest("ul");
+        if (list && (link.offsetLeft < list.scrollLeft || link.offsetLeft + link.offsetWidth > list.scrollLeft + list.clientWidth))
+          list.scrollTo({ left: link.offsetLeft - 16, behavior: "smooth" });
+      }
+    },
+    { rootMargin: "-30% 0px -60% 0px" },
+  );
+  byId.forEach((_, id) => {
+    const el = document.getElementById(id);
+    if (el) observer.observe(el);
+  });
+</script>

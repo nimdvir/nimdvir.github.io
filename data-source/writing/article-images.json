@@ -1027,15 +1027,16 @@
     }
   },
   "W176": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg",
+    "alt": "Zac Efron hugging Seth Rogen from behind, both smiling",
+    "caption": "Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding",
+    "credit": "Publicity photo",
+    "width": 650,
+    "height": 649,
+    "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
+    "note": "The photo that ran with the original article, checklist row 231. Replaced the Commons portrait of Seth Rogen on 2026-11-23 at Nim's request.",
     "photos": {
-      "0": {
-        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg",
-        "width": 650,
-        "height": 649,
-        "caption": "Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding",
-        "credit": "Publicity photo",
-        "checklistRow": "231"
-      },
       "1": {
         "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408711/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-2.jpg",
         "width": 650,
@@ -1059,6 +1060,75 @@
         "caption": "One more and that's it. Efron in Neighbors",
         "credit": "Publicity photo",
         "checklistRow": "234"
+      }
+    }
+  },
+  "W116": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W116-ben-shani/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W116-ben-shani/lead-original-photo.jpg",
+    "alt": "Ben Shani behind a video camera on a Tel Aviv rooftop",
+    "caption": "Ben Shani",
+    "credit": "Photo: Alon Porat",
+    "width": 300,
+    "height": 225,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 121."
+  },
+  "W126": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W126-mel-b/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W126-mel-b/lead-original-photo.jpg",
+    "alt": "Melanie Brown in a black sequined outfit, seated on a white chair",
+    "caption": "Love her or hate her? Melanie B",
+    "credit": "Publicity photo",
+    "width": 300,
+    "height": 232,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 140.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W126-mel-b/original-photo-2.jpg",
+        "width": 465,
+        "height": 350,
+        "caption": "They make things up about us all the time. Melanie B and her husband",
+        "credit": "Publicity photo",
+        "checklistRow": "141"
+      }
+    }
+  },
+  "W184": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/lead-original-photo.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/lead-original-photo.jpg",
+    "alt": "A dozen drag queens in wigs and sequins posing on a white sofa",
+    "caption": "The Drag Queens of New York",
+    "credit": "Photo: PR",
+    "width": 465,
+    "height": 348,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 251.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-2.jpg",
+        "width": 465,
+        "height": 310,
+        "caption": "We're all friends. Lady Bunny",
+        "credit": "Publicity photo",
+        "checklistRow": "252"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454710/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-3.jpg",
+        "width": 465,
+        "height": 348,
+        "caption": "Note the makeup. Acid Betty",
+        "credit": "Publicity photo",
+        "checklistRow": "253"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795454712/PersonalSite/Interviews/W184-new-york-drag-queens/original-photo-4.jpg",
+        "width": 465,
+        "height": 310,
+        "caption": "Here's to disco! The Drag Queens of New York",
+        "credit": "Publicity photo",
+        "checklistRow": "254"
       }
     }
   }

@@ -6,7 +6,7 @@ Prepared November 1, 2026 for Nim's review. Each folder holds three files:
 | --- | --- |
 | `hebrew.he.md` | The verified Hebrew original, copied from `data-source/writing/originals/`. The reference for both translations. |
 | `before.en.md` | The October 30, 2026 draft: a faithful, literal rendering. Recovered from git (commit `497da59`). Nim's verdict: "clunky and really not my style." |
-| `after.en.md` | The voice version: translated again from the Hebrew under `.agents/skills/translate-article/references/voice-translation-brief.md` and `data-source/writing/voice-profile.md`. This is the version now in `data-source/writing/translations/` and on the site. |
+| `after.en.md` | The voice version: translated again from the Hebrew under `.agents/skills/translate-article/references/voice-translation-brief.md` and `data-source/writing/voice/voice-profile.md`. This is the version now in `data-source/writing/translations/` and on the site. |
 
 | Folder | Piece | Who wrote the voice version |
 | --- | --- | --- |

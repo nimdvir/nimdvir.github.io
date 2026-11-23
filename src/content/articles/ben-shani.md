@@ -23,6 +23,11 @@ tags:
 - Television
 - Journalism
 - Israel
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795454710/PersonalSite/Interviews/W116-ben-shani/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W116-ben-shani/lead-original-photo.jpg
+imageAlt: Ben Shani behind a video camera on a Tel Aviv rooftop
+imageCaption: Ben Shani
+imageCredit: 'Photo: Alon Porat'
 draft: false
 ---
 

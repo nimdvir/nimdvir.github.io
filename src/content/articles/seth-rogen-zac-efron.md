@@ -1,6 +1,6 @@
 ---
 articleId: W176
-title: 'Seth Rogen: "There''s Something Scary About Zac Efron"'
+title: Beauty and the Geek
 subtitle: Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then Seth Rogen came along with an offer to star in the hysterically funny Neighbors, and though the shoot had its share of anxiety and incidents, these days he keeps to a healthy routine and looks ahead with optimism. And why not? He's Zac Efron
 summary: Zac Efron was the youngest, hottest teen star in Hollywood, until the grim statistics caught up with him. Then Seth Rogen came along with an offer to star in the hysterically funny Neighbors, and though the shoot had its share of anxiety and incidents, these days he keeps to a healthy routine and looks ahead with optimism. And why not? He's Zac Efron
 kind: interview
@@ -24,20 +24,15 @@ tags:
 - Comedy
 - Hollywood
 - New York
-image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1793384953/PersonalSite/Interviews/W176-seth-rogen-zac-efron/lead-photo-commons.jpg
-thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1793384953/PersonalSite/Interviews/W176-seth-rogen-zac-efron/lead-photo-commons.jpg
-imageAlt: Seth Rogen speaking into a microphone at a convention panel
-imageCaption: Seth Rogen at WonderCon, Anaheim, March 2013.
-imageCredit: 'Photo: Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons'
-imageLicense: CC BY-SA 2.0
-imageLicenseUrl: https://creativecommons.org/licenses/by-sa/2.0/
-imageSource: https://commons.wikimedia.org/wiki/File:Seth_Rogen_WonderCon_2013.jpg
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg
+imageAlt: Zac Efron hugging Seth Rogen from behind, both smiling
+imageCaption: Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding
+imageCredit: Publicity photo
 draft: false
 ---
 
 One of the fun parts of interviewing **Zac Efron** is trying to keep count of the nonsense he sends out into the room. He opens, for instance, by insisting that he knows me from somewhere (I nearly melted in total belief, except that I had watched him do the exact same bit for a journalist from Portugal a few minutes earlier). He also mentions that he almost flew to Israel for a visit last week, but something came up and wrecked the plans (again, the Portuguese reporter got a similar story).
-
-<figure class="article-photo"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795408712/PersonalSite/Interviews/W176-seth-rogen-zac-efron/original-photo-1.jpg" alt="Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding" loading="lazy" width="650" height="649" /><figcaption>Beauty and the Geek. Seth Rogen and Zac Efron in a moment of male bonding <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 Efron, 27, generally seems to have no trouble bending the truth. Take his insistence that the bit at the [latest MTV Movie Awards](http://www.ynet.co.il/articles/0,7340,L-4510041,00.html), where **Rita Ora** ripped his shirt off on stage, was pure improvisation. "I swear I had no idea it was coming," he laughs. "Nothing was planned. It took me a while to work out what the hell had just happened." Interesting. The body he happened to expose up there, well trimmed and generously slathered in bronzer, tells a different story, and anyway, if the thing wasn't planned, Efron absolutely ought to sue Ora for sexual harassment.
 

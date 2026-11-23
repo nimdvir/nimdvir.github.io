@@ -23,6 +23,11 @@ tags:
 - Television
 - Reality Television
 - Music
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795454710/PersonalSite/Interviews/W126-mel-b/lead-original-photo.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795454710/PersonalSite/Interviews/W126-mel-b/lead-original-photo.jpg
+imageAlt: Melanie Brown in a black sequined outfit, seated on a white chair
+imageCaption: Love her or hate her? Melanie B
+imageCredit: Publicity photo
 draft: false
 ---
 
@@ -43,6 +48,8 @@ Now, as befits a true fourth-division celebrity, Mel B has a reality show of her
 **How are the reactions so far?**
 
 "The feedback is great. People love the show and our crazy lifestyle, and also the normal family life we led. All the fans are very supportive. I hope they'll like it in Israel too."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795454710/PersonalSite/Interviews/W126-mel-b/original-photo-2.jpg" alt="They make things up about us all the time. Melanie B and her husband" loading="lazy" width="465" height="350" /><figcaption>They make things up about us all the time. Melanie B and her husband <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 ## The lover from Beverly Hills
 
