@@ -1,0 +1,202 @@
+---
+// The home gallery. Slides live in src/data/home-gallery.ts.
+import { homeGallery } from "../data/home-gallery";
+
+const BASE = "https://res.cloudinary.com/dkndq6lyz/image/upload/";
+const url = (s: (typeof homeGallery)[number], tx: string) =>
+  BASE + (s.crop ? s.crop + "/" : "") + tx + "/" + s.image;
+const widths = [640, 960, 1400, 1900];
+const srcset = (s: (typeof homeGallery)[number]) =>
+  widths.map((w) => url(s, "f_auto,q_auto,w_" + w + ",c_limit") + " " + w + "w").join(", ");
+const n = homeGallery.length;
+---
+
+<section class="home-gallery" aria-roledescription="carousel" aria-label="Photo gallery" data-home-gallery>
+  <div class="hg-stage" aria-live="off" data-hg-stage>
+    {
+      homeGallery.map((s, i) => (
+        <figure
+          class={`hg-slide${i === 0 ? " is-active" : ""}`}
+          role="group"
+          aria-roledescription="slide"
+          aria-label={`${i + 1} of ${n}`}
+          inert={i !== 0}
+          data-hg-slide
+        >
+          <img
+            class="hg-backdrop"
+            src={url(s, "w_480,c_limit/e_blur:900,f_auto,q_auto:low")}
+            alt=""
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+          <img
+            class="hg-photo"
+            src={url(s, "f_auto,q_auto,w_1400,c_limit")}
+            srcset={srcset(s)}
+            sizes="(max-width: 1220px) 100vw, 1180px"
+            alt={s.alt}
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+          <figcaption class="hg-caption">
+            <span class="hg-kicker">{s.kicker}</span>
+            <span class="hg-title">{s.title}</span>
+            {s.href && (
+              <a class="hg-link" href={s.href}>
+                {s.linkLabel ?? "More"} <span aria-hidden="true">→</span>
+              </a>
+            )}
+          </figcaption>
+        </figure>
+      ))
+    }
+    <div class="hg-progress" role="group" aria-label="Choose a photo">
+      {
+        homeGallery.map((s, i) => (
+          <button
+            type="button"
+            class={`hg-seg${i === 0 ? " is-current" : ""}`}
+            aria-label={`Photo ${i + 1}: ${s.title}`}
+            aria-current={i === 0 ? "true" : undefined}
+            data-hg-go={i}
+          >
+            <span class="hg-fill" />
+          </button>
+        ))
+      }
+    </div>
+    <div class="hg-controls">
+      <button type="button" class="hg-btn" aria-label="Previous photo" data-hg-prev>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+      </button>
+      <button type="button" class="hg-btn" aria-label="Pause the gallery" data-hg-toggle>
+        <svg class="hg-icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14" /></svg>
+        <svg class="hg-icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z" /></svg>
+      </button>
+      <button type="button" class="hg-btn" aria-label="Next photo" data-hg-next>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const TRANSITION = 650;
+  for (const root of document.querySelectorAll<HTMLElement>("[data-home-gallery]")) {
+    const stage = root.querySelector<HTMLElement>("[data-hg-stage]")!;
+    const slides = [...root.querySelectorAll<HTMLElement>("[data-hg-slide]")];
+    const segs = [...root.querySelectorAll<HTMLButtonElement>("[data-hg-go]")];
+    const toggle = root.querySelector<HTMLButtonElement>("[data-hg-toggle]")!;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const holds = new Set<string>();
+    let index = 0;
+    let busy = false;
+
+    const render = () => {
+      const paused = holds.size > 0;
+      root.classList.toggle("is-paused", paused);
+      stage.setAttribute("aria-live", holds.has("user") ? "polite" : "off");
+      const userPaused = holds.has("user");
+      toggle.setAttribute("aria-label", userPaused ? "Play the gallery" : "Pause the gallery");
+      toggle.classList.toggle("is-playing", !userPaused);
+    };
+    const hold = (why: string, on: boolean) => {
+      on ? holds.add(why) : holds.delete(why);
+      render();
+    };
+
+    const restartFill = () => {
+      segs.forEach((seg, i) => {
+        seg.classList.toggle("is-done", i < index);
+        seg.classList.toggle("is-current", i === index);
+        if (i === index) seg.setAttribute("aria-current", "true");
+        else seg.removeAttribute("aria-current");
+      });
+      const fill = segs[index].querySelector<HTMLElement>(".hg-fill")!;
+      fill.style.animation = "none";
+      void fill.offsetWidth;
+      fill.style.animation = "";
+    };
+
+    const go = (next: number, dir?: "next" | "prev") => {
+      next = (next + slides.length) % slides.length;
+      if (next === index || busy) return;
+      const from = slides[index];
+      const to = slides[next];
+      const direction = dir ?? (next > index ? "next" : "prev");
+      busy = true;
+      from.classList.remove("is-active");
+      from.classList.add("is-leaving");
+      from.dataset.dir = direction;
+      from.inert = true;
+      to.dataset.dir = direction;
+      to.classList.add("is-active", "is-entering");
+      to.inert = false;
+      index = next;
+      restartFill();
+      window.setTimeout(() => {
+        from.classList.remove("is-leaving");
+        to.classList.remove("is-entering");
+        busy = false;
+      }, reduced ? 200 : TRANSITION);
+    };
+
+    segs.forEach((seg, i) => seg.addEventListener("click", () => go(i)));
+    root.querySelector("[data-hg-prev]")!.addEventListener("click", () => go(index - 1, "prev"));
+    root.querySelector("[data-hg-next]")!.addEventListener("click", () => go(index + 1, "next"));
+    toggle.addEventListener("click", () => hold("user", !holds.has("user")));
+
+    // The progress bar drives the rotation: when it fills, move on.
+    root.addEventListener("animationend", (e) => {
+      const target = e.target as HTMLElement;
+      if (target.classList.contains("hg-fill") && target.parentElement === segs[index] && !holds.size) {
+        go(index + 1, "next");
+      }
+    });
+
+    stage.addEventListener("pointerenter", (e) => e.pointerType === "mouse" && hold("hover", true));
+    stage.addEventListener("pointerleave", () => hold("hover", false));
+    // Keyboard focus pauses the rotation; a mouse click on a button doesn't.
+    root.addEventListener("focusin", (e) => {
+      if ((e.target as HTMLElement).matches(":focus-visible")) hold("focus", true);
+    });
+    root.addEventListener("focusout", (e) => {
+      if (!root.contains(e.relatedTarget as Node)) hold("focus", false);
+    });
+    root.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") go(index + 1, "next");
+      if (e.key === "ArrowLeft") go(index - 1, "prev");
+    });
+
+    // Swipe on touch screens.
+    let startX = 0;
+    let startY = 0;
+    stage.addEventListener("pointerdown", (e) => {
+      startX = e.clientX;
+      startY = e.clientY;
+    });
+    stage.addEventListener("pointerup", (e) => {
+      const dx = e.clientX - startX;
+      if (e.pointerType !== "mouse" && Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(e.clientY - startY)) {
+        go(index + (dx < 0 ? 1 : -1), dx < 0 ? "next" : "prev");
+      }
+    });
+
+    // Only rotate while the gallery is on screen.
+    new IntersectionObserver(([entry]) => hold("offscreen", !entry.isIntersecting), {
+      threshold: 0.35,
+    }).observe(stage);
+
+    // Warm the next photo so the wipe never reveals a blank frame.
+    const warm = () => {
+      for (const img of slides[(index + 1) % slides.length].querySelectorAll("img")) img.loading = "eager";
+    };
+    stage.addEventListener("animationstart", warm);
+
+    if (reduced) holds.add("user");
+    root.classList.add("is-ready");
+    restartFill();
+    render();
+  }
+</script>

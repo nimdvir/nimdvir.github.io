@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import PostList from "../components/PostList.astro";
 import ProfileIcon from "../components/ProfileIcon.astro";
+import HomeGallery from "../components/HomeGallery.astro";
 import { getPosts } from "../utils/editorial";
 import { cvUrl, socialLinks } from "../data/profile";
 const posts = await getPosts();
@@ -65,6 +66,7 @@ const posts = await getPosts();
       </figure>
     </section>
   </div>
+  <HomeGallery />
   <div class="home-updates">
     {posts.length > 0 && (
       <section aria-labelledby="latest-posts-heading">

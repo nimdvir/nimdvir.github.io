@@ -17,6 +17,10 @@
 - Email and telephone links use their normal handlers.
 - Do not add a global `base target="_blank"`.
 
+## Home gallery
+
+- "Home gallery" is the rotating photo gallery on the home page. Each slide is an entry in `src/data/home-gallery.ts`; the component is `src/components/HomeGallery.astro`. Upload new photos to Cloudinary first, then add an entry. When adding photos, suggest other good candidates too.
+
 ## Review and publishing
 
 - Work directly on `main`, keep files organized, and commit/push requested work there. Nim authorized this workflow on October 24, 2026. Do not create a review branch or require a PR unless Nim asks.
