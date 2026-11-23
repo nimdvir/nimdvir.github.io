@@ -44,6 +44,8 @@ Since the start of his career Duchovny has zigzagged between two fields: science
 
 In life, too, he wanders in and out of the world of appetites. Although he's married to the actress Téa Leoni, with whom he has two children, the tabloids have reported that Duchovny is no small fan of sex, and that in 2008 he checked himself into a sex-addiction facility.
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478114/PersonalSite/Interviews/W125-david-duchovny/original-photo-1.jpg" alt="David Duchovny in a black T-shirt looking into the camera, a red apple in front of him" loading="lazy" width="465" height="348" /><figcaption>Life is a poem. David Duchovny <span class="photo-credit">Publicity photo</span></figcaption></figure>
+
 ## Willing and Able to Shock
 
 On Californication, too, Moody is a thoroughly sexual creature, and the series has its fair share of nudity, sex and profanity. "We're constantly thinking about how to balance the option of shocking the audience against holding back," Duchovny tells Maariv.
@@ -51,6 +53,8 @@ On Californication, too, Moody is a thoroughly sexual creature, and the series h
 "On the one hand, we're willing and able to shock. On the other, too much of it wears an audience out. Sometimes you don't want to shock viewers because it would wreck the story. It's something we weigh all the time as the series goes on. I think what the show keeps coming back to, again and again, is the relationship between Hank and Karen, the great love of his life. That's really the emotional anchor, and from there you can wander off into the more or less 'shocking' bits.
 
 "On top of that, I think one reason we've always managed to slip in wild stuff gracefully is that everyone knows it's a comedy. The actors play the scenes as realistically as they can, but nobody doubts there's a comic side to it. I think Tom Kapinos, the show's creator, has found the right balance, and we, the actors, try to translate it into performance. It's hard, and sometimes you miss, but that's part of the fun too."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478115/PersonalSite/Interviews/W125-david-duchovny/original-photo-2.jpg" alt="David Duchovny and Téa Leoni under an umbrella at an outdoor event" loading="lazy" width="300" height="225" /><figcaption>Took him back. With his wife, Téa Leoni <span class="photo-credit">Photo: EPA</span></figcaption></figure>
 
 **Were there things in the script you refused to do?**
 
@@ -77,6 +81,8 @@ Still, it's hard to ignore the resemblance between Duchovny and Moody, whether i
 **You're considered a good father, by Hollywood standards. You've said more than once that quality time with your kids matters to you.**
 
 "Raising kids isn't simple. There's no user manual. What I said before about Hank's truthfulness also goes for the way he raises his daughter. They have this kind of blunt relationship, in terms of what they have and haven't hidden from each other. As a parent I know you can't judge Hank for his behavior. I think he's just groping in the dark like the rest of us. Parents mostly do the best they can, and so does Hank. I think the lovely thing is that he clearly cares."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478116/PersonalSite/Interviews/W125-david-duchovny/original-photo-3.jpg" alt="David Duchovny in sunglasses in a convertible, a woman&#x27;s legs in red high heels draped over the car" loading="lazy" width="465" height="348" /><figcaption>Something in the big picture isn&#x27;t working. David Duchovny <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 ## The Ex-Files
 

@@ -22,10 +22,17 @@ tags:
 - Interview
 - Television
 - Comedy
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795478134/PersonalSite/Interviews/W185-mike-henry/original-photo-2.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478134/PersonalSite/Interviews/W185-mike-henry/original-photo-2.jpg
+imageAlt: Cleveland Brown and his family from The Cleveland Show waving in front of their house
+imageCaption: A sweet show. The Cleveland Show
+imageCredit: Publicity photo
 draft: false
 ---
 
 "It's very cool to be interviewed for an Israeli paper," says Mike Henry, 47, the actor and voice artist behind Cleveland Brown, star of the hit animated series The Cleveland Show (Saturdays at 6:50 p.m. on Israel's Yes Comedy channel). "The Cleveland Show is written mostly by Jews, so this is very exciting."
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478132/PersonalSite/Interviews/W185-mike-henry/original-photo-1.jpg" alt="Mike Henry speaking at a Comic-Con panel, thumb raised" loading="lazy" width="300" height="225" /><figcaption>I&#x27;m not a racist person. Mike Henry <span class="photo-credit">Publicity photo</span></figcaption></figure>
 
 The show, now in its third season in the United States (and its second in Israel), is a spin-off of the hit Family Guy. It follows Cleveland Brown, an African American starting a new life with his son and a new partner. "When the decision came down to make a Family Guy spin-off, I told myself it was about time. I was thrilled," Henry says. "Early on it was clear to me that Cleveland had a lot more to offer than what you saw on Family Guy. To my mind he was the perfect pick for a spin-off. We didn't want to make another Family Guy. We wanted something that would feel different."
 

@@ -411,7 +411,36 @@
     "credit": "Photographer not identified (from the author's archive)",
     "width": 1024,
     "height": 757,
-    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22"
+    "origin": "Cloudinary PersonalSite/Interviews (Nim's archive), placed 2026-11-22",
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478114/PersonalSite/Interviews/W125-david-duchovny/original-photo-1.jpg",
+        "width": 465,
+        "height": 348,
+        "alt": "David Duchovny in a black T-shirt looking into the camera, a red apple in front of him",
+        "caption": "Life is a poem. David Duchovny",
+        "credit": "Publicity photo",
+        "checklistRow": "137"
+      },
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478115/PersonalSite/Interviews/W125-david-duchovny/original-photo-2.jpg",
+        "width": 300,
+        "height": 225,
+        "alt": "David Duchovny and Téa Leoni under an umbrella at an outdoor event",
+        "caption": "Took him back. With his wife, Téa Leoni",
+        "credit": "Photo: EPA",
+        "checklistRow": "138"
+      },
+      "2": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478116/PersonalSite/Interviews/W125-david-duchovny/original-photo-3.jpg",
+        "width": 465,
+        "height": 348,
+        "alt": "David Duchovny in sunglasses in a convertible, a woman's legs in red high heels draped over the car",
+        "caption": "Something in the big picture isn't working. David Duchovny",
+        "credit": "Publicity photo",
+        "checklistRow": "139"
+      }
+    }
   },
   "W158": {
     "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357341/PersonalSite/Interviews/W158-homeland-set-visit/lead-photo.jpg",
@@ -1163,9 +1192,18 @@
           "alt": "The Israeli Sex and the City 2 poster, with a highlighted quote from this review above Kristin Davis and Sarah Jessica Parker: \"Does the job wonderfully,\" Nimrod Dvir and Dana Darvinsky, NRG",
           "caption": "Our line on the Israeli poster: \"Does the job wonderfully.\""
         }
-      ]
+      ],
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478114/PersonalSite/Interviews/W106-sex-and-the-city-2/original-photo-2.jpg",
+        "width": 300,
+        "height": 200,
+        "alt": "The four Sex and the City stars lounging on cushions in a desert tent, glasses raised",
+        "caption": "Cheers, ladies! \"Sex and the City 2\"",
+        "credit": "Publicity photo",
+        "checklistRow": "111"
+      }
     },
-    "note": "Wayback recovery of the original article photos (checklist rows 111-114) still pending."
+    "note": "Rows 112-114 have no Wayback Machine copy (checked 2026-11-23)."
   },
   "W213": {
     "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795474490/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-1-crop.png",
@@ -1176,5 +1214,89 @@
     "width": 315,
     "height": 473,
     "origin": "Opening page of the print feature, from Nim's files, placed 2026-11-23. A higher-resolution scan of the same page is print-page-1-hq."
+  },
+  "W182": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478125/PersonalSite/Interviews/W182-emma-watson/original-photo-2.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478125/PersonalSite/Interviews/W182-emma-watson/original-photo-2.jpg",
+    "alt": "Emma Watson in black and white, with short hair and a dark buttoned dress, tilting her head",
+    "caption": "A fit for the Burberry concept. Watson",
+    "credit": "Photo: Tom Munro",
+    "width": 465,
+    "height": 608,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 248.",
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478124/PersonalSite/Interviews/W182-emma-watson/original-photo-1.jpg",
+        "width": 300,
+        "height": 388,
+        "alt": "Emma Watson in profile under a brown hat, hand at her mouth, in warm sepia tones",
+        "caption": "Emma Watson",
+        "credit": "Photo: Tom Munro",
+        "checklistRow": "247"
+      },
+      "3": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478126/PersonalSite/Interviews/W182-emma-watson/original-photo-3.jpg",
+        "width": 465,
+        "height": 299,
+        "alt": "A black and white close-up of Emma Watson with short hair, her hand on a hat",
+        "caption": "\"I needed that change.\" Watson on the short haircut",
+        "credit": "Photo: Tom Munro",
+        "checklistRow": "249"
+      },
+      "4": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478129/PersonalSite/Interviews/W182-emma-watson/original-photo-4.jpg",
+        "width": 300,
+        "height": 425,
+        "alt": "Emma Watson on the cover of Vogue, July 2011, under the line Life after Harry Potter",
+        "caption": "Emma Watson on the cover of Vogue, July 2011",
+        "credit": "Cover photo",
+        "checklistRow": "250"
+      }
+    }
+  },
+  "W185": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478134/PersonalSite/Interviews/W185-mike-henry/original-photo-2.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478134/PersonalSite/Interviews/W185-mike-henry/original-photo-2.jpg",
+    "alt": "Cleveland Brown and his family from The Cleveland Show waving in front of their house",
+    "caption": "A sweet show. The Cleveland Show",
+    "credit": "Publicity photo",
+    "width": 465,
+    "height": 307,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 256.",
+    "photos": {
+      "0": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478132/PersonalSite/Interviews/W185-mike-henry/original-photo-1.jpg",
+        "width": 300,
+        "height": 225,
+        "alt": "Mike Henry speaking at a Comic-Con panel, thumb raised",
+        "caption": "I'm not a racist person. Mike Henry",
+        "credit": "Publicity photo",
+        "checklistRow": "255"
+      }
+    }
+  },
+  "W195": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478143/PersonalSite/Interviews/W195-emma-stone/original-photo-1.jpg",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478143/PersonalSite/Interviews/W195-emma-stone/original-photo-1.jpg",
+    "alt": "A close-up portrait of Emma Stone with long auburn hair, smiling",
+    "caption": "Everyone is talking about her style. Emma Stone",
+    "credit": "Photo: AP",
+    "width": 465,
+    "height": 348,
+    "origin": "Original article photo, recovered 2026-11-23 from the Wayback Machine copy of the publisher image",
+    "note": "The photo that ran with the original article, checklist row 277.",
+    "photos": {
+      "1": {
+        "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795478144/PersonalSite/Interviews/W195-emma-stone/original-photo-2.jpg",
+        "width": 465,
+        "height": 640,
+        "alt": "Emma Stone on the cover of Vanity Fair in a red and white striped bikini, under the line The red-hot summer of Emma Stone",
+        "caption": "The right girl. Emma Stone on the cover of Vanity Fair",
+        "credit": "Scan",
+        "checklistRow": "278"
+      }
+    }
   }
 }

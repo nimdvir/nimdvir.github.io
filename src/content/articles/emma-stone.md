@@ -20,6 +20,11 @@ tags:
 - Film
 - Hollywood
 - Fashion
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795478143/PersonalSite/Interviews/W195-emma-stone/original-photo-1.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478143/PersonalSite/Interviews/W195-emma-stone/original-photo-1.jpg
+imageAlt: A close-up portrait of Emma Stone with long auburn hair, smiling
+imageCaption: Everyone is talking about her style. Emma Stone
+imageCredit: 'Photo: AP'
 draft: false
 ---
 
@@ -48,6 +53,8 @@ The road to fame passed, of course, through reality TV. In 2004 Stone took part 
 Later she guest-starred on shows like "Medium" and "Malcolm in the Middle," until in 2007 she got a regular role in the Fox series "DRIVE." That year her mother left her, and Stone moved to live on her own in Los Angeles.
 
 With the television work her appetite was whetted, and Stone began steering herself toward feature films. Her string of fairly dumb films, which opened, as noted, with "Superbad," helped brand her as a fairly successful teen-movie actress. The role in "Zombieland" already drew worldwide attention to her, which helped bring her career to where it is now.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478144/PersonalSite/Interviews/W195-emma-stone/original-photo-2.jpg" alt="Emma Stone on the cover of Vanity Fair in a red and white striped bikini, under the line The red-hot summer of Emma Stone" loading="lazy" width="465" height="640" /><figcaption>The right girl. Emma Stone on the cover of Vanity Fair <span class="photo-credit">Scan</span></figcaption></figure>
 
 ## Funny or bitchy?
 

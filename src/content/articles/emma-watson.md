@@ -23,8 +23,15 @@ tags:
 - Film
 - Fashion
 - United Kingdom
+image: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,h_1200,c_limit/v1795478125/PersonalSite/Interviews/W182-emma-watson/original-photo-2.jpg
+thumb: https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795478125/PersonalSite/Interviews/W182-emma-watson/original-photo-2.jpg
+imageAlt: Emma Watson in black and white, with short hair and a dark buttoned dress, tilting her head
+imageCaption: A fit for the Burberry concept. Watson
+imageCredit: 'Photo: Tom Munro'
 draft: false
 ---
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478124/PersonalSite/Interviews/W182-emma-watson/original-photo-1.jpg" alt="Emma Watson in profile under a brown hat, hand at her mouth, in warm sepia tones" loading="lazy" width="300" height="388" /><figcaption>Emma Watson <span class="photo-credit">Photo: Tom Munro</span></figcaption></figure>
 
 In the ten years since the first film in the Harry Potter saga, Emma Watson has gone from Hermione Granger, the annoying girl from the Hogwarts school of witchcraft, the nerd who stops time so she can make it to every class, to a fashion icon who picks the right trend at the right moment. The eighth film, which wraps up the series, opens soon, and Watson will be free of that chapter of her career for good. In the meantime she has already signed a Lancôme campaign and shot two films meant to wipe out any memory of Hermione.
 
@@ -46,9 +53,13 @@ Meanwhile Watson started standing out on red carpets too, and over the past two 
 
 "I really enjoyed the experience. There are parts of the fashion industry that can be cruel to the environment and to the people who work in it. It's good to get people thinking about what they buy, but I don't think it's something I'll do in the future."
 
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478126/PersonalSite/Interviews/W182-emma-watson/original-photo-3.jpg" alt="A black and white close-up of Emma Watson with short hair, her hand on a hat" loading="lazy" width="465" height="299" /><figcaption>&quot;I needed that change.&quot; Watson on the short haircut <span class="photo-credit">Photo: Tom Munro</span></figcaption></figure>
+
 ## A Very Loyal Person
 
 A few months ago Watson surprised her fans and chopped off her locks. "I played Hermione for ten years, so I needed that change. And I've always loved short hair," she explains. The Twiggy look she adopted turned out to be a smart decision: over the past year other fashionable stars, Michelle Williams and Carey Mulligan among them, have decided to shear their hair too. In return, every one of them landed covers at the serious fashion magazines.
+
+<figure class="article-photo article-photo-small"><img src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795478129/PersonalSite/Interviews/W182-emma-watson/original-photo-4.jpg" alt="Emma Watson on the cover of Vogue, July 2011, under the line Life after Harry Potter" loading="lazy" width="300" height="425" /><figcaption>Emma Watson on the cover of Vogue, July 2011 <span class="photo-credit">Cover photo</span></figcaption></figure>
 
 The campaign for Trésor Midnight Rose, the perfume, which reaches Israel sometime in 2012, was shot by Mario Testino, who also took Kate Middleton and Prince William's engagement portrait and will, by all accounts, shoot Kate Moss's wedding. He has already photographed Watson for the cover of British Vogue, and now for the July issue of the American one.
 
