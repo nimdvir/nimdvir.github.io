@@ -473,6 +473,14 @@
     "photos": {
       "end": [
         {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795474491/PersonalSite/Interviews/W007-smash-interview/photo-nbc-poster.jpg",
+          "width": 611,
+          "height": 343,
+          "credit": "NBC",
+          "alt": "NBC poster for Smash: the cast posed in front of giant marquee letters spelling SMASH, with Anjelica Huston at the far right",
+          "caption": "NBC's poster for Smash. Anjelica Huston, far right, appears unconvinced."
+        },
+        {
           "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1770357456/PersonalSite/Interviews/W007-smash-interview/photo-by-nim-dvir-1-set.jpg",
           "width": 960,
           "height": 960,
@@ -1143,5 +1151,30 @@
         "checklistRow": "254"
       }
     }
+  },
+  "W106": {
+    "photos": {
+      "end": [
+        {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795474492/PersonalSite/Interviews/W106-sex-and-the-city-2/photo-by-nim-dvir-israeli-poster.jpg",
+          "width": 480,
+          "height": 640,
+          "credit": "Photo from the author's archive",
+          "alt": "The Israeli Sex and the City 2 poster, with a highlighted quote from this review above Kristin Davis and Sarah Jessica Parker: \"Does the job wonderfully,\" Nimrod Dvir and Dana Darvinsky, NRG",
+          "caption": "Our line on the Israeli poster: \"Does the job wonderfully.\""
+        }
+      ]
+    },
+    "note": "Wayback recovery of the original article photos (checklist rows 111-114) still pending."
+  },
+  "W213": {
+    "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795474490/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-1-crop.png",
+    "thumb": "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_640,h_400,c_fill,g_auto/v1795474490/PersonalSite/Interviews/W213-anjelica-huston-laisha/print-page-1-crop.png",
+    "alt": "The opening page of the feature in La'Isha: Anjelica Huston in a black jacket under the Hebrew headline \"Houston, do you copy?\"",
+    "caption": "The opening page in La'Isha, May 20, 2013.",
+    "credit": "La'Isha",
+    "width": 315,
+    "height": 473,
+    "origin": "Opening page of the print feature, from Nim's files, placed 2026-11-23. A higher-resolution scan of the same page is print-page-1-hq."
   }
 }
