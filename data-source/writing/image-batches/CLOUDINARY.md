@@ -34,6 +34,11 @@ The article page builder reads these URLs from `data-source/writing/article-imag
   has been loaded in the same cookie session (plain requests get 403).
 - Each image, used or not, has a row in `migration/image-inventory.csv`.
 
+## Blog images
+
+- Folder: `PersonalSite/Blog`. Public ID: `PersonalSite/Blog/<post-date>-<slug>/<role>`, for example
+  `PersonalSite/Blog/2023-05-23-commencement/ualbany-commencement-post`. Tags: `website`, `blog`, and a topic.
+
 ## Do not move website images between folders
 
 Something in this Cloudinary account renames an asset to `Rename/<ai_description>` a few minutes after the asset is
