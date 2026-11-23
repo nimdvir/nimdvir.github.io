@@ -50,3 +50,6 @@ images/articles/
 # Plans and reports live on Drive only (agent-hub rule); skills stay tracked
 .agents/plans/
 .agents/reports/
+
+# temporary agent worktrees
+.claude/worktrees/
