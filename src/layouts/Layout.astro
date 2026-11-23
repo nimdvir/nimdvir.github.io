@@ -117,7 +117,7 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
-    <meta name="theme-color" content="#0b5fb0" />
+    <meta name="theme-color" content="#141c33" />
     <script is:inline src={asset("/js/theme-init.js")}></script>
     <link rel="stylesheet" href={asset("/styles/site.css")} />
     <meta name="author" content="Nim Dvir" />
@@ -188,6 +188,42 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      // Dark masthead (light theme): a band from the top of the page to the
+      // bottom of the page intro. The nav turns light once you scroll past it.
+      (() => {
+        const root = document.documentElement;
+        const header = document.querySelector(".site-header");
+        const main = document.querySelector("main");
+        const intro = document.querySelector(
+          "main > .home-top:first-child, main > .page-intro:first-child",
+        );
+        if (!header || !main) return;
+        let bottom = 0;
+        const past = () =>
+          root.classList.toggle(
+            "past-masthead",
+            scrollY > Math.max(1, bottom - header.offsetHeight - 8),
+          );
+        const place = () => {
+          const gap = intro ? parseFloat(getComputedStyle(intro).marginBottom) || 0 : 0;
+          bottom = intro
+            ? intro.getBoundingClientRect().bottom + scrollY + gap
+            : header.offsetHeight;
+          root.style.setProperty("--masthead-h", `${bottom}px`);
+          root.style.setProperty(
+            "--main-top",
+            `${main.getBoundingClientRect().top + scrollY}px`,
+          );
+          past();
+        };
+        place();
+        root.classList.add("has-masthead");
+        addEventListener("scroll", past, { passive: true });
+        addEventListener("load", place);
+        new ResizeObserver(place).observe(document.body);
+      })();
+    </script>
     <script src={asset("/js/site.js")} is:inline defer></script>
     <script src={asset("/js/particles.js")} is:inline defer></script>
     <script src={asset("/js/particles-bg.js")} is:inline defer></script>

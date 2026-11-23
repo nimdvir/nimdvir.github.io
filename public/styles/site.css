@@ -1,55 +1,58 @@
 /* Shared by every Astro route and the public /design/ reference. */
 :root {
   color-scheme: light;
-  --bg: #fbfcff;
+  --bg: #ffffff;
   --surface: #fff;
-  --soft: #eef3fa;
+  --soft: #f2f5f9;
   --text: #16202b;
   --muted: #4d5966;
   --link: #0b5fb0;
   --violet: #6d3bd1;
   --teal: #086e60;
-  --border: #cbd3dc;
-  --nav: rgba(251, 252, 255, 0.94);
+  --border: #d6dde5;
+  --nav: rgba(255, 255, 255, 0.92);
   --focus: #9b4c00;
-  --shadow: 0 16px 48px -28px #20385266;
+  --shadow: 0 16px 48px -28px #2038524d;
   --glow: rgba(109, 59, 209, 0.09);
+  --particle: #7d98e2;
   --radius: 20px;
   --mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
   --measure: 1180px;
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #0f1318;
-  --surface: #151b23;
-  --soft: #1c2531;
+  --bg: #171c25;
+  --surface: #1f2631;
+  --soft: #27303d;
   --text: #e8edf2;
   --muted: #aab5c0;
   --link: #8cc0ff;
   --violet: #c6a3ff;
   --teal: #6fe3c8;
-  --border: #344253;
-  --nav: rgba(15, 19, 24, 0.94);
+  --border: #3b4759;
+  --nav: rgba(23, 28, 37, 0.92);
   --focus: #ffb35c;
   --shadow: 0 16px 48px -28px #000;
   --glow: rgba(140, 192, 255, 0.07);
+  --particle: #8cc0ff;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --bg: #0f1318;
-    --surface: #151b23;
-    --soft: #1c2531;
+    --bg: #171c25;
+    --surface: #1f2631;
+    --soft: #27303d;
     --text: #e8edf2;
     --muted: #aab5c0;
     --link: #8cc0ff;
     --violet: #c6a3ff;
     --teal: #6fe3c8;
-    --border: #344253;
-    --nav: rgba(15, 19, 24, 0.94);
+    --border: #3b4759;
+    --nav: rgba(23, 28, 37, 0.92);
     --focus: #ffb35c;
     --shadow: 0 16px 48px -28px #000;
     --glow: rgba(140, 192, 255, 0.07);
+    --particle: #8cc0ff;
   }
 }
 *,
@@ -206,6 +209,67 @@ main {
     inset-inline: 0;
     --edge: linear-gradient(#000, #000);
   }
+}
+
+/* Dark masthead on the light theme. The inline script in Layout.astro sets
+   --masthead-h (top of the page to the bottom of the page intro) and adds
+   .past-masthead once the nav has scrolled below it. */
+:root.has-masthead[data-theme="light"] body {
+  position: relative;
+}
+:root.has-masthead[data-theme="light"] body::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--masthead-h, 0px);
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 440px at 88% -8%, rgb(132 98 255 / 0.34), transparent 70%),
+    radial-gradient(760px 420px at 4% 108%, rgb(38 122 255 / 0.24), transparent 70%),
+    linear-gradient(168deg, #141c33 0%, #19223f 55%, #231e4a 100%);
+}
+:root.has-masthead[data-theme="light"]
+  :where(.site-header, main > .home-top:first-child, main > .page-intro:first-child) {
+  --bg: #141c33;
+  --surface: rgb(255 255 255 / 0.07);
+  --soft: rgb(255 255 255 / 0.1);
+  --text: #f3f6fc;
+  --muted: #bdc7da;
+  --link: #a9c9ff;
+  --violet: #cfb8ff;
+  --teal: #86e8d2;
+  --border: rgb(255 255 255 / 0.16);
+  --nav: rgb(20 28 51 / 0.55);
+  --focus: #ffc078;
+  --shadow: 0 22px 54px -30px rgb(0 0 0 / 0.8);
+  --glow: rgb(170 150 255 / 0.2);
+  color: var(--text);
+}
+:root.has-masthead[data-theme="light"].past-masthead .site-header {
+  --bg: #ffffff;
+  --surface: #fff;
+  --soft: #f2f5f9;
+  --text: #16202b;
+  --muted: #4d5966;
+  --link: #0b5fb0;
+  --violet: #6d3bd1;
+  --teal: #086e60;
+  --border: #d6dde5;
+  --nav: rgba(255, 255, 255, 0.92);
+  --focus: #9b4c00;
+  --shadow: 0 16px 48px -28px #2038524d;
+  --glow: rgba(109, 59, 209, 0.09);
+}
+:root.has-masthead[data-theme="light"] .site-header {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+/* The column's white veil starts exactly where the band ends. */
+:root.has-masthead[data-theme="light"] [data-particles] main::before {
+  top: calc(var(--masthead-h, 0px) - var(--main-top, 0px));
+  --fade: linear-gradient(#000, #000);
 }
 main:focus {
   outline: none;

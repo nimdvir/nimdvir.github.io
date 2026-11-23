@@ -4,7 +4,7 @@
   const picker = document.querySelector(".theme-picker");
   const themeButton = picker?.querySelector(".theme-toggle");
   const options = picker?.querySelector(".theme-options");
-  let mode = root.dataset.themePreference || "system";
+  let mode = root.dataset.themePreference || "light";
   function applyTheme() {
     const dark = mode === "dark" || (mode === "system" && preference.matches);
     root.dataset.theme = dark ? "dark" : "light";
@@ -61,9 +61,9 @@
   });
   window.addEventListener("storage", (event) => {
     if (event.key !== "nimdvir-theme" && event.key !== null) return;
-    mode = ["light", "dark"].includes(event.newValue)
+    mode = ["light", "dark", "system"].includes(event.newValue)
       ? event.newValue
-      : "system";
+      : "light";
     applyTheme();
   });
   // Keep personal-site navigation in this tab. CCE is a separate website

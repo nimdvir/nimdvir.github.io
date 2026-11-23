@@ -25,7 +25,8 @@
   new ResizeObserver(placeVeil).observe(main);
 
   const themeColor = () =>
-    getComputedStyle(root).getPropertyValue("--link").trim() || "#0b5fb0";
+    (getComputedStyle(root).getPropertyValue("--particle").trim() ||
+    getComputedStyle(root).getPropertyValue("--link").trim() || "#0b5fb0");
   const color = themeColor();
   const look = full
     ? { number: 80, area: 900, opacity: 0.6, line: 0.4, size: 3, speed: 1.5 }
