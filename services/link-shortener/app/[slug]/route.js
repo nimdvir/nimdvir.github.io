@@ -21,7 +21,7 @@ export async function GET(request, context) {
   let links;
   try {
     links = await dbFetch(
-      "/rest/v1/short_links?slug=eq." + encodeURIComponent(slug) + "&is_active=eq.true&select=id,destination_url&limit=1"
+      "/rest/v1/short_links?slug=eq." + encodeURIComponent(slug) + "&is_active=eq.true&select=id,destination_url,link_type&limit=1"
     );
   } catch {
     return new Response("Short-link service unavailable.", { status: 503 });
@@ -51,6 +51,19 @@ export async function GET(request, context) {
     });
   } catch {
     // A logging failure should never stop the redirect.
+  }
+
+  // Path links: a browser can't open a local file from a web link, so show just the path.
+  if (link.link_type === "path") {
+    return new Response(link.destination_url, {
+      status: 200,
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "no-store, max-age=0",
+        "X-Robots-Tag": "noindex",
+        "X-Content-Type-Options": "nosniff",
+      },
+    });
   }
 
   try {

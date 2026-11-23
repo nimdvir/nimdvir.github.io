@@ -30,14 +30,14 @@ h2 { font-size: 1.15rem; }
 .stats { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 22px 0; }
 .stat strong { display: block; font-size: 1.8rem; margin-top: 8px; }
 form { display: grid; gap: 12px; }
-.form-grid { grid-template-columns: 1fr 2fr 1.4fr auto; align-items: end; }
+.form-grid { grid-template-columns: auto 1fr 2fr 1.4fr auto; align-items: end; }
 label { display: grid; gap: 7px; color: #c7cedb; font-size: .9rem; }
-input, button {
+input, select, button {
   font: inherit;
   border-radius: 10px;
   border: 1px solid #353c4d;
 }
-input {
+input, select {
   width: 100%;
   padding: 11px 12px;
   background: #11151d;

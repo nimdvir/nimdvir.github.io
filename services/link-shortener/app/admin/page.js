@@ -6,7 +6,8 @@ export default function AdminPage() {
   const [secret, setSecret] = useState("");
   const [unlocked, setUnlocked] = useState(false);
   const [data, setData] = useState(null);
-  const [form, setForm] = useState({ slug: "", destination_url: "", title: "" });
+  const emptyForm = { slug: "", destination_url: "", title: "", link_type: "url" };
+  const [form, setForm] = useState(emptyForm);
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -62,7 +63,7 @@ export default function AdminPage() {
     setMessage("");
     try {
       await api("POST", { action: "create", ...form });
-      setForm({ slug: "", destination_url: "", title: "" });
+      setForm(emptyForm);
       setMessage("Link created.");
       await load();
     } catch (error) {
@@ -126,8 +127,14 @@ export default function AdminPage() {
       <div className="card" style={{ marginBottom: 18 }}>
         <h2>Create a short link</h2>
         <form className="form-grid" onSubmit={createLink}>
+          <label>Type
+            <select value={form.link_type} onChange={(e) => setForm({ ...form, link_type: e.target.value })}>
+              <option value="url">Web link</option>
+              <option value="path">File path</option>
+            </select>
+          </label>
           <label>Slug<input placeholder="cv" value={form.slug} onChange={(e) => setForm({ ...form, slug: e.target.value })} required /></label>
-          <label>Destination<input type="url" placeholder="https://www.nimdvir.com/cv/" value={form.destination_url} onChange={(e) => setForm({ ...form, destination_url: e.target.value })} required /></label>
+          <label>Destination<input type={form.link_type === "path" ? "text" : "url"} placeholder={form.link_type === "path" ? "G:\\My Drive\\notes.md" : "https://www.nimdvir.com/cv/"} value={form.destination_url} onChange={(e) => setForm({ ...form, destination_url: e.target.value })} required /></label>
           <label>Title<input placeholder="CV" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} /></label>
           <button disabled={busy}>Create</button>
         </form>
@@ -143,7 +150,9 @@ export default function AdminPage() {
               {(data?.links || []).map((link) => (
                 <tr key={link.id}>
                   <td><span className="code">/{link.slug}</span>{link.title ? <><br/><span className="muted">{link.title}</span></> : null}</td>
-                  <td><a href={link.destination_url} target="_blank" rel="noreferrer">{link.destination_url}</a></td>
+                  <td>{link.link_type === "path"
+                    ? <span className="code">{link.destination_url}</span>
+                    : <a href={link.destination_url} target="_blank" rel="noreferrer">{link.destination_url}</a>}</td>
                   <td>{link.click_count || 0}</td>
                   <td><span className="pill">{link.is_active ? "Active" : "Paused"}</span></td>
                   <td>

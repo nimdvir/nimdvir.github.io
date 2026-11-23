@@ -21,9 +21,17 @@ function validateUrl(value) {
   return url.toString();
 }
 
+// A local Windows path such as G:\My Drive\notes.md (surrounding quotes are dropped).
+function validatePath(value) {
+  const path = String(value || "").trim().replace(/^"(.*)"$/, "$1").trim();
+  if (!/^[A-Za-z]:[\\/]/.test(path)) throw new Error("Path must start with a drive letter, like G:\\.");
+  if (path.length > 1000 || /[\u0000-\u001f]/.test(path)) throw new Error("That path is too long or has control characters.");
+  return path;
+}
+
 async function getDashboard(secret) {
   const links = await dbFetch(
-    "/rest/v1/short_links?select=id,slug,destination_url,title,is_active,click_count,last_clicked_at,created_at&order=created_at.desc",
+    "/rest/v1/short_links?select=id,slug,destination_url,link_type,title,is_active,click_count,last_clicked_at,created_at&order=created_at.desc",
     { adminSecret: secret }
   );
   const recentClicks = await dbFetch(
@@ -67,14 +75,15 @@ export async function POST(request) {
 
     if (action === "create") {
       const slug = validateSlug(body.slug);
-      const destination_url = validateUrl(body.destination_url);
+      const link_type = body.link_type === "path" ? "path" : "url";
+      const destination_url = link_type === "path" ? validatePath(body.destination_url) : validateUrl(body.destination_url);
       const title = String(body.title || "").trim().slice(0, 160) || null;
 
       const created = await dbFetch("/rest/v1/short_links", {
         method: "POST",
         adminSecret: secret,
         headers: { Prefer: "return=representation" },
-        body: { slug, destination_url, title },
+        body: { slug, destination_url, link_type, title },
       });
       return NextResponse.json({ ok: true, link: created?.[0] || null });
     }
