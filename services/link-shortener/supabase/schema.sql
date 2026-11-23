@@ -55,7 +55,7 @@ using (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 );
 
 drop policy if exists "short links admin insert" on public.short_links;
@@ -68,7 +68,7 @@ with check (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 );
 
 drop policy if exists "short links admin update" on public.short_links;
@@ -81,7 +81,7 @@ using (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 )
 with check (
   encode(
@@ -90,7 +90,7 @@ with check (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 );
 
 drop policy if exists "short links admin delete" on public.short_links;
@@ -103,7 +103,7 @@ using (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 );
 
 drop policy if exists "short link clicks public insert" on public.short_link_clicks;
@@ -128,7 +128,7 @@ using (
       'sha256'
     ),
     'hex'
-  ) = '30143d1ccbee4bf1b551667cb6c4c5b5ab1c11e7b59fc95dc1a27b432fdc51b4'
+  ) = 'cf198e7a8ee13f90d1866f7c0c2c38e552a61d275ed4f2895e7c8a0020bd9b8a'
 );
 
 create schema if not exists shortener_private;
