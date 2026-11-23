@@ -14,4 +14,4 @@ The site uses [Astro](https://astro.build/) and is hosted on [GitHub Pages](http
 
 The AI also wrote some of the copy. That explains why I’ve spent part of this rebuild deleting sentences I would never say out loud. “Technology works better with people first” was one of them. I’d rather tell you what I’m working on.
 
-I’ve added a blog and a news section, so there’s somewhere to put updates without rebuilding the homepage each time. I’ll write about projects, teaching, and things I try along the way.
+I’ve added a blog, so there’s somewhere to put updates without rebuilding the homepage each time. I’ll write about projects, teaching, and things I try along the way.
