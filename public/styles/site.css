@@ -1140,6 +1140,94 @@ main:focus {
   font-size: 0.8rem;
   padding-top: 10px;
 }
+/* A few prints scattered on the page: tilted, deep shadow, slow drift. */
+.photo-scatter {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 3vw, 34px);
+  align-items: start;
+  margin: 44px 0 52px;
+  padding: 0 6px 18px;
+}
+.photo-scatter figure {
+  --tilt: -2.5deg;
+  margin: 0;
+  padding: 10px 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow:
+    0 2px 4px rgb(0 0 0 / 0.12),
+    0 22px 44px -12px rgb(0 0 0 / 0.42),
+    0 46px 90px -30px rgb(0 0 0 / 0.38);
+  rotate: var(--tilt);
+  transition: rotate 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), scale 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.5s ease;
+  animation: photo-drift 6s ease-in-out infinite alternate;
+}
+.photo-scatter figure:nth-child(2) {
+  --tilt: 2deg;
+  margin-top: 30px;
+  animation-delay: -2s;
+}
+.photo-scatter figure:nth-child(3) {
+  --tilt: -1.2deg;
+  animation-delay: -4s;
+}
+.photo-scatter figure:hover,
+.photo-scatter figure:focus-within {
+  position: relative;
+  z-index: 1;
+  rotate: 0deg;
+  scale: 1.04;
+  box-shadow:
+    0 4px 8px rgb(0 0 0 / 0.14),
+    0 34px 60px -14px rgb(0 0 0 / 0.5),
+    0 70px 120px -36px rgb(0 0 0 / 0.45);
+  animation-play-state: paused;
+}
+.photo-scatter a {
+  display: block;
+}
+.photo-scatter img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 3px;
+}
+.photo-scatter figcaption {
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  padding-top: 10px;
+  text-align: center;
+}
+@keyframes photo-drift {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -7px;
+  }
+}
+@media (max-width: 640px) {
+  .photo-scatter {
+    grid-template-columns: minmax(0, 300px);
+    justify-content: center;
+    gap: 30px;
+  }
+  .photo-scatter figure:nth-child(2) {
+    margin-top: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .photo-scatter figure {
+    animation: none;
+    transition: none;
+  }
+}
 .more-posts {
   margin-top: 48px;
   padding-top: 28px;
