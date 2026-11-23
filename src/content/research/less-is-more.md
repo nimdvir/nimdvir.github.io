@@ -6,7 +6,8 @@ category: 'Computers and Society'
 status: "Published study"
 tags: ['Content Strategy', 'Consumer Behavior', 'Experimentation']
 summary: "Two online experiments compared how people responded to landing pages with different amounts of information."
-image: '/images/home-research.png'
+image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465092/PersonalSite/Portfolio/research/less-is-more/cover.jpg'
+imageAlt: 'Illustration of a person at a computer surrounded by charts and devices'
 featured: true
 sortOrder: 2
 researchAreas: ['Landing pages', 'Conversion behavior', 'Content strategy']
@@ -20,6 +21,8 @@ Does the amount of text on a landing page affect whether a visitor shares an ema
 ## Methods
 
 Two experiments in commercial settings compared landing pages with shorter and longer content. The study measured visitors’ willingness to provide an email address.
+
+[![A long and a short version of a landing page side by side](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465093/PersonalSite/Portfolio/research/less-is-more/landing-pages.jpg)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465093/PersonalSite/Portfolio/research/less-is-more/landing-pages.jpg)
 
 ## Findings
 

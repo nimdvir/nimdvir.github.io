@@ -6,7 +6,8 @@ category: 'Information Behavior'
 status: "Published framework"
 tags: ['Information Behavior', 'User Engagement', 'HCI']
 summary: "A framework for studying how people encounter, interpret, and respond to information."
-image: '/images/about/ualbany-campus-east.webp'
+image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465094/PersonalSite/Portfolio/research/information-engagement/cover.jpg'
+imageAlt: 'Illustration of a phone with a feed of people and reactions'
 featured: true
 sortOrder: 3
 researchAreas: ['Information behavior', 'User engagement', 'Digital content']

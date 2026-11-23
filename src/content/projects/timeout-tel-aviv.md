@@ -6,7 +6,7 @@ role: "Editorial and digital content"
 tags: ["Content Strategy"]
 sortOrder: 9
 featured: false
-image: "/images/timeout.jpg"
+image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465076/PersonalSite/Portfolio/projects/timeout-tel-aviv/cover.png"
 ---
 
 ## Project archive
@@ -15,7 +15,7 @@ These materials cover website structure and content organization for Time Out Te
 
 ## Project visuals
 
-[![Time Out Tel Aviv site structure and content categories](/images/projects/timeout-02.webp)](/images/projects/timeout-02.webp)
+[![Time Out Tel Aviv site structure and content categories](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465077/PersonalSite/Portfolio/projects/timeout-tel-aviv/screen-01.png)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465077/PersonalSite/Portfolio/projects/timeout-tel-aviv/screen-01.png)
 
 ## Original project materials
 

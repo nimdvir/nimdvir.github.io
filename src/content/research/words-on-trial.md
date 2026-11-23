@@ -6,7 +6,7 @@ category: 'Language and behavioral design'
 status: "Research in progress"
 summary: "Research on legal language and participant understanding in mental health treatment courts."
 tags: ['NLP', 'Legal language', 'Behavioral design']
-image: '/images/research/sticky-words-variant-1.webp'
+image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465089/PersonalSite/Portfolio/research/sticky-words/artwork-1.webp'
 sortOrder: 4
 ---
 

@@ -1,5 +1,5 @@
 ---
-image: "/images/projects/prototypes-01.webp"
+image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465080/PersonalSite/Portfolio/projects/prototypes/screen-01.webp"
 title: "E-Commerce Prototypes"
 summary: "Two student e-commerce prototypes from INF 495."
 category: "Product Design"
@@ -24,6 +24,6 @@ The archive contains two Figma prototypes and screenshots of the proposed e-comm
 
 ## Project visuals
 
-[![E-commerce app screens from an INF 495 prototype](/images/projects/prototypes-01.webp)](/images/projects/prototypes-01.webp)
+[![E-commerce app screens from an INF 495 prototype](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465080/PersonalSite/Portfolio/projects/prototypes/screen-01.webp)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465080/PersonalSite/Portfolio/projects/prototypes/screen-01.webp)
 
-[![E-commerce app screens from an INF 495 prototype](/images/projects/prototypes-02.webp)](/images/projects/prototypes-02.webp)
+[![E-commerce app screens from an INF 495 prototype](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465081/PersonalSite/Portfolio/projects/prototypes/screen-02.webp)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465081/PersonalSite/Portfolio/projects/prototypes/screen-02.webp)

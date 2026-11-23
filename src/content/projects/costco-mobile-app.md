@@ -6,7 +6,7 @@ role: "Student research and product-design advising"
 tags: ["UX Research"]
 sortOrder: 1
 featured: true
-image: "/images/costco-mobile.png"
+image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465018/PersonalSite/Portfolio/projects/costco-mobile-app/cover.jpg"
 ---
 
 ## Context and my role
@@ -20,6 +20,14 @@ The team developed a Scan & Go checkout concept and a Treasure Hunt feature with
 ## Proposal
 
 The prototype combines checkout and product-discovery features. It is a student concept; the materials below document the proposed design.
+
+## Project visuals
+
+[![Information architecture for Costco Scan and Go](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465020/PersonalSite/Portfolio/projects/costco-mobile-app/screen-01.jpg)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465020/PersonalSite/Portfolio/projects/costco-mobile-app/screen-01.jpg)
+
+[![Screen mockups for the Costco app concept](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465020/PersonalSite/Portfolio/projects/costco-mobile-app/screen-02.png)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465020/PersonalSite/Portfolio/projects/costco-mobile-app/screen-02.png)
+
+[![Screen flow of the Costco app prototype](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465021/PersonalSite/Portfolio/projects/costco-mobile-app/screen-03.png)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465021/PersonalSite/Portfolio/projects/costco-mobile-app/screen-03.png)
 
 ## Interactive prototypes
 

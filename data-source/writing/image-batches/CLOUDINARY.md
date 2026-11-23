@@ -22,6 +22,18 @@ Last updated November 22, 2026.
 
 The article page builder reads these URLs from `data-source/writing/article-images.json`.
 
+## Portfolio images (projects, research, teaching)
+
+- Folder: `PersonalSite/Portfolio`, uploaded November 23, 2026 from the old Google Site.
+- Public ID: `PersonalSite/Portfolio/<section>/<slug>/<role>`, for example
+  `PersonalSite/Portfolio/projects/golf-buddy/screen-01`. Roles: `cover`, `screen-NN`, and named roles for
+  research and teaching images.
+- Upload with `asset_folder=PersonalSite/Portfolio` and a public ID without that prefix; the account adds it.
+- Tags: `website`, `portfolio`, the section and the slug.
+- Originals: `G:\My Drive\2-work\Portfolio\old-google-site\`. Old Google Sites images only download after the page
+  has been loaded in the same cookie session (plain requests get 403).
+- Each image, used or not, has a row in `migration/image-inventory.csv`.
+
 ## Do not move website images between folders
 
 Something in this Cloudinary account renames an asset to `Rename/<ai_description>` a few minutes after the asset is

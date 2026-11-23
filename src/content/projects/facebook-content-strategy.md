@@ -6,7 +6,7 @@ role: "UX research and concept development"
 tags: ["Content Strategy"]
 sortOrder: 10
 featured: false
-image: "/images/facebook.jpg"
+image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465078/PersonalSite/Portfolio/projects/facebook-content-strategy/cover.png"
 ---
 
 ## Research question
@@ -19,7 +19,11 @@ User interviews, surveys, and data analysis informed a set of content and interf
 
 ## Project visuals
 
-[![Facebook content experience concept mockups](/images/projects/facebook-01.webp)](/images/projects/facebook-01.webp)
+[![Facebook content experience concept mockups](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465078/PersonalSite/Portfolio/projects/facebook-content-strategy/cover.png)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465078/PersonalSite/Portfolio/projects/facebook-content-strategy/cover.png)
+
+[![Tablet mockup of the proposed Create a Page flow](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465079/PersonalSite/Portfolio/projects/facebook-content-strategy/screen-01.png)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465079/PersonalSite/Portfolio/projects/facebook-content-strategy/screen-01.png)
+
+[![Facebook's Create a Page screen at the time of the study](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1400,c_limit/v1795465080/PersonalSite/Portfolio/projects/facebook-content-strategy/screen-02.jpg)](https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto/v1795465080/PersonalSite/Portfolio/projects/facebook-content-strategy/screen-02.jpg)
 
 ## Original project materials
 

@@ -6,7 +6,7 @@ category: 'Digital Trust'
 status: "Under review · September 2026"
 tags: ['Marketing', 'Transparency', 'Decision-Making']
 summary: "A study of disclosure, trust, and consumer responses to online marketing."
-image: '/images/research/sticky-words-variant-2.webp'
+image: 'https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1600,c_limit/v1795465090/PersonalSite/Portfolio/research/sticky-words/artwork-2.webp'
 featured: false
 sortOrder: 5
 researchAreas: ['Consumer trust', 'Disclosure design', 'Digital persuasion']
