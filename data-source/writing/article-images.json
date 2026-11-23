@@ -937,7 +937,19 @@
     "width": 640,
     "height": 360,
     "origin": "Original article photo, recovered 2026-11-22 (original-images-checklist)",
-    "note": "The photo that ran with the original article, checklist row 135."
+    "note": "The photo that ran with the original article, checklist row 135.",
+    "photos": {
+      "end": [
+        {
+          "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795472277/PersonalSite/Interviews/W122-aaron-eckhart-yvonne-strahovski/ynet-video-frame-nim-dvir.jpg",
+          "width": 1350,
+          "height": 714,
+          "credit": "Ynet video",
+          "alt": "Nimrod Dvir asking a question beside an I, Frankenstein poster of Eckhart, with a Ynet caption showing his name",
+          "caption": "Interviewing Aaron Eckhart for Ynet. This frame is from the video that ran with the article."
+        }
+      ]
+    }
   },
   "W163": {
     "image": "https://res.cloudinary.com/dkndq6lyz/image/upload/v1795408709/PersonalSite/Interviews/W163-noa-tishby/lead-original-photo.jpg",
