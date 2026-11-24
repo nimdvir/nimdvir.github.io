@@ -15,8 +15,18 @@ const posts = await getPosts();
 >
   <div class="home-top">
     <section class="home-hero" aria-labelledby="home-title">
+      <h1 id="home-title" class="hero-name">Nim Dvir</h1>
+      <figure class="portrait-wrap">
+        <img
+          class="hero-portrait"
+          src="/images/nim-dvir-cce.jpg"
+          alt="Nim Dvir"
+          width="800"
+          height="800"
+          fetchpriority="high"
+        />
+      </figure>
       <div class="hero-card">
-        <h1 id="home-title">Nim Dvir</h1>
         <p class="home-position">
           Lecturer in Information Systems and Business Analytics
           <br />
@@ -54,16 +64,6 @@ const posts = await getPosts();
             ))}
         </nav>
       </div>
-      <figure class="portrait-wrap">
-        <img
-          class="hero-portrait"
-          src="/images/nim-dvir-cce.jpg"
-          alt="Nim Dvir"
-          width="800"
-          height="800"
-          fetchpriority="high"
-        />
-      </figure>
     </section>
   </div>
   <HomeGallery />
