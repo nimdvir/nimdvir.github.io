@@ -17,6 +17,18 @@ export default function AdminPage() {
   );
 
   useEffect(() => {
+    // The "Short link (name it)" bookmarklet opens /admin?url=...&title=...&slug=... to prefill the form.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("url")) {
+      setForm({
+        ...emptyForm,
+        destination_url: params.get("url"),
+        title: params.get("title") || "",
+        slug: params.get("slug") || "",
+        created_via: "bookmarklet",
+      });
+      window.history.replaceState(null, "", window.location.pathname);
+    }
     const saved = sessionStorage.getItem("shortenerAdminSecret");
     if (saved) {
       setSecret(saved);
@@ -63,9 +75,12 @@ export default function AdminPage() {
     setMessage("");
     try {
       await api("POST", { action: "create", ...form });
+      const shortUrl = window.location.origin + "/" + form.slug.trim().toLowerCase();
+      const copied = await navigator.clipboard.writeText(shortUrl).then(() => true, () => false);
       setForm(emptyForm);
-      setMessage("Link created.");
+      // load() clears the message, so show the result after it.
       await load();
+      setMessage(copied ? "Link created and copied: " + shortUrl : "Link created: " + shortUrl);
     } catch (error) {
       setMessage(error.message);
     } finally {
@@ -92,6 +107,7 @@ export default function AdminPage() {
         <div className="card">
           <h1>Link admin</h1>
           <p className="muted">Enter the private admin passcode.</p>
+          {form.destination_url && <p className="muted">Then you can name the short link for {form.destination_url}.</p>}
           <form onSubmit={(event) => { event.preventDefault(); load(secret); }}>
             <label>
               Admin passcode
