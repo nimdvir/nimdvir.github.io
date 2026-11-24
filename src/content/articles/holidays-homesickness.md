@@ -17,6 +17,13 @@ source: Ynet
 sourceUrl: https://www.ynet.co.il/articles/0,7340,L-3153914,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W062-holidays-homesickness/article.he.md
 citation: Dvir, N. (2005, October 11). Ein kmo ba-bayit [There is no place like home]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3153914,00.html
+image: "/images/articles/W062-holidays-homesickness.jpg"
+imageAlt: "A decorated Thanksgiving window display at the Macy's Herald Square store in New York"
+imageCaption: "Thanksgiving window display at Macy's Herald Square, New York, November 2005."
+imageCredit: "Photo: C.S. Imming, CC BY-SA 3.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 3.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Macy_window_display_for_Thanksgiving.jpg"
 tags:
 - Personal Essay
 - New York

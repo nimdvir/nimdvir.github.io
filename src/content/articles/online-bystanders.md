@@ -18,6 +18,13 @@ source: Ynet
 sourceUrl: https://www.ynet.co.il/articles/0,7340,L-3628359,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W087-online-bystanders/article.he.md
 citation: Dvir, N. (2008, November 26). Be-shidur met [Broadcast dead]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3628359,00.html
+image: "/images/articles/W087-online-bystanders.jpg"
+imageAlt: "A laptop screen glowing in a dark room, showing an email inbox"
+imageCaption: "Laptop screen in a dark room, 2014."
+imageCredit: "Photo: Jay Wennington, CC0, via Wikimedia Commons"
+imageLicense: "CC0"
+imageLicenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Reading_mail_at_night_(Unsplash).jpg"
 tags:
 - Opinion
 - Social Media

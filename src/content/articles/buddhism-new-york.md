@@ -17,6 +17,13 @@ source: Xnet
 sourceUrl: https://xnet.ynet.co.il/xo/articles/0,14718,L-3091806,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W092-buddhism-new-york/article.he.md
 citation: Dvir, N. (2011, December 13). Nimrod Dvir medaveach me-ha-tapuach ha-gadol [Nimrod Dvir reports from the Big Apple]. Xnet. https://xnet.ynet.co.il/xo/articles/0,14718,L-3091806,00.html
+image: "/images/articles/W092-buddhism-new-york.jpg"
+imageAlt: "A street in Chelsea, Manhattan, in daylight"
+imageCaption: "A street in Chelsea, Manhattan, 2025."
+imageCredit: "Photo: Kidfly182, CC BY 4.0, via Wikimedia Commons"
+imageLicense: "CC BY 4.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by/4.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Chelsea_Manhattan_April_2025_075.jpg"
 tags:
 - Personal Essay
 - New York

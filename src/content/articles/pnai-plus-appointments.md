@@ -18,6 +18,13 @@ source: nrg
 sourceUrl: https://www.makorrishon.co.il/nrg/online/1/ART1/616/912.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W197-pnai-plus-appointments/article.he.md
 citation: nrg Maariv. (2007, August 2). Pini Askal avar le-"Pnai Plus" [Pini Askal moved to "Pnai Plus"]. https://www.makorrishon.co.il/nrg/online/1/ART1/616/912.html
+image: "/images/articles/W197-pnai-plus-appointments.jpg"
+imageAlt: "A newspaper stand on Ben Yehuda Street in Tel Aviv, 1946"
+imageCaption: "Newspaper stand on Ben Yehuda Street, Tel Aviv, 1946, photographed by Zoltan Kluger for the Government Press Office."
+imageCredit: "Public domain, via Wikimedia Commons"
+imageLicense: "Public domain"
+imageLicenseUrl: "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain"
+imageSource: "https://commons.wikimedia.org/wiki/File:A_NEWSPAPER_STAND_ON_BEN_YEHUDA_STREET_IN_TEL_AVIV._%D7%93%D7%95%D7%9B%D7%9F_%D7%A2%D7%AA%D7%95%D7%A0%D7%99%D7%9D_%D7%91%D7%A8%D7%97%D7%95%D7%91_%D7%91%D7%9F_%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%91%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91.D24-022.jpg"
 tags:
 - News
 - Media

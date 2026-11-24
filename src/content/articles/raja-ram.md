@@ -18,6 +18,13 @@ source: nrg Maariv
 sourceUrl: https://www.makorrishon.co.il/nrg/online/47/ART2/123/378.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W162-raja-ram/article.he.md
 citation: 'Dvir, N. (2010, June 23). Maharaja: Ra''ayon im Raja Ram [Maharaja: Interview with Raja Ram]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/123/378.html'
+image: "/images/articles/W162-raja-ram.jpg"
+imageAlt: "Raja Ram (Ronald Rothfield) at an outdoor psytrance event in Mexico"
+imageCaption: "Raja Ram (Ronald Rothfield) during the 1200 Micrograms tour in Teotihuacan, Mexico, 2009."
+imageCredit: "Photo: Armando Olivo Mart\u00edn del Campo, CC BY-SA 4.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Ronald_Rothfield_Raja_Ram.jpg"
 tags:
 - Interview
 - Music

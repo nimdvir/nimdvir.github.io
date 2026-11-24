@@ -24,6 +24,13 @@ source: Israel Hayom
 sourceUrl: https://www.israelhayom.co.il/article/226051
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W095-dan-margalit-annapurna/article.he.md
 citation: Margalit, D. (2014, October 16). Ha-teva chazak mikol [Nature is stronger than everything]. Israel Hayom. https://www.israelhayom.co.il/article/226051
+image: "/images/articles/W095-dan-margalit-annapurna.jpg"
+imageAlt: "Snow-covered mountains along the Annapurna Circuit, Nepal"
+imageCaption: "Snow-covered mountains on the Annapurna Circuit, Nepal, December 2014."
+imageCredit: "Photo: Anna Stavenskaya, CC BY-SA 4.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Annapurna_Circuit_Snow_Mountains.jpg"
 tags:
 - Opinion
 - News

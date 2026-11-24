@@ -9,9 +9,14 @@ on:
     inputs:
       ids:
         description: "Article IDs, space separated"
-        required: true
+        required: false
         type: string
-        default: "W159 W092 W095 W080 W114 W062 W198 W087 W197 W162 W079 W106"
+        default: ""
+      extra:
+        description: "Other images to save, space separated, as public/path.jpg=https-url"
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -25,8 +30,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Download
+        if: inputs.ids != ''
         run: python scripts/writing/fetch_article_images.py ${{ inputs.ids }}
       - name: Resize for the web
+        if: inputs.ids != ''
         run: |
           pip install --quiet pillow
           python - <<'PY'
@@ -45,11 +52,30 @@ jobs:
               im.save(dest, "JPEG", quality=82, optimize=True, progressive=True)
               print(wid, dest, im.size)
           PY
+      - name: Other images
+        if: inputs.extra != ''
+        env:
+          EXTRA: ${{ inputs.extra }}
+        run: |
+          pip install --quiet pillow
+          python - <<'PY'
+          import os, pathlib, urllib.request, io
+          from PIL import Image
+          for pair in os.environ["EXTRA"].split():
+              dest, url = pair.split("=", 1)
+              assert dest.startswith("public/") and url.startswith("https://"), pair
+              data = urllib.request.urlopen(url, timeout=60).read()
+              im = Image.open(io.BytesIO(data)).convert("RGB")
+              im.thumbnail((1600, 1600))
+              out = pathlib.Path(dest); out.parent.mkdir(parents=True, exist_ok=True)
+              im.save(out, "JPEG", quality=84, optimize=True, progressive=True)
+              print(dest, im.size)
+          PY
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add public/images/articles
+          git add public/images
           git diff --cached --quiet && { echo "Nothing new"; exit 0; }
-          git commit -m "Add licensed article images: ${{ inputs.ids }}"
+          git commit -m "Add site images ${{ inputs.ids }}"
           git push

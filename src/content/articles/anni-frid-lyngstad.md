@@ -17,6 +17,13 @@ source: nrg
 sourceUrl: https://www.makorrishon.co.il/nrg/online/47/ART2/177/077.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W159-anni-frid-lyngstad/article.he.md
 citation: Dvir, N. (2010, November 14). Mamma mia! Sipura shel Frida Lyngstad me-ABBA [Mamma mia! The story of ABBA's Frida Lyngstad]. nrg. https://www.makorrishon.co.il/nrg/online/47/ART2/177/077.html
+image: "/images/articles/W159-anni-frid-lyngstad.jpg"
+imageAlt: "Anni-Frid Lyngstad smiling at an event"
+imageCaption: "Anni-Frid Lyngstad at the opening of ABBA: The Museum, Stockholm, May 2013."
+imageCredit: "Photo: Frankie Fouganthin, CC BY-SA 4.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Anni-Frid_Lyngstad,_May_2013.jpg"
 tags:
 - Feature
 - Music

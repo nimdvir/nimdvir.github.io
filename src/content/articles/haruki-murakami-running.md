@@ -16,6 +16,13 @@ source: nrg Maariv
 sourceUrl: https://www.makorrishon.co.il/nrg/online/47/ART2/149/265.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W114-haruki-murakami-running/article.he.md
 citation: 'Dvir, N. (2010, August 26). Larutz ito: Al ha-sefer he-chadash shel Haruki Murakami [Running with him: On Haruki Murakami’s new book]. nrg Ma’ariv. https://www.makorrishon.co.il/nrg/online/47/ART2/149/265.html'
+image: "/images/articles/W114-haruki-murakami-running.jpg"
+imageAlt: "Haruki Murakami speaking at a podium at the Jerusalem Prize ceremony"
+imageCaption: "Haruki Murakami receiving the Jerusalem Prize, February 2009."
+imageCredit: "Photo: Galoren.com, CC BY-SA 3.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 3.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Haruki_Murakami_at_the_Jerusalem_Prize.JPG"
 tags:
 - Review
 - Books

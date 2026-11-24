@@ -19,6 +19,13 @@ source: nrg
 sourceUrl: http://www.nrg.co.il/online/47/ART2/113/207.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W106-sex-and-the-city-2/article.he.md
 citation: 'Darvinsky, D., & Dvir, N. (2010, May 28). Malkot ha-midbar: Bikoret "Sex veha-ir ha-gdola 2" [Queens of the desert: A review of "Sex and the City 2"]. nrg Maariv. https://www.makorrishon.co.il/nrg/online/47/ART2/113/207.html'
+image: "/images/articles/W106-sex-and-the-city-2.jpg"
+imageAlt: "Sarah Jessica Parker in costume on a New York street during filming of Sex and the City 2"
+imageCaption: "Sarah Jessica Parker on the set of Sex and the City 2, New York, November 2009."
+imageCredit: "Photo: ChrisGampat, CC BY 2.0, via Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sarah_Jessica_Parker_on_the_set_of_%22Sex_and_the_City_II%22.jpg"
 tags:
 - Review
 - Film

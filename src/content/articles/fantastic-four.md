@@ -20,6 +20,13 @@ source: Ynet
 sourceUrl: https://www.ynet.co.il/articles/0,7340,L-3112281,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W080-fantastic-four/article.he.md
 citation: Dvir, N. (2005, July 13). Mishpachat super al [A super family]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3112281,00.html
+image: "/images/articles/W080-fantastic-four.jpg"
+imageAlt: "Jessica Alba on the red carpet at the London premiere of Fantastic Four: Rise of the Silver Surfer"
+imageCaption: "Jessica Alba at the London premiere of Fantastic Four: Rise of the Silver Surfer, 2007."
+imageCredit: "Photo: Miguel from London, United Kingdom, CC BY-SA 2.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 2.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Jessica_Alba_at_Fantastic_Four-_Rise_London_Premiere_3.jpg"
 tags:
 - Interview
 - Film

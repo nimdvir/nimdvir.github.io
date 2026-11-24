@@ -16,6 +16,13 @@ source: Ynet
 sourceUrl: https://www.ynet.co.il/articles/0,7340,L-3254692,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W079-returning-to-israel/article.he.md
 citation: Dvir, N. (2006, May 24). Hakhi kef lachzor [The best thing is coming back]. Ynet. https://www.ynet.co.il/articles/0,7340,L-3254692,00.html
+image: "/images/articles/W079-returning-to-israel.jpg"
+imageAlt: "Tel Aviv beach and seafront promenade with Jaffa on the horizon"
+imageCaption: "Tel Aviv beach and promenade looking toward Jaffa, 2012."
+imageCredit: "Photo: Jorge L\u00e1scar, CC BY 2.0, via Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:Central_Tel_Aviv_beaches_and_Jaffa_on_the_background_(9869221525).jpg"
 tags:
 - Personal Essay
 - Journalism

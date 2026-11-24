@@ -19,6 +19,13 @@ source: nrg
 sourceUrl: https://www.makorrishon.co.il/nrg/online/1/ART2/178/322.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W198-media-industry-coverage/article.he.md
 citation: nrg Maariv. (2010, November 15). Ha-tachtit [The bottom]. https://www.makorrishon.co.il/nrg/online/1/ART2/178/322.html
+image: "/images/articles/W198-media-industry-coverage.jpg"
+imageAlt: "A news stand in Tel Aviv stocked with newspapers and magazines, 1989"
+imageCaption: "News stand in Tel Aviv, June 1989."
+imageCredit: "Photo: Downtowngal, CC BY-SA 4.0, via Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
+imageSource: "https://commons.wikimedia.org/wiki/File:News_stand%2C_Tel_Aviv%2C_June_1989.jpg"
 tags:
 - News
 - Media
