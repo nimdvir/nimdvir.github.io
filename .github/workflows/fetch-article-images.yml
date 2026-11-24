@@ -1,0 +1,54 @@
+name: Fetch licensed article images
+
+# Downloads the licensed source images listed in
+# data-source/writing/article-image-sources.json (Wikimedia Commons), resizes
+# them for the web and commits them to public/images/articles/. Run by hand.
+# It never publishes the site; publishing stays a separate, approved action.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Article IDs, space separated (e.g. W159 W162)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download
+        run: python scripts/writing/fetch_article_images.py ${{ inputs.ids }}
+      - name: Resize for the web
+        run: |
+          pip install --quiet pillow
+          python - <<'PY'
+          import json, pathlib
+          from PIL import Image, ImageOps
+          src = json.loads(pathlib.Path("data-source/writing/article-image-sources.json").read_text())
+          out = pathlib.Path("public/images/articles"); out.mkdir(parents=True, exist_ok=True)
+          for wid in "${{ inputs.ids }}".split():
+              rec = src[wid]
+              files = list(pathlib.Path("images/articles").glob(rec["slug"] + ".*"))
+              if not files:
+                  print("missing", wid); continue
+              im = ImageOps.exif_transpose(Image.open(files[0])).convert("RGB")
+              im.thumbnail((1600, 1600))
+              dest = out / (rec["slug"] + ".jpg")
+              im.save(dest, "JPEG", quality=82, optimize=True, progressive=True)
+              print(wid, dest, im.size)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add public/images/articles
+          git diff --cached --quiet && { echo "Nothing new"; exit 0; }
+          git commit -m "Add licensed article images: ${{ inputs.ids }}"
+          git push
