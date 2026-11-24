@@ -85,6 +85,9 @@ const sections = headings.map((heading, index) => ({
             ))}
           </ol>
         </nav>
+        <button class="cv-expand-all" type="button" hidden>
+          Open all sections
+        </button>
         <a class="cv-top-link" href="#cv-top">
           Back to top ↑
         </a>
@@ -101,7 +104,11 @@ const sections = headings.map((heading, index) => ({
               </span>
               <h2 id={section.slug}>{section.text}</h2>
             </header>
-            <div class="cv-section-content" set:html={section.content} />
+            <div
+              class="cv-section-content"
+              id={`${section.slug}-content`}
+              set:html={section.content}
+            />
           </section>
         ))}
       </article>
@@ -109,7 +116,89 @@ const sections = headings.map((heading, index) => ({
   </div>
 </Layout>
 
+<script>
+  // On phones each CV section folds up behind its heading, so the page reads
+  // as a list of ten sections instead of one very long scroll. Desktop and
+  // print always show everything: the folding CSS only applies on narrow
+  // screens, and the toggle buttons are removed when the screen widens.
+  const mq = window.matchMedia("(max-width: 760px)");
+  const sections = [...document.querySelectorAll<HTMLElement>(".cv-section")];
+  const expandAll = document.querySelector<HTMLButtonElement>(".cv-expand-all");
+
+  const setOpen = (section: HTMLElement, open: boolean) => {
+    section.classList.toggle("is-collapsed", !open);
+    section
+      .querySelector(".cv-toggle")
+      ?.setAttribute("aria-expanded", String(open));
+  };
+  const syncExpandAll = () => {
+    if (!expandAll) return;
+    const allOpen = sections.every((s) => !s.classList.contains("is-collapsed"));
+    expandAll.textContent = allOpen ? "Close all sections" : "Open all sections";
+  };
+  const openFor = (hash: string) => {
+    const target = hash ? document.getElementById(hash.slice(1)) : null;
+    const section = target?.closest<HTMLElement>(".cv-section");
+    if (section) {
+      setOpen(section, true);
+      syncExpandAll();
+    }
+  };
+
+  const enable = () => {
+    sections.forEach((section, index) => {
+      const heading = section.querySelector("h2");
+      const content = section.querySelector(".cv-section-content");
+      if (!heading || !content) return;
+      if (!heading.querySelector(".cv-toggle")) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "cv-toggle";
+        button.setAttribute("aria-controls", content.id);
+        button.append(...heading.childNodes);
+        heading.append(button);
+        button.addEventListener("click", () => {
+          setOpen(section, section.classList.contains("is-collapsed"));
+          syncExpandAll();
+        });
+      }
+      setOpen(section, index === 0);
+    });
+    openFor(location.hash);
+    if (expandAll) expandAll.hidden = false;
+    syncExpandAll();
+  };
+  const disable = () => {
+    sections.forEach((section) => {
+      const button = section.querySelector(".cv-toggle");
+      if (button) {
+        button.parentElement?.append(...button.childNodes);
+        button.remove();
+      }
+      section.classList.remove("is-collapsed");
+    });
+    if (expandAll) expandAll.hidden = true;
+  };
+
+  const update = () => (mq.matches ? enable() : disable());
+  update();
+  mq.addEventListener("change", update);
+  window.addEventListener("hashchange", () => mq.matches && openFor(location.hash));
+  // Open a section before the browser jumps to it from the index.
+  document.querySelectorAll<HTMLAnchorElement>(".cv-index a[href^='#']").forEach((link) =>
+    link.addEventListener("click", () => mq.matches && openFor(link.hash)),
+  );
+  expandAll?.addEventListener("click", () => {
+    const open = sections.some((s) => s.classList.contains("is-collapsed"));
+    sections.forEach((s) => setOpen(s, open));
+    syncExpandAll();
+  });
+</script>
+
 <style>
+  .cv-expand-all {
+    display: none;
+  }
   .cv-page {
     padding-top: 48px;
   }
@@ -451,6 +540,92 @@ const sections = headings.map((heading, index) => ({
     }
     .cv-section--education .cv-section-content :global(> ul > li) {
       padding: 16px;
+    }
+    /* Folding sections (see the script above). */
+    .cv-expand-all:not([hidden]) {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .cv-section {
+      margin-bottom: 12px;
+      transition: box-shadow 0.25s ease;
+    }
+    .cv-section.is-collapsed {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .cv-section.is-collapsed .cv-section-content {
+      display: none;
+    }
+    .cv-section.is-collapsed .cv-section-header {
+      border-bottom: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .cv-section:not(.is-collapsed) {
+      box-shadow: var(--shadow);
+    }
+    .cv-section:not(.is-collapsed) .cv-section-content {
+      animation: cv-unfold 0.3s ease both;
+    }
+    .cv-section-header {
+      align-items: center;
+    }
+    .cv-section h2 {
+      flex: 1;
+      font-size: 1.3rem;
+    }
+    :global(.cv-toggle) {
+      all: unset;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      min-height: 44px;
+      cursor: pointer;
+    }
+    :global(.cv-toggle:focus-visible) {
+      outline: 3px solid var(--focus);
+      outline-offset: 4px;
+      border-radius: 6px;
+    }
+    :global(.cv-toggle)::after {
+      content: "";
+      flex: 0 0 auto;
+      width: 9px;
+      height: 9px;
+      margin-right: 4px;
+      border-right: 2px solid var(--violet);
+      border-bottom: 2px solid var(--violet);
+      rotate: 45deg;
+      translate: 0 -3px;
+      transition:
+        rotate 0.25s ease,
+        translate 0.25s ease;
+    }
+    :global(.cv-toggle[aria-expanded="true"])::after {
+      rotate: 225deg;
+      translate: 0 3px;
+    }
+  }
+  @keyframes cv-unfold {
+    from {
+      opacity: 0;
+      translate: 0 -6px;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
     }
   }
   @media (max-width: 480px) {

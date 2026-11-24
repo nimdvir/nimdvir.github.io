@@ -3962,9 +3962,61 @@ a {
   .home-hero .social-links a:last-child:nth-child(odd) {
     grid-column: 1 / -1;
   }
-  /* Shorter project images so the grid isn't one long scroll of pictures. */
-  .project-grid .card-visual {
-    aspect-ratio: 2 / 1;
+  /* Project cards turn into compact rows: a small square picture beside the
+     text, and the whole card is the link. Roughly halves the page. */
+  .project-grid:not(.article-grid) {
+    gap: 12px;
+  }
+  .project-grid:not(.article-grid) .card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    align-items: start;
+    border-radius: 16px;
+    box-shadow: none;
+  }
+  .project-grid:not(.article-grid) .card-visual {
+    aspect-ratio: 1;
+    margin: 14px 0 14px 14px;
+    border-radius: 12px;
+  }
+  .project-grid:not(.article-grid) .card-visual.contain img {
+    padding: 6px;
+  }
+  .project-grid:not(.article-grid) .project-monogram {
+    font-size: 0.95rem;
+  }
+  .project-grid:not(.article-grid) .card-body {
+    padding: 14px 16px 16px 14px;
+  }
+  .project-grid:not(.article-grid) .card .eyebrow {
+    font-size: 0.66rem;
+    margin-bottom: 4px;
+  }
+  .project-grid:not(.article-grid) .card h3 {
+    font-size: 1.08rem;
+    margin: 0 0 4px;
+  }
+  .project-grid:not(.article-grid) .card h3 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+  }
+  .project-grid:not(.article-grid) .card p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+  .project-grid:not(.article-grid) .card p.small {
+    font-size: 0.78rem;
+    margin-bottom: 0;
+  }
+  .project-grid:not(.article-grid) .card-body > .text-link {
+    display: none;
+  }
+  .project-grid:not(.article-grid) .card:active {
+    background: var(--soft);
   }
 }
 @media (max-width: 520px) {
