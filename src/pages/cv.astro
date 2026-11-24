@@ -453,6 +453,14 @@ const sections = headings.map((heading, index) => ({
       padding: 16px;
     }
   }
+  @media (max-width: 480px) {
+    .cv-section {
+      padding: 20px 16px;
+    }
+    .cv-section--education .cv-section-content :global(> ul > li) {
+      padding: 14px;
+    }
+  }
   @media print {
     :global(.site-header),
     :global(.site-footer),

@@ -2479,18 +2479,18 @@ a {
   padding: 2px 8px;
   border-radius: 999px;
 }
-.tag-list > li {
+.dated-list.tag-list > li {
   display: grid;
   grid-template-columns: 110px 1fr;
   gap: 20px;
   padding: 20px 0;
   border-bottom: 1px solid var(--border);
 }
-.tag-list h3 {
+.dated-list.tag-list h3 {
   margin: 0 0 6px;
   font-size: 1.15rem;
 }
-.tag-list p {
+.dated-list.tag-list p {
   margin: 0 0 6px;
   color: var(--muted);
   font-size: 0.92rem;
@@ -2502,7 +2502,7 @@ a {
   padding-top: 4px;
 }
 @media (max-width: 650px) {
-  .tag-list > li {
+  .dated-list.tag-list > li {
     grid-template-columns: 1fr;
     gap: 6px;
   }
@@ -3898,5 +3898,82 @@ a {
 @media (prefers-reduced-motion: reduce) {
   .book-cover img {
     transition: none;
+  }
+}
+
+/* The dark masthead band ends where the intro's bottom margin ends, so the
+   first block after it needs its own space to clear the band's edge. (The
+   intro's margin collapses into the card's, hence intro margin + gap.) */
+.page-intro + .contact-card {
+  margin-top: 68px;
+}
+.page-intro + .related-topics {
+  padding-top: 28px;
+}
+@media (max-width: 650px) {
+  .page-intro + .contact-card {
+    margin-top: 52px;
+  }
+  .page-intro + .related-topics {
+    padding-top: 22px;
+  }
+}
+
+/* Phone pass (November 2026): small-screen fixes that sit on top of the
+   rules above. */
+@media (max-width: 820px) {
+  /* Sticky section menus scroll sideways; fade the right edge so the cut-off
+     item reads as "more this way", and leave room to scroll the last one
+     clear of the fade. */
+  .section-menu ul {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
+  }
+  .section-menu ul::after {
+    content: "";
+    flex: 0 0 32px;
+  }
+  .section-menu a {
+    padding: 10px 14px;
+  }
+  /* Small text links get a full-size tap area. */
+  .back-link,
+  .hebrew-link,
+  .section-head > a,
+  .footer-bottom a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .article-topbar {
+    align-items: center;
+  }
+}
+@media (max-width: 650px) {
+  /* Home: the five profile links as a tidy two-column grid. */
+  .home-hero .social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-hero .social-links a {
+    justify-content: center;
+    padding-inline: 10px;
+  }
+  .home-hero .social-links a:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+  /* Shorter project images so the grid isn't one long scroll of pictures. */
+  .project-grid .card-visual {
+    aspect-ratio: 2 / 1;
+  }
+}
+@media (max-width: 520px) {
+  /* The fanned prints on the blog page fit inside their card. */
+  .print-fan {
+    height: 240px;
+  }
+  .print-fan-item {
+    width: min(124px, calc((100vw - 104px) / 2.5));
+    font-size: 0.7rem;
   }
 }
