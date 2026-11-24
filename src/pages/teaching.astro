@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SectionMenu from "../components/SectionMenu.astro";
+import Galaxy from "../components/Galaxy.astro";
 import { cvUrl } from "../data/profile";
 const menu = [
   { id: "courses", label: "Courses" },
@@ -163,21 +164,44 @@ const undergraduate = [
       </a>
     </div>
   </section>
-  <section class="section band band-soft" id="courseware">
-    <h2>Textbook and courseware</h2>
-    <div class="prose">
-      <h3>Using Data to Drive Business Performance</h3>
-      <p>
-        I’m writing a textbook on databases, SQL, business analytics, and
-        information systems. The companion website includes explanations,
-        exercises, and quizzes used in BITM 330.
-      </p>
-      <p class="small">
-        The manuscript is under review with Cengage Learning, as reported in my
-        September 2026 CV.
-      </p>
-      <a class="button" href="https://database-textbook.dimapublishing.com/">
-        Open courseware ↗
+  <section class="section band band-night book-band" id="courseware" aria-labelledby="book-heading">
+    <Galaxy variant="night" />
+    <div class="book-band-inner">
+      <div class="book-band-text">
+        <p class="eyebrow">Textbook and courseware</p>
+        <h2 id="book-heading">Using Data to Drive Business Performance</h2>
+        <p class="book-band-sub">Databases and Management Information Systems</p>
+        <p>
+          I’m writing a textbook on databases, SQL, business analytics, and
+          information systems. The companion website includes explanations,
+          exercises, and quizzes used in BITM 330.
+        </p>
+        <p class="small">
+          The manuscript is under review with Cengage Learning, as reported in my
+          September 2026 CV.
+        </p>
+        <div class="button-row">
+          <a class="button button-gold" href="https://dimapub.com/books/using-data-to-drive-business-performance/">
+            About the book ↗
+          </a>
+          <a class="button" href="https://database-textbook.dimapublishing.com/">
+            Open courseware ↗
+          </a>
+        </div>
+      </div>
+      <a
+        class="book-cover"
+        href="https://dimapub.com/books/using-data-to-drive-business-performance/"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <img
+          src="https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_520/dimapub/book-cover"
+          alt=""
+          width="520"
+          height="780"
+          loading="lazy"
+        />
       </a>
     </div>
   </section>

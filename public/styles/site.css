@@ -3761,3 +3761,93 @@ a {
     transition: none;
   }
 }
+
+/* Night band with the gold starfield (src/components/Galaxy.astro, from dimapub). */
+.band-night {
+  --bg: #0e1424;
+  --surface: rgb(255 255 255 / 0.06);
+  --soft: rgb(255 255 255 / 0.09);
+  --text: #f4efe6;
+  --muted: #c3bcb0;
+  --link: #e9c98a;
+  --border: rgb(244 239 230 / 0.16);
+  --shadow: 0 22px 54px -30px rgb(0 0 0 / 0.85);
+  color: var(--text);
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(60% 70% at 85% 30%, rgb(227 194 124 / 0.1), transparent 65%),
+    linear-gradient(170deg, #0e1424 0%, #121a30 100%);
+}
+.band-night .eyebrow {
+  color: #e3c27c;
+}
+.book-band-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+}
+.book-band h2 {
+  font-family: var(--display, inherit);
+  font-size: clamp(2.1rem, 4.4vw, 3.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  margin: 6px 0 8px;
+}
+.book-band-sub {
+  margin: 0 0 18px;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #e9d7b0;
+}
+.book-band-text p:not(.eyebrow, .book-band-sub) {
+  color: var(--muted);
+  max-width: 58ch;
+}
+.button-gold {
+  background: linear-gradient(180deg, #ecc979, #c9a24a);
+  color: #1d1608;
+  border-color: transparent;
+  box-shadow: 0 10px 30px -12px rgb(227 194 124 / 0.7);
+}
+.button-gold:hover {
+  color: #1d1608;
+}
+.book-cover {
+  justify-self: center;
+  display: block;
+  width: min(100%, 300px);
+  perspective: 1200px;
+}
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px 8px 8px 4px;
+  rotate: y -14deg;
+  box-shadow:
+    -10px 0 0 -4px rgb(0 0 0 / 0.35),
+    0 40px 70px -24px rgb(0 0 0 / 0.85),
+    0 0 90px -20px rgb(227 194 124 / 0.35);
+  transition: rotate 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), scale 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.book-cover:hover img {
+  rotate: y -4deg;
+  scale: 1.03;
+}
+@media (max-width: 900px) {
+  .book-band-inner {
+    grid-template-columns: 1fr;
+  }
+  .book-cover {
+    width: min(70%, 240px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-cover img {
+    transition: none;
+  }
+}

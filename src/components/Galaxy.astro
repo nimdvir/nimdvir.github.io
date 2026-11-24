@@ -1,0 +1,114 @@
+---
+// A slow, gold-tinted starfield (React Bits "Galaxy", see src/scripts/galaxy.ts).
+// Stars are strongest at the left and right edges and fade behind the reading column.
+//   night  — for dark sections: champagne stars that part around the cursor.
+//   paper  — fixed behind light pages: faint gold dust in the side margins only.
+interface Props {
+  variant?: 'night' | 'paper';
+  /** How much of the sky shows behind the center column (0–1). */
+  center?: number;
+  class?: string;
+}
+const { variant = 'night', center = variant === 'night' ? 0.28 : 0, class: className = '' } = Astro.props;
+
+const options =
+  variant === 'night'
+    ? {
+        density: 1.1,
+        glowIntensity: 0.32,
+        saturation: 0.25,
+        hueShift: 210,
+        twinkleIntensity: 0.45,
+        rotationSpeed: 0.03,
+        starSpeed: 0.25,
+        speed: 0.6,
+        repulsionStrength: 1.6,
+        tint: [1, 0.86, 0.62],
+        mouse: true,
+        fps: 60,
+      }
+    : {
+        density: 0.9,
+        glowIntensity: 0.24,
+        saturation: 0,
+        hueShift: 140,
+        twinkleIntensity: 0.5,
+        rotationSpeed: 0.02,
+        starSpeed: 0.2,
+        speed: 0.45,
+        repulsionStrength: 1.2,
+        tint: [1.15, 0.82, 0.38],
+        light: true,
+        mouse: false,
+        fps: 30,
+      };
+---
+
+<div
+  class:list={['galaxy', variant, className]}
+  style={`--center:${center}`}
+  data-galaxy={JSON.stringify(options)}
+  aria-hidden="true"
+>
+</div>
+
+<script>
+  import '../scripts/galaxy';
+</script>
+
+<style>
+  .galaxy {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1.6s ease;
+    /* Bright margins, a quiet middle. */
+    --edge: clamp(90px, 22vw, 420px);
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      #000 0,
+      rgba(0, 0, 0, var(--center)) var(--edge),
+      rgba(0, 0, 0, var(--center)) calc(100% - var(--edge)),
+      #000 100%
+    );
+    mask-image: linear-gradient(
+      90deg,
+      #000 0,
+      rgba(0, 0, 0, var(--center)) var(--edge),
+      rgba(0, 0, 0, var(--center)) calc(100% - var(--edge)),
+      #000 100%
+    );
+  }
+  .galaxy.is-live,
+  :global(.galaxy:has(canvas)) {
+    opacity: 1;
+  }
+  .galaxy :global(canvas) {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .night {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .paper {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    /* Only the true side margins, beyond the 1200px content column. */
+    --edge: clamp(70px, calc((100vw - 1200px) / 2 + 40px), 560px);
+  }
+  .paper.galaxy.is-live {
+    opacity: 0.75;
+  }
+  @media (max-width: 760px) {
+    /* Phones have no real margins; keep the paper pages calm and the battery happy. */
+    .paper {
+      display: none;
+    }
+    .night {
+      --edge: 34vw;
+    }
+  }
+</style>
