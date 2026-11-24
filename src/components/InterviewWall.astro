@@ -47,7 +47,8 @@ const nameOf = (a: Article) =>
             <span class="face-caption">
               <span class="face-name">{nameOf(a)}</span>
               <span class="face-meta">
-                {d.source} · {d.date.slice(0, 4)}
+                <span class="face-source">{d.source} · </span>
+                {d.date.slice(0, 4)}
               </span>
               <span class="face-headline">{d.title}</span>
             </span>
@@ -57,3 +58,70 @@ const nameOf = (a: Article) =>
     })}
   </ul>
 </section>
+
+<script>
+  // The wall of faces pops in: as a wall scrolls into view, each face springs
+  // up from below in a quick cascade, then a streak of light sweeps across
+  // it. On phones the face crossing the middle of the screen steps forward;
+  // with a mouse, faces tilt toward the pointer. Reduced motion skips it all.
+  const calm = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const touch = window.matchMedia("(hover: none) and (max-width: 820px)");
+
+  for (const grid of document.querySelectorAll<HTMLElement>(".face-grid")) {
+    const tiles = [...grid.querySelectorAll<HTMLElement>(".face-tile")];
+    if (calm.matches || !("IntersectionObserver" in window)) continue;
+
+    tiles.forEach((tile, i) => {
+      tile.style.setProperty("--tilt", `${i % 2 ? 7 : -7}deg`);
+    });
+    grid.classList.add("pop-ready");
+
+    const pop = new IntersectionObserver(
+      (entries) => {
+        const arriving = entries
+          .filter((e) => e.isIntersecting)
+          .map((e) => e.target as HTMLElement)
+          .sort((a, b) => {
+            const ra = a.getBoundingClientRect();
+            const rb = b.getBoundingClientRect();
+            return ra.top - rb.top || ra.left - rb.left;
+          });
+        arriving.forEach((tile, i) => {
+          tile.style.setProperty("--delay", `${Math.min(i, 12) * 70}ms`);
+          tile.classList.add("is-in");
+          pop.unobserve(tile);
+        });
+      },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.15 },
+    );
+    tiles.forEach((tile) => pop.observe(tile));
+
+    if (touch.matches) {
+      const spotlight = new IntersectionObserver(
+        (entries) => {
+          for (const e of entries)
+            e.target.classList.toggle("is-center", e.isIntersecting);
+        },
+        // A thin line across the middle of the screen: one row at a time.
+        { rootMargin: "-49% 0px -49% 0px" },
+      );
+      tiles.forEach((tile) => spotlight.observe(tile));
+    } else {
+      for (const link of grid.querySelectorAll<HTMLElement>(".face-link")) {
+        link.addEventListener("pointermove", (event) => {
+          const r = link.getBoundingClientRect();
+          const x = (event.clientX - r.left) / r.width - 0.5;
+          const y = (event.clientY - r.top) / r.height - 0.5;
+          link.style.setProperty("--ry", `${(x * 14).toFixed(2)}deg`);
+          link.style.setProperty("--rx", `${(-y * 14).toFixed(2)}deg`);
+          link.style.setProperty("--gx", `${((x + 0.5) * 100).toFixed(1)}%`);
+          link.style.setProperty("--gy", `${((y + 0.5) * 100).toFixed(1)}%`);
+        });
+        link.addEventListener("pointerleave", () => {
+          link.style.removeProperty("--rx");
+          link.style.removeProperty("--ry");
+        });
+      }
+    }
+  }
+</script>

@@ -2754,12 +2754,33 @@ a {
   }
 }
 @media (max-width: 540px) {
+  /* Phones: three faces per row, captions sized to match. */
   .face-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .face-link {
+    border-radius: 11px;
   }
   .face-caption {
-    padding: 40px 10px 10px;
+    padding: 30px 7px 7px;
+    gap: 1px;
+  }
+  .face-name {
+    font-size: 0.84rem;
+    line-height: 1.12;
+  }
+  .face-meta {
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+  }
+  .face-source {
+    display: none;
+  }
+  .face-initials {
+    align-items: flex-start;
+    padding-top: 16%;
+    font-size: 1.6rem;
   }
   .face-headline {
     display: none;
@@ -4027,5 +4048,116 @@ a {
   .print-fan-item {
     width: min(124px, calc((100vw - 104px) / 2.5));
     font-size: 0.7rem;
+  }
+}
+
+/* Wall of faces: pop-in (InterviewWall.astro adds .pop-ready, then .is-in
+   per face as it scrolls into view). */
+@media (prefers-reduced-motion: no-preference) {
+  .face-grid.pop-ready .face-tile {
+    opacity: 0;
+    transform: translateY(46px) scale(0.62) rotate(var(--tilt, 0deg));
+  }
+  .face-grid.pop-ready .face-tile.is-in {
+    animation: face-pop 0.85s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both;
+  }
+  .face-grid.pop-ready .face-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+    background: linear-gradient(
+      105deg,
+      transparent 35%,
+      rgb(255 244 214 / 0.42) 48%,
+      rgb(255 255 255 / 0.6) 50%,
+      rgb(255 244 214 / 0.42) 52%,
+      transparent 65%
+    );
+    mix-blend-mode: soft-light;
+    translate: -130% 0;
+  }
+  .face-grid.pop-ready .face-tile.is-in .face-link::after {
+    animation: face-sheen 1.1s ease-out calc(var(--delay, 0ms) + 0.45s) both;
+  }
+  .face-grid.pop-ready .face-tile.is-in .face-name {
+    animation: face-rise 0.6s ease-out calc(var(--delay, 0ms) + 0.3s) both;
+  }
+  /* Touch screens: the face crossing the middle of the screen steps forward. */
+  .face-grid.pop-ready .face-tile.is-in.is-center .face-link {
+    transform: scale(1.07);
+    box-shadow:
+      0 0 0 2px var(--glam-accent),
+      0 26px 44px -18px rgb(0 0 0 / 0.85);
+    z-index: 2;
+  }
+  .face-grid.pop-ready .face-tile .face-link {
+    transition:
+      transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.45s ease;
+  }
+  .face-grid.pop-ready .face-tile.is-in.is-center .face-visual img {
+    filter: saturate(1.1);
+  }
+  /* Mouse: faces tilt toward the pointer, with a soft glare. */
+  @media (hover: hover) and (pointer: fine) {
+    .face-grid.pop-ready .face-tile {
+      perspective: 800px;
+    }
+    .face-grid.pop-ready .face-link:hover {
+      transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateZ(0) scale(1.03);
+      transition: transform 0.12s linear, box-shadow 0.3s ease;
+      box-shadow: 0 34px 50px -26px rgb(0 0 0 / 0.9);
+    }
+    .face-grid.pop-ready .face-link::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      pointer-events: none;
+      opacity: 0;
+      background: radial-gradient(
+        circle at var(--gx, 50%) var(--gy, 30%),
+        rgb(255 255 255 / 0.28),
+        transparent 55%
+      );
+      transition: opacity 0.3s ease;
+    }
+    .face-grid.pop-ready .face-link:hover::before {
+      opacity: 1;
+    }
+  }
+}
+@keyframes face-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(46px) scale(0.62) rotate(var(--tilt, 0deg));
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(-7px) scale(1.06) rotate(calc(var(--tilt, 0deg) * -0.25));
+  }
+  78% {
+    transform: translateY(2px) scale(0.985) rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes face-sheen {
+  to {
+    translate: 130% 0;
+  }
+}
+@keyframes face-rise {
+  from {
+    opacity: 0;
+    translate: 0 8px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
   }
 }
