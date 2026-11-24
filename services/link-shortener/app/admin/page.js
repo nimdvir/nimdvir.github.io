@@ -76,7 +76,8 @@ export default function AdminPage() {
     try {
       await api("POST", { action: "create", ...form });
       const shortUrl = window.location.origin + "/" + form.slug.trim().toLowerCase();
-      const copied = await navigator.clipboard.writeText(shortUrl).then(() => true, () => false);
+      // The clipboard API is missing outside secure contexts (e.g. plain-HTTP dev URLs); copying is optional.
+      const copied = navigator.clipboard ? await navigator.clipboard.writeText(shortUrl).then(() => true, () => false) : false;
       setForm(emptyForm);
       // load() clears the message, so show the result after it.
       await load();

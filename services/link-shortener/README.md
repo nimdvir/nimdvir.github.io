@@ -72,6 +72,9 @@ Setup in each app (address `https://d.nimdvir.com/mcp`):
 - **Names:** taken from the end of the URL path, or the site name. Opaque IDs and words like `edit` are skipped. Otherwise a fun pair is suggested.
 - **Repeats:** a URL that already has a short link gets that link back, so running a template twice doesn't create duplicates.
 - **Source column:** `tmplat`.
+- **Choosing the name:** tmplat can only send a URL, so templates add a marker to its end, which is removed before saving:
+  - `#~name=<name>` uses that name (tmplat sends the selected text, kebab-cased). Names follow the usual rules; one that's taken by another destination is refused.
+  - `#~random` always makes a new link with a random name such as `sleepy-otter`.
 
 Setup in tmplat (Options > Settings > URL shorteners):
 
