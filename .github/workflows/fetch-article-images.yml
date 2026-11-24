@@ -64,8 +64,12 @@ jobs:
           for pair in os.environ["EXTRA"].split():
               dest, url = pair.split("=", 1)
               assert dest.startswith("public/") and url.startswith("https://"), pair
-              data = urllib.request.urlopen(url, timeout=60).read()
-              im = Image.open(io.BytesIO(data)).convert("RGB")
+              import subprocess
+              data = subprocess.run(["curl", "-fsSL", "--retry", "2", url], check=True, capture_output=True).stdout
+              try:
+                  im = Image.open(io.BytesIO(data)).convert("RGB")
+              except Exception:
+                  print("not an image:", dest, len(data), data[:200]); raise
               im.thumbnail((1600, 1600))
               out = pathlib.Path(dest); out.parent.mkdir(parents=True, exist_ok=True)
               im.save(out, "JPEG", quality=84, optimize=True, progressive=True)
