@@ -6,6 +6,7 @@ tags: ["Film", "Review"]
 image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1000,c_limit/v1795474492/PersonalSite/Interviews/W106-sex-and-the-city-2/photo-by-nim-dvir-israeli-poster.jpg"
 imageAlt: "The Israeli Sex and the City 2 poster, with a highlighted quote above Kristin Davis and Sarah Jessica Parker: “Does the job wonderfully,” Nimrod Dvir and Dana Darvinsky, NRG"
 imageCaption: "Top left, in the yellow box, a few inches above Sarah Jessica Parker."
+cardImage: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_720,h_450,c_fill,g_north/v1795474492/PersonalSite/Interviews/W106-sex-and-the-city-2/photo-by-nim-dvir-israeli-poster.jpg"
 draft: false
 ---
 

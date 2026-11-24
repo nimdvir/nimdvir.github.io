@@ -36,6 +36,7 @@ export default defineConfig({
     "/about/": "/cv/",
     "/articles/": "/media/",
     "/news/": "/blog/",
+    "/projects/": "/research/#projects",
     "/interviews/jamie-foxx/": "/articles/jamie-foxx/",
     "/interviews/jim-carrey/": "/articles/jim-carrey/",
     "/interviews/julia-louis-dreyfus/": "/articles/julia-louis-dreyfus/",

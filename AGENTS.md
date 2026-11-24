@@ -11,6 +11,7 @@
 ## Navigation
 
 - The main navigation uses CV in place of About. `/about/` redirects to the complete CV at `/cv/`.
+- Projects and research are one section (Nim, 2026-11-23): the Research page holds the project grid, `/projects/` redirects to `/research/#projects`, and project pages keep their `/projects/<slug>/` URLs.
 - Internal pages, local files, and section anchors open in the same tab.
 - External websites open in a new tab with `rel="noopener noreferrer"`.
 - The CCE workshop is a separate site even though it shares the GitHub Pages hostname.

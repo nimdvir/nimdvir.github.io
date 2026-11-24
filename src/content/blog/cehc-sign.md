@@ -6,6 +6,7 @@ tags: ["Education"]
 image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1000,c_limit/v1795474493/PersonalSite/Blog/2025-10-10-cehc-sign/cehc-sign.jpg"
 imageAlt: "A CEHC sign with a large close-up of Nimrod Dvir, class of 2022, listing his PhD in Information Science with a specialization in human-computer interaction, his internship teaching undergraduate informatics classes, his position after graduating, and a quote about his time at CEHC"
 imageCaption: "Spotted on campus. Hard to miss."
+cardImage: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_720,h_450,c_fill,g_face/v1795474493/PersonalSite/Blog/2025-10-10-cehc-sign/cehc-sign.jpg"
 draft: false
 ---
 

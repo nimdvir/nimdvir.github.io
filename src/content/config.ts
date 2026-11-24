@@ -42,6 +42,8 @@ const blog = defineCollection({
       draft: z.boolean().default(true),
       imageAlt: z.string().optional(),
       imageCaption: z.string().optional(),
+      // A ready-sized 720x450 Cloudinary URL for post cards; falls back to image.
+      cardImage: z.string().optional(),
     })
     .superRefine(editorialChecks),
 });

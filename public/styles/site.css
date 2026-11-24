@@ -3483,3 +3483,281 @@ a {
   backdrop-filter: blur(14px);
   border-block: 1px solid var(--border);
 }
+
+/* Section bands: full-width color layers, like the walls on the Media page.
+   Add .band plus .band-white, .band-soft or .band-dark to a top-level section. */
+.media-tv {
+  border-top: 0;
+}
+:is(.section, .split-section, section).band {
+  position: relative;
+  margin-inline: calc(50% - 50vw);
+  padding: clamp(52px, 7vw, 84px) calc(50vw - 50%);
+  border-top: 0;
+  scroll-margin-top: 80px;
+}
+.band-white {
+  background: var(--bg);
+}
+.band-soft {
+  background:
+    radial-gradient(70% 60% at 100% 0%, var(--glow), transparent 62%),
+    radial-gradient(60% 50% at 0% 100%, rgb(11 95 176 / 0.06), transparent 62%),
+    var(--soft);
+}
+.band-dark {
+  --bg: #141c33;
+  --surface: rgb(255 255 255 / 0.06);
+  --soft: rgb(255 255 255 / 0.09);
+  --text: #f3f6fc;
+  --muted: #bdc7da;
+  --link: #a9c9ff;
+  --violet: #cfb8ff;
+  --teal: #86e8d2;
+  --border: rgb(255 255 255 / 0.16);
+  --shadow: 0 22px 54px -30px rgb(0 0 0 / 0.8);
+  --glow: rgb(170 150 255 / 0.2);
+  color: var(--text);
+  background:
+    radial-gradient(80% 70% at 12% 0%, rgb(227 194 124 / 0.13), transparent 60%),
+    radial-gradient(70% 60% at 100% 100%, rgb(124 92 255 / 0.3), transparent 62%),
+    linear-gradient(165deg, #121a30 0%, #1a2244 60%, #231e4a 100%);
+}
+.band-dark :is(.eyebrow, .status-label) {
+  color: #e3c27c;
+}
+.band > .band-inner {
+  max-width: var(--measure);
+  margin-inline: auto;
+}
+
+/* Blog page: header with a fan of recent post photos, photo cards, Instagram. */
+.page-intro.blog-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+  max-width: none;
+}
+.blog-intro h1 {
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+  margin: 0 0 14px;
+}
+.print-fan {
+  position: relative;
+  height: clamp(270px, 28vw, 330px);
+}
+.print-fan-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(140px, 14vw, 190px);
+  padding: 8px 8px 12px;
+  border-radius: 6px;
+  background: #fff;
+  color: #16202b;
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.3;
+  text-decoration: none;
+  box-shadow:
+    0 2px 4px rgb(0 0 0 / 0.2),
+    0 28px 54px -16px rgb(0 0 0 / 0.65);
+  transition:
+    rotate 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+    translate 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+    scale 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.print-fan-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border-radius: 3px;
+}
+.print-fan-item:nth-child(1) {
+  rotate: -9deg;
+  translate: -120% -47%;
+}
+.print-fan-item:nth-child(2) {
+  z-index: 1;
+  rotate: 2deg;
+  translate: -50% -54%;
+}
+.print-fan-item:nth-child(3) {
+  rotate: 10deg;
+  translate: 20% -45%;
+}
+.print-fan:hover .print-fan-item:nth-child(1) {
+  rotate: -12deg;
+  translate: -134% -49%;
+}
+.print-fan:hover .print-fan-item:nth-child(3) {
+  rotate: 13deg;
+  translate: 34% -47%;
+}
+.print-fan .print-fan-item:hover,
+.print-fan .print-fan-item:focus-visible {
+  z-index: 2;
+  rotate: 0deg;
+  scale: 1.07;
+  color: #16202b;
+}
+.blog-posts .section-head {
+  align-items: baseline;
+}
+.post-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 3vw, 30px);
+}
+.post-cards-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.post-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow:
+    0 1px 2px rgb(0 0 0 / 0.04),
+    0 24px 48px -30px rgb(32 56 82 / 0.45);
+  transition:
+    translate 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.post-card:hover {
+  translate: 0 -4px;
+  box-shadow:
+    0 2px 4px rgb(0 0 0 / 0.06),
+    0 34px 60px -30px rgb(32 56 82 / 0.6);
+}
+.post-card-visual {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: linear-gradient(140deg, #1a2244 0%, #3b2b7a 100%);
+}
+.post-card-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 0.6s ease;
+}
+.post-card:hover .post-card-visual img {
+  scale: 1.04;
+}
+.post-card-mark {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  padding: 4px 24px;
+  color: rgb(255 255 255 / 0.9);
+  font-family: var(--display, inherit);
+  font-size: clamp(5rem, 11vw, 8.5rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  background:
+    radial-gradient(70% 80% at 85% 10%, rgb(227 194 124 / 0.28), transparent 60%),
+    radial-gradient(60% 70% at 10% 100%, rgb(124 92 255 / 0.45), transparent 62%);
+}
+.post-card-body {
+  display: grid;
+  gap: 6px;
+  padding: 18px 22px 22px;
+}
+.post-card-body time {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.post-card-body :is(h2, h3) {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+.post-card-body :is(h2, h3) a {
+  color: var(--text);
+  text-decoration: none;
+}
+.post-card-body :is(h2, h3) a:hover {
+  color: var(--link);
+}
+.post-card-body p {
+  margin: 0;
+  color: var(--muted);
+}
+.post-card-body .post-meta {
+  font-size: 0.8rem;
+}
+.blog-instagram {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(24px, 4vw, 60px);
+  align-items: center;
+}
+.blog-instagram h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.03em;
+  margin: 4px 0 10px;
+}
+.blog-instagram-text p {
+  color: var(--muted);
+}
+.ig-embed {
+  justify-self: center;
+  width: 100%;
+  max-width: 540px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 30px 60px -30px rgb(0 0 0 / 0.75);
+}
+.ig-embed iframe {
+  display: block;
+  width: 100%;
+  height: 560px;
+  border: 0;
+}
+.blog-more p {
+  max-width: 62ch;
+  margin: 0;
+  font-size: 1.15rem;
+}
+.editorial-article:has(.more-posts.band) {
+  padding-bottom: 0;
+}
+.more-posts.band {
+  margin-top: 56px;
+}
+@media (max-width: 900px) {
+  .page-intro.blog-intro,
+  .blog-instagram {
+    grid-template-columns: 1fr;
+  }
+  .post-cards-3 {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .post-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .print-fan-item,
+  .post-card,
+  .post-card-visual img {
+    transition: none;
+  }
+}

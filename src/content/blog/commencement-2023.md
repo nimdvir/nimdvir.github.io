@@ -6,6 +6,7 @@ tags: ["Dissertation", "Education"]
 image: "https://res.cloudinary.com/dkndq6lyz/image/upload/f_auto,q_auto,w_1000,c_limit/v1795472673/PersonalSite/Blog/2023-05-23-commencement/ualbany-commencement-post.jpg"
 imageAlt: "UAlbany's Commencement 2023 post, with a video frame of Nim Dvir in a doctoral cap, eyes shut and smiling, being hugged by Ella Yaari"
 imageCaption: "From UAlbany's Commencement 2023 highlights, posted May 18, 2023."
+cardImage: "https://res.cloudinary.com/dkndq6lyz/image/upload/c_crop,x_0,y_590,w_1125,h_465/f_auto,q_auto,w_720,h_450,c_fill,g_face/v1795472673/PersonalSite/Blog/2023-05-23-commencement/ualbany-commencement-post.jpg"
 draft: false
 ---
 

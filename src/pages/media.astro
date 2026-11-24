@@ -65,10 +65,10 @@ const sections = [
 ].filter((s) => s.items.length > 0);
 
 const subnav = [
+  { id: "television", label: "Television" },
   ...(international.length ? [{ id: "international-interviews", label: "International interviews" }] : []),
   ...(israeli.length ? [{ id: "israeli-interviews", label: "Israeli interviews" }] : []),
   ...sections.map((s) => ({ id: s.id, label: s.label })),
-  { id: "television", label: "Television" },
 ];
 
 const own = articles.filter((a) => !a.data.thirdPartyCoverage);
@@ -105,45 +105,7 @@ const topics = (await topicsIn(["Articles"])).filter((t) => t.count > 1);
 
   <SectionMenu items={subnav} label="Media sections" />
 
-  {international.length > 0 && (
-    <InterviewWall
-      id="international-interviews"
-      eyebrow="Celebrity interviews"
-      heading="International"
-      lede="Hotel suites, junket tables and transatlantic phone lines. Click a face to read the interview."
-      articles={international}
-      tone="dark"
-    />
-  )}
-
-  {israeli.length > 0 && (
-    <InterviewWall
-      id="israeli-interviews"
-      eyebrow="Celebrity interviews"
-      heading="Israeli"
-      lede="Singers, actors, politicians and television people, in Tel Aviv and in New York."
-      articles={israeli}
-      tone="light"
-    />
-  )}
-
-  {sections.map((s) => (
-    <section class="section archive-section" id={s.id} aria-labelledby={`${s.id}-heading`}>
-      <div class="section-head">
-        <div>
-          <h2 id={`${s.id}-heading`}>{s.label}</h2>
-          <p class="small archive-section-lede">{s.lede}</p>
-        </div>
-      </div>
-      <div class="project-grid article-grid grid-3">
-        {s.items.map((article) => (
-          <ArticleCard article={article} headingLevel="h3" />
-        ))}
-      </div>
-    </section>
-  ))}
-
-  <section class="section archive-section" id="television" aria-labelledby="television-heading">
+  <section class="section archive-section media-tv" id="television" aria-labelledby="television-heading">
     <div class="section-head">
       <div>
         <h2 id="television-heading">Television</h2>
@@ -191,6 +153,45 @@ const topics = (await topicsIn(["Articles"])).filter((t) => t.count > 1);
       </article>
     </div>
   </section>
+
+  {international.length > 0 && (
+    <InterviewWall
+      id="international-interviews"
+      eyebrow="Celebrity interviews"
+      heading="International"
+      lede="Hotel suites, junket tables and transatlantic phone lines. Click a face to read the interview."
+      articles={international}
+      tone="dark"
+    />
+  )}
+
+  {israeli.length > 0 && (
+    <InterviewWall
+      id="israeli-interviews"
+      eyebrow="Celebrity interviews"
+      heading="Israeli"
+      lede="Singers, actors, politicians and television people, in Tel Aviv and in New York."
+      articles={israeli}
+      tone="light"
+    />
+  )}
+
+  {sections.map((s) => (
+    <section class="section archive-section" id={s.id} aria-labelledby={`${s.id}-heading`}>
+      <div class="section-head">
+        <div>
+          <h2 id={`${s.id}-heading`}>{s.label}</h2>
+          <p class="small archive-section-lede">{s.lede}</p>
+        </div>
+      </div>
+      <div class="project-grid article-grid grid-3">
+        {s.items.map((article) => (
+          <ArticleCard article={article} headingLevel="h3" />
+        ))}
+      </div>
+    </section>
+  ))}
+
 
   <section class="section archive-notes">
     <div class="section-head">

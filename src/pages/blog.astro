@@ -1,35 +1,82 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PostList from "../components/PostList.astro";
+import PostCards from "../components/PostCards.astro";
 import { getPosts } from "../utils/editorial";
 const posts = await getPosts();
+// The three most recent posts with photos, as prints in the header.
+const prints = posts
+  .filter((post) => post.data.cardImage)
+  .slice(0, 3)
+  .map((post) => ({
+    href: `/blog/${post.slug}/`,
+    title: post.data.title,
+    src: post.data.cardImage!.replace("w_720,h_450", "w_420,h_525"),
+  }));
 ---
 
 <Layout
   title="Blog"
-  description="Posts by Nim Dvir on research, teaching, and projects."
+  description="Posts by Nim Dvir on teaching and research, and the occasional poster with his name on it."
 >
-  <header class="page-intro editorial-intro">
-    <h1>Blog</h1>
-    <nav class="editorial-nav" aria-label="Writing and updates">
-      <a href="/blog/" aria-current="page">
-        Blog
-      </a>
-      <a href="/media/">Media</a>
-      <a href="/rss.xml">RSS</a>
-    </nav>
-  </header>
-  <section class="editorial-archive" aria-label="Blog posts">
-    {posts.length ? (
-      <PostList entries={posts} headingLevel="h2" />
-    ) : (
-      <div class="editorial-empty">
-        <h2>No posts yet.</h2>
-        <p>My translated journalism is in the articles archive.</p>
-        <a class="text-link" href="/media/">
-          Browse the archive
-        </a>
+  <header class="page-intro blog-intro">
+    <div class="blog-intro-text">
+      <h1>Blog</h1>
+      <p class="lede">
+        Updates on teaching and research, and the occasional poster with my
+        name on it.
+      </p>
+      <nav class="editorial-nav" aria-label="Writing">
+        <a href="/blog/" aria-current="page">Blog</a>
+        <a href="/media/">Other writing</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+    </div>
+    {prints.length > 0 && (
+      <div class="print-fan">
+        {prints.map((print) => (
+          <a class="print-fan-item" href={print.href}>
+            <img src={print.src} alt="" width="420" height="525" decoding="async" />
+            <span>{print.title}</span>
+          </a>
+        ))}
       </div>
     )}
+  </header>
+
+  <section class="band band-soft blog-posts" aria-labelledby="posts-heading">
+    <div class="section-head">
+      <h2 id="posts-heading">All posts</h2>
+      <span class="small">{posts.length} so far</span>
+    </div>
+    {posts.length ? (
+      <PostCards entries={posts} headingLevel="h3" />
+    ) : (
+      <p>No posts yet.</p>
+    )}
+  </section>
+
+  <section class="band band-dark blog-instagram" aria-labelledby="instagram-heading">
+    <div class="blog-instagram-text">
+      <p class="eyebrow">@nimdvir</p>
+      <h2 id="instagram-heading">On Instagram</h2>
+      <p>Same person, more photos.</p>
+      <a class="button" href="https://www.instagram.com/nimdvir/">
+        Follow on Instagram ↗
+      </a>
+    </div>
+    <div class="ig-embed">
+      <iframe
+        src="https://www.instagram.com/nimdvir/embed/"
+        title="Nim Dvir on Instagram"
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <section class="band band-white blog-more" aria-label="Other writing">
+    <p>
+      Looking for more? There's <a href="/media/">other writing</a>: fourteen
+      years of interviews, reviews and columns, translated from the Hebrew.
+    </p>
   </section>
 </Layout>

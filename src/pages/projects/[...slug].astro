@@ -15,14 +15,14 @@ const { Content } = await project.render();
   title={project.data.title}
   breadcrumbs={[
     { name: "Home", path: "/" },
-    { name: "Projects", path: "/projects/" },
+    { name: "Research and projects", path: "/research/" },
     { name: project.data.title, path: `/projects/${project.slug}/` },
   ]}
   description={project.data.summary}
   image={project.data.image}
 >
   <article class="case-study">
-    <a class="back-link" href="/projects/">
+    <a class="back-link" href="/research/#projects">
       ← All projects
     </a>
     <p class="eyebrow" style="margin-top:28px">
@@ -53,7 +53,7 @@ const { Content } = await project.render();
       ))}
     </ul>
     <div class="button-row">
-      <a class="button" href="/projects/">
+      <a class="button" href="/research/#projects">
         ← All projects
       </a>
     </div>

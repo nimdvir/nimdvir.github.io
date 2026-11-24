@@ -6,6 +6,10 @@ import { topicsIn } from "../utils/tags";
 import { getCollection } from "astro:content";
 import { getPublications } from "../utils/publications";
 import { verifiedResearch, cvUrl } from "../data/profile";
+const projects = (await getCollection("projects")).sort(
+  (a, b) => (a.data.sortOrder ?? 99) - (b.data.sortOrder ?? 99),
+);
+const categories = [...new Set(projects.map((p) => p.data.category))];
 const research = (await getCollection("research"))
   .filter((e) => verifiedResearch.includes(e.slug))
   .sort((a, b) => (a.data.sortOrder ?? 99) - (b.data.sortOrder ?? 99));
@@ -19,7 +23,8 @@ const workingPapers = allPublications.filter(
 const topics = await topicsIn(["Research", "Publications"]);
 const menu = [
   { id: "current-research", label: "Current research" },
-  { id: "research-projects", label: "Projects" },
+  { id: "research-projects", label: "Research projects" },
+  { id: "projects", label: "Design and UX projects" },
   { id: "publications", label: "Publications" },
   { id: "working-papers", label: "Working papers" },
   { id: "talks", label: "Talks" },
@@ -44,22 +49,25 @@ const manuscripts = [
 ---
 
 <Layout
-  title="Research | Language and Information Engagement"
-  description="Research by Nim Dvir on language, information engagement, digital learning, and decision-making."
+  title="Research and Projects | Language, Information Engagement and UX"
+  description="Research by Nim Dvir on language, information engagement, digital learning, and decision-making, with his UX research and design projects and student projects he advised."
 >
   <header class="page-intro intro-with-topics">
     <div class="intro-text">
-      <h1>Research</h1>
+      <h1>Research and projects</h1>
       <p class="lede">
         My research examines how wording and the amount of information people
         receive affect their understanding, engagement, and decisions. I use
         experiments, user research, and computational analysis of language.
+        The design and UX projects below come from the same questions, asked
+        for clients, plus student projects I advised.
       </p>
     </div>
     <TopicTicker topics={topics} />
   </header>
   <SectionMenu items={menu} label="Research sections" />
-  <section class="feature-panel" id="current-research" aria-labelledby="funded-title">
+  <section class="band band-dark" id="current-research" aria-labelledby="funded-title">
+  <div class="feature-panel">
     <div>
       <p class="small">Current research · 2026</p>
       <h2 id="funded-title">Language in mental health treatment courts</h2>
@@ -79,8 +87,9 @@ const manuscripts = [
         awarded in Spring 2026.
       </p>
     </div>
+  </div>
   </section>
-  <section class="section" id="research-projects" style="border-top:0">
+  <section class="section band band-white" id="research-projects">
     <div class="section-head">
       <div>
         <h2>Research projects</h2>
@@ -99,7 +108,62 @@ const manuscripts = [
       ))}
     </div>
   </section>
-  <section class="split-section" id="publications">
+  <section class="section band band-soft" id="projects" aria-labelledby="projects-heading">
+    <div class="section-head">
+      <div>
+        <h2 id="projects-heading">Design and UX projects</h2>
+        <p class="small archive-section-lede">
+          Professional work in user research and design, and student projects I
+          advised. Each page says what my role was.
+        </p>
+      </div>
+    </div>
+    <div class="project-filters" role="group" aria-label="Filter projects by category" hidden>
+      <button class="filter-button" data-filter="all" aria-pressed="true">
+        All projects
+      </button>
+      {categories.map((c) => (
+        <button class="filter-button" data-filter={c} aria-pressed="false">
+          {c}
+        </button>
+      ))}
+    </div>
+    <p id="filter-status" class="small" role="status" aria-live="polite">
+      {projects.length} projects shown
+    </p>
+    <div class="project-grid">
+      {projects.map((p, i) => (
+        <article class="card" data-project-category={p.data.category}>
+          <a
+            class="card-visual contain"
+            href={`/projects/${p.slug}/`}
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            {p.data.image ? (
+              <img src={p.data.image} alt="" width="640" height="400" loading="lazy" />
+            ) : (
+              <span class="project-monogram">
+                {String(i + 1).padStart(2, "0")} / {p.data.title.slice(0, 2).toUpperCase()}
+              </span>
+            )}
+          </a>
+          <div class="card-body">
+            <p class="eyebrow">{p.data.category}</p>
+            <h3>
+              <a href={`/projects/${p.slug}/`}>{p.data.title}</a>
+            </h3>
+            <p>{p.data.summary}</p>
+            {p.data.role && <p class="small">{p.data.role}</p>}
+            <a class="text-link" href={`/projects/${p.slug}/`}>
+              View project
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="split-section band band-white" id="publications">
     <div>
       <h2>Publications and dissertation</h2>
       <p class="small">
@@ -140,7 +204,7 @@ const manuscripts = [
       ))}
     </ul>
   </section>
-  <section class="split-section" id="working-papers">
+  <section class="split-section band band-soft" id="working-papers">
     <div>
       <h2>Working papers</h2>
       <p class="small">
@@ -171,7 +235,7 @@ const manuscripts = [
       ))}
     </ul>
   </section>
-  <section class="split-section" id="talks">
+  <section class="split-section band band-dark" id="talks">
     <h2>Selected talks</h2>
     <div>
       <ul class="reading-list">

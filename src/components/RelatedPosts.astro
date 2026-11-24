@@ -1,6 +1,6 @@
 ---
 import { getPosts } from "../utils/editorial";
-import PostList from "./PostList.astro";
+import PostCards from "./PostCards.astro";
 const { currentSlug } = Astro.props;
 const posts = (await getPosts())
   .filter((post) => post.slug !== currentSlug)
@@ -8,11 +8,11 @@ const posts = (await getPosts())
 ---
 
 {posts.length > 0 && (
-  <section class="more-posts" aria-labelledby="more-posts-heading">
+  <section class="more-posts band band-soft" aria-labelledby="more-posts-heading">
     <div class="section-head">
       <h2 id="more-posts-heading">More to read</h2>
       <a href="/blog/">All posts ↗</a>
     </div>
-    <PostList entries={posts} compact />
+    <PostCards entries={posts} columns={3} />
   </section>
 )}
