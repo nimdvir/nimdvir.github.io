@@ -17,6 +17,10 @@ source: Xnet
 sourceUrl: https://xnet.ynet.co.il/xo/articles/0,14718,L-3093217,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W093-silent-meditation-retreat/article.he.md
 citation: Dvir, N. (2012, February 12). Lama Nimrod Dvir margish hay tivi? [Why does Nimrod Dvir feel a natural high?]. Pnai Plus / Xnet. https://xnet.ynet.co.il/xo/articles/0,14718,L-3093217,00.html
+image: "/images/articles/W093-silent-meditation-retreat.jpg"
+imageAlt: "An empty meditation hall with rows of cushions and tall windows onto snowy pine trees"
+imageCaption: "AI-generated illustration."
+imageCredit: "AI-generated illustration, made for this site"
 tags:
 - Personal Essay
 - New York

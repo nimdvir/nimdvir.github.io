@@ -4,6 +4,9 @@ date: "2026-10-02"
 summary: "Updating the old portfolio, building with AI coding tools, and deleting a few slogans."
 tags: []
 draft: false
+image: "/images/blog/rebuilding-this-website.jpg"
+imageAlt: "A laptop on a desk at night, showing code beside a preview of a personal website, with a coffee mug in soft purple light"
+imageCaption: "AI-generated illustration."
 ---
 
 I wanted to update my website and keep the older work around. There are interviews here from my journalism years, projects from my work in user research, and material from my teaching. They belong here alongside the newer work.

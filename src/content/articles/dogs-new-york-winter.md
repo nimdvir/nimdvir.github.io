@@ -17,6 +17,10 @@ source: Xnet
 sourceUrl: https://xnet.ynet.co.il/xo/articles/0,,L-3092537,00.html
 hebrewSource: https://github.com/nimdvir/nimdvir.github.io/blob/main/data-source/writing/originals/W107-dogs-new-york-winter/article.he.md
 citation: 'Dvir, N. (2012, January 15). Doggy style: Hakhen kalbekha la-choref [Doggy style: Get your dog ready for winter]. Xnet. https://xnet.ynet.co.il/xo/articles/0,,L-3092537,00.html'
+image: "/images/articles/W107-dogs-new-york-winter.jpg"
+imageAlt: "A small dog in a knitted winter coat on a snowy New York sidewalk lined with brownstones"
+imageCaption: "AI-generated illustration."
+imageCredit: "AI-generated illustration, made for this site"
 tags:
 - Personal Essay
 - New York
