@@ -46,6 +46,12 @@ const manuscripts = [
     "",
   ],
 ];
+// Research card pictures: crop a Cloudinary image to the card's 16:10 frame.
+const cardCrop = (src: string) =>
+  src.replace(
+    /\/image\/upload\/[^/]*c_limit\//,
+    "/image/upload/f_auto,q_auto,w_720,h_450,c_fill,g_auto/",
+  );
 ---
 
 <Layout
@@ -97,7 +103,19 @@ const manuscripts = [
     </div>
     <div class="research-grid">
       {research.map((r) => (
-        <article class="plain-card">
+        <article class="plain-card research-card">
+          {r.data.image && (
+            <a class="research-card-visual" href={`/research/${r.slug}/`} tabindex="-1" aria-hidden="true">
+              <img
+                src={cardCrop(r.data.image)}
+                alt=""
+                width="720"
+                height="450"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          )}
           <p class="eyebrow">{r.data.category}</p>
           <h3>
             <a href={`/research/${r.slug}/`}>{r.data.title}</a>

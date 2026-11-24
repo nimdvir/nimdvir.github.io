@@ -4051,15 +4051,113 @@ a {
   }
 }
 
-/* Wall of faces: pop-in (InterviewWall.astro adds .pop-ready, then .is-in
-   per face as it scrolls into view). */
+/* Wall of faces: every tile rests a little crooked, like prints pinned to a
+   board. InterviewWall.astro adds .pop-ready, then .is-in per tile as it
+   scrolls into view: it springs up, lands at its tilt and then drifts gently.
+   The tile in focus (hover, keyboard, or the middle row on phones) straightens
+   and steps forward. */
+.face-tile {
+  --rest: -1.6deg;
+  transform: rotate(var(--rest));
+}
+.face-tile:nth-child(6n + 2) {
+  --rest: 1.3deg;
+}
+.face-tile:nth-child(6n + 3) {
+  --rest: -0.8deg;
+}
+.face-tile:nth-child(6n + 4) {
+  --rest: 1.8deg;
+}
+.face-tile:nth-child(6n + 5) {
+  --rest: -1.2deg;
+}
+.face-tile:nth-child(6n + 6) {
+  --rest: 0.9deg;
+}
+.face-tile:nth-child(4n + 1) {
+  --drift: 7.5s;
+}
+.face-tile:nth-child(4n + 2) {
+  --drift: 6.4s;
+}
+.face-tile:nth-child(4n + 3) {
+  --drift: 8.2s;
+}
+.face-tile:nth-child(4n) {
+  --drift: 7s;
+}
+.face-link {
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.45s ease;
+}
+/* Focus straightens the tile (undoing its tilt) and lifts it. */
+.face-link:hover,
+.face-link:focus-visible,
+.face-tile.is-center .face-link {
+  transform: rotate(calc(var(--rest) * -1)) scale(1.06);
+  box-shadow:
+    0 0 0 2px var(--glam-accent),
+    0 26px 44px -18px rgb(0 0 0 / 0.85);
+  z-index: 2;
+}
+.face-wall-light .face-link:hover,
+.face-wall-light .face-link:focus-visible,
+.face-wall-light .face-tile.is-center .face-link {
+  box-shadow:
+    0 0 0 2px var(--violet),
+    0 26px 44px -20px rgb(32 56 82 / 0.55);
+}
+.face-tile.is-center .face-visual img {
+  filter: saturate(1.1);
+}
+
+/* Story sections (set visits, features, columns, press): headline tiles. */
+.face-wall-stories .face-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+.face-wall-stories .face-name {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: clamp(0.95rem, 1.35vw, 1.1rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.face-wall-stories .face-initials {
+  font-size: clamp(2.6rem, 6vw, 4rem);
+}
+.face-wall + .face-wall {
+  margin-top: 0;
+}
+@media (max-width: 1100px) {
+  .face-wall-stories .face-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .face-wall-stories .face-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .face-wall-stories .face-caption {
+    padding: 40px 10px 10px;
+  }
+  .face-wall-stories .face-name {
+    font-size: 0.9rem;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .face-grid.pop-ready .face-tile {
     opacity: 0;
     transform: translateY(46px) scale(0.62) rotate(var(--tilt, 0deg));
   }
   .face-grid.pop-ready .face-tile.is-in {
-    animation: face-pop 0.85s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both;
+    animation:
+      face-pop 0.85s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms) both,
+      face-drift var(--drift, 7s) ease-in-out calc(var(--delay, 0ms) + 0.85s) infinite;
   }
   .face-grid.pop-ready .face-link::after {
     content: "";
@@ -4084,31 +4182,17 @@ a {
   .face-grid.pop-ready .face-tile.is-in .face-name {
     animation: face-rise 0.6s ease-out calc(var(--delay, 0ms) + 0.3s) both;
   }
-  /* Touch screens: the face crossing the middle of the screen steps forward. */
-  .face-grid.pop-ready .face-tile.is-in.is-center .face-link {
-    transform: scale(1.07);
-    box-shadow:
-      0 0 0 2px var(--glam-accent),
-      0 26px 44px -18px rgb(0 0 0 / 0.85);
-    z-index: 2;
-  }
-  .face-grid.pop-ready .face-tile .face-link {
-    transition:
-      transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-      box-shadow 0.45s ease;
-  }
-  .face-grid.pop-ready .face-tile.is-in.is-center .face-visual img {
-    filter: saturate(1.1);
-  }
   /* Mouse: faces tilt toward the pointer, with a soft glare. */
   @media (hover: hover) and (pointer: fine) {
     .face-grid.pop-ready .face-tile {
       perspective: 800px;
     }
     .face-grid.pop-ready .face-link:hover {
-      transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateZ(0) scale(1.03);
-      transition: transform 0.12s linear, box-shadow 0.3s ease;
-      box-shadow: 0 34px 50px -26px rgb(0 0 0 / 0.9);
+      transform: rotate(calc(var(--rest) * -1)) rotateX(var(--rx, 0deg))
+        rotateY(var(--ry, 0deg)) scale(1.05);
+      transition:
+        transform 0.12s linear,
+        box-shadow 0.3s ease;
     }
     .face-grid.pop-ready .face-link::before {
       content: "";
@@ -4139,11 +4223,20 @@ a {
     transform: translateY(-7px) scale(1.06) rotate(calc(var(--tilt, 0deg) * -0.25));
   }
   78% {
-    transform: translateY(2px) scale(0.985) rotate(0deg);
+    transform: translateY(2px) scale(0.985) rotate(var(--rest, 0deg));
   }
   100% {
     opacity: 1;
-    transform: none;
+    transform: rotate(var(--rest, 0deg));
+  }
+}
+@keyframes face-drift {
+  0%,
+  100% {
+    transform: rotate(var(--rest, 0deg)) translateY(0);
+  }
+  50% {
+    transform: rotate(calc(var(--rest, 0deg) * 0.55)) translateY(-4px);
   }
 }
 @keyframes face-sheen {
@@ -4227,5 +4320,65 @@ a {
   .post-thumb-mark {
     font-size: 2.7rem;
     padding-inline: 8px;
+  }
+}
+
+/* Research page: each research project card leads with its picture. */
+.research-card {
+  position: relative;
+  overflow: hidden;
+}
+.research-card-visual {
+  display: block;
+  aspect-ratio: 16 / 9;
+  margin: -28px -28px 20px;
+  overflow: hidden;
+  background: var(--soft);
+}
+.research-card-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.research-card:hover .research-card-visual img {
+  transform: scale(1.04);
+}
+@media (max-width: 650px) {
+  /* Phones: compact rows, like the design and UX project cards below. */
+  .research-card {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    column-gap: 14px;
+    align-content: start;
+    padding: 14px 16px 16px 14px;
+  }
+  .research-card > :not(.research-card-visual) {
+    grid-column: 2;
+  }
+  .research-card-visual {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    aspect-ratio: 1;
+    margin: 0;
+    border-radius: 12px;
+  }
+  .research-card .eyebrow {
+    font-size: 0.66rem;
+    margin-bottom: 4px;
+  }
+  .research-card h3 {
+    font-size: 1.08rem;
+    margin: 0 0 4px;
+  }
+  .research-card p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+  .research-card h3 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
   }
 }

@@ -1,6 +1,6 @@
 ---
 import type { Article } from "../utils/articles";
-import { articleMonogram, articlePortrait } from "../utils/articles";
+import { articleKindLabel, articleMonogram, articlePortrait } from "../utils/articles";
 
 interface Props {
   id: string;
@@ -9,14 +9,17 @@ interface Props {
   lede?: string;
   articles: Article[];
   tone?: "dark" | "light";
+  /** "faces" labels each tile with the person; "stories" with the headline. */
+  variant?: "faces" | "stories";
 }
-const { id, eyebrow, heading, lede, articles, tone = "dark" } = Astro.props;
+const { id, eyebrow, heading, lede, articles, tone = "dark", variant = "faces" } = Astro.props;
+const stories = variant === "stories";
 
 const nameOf = (a: Article) =>
-  a.data.interviewee || a.data.subjects[0] || a.data.title;
+  stories ? a.data.title : a.data.interviewee || a.data.subjects[0] || a.data.title;
 ---
 
-<section class={`face-wall face-wall-${tone}`} id={id} aria-labelledby={`${id}-heading`}>
+<section class={`face-wall face-wall-${tone}${stories ? " face-wall-stories" : ""}`} id={id} aria-labelledby={`${id}-heading`}>
   <div class="face-wall-head">
     <p class="eyebrow">{eyebrow}</p>
     <h2 id={`${id}-heading`}>{heading}</h2>
@@ -25,7 +28,7 @@ const nameOf = (a: Article) =>
   <ul class="face-grid" role="list">
     {articles.map((a) => {
       const d = a.data;
-      const portrait = articlePortrait(d.image, 600);
+      const portrait = articlePortrait(d.thumb && !d.image ? d.thumb : d.image, 600);
       return (
         <li class="face-tile" data-kind={d.kind}>
           <a href={`/articles/${a.slug}/`} class="face-link">
@@ -47,10 +50,11 @@ const nameOf = (a: Article) =>
             <span class="face-caption">
               <span class="face-name">{nameOf(a)}</span>
               <span class="face-meta">
+                {stories && <span class="face-kind">{articleKindLabel(d.kind)} · </span>}
                 <span class="face-source">{d.source} · </span>
                 {d.date.slice(0, 4)}
               </span>
-              <span class="face-headline">{d.title}</span>
+              <span class="face-headline">{stories ? d.summary : d.title}</span>
             </span>
           </a>
         </li>

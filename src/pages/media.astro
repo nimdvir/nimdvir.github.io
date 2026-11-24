@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import ArticleCard from "../components/ArticleCard.astro";
 import InterviewWall from "../components/InterviewWall.astro";
 import TopicTicker from "../components/TopicTicker.astro";
 import SectionMenu from "../components/SectionMenu.astro";
@@ -176,22 +175,17 @@ const topics = (await topicsIn(["Articles"])).filter((t) => t.count > 1);
     />
   )}
 
-  {sections.map((s) => (
-    <section class="section archive-section" id={s.id} aria-labelledby={`${s.id}-heading`}>
-      <div class="section-head">
-        <div>
-          <h2 id={`${s.id}-heading`}>{s.label}</h2>
-          <p class="small archive-section-lede">{s.lede}</p>
-        </div>
-      </div>
-      <div class="project-grid article-grid grid-3">
-        {s.items.map((article) => (
-          <ArticleCard article={article} headingLevel="h3" />
-        ))}
-      </div>
-    </section>
+  {sections.map((s, i) => (
+    <InterviewWall
+      id={s.id}
+      eyebrow="Journalism"
+      heading={s.label}
+      lede={s.lede}
+      articles={s.items}
+      tone="light"
+      variant="stories"
+    />
   ))}
-
 
   <section class="section archive-notes">
     <div class="section-head">

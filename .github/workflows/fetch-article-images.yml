@@ -8,9 +8,10 @@ on:
   workflow_dispatch:
     inputs:
       ids:
-        description: "Article IDs, space separated (e.g. W159 W162)"
+        description: "Article IDs, space separated"
         required: true
         type: string
+        default: "W159 W092 W095 W080 W114 W062 W198 W087 W197 W162 W079 W106"
 
 permissions:
   contents: write
