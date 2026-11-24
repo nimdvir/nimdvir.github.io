@@ -84,7 +84,7 @@ When the admin passcode is rotated, update it in tmplat too. To give tmplat its 
 ## Routes
 
 - `/<slug>` redirects with HTTP 302 (or shows the path for path links)
-- `/admin` opens the private dashboard
+- `/admin` opens the private dashboard. `/admin?url=…&title=…&slug=…` opens it with the create form filled in (used by the "Short link (name it)" bookmarklet); after Create, the new link is copied to the clipboard
 - `/api/admin` powers admin CRUD and statistics
 - `/mcp` is the AI connector (bearer token required)
 - `/api/yourls` is the YOURLS-compatible endpoint for tmplat (signature required)
