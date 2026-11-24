@@ -2,8 +2,9 @@
 // extension) can create short links here. Only `action=shorturl` is supported.
 //
 // Auth is YOURLS "advanced" mode: the client sends `timestamp` and `signature`, where
-// signature = sha256(timestamp + YOURLS_SIGNATURE) (or md5 when `hash` is not given), so the
-// token itself never travels. Signatures expire after 12 hours, like YOURLS.
+// signature = sha256(timestamp + token) (or md5 when `hash` is not given), so the token itself
+// never travels. The token is YOURLS_SIGNATURE if set, otherwise the admin passcode.
+// Signatures expire after 12 hours, like YOURLS.
 import { createHash, timingSafeEqual } from "node:crypto";
 import { resolveAndCreate } from "../../../lib/links";
 import { originOf } from "../../../lib/oauth";
@@ -26,7 +27,7 @@ function safeEqual(a, b) {
 }
 
 function signatureValid(params) {
-  const token = process.env.YOURLS_SIGNATURE || "";
+  const token = process.env.YOURLS_SIGNATURE || process.env.SHORTENER_ADMIN_SECRET || "";
   const timestamp = params.get("timestamp") || "";
   const signature = (params.get("signature") || "").toLowerCase();
   const hash = (params.get("hash") || "md5").toLowerCase();

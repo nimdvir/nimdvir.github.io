@@ -17,7 +17,7 @@ Set these only on the Vercel project:
 - `SUPABASE_URL`
 - `SUPABASE_PUBLISHABLE_KEY`
 - `SHORTENER_ADMIN_SECRET`
-- `YOURLS_SIGNATURE` (optional): turns on the YOURLS-compatible endpoint for tmplat. Use a new random value, not the admin secret.
+- `YOURLS_SIGNATURE` (optional): a separate token for the tmplat endpoint. If unset, tmplat uses the admin passcode.
 
 The Supabase publishable key is intentionally low privilege. Row Level Security controls access. The admin secret is never exposed to browser JavaScript except when Nim types it into the admin page; the dashboard keeps it in session storage for the current tab/session.
 
@@ -68,7 +68,7 @@ Setup in each app (address `https://d.nimdvir.com/mcp`):
 
 `/api/yourls` speaks the YOURLS API, so tmplat's `{#shorten}{url}{/shorten}` makes `d.nimdvir.com` links. It only creates links (`action=shorturl`). It can't list, change or delete them.
 
-- **Auth:** YOURLS "advanced" mode. tmplat sends a timestamp and `sha256(timestamp + YOURLS_SIGNATURE)`, so the token itself never travels. Signatures expire after 12 hours.
+- **Auth:** YOURLS "advanced" mode. tmplat sends a timestamp and `sha256(timestamp + token)`, where the token is the admin passcode (or `YOURLS_SIGNATURE` if set), so the token itself never travels. Signatures expire after 12 hours.
 - **Names:** taken from the end of the URL path, or the site name. Opaque IDs and words like `edit` are skipped. Otherwise a fun pair is suggested.
 - **Repeats:** a URL that already has a short link gets that link back, so running a template twice doesn't create duplicates.
 - **Source column:** `tmplat`.
@@ -77,9 +77,9 @@ Setup in tmplat (Options > Settings > URL shorteners):
 
 1. Service: **YOURLS**.
 2. URL: `https://d.nimdvir.com/api/yourls`.
-3. Authentication: **signature token** (advanced), with the same value as `YOURLS_SIGNATURE`.
+3. Authentication: **signature token** (advanced), with the admin passcode as the token.
 
-To turn it off, remove `YOURLS_SIGNATURE` from Vercel and redeploy.
+When the admin passcode is rotated, update it in tmplat too. To give tmplat its own token instead, set `YOURLS_SIGNATURE` and redeploy.
 
 ## Routes
 
