@@ -17,6 +17,7 @@ Set these only on the Vercel project:
 - `SUPABASE_URL`
 - `SUPABASE_PUBLISHABLE_KEY`
 - `SHORTENER_ADMIN_SECRET`
+- `YOURLS_SIGNATURE` (optional): turns on the YOURLS-compatible endpoint for tmplat. Use a new random value, not the admin secret.
 
 The Supabase publishable key is intentionally low privilege. Row Level Security controls access. The admin secret is never exposed to browser JavaScript except when Nim types it into the admin page; the dashboard keeps it in session storage for the current tab/session.
 
@@ -63,10 +64,28 @@ Setup in each app (address `https://d.nimdvir.com/mcp`):
 2. **ChatGPT:** Settings > Apps & Connectors > Advanced > turn on Developer mode, then create a connector with the address and OAuth. Developer mode may require a Business, Enterprise or Edu plan.
 3. **Gemini:** on gemini.google.com, Settings > Connected apps > add a custom app with the address (personal US accounts with Keep Activity on).
 
+## tmplat (browser extension)
+
+`/api/yourls` speaks the YOURLS API, so tmplat's `{#shorten}{url}{/shorten}` makes `d.nimdvir.com` links. It only creates links (`action=shorturl`). It can't list, change or delete them.
+
+- **Auth:** YOURLS "advanced" mode. tmplat sends a timestamp and `sha256(timestamp + YOURLS_SIGNATURE)`, so the token itself never travels. Signatures expire after 12 hours.
+- **Names:** taken from the end of the URL path, or the site name. Opaque IDs and words like `edit` are skipped. Otherwise a fun pair is suggested.
+- **Repeats:** a URL that already has a short link gets that link back, so running a template twice doesn't create duplicates.
+- **Source column:** `tmplat`.
+
+Setup in tmplat (Options > Settings > URL shorteners):
+
+1. Service: **YOURLS**.
+2. URL: `https://d.nimdvir.com/api/yourls`.
+3. Authentication: **signature token** (advanced), with the same value as `YOURLS_SIGNATURE`.
+
+To turn it off, remove `YOURLS_SIGNATURE` from Vercel and redeploy.
+
 ## Routes
 
 - `/<slug>` redirects with HTTP 302 (or shows the path for path links)
 - `/admin` opens the private dashboard
 - `/api/admin` powers admin CRUD and statistics
 - `/mcp` is the AI connector (bearer token required)
+- `/api/yourls` is the YOURLS-compatible endpoint for tmplat (signature required)
 - `/oauth/register`, `/oauth/authorize` and `/oauth/token` handle sign-in. `/.well-known/oauth-protected-resource` and `/.well-known/oauth-authorization-server` describe it.
