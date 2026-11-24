@@ -6,7 +6,7 @@
 // never travels. The token is YOURLS_SIGNATURE if set, otherwise the admin passcode.
 // Signatures expire after 12 hours, like YOURLS.
 import { createHash, timingSafeEqual } from "node:crypto";
-import { resolveAndCreate } from "../../../lib/links";
+import { resolveAndCreate, SLUG_RULE } from "../../../lib/links";
 import { originOf } from "../../../lib/oauth";
 
 export const runtime = "nodejs";
@@ -57,7 +57,28 @@ async function handle(params, request) {
   if (!signatureValid(params)) return fail("error:auth", "Please log in", 403);
   if ((params.get("action") || "") !== "shorturl") return fail("error:action", "Only action=shorturl is supported", 400);
 
-  const destination = params.get("url") || "";
+  // tmplat can only send a URL, so its templates ask for a name by adding a marker to the end:
+  //   ...#~name=<name>   use this name (e.g. kebab-cased selected text); empty means automatic
+  //   ...#~random        a new link with a random name, even if the page already has one
+  let destination = params.get("url") || "";
+  let name = params.get("keyword") || "";
+  let random = false;
+  const marker = destination.match(/#~(?:name=([^#]*)|random)$/);
+  if (marker) {
+    destination = destination.slice(0, marker.index);
+    if (marker[1] === undefined) random = true;
+    else {
+      let decoded = marker[1];
+      try {
+        decoded = decodeURIComponent(decoded);
+      } catch {}
+      name = decoded.trim().toLowerCase().replace(/\s+/g, "-").slice(0, 48).replace(/[-_]+$/, "");
+      if (name && !SLUG_RULE.test(name)) {
+        return fail("error:keyword", "A short link name can only use a-z, 0-9, - and _", 400);
+      }
+    }
+  }
+
   const { title, parent } = titleFromUrl(destination);
   let r;
   try {
@@ -66,9 +87,12 @@ async function handle(params, request) {
       destination,
       // Paths are not accepted here; only web links.
       type: "url",
-      name: params.get("keyword") || "",
-      // suggestSlug uses the title first, then the parent name if the title is generic.
-      title: title || parent,
+      name,
+      // An empty title makes suggestSlug pick a random pair such as "sleepy-otter".
+      // Otherwise it uses the title first, then the parent name if the title is generic.
+      title: random ? "" : title || parent,
+      // A chosen or random name is a deliberate new link, even if the page already has one.
+      alsoCreate: random || Boolean(name),
       createdVia: "tmplat",
     });
   } catch (error) {
