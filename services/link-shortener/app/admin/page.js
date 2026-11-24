@@ -145,7 +145,7 @@ export default function AdminPage() {
         <h2>Links</h2>
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Short link</th><th>Destination</th><th>Clicks</th><th>Status</th><th>Actions</th></tr></thead>
+            <thead><tr><th>Short link</th><th>Destination</th><th>Clicks</th><th>Source</th><th>Status</th><th>Actions</th></tr></thead>
             <tbody>
               {(data?.links || []).map((link) => (
                 <tr key={link.id}>
@@ -154,6 +154,7 @@ export default function AdminPage() {
                     ? <span className="code">{link.destination_url}</span>
                     : <a href={link.destination_url} target="_blank" rel="noreferrer">{link.destination_url}</a>}</td>
                   <td>{link.click_count || 0}</td>
+                  <td className="muted">{link.created_via || "—"}</td>
                   <td><span className="pill">{link.is_active ? "Active" : "Paused"}</span></td>
                   <td>
                     <div className="actions">
@@ -164,7 +165,31 @@ export default function AdminPage() {
                   </td>
                 </tr>
               ))}
-              {!data?.links?.length && <tr><td colSpan="5" className="muted">No links yet.</td></tr>}
+              {!data?.links?.length && <tr><td colSpan="6" className="muted">No links yet.</td></tr>}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="card" style={{ marginBottom: 18 }}>
+        <h2>Connected AI chats</h2>
+        <p className="muted">Chats that can create and list links through <span className="code">/mcp</span>. Disconnecting stops them at once; they can reconnect only with the passcode.</p>
+        <div className="table-wrap">
+          <table>
+            <thead><tr><th>Chat</th><th>From</th><th>Connected</th><th>Last used</th><th>Actions</th></tr></thead>
+            <tbody>
+              {(data?.apps || []).map((app) => (
+                <tr key={app.client_id}>
+                  <td>{app.client_name || "AI chat"}</td>
+                  <td className="code">{app.redirect_host || "—"}</td>
+                  <td>{new Date(app.created_at).toLocaleDateString()}</td>
+                  <td>{app.last_used_at ? new Date(app.last_used_at).toLocaleString() : "Never"}</td>
+                  <td>
+                    <button className="danger" onClick={() => { if (window.confirm("Disconnect " + (app.client_name || "this chat") + "?")) act({ action: "revoke_app", client_id: app.client_id }); }}>Disconnect</button>
+                  </td>
+                </tr>
+              ))}
+              {!data?.apps?.length && <tr><td colSpan="5" className="muted">No chats connected yet.</td></tr>}
             </tbody>
           </table>
         </div>

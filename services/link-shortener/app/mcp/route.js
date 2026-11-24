@@ -1,0 +1,127 @@
+// MCP connector for AI chats: create and list short links (no delete, no pause).
+// Stateless Streamable HTTP: each request gets a fresh server; the bearer token is checked first.
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
+import { z } from "zod";
+import { fetchAllLinks, resolveAndCreate } from "../../lib/links";
+import { authenticate, CORS, originOf, preflight } from "../../lib/oauth";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+const INSTRUCTIONS = `Creates short links at d.nimdvir.com for Nim Dvir.
+- Use create_short_link when Nim asks to shorten a link, a file or a path.
+- Google Drive file: first get its link (https://drive.google.com/...) from the Google Drive connector, and pass the file name as title.
+- A Windows path (G:\\...) becomes a link that shows the path as plain text.
+- Leave name out unless Nim chose one: the server suggests a short name from the title.
+- Names are 1-48 lowercase letters, numbers, hyphens or underscores. The name Nim chooses wins: if it's taken, ask for another. If the destination already has a short link, ask before creating a second one.
+- Reply with just the short link unless Nim asks for more.
+- This connector can't delete or pause links. For that, send Nim to https://d.nimdvir.com/admin.`;
+
+const text = (value, isError = false) => ({ content: [{ type: "text", text: value }], ...(isError ? { isError: true } : {}) });
+
+function buildServer(origin, auth) {
+  const server = new McpServer({ name: "nimdvir-short-links", version: "1.0.0" }, { instructions: INSTRUCTIONS });
+
+  server.registerTool(
+    "create_short_link",
+    {
+      title: "Create short link",
+      description:
+        "Create a short link at d.nimdvir.com. Destination is a web link (https://...) or a Windows path (G:\\...). Leave name out to get a suggested name.",
+      inputSchema: {
+        destination: z.string().min(1).max(2000).describe("Web link, or a Windows path like G:\\My Drive\\notes.md. For a Google Drive file, its drive.google.com link."),
+        name: z.string().max(48).optional().describe("The short name after d.nimdvir.com/. Only if Nim chose one."),
+        title: z.string().max(160).optional().describe("File or page name. Used to suggest the name and shown in the admin page."),
+        type: z.enum(["url", "path"]).optional().describe("Usually leave out: detected from the destination."),
+        also_create: z.boolean().optional().describe("Only after Nim agrees: create this name even though the destination already has a short link."),
+      },
+      annotations: { title: "Create short link", readOnlyHint: false, destructiveHint: false, idempotentHint: false, openWorldHint: false },
+    },
+    async ({ destination, name, title, type, also_create }) => {
+      const r = await resolveAndCreate({
+        origin,
+        destination,
+        type,
+        name,
+        title,
+        alsoCreate: Boolean(also_create),
+        createdVia: auth.platform,
+      });
+      switch (r.status) {
+        case "created":
+          return text(`${r.url}\n${r.type === "path" ? "Shows the path" : "Opens"}: ${r.destination}`);
+        case "exists-same":
+          return text(`${r.url} already points there. Use it.`);
+        case "has-other":
+          return text(
+            `This destination already has ${r.existing.join(", ")}. Ask Nim: use that link, or also create ${origin}/${r.slug}? ` +
+              `To create it, call again with name "${r.slug}" and also_create: true.`
+          );
+        case "taken":
+          return text(`${r.message} Ask Nim for another name, or leave name out to get a free suggestion.`, true);
+        default:
+          return text(r.message || "Couldn't create the link.", true);
+      }
+    }
+  );
+
+  server.registerTool(
+    "list_short_links",
+    {
+      title: "List short links",
+      description: "List Nim's short links, newest first. Optionally filter by text in the name, title or destination.",
+      inputSchema: {
+        search: z.string().max(200).optional().describe("Text to look for."),
+        limit: z.number().int().min(1).max(100).optional().describe("How many to return (default 25)."),
+      },
+      annotations: { title: "List short links", readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
+    },
+    async ({ search, limit }) => {
+      const q = String(search || "").toLowerCase();
+      const links = (await fetchAllLinks())
+        .filter((l) => !q || [l.slug, l.title, l.destination_url].some((v) => String(v || "").toLowerCase().includes(q)))
+        .slice(0, limit || 25);
+      if (!links.length) return text(q ? `No short links match "${search}".` : "No short links yet.");
+      const lines = links.map(
+        (l) =>
+          `${origin}/${l.slug} -> ${l.destination_url}` +
+          ` (${l.link_type === "path" ? "path" : "link"}${l.is_active ? "" : ", paused"}, ${l.click_count || 0} clicks` +
+          `${l.title ? `, "${l.title}"` : ""}, ${String(l.created_at).slice(0, 10)})`
+      );
+      return text(lines.join("\n"));
+    }
+  );
+
+  return server;
+}
+
+async function handle(request) {
+  const origin = originOf(request);
+  const auth = await authenticate(request).catch(() => null);
+  if (!auth) {
+    const hadToken = /^Bearer\s/i.test(request.headers.get("authorization") || "");
+    return new Response(JSON.stringify({ error: hadToken ? "invalid_token" : "unauthorized" }), {
+      status: 401,
+      headers: {
+        "Content-Type": "application/json",
+        "WWW-Authenticate":
+          `Bearer resource_metadata="${origin}/.well-known/oauth-protected-resource/mcp"` + (hadToken ? ', error="invalid_token"' : ""),
+        ...CORS,
+      },
+    });
+  }
+
+  const server = buildServer(origin, auth);
+  const transport = new WebStandardStreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
+  await server.connect(transport);
+  const response = await transport.handleRequest(request);
+  const headers = new Headers(response.headers);
+  for (const [k, v] of Object.entries(CORS)) headers.set(k, v);
+  return new Response(response.body, { status: response.status, headers });
+}
+
+export const POST = handle;
+export const GET = handle;
+export const DELETE = handle;
+export const OPTIONS = preflight;

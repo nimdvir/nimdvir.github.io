@@ -48,8 +48,25 @@ Last rotated on 2026-11-23. The right-click tool keeps its copy in `%LOCALAPPDAT
 - `url` (default): `/<slug>` redirects with HTTP 302.
 - `path`: stores a local Windows path (`G:\...`). `/<slug>` returns just the path as plain text, because a browser can't open a local file from a web link. Anyone with the short link can read the path.
 
+## AI chats (connector)
+
+Claude, ChatGPT and Gemini can create and list short links through the MCP connector at `https://d.nimdvir.com/mcp`. They can't delete or pause links.
+
+- **Sign-in:** standard OAuth 2.1 with PKCE. A chat registers itself (`/oauth/register`), then opens `/oauth/authorize`, where Nim types the admin passcode once and clicks Allow. The chat gets its own token (30 days, renewed automatically; refresh tokens rotate). Only Claude, ChatGPT, Google and localhost return addresses can register.
+- **Disconnect:** in `/admin`, under "Connected AI chats". It takes effect at once, and reconnecting needs the passcode again.
+- **Source column:** links record who made them (`claude`, `chatgpt`, `gemini`, `right-click`, `admin`).
+- Names follow the same rules as the right-click tool (`lib/links.js`). Leave the name out to get one suggested from the title, and the chosen name always wins.
+
+Setup in each app (address `https://d.nimdvir.com/mcp`):
+
+1. **Claude:** Settings > Connectors > Add custom connector. Name it "Short links", paste the address, then Connect and approve with the passcode.
+2. **ChatGPT:** Settings > Apps & Connectors > Advanced > turn on Developer mode, then create a connector with the address and OAuth. Developer mode may require a Business, Enterprise or Edu plan.
+3. **Gemini:** on gemini.google.com, Settings > Connected apps > add a custom app with the address (personal US accounts with Keep Activity on).
+
 ## Routes
 
 - `/<slug>` redirects with HTTP 302 (or shows the path for path links)
 - `/admin` opens the private dashboard
 - `/api/admin` powers admin CRUD and statistics
+- `/mcp` is the AI connector (bearer token required)
+- `/oauth/register`, `/oauth/authorize` and `/oauth/token` handle sign-in. `/.well-known/oauth-protected-resource` and `/.well-known/oauth-authorization-server` describe it.

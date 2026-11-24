@@ -1,37 +1,17 @@
 import { NextResponse } from "next/server";
 import { dbFetch, isAdminRequest } from "../../../lib/db";
+import { cleanCreatedVia, validatePath, validateSlug, validateUrl } from "../../../lib/links";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const RESERVED = new Set(["admin", "api", "_next", "favicon.ico", "robots.txt"]);
-
-function validateSlug(value) {
-  const slug = String(value || "").trim().toLowerCase();
-  if (!/^[a-z0-9][a-z0-9_-]{0,47}$/.test(slug)) {
-    throw new Error("Slug must be 1-48 characters using lowercase letters, numbers, hyphens, or underscores.");
-  }
-  if (RESERVED.has(slug)) throw new Error("That slug is reserved.");
-  return slug;
-}
-
-function validateUrl(value) {
-  const url = new URL(String(value || "").trim());
-  if (!["http:", "https:"].includes(url.protocol)) throw new Error("Destination must use http or https.");
-  return url.toString();
-}
-
-// A local Windows path such as G:\My Drive\notes.md (surrounding quotes are dropped).
-function validatePath(value) {
-  const path = String(value || "").trim().replace(/^"(.*)"$/, "$1").trim();
-  if (!/^[A-Za-z]:[\\/]/.test(path)) throw new Error("Path must start with a drive letter, like G:\\.");
-  if (path.length > 1000 || /[\u0000-\u001f]/.test(path)) throw new Error("That path is too long or has control characters.");
-  return path;
-}
-
 async function getDashboard(secret) {
   const links = await dbFetch(
-    "/rest/v1/short_links?select=id,slug,destination_url,link_type,title,is_active,click_count,last_clicked_at,created_at&order=created_at.desc",
+    "/rest/v1/short_links?select=id,slug,destination_url,link_type,title,is_active,click_count,last_clicked_at,created_via,created_at&order=created_at.desc",
+    { adminSecret: secret }
+  );
+  const apps = await dbFetch(
+    "/rest/v1/shortener_oauth_clients?select=client_id,client_name,redirect_host,created_at,last_used_at&order=created_at.desc",
     { adminSecret: secret }
   );
   const recentClicks = await dbFetch(
@@ -41,6 +21,7 @@ async function getDashboard(secret) {
 
   return {
     links: links || [],
+    apps: apps || [],
     recentClicks: recentClicks || [],
     summary: {
       links: (links || []).length,
@@ -78,12 +59,13 @@ export async function POST(request) {
       const link_type = body.link_type === "path" ? "path" : "url";
       const destination_url = link_type === "path" ? validatePath(body.destination_url) : validateUrl(body.destination_url);
       const title = String(body.title || "").trim().slice(0, 160) || null;
+      const created_via = cleanCreatedVia(body.created_via, "admin");
 
       const created = await dbFetch("/rest/v1/short_links", {
         method: "POST",
         adminSecret: secret,
         headers: { Prefer: "return=representation" },
-        body: { slug, destination_url, link_type, title },
+        body: { slug, destination_url, link_type, title, created_via },
       });
       return NextResponse.json({ ok: true, link: created?.[0] || null });
     }
@@ -104,6 +86,18 @@ export async function POST(request) {
       const id = Number(body.id);
       if (!Number.isInteger(id) || id < 1) throw new Error("Invalid link ID.");
       await dbFetch("/rest/v1/short_links?id=eq." + id, {
+        method: "DELETE",
+        adminSecret: secret,
+        headers: { Prefer: "return=minimal" },
+      });
+      return NextResponse.json({ ok: true });
+    }
+
+    // Disconnect an AI chat: deleting its client also deletes its codes and tokens.
+    if (action === "revoke_app") {
+      const clientId = String(body.client_id || "");
+      if (!/^[A-Za-z0-9_-]{8,80}$/.test(clientId)) throw new Error("Invalid app ID.");
+      await dbFetch("/rest/v1/shortener_oauth_clients?client_id=eq." + encodeURIComponent(clientId), {
         method: "DELETE",
         adminSecret: secret,
         headers: { Prefer: "return=minimal" },
