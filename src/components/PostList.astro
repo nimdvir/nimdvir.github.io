@@ -5,14 +5,44 @@ interface Props {
   entries: CollectionEntry<"blog">[];
   headingLevel?: "h2" | "h3";
   compact?: boolean;
+  thumbs?: boolean;
 }
-const { entries, headingLevel = "h3", compact = false } = Astro.props;
+const { entries, headingLevel = "h3", compact = false, thumbs = false } = Astro.props;
 const Heading = headingLevel;
+// A small square picture for each post: the card crop when there is one,
+// otherwise the cover image cropped square, otherwise the title's first letter.
+const thumbOf = (post: CollectionEntry<"blog">) => {
+  if (post.data.cardImage?.includes("w_720,h_450"))
+    return post.data.cardImage.replace("w_720,h_450", "w_240,h_240");
+  const src = post.data.cardImage ?? post.data.image;
+  if (!src) return null;
+  return src.includes("/image/upload/")
+    ? src.replace(
+        /\/image\/upload\/(?:[^/]*[a-z]_[^/]*\/)?/,
+        "/image/upload/f_auto,q_auto,w_240,h_240,c_fill,g_auto/",
+      )
+    : src;
+};
 ---
 
-<ul class:list={["dated-list", "post-list", { "post-list-full": !compact }]}>
+<ul
+  class:list={[
+    "dated-list",
+    "post-list",
+    { "post-list-full": !compact, "post-list-thumbs": thumbs },
+  ]}
+>
   {entries.map((post) => (
     <li>
+      {thumbs && (
+        <a class="post-thumb" href={`/blog/${post.slug}/`} tabindex="-1" aria-hidden="true">
+          {thumbOf(post) ? (
+            <img src={thumbOf(post)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+          ) : (
+            <span class="post-thumb-mark">{post.data.title.slice(0, 1)}</span>
+          )}
+        </a>
+      )}
       <time datetime={post.data.date}>{formatDate(post.data.date)}</time>
       <div>
         <Heading>
