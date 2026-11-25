@@ -26,7 +26,7 @@ const sized = (src: string) =>
       <li class="post-card">
         <a class="post-card-visual" href={`/blog/${post.slug}/`} tabindex="-1" aria-hidden="true">
           {img ? (
-            <img src={img} alt="" width="720" height="450" loading="lazy" decoding="async" />
+            <img src={img} alt={post.data.imageAlt ?? post.data.title} width="720" height="450" loading="lazy" decoding="async" />
           ) : (
             <span class="post-card-mark">{post.data.title.slice(0, 1)}</span>
           )}

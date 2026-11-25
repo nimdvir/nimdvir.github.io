@@ -35,7 +35,7 @@ const prints = posts
       <div class="print-fan">
         {prints.map((print) => (
           <a class="print-fan-item" href={print.href}>
-            <img src={print.src} alt="" width="420" height="525" decoding="async" />
+            <img src={print.src} alt={print.title} width="420" height="525" decoding="async" />
             <span>{print.title}</span>
           </a>
         ))}

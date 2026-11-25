@@ -60,7 +60,8 @@ const articleSchema = {
     publisher: { "@type": "Organization", name: d.source },
     datePublished: d.date,
   },
-  ...(d.image ? { image: d.image } : {}),
+  ...(d.image ? { image: new URL(d.image, Astro.site).href } : {}),
+  isPartOf: { "@id": new URL("#website", Astro.site).href },
   keywords: d.tags.join(", "),
 };
 const kind = articleKindLabel(d.kind);
@@ -81,6 +82,8 @@ const upNext =
   description={d.summary}
   type="article"
   image={d.image}
+  imageAlt={d.imageAlt}
+  publishedTime={d.date}
   structuredData={[articleSchema]}
   breadcrumbs={[
     { name: "Home", path: "/" },
@@ -101,7 +104,7 @@ const upNext =
     {d.image ? (
       <figure class="editorial-cover article-cover article-hero">
         <div class="cover-frame" style={`--cover: url("${d.image}")`}>
-          <img src={d.image} alt={d.imageAlt ?? ""} loading="eager" />
+          <img src={d.image} alt={d.imageAlt ?? d.title} loading="eager" />
         </div>
         <figcaption>
           {d.imageCaption && <span>{d.imageCaption}</span>}

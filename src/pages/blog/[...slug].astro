@@ -28,6 +28,8 @@ const articleSchema = {
   url: articleUrl,
   mainEntityOfPage: articleUrl,
   datePublished: post.data.date,
+  inLanguage: "en",
+  isPartOf: { "@id": new URL("#website", Astro.site).href },
   author: {
     "@type": "Person",
     "@id": new URL("#person", Astro.site).href,
@@ -51,6 +53,8 @@ const articleSchema = {
     { name: post.data.title, path: `/blog/${post.slug}/` },
   ]}
   image={post.data.image}
+  imageAlt={post.data.imageAlt}
+  publishedTime={post.data.date}
 >
   <article class="editorial-article has-reading-nav">
     <div class="article-layout">

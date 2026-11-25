@@ -36,7 +36,7 @@ const nameOf = (a: Article) =>
               {portrait ? (
                 <img
                   src={portrait}
-                  alt=""
+                  alt={d.imageAlt ?? d.title}
                   loading="lazy"
                   width="600"
                   height="800"

@@ -111,7 +111,14 @@ ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
 urls = [e.text for e in ET.parse(ROOT/'sitemap.xml').findall('s:url/s:loc', ns)]
 require(len(urls) == len(set(urls)), 'Duplicate sitemap URLs')
 require(set(urls) == set(indexed), 'Sitemap must match indexable canonical pages exactly')
-require((ROOT/'robots.txt').read_text(encoding='utf-8') == f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n', 'robots.txt content')
+robots = (ROOT/'robots.txt').read_text(encoding='utf-8')
+require('User-agent: *\nAllow: /\n' in robots and 'Disallow' not in robots, 'robots.txt must allow every crawler')
+require(f'\nSitemap: {SITE}/sitemap.xml\n' in robots, 'robots.txt sitemap line')
+for bot in ('GPTBot', 'ClaudeBot', 'PerplexityBot', 'Google-Extended'):
+    require(f'User-agent: {bot}\nAllow: /\n' in robots, f'robots.txt allows {bot}')
+for guide in ('llms.txt', 'llms-full.txt'):
+    text = (ROOT/guide).read_text(encoding='utf-8') if (ROOT/guide).exists() else ''
+    require(text.startswith('# Nim Dvir\n') and f'{SITE}/cv/' in text, f'{guide} content')
 feed = ET.parse(ROOT/'rss.xml').getroot(); items = feed.findall('channel/item')
 guids = [item.findtext('guid') for item in items]
 require(len(guids) == len(set(guids)), 'RSS duplicate GUIDs')

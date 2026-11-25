@@ -25,7 +25,7 @@ const visual = d.thumb || d.image;
 >
   <a class="card-visual" href={href} tabindex="-1" aria-hidden="true">
     {visual ? (
-      <img src={visual} alt="" loading="lazy" width="640" height="400" />
+      <img src={visual} alt={d.imageAlt ?? d.title} loading="lazy" width="640" height="400" />
     ) : (
       <span class="typo-cover" data-kind={d.kind}>
         <span class="typo-cover-mark">{articleMonogram(article)}</span>

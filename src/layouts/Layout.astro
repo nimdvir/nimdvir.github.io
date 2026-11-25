@@ -2,6 +2,7 @@
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import { asset } from "../utils/asset";
+import { socialLinks } from "../data/profile";
 
 const base = import.meta.env.BASE_URL;
 const siteUrl = Astro.site!;
@@ -12,6 +13,8 @@ const {
   title = siteName,
   description = "Research, teaching, projects, and writing by Nim Dvir, a lecturer at the University at Albany.",
   image = "/images/nim-dvir-cce.jpg",
+  imageAlt,
+  publishedTime,
   type = "website",
   noindex = false,
   fullTitle,
@@ -22,8 +25,26 @@ const {
   particles = "subtle",
 } = Astro.props;
 
+// Search results show about 60 characters of a title, so long titles drop
+// the site-name suffix instead of losing their own words.
 const pageTitle =
-  fullTitle ?? (title === siteName ? title : `${title} | ${siteName}`);
+  fullTitle ??
+  (title === siteName
+    ? title
+    : title.length > 50
+      ? title
+      : `${title} | ${siteName}`);
+// Search snippets and link previews show about 160 characters. Long summaries
+// are cut at a word boundary for the meta tags; structured data keeps them whole.
+const metaDescription = (() => {
+  const text = String(description).replace(/\s+/g, " ").trim();
+  if (text.length <= 160) return text;
+  const cut = text.slice(0, 157);
+  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,;:.]+$/, "")}…`;
+})();
+const ogImageAlt =
+  imageAlt ??
+  (image === "/images/nim-dvir-cce.jpg" ? "Portrait of Nim Dvir" : title);
 const canonicalURL = new URL(canonicalPath, siteUrl).href;
 const ogImage = new URL(image, siteUrl).href;
 
@@ -36,6 +57,8 @@ const websiteSchema = {
   url: siteUrl,
   description:
     "Research, teaching, projects, and writing by Nim Dvir, a lecturer at the University at Albany.",
+  inLanguage: "en",
+  publisher: { "@id": personId },
 };
 
 const personSchema = {
@@ -49,31 +72,46 @@ const personSchema = {
   honorificSuffix: "PhD",
   url: siteUrl,
   image: new URL("/images/nim-dvir-cce.jpg", siteUrl).href,
-  jobTitle: "Lecturer",
+  description:
+    "Lecturer in Information Systems and Business Analytics at the Massry School of Business, University at Albany (SUNY). Studies language, information engagement and decision-making; teaches databases, business analytics and programming; former journalist and UX researcher.",
+  jobTitle: "Lecturer in Information Systems and Business Analytics",
   worksFor: {
-    "@type": "Organization",
+    "@type": "CollegeOrUniversity",
     name: "University at Albany, SUNY",
     url: "https://www.albany.edu",
+    department: {
+      "@type": "Organization",
+      name: "Department of Information Systems and Business Analytics, Massry School of Business",
+      url: "https://www.albany.edu/business",
+    },
   },
-  alumniOf: {
-    "@type": "Organization",
-    name: "University at Albany, SUNY",
+  alumniOf: [
+    { "@type": "CollegeOrUniversity", name: "University at Albany, SUNY" },
+    { "@type": "CollegeOrUniversity", name: "Baruch College, City University of New York" },
+    { "@type": "CollegeOrUniversity", name: "New York University" },
+    { "@type": "CollegeOrUniversity", name: "Open University of Israel" },
+  ],
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "degree",
+    name: "Ph.D. in Computer and Information Science",
   },
   knowsAbout: [
+    "Information Systems",
+    "Business Analytics",
+    "Databases",
     "UX Research",
-    "AI",
-    "HCI",
+    "Human-Computer Interaction",
     "Information Engagement",
-    "NLP",
     "Computational Linguistics",
+    "Natural Language Processing",
+    "Artificial Intelligence in Education",
+    "Journalism",
   ],
-  sameAs: [
-    "https://www.albany.edu/business/faculty/nim-dvir",
-    "https://www.linkedin.com/in/nimdvir/",
-    "https://scholar.google.com/citations?user=vzFELz4AAAAJ&hl=en",
-    "https://orcid.org/0000-0001-5462-3180",
-    "https://www.researchgate.net/profile/Nim-Dvir",
-  ],
+  knowsLanguage: ["en", "he"],
+  sameAs: socialLinks
+    .map((link) => link.href)
+    .filter((href) => href.startsWith("https://") && !href.startsWith(String(siteUrl).replace(/\/$/, ""))),
 };
 const pageSchemas = [...structuredData];
 if (profilePage)
@@ -114,9 +152,13 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
     <!-- Primary Meta Tags -->
     <title>{pageTitle}</title>
     <meta name="title" content={pageTitle} />
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonicalURL} />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    )}
     <meta name="theme-color" content="#141c33" />
     <script is:inline src={asset("/js/theme-init.js")}></script>
     <link rel="stylesheet" href={asset("/styles/site.css")} />
@@ -126,17 +168,23 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:locale" content="en_US" />
+    {type === "article" && publishedTime && (
+      <meta property="article:published_time" content={publishedTime} />
+    )}
+    {type === "article" && <meta property="article:author" content={new URL("/cv/", siteUrl).href} />}
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={canonicalURL} />
     <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
 
     <!-- Structured Data -->
     <script type="application/ld+json" set:html={jsonLd(websiteSchema)} />
@@ -150,6 +198,7 @@ const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
       title="Nim Dvir: blog and news"
       href={new URL("/rss.xml", siteUrl).href}
     />
+    <link rel="sitemap" type="application/xml" href={new URL("/sitemap.xml", siteUrl).href} />
     <slot name="head" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

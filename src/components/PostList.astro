@@ -37,7 +37,7 @@ const thumbOf = (post: CollectionEntry<"blog">) => {
       {thumbs && (
         <a class="post-thumb" href={`/blog/${post.slug}/`} tabindex="-1" aria-hidden="true">
           {thumbOf(post) ? (
-            <img src={thumbOf(post)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+            <img src={thumbOf(post)} alt={post.data.imageAlt ?? post.data.title} width="240" height="240" loading="lazy" decoding="async" />
           ) : (
             <span class="post-thumb-mark">{post.data.title.slice(0, 1)}</span>
           )}

@@ -45,7 +45,7 @@ const outline =
     {upNext && (
       <a class="rail-next" href={upNext.href}>
         <span class="rail-eyebrow">Up next</span>
-        {upNext.thumb && <img src={upNext.thumb} alt="" width="640" height="400" loading="lazy" />}
+        {upNext.thumb && <img src={upNext.thumb} alt={upNext.name ?? upNext.title} width="640" height="400" loading="lazy" />}
         {upNext.name && <span class="rail-next-name">{upNext.name}</span>}
         <span class="rail-next-title">{upNext.title} →</span>
       </a>
@@ -74,7 +74,7 @@ const outline =
       {upNext && (
         <a class="rail-next" href={upNext.href}>
           <span class="rail-eyebrow">Up next</span>
-          {upNext.thumb && <img src={upNext.thumb} alt="" width="640" height="400" loading="lazy" />}
+          {upNext.thumb && <img src={upNext.thumb} alt={upNext.name ?? upNext.title} width="640" height="400" loading="lazy" />}
           {upNext.name && <span class="rail-next-name">{upNext.name}</span>}
           <span class="rail-next-title">{upNext.title} →</span>
         </a>

@@ -108,7 +108,7 @@ const cardCrop = (src: string) =>
             <a class="research-card-visual" href={`/research/${r.slug}/`} tabindex="-1" aria-hidden="true">
               <img
                 src={cardCrop(r.data.image)}
-                alt=""
+                alt={r.data.imageAlt ?? r.data.title}
                 width="720"
                 height="450"
                 loading="lazy"
@@ -159,7 +159,7 @@ const cardCrop = (src: string) =>
             aria-hidden="true"
           >
             {p.data.image ? (
-              <img src={p.data.image} alt="" width="640" height="400" loading="lazy" />
+              <img src={p.data.image} alt={p.data.imageAlt ?? p.data.title} width="640" height="400" loading="lazy" />
             ) : (
               <span class="project-monogram">
                 {String(i + 1).padStart(2, "0")} / {p.data.title.slice(0, 2).toUpperCase()}
