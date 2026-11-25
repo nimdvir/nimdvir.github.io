@@ -34,6 +34,8 @@ export default defineConfig({
   base: "/",
   redirects: {
     "/about/": "/cv/",
+    // Old Google Sites address, still requested by search engines.
+    "/home/": "/",
     "/articles/": "/media/",
     "/news/": "/blog/",
     "/projects/": "/research/#projects",
