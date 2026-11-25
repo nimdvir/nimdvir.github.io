@@ -60,7 +60,6 @@ Use the Node version compatible with the existing Astro dependencies. The GitHub
 | `public/js/theme-init.js` | Apply saved/system theme before first paint |
 | `public/js/site.js` | Theme toggle, mobile navigation, link behavior, and project filters |
 | `public/design/index.html` | Unlisted design reference at `/design/`; public, not access-controlled |
-| `public/files/Nim-Dvir-CV-2026-09.pdf` | Downloadable public CV |
 | `public/portfolio/` | Compatibility redirects for legacy URLs |
 | `reports/` | Durable execution reports, evidence, and review screenshots |
 
@@ -68,14 +67,7 @@ The `/design/` page loads the same CSS and scripts as the main website. Keep its
 
 ## Update the CV
 
-Edit `src/data/cv-public.md`. The normal Astro build renders its HTML page and copies the committed PDF. To regenerate the PDF:
-
-```bash
-python -m pip install reportlab markdown lxml
-python scripts/build-public-cv.py
-```
-
-The PDF generator uses ReportLab’s bundled fonts. Review the PDF after regeneration, then rebuild and verify the site.
+Edit `src/data/cv-public.md`. The Astro build renders it as the `/cv/` page. The CV is not published as a PDF (Nim, 2026-11-25). `scripts/build-public-cv.py` can still make one for private use, but don't commit its output in `public/files/`.
 
 ## Add a post or news update
 

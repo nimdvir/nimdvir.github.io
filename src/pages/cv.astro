@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { compiledContent, getHeadings } from "../data/cv-public.md";
 
-// Keep the complete CV in one source shared by the website and downloadable PDF.
+// The complete CV is published only as this page (Nim, 2026-11-25: no PDF).
 const html = await compiledContent();
 const headings = (await getHeadings()).filter((heading) => heading.depth === 2);
 const blocks = html.split(/(?=<h2\b)/);
@@ -38,23 +38,6 @@ const sections = headings.map((heading, index) => ({
           Massry School of Business · University at Albany, SUNY
         </p>
         <div class="button-row">
-          <a
-            class="button button-primary"
-            href="/files/Nim-Dvir-CV-2026-09.pdf"
-          >
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
-            >
-              <path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4" />
-            </svg>
-            Download CV (PDF)
-          </a>
           <a class="button" href="/contact/">
             Contact
           </a>

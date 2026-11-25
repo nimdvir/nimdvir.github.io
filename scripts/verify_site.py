@@ -42,7 +42,7 @@ for file,doc in parsed.items():
 projects=ROOT/'projects'
 project_pages=[p for p in projects.glob('*/index.html')]
 if len(project_pages)!=12:errors.append(f'Expected all 12 legacy projects, found {len(project_pages)}')
-if not (ROOT/'files/Nim-Dvir-CV-2026-09.pdf').exists():errors.append('Current downloadable CV is missing')
+if list(ROOT.glob('files/*CV*.pdf')):errors.append('The CV is published as a web page only; remove the PDF from public/files/')
 for p in ROOT.glob('sitemap*.xml'):
     if 'https://nimdvir.com/design/<' in p.read_text(encoding='utf-8'):errors.append(f'{p.name}: design reference must not be in sitemap')
 design=(ROOT/'design/index.html').read_text(encoding='utf-8')
