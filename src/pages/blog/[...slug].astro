@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import TagChips from "../../components/TagChips.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
 import ReadingNav from "../../components/ReadingNav.astro";
 import { getPosts, formatDate, readingMinutes } from "../../utils/editorial";
@@ -73,13 +74,7 @@ const articleSchema = {
         <time datetime={post.data.date}>{formatDate(post.data.date)}</time> ·{" "}
         {minutes} min read
       </p>
-      {post.data.tags.length > 0 && (
-        <ul class="editorial-tags" aria-label="Topics">
-          {post.data.tags.map((tag) => (
-            <li>{tag}</li>
-          ))}
-        </ul>
-      )}
+      <TagChips tags={post.data.tags} />
     </header>
     {post.data.image && (
       <figure class="editorial-cover">

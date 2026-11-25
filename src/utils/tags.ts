@@ -138,6 +138,10 @@ export async function collectTagged(): Promise<TaggedEntry[]> {
       tags: pub.data.tags,
     });
   }
+  // Every page gets at least one topic (Nim, 2026-11-25).
+  const untagged = entries.filter((e) => e.tags.length === 0).map((e) => e.url);
+  if (untagged.length)
+    throw new Error(`Pages without tags: ${untagged.join(", ")}`);
   return entries.sort((a, b) => b.sortKey.localeCompare(a.sortKey));
 }
 

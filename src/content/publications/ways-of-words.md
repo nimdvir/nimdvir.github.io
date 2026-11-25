@@ -4,6 +4,7 @@ year: "2023"
 authors: ["Nimrod Dvir", "Elaine Friedman", "Suraj Commuri", "Fan Yang", "Jennifer Romano"]
 venue: "arXiv:2305.09798"
 type: "Preprint"
+tags: ["Information Engagement", "Decision-Making", "User Engagement"]
 status: "Preprint"
 workingPaper: true
 manuscriptStatus: "Under review at Decision Support Systems, as of September 16, 2026."

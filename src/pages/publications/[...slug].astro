@@ -1,6 +1,7 @@
 ---
 import { existsSync } from "node:fs";
 import Layout from "../../layouts/Layout.astro";
+import TagChips from "../../components/TagChips.astro";
 import { getPublications } from "../../utils/publications";
 export async function getStaticPaths() {
   return (await getPublications())
@@ -123,6 +124,7 @@ const citation = `${paper.authors.join(", ")} (${paper.year}). ${paper.title}. $
           ? ` · ${paper.status}`
           : ""}
       </p>
+      <TagChips tags={paper.tags} />
     </header>
     <section
       class="prose publication-abstract"

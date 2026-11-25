@@ -4,6 +4,7 @@ year: "2023"
 authors: ["Nim Dvir"]
 venue: "Educational Technology, Media & Library Science eJournal, 7(6)"
 type: "Working paper / SSRN"
+tags: ["Digital Citizenship", "Teaching", "Education"]
 url: "https://doi.org/10.2139/ssrn.4532611"
 ---
 

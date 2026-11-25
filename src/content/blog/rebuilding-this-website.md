@@ -2,7 +2,7 @@
 title: "Rebuilding this website"
 date: "2026-10-02"
 summary: "Updating the old portfolio, building with AI coding tools, and deleting a few slogans."
-tags: []
+tags: ["Generative AI", "Design"]
 draft: false
 image: "/images/blog/rebuilding-this-website.jpg"
 imageAlt: "A laptop on a desk at night, showing code beside a preview of a personal website, with a coffee mug in soft purple light"

@@ -8,6 +8,7 @@ volume: "21"
 firstPage: "19"
 lastPage: "39"
 type: "Journal article"
+tags: ["Content Strategy", "Consumer Behavior", "Experimentation"]
 status: "Published"
 summary: "Two online experiments compare information volume on commercial landing pages and visitors’ willingness to share personal data."
 url: "https://doi.org/10.28945/4015"

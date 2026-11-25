@@ -4,6 +4,7 @@ year: "2023"
 authors: ["Nimrod Dvir", "Elaine Friedman", "Suraj Commuri", "Fan Yang", "Jennifer Romano"]
 venue: "arXiv:2307.14511"
 type: "Preprint"
+tags: ["Computational Linguistics", "Decision-Making", "Information Engagement", "Predictive Models"]
 status: "Preprint"
 workingPaper: true
 manuscriptStatus: "Under review at The Journal of Computational Creativity, as of September 16, 2026."

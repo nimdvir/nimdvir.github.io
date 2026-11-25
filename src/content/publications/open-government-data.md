@@ -4,6 +4,7 @@ year: "2017"
 authors: ["Nim Dvir"]
 venue: "Preprints"
 type: "Preprint"
+tags: ["Transparency", "IT Strategy"]
 url: "https://doi.org/10.20944/preprints201712.0182.v1"
 ---
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import TagChips from "../../components/TagChips.astro";
 import { verifiedResearch } from "../../data/profile";
 export async function getStaticPaths() {
   return (await getCollection("research"))
@@ -35,6 +36,7 @@ const { Content } = await entry.render();
         <li>{t}</li>
       ))}
     </ul>
+    <TagChips tags={entry.data.tags} />
     {entry.data.image && (
       <img
         class="hero-image"

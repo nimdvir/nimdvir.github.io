@@ -4,6 +4,7 @@ year: "2023"
 authors: ["Nimrod Dvir", "Elaine Friedman", "Suraj Commuri", "Fan Yang", "Jennifer Romano"]
 venue: "arXiv:2307.14500"
 type: "Preprint"
+tags: ["Information Engagement", "Computational Linguistics", "NLP", "Predictive Models"]
 status: "Preprint"
 workingPaper: true
 manuscriptStatus: "Under review at Cognitive Computation, as of September 16, 2026."
