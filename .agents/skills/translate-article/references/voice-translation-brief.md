@@ -1,6 +1,6 @@
 # Translating Nim Dvir into English: the working brief
 
-Read this whole file before touching a package. It supplements `data-source/writing/voice/voice-profile.md` (read sections 2, 3C, 3D, 3F, 6, 8 and 9 of that file too) and overrides the earlier draft translations, which Nim rejected on October 31, 2026 as "clunky and really not my style."
+Read this whole file before touching a package. It supplements `data-source/writing/voice/writing-style/writing-style-guide-claude-26-11-24.md` (read its checklist and, in Part B, "Sentences and rhythm," "Humor," "Interviews," "Translating an article" and the one-page editing checklist too) and overrides the earlier draft translations, which Nim rejected on October 31, 2026 as "clunky and really not my style."
 
 ## 1. What went wrong in the first drafts
 

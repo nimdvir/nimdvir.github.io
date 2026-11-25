@@ -59,9 +59,11 @@ New imports start with Unrated translation value and an explicit unreviewed subj
 
 The original `reports/writing/inventory-audit.md` documents the initial import. Its type and status totals predate the October 24 review; see `reports/writing/2026-10-24-selection-review.md` for this review.
 
-## Writing-voice profile
+## Writing style guide and voice profile
 
-`voice/voice-profile.md` describes Nim's writing voice from the verified Hebrew corpus: tone, vocabulary, sentence rhythm, humor, structure, interviewing habits, and how to carry each into English or into new writing. `voice-profile-evidence.json` records every source, claim, Hebrew example, and measurement behind it. Read the profile before translating or drafting on Nim's behalf, and let the individual article override it where they differ. The profile is an analysis record, not a second inventory; article selection still happens only in `articles.csv`. Its status is draft until Nim reviews it.
+`voice/writing-style/writing-style-guide-claude-26-11-24.md` is the guide to read before translating or drafting on Nim's behalf (since November 24, 2026). It merges the profile below with the independent writing-style reports. Let the individual article override it where they differ.
+
+`voice/voice-profile.md` is the earlier analysis behind it. It describes Nim's writing voice from the verified Hebrew corpus: tone, vocabulary, sentence rhythm, humor, structure, interviewing habits, and how to carry each into English or into new writing. `voice-profile-evidence.json` records every source, claim, Hebrew example, and measurement behind it. The profile is an analysis record, not a second inventory; article selection still happens only in `articles.csv`.
 
 ## Article packages and templates
 

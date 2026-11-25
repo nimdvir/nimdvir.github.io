@@ -6,7 +6,7 @@ description: Translate a selected verified Hebrew article into English later; Cl
 # English article translation (Claude stage)
 
 1. Read repository `AGENTS.md`, `templates/writing/README.md`, and `data-source/writing/README.md`.
-2. Read `data-source/writing/voice/voice-profile.md` (section 6 covers translation; section 13 is a copy-ready block) so the English keeps Nim's rhythm, asides, humor placement, and interviewing voice without turning them into a formula. The article itself leads where it differs from the profile.
+2. Read `data-source/writing/voice/writing-style/writing-style-guide-claude-26-11-24.md` ("Translating an article" in Part B covers translation; "Prompts" at the end has a copy-ready block) so the English keeps Nim's rhythm, asides, humor placement, and interviewing voice without turning them into a formula. The article itself leads where it differs from the guide.
 3. Use `articles.csv` and its `Hebrew Markdown Path` field to locate the verified Hebrew source. Do not re-extract a source that has been captured.
 4. Translate only articles Nim explicitly selects (`Translate? = Yes` with a Priority, or an explicit single-article request). Capturing Hebrew is not a translation request.
 5. Save English drafts in `data-source/writing/translations/W000-slug/article.en.md`, following the English template, preserving every paragraph, question, quotation and joke. No fabricated English interview quotations, editorial additions or claims of original English speech.

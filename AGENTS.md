@@ -36,7 +36,7 @@
 
 - Nim's article list is `data-source/writing/articles.csv`; its columns are explained in `data-source/writing/README.md`.
 - Use `.agents/skills/capture-article/SKILL.md` for Hebrew-first extraction and archive inventory updates, then `translate-article` for Claude translation after Nim selects articles. Hebrew capture does not authorize translation.
-- Nim's writing-voice profile is `data-source/writing/voice/voice-profile.md`, with its evidence record in `voice-profile-evidence.json`. Read it before translating or drafting on Nim's behalf; the individual article leads where they differ. The profile is a draft until Nim reviews it.
+- Nim's writing style guide is `data-source/writing/voice/writing-style/writing-style-guide-claude-26-11-24.md`: a checked guidelines list, full guidelines in Hebrew and English (translations, site copy and captions, email and LinkedIn, the textbook), and a one-page editing checklist. Read it before translating or drafting on Nim's behalf; the individual article leads where they differ. It replaced `voice-profile.md` as the file to read on November 24, 2026. The profile, `voice-profile-evidence.json` and `writing-style/writing-style-guide-evidence.md` are the background records behind it.
 - Python dependencies for the scripts in `scripts/writing/` are in `requirements.txt`.
 
 ## Article formatting
