@@ -1,5 +1,6 @@
 // Approval page: Nim allows an AI chat to create and list short links by typing the admin passcode.
 import { createCode, getClient, originOf, passcodeMatches, SCOPE } from "../../../lib/oauth";
+import { PUBLIC_HOST } from "../../../lib/public-origin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -55,7 +56,7 @@ function form(values, client, message) {
   const hidden = FIELDS.map((f) => `<input type="hidden" name="${f}" value="${esc(values[f])}">`).join("");
   const host = new URL(values.redirect_uri).hostname;
   return page(`<h1>Connect ${esc(client.client_name || "an AI chat")}?</h1>
-<p>It's asking from <strong>${esc(host)}</strong> to use your short links at d.nimdvir.com. It will be able to:</p>
+<p>It's asking from <strong>${esc(host)}</strong> to use your short links at ${PUBLIC_HOST}. It will be able to:</p>
 <ul><li>create short links</li><li>list your short links</li></ul>
 <p>It can't delete or pause links. You can disconnect it anytime in the admin page.</p>
 <form method="post" action="/oauth/authorize">${hidden}

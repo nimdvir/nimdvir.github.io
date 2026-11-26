@@ -6,9 +6,17 @@ Small branded URL shortener deployed separately from the Astro/GitHub Pages site
 
 - **Vercel**: Next.js redirect route and private admin dashboard
 - **Supabase**: `short_links` and `short_link_clicks`
-- **DNS**: `d.nimdvir.com` and `n.nimdvir.com` (CNAME records at Squarespace, Vercel project `nimdvir-links`)
+- **DNS**: `dr.nimdvir.com` (canonical since 2026-11-25), plus the older aliases `d.nimdvir.com` and `n.nimdvir.com` (CNAME records at Squarespace, Vercel project `nimdvir-links`)
 
 The main Astro site remains deployed by GitHub Pages. Vercel builds only this folder.
+
+## Public address
+
+Every new short link is `https://dr.nimdvir.com/<name>`, whichever host the request came through. The address lives in one place, `lib/public-origin.js` (`PUBLIC_ORIGIN`), and the admin page, the connector and `/api/yourls` all use it.
+
+- All three hosts serve the same links, so `d.nimdvir.com/<name>` and `n.nimdvir.com/<name>` keep redirecting. Never remove an alias from the Vercel project.
+- OAuth does **not** use `PUBLIC_ORIGIN`. Issuer, resource and endpoints follow the request host (`originOf` in `lib/oauth.js`), so a connector set up on any host keeps validating.
+- Default copy format everywhere: `Title - https://dr.nimdvir.com/<name>` (just the URL when there is no title). The admin page's **URL** button copies only the URL.
 
 ## Environment variables
 
@@ -51,14 +59,15 @@ Last rotated on 2026-11-23. The right-click tool keeps its copy in `%LOCALAPPDAT
 
 ## AI chats (connector)
 
-Claude, ChatGPT and Gemini can create and list short links through the MCP connector at `https://d.nimdvir.com/mcp`. They can't delete or pause links.
+Claude, ChatGPT and Gemini can create and list short links through the MCP connector at `https://dr.nimdvir.com/mcp`. They can't delete or pause links. Connectors set up earlier on `https://d.nimdvir.com/mcp` keep working and also return `dr.nimdvir.com` links.
 
 - **Sign-in:** standard OAuth 2.1 with PKCE. A chat registers itself (`/oauth/register`), then opens `/oauth/authorize`, where Nim types the admin passcode once and clicks Allow. The chat gets its own token (30 days, renewed automatically; refresh tokens rotate). Only Claude, ChatGPT, Google and localhost return addresses can register.
 - **Disconnect:** in `/admin`, under "Connected AI chats". It takes effect at once, and reconnecting needs the passcode again.
 - **Source column:** links record who made them (`claude`, `chatgpt`, `gemini`, `right-click`, `admin`).
-- Names follow the same rules as the right-click tool (`lib/links.js`). Leave the name out to get one suggested from the title, and the chosen name always wins.
+- Names follow the same rules as the right-click tool (`lib/links.js`). Nim's chosen name always wins; otherwise the chat picks a short descriptive name, or leaves it out to get one suggested from the title.
+- **Replies:** the first line of a created link is `Title - https://dr.nimdvir.com/<name>`, and chats reply with that line (just the URL when Nim asks).
 
-Setup in each app (address `https://d.nimdvir.com/mcp`):
+Setup in each app (address `https://dr.nimdvir.com/mcp`):
 
 1. **Claude:** Settings > Connectors > Add custom connector. Name it "Short links", paste the address, then Connect and approve with the passcode.
 2. **ChatGPT:** Settings > Apps & Connectors > Advanced > turn on Developer mode, then create a connector with the address and OAuth. Developer mode may require a Business, Enterprise or Edu plan.
@@ -66,7 +75,7 @@ Setup in each app (address `https://d.nimdvir.com/mcp`):
 
 ## tmplat (browser extension)
 
-`/api/yourls` speaks the YOURLS API, so tmplat's `{#shorten}{url}{/shorten}` makes `d.nimdvir.com` links. It only creates links (`action=shorturl`). It can't list, change or delete them.
+`/api/yourls` speaks the YOURLS API, so tmplat's `{#shorten}{url}{/shorten}` makes `dr.nimdvir.com` links (also when tmplat still points at the old `d.nimdvir.com` address). It only creates links (`action=shorturl`). It can't list, change or delete them.
 
 - **Auth:** YOURLS "advanced" mode. tmplat sends a timestamp and `sha256(timestamp + token)`, where the token is the admin passcode (or `YOURLS_SIGNATURE` if set), so the token itself never travels. Signatures expire after 12 hours.
 - **Names:** taken from the end of the URL path, or the site name. Opaque IDs and words like `edit` are skipped. Otherwise a fun pair is suggested.
@@ -79,7 +88,7 @@ Setup in each app (address `https://d.nimdvir.com/mcp`):
 Setup in tmplat (Options > Settings > URL shorteners):
 
 1. Service: **YOURLS**.
-2. URL: `https://d.nimdvir.com/api/yourls`.
+2. URL: `https://dr.nimdvir.com/api/yourls`.
 3. Authentication: **signature token** (advanced), with the admin passcode as the token.
 
 When the admin passcode is rotated, update it in tmplat too. To give tmplat its own token instead, set `YOURLS_SIGNATURE` and redeploy.
@@ -87,7 +96,7 @@ When the admin passcode is rotated, update it in tmplat too. To give tmplat its 
 ## Routes
 
 - `/<slug>` redirects with HTTP 302 (or shows the path for path links)
-- `/admin` opens the private dashboard. `/admin?url=…&title=…&slug=…` opens it with the create form filled in (used by the "Short link (name it)" bookmarklet); after Create, the new link is copied to the clipboard
+- `/admin` opens the private dashboard. `/admin?url=…&title=…&slug=…` opens it with the create form filled in (used by the "Short link (name it)" bookmarklet); after Create, `Title - https://dr.nimdvir.com/<name>` is copied to the clipboard
 - `/api/admin` powers admin CRUD and statistics
 - `/mcp` is the AI connector (bearer token required)
 - `/api/yourls` is the YOURLS-compatible endpoint for tmplat (signature required)

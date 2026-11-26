@@ -7,7 +7,6 @@
 // Signatures expire after 12 hours, like YOURLS.
 import { createHash, timingSafeEqual } from "node:crypto";
 import { resolveAndCreate, SLUG_RULE } from "../../../lib/links";
-import { originOf } from "../../../lib/oauth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -82,8 +81,8 @@ async function handle(params, request) {
   const { title, parent } = titleFromUrl(destination);
   let r;
   try {
+    // shorturl is always https://dr.nimdvir.com/<name> (lib/public-origin.js), even via d.nimdvir.com.
     r = await resolveAndCreate({
-      origin: originOf(request),
       destination,
       // Paths are not accepted here; only web links.
       type: "url",

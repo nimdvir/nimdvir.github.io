@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { shortUrl as publicUrl, titledLine } from "../../lib/public-origin";
 
 export default function AdminPage() {
   const [secret, setSecret] = useState("");
@@ -75,13 +76,15 @@ export default function AdminPage() {
     setMessage("");
     try {
       await api("POST", { action: "create", ...form });
-      const shortUrl = window.location.origin + "/" + form.slug.trim().toLowerCase();
+      // Always the public address (https://dr.nimdvir.com/<name>), even when /admin is opened on an alias.
+      const shortUrl = publicUrl(form.slug.trim().toLowerCase());
+      const line = titledLine(form.title, shortUrl);
       // The clipboard API is missing outside secure contexts (e.g. plain-HTTP dev URLs); copying is optional.
-      const copied = navigator.clipboard ? await navigator.clipboard.writeText(shortUrl).then(() => true, () => false) : false;
+      const copied = navigator.clipboard ? await navigator.clipboard.writeText(line).then(() => true, () => false) : false;
       setForm(emptyForm);
       // load() clears the message, so show the result after it.
       await load();
-      setMessage(copied ? "Link created and copied: " + shortUrl : "Link created: " + shortUrl);
+      setMessage(copied ? "Link created and copied: " + line : "Link created: " + line);
     } catch (error) {
       setMessage(error.message);
     } finally {
@@ -175,7 +178,8 @@ export default function AdminPage() {
                   <td><span className="pill">{link.is_active ? "Active" : "Paused"}</span></td>
                   <td>
                     <div className="actions">
-                      <button className="secondary" onClick={() => navigator.clipboard.writeText(window.location.origin + "/" + link.slug)}>Copy</button>
+                      <button className="secondary" title="Copy as: Title - link" onClick={() => navigator.clipboard.writeText(titledLine(link.title, publicUrl(link.slug)))}>Copy</button>
+                      {link.title ? <button className="secondary" title="Copy only the URL" onClick={() => navigator.clipboard.writeText(publicUrl(link.slug))}>URL</button> : null}
                       <button className="secondary" onClick={() => act({ action: "toggle", id: link.id, is_active: !link.is_active })}>{link.is_active ? "Pause" : "Activate"}</button>
                       <button className="danger" onClick={() => { if (window.confirm("Delete /" + link.slug + "?")) act({ action: "delete", id: link.id }); }}>Delete</button>
                     </div>

@@ -5,22 +5,24 @@ import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/
 import { z } from "zod";
 import { fetchAllLinks, resolveAndCreate } from "../../lib/links";
 import { authenticate, CORS, originOf, preflight } from "../../lib/oauth";
+import { PUBLIC_HOST, PUBLIC_ORIGIN, shortUrl, titledLine } from "../../lib/public-origin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const INSTRUCTIONS = `Creates short links at d.nimdvir.com for Nim Dvir.
+const INSTRUCTIONS = `Creates short links at ${PUBLIC_HOST} for Nim Dvir. Every new link is ${PUBLIC_ORIGIN}/<name>; older links on d.nimdvir.com and n.nimdvir.com keep working.
 - Use create_short_link when Nim asks to shorten a link, a file or a path.
 - Google Drive file: first get its link (https://drive.google.com/...) from the Google Drive connector, and pass the file name as title.
 - A Windows path (G:\\...) becomes a link that shows the path as plain text.
-- Leave name out unless Nim chose one: the server suggests a short name from the title.
-- Names are 1-48 lowercase letters, numbers, hyphens or underscores. The name Nim chooses wins: if it's taken, ask for another. If the destination already has a short link, ask before creating a second one.
-- Reply with just the short link unless Nim asks for more.
-- This connector can't delete or pause links. For that, send Nim to https://d.nimdvir.com/admin.`;
+- Always pass a title (the page or file name).
+- Name: if Nim gave one, pass it exactly; if it's taken, ask Nim for another. Otherwise pass a short, clear, descriptive name you choose (2-3 words, e.g. "bitm330-syllabus"; try another if it's taken), or leave name out and the server suggests one from the title.
+- Names are 1-48 lowercase letters, numbers, hyphens or underscores. If the destination already has a short link, ask before creating a second one.
+- Reply with one line: Title - ${PUBLIC_ORIGIN}/<name> (the first line of the tool result). If Nim asks for only the link, reply with just the URL.
+- This connector can't delete or pause links. For that, send Nim to ${PUBLIC_ORIGIN}/admin.`;
 
 const text = (value, isError = false) => ({ content: [{ type: "text", text: value }], ...(isError ? { isError: true } : {}) });
 
-function buildServer(origin, auth) {
+function buildServer(auth) {
   const server = new McpServer({ name: "nimdvir-short-links", version: "1.0.0" }, { instructions: INSTRUCTIONS });
 
   server.registerTool(
@@ -28,10 +30,10 @@ function buildServer(origin, auth) {
     {
       title: "Create short link",
       description:
-        "Create a short link at d.nimdvir.com. Destination is a web link (https://...) or a Windows path (G:\\...). Leave name out to get a suggested name.",
+        `Create a short link at ${PUBLIC_HOST}. Destination is a web link (https://...) or a Windows path (G:\\...). Leave name out to get a suggested name. The first line of the result is "Title - ${PUBLIC_ORIGIN}/<name>".`,
       inputSchema: {
         destination: z.string().min(1).max(2000).describe("Web link, or a Windows path like G:\\My Drive\\notes.md. For a Google Drive file, its drive.google.com link."),
-        name: z.string().max(48).optional().describe("The short name after d.nimdvir.com/. Only if Nim chose one."),
+        name: z.string().max(48).optional().describe(`The short name after ${PUBLIC_HOST}/: Nim's choice, or a short descriptive name you choose. Leave out to get a suggestion.`),
         title: z.string().max(160).optional().describe("File or page name. Used to suggest the name and shown in the admin page."),
         type: z.enum(["url", "path"]).optional().describe("Usually leave out: detected from the destination."),
         also_create: z.boolean().optional().describe("Only after Nim agrees: create this name even though the destination already has a short link."),
@@ -40,7 +42,6 @@ function buildServer(origin, auth) {
     },
     async ({ destination, name, title, type, also_create }) => {
       const r = await resolveAndCreate({
-        origin,
         destination,
         type,
         name,
@@ -50,12 +51,12 @@ function buildServer(origin, auth) {
       });
       switch (r.status) {
         case "created":
-          return text(`${r.url}\n${r.type === "path" ? "Shows the path" : "Opens"}: ${r.destination}`);
+          return text(`${titledLine(title, r.url)}\n${r.type === "path" ? "Shows the path" : "Opens"}: ${r.destination}\nURL only: ${r.url}`);
         case "exists-same":
-          return text(`${r.url} already points there. Use it.`);
+          return text(`${titledLine(title, r.url)}\nThat link already points there. Use it.\nURL only: ${r.url}`);
         case "has-other":
           return text(
-            `This destination already has ${r.existing.join(", ")}. Ask Nim: use that link, or also create ${origin}/${r.slug}? ` +
+            `This destination already has ${r.existing.join(", ")}. Ask Nim: use that link, or also create ${shortUrl(r.slug)}? ` +
               `To create it, call again with name "${r.slug}" and also_create: true.`
           );
         case "taken":
@@ -85,7 +86,7 @@ function buildServer(origin, auth) {
       if (!links.length) return text(q ? `No short links match "${search}".` : "No short links yet.");
       const lines = links.map(
         (l) =>
-          `${origin}/${l.slug} -> ${l.destination_url}` +
+          `${shortUrl(l.slug)} -> ${l.destination_url}` +
           ` (${l.link_type === "path" ? "path" : "link"}${l.is_active ? "" : ", paused"}, ${l.click_count || 0} clicks` +
           `${l.title ? `, "${l.title}"` : ""}, ${String(l.created_at).slice(0, 10)})`
       );
@@ -112,7 +113,7 @@ async function handle(request) {
     });
   }
 
-  const server = buildServer(origin, auth);
+  const server = buildServer(auth);
   const transport = new WebStandardStreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
   await server.connect(transport);
   const response = await transport.handleRequest(request);

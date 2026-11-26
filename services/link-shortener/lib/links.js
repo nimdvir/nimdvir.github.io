@@ -2,6 +2,7 @@
 // The name rules mirror agent-hub/tools/copy-drive-link/short-link.ps1.
 import { randomInt } from "node:crypto";
 import { dbFetch } from "./db";
+import { shortUrl } from "./public-origin";
 
 export const SLUG_RULE = /^[a-z0-9][a-z0-9_-]{0,47}$/;
 export const RESERVED = new Set(["admin", "api", "mcp", "oauth", "_next", "favicon.ico", "robots.txt"]);
@@ -94,7 +95,8 @@ export async function fetchAllLinks() {
 }
 
 // Same decision as the right-click tool: the chosen name wins, nothing is reused silently.
-export async function resolveAndCreate({ origin, destination, type, name, title, alsoCreate, createdVia }) {
+// Returned URLs always use PUBLIC_ORIGIN, whichever host the request came through.
+export async function resolveAndCreate({ destination, type, name, title, alsoCreate, createdVia }) {
   const raw = String(destination || "").trim();
   const linkType = type === "path" || (!type && /^[A-Za-z]:[\\/]/.test(raw)) ? "path" : "url";
   let dest;
@@ -106,7 +108,7 @@ export async function resolveAndCreate({ origin, destination, type, name, title,
 
   const links = await fetchAllLinks();
   const sameDest = (l) => (l.link_type || "url") === linkType && (linkType === "path" ? l.destination_url.toLowerCase() === dest.toLowerCase() : l.destination_url === dest);
-  const short = (slug) => `${origin}/${slug}`;
+  const short = shortUrl;
 
   let slug;
   if (name) {
