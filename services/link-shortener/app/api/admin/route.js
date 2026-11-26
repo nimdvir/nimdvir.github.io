@@ -5,7 +5,8 @@ import { cleanCreatedVia, validatePath, validateSlug, validateUrl } from "../../
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const LINK_FIELDS = "id,slug,destination_url,link_type,title,is_active,click_count,last_clicked_at,created_via,created_at";
+const LINK_FIELDS =
+  "id,slug,destination_url,link_type,title,topic,position,archived_at,is_active,click_count,last_clicked_at,created_via,created_at";
 const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
 // Topic is optional free text (e.g. "BITM 330"). Empty means no topic.
@@ -19,19 +20,8 @@ function cleanTitle(value) {
   return String(value || "").trim().slice(0, 160) || null;
 }
 
-async function getLinks(secret) {
-  const path = (fields) => "/rest/v1/short_links?select=" + fields + "&order=created_at.desc";
-  try {
-    return { links: await dbFetch(path(LINK_FIELDS + ",topic"), { adminSecret: secret }), topics: true };
-  } catch (error) {
-    // Until the topic column is added (supabase/schema.sql), keep the dashboard working without it.
-    if (!/topic/.test(error.message)) throw error;
-    return { links: await dbFetch(path(LINK_FIELDS), { adminSecret: secret }), topics: false };
-  }
-}
-
 async function getDashboard(secret) {
-  const { links = [], topics } = await getLinks(secret);
+  const links = await dbFetch("/rest/v1/short_links?select=" + LINK_FIELDS + "&order=created_at.desc", { adminSecret: secret });
   const apps = await dbFetch(
     "/rest/v1/shortener_oauth_clients?select=client_id,client_name,redirect_host,created_at,last_used_at&order=created_at.desc",
     { adminSecret: secret }
@@ -45,13 +35,13 @@ async function getDashboard(secret) {
   for (const row of weekRows || []) week[row.link_id] = (week[row.link_id] || 0) + 1;
 
   const list = (links || []).map((link) => ({ ...link, week_clicks: week[link.id] || 0 }));
+  const current = list.filter((link) => !link.archived_at);
   return {
     links: list,
     apps: apps || [],
-    topicsEnabled: topics,
     summary: {
-      links: list.length,
-      active: list.filter((link) => link.is_active).length,
+      links: current.length,
+      active: current.filter((link) => link.is_active).length,
       totalClicks: list.reduce((sum, link) => sum + Number(link.click_count || 0), 0),
       weekClicks: (weekRows || []).length,
     },
@@ -109,8 +99,7 @@ export async function POST(request) {
         method: "POST",
         adminSecret: secret,
         headers: { Prefer: "return=representation" },
-        // Send topic only when given, so creating still works before the column exists.
-        body: { slug, destination_url, link_type, title, created_via, ...(topic ? { topic } : {}) },
+        body: { slug, destination_url, link_type, title, created_via, topic },
       });
       return NextResponse.json({ ok: true, link: created?.[0] || null });
     }
@@ -118,6 +107,7 @@ export async function POST(request) {
     if (action === "update") {
       const id = linkId(body.id);
       const changes = {};
+      if ("slug" in body) changes.slug = validateSlug(body.slug);
       if ("title" in body) changes.title = cleanTitle(body.title);
       if ("topic" in body) changes.topic = cleanTopic(body.topic);
       if (!Object.keys(changes).length) throw new Error("Nothing to update.");
@@ -128,6 +118,51 @@ export async function POST(request) {
         body: changes,
       });
       return NextResponse.json({ ok: true, link: updated?.[0] || null });
+    }
+
+    // Archived links leave the main list but keep redirecting.
+    if (action === "archive") {
+      const id = linkId(body.id);
+      const updated = await dbFetch("/rest/v1/short_links?id=eq." + id, {
+        method: "PATCH",
+        adminSecret: secret,
+        headers: { Prefer: "return=representation" },
+        body: { archived_at: body.archived ? new Date().toISOString() : null },
+      });
+      return NextResponse.json({ ok: true, link: updated?.[0] || null });
+    }
+
+    // Drag-and-drop order: [{ id, position }] for the links whose place changed.
+    if (action === "reorder") {
+      const order = Array.isArray(body.order) ? body.order : [];
+      if (!order.length || order.length > 1000) throw new Error("Invalid order.");
+      const rows = order.map((row) => ({ id: linkId(row.id), position: Number(row.position) }));
+      if (rows.some((row) => !Number.isInteger(row.position) || row.position < 0)) throw new Error("Invalid position.");
+      for (let i = 0; i < rows.length; i += 20) {
+        await Promise.all(rows.slice(i, i + 20).map((row) =>
+          dbFetch("/rest/v1/short_links?id=eq." + row.id, {
+            method: "PATCH",
+            adminSecret: secret,
+            headers: { Prefer: "return=minimal" },
+            body: { position: row.position },
+          })
+        ));
+      }
+      return NextResponse.json({ ok: true });
+    }
+
+    // Rename a topic (group) on every link that has it; an empty name removes the topic.
+    if (action === "rename_topic") {
+      const from = cleanTopic(body.from);
+      if (!from) throw new Error("Choose a topic to rename.");
+      const to = cleanTopic(body.to);
+      await dbFetch("/rest/v1/short_links?topic=eq." + encodeURIComponent(from), {
+        method: "PATCH",
+        adminSecret: secret,
+        headers: { Prefer: "return=minimal" },
+        body: { topic: to },
+      });
+      return NextResponse.json({ ok: true });
     }
 
     if (action === "toggle") {
