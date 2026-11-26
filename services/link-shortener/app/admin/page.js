@@ -243,10 +243,15 @@ function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
     useSortable({ id: link.id, disabled: !draggable });
   const [clicks, setClicks] = useState(null);
   const [clickError, setClickError] = useState("");
-  const blank = () => ({ slug: link.slug, title: link.title || "", topic: link.topic || "" });
+  const blank = () => ({
+    slug: link.slug, link_type: link.link_type, destination_url: link.destination_url,
+    title: link.title || "", topic: link.topic || "",
+  });
   const [edit, setEdit] = useState(blank);
+  const [editing, setEditing] = useState(false);
+  const [saveError, setSaveError] = useState("");
 
-  useEffect(() => { setEdit(blank()); }, [link.slug, link.title, link.topic]);
+  useEffect(() => { if (!editing) setEdit(blank()); }, [editing, link.slug, link.link_type, link.destination_url, link.title, link.topic]);
 
   useEffect(() => {
     if (!open) return;
@@ -260,12 +265,15 @@ function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
 
   const site = siteIcon(link);
   const slug = edit.slug.trim().toLowerCase();
-  const changed = slug !== link.slug || edit.title !== (link.title || "") || edit.topic !== (link.topic || "");
+  const destChanged = edit.destination_url.trim() !== link.destination_url || edit.link_type !== link.link_type;
+  const changed = slug !== link.slug || destChanged || edit.title !== (link.title || "") || edit.topic !== (link.topic || "");
   const style = { transform: CSS.Transform.toString(transform), transition };
 
-  function save(event) {
+  async function save(event) {
     event.preventDefault();
+    setSaveError("");
     const body = { action: "update", id: link.id, title: edit.title, topic: edit.topic };
+    if (destChanged) Object.assign(body, { destination_url: edit.destination_url.trim(), link_type: edit.link_type });
     if (slug !== link.slug) {
       const ok = window.confirm(
         "Rename " + PUBLIC_HOST + "/" + link.slug + " to " + PUBLIC_HOST + "/" + slug + "?\n\n" +
@@ -274,7 +282,9 @@ function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
       if (!ok) return;
       body.slug = slug;
     }
-    act(body);
+    const error = await act(body, "Saved " + PUBLIC_HOST + "/" + (body.slug || link.slug));
+    if (error) setSaveError(error);
+    else setEditing(false);
   }
 
   return (
@@ -301,8 +311,38 @@ function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
         <div className="copy-buttons">
           <CopyButton text={titledLine(link.title, url)} label="Copy" icon="copy" title={link.title ? "Copy as: Title - link" : "Copy the link"} className="primary" />
           {link.title ? <CopyButton text={url} label="URL" icon="link" title="Copy only the URL" /> : null}
+          <button type="button" className={editing ? "" : "secondary"} aria-expanded={editing} title="Change the short name, destination, title or topic" onClick={() => { setSaveError(""); setEditing(!editing); }}>
+            <Icon name="pen" /> Edit
+          </button>
         </div>
       </div>
+
+      {editing && (
+        <form className="edit-panel" onSubmit={save}>
+          <label className="span-2">Short name
+            <span className="prefixed"><span className="prefix">{PUBLIC_HOST}/</span>
+              <input value={edit.slug} maxLength={48} autoFocus onChange={(e) => setEdit({ ...edit, slug: e.target.value })} required />
+            </span>
+          </label>
+          <label>Type
+            <select value={edit.link_type} onChange={(e) => setEdit({ ...edit, link_type: e.target.value })}>
+              <option value="url">Web link</option>
+              <option value="path">File path</option>
+            </select>
+          </label>
+          <label className="span-3">Destination
+            <input type={edit.link_type === "path" ? "text" : "url"} value={edit.destination_url} onChange={(e) => setEdit({ ...edit, destination_url: e.target.value })} required />
+          </label>
+          <label className="span-2">Title<input value={edit.title} onChange={(e) => setEdit({ ...edit, title: e.target.value })} /></label>
+          <label>Topic<input list="topic-list" maxLength={40} placeholder="e.g. BITM 330" value={edit.topic} onChange={(e) => setEdit({ ...edit, topic: e.target.value })} /></label>
+          {slug !== link.slug && <p className="notice warn-text span-3"><Icon name="triangle-exclamation" /> The old address {PUBLIC_HOST}/{link.slug} will stop working.</p>}
+          {saveError && <p className="notice error span-3"><Icon name="circle-exclamation" /> {saveError}</p>}
+          <div className="actions span-3">
+            <button disabled={busy || !changed}><Icon name="floppy-disk" /> Save</button>
+            <button type="button" className="secondary" onClick={() => { setSaveError(""); setEditing(false); }}>Cancel</button>
+          </div>
+        </form>
+      )}
 
       <button type="button" className="link-meta" aria-expanded={open} onClick={onToggle}>
         <span><Icon name="chart-simple" /> <strong>{link.click_count || 0}</strong> clicks</span>
@@ -347,16 +387,6 @@ function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
           )}
           {clicks && clicks.length === 200 && <p className="muted small">Showing the latest 200.</p>}
 
-          <form className="edit-grid" onSubmit={save}>
-            <label>Short name
-              <span className="prefixed"><span className="prefix">{PUBLIC_HOST}/</span>
-                <input value={edit.slug} maxLength={48} pattern="[a-zA-Z0-9][a-zA-Z0-9_\-]*" onChange={(e) => setEdit({ ...edit, slug: e.target.value })} required />
-              </span>
-            </label>
-            <label>Title<input value={edit.title} onChange={(e) => setEdit({ ...edit, title: e.target.value })} /></label>
-            <label>Topic<input list="topic-list" maxLength={40} placeholder="e.g. BITM 330" value={edit.topic} onChange={(e) => setEdit({ ...edit, topic: e.target.value })} /></label>
-            <button disabled={busy || !changed}><Icon name="floppy-disk" /> Save</button>
-          </form>
 
           <div className="actions">
             <button type="button" className="secondary" disabled={busy} onClick={() => act({ action: "toggle", id: link.id, is_active: !link.is_active })}><Icon name={link.is_active ? "pause" : "play"} /> {link.is_active ? "Pause" : "Activate"}</button>
@@ -488,18 +518,29 @@ export default function AdminPage() {
     }
   }
 
-  async function act(body) {
+  // Runs an admin action, reloads, and returns an error message (or null on success).
+  async function act(body, success = "") {
     setBusy(true);
     setMessage("");
     try {
       await api("POST", body);
       await load();
+      if (success) setMessage(success);
+      return null;
     } catch (error) {
       setMessage(error.message);
+      return error.message;
     } finally {
       setBusy(false);
     }
   }
+
+  // Success messages fade after a few seconds; errors stay until dismissed.
+  useEffect(() => {
+    if (!message || !/created|^Saved/.test(message)) return;
+    const timer = setTimeout(() => setMessage(""), 5000);
+    return () => clearTimeout(timer);
+  }, [message]);
 
   const current = useMemo(() => (data?.links || []).filter((link) => !link.archived_at), [data]);
   const archived = useMemo(() => (data?.links || []).filter((link) => link.archived_at), [data]);
@@ -602,6 +643,13 @@ export default function AdminPage() {
         <div className="card stat"><span className="muted"><Icon name="chart-simple" /> Total clicks</span><strong>{data?.summary.totalClicks || 0}</strong></div>
         <div className="card stat"><span className="muted"><Icon name="fire" /> Clicks this week</span><strong>{data?.summary.weekClicks || 0}</strong></div>
       </div>
+
+      {message && (
+        <div className={"toast " + (/created|^Saved/.test(message) ? "success" : "error")} role="status">
+          <Icon name={/created|^Saved/.test(message) ? "circle-check" : "circle-exclamation"} /> <span>{message}</span>
+          <button type="button" className="icon-button" onClick={() => setMessage("")}><Icon name="xmark" /><span className="sr-only">Dismiss</span></button>
+        </div>
+      )}
 
       <TopLinks links={current} onOpen={openLink} />
 
