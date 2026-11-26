@@ -108,6 +108,10 @@ export async function POST(request) {
       const id = linkId(body.id);
       const changes = {};
       if ("slug" in body) changes.slug = validateSlug(body.slug);
+      if ("destination_url" in body) {
+        changes.link_type = body.link_type === "path" ? "path" : "url";
+        changes.destination_url = changes.link_type === "path" ? validatePath(body.destination_url) : validateUrl(body.destination_url);
+      }
       if ("title" in body) changes.title = cleanTitle(body.title);
       if ("topic" in body) changes.topic = cleanTopic(body.topic);
       if (!Object.keys(changes).length) throw new Error("Nothing to update.");
