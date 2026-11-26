@@ -1,5 +1,6 @@
 "use client";
 
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { useEffect, useMemo, useState } from "react";
 import { PUBLIC_HOST, shortUrl as publicUrl, titledLine } from "../../lib/public-origin";
 
@@ -12,6 +13,40 @@ const SORTS = {
   last: "Last clicked",
   name: "Name (A-Z)",
 };
+
+// Font Awesome icon: <Icon name="copy" /> (solid) or <Icon name="github" brand />.
+function Icon({ name, brand, className = "" }) {
+  return <i className={(brand ? "fa-brands fa-" : "fa-solid fa-") + name + (className ? " " + className : "")} aria-hidden="true" />;
+}
+
+// Icon and color for a link's destination.
+function siteIcon(link) {
+  if (link.link_type === "path") return { name: "folder-open", color: "#e0a63a" };
+  let url;
+  try { url = new URL(link.destination_url); } catch { return { name: "globe", color: "#8fa3c7" }; }
+  const host = url.hostname.replace(/^www\./, "");
+  const path = url.pathname;
+  if (/\.pdf$/i.test(path)) return { name: "file-pdf", color: "#ef5b5b" };
+  if (host === "drive.google.com") return { name: "google-drive", brand: true, color: "#34a853" };
+  if (host === "docs.google.com") {
+    if (path.startsWith("/presentation")) return { name: "person-chalkboard", color: "#f4b400" };
+    if (path.startsWith("/spreadsheets")) return { name: "table", color: "#34a853" };
+    if (path.startsWith("/forms")) return { name: "list-check", color: "#a37bf0" };
+    return { name: "file-lines", color: "#4f8ef7" };
+  }
+  if (host.endsWith("youtube.com") || host === "youtu.be") return { name: "youtube", brand: true, color: "#ff3b4e" };
+  if (host.endsWith("linkedin.com")) return { name: "linkedin", brand: true, color: "#2d8fe6" };
+  if (host.endsWith("github.com") || host.endsWith("github.io")) return { name: "github", brand: true, color: "#e6e9f0" };
+  if (host.endsWith("zoom.us")) return { name: "video", color: "#2d8cff" };
+  if (host.endsWith("albany.edu")) return { name: "building-columns", color: "#b18ce0" };
+  if (host.endsWith("nimdvir.com")) return { name: "house", color: "#9d8cff" };
+  return { name: "globe", color: "#8fa3c7" };
+}
+
+const SOURCE_ICONS = { claude: "robot", chatgpt: "robot", gemini: "robot", admin: "gauge", "right-click": "computer-mouse", tmplat: "puzzle-piece", bookmarklet: "bookmark" };
+const DEVICE_ICONS = { mobile: "mobile-screen", tablet: "tablet-screen-button", desktop: "desktop" };
+const BROWSER_ICONS = { Chrome: "chrome", Firefox: "firefox-browser", Safari: "safari", Edge: "edge" };
+const OS_ICONS = { Windows: "windows", macOS: "apple", iOS: "apple", Android: "android", Linux: "linux" };
 
 // Clipboard API, with a fallback for browsers or pages where it is missing.
 async function copyText(text) {
@@ -87,7 +122,7 @@ function ago(value) {
   return new Date(value).toLocaleDateString();
 }
 
-function CopyButton({ text, label, title, className = "secondary" }) {
+function CopyButton({ text, label, icon, title, className = "secondary" }) {
   const [state, setState] = useState("");
   return (
     <button
@@ -99,9 +134,18 @@ function CopyButton({ text, label, title, className = "secondary" }) {
         setTimeout(() => setState(""), 1500);
       }}
     >
-      {state || label}
+      <Icon name={state === "Copied" ? "check" : state ? "xmark" : icon} /> {state || label}
     </button>
   );
+}
+
+function GroupIcon({ groupBy, name, link }) {
+  if (groupBy === "site") {
+    const site = siteIcon(link);
+    return <span style={{ color: site.color }}><Icon name={site.name} brand={site.brand} /></span>;
+  }
+  if (groupBy === "source") return <Icon name={SOURCE_ICONS[name] || "circle-question"} />;
+  return <Icon name={name === "No topic" ? "inbox" : "tag"} />;
 }
 
 function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled }) {
@@ -124,11 +168,13 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
     return () => { live = false; };
   }, [open, link.click_count]);
 
+  const site = siteIcon(link);
   const changed = edit.title !== (link.title || "") || edit.topic !== (link.topic || "");
 
   return (
     <li className={"link" + (open ? " open" : "") + (link.is_active ? "" : " paused")}>
       <div className="link-main">
+        <span className="site-icon" style={{ "--tint": site.color }}><Icon name={site.name} brand={site.brand} /></span>
         <div className="link-text">
           <a className="short code" href={url} target="_blank" rel="noopener noreferrer">{PUBLIC_HOST}/{link.slug}</a>
           {link.title ? <div className="link-title">{link.title}</div> : null}
@@ -137,30 +183,30 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
           </div>
         </div>
         <div className="copy-buttons">
-          <CopyButton text={titledLine(link.title, url)} label="Copy" title={link.title ? "Copy as: Title - link" : "Copy the link"} className="primary" />
-          {link.title ? <CopyButton text={url} label="URL" title="Copy only the URL" /> : null}
+          <CopyButton text={titledLine(link.title, url)} label="Copy" icon="copy" title={link.title ? "Copy as: Title - link" : "Copy the link"} className="primary" />
+          {link.title ? <CopyButton text={url} label="URL" icon="link" title="Copy only the URL" /> : null}
         </div>
       </div>
 
       <button type="button" className="link-meta" aria-expanded={open} onClick={onToggle}>
-        <span><strong>{link.click_count || 0}</strong> clicks</span>
-        <span>{link.week_clicks} this week</span>
-        <span>last {ago(link.last_clicked_at)}</span>
-        {link.topic ? <span className="pill">{link.topic}</span> : null}
-        {!link.is_active ? <span className="pill warn">Paused</span> : null}
-        <span className="chevron" aria-hidden="true">{open ? "▴" : "▾"}</span>
+        <span><Icon name="chart-simple" /> <strong>{link.click_count || 0}</strong> clicks</span>
+        <span className={link.week_clicks ? "hot" : ""}><Icon name="fire" /> {link.week_clicks} this week</span>
+        <span><Icon name="clock" /> {ago(link.last_clicked_at)}</span>
+        {link.topic ? <span className="pill"><Icon name="tag" /> {link.topic}</span> : null}
+        {!link.is_active ? <span className="pill warn"><Icon name="pause" /> Paused</span> : null}
+        <Icon name="chevron-down" className={"chevron" + (open ? " up" : "")} />
         <span className="sr-only">{open ? "Hide details" : "Show clicks and settings"}</span>
       </button>
 
       {open && (
         <div className="details">
           <div className="facts muted">
-            <span>Created {new Date(link.created_at).toLocaleDateString()}</span>
-            <span>via {link.created_via || "unknown"}</span>
-            {link.link_type === "url" ? <a href={link.destination_url} target="_blank" rel="noopener noreferrer">Open destination</a> : null}
+            <span><Icon name="calendar" /> Created {new Date(link.created_at).toLocaleDateString()}</span>
+            <span><Icon name={SOURCE_ICONS[link.created_via] || "circle-question"} /> via {link.created_via || "unknown"}</span>
+            {link.link_type === "url" ? <a href={link.destination_url} target="_blank" rel="noopener noreferrer"><Icon name="arrow-up-right-from-square" /> Open destination</a> : null}
           </div>
 
-          <h3>Clicks</h3>
+          <h3><Icon name="chart-simple" /> Clicks</h3>
           {clickError && <p className="notice error">{clickError}</p>}
           {!clicks && !clickError && <p className="muted">Loading…</p>}
           {clicks && !clicks.length && <p className="muted">No clicks yet.</p>}
@@ -169,9 +215,14 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
               {clicks.map((click) => (
                 <li key={click.id}>
                   <span className="when">{new Date(click.clicked_at).toLocaleString()}</span>
-                  <span>{[click.device_type, click.browser, click.os].filter(Boolean).join(" · ") || "Unknown device"}</span>
-                  <span className="muted">{[click.city, click.region, click.country].filter(Boolean).join(", ") || "Unknown location"}</span>
-                  <span className="muted ref">{click.referrer || "Direct / unavailable"}</span>
+                  <span className="device">
+                    <Icon name={DEVICE_ICONS[click.device_type] || "circle-question"} />
+                    {BROWSER_ICONS[click.browser] ? <Icon name={BROWSER_ICONS[click.browser]} brand /> : null}
+                    {OS_ICONS[click.os] ? <Icon name={OS_ICONS[click.os]} brand /> : null}
+                    <span>{[click.browser, click.os].filter((v) => v && v !== "other").join(" · ") || click.device_type || "Unknown"}</span>
+                  </span>
+                  <span className="muted"><Icon name="location-dot" /> {[click.city, click.region, click.country].filter(Boolean).join(", ") || "Unknown location"}</span>
+                  <span className="muted ref"><Icon name="arrow-right-to-bracket" /> {click.referrer || "Direct / unavailable"}</span>
                 </li>
               ))}
             </ul>
@@ -189,12 +240,12 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
             {topicsEnabled && (
               <label>Topic<input list="topic-list" maxLength={40} placeholder="e.g. BITM 330" value={edit.topic} onChange={(e) => setEdit({ ...edit, topic: e.target.value })} /></label>
             )}
-            <button disabled={busy || !changed}>Save</button>
+            <button disabled={busy || !changed}><Icon name="floppy-disk" /> Save</button>
           </form>
 
           <div className="actions">
-            <button type="button" className="secondary" disabled={busy} onClick={() => act({ action: "toggle", id: link.id, is_active: !link.is_active })}>{link.is_active ? "Pause" : "Activate"}</button>
-            <button type="button" className="danger" disabled={busy} onClick={() => { if (window.confirm("Delete /" + link.slug + "? Its click history is deleted too.")) act({ action: "delete", id: link.id }); }}>Delete</button>
+            <button type="button" className="secondary" disabled={busy} onClick={() => act({ action: "toggle", id: link.id, is_active: !link.is_active })}><Icon name={link.is_active ? "pause" : "play"} /> {link.is_active ? "Pause" : "Activate"}</button>
+            <button type="button" className="danger" disabled={busy} onClick={() => { if (window.confirm("Delete /" + link.slug + "? Its click history is deleted too.")) act({ action: "delete", id: link.id }); }}><Icon name="trash" /> Delete</button>
           </div>
         </div>
       )}
@@ -358,21 +409,21 @@ export default function AdminPage() {
           <p className="muted">Create branded links and see who clicks them.</p>
         </div>
         <button className="secondary" onClick={() => { sessionStorage.removeItem("shortenerAdminSecret"); setUnlocked(false); setSecret(""); }}>
-          Lock
+          <Icon name="lock" /> Lock
         </button>
       </div>
 
       <div className="grid stats">
-        <div className="card stat"><span className="muted">Links</span><strong>{data?.summary.links || 0}</strong></div>
-        <div className="card stat"><span className="muted">Active</span><strong>{data?.summary.active || 0}</strong></div>
-        <div className="card stat"><span className="muted">Total clicks</span><strong>{data?.summary.totalClicks || 0}</strong></div>
-        <div className="card stat"><span className="muted">Clicks this week</span><strong>{data?.summary.weekClicks || 0}</strong></div>
+        <div className="card stat"><span className="muted"><Icon name="link" /> Links</span><strong>{data?.summary.links || 0}</strong></div>
+        <div className="card stat"><span className="muted"><Icon name="circle-check" /> Active</span><strong>{data?.summary.active || 0}</strong></div>
+        <div className="card stat"><span className="muted"><Icon name="chart-simple" /> Total clicks</span><strong>{data?.summary.totalClicks || 0}</strong></div>
+        <div className="card stat"><span className="muted"><Icon name="fire" /> Clicks this week</span><strong>{data?.summary.weekClicks || 0}</strong></div>
       </div>
 
       <datalist id="topic-list">{topics.map((topic) => <option key={topic} value={topic} />)}</datalist>
 
       <div className="card" style={{ marginBottom: 18 }}>
-        <h2>Create a short link</h2>
+        <h2><Icon name="wand-magic-sparkles" /> Create a short link</h2>
         <form className="form-grid" onSubmit={createLink}>
           <label>Type
             <select value={form.link_type} onChange={(e) => setForm({ ...form, link_type: e.target.value })}>
@@ -386,19 +437,19 @@ export default function AdminPage() {
           {data?.topicsEnabled && (
             <label>Topic<input list="topic-list" maxLength={40} placeholder="Optional" value={form.topic} onChange={(e) => setForm({ ...form, topic: e.target.value })} /></label>
           )}
-          <button disabled={busy}>Create</button>
+          <button disabled={busy}><Icon name="plus" /> Create</button>
         </form>
         {message && <p className={"notice " + (message.includes("created") ? "success" : "error")}>{message}</p>}
       </div>
 
       <div className="card" style={{ marginBottom: 18 }}>
         <div className="links-head">
-          <h2>Links</h2>
+          <h2><Icon name="layer-group" /> Links</h2>
           <span className="muted">{shown === data?.links?.length ? shown : shown + " of " + (data?.links?.length || 0)}</span>
         </div>
         <div className="controls">
           <label className="search">Search
-            <input type="search" placeholder="Name, title, website, topic…" value={query} onChange={(e) => setQuery(e.target.value)} />
+            <span className="input-icon"><Icon name="magnifying-glass" /><input type="search" placeholder="Name, title, website, topic…" value={query} onChange={(e) => setQuery(e.target.value)} /></span>
           </label>
           <label>Group by
             <select value={groupBy} onChange={(e) => { setGroupBy(e.target.value); savePref("group", e.target.value); }}>
@@ -418,7 +469,7 @@ export default function AdminPage() {
           <section key={name || "all"} className="group">
             {name && (
               <h3 className="group-name">
-                {name}
+                <GroupIcon groupBy={groupBy} name={name} link={links[0]} /> {name}
                 <span className="muted"> · {links.length} {links.length === 1 ? "link" : "links"} · {links.reduce((s, l) => s + Number(l.click_count || 0), 0)} clicks</span>
               </h3>
             )}
@@ -444,18 +495,18 @@ export default function AdminPage() {
       </div>
 
       <div className="card">
-        <h2>Connected AI chats</h2>
+        <h2><Icon name="robot" /> Connected AI chats</h2>
         <p className="muted">Chats that can create and list links through <span className="code">/mcp</span>. Disconnecting stops them at once; they can reconnect only with the passcode.</p>
         <ul className="apps">
           {(data?.apps || []).map((app) => (
             <li key={app.client_id}>
               <div>
-                <strong>{app.client_name || "AI chat"}</strong>
+                <strong><Icon name="robot" /> {app.client_name || "AI chat"}</strong>
                 <div className="muted small">
                   <span className="code">{app.redirect_host || "—"}</span> · connected {new Date(app.created_at).toLocaleDateString()} · last used {app.last_used_at ? ago(app.last_used_at) : "never"}
                 </div>
               </div>
-              <button className="danger" onClick={() => { if (window.confirm("Disconnect " + (app.client_name || "this chat") + "?")) act({ action: "revoke_app", client_id: app.client_id }); }}>Disconnect</button>
+              <button className="danger" onClick={() => { if (window.confirm("Disconnect " + (app.client_name || "this chat") + "?")) act({ action: "revoke_app", client_id: app.client_id }); }}><Icon name="plug-circle-xmark" /> Disconnect</button>
             </li>
           ))}
           {!data?.apps?.length && <li className="muted">No chats connected yet.</li>}
