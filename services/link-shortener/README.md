@@ -52,6 +52,13 @@ The database RLS policies contain only the SHA-256 hash of the admin secret. To 
 
 Last rotated on 2026-11-23. The right-click tool keeps its copy in `%LOCALAPPDATA%\nim-short-link\passcode.dat`, encrypted for the Windows user.
 
+## Admin page
+
+- Each link is a card with **Copy** (`Title - link`) and **URL** buttons beside the short address.
+- Tap a link's stats row to open it: its clicks (latest 200), title and topic editing, Pause and Delete.
+- Links can be searched, grouped (topic, website, made with, or none) and sorted (newest, oldest, most clicks, most active this week, last clicked, name). Grouping and sort are remembered in the browser.
+- **Topic** is an optional `short_links.topic` column (max 40 characters, see `supabase/schema.sql`). Until it exists in the database, the page works without topics.
+
 ## Link types
 
 - `url` (default): `/<slug>` redirects with HTTP 302.
