@@ -2,10 +2,14 @@
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { useEffect, useMemo, useState } from "react";
+import { DndContext, KeyboardSensor, PointerSensor, closestCenter, useSensor, useSensors } from "@dnd-kit/core";
+import { SortableContext, arrayMove, sortableKeyboardCoordinates, useSortable, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 import { PUBLIC_HOST, shortUrl as publicUrl, titledLine } from "../../lib/public-origin";
 
 const GROUPS = { topic: "Topic", site: "Website", source: "Made with", none: "No grouping" };
 const SORTS = {
+  custom: "My order (drag to arrange)",
   newest: "Newest first",
   oldest: "Oldest first",
   clicks: "Most clicks",
@@ -106,6 +110,14 @@ function compare(sort) {
     if (sort === "week") return b.week_clicks - a.week_clicks || time(b.last_clicked_at) - time(a.last_clicked_at);
     if (sort === "last") return time(b.last_clicked_at) - time(a.last_clicked_at);
     if (sort === "name") return a.slug.localeCompare(b.slug);
+    if (sort === "custom") {
+      // Links never placed by dragging (e.g. new ones) come first, newest first.
+      if (a.position == null || b.position == null) {
+        if (a.position == null && b.position == null) return time(b.created_at) - time(a.created_at);
+        return a.position == null ? -1 : 1;
+      }
+      return a.position - b.position;
+    }
     return time(b.created_at) - time(a.created_at);
   };
 }
@@ -148,15 +160,93 @@ function GroupIcon({ groupBy, name, link }) {
   return <Icon name={name === "No topic" ? "inbox" : "tag"} />;
 }
 
-function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled }) {
+// Group heading; topic groups can be renamed in place.
+function GroupHeading({ groupBy, name, links, onRename, busy }) {
+  const [editing, setEditing] = useState(false);
+  const [value, setValue] = useState(name);
+  const renamable = groupBy === "topic" && name !== "No topic";
+  const clicks = links.reduce((sum, link) => sum + Number(link.click_count || 0), 0);
+
+  if (editing) {
+    return (
+      <form
+        className="group-rename"
+        onSubmit={async (event) => {
+          event.preventDefault();
+          if (value.trim() !== name) await onRename(name, value);
+          setEditing(false);
+        }}
+      >
+        <Icon name="tag" />
+        <input autoFocus maxLength={40} value={value} onChange={(e) => setValue(e.target.value)} aria-label="Topic name" />
+        <button disabled={busy}><Icon name="check" /> Save</button>
+        <button type="button" className="secondary" onClick={() => { setValue(name); setEditing(false); }}>Cancel</button>
+      </form>
+    );
+  }
+  return (
+    <h3 className="group-name">
+      <GroupIcon groupBy={groupBy} name={name} link={links[0]} /> {name}
+      <span className="muted"> · {links.length} {links.length === 1 ? "link" : "links"} · {clicks} clicks</span>
+      {renamable && (
+        <button type="button" className="icon-button" title={"Rename " + name} onClick={() => { setValue(name); setEditing(true); }}>
+          <Icon name="pen" /><span className="sr-only">Rename topic</span>
+        </button>
+      )}
+    </h3>
+  );
+}
+
+function TopLinks({ links, onOpen }) {
+  const [mode, setMode] = useState("week");
+  const key = mode === "week" ? "week_clicks" : "click_count";
+  const top = links
+    .filter((link) => Number(link[key] || 0) > 0)
+    .sort((a, b) => Number(b[key] || 0) - Number(a[key] || 0))
+    .slice(0, 5);
+
+  return (
+    <div className="card top-links" style={{ marginBottom: 18 }}>
+      <div className="links-head">
+        <h2><Icon name="trophy" /> Top links</h2>
+        <div className="tabs" role="group" aria-label="Period">
+          <button type="button" className={mode === "week" ? "" : "secondary"} aria-pressed={mode === "week"} onClick={() => setMode("week")}>This week</button>
+          <button type="button" className={mode === "all" ? "" : "secondary"} aria-pressed={mode === "all"} onClick={() => setMode("all")}>All time</button>
+        </div>
+      </div>
+      {!top.length && <p className="muted">{mode === "week" ? "No clicks this week yet." : "No clicks yet."}</p>}
+      <ol className="top-list">
+        {top.map((link, index) => {
+          const site = siteIcon(link);
+          const url = publicUrl(link.slug);
+          return (
+            <li key={link.id}>
+              <span className="rank">{index + 1}</span>
+              <span className="site-icon small-icon" style={{ "--tint": site.color }}><Icon name={site.name} brand={site.brand} /></span>
+              <button type="button" className="top-name" onClick={() => onOpen(link.id)} title="Show this link">
+                <span className="code">/{link.slug}</span>
+                {link.title ? <span className="muted"> {link.title}</span> : null}
+              </button>
+              <span className="top-count"><strong>{link[key]}</strong> <span className="muted">clicks</span></span>
+              <CopyButton text={titledLine(link.title, url)} label="Copy" icon="copy" title="Copy as: Title - link" />
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
+
+function LinkCard({ link, open, onToggle, api, act, busy, draggable }) {
   const url = publicUrl(link.slug);
+  const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging } =
+    useSortable({ id: link.id, disabled: !draggable });
   const [clicks, setClicks] = useState(null);
   const [clickError, setClickError] = useState("");
-  const [edit, setEdit] = useState({ title: link.title || "", topic: link.topic || "" });
+  const blank = () => ({ slug: link.slug, title: link.title || "", topic: link.topic || "" });
+  const [edit, setEdit] = useState(blank);
 
-  useEffect(() => {
-    setEdit({ title: link.title || "", topic: link.topic || "" });
-  }, [link.title, link.topic]);
+  useEffect(() => { setEdit(blank()); }, [link.slug, link.title, link.topic]);
 
   useEffect(() => {
     if (!open) return;
@@ -169,11 +259,37 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
   }, [open, link.click_count]);
 
   const site = siteIcon(link);
-  const changed = edit.title !== (link.title || "") || edit.topic !== (link.topic || "");
+  const slug = edit.slug.trim().toLowerCase();
+  const changed = slug !== link.slug || edit.title !== (link.title || "") || edit.topic !== (link.topic || "");
+  const style = { transform: CSS.Transform.toString(transform), transition };
+
+  function save(event) {
+    event.preventDefault();
+    const body = { action: "update", id: link.id, title: edit.title, topic: edit.topic };
+    if (slug !== link.slug) {
+      const ok = window.confirm(
+        "Rename " + PUBLIC_HOST + "/" + link.slug + " to " + PUBLIC_HOST + "/" + slug + "?\n\n" +
+        "The old address stops working, so anyone who already has it will get \"not found\"."
+      );
+      if (!ok) return;
+      body.slug = slug;
+    }
+    act(body);
+  }
 
   return (
-    <li className={"link" + (open ? " open" : "") + (link.is_active ? "" : " paused")}>
+    <li
+      ref={setNodeRef}
+      style={style}
+      id={"link-" + link.id}
+      className={"link" + (open ? " open" : "") + (link.is_active ? "" : " paused") + (isDragging ? " dragging" : "")}
+    >
       <div className="link-main">
+        {draggable && (
+          <button type="button" className="drag-handle" ref={setActivatorNodeRef} {...attributes} {...listeners} title="Drag to reorder">
+            <Icon name="grip-vertical" /><span className="sr-only">Move {link.slug}</span>
+          </button>
+        )}
         <span className="site-icon" style={{ "--tint": site.color }}><Icon name={site.name} brand={site.brand} /></span>
         <div className="link-text">
           <a className="short code" href={url} target="_blank" rel="noopener noreferrer">{PUBLIC_HOST}/{link.slug}</a>
@@ -194,6 +310,7 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
         <span><Icon name="clock" /> {ago(link.last_clicked_at)}</span>
         {link.topic ? <span className="pill"><Icon name="tag" /> {link.topic}</span> : null}
         {!link.is_active ? <span className="pill warn"><Icon name="pause" /> Paused</span> : null}
+        {link.archived_at ? <span className="pill"><Icon name="box-archive" /> Archived</span> : null}
         <Icon name="chevron-down" className={"chevron" + (open ? " up" : "")} />
         <span className="sr-only">{open ? "Hide details" : "Show clicks and settings"}</span>
       </button>
@@ -203,6 +320,7 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
           <div className="facts muted">
             <span><Icon name="calendar" /> Created {new Date(link.created_at).toLocaleDateString()}</span>
             <span><Icon name={SOURCE_ICONS[link.created_via] || "circle-question"} /> via {link.created_via || "unknown"}</span>
+            {link.archived_at ? <span><Icon name="box-archive" /> Archived {new Date(link.archived_at).toLocaleDateString()}</span> : null}
             {link.link_type === "url" ? <a href={link.destination_url} target="_blank" rel="noopener noreferrer"><Icon name="arrow-up-right-from-square" /> Open destination</a> : null}
           </div>
 
@@ -229,27 +347,54 @@ function LinkCard({ link, open, onToggle, api, act, busy, topics, topicsEnabled 
           )}
           {clicks && clicks.length === 200 && <p className="muted small">Showing the latest 200.</p>}
 
-          <form
-            className="edit-grid"
-            onSubmit={(event) => {
-              event.preventDefault();
-              act({ action: "update", id: link.id, title: edit.title, ...(topicsEnabled ? { topic: edit.topic } : {}) });
-            }}
-          >
+          <form className="edit-grid" onSubmit={save}>
+            <label>Short name
+              <span className="prefixed"><span className="prefix">{PUBLIC_HOST}/</span>
+                <input value={edit.slug} maxLength={48} pattern="[a-zA-Z0-9][a-zA-Z0-9_\-]*" onChange={(e) => setEdit({ ...edit, slug: e.target.value })} required />
+              </span>
+            </label>
             <label>Title<input value={edit.title} onChange={(e) => setEdit({ ...edit, title: e.target.value })} /></label>
-            {topicsEnabled && (
-              <label>Topic<input list="topic-list" maxLength={40} placeholder="e.g. BITM 330" value={edit.topic} onChange={(e) => setEdit({ ...edit, topic: e.target.value })} /></label>
-            )}
+            <label>Topic<input list="topic-list" maxLength={40} placeholder="e.g. BITM 330" value={edit.topic} onChange={(e) => setEdit({ ...edit, topic: e.target.value })} /></label>
             <button disabled={busy || !changed}><Icon name="floppy-disk" /> Save</button>
           </form>
 
           <div className="actions">
             <button type="button" className="secondary" disabled={busy} onClick={() => act({ action: "toggle", id: link.id, is_active: !link.is_active })}><Icon name={link.is_active ? "pause" : "play"} /> {link.is_active ? "Pause" : "Activate"}</button>
-            <button type="button" className="danger" disabled={busy} onClick={() => { if (window.confirm("Delete /" + link.slug + "? Its click history is deleted too.")) act({ action: "delete", id: link.id }); }}><Icon name="trash" /> Delete</button>
+            <button type="button" className="secondary" disabled={busy} title={link.archived_at ? "" : "Hide from the list. The link keeps working."} onClick={() => act({ action: "archive", id: link.id, archived: !link.archived_at })}>
+              <Icon name={link.archived_at ? "box-open" : "box-archive"} /> {link.archived_at ? "Restore" : "Archive"}
+            </button>
+            <button type="button" className="danger" disabled={busy} onClick={() => { if (window.confirm("Delete /" + link.slug + " for good? Its click history is deleted too. Archive keeps it instead.")) act({ action: "delete", id: link.id }); }}><Icon name="trash" /> Delete</button>
           </div>
         </div>
       )}
     </li>
+  );
+}
+
+// One group of links; in "My order" its links can be dragged.
+function LinkGroup({ links, draggable, onReorder, cardProps }) {
+  const sensors = useSensors(
+    useSensor(PointerSensor, { activationConstraint: { distance: 4 } }),
+    useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates })
+  );
+  const list = (
+    <ul className="links">
+      {links.map((link) => <LinkCard key={link.id} link={link} draggable={draggable} {...cardProps(link)} />)}
+    </ul>
+  );
+  if (!draggable) return list;
+  return (
+    <DndContext
+      sensors={sensors}
+      collisionDetection={closestCenter}
+      onDragEnd={({ active, over }) => {
+        if (!over || active.id === over.id) return;
+        const ids = links.map((link) => link.id);
+        onReorder(ids, arrayMove(ids, ids.indexOf(active.id), ids.indexOf(over.id)));
+      }}
+    >
+      <SortableContext items={links.map((link) => link.id)} strategy={verticalListSortingStrategy}>{list}</SortableContext>
+    </DndContext>
   );
 }
 
@@ -265,6 +410,7 @@ export default function AdminPage() {
   const [groupBy, setGroupBy] = useState("topic");
   const [sort, setSort] = useState("newest");
   const [openId, setOpenId] = useState(null);
+  const [showArchived, setShowArchived] = useState(false);
 
   useEffect(() => {
     setGroupBy(readPref("group", "topic", GROUPS));
@@ -355,6 +501,9 @@ export default function AdminPage() {
     }
   }
 
+  const current = useMemo(() => (data?.links || []).filter((link) => !link.archived_at), [data]);
+  const archived = useMemo(() => (data?.links || []).filter((link) => link.archived_at), [data]);
+
   const topics = useMemo(
     () => [...new Set((data?.links || []).map((link) => link.topic).filter(Boolean))].sort((a, b) => a.localeCompare(b)),
     [data]
@@ -362,24 +511,58 @@ export default function AdminPage() {
 
   const groups = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const links = (data?.links || [])
+    const links = current
       .filter((link) => !q || [link.slug, link.title, link.destination_url, link.topic, link.created_via]
         .some((value) => String(value || "").toLowerCase().includes(q)))
       .sort(compare(sort));
-    const effective = groupBy === "topic" && !data?.topicsEnabled ? "none" : groupBy;
     const map = new Map();
     for (const link of links) {
-      const key = groupOf(link, effective);
+      const key = groupOf(link, groupBy);
       if (!map.has(key)) map.set(key, []);
       map.get(key).push(link);
     }
-    // Biggest groups first; the catch-all groups go last.
+    const entries = [...map.entries()];
+    // In "My order", groups follow their first link; otherwise biggest groups first. Catch-all groups go last.
     const last = new Set(["No topic", "Unknown", "Other"]);
-    return [...map.entries()].sort(([a, x], [b, y]) =>
-      (last.has(a) - last.has(b)) || (y.length - x.length) || a.localeCompare(b));
-  }, [data, query, sort, groupBy]);
+    const rank = new Map(links.map((link, index) => [link.id, index]));
+    return entries.sort(([a, x], [b, y]) =>
+      (last.has(a) - last.has(b)) ||
+      (sort === "custom" ? rank.get(x[0].id) - rank.get(y[0].id) : (y.length - x.length) || a.localeCompare(b)));
+  }, [current, query, sort, groupBy]);
 
   const shown = groups.reduce((sum, [, links]) => sum + links.length, 0);
+
+  // Dropping a link inside a group: the group's links swap among the places they already hold
+  // in the full order, then every link whose place changed is saved.
+  async function reorder(oldIds, newIds) {
+    const full = [...current].sort(compare("custom")).map((link) => link.id);
+    const slots = oldIds.map((id) => full.indexOf(id)).sort((a, b) => a - b);
+    slots.forEach((slot, i) => { full[slot] = newIds[i]; });
+    const byId = Object.fromEntries((data?.links || []).map((link) => [link.id, link]));
+    const order = full.map((id, position) => ({ id, position })).filter(({ id, position }) => byId[id].position !== position);
+    if (!order.length) return;
+    const positions = Object.fromEntries(order.map(({ id, position }) => [id, position]));
+    setData({ ...data, links: data.links.map((link) => (link.id in positions ? { ...link, position: positions[link.id] } : link)) });
+    try {
+      await api("POST", { action: "reorder", order });
+    } catch (error) {
+      setMessage("Couldn't save the new order: " + error.message);
+      await load();
+    }
+  }
+
+  function openLink(id) {
+    setOpenId(id);
+    setTimeout(() => document.getElementById("link-" + id)?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
+  }
+
+  const cardProps = (link) => ({
+    open: openId === link.id,
+    onToggle: () => setOpenId(openId === link.id ? null : link.id),
+    api,
+    act,
+    busy,
+  });
 
   if (!unlocked) {
     return (
@@ -420,6 +603,8 @@ export default function AdminPage() {
         <div className="card stat"><span className="muted"><Icon name="fire" /> Clicks this week</span><strong>{data?.summary.weekClicks || 0}</strong></div>
       </div>
 
+      <TopLinks links={current} onOpen={openLink} />
+
       <datalist id="topic-list">{topics.map((topic) => <option key={topic} value={topic} />)}</datalist>
 
       <div className="card" style={{ marginBottom: 18 }}>
@@ -434,9 +619,7 @@ export default function AdminPage() {
           <label>Slug<input placeholder="cv" value={form.slug} onChange={(e) => setForm({ ...form, slug: e.target.value })} required /></label>
           <label className="wide">Destination<input type={form.link_type === "path" ? "text" : "url"} placeholder={form.link_type === "path" ? "G:\\My Drive\\notes.md" : "https://www.nimdvir.com/cv/"} value={form.destination_url} onChange={(e) => setForm({ ...form, destination_url: e.target.value })} required /></label>
           <label>Title<input placeholder="CV" value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} /></label>
-          {data?.topicsEnabled && (
-            <label>Topic<input list="topic-list" maxLength={40} placeholder="Optional" value={form.topic} onChange={(e) => setForm({ ...form, topic: e.target.value })} /></label>
-          )}
+          <label>Topic<input list="topic-list" maxLength={40} placeholder="Optional" value={form.topic} onChange={(e) => setForm({ ...form, topic: e.target.value })} /></label>
           <button disabled={busy}><Icon name="plus" /> Create</button>
         </form>
         {message && <p className={"notice " + (message.includes("created") ? "success" : "error")}>{message}</p>}
@@ -445,7 +628,7 @@ export default function AdminPage() {
       <div className="card" style={{ marginBottom: 18 }}>
         <div className="links-head">
           <h2><Icon name="layer-group" /> Links</h2>
-          <span className="muted">{shown === data?.links?.length ? shown : shown + " of " + (data?.links?.length || 0)}</span>
+          <span className="muted">{shown === current.length ? shown : shown + " of " + current.length}</span>
         </div>
         <div className="controls">
           <label className="search">Search
@@ -453,9 +636,7 @@ export default function AdminPage() {
           </label>
           <label>Group by
             <select value={groupBy} onChange={(e) => { setGroupBy(e.target.value); savePref("group", e.target.value); }}>
-              {Object.entries(GROUPS)
-                .filter(([key]) => key !== "topic" || data?.topicsEnabled)
-                .map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+              {Object.entries(GROUPS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
             </select>
           </label>
           <label>Sort
@@ -464,34 +645,32 @@ export default function AdminPage() {
             </select>
           </label>
         </div>
+        {sort === "custom" && current.length > 1 && (
+          <p className="muted small hint"><Icon name="grip-vertical" /> Drag a link by its handle to move it within its group.</p>
+        )}
 
         {groups.map(([name, links]) => (
           <section key={name || "all"} className="group">
-            {name && (
-              <h3 className="group-name">
-                <GroupIcon groupBy={groupBy} name={name} link={links[0]} /> {name}
-                <span className="muted"> · {links.length} {links.length === 1 ? "link" : "links"} · {links.reduce((s, l) => s + Number(l.click_count || 0), 0)} clicks</span>
-              </h3>
-            )}
-            <ul className="links">
-              {links.map((link) => (
-                <LinkCard
-                  key={link.id}
-                  link={link}
-                  open={openId === link.id}
-                  onToggle={() => setOpenId(openId === link.id ? null : link.id)}
-                  api={api}
-                  act={act}
-                  busy={busy}
-                  topics={topics}
-                  topicsEnabled={data?.topicsEnabled}
-                />
-              ))}
-            </ul>
+            {name && <GroupHeading groupBy={groupBy} name={name} links={links} busy={busy} onRename={(from, to) => act({ action: "rename_topic", from, to })} />}
+            <LinkGroup links={links} draggable={sort === "custom"} onReorder={reorder} cardProps={cardProps} />
           </section>
         ))}
-        {!data?.links?.length && <p className="muted">No links yet.</p>}
-        {data?.links?.length > 0 && !shown && <p className="muted">No links match "{query}".</p>}
+        {!current.length && <p className="muted">No links yet.</p>}
+        {current.length > 0 && !shown && <p className="muted">No links match "{query}".</p>}
+
+        {archived.length > 0 && (
+          <section className="group archived">
+            <button type="button" className="secondary archive-toggle" aria-expanded={showArchived} onClick={() => setShowArchived(!showArchived)}>
+              <Icon name="box-archive" /> Archived ({archived.length}) <Icon name="chevron-down" className={"chevron" + (showArchived ? " up" : "")} />
+            </button>
+            {showArchived && (
+              <>
+                <p className="muted small">Archived links are hidden here but still work. Open one to restore it.</p>
+                <LinkGroup links={[...archived].sort((a, b) => time(b.archived_at) - time(a.archived_at))} draggable={false} onReorder={reorder} cardProps={cardProps} />
+              </>
+            )}
+          </section>
+        )}
       </div>
 
       <div className="card">

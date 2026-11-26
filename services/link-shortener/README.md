@@ -54,10 +54,13 @@ Last rotated on 2026-11-23. The right-click tool keeps its copy in `%LOCALAPPDAT
 
 ## Admin page
 
+- **Top links** at the top: the five most-clicked links this week or of all time, each with a Copy button.
 - Each link is a card with **Copy** (`Title - link`) and **URL** buttons beside the short address.
-- Tap a link's stats row to open it: its clicks (latest 200), title and topic editing, Pause and Delete.
-- Links can be searched, grouped (topic, website, made with, or none) and sorted (newest, oldest, most clicks, most active this week, last clicked, name). Grouping and sort are remembered in the browser.
-- **Topic** is an optional `short_links.topic` column (max 40 characters, see `supabase/schema.sql`). Until it exists in the database, the page works without topics.
+- Tap a link's stats row to open it: its clicks (latest 200), and editing of its short name, title and topic, plus Pause, Archive and Delete. Renaming the short name breaks the old address (the page warns first).
+- **My order** (sort menu): drag links by their handle to arrange them within a group. The order is saved in `short_links.position`; links never placed (such as new ones) show first.
+- **Archive** hides a link from the list but keeps it redirecting (`short_links.archived_at`). Archived links sit in a closed section at the bottom, where they can be restored.
+- Links can be searched, grouped (topic, website, made with, or none) and sorted. Topic groups can be renamed with the pencil next to their name, which renames the topic on all their links. Grouping and sort are remembered in the browser.
+- **Topic** is an optional `short_links.topic` column (max 40 characters).
 
 ## Link types
 
