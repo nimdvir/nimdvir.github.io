@@ -1,5 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Galaxy from "../components/Galaxy.astro";
+
+// Dima reading, from dimapub.com: the source GIF on Cloudinary, delivered as a
+// silent video loop (about 150 KB instead of 4 MB).
+const dima = "https://res.cloudinary.com/dkndq6lyz/image/upload";
+const reading = {
+  webm: `${dima}/c_scale,w_560/f_webm/dimapub/dima-logo-reading.webm`,
+  mp4: `${dima}/c_scale,w_560/f_mp4/dimapub/dima-logo-reading.mp4`,
+  poster: `${dima}/pg_1/c_scale,w_560/f_auto/q_auto/dimapub/dima-logo-reading`,
+};
 ---
 
 <Layout
@@ -8,16 +18,127 @@ import Layout from "../layouts/Layout.astro";
   noindex={true}
   canonicalPath="/404.html"
 >
-  <section class="page-intro">
-    <h1>Page not found</h1>
-    <p class="lede">This address may have changed.</p>
+  <!-- dimapub.com's starfield: gold dust on light themes, night sky on dark. -->
+  <div class="nf-sky nf-sky-light"><Galaxy variant="paper" /></div>
+  <div class="nf-sky nf-sky-dark"><Galaxy variant="night" /></div>
+
+  <section class="nf">
+    <div class="nf-plate">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster={reading.poster}
+        aria-label="Line drawing of Dima the dog reading an open book"
+        width="560"
+        height="560"
+      >
+        <source src={reading.webm} type="video/webm" />
+        <source src={reading.mp4} type="video/mp4" />
+      </video>
+    </div>
+    <p class="eyebrow">404</p>
+    <h1>Dima looked everywhere.</h1>
+    <p class="lede">
+      This page isn’t here. It may have moved, or the link may have a typo.
+    </p>
     <div class="button-row">
-      <a class="button button-primary" href="/">
-        Home
-      </a>
-      <a class="button" href="/research/">
-        Research and projects
-      </a>
+      <a class="button button-primary" href="/">Home</a>
+      <a class="button" href="/research/">Research and projects</a>
     </div>
   </section>
 </Layout>
+
+<style>
+  /* dimapub.com's paper background, and the starfield instead of this
+     site's particle lines. */
+  :global(#particles-js) {
+    display: none;
+  }
+  :global(:root[data-theme="light"] body),
+  :global(:root[data-theme="light"] main),
+  :global(:root[data-theme="light"] [data-particles] main::before) {
+    background: #fbf9f4;
+  }
+  .nf-sky {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .nf-sky-dark {
+    display: none;
+  }
+  :root[data-theme="dark"] .nf-sky-light {
+    display: none;
+  }
+  :root[data-theme="dark"] .nf-sky-dark {
+    display: block;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .nf-sky-light {
+      display: none;
+    }
+    :root:not([data-theme="light"]) .nf-sky-dark {
+      display: block;
+    }
+  }
+  /* The paper variant is position: fixed on its own; keep it in this layer. */
+  .nf-sky :global(.galaxy.paper) {
+    z-index: 0;
+  }
+
+  .nf {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 56px 0 72px;
+  }
+  .nf-plate {
+    position: relative;
+    width: min(240px, 62vw);
+    margin: 0 auto 32px;
+    padding: 10px;
+    border-radius: 28px;
+    background: #fffdf8;
+    border: 1px solid #dcb65e55;
+    box-shadow:
+      0 0 0 6px #fffdf899,
+      0 24px 60px -24px #8a632055;
+  }
+  .nf-plate::before {
+    content: "";
+    position: absolute;
+    inset: -40%;
+    z-index: -1;
+    background: radial-gradient(
+      closest-side,
+      #dcb65e47,
+      #dcb65e14 55%,
+      #0000 72%
+    );
+  }
+  .nf-plate video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background: #fff;
+  }
+  .nf .eyebrow {
+    color: #b8892f;
+  }
+  .nf h1 {
+    margin: 0 auto 16px;
+  }
+  .nf .lede {
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+  .nf .button-row {
+    justify-content: center;
+    margin-top: 28px;
+  }
+</style>
